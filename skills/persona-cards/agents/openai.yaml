@@ -1,0 +1,7 @@
+interface:
+  display_name: "Persona Cards"
+  short_description: "Personagens vivos com intenção, voz e escolhas em cena"
+  brand_color: "#B65135"
+  default_prompt: "Use $persona-cards para criar um personagem de RPG com vida cotidiana, intenção e escolhas em cena."
+policy:
+  allow_implicit_invocation: true

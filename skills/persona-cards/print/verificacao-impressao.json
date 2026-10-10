@@ -1,0 +1,2694 @@
+{
+  "version": "5.0",
+  "cards": 141,
+  "page": "A4",
+  "card_dimensions_mm": [
+    63,
+    88
+  ],
+  "duplex_flip": "long-edge",
+  "content_metrics": [
+    {
+      "codigo": "D01",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "D02",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "D03",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "D04",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "D05",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "D06",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 18.83
+    },
+    {
+      "codigo": "D07",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "D08",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 18.83
+    },
+    {
+      "codigo": "D09",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "D10",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 18.83
+    },
+    {
+      "codigo": "D11",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 18.83
+    },
+    {
+      "codigo": "D12",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "F01",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "F02",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "F03",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 19.9
+    },
+    {
+      "codigo": "F04",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 14.68
+    },
+    {
+      "codigo": "F05",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "F06",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 18.83
+    },
+    {
+      "codigo": "F07",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "F08",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "F09",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "F10",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 19.9
+    },
+    {
+      "codigo": "F11",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 18.83
+    },
+    {
+      "codigo": "F12",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "N01",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 18.83
+    },
+    {
+      "codigo": "N02",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 18.83
+    },
+    {
+      "codigo": "N03",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 18.83
+    },
+    {
+      "codigo": "N04",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 18.83
+    },
+    {
+      "codigo": "N05",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 18.83
+    },
+    {
+      "codigo": "N06",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 18.83
+    },
+    {
+      "codigo": "N07",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 18.83
+    },
+    {
+      "codigo": "N08",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 18.83
+    },
+    {
+      "codigo": "N09",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 18.83
+    },
+    {
+      "codigo": "N10",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 18.83
+    },
+    {
+      "codigo": "N11",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 18.83
+    },
+    {
+      "codigo": "N12",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 18.83
+    },
+    {
+      "codigo": "L01",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "L02",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "L03",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "L04",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 19.9
+    },
+    {
+      "codigo": "L05",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 18.83
+    },
+    {
+      "codigo": "L06",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 18.83
+    },
+    {
+      "codigo": "L07",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "L08",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "L09",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 18.83
+    },
+    {
+      "codigo": "L10",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "L11",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "L12",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 18.83
+    },
+    {
+      "codigo": "V01",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 18.83
+    },
+    {
+      "codigo": "V02",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 19.9
+    },
+    {
+      "codigo": "V03",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "V04",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 19.9
+    },
+    {
+      "codigo": "V05",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "V06",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "V07",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "V08",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "V09",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 14.68
+    },
+    {
+      "codigo": "V10",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 18.83
+    },
+    {
+      "codigo": "V11",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "V12",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "P01",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 19.9
+    },
+    {
+      "codigo": "P02",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 19.9
+    },
+    {
+      "codigo": "P03",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "P04",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 18.83
+    },
+    {
+      "codigo": "P05",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "P06",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 14.68
+    },
+    {
+      "codigo": "P07",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "P08",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "P09",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 18.83
+    },
+    {
+      "codigo": "P10",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "P11",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "P12",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 18.83
+    },
+    {
+      "codigo": "D13",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "D14",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "D15",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 19.9
+    },
+    {
+      "codigo": "D16",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 14.68
+    },
+    {
+      "codigo": "D17",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 18.83
+    },
+    {
+      "codigo": "D18",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "F13",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "F14",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 19.9
+    },
+    {
+      "codigo": "F15",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "F16",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "F17",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "F18",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "N13",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 14.68
+    },
+    {
+      "codigo": "N14",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 14.68
+    },
+    {
+      "codigo": "N15",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 14.68
+    },
+    {
+      "codigo": "N16",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 10.52
+    },
+    {
+      "codigo": "N17",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 14.68
+    },
+    {
+      "codigo": "N18",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 14.68
+    },
+    {
+      "codigo": "L13",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 15.74
+    },
+    {
+      "codigo": "L14",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 18.83
+    },
+    {
+      "codigo": "L15",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "L16",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 15.74
+    },
+    {
+      "codigo": "L17",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 15.74
+    },
+    {
+      "codigo": "L18",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 19.9
+    },
+    {
+      "codigo": "V13",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "V14",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "V15",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "V16",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "V17",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 19.9
+    },
+    {
+      "codigo": "V18",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "P13",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 19.9
+    },
+    {
+      "codigo": "P14",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 19.9
+    },
+    {
+      "codigo": "P15",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 19.9
+    },
+    {
+      "codigo": "P16",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 15.74
+    },
+    {
+      "codigo": "P17",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "P18",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "D19",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 2.21
+    },
+    {
+      "codigo": "D20",
+      "body_font_pt": 9.0,
+      "bottom_clearance_mm": 0.21
+    },
+    {
+      "codigo": "D21",
+      "body_font_pt": 8.8,
+      "bottom_clearance_mm": 0.05
+    },
+    {
+      "codigo": "D22",
+      "body_font_pt": 8.8,
+      "bottom_clearance_mm": 4.02
+    },
+    {
+      "codigo": "D23",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 7.44
+    },
+    {
+      "codigo": "D24",
+      "body_font_pt": 8.8,
+      "bottom_clearance_mm": 4.02
+    },
+    {
+      "codigo": "F19",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 3.28
+    },
+    {
+      "codigo": "F20",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 7.44
+    },
+    {
+      "codigo": "N19",
+      "body_font_pt": 8.8,
+      "bottom_clearance_mm": 0.05
+    },
+    {
+      "codigo": "N20",
+      "body_font_pt": 8.8,
+      "bottom_clearance_mm": 0.05
+    },
+    {
+      "codigo": "N21",
+      "body_font_pt": 8.6,
+      "bottom_clearance_mm": 1.04
+    },
+    {
+      "codigo": "N22",
+      "body_font_pt": 8.8,
+      "bottom_clearance_mm": 0.05
+    },
+    {
+      "codigo": "L19",
+      "body_font_pt": 9.0,
+      "bottom_clearance_mm": 0.21
+    },
+    {
+      "codigo": "L20",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 2.21
+    },
+    {
+      "codigo": "V19",
+      "body_font_pt": 9.0,
+      "bottom_clearance_mm": 4.27
+    },
+    {
+      "codigo": "V20",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 3.28
+    },
+    {
+      "codigo": "V21",
+      "body_font_pt": 8.6,
+      "bottom_clearance_mm": 1.04
+    },
+    {
+      "codigo": "V22",
+      "body_font_pt": 9.0,
+      "bottom_clearance_mm": 0.21
+    },
+    {
+      "codigo": "U01",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "U02",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "U03",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "U04",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 15.74
+    },
+    {
+      "codigo": "U05",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 15.74
+    },
+    {
+      "codigo": "U06",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "U07",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 15.74
+    },
+    {
+      "codigo": "U08",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 24.05
+    },
+    {
+      "codigo": "U09",
+      "body_font_pt": 9.2,
+      "bottom_clearance_mm": 19.9
+    },
+    {
+      "codigo": "G01",
+      "body_font_pt": 9.0,
+      "bottom_clearance_mm": 0.21
+    },
+    {
+      "codigo": "G02",
+      "body_font_pt": 9.0,
+      "bottom_clearance_mm": 3.12
+    },
+    {
+      "codigo": "G03",
+      "body_font_pt": 8.6,
+      "bottom_clearance_mm": 2.38
+    },
+    {
+      "codigo": "G04",
+      "body_font_pt": 8.8,
+      "bottom_clearance_mm": 4.02
+    },
+    {
+      "codigo": "G05",
+      "body_font_pt": 8.2,
+      "bottom_clearance_mm": 3.03
+    },
+    {
+      "codigo": "G06",
+      "body_font_pt": 8.6,
+      "bottom_clearance_mm": 1.04
+    }
+  ],
+  "duplex_mapping": [
+    {
+      "sheet": 1,
+      "side": "frente",
+      "row": 0,
+      "column": 0,
+      "card": "D01"
+    },
+    {
+      "sheet": 1,
+      "side": "frente",
+      "row": 0,
+      "column": 1,
+      "card": "D02"
+    },
+    {
+      "sheet": 1,
+      "side": "frente",
+      "row": 0,
+      "column": 2,
+      "card": "D03"
+    },
+    {
+      "sheet": 1,
+      "side": "frente",
+      "row": 1,
+      "column": 0,
+      "card": "D04"
+    },
+    {
+      "sheet": 1,
+      "side": "frente",
+      "row": 1,
+      "column": 1,
+      "card": "D05"
+    },
+    {
+      "sheet": 1,
+      "side": "frente",
+      "row": 1,
+      "column": 2,
+      "card": "D06"
+    },
+    {
+      "sheet": 1,
+      "side": "frente",
+      "row": 2,
+      "column": 0,
+      "card": "D07"
+    },
+    {
+      "sheet": 1,
+      "side": "frente",
+      "row": 2,
+      "column": 1,
+      "card": "D08"
+    },
+    {
+      "sheet": 1,
+      "side": "frente",
+      "row": 2,
+      "column": 2,
+      "card": "D09"
+    },
+    {
+      "sheet": 1,
+      "side": "verso",
+      "row": 0,
+      "column": 2,
+      "card": "D01"
+    },
+    {
+      "sheet": 1,
+      "side": "verso",
+      "row": 0,
+      "column": 1,
+      "card": "D02"
+    },
+    {
+      "sheet": 1,
+      "side": "verso",
+      "row": 0,
+      "column": 0,
+      "card": "D03"
+    },
+    {
+      "sheet": 1,
+      "side": "verso",
+      "row": 1,
+      "column": 2,
+      "card": "D04"
+    },
+    {
+      "sheet": 1,
+      "side": "verso",
+      "row": 1,
+      "column": 1,
+      "card": "D05"
+    },
+    {
+      "sheet": 1,
+      "side": "verso",
+      "row": 1,
+      "column": 0,
+      "card": "D06"
+    },
+    {
+      "sheet": 1,
+      "side": "verso",
+      "row": 2,
+      "column": 2,
+      "card": "D07"
+    },
+    {
+      "sheet": 1,
+      "side": "verso",
+      "row": 2,
+      "column": 1,
+      "card": "D08"
+    },
+    {
+      "sheet": 1,
+      "side": "verso",
+      "row": 2,
+      "column": 0,
+      "card": "D09"
+    },
+    {
+      "sheet": 2,
+      "side": "frente",
+      "row": 0,
+      "column": 0,
+      "card": "D10"
+    },
+    {
+      "sheet": 2,
+      "side": "frente",
+      "row": 0,
+      "column": 1,
+      "card": "D11"
+    },
+    {
+      "sheet": 2,
+      "side": "frente",
+      "row": 0,
+      "column": 2,
+      "card": "D12"
+    },
+    {
+      "sheet": 2,
+      "side": "frente",
+      "row": 1,
+      "column": 0,
+      "card": "F01"
+    },
+    {
+      "sheet": 2,
+      "side": "frente",
+      "row": 1,
+      "column": 1,
+      "card": "F02"
+    },
+    {
+      "sheet": 2,
+      "side": "frente",
+      "row": 1,
+      "column": 2,
+      "card": "F03"
+    },
+    {
+      "sheet": 2,
+      "side": "frente",
+      "row": 2,
+      "column": 0,
+      "card": "F04"
+    },
+    {
+      "sheet": 2,
+      "side": "frente",
+      "row": 2,
+      "column": 1,
+      "card": "F05"
+    },
+    {
+      "sheet": 2,
+      "side": "frente",
+      "row": 2,
+      "column": 2,
+      "card": "F06"
+    },
+    {
+      "sheet": 2,
+      "side": "verso",
+      "row": 0,
+      "column": 2,
+      "card": "D10"
+    },
+    {
+      "sheet": 2,
+      "side": "verso",
+      "row": 0,
+      "column": 1,
+      "card": "D11"
+    },
+    {
+      "sheet": 2,
+      "side": "verso",
+      "row": 0,
+      "column": 0,
+      "card": "D12"
+    },
+    {
+      "sheet": 2,
+      "side": "verso",
+      "row": 1,
+      "column": 2,
+      "card": "F01"
+    },
+    {
+      "sheet": 2,
+      "side": "verso",
+      "row": 1,
+      "column": 1,
+      "card": "F02"
+    },
+    {
+      "sheet": 2,
+      "side": "verso",
+      "row": 1,
+      "column": 0,
+      "card": "F03"
+    },
+    {
+      "sheet": 2,
+      "side": "verso",
+      "row": 2,
+      "column": 2,
+      "card": "F04"
+    },
+    {
+      "sheet": 2,
+      "side": "verso",
+      "row": 2,
+      "column": 1,
+      "card": "F05"
+    },
+    {
+      "sheet": 2,
+      "side": "verso",
+      "row": 2,
+      "column": 0,
+      "card": "F06"
+    },
+    {
+      "sheet": 3,
+      "side": "frente",
+      "row": 0,
+      "column": 0,
+      "card": "F07"
+    },
+    {
+      "sheet": 3,
+      "side": "frente",
+      "row": 0,
+      "column": 1,
+      "card": "F08"
+    },
+    {
+      "sheet": 3,
+      "side": "frente",
+      "row": 0,
+      "column": 2,
+      "card": "F09"
+    },
+    {
+      "sheet": 3,
+      "side": "frente",
+      "row": 1,
+      "column": 0,
+      "card": "F10"
+    },
+    {
+      "sheet": 3,
+      "side": "frente",
+      "row": 1,
+      "column": 1,
+      "card": "F11"
+    },
+    {
+      "sheet": 3,
+      "side": "frente",
+      "row": 1,
+      "column": 2,
+      "card": "F12"
+    },
+    {
+      "sheet": 3,
+      "side": "frente",
+      "row": 2,
+      "column": 0,
+      "card": "N01"
+    },
+    {
+      "sheet": 3,
+      "side": "frente",
+      "row": 2,
+      "column": 1,
+      "card": "N02"
+    },
+    {
+      "sheet": 3,
+      "side": "frente",
+      "row": 2,
+      "column": 2,
+      "card": "N03"
+    },
+    {
+      "sheet": 3,
+      "side": "verso",
+      "row": 0,
+      "column": 2,
+      "card": "F07"
+    },
+    {
+      "sheet": 3,
+      "side": "verso",
+      "row": 0,
+      "column": 1,
+      "card": "F08"
+    },
+    {
+      "sheet": 3,
+      "side": "verso",
+      "row": 0,
+      "column": 0,
+      "card": "F09"
+    },
+    {
+      "sheet": 3,
+      "side": "verso",
+      "row": 1,
+      "column": 2,
+      "card": "F10"
+    },
+    {
+      "sheet": 3,
+      "side": "verso",
+      "row": 1,
+      "column": 1,
+      "card": "F11"
+    },
+    {
+      "sheet": 3,
+      "side": "verso",
+      "row": 1,
+      "column": 0,
+      "card": "F12"
+    },
+    {
+      "sheet": 3,
+      "side": "verso",
+      "row": 2,
+      "column": 2,
+      "card": "N01"
+    },
+    {
+      "sheet": 3,
+      "side": "verso",
+      "row": 2,
+      "column": 1,
+      "card": "N02"
+    },
+    {
+      "sheet": 3,
+      "side": "verso",
+      "row": 2,
+      "column": 0,
+      "card": "N03"
+    },
+    {
+      "sheet": 4,
+      "side": "frente",
+      "row": 0,
+      "column": 0,
+      "card": "N04"
+    },
+    {
+      "sheet": 4,
+      "side": "frente",
+      "row": 0,
+      "column": 1,
+      "card": "N05"
+    },
+    {
+      "sheet": 4,
+      "side": "frente",
+      "row": 0,
+      "column": 2,
+      "card": "N06"
+    },
+    {
+      "sheet": 4,
+      "side": "frente",
+      "row": 1,
+      "column": 0,
+      "card": "N07"
+    },
+    {
+      "sheet": 4,
+      "side": "frente",
+      "row": 1,
+      "column": 1,
+      "card": "N08"
+    },
+    {
+      "sheet": 4,
+      "side": "frente",
+      "row": 1,
+      "column": 2,
+      "card": "N09"
+    },
+    {
+      "sheet": 4,
+      "side": "frente",
+      "row": 2,
+      "column": 0,
+      "card": "N10"
+    },
+    {
+      "sheet": 4,
+      "side": "frente",
+      "row": 2,
+      "column": 1,
+      "card": "N11"
+    },
+    {
+      "sheet": 4,
+      "side": "frente",
+      "row": 2,
+      "column": 2,
+      "card": "N12"
+    },
+    {
+      "sheet": 4,
+      "side": "verso",
+      "row": 0,
+      "column": 2,
+      "card": "N04"
+    },
+    {
+      "sheet": 4,
+      "side": "verso",
+      "row": 0,
+      "column": 1,
+      "card": "N05"
+    },
+    {
+      "sheet": 4,
+      "side": "verso",
+      "row": 0,
+      "column": 0,
+      "card": "N06"
+    },
+    {
+      "sheet": 4,
+      "side": "verso",
+      "row": 1,
+      "column": 2,
+      "card": "N07"
+    },
+    {
+      "sheet": 4,
+      "side": "verso",
+      "row": 1,
+      "column": 1,
+      "card": "N08"
+    },
+    {
+      "sheet": 4,
+      "side": "verso",
+      "row": 1,
+      "column": 0,
+      "card": "N09"
+    },
+    {
+      "sheet": 4,
+      "side": "verso",
+      "row": 2,
+      "column": 2,
+      "card": "N10"
+    },
+    {
+      "sheet": 4,
+      "side": "verso",
+      "row": 2,
+      "column": 1,
+      "card": "N11"
+    },
+    {
+      "sheet": 4,
+      "side": "verso",
+      "row": 2,
+      "column": 0,
+      "card": "N12"
+    },
+    {
+      "sheet": 5,
+      "side": "frente",
+      "row": 0,
+      "column": 0,
+      "card": "L01"
+    },
+    {
+      "sheet": 5,
+      "side": "frente",
+      "row": 0,
+      "column": 1,
+      "card": "L02"
+    },
+    {
+      "sheet": 5,
+      "side": "frente",
+      "row": 0,
+      "column": 2,
+      "card": "L03"
+    },
+    {
+      "sheet": 5,
+      "side": "frente",
+      "row": 1,
+      "column": 0,
+      "card": "L04"
+    },
+    {
+      "sheet": 5,
+      "side": "frente",
+      "row": 1,
+      "column": 1,
+      "card": "L05"
+    },
+    {
+      "sheet": 5,
+      "side": "frente",
+      "row": 1,
+      "column": 2,
+      "card": "L06"
+    },
+    {
+      "sheet": 5,
+      "side": "frente",
+      "row": 2,
+      "column": 0,
+      "card": "L07"
+    },
+    {
+      "sheet": 5,
+      "side": "frente",
+      "row": 2,
+      "column": 1,
+      "card": "L08"
+    },
+    {
+      "sheet": 5,
+      "side": "frente",
+      "row": 2,
+      "column": 2,
+      "card": "L09"
+    },
+    {
+      "sheet": 5,
+      "side": "verso",
+      "row": 0,
+      "column": 2,
+      "card": "L01"
+    },
+    {
+      "sheet": 5,
+      "side": "verso",
+      "row": 0,
+      "column": 1,
+      "card": "L02"
+    },
+    {
+      "sheet": 5,
+      "side": "verso",
+      "row": 0,
+      "column": 0,
+      "card": "L03"
+    },
+    {
+      "sheet": 5,
+      "side": "verso",
+      "row": 1,
+      "column": 2,
+      "card": "L04"
+    },
+    {
+      "sheet": 5,
+      "side": "verso",
+      "row": 1,
+      "column": 1,
+      "card": "L05"
+    },
+    {
+      "sheet": 5,
+      "side": "verso",
+      "row": 1,
+      "column": 0,
+      "card": "L06"
+    },
+    {
+      "sheet": 5,
+      "side": "verso",
+      "row": 2,
+      "column": 2,
+      "card": "L07"
+    },
+    {
+      "sheet": 5,
+      "side": "verso",
+      "row": 2,
+      "column": 1,
+      "card": "L08"
+    },
+    {
+      "sheet": 5,
+      "side": "verso",
+      "row": 2,
+      "column": 0,
+      "card": "L09"
+    },
+    {
+      "sheet": 6,
+      "side": "frente",
+      "row": 0,
+      "column": 0,
+      "card": "L10"
+    },
+    {
+      "sheet": 6,
+      "side": "frente",
+      "row": 0,
+      "column": 1,
+      "card": "L11"
+    },
+    {
+      "sheet": 6,
+      "side": "frente",
+      "row": 0,
+      "column": 2,
+      "card": "L12"
+    },
+    {
+      "sheet": 6,
+      "side": "frente",
+      "row": 1,
+      "column": 0,
+      "card": "V01"
+    },
+    {
+      "sheet": 6,
+      "side": "frente",
+      "row": 1,
+      "column": 1,
+      "card": "V02"
+    },
+    {
+      "sheet": 6,
+      "side": "frente",
+      "row": 1,
+      "column": 2,
+      "card": "V03"
+    },
+    {
+      "sheet": 6,
+      "side": "frente",
+      "row": 2,
+      "column": 0,
+      "card": "V04"
+    },
+    {
+      "sheet": 6,
+      "side": "frente",
+      "row": 2,
+      "column": 1,
+      "card": "V05"
+    },
+    {
+      "sheet": 6,
+      "side": "frente",
+      "row": 2,
+      "column": 2,
+      "card": "V06"
+    },
+    {
+      "sheet": 6,
+      "side": "verso",
+      "row": 0,
+      "column": 2,
+      "card": "L10"
+    },
+    {
+      "sheet": 6,
+      "side": "verso",
+      "row": 0,
+      "column": 1,
+      "card": "L11"
+    },
+    {
+      "sheet": 6,
+      "side": "verso",
+      "row": 0,
+      "column": 0,
+      "card": "L12"
+    },
+    {
+      "sheet": 6,
+      "side": "verso",
+      "row": 1,
+      "column": 2,
+      "card": "V01"
+    },
+    {
+      "sheet": 6,
+      "side": "verso",
+      "row": 1,
+      "column": 1,
+      "card": "V02"
+    },
+    {
+      "sheet": 6,
+      "side": "verso",
+      "row": 1,
+      "column": 0,
+      "card": "V03"
+    },
+    {
+      "sheet": 6,
+      "side": "verso",
+      "row": 2,
+      "column": 2,
+      "card": "V04"
+    },
+    {
+      "sheet": 6,
+      "side": "verso",
+      "row": 2,
+      "column": 1,
+      "card": "V05"
+    },
+    {
+      "sheet": 6,
+      "side": "verso",
+      "row": 2,
+      "column": 0,
+      "card": "V06"
+    },
+    {
+      "sheet": 7,
+      "side": "frente",
+      "row": 0,
+      "column": 0,
+      "card": "V07"
+    },
+    {
+      "sheet": 7,
+      "side": "frente",
+      "row": 0,
+      "column": 1,
+      "card": "V08"
+    },
+    {
+      "sheet": 7,
+      "side": "frente",
+      "row": 0,
+      "column": 2,
+      "card": "V09"
+    },
+    {
+      "sheet": 7,
+      "side": "frente",
+      "row": 1,
+      "column": 0,
+      "card": "V10"
+    },
+    {
+      "sheet": 7,
+      "side": "frente",
+      "row": 1,
+      "column": 1,
+      "card": "V11"
+    },
+    {
+      "sheet": 7,
+      "side": "frente",
+      "row": 1,
+      "column": 2,
+      "card": "V12"
+    },
+    {
+      "sheet": 7,
+      "side": "frente",
+      "row": 2,
+      "column": 0,
+      "card": "P01"
+    },
+    {
+      "sheet": 7,
+      "side": "frente",
+      "row": 2,
+      "column": 1,
+      "card": "P02"
+    },
+    {
+      "sheet": 7,
+      "side": "frente",
+      "row": 2,
+      "column": 2,
+      "card": "P03"
+    },
+    {
+      "sheet": 7,
+      "side": "verso",
+      "row": 0,
+      "column": 2,
+      "card": "V07"
+    },
+    {
+      "sheet": 7,
+      "side": "verso",
+      "row": 0,
+      "column": 1,
+      "card": "V08"
+    },
+    {
+      "sheet": 7,
+      "side": "verso",
+      "row": 0,
+      "column": 0,
+      "card": "V09"
+    },
+    {
+      "sheet": 7,
+      "side": "verso",
+      "row": 1,
+      "column": 2,
+      "card": "V10"
+    },
+    {
+      "sheet": 7,
+      "side": "verso",
+      "row": 1,
+      "column": 1,
+      "card": "V11"
+    },
+    {
+      "sheet": 7,
+      "side": "verso",
+      "row": 1,
+      "column": 0,
+      "card": "V12"
+    },
+    {
+      "sheet": 7,
+      "side": "verso",
+      "row": 2,
+      "column": 2,
+      "card": "P01"
+    },
+    {
+      "sheet": 7,
+      "side": "verso",
+      "row": 2,
+      "column": 1,
+      "card": "P02"
+    },
+    {
+      "sheet": 7,
+      "side": "verso",
+      "row": 2,
+      "column": 0,
+      "card": "P03"
+    },
+    {
+      "sheet": 8,
+      "side": "frente",
+      "row": 0,
+      "column": 0,
+      "card": "P04"
+    },
+    {
+      "sheet": 8,
+      "side": "frente",
+      "row": 0,
+      "column": 1,
+      "card": "P05"
+    },
+    {
+      "sheet": 8,
+      "side": "frente",
+      "row": 0,
+      "column": 2,
+      "card": "P06"
+    },
+    {
+      "sheet": 8,
+      "side": "frente",
+      "row": 1,
+      "column": 0,
+      "card": "P07"
+    },
+    {
+      "sheet": 8,
+      "side": "frente",
+      "row": 1,
+      "column": 1,
+      "card": "P08"
+    },
+    {
+      "sheet": 8,
+      "side": "frente",
+      "row": 1,
+      "column": 2,
+      "card": "P09"
+    },
+    {
+      "sheet": 8,
+      "side": "frente",
+      "row": 2,
+      "column": 0,
+      "card": "P10"
+    },
+    {
+      "sheet": 8,
+      "side": "frente",
+      "row": 2,
+      "column": 1,
+      "card": "P11"
+    },
+    {
+      "sheet": 8,
+      "side": "frente",
+      "row": 2,
+      "column": 2,
+      "card": "P12"
+    },
+    {
+      "sheet": 8,
+      "side": "verso",
+      "row": 0,
+      "column": 2,
+      "card": "P04"
+    },
+    {
+      "sheet": 8,
+      "side": "verso",
+      "row": 0,
+      "column": 1,
+      "card": "P05"
+    },
+    {
+      "sheet": 8,
+      "side": "verso",
+      "row": 0,
+      "column": 0,
+      "card": "P06"
+    },
+    {
+      "sheet": 8,
+      "side": "verso",
+      "row": 1,
+      "column": 2,
+      "card": "P07"
+    },
+    {
+      "sheet": 8,
+      "side": "verso",
+      "row": 1,
+      "column": 1,
+      "card": "P08"
+    },
+    {
+      "sheet": 8,
+      "side": "verso",
+      "row": 1,
+      "column": 0,
+      "card": "P09"
+    },
+    {
+      "sheet": 8,
+      "side": "verso",
+      "row": 2,
+      "column": 2,
+      "card": "P10"
+    },
+    {
+      "sheet": 8,
+      "side": "verso",
+      "row": 2,
+      "column": 1,
+      "card": "P11"
+    },
+    {
+      "sheet": 8,
+      "side": "verso",
+      "row": 2,
+      "column": 0,
+      "card": "P12"
+    },
+    {
+      "sheet": 9,
+      "side": "frente",
+      "row": 0,
+      "column": 0,
+      "card": "D13"
+    },
+    {
+      "sheet": 9,
+      "side": "frente",
+      "row": 0,
+      "column": 1,
+      "card": "D14"
+    },
+    {
+      "sheet": 9,
+      "side": "frente",
+      "row": 0,
+      "column": 2,
+      "card": "D15"
+    },
+    {
+      "sheet": 9,
+      "side": "frente",
+      "row": 1,
+      "column": 0,
+      "card": "D16"
+    },
+    {
+      "sheet": 9,
+      "side": "frente",
+      "row": 1,
+      "column": 1,
+      "card": "D17"
+    },
+    {
+      "sheet": 9,
+      "side": "frente",
+      "row": 1,
+      "column": 2,
+      "card": "D18"
+    },
+    {
+      "sheet": 9,
+      "side": "frente",
+      "row": 2,
+      "column": 0,
+      "card": "F13"
+    },
+    {
+      "sheet": 9,
+      "side": "frente",
+      "row": 2,
+      "column": 1,
+      "card": "F14"
+    },
+    {
+      "sheet": 9,
+      "side": "frente",
+      "row": 2,
+      "column": 2,
+      "card": "F15"
+    },
+    {
+      "sheet": 9,
+      "side": "verso",
+      "row": 0,
+      "column": 2,
+      "card": "D13"
+    },
+    {
+      "sheet": 9,
+      "side": "verso",
+      "row": 0,
+      "column": 1,
+      "card": "D14"
+    },
+    {
+      "sheet": 9,
+      "side": "verso",
+      "row": 0,
+      "column": 0,
+      "card": "D15"
+    },
+    {
+      "sheet": 9,
+      "side": "verso",
+      "row": 1,
+      "column": 2,
+      "card": "D16"
+    },
+    {
+      "sheet": 9,
+      "side": "verso",
+      "row": 1,
+      "column": 1,
+      "card": "D17"
+    },
+    {
+      "sheet": 9,
+      "side": "verso",
+      "row": 1,
+      "column": 0,
+      "card": "D18"
+    },
+    {
+      "sheet": 9,
+      "side": "verso",
+      "row": 2,
+      "column": 2,
+      "card": "F13"
+    },
+    {
+      "sheet": 9,
+      "side": "verso",
+      "row": 2,
+      "column": 1,
+      "card": "F14"
+    },
+    {
+      "sheet": 9,
+      "side": "verso",
+      "row": 2,
+      "column": 0,
+      "card": "F15"
+    },
+    {
+      "sheet": 10,
+      "side": "frente",
+      "row": 0,
+      "column": 0,
+      "card": "F16"
+    },
+    {
+      "sheet": 10,
+      "side": "frente",
+      "row": 0,
+      "column": 1,
+      "card": "F17"
+    },
+    {
+      "sheet": 10,
+      "side": "frente",
+      "row": 0,
+      "column": 2,
+      "card": "F18"
+    },
+    {
+      "sheet": 10,
+      "side": "frente",
+      "row": 1,
+      "column": 0,
+      "card": "N13"
+    },
+    {
+      "sheet": 10,
+      "side": "frente",
+      "row": 1,
+      "column": 1,
+      "card": "N14"
+    },
+    {
+      "sheet": 10,
+      "side": "frente",
+      "row": 1,
+      "column": 2,
+      "card": "N15"
+    },
+    {
+      "sheet": 10,
+      "side": "frente",
+      "row": 2,
+      "column": 0,
+      "card": "N16"
+    },
+    {
+      "sheet": 10,
+      "side": "frente",
+      "row": 2,
+      "column": 1,
+      "card": "N17"
+    },
+    {
+      "sheet": 10,
+      "side": "frente",
+      "row": 2,
+      "column": 2,
+      "card": "N18"
+    },
+    {
+      "sheet": 10,
+      "side": "verso",
+      "row": 0,
+      "column": 2,
+      "card": "F16"
+    },
+    {
+      "sheet": 10,
+      "side": "verso",
+      "row": 0,
+      "column": 1,
+      "card": "F17"
+    },
+    {
+      "sheet": 10,
+      "side": "verso",
+      "row": 0,
+      "column": 0,
+      "card": "F18"
+    },
+    {
+      "sheet": 10,
+      "side": "verso",
+      "row": 1,
+      "column": 2,
+      "card": "N13"
+    },
+    {
+      "sheet": 10,
+      "side": "verso",
+      "row": 1,
+      "column": 1,
+      "card": "N14"
+    },
+    {
+      "sheet": 10,
+      "side": "verso",
+      "row": 1,
+      "column": 0,
+      "card": "N15"
+    },
+    {
+      "sheet": 10,
+      "side": "verso",
+      "row": 2,
+      "column": 2,
+      "card": "N16"
+    },
+    {
+      "sheet": 10,
+      "side": "verso",
+      "row": 2,
+      "column": 1,
+      "card": "N17"
+    },
+    {
+      "sheet": 10,
+      "side": "verso",
+      "row": 2,
+      "column": 0,
+      "card": "N18"
+    },
+    {
+      "sheet": 11,
+      "side": "frente",
+      "row": 0,
+      "column": 0,
+      "card": "L13"
+    },
+    {
+      "sheet": 11,
+      "side": "frente",
+      "row": 0,
+      "column": 1,
+      "card": "L14"
+    },
+    {
+      "sheet": 11,
+      "side": "frente",
+      "row": 0,
+      "column": 2,
+      "card": "L15"
+    },
+    {
+      "sheet": 11,
+      "side": "frente",
+      "row": 1,
+      "column": 0,
+      "card": "L16"
+    },
+    {
+      "sheet": 11,
+      "side": "frente",
+      "row": 1,
+      "column": 1,
+      "card": "L17"
+    },
+    {
+      "sheet": 11,
+      "side": "frente",
+      "row": 1,
+      "column": 2,
+      "card": "L18"
+    },
+    {
+      "sheet": 11,
+      "side": "frente",
+      "row": 2,
+      "column": 0,
+      "card": "V13"
+    },
+    {
+      "sheet": 11,
+      "side": "frente",
+      "row": 2,
+      "column": 1,
+      "card": "V14"
+    },
+    {
+      "sheet": 11,
+      "side": "frente",
+      "row": 2,
+      "column": 2,
+      "card": "V15"
+    },
+    {
+      "sheet": 11,
+      "side": "verso",
+      "row": 0,
+      "column": 2,
+      "card": "L13"
+    },
+    {
+      "sheet": 11,
+      "side": "verso",
+      "row": 0,
+      "column": 1,
+      "card": "L14"
+    },
+    {
+      "sheet": 11,
+      "side": "verso",
+      "row": 0,
+      "column": 0,
+      "card": "L15"
+    },
+    {
+      "sheet": 11,
+      "side": "verso",
+      "row": 1,
+      "column": 2,
+      "card": "L16"
+    },
+    {
+      "sheet": 11,
+      "side": "verso",
+      "row": 1,
+      "column": 1,
+      "card": "L17"
+    },
+    {
+      "sheet": 11,
+      "side": "verso",
+      "row": 1,
+      "column": 0,
+      "card": "L18"
+    },
+    {
+      "sheet": 11,
+      "side": "verso",
+      "row": 2,
+      "column": 2,
+      "card": "V13"
+    },
+    {
+      "sheet": 11,
+      "side": "verso",
+      "row": 2,
+      "column": 1,
+      "card": "V14"
+    },
+    {
+      "sheet": 11,
+      "side": "verso",
+      "row": 2,
+      "column": 0,
+      "card": "V15"
+    },
+    {
+      "sheet": 12,
+      "side": "frente",
+      "row": 0,
+      "column": 0,
+      "card": "V16"
+    },
+    {
+      "sheet": 12,
+      "side": "frente",
+      "row": 0,
+      "column": 1,
+      "card": "V17"
+    },
+    {
+      "sheet": 12,
+      "side": "frente",
+      "row": 0,
+      "column": 2,
+      "card": "V18"
+    },
+    {
+      "sheet": 12,
+      "side": "frente",
+      "row": 1,
+      "column": 0,
+      "card": "P13"
+    },
+    {
+      "sheet": 12,
+      "side": "frente",
+      "row": 1,
+      "column": 1,
+      "card": "P14"
+    },
+    {
+      "sheet": 12,
+      "side": "frente",
+      "row": 1,
+      "column": 2,
+      "card": "P15"
+    },
+    {
+      "sheet": 12,
+      "side": "frente",
+      "row": 2,
+      "column": 0,
+      "card": "P16"
+    },
+    {
+      "sheet": 12,
+      "side": "frente",
+      "row": 2,
+      "column": 1,
+      "card": "P17"
+    },
+    {
+      "sheet": 12,
+      "side": "frente",
+      "row": 2,
+      "column": 2,
+      "card": "P18"
+    },
+    {
+      "sheet": 12,
+      "side": "verso",
+      "row": 0,
+      "column": 2,
+      "card": "V16"
+    },
+    {
+      "sheet": 12,
+      "side": "verso",
+      "row": 0,
+      "column": 1,
+      "card": "V17"
+    },
+    {
+      "sheet": 12,
+      "side": "verso",
+      "row": 0,
+      "column": 0,
+      "card": "V18"
+    },
+    {
+      "sheet": 12,
+      "side": "verso",
+      "row": 1,
+      "column": 2,
+      "card": "P13"
+    },
+    {
+      "sheet": 12,
+      "side": "verso",
+      "row": 1,
+      "column": 1,
+      "card": "P14"
+    },
+    {
+      "sheet": 12,
+      "side": "verso",
+      "row": 1,
+      "column": 0,
+      "card": "P15"
+    },
+    {
+      "sheet": 12,
+      "side": "verso",
+      "row": 2,
+      "column": 2,
+      "card": "P16"
+    },
+    {
+      "sheet": 12,
+      "side": "verso",
+      "row": 2,
+      "column": 1,
+      "card": "P17"
+    },
+    {
+      "sheet": 12,
+      "side": "verso",
+      "row": 2,
+      "column": 0,
+      "card": "P18"
+    },
+    {
+      "sheet": 13,
+      "side": "frente",
+      "row": 0,
+      "column": 0,
+      "card": "D19"
+    },
+    {
+      "sheet": 13,
+      "side": "frente",
+      "row": 0,
+      "column": 1,
+      "card": "D20"
+    },
+    {
+      "sheet": 13,
+      "side": "frente",
+      "row": 0,
+      "column": 2,
+      "card": "D21"
+    },
+    {
+      "sheet": 13,
+      "side": "frente",
+      "row": 1,
+      "column": 0,
+      "card": "D22"
+    },
+    {
+      "sheet": 13,
+      "side": "frente",
+      "row": 1,
+      "column": 1,
+      "card": "D23"
+    },
+    {
+      "sheet": 13,
+      "side": "frente",
+      "row": 1,
+      "column": 2,
+      "card": "D24"
+    },
+    {
+      "sheet": 13,
+      "side": "frente",
+      "row": 2,
+      "column": 0,
+      "card": "F19"
+    },
+    {
+      "sheet": 13,
+      "side": "frente",
+      "row": 2,
+      "column": 1,
+      "card": "F20"
+    },
+    {
+      "sheet": 13,
+      "side": "frente",
+      "row": 2,
+      "column": 2,
+      "card": "N19"
+    },
+    {
+      "sheet": 13,
+      "side": "verso",
+      "row": 0,
+      "column": 2,
+      "card": "D19"
+    },
+    {
+      "sheet": 13,
+      "side": "verso",
+      "row": 0,
+      "column": 1,
+      "card": "D20"
+    },
+    {
+      "sheet": 13,
+      "side": "verso",
+      "row": 0,
+      "column": 0,
+      "card": "D21"
+    },
+    {
+      "sheet": 13,
+      "side": "verso",
+      "row": 1,
+      "column": 2,
+      "card": "D22"
+    },
+    {
+      "sheet": 13,
+      "side": "verso",
+      "row": 1,
+      "column": 1,
+      "card": "D23"
+    },
+    {
+      "sheet": 13,
+      "side": "verso",
+      "row": 1,
+      "column": 0,
+      "card": "D24"
+    },
+    {
+      "sheet": 13,
+      "side": "verso",
+      "row": 2,
+      "column": 2,
+      "card": "F19"
+    },
+    {
+      "sheet": 13,
+      "side": "verso",
+      "row": 2,
+      "column": 1,
+      "card": "F20"
+    },
+    {
+      "sheet": 13,
+      "side": "verso",
+      "row": 2,
+      "column": 0,
+      "card": "N19"
+    },
+    {
+      "sheet": 14,
+      "side": "frente",
+      "row": 0,
+      "column": 0,
+      "card": "N20"
+    },
+    {
+      "sheet": 14,
+      "side": "frente",
+      "row": 0,
+      "column": 1,
+      "card": "N21"
+    },
+    {
+      "sheet": 14,
+      "side": "frente",
+      "row": 0,
+      "column": 2,
+      "card": "N22"
+    },
+    {
+      "sheet": 14,
+      "side": "frente",
+      "row": 1,
+      "column": 0,
+      "card": "L19"
+    },
+    {
+      "sheet": 14,
+      "side": "frente",
+      "row": 1,
+      "column": 1,
+      "card": "L20"
+    },
+    {
+      "sheet": 14,
+      "side": "frente",
+      "row": 1,
+      "column": 2,
+      "card": "V19"
+    },
+    {
+      "sheet": 14,
+      "side": "frente",
+      "row": 2,
+      "column": 0,
+      "card": "V20"
+    },
+    {
+      "sheet": 14,
+      "side": "frente",
+      "row": 2,
+      "column": 1,
+      "card": "V21"
+    },
+    {
+      "sheet": 14,
+      "side": "frente",
+      "row": 2,
+      "column": 2,
+      "card": "V22"
+    },
+    {
+      "sheet": 14,
+      "side": "verso",
+      "row": 0,
+      "column": 2,
+      "card": "N20"
+    },
+    {
+      "sheet": 14,
+      "side": "verso",
+      "row": 0,
+      "column": 1,
+      "card": "N21"
+    },
+    {
+      "sheet": 14,
+      "side": "verso",
+      "row": 0,
+      "column": 0,
+      "card": "N22"
+    },
+    {
+      "sheet": 14,
+      "side": "verso",
+      "row": 1,
+      "column": 2,
+      "card": "L19"
+    },
+    {
+      "sheet": 14,
+      "side": "verso",
+      "row": 1,
+      "column": 1,
+      "card": "L20"
+    },
+    {
+      "sheet": 14,
+      "side": "verso",
+      "row": 1,
+      "column": 0,
+      "card": "V19"
+    },
+    {
+      "sheet": 14,
+      "side": "verso",
+      "row": 2,
+      "column": 2,
+      "card": "V20"
+    },
+    {
+      "sheet": 14,
+      "side": "verso",
+      "row": 2,
+      "column": 1,
+      "card": "V21"
+    },
+    {
+      "sheet": 14,
+      "side": "verso",
+      "row": 2,
+      "column": 0,
+      "card": "V22"
+    },
+    {
+      "sheet": 15,
+      "side": "frente",
+      "row": 0,
+      "column": 0,
+      "card": "U01"
+    },
+    {
+      "sheet": 15,
+      "side": "frente",
+      "row": 0,
+      "column": 1,
+      "card": "U02"
+    },
+    {
+      "sheet": 15,
+      "side": "frente",
+      "row": 0,
+      "column": 2,
+      "card": "U03"
+    },
+    {
+      "sheet": 15,
+      "side": "frente",
+      "row": 1,
+      "column": 0,
+      "card": "U04"
+    },
+    {
+      "sheet": 15,
+      "side": "frente",
+      "row": 1,
+      "column": 1,
+      "card": "U05"
+    },
+    {
+      "sheet": 15,
+      "side": "frente",
+      "row": 1,
+      "column": 2,
+      "card": "U06"
+    },
+    {
+      "sheet": 15,
+      "side": "frente",
+      "row": 2,
+      "column": 0,
+      "card": "U07"
+    },
+    {
+      "sheet": 15,
+      "side": "frente",
+      "row": 2,
+      "column": 1,
+      "card": "U08"
+    },
+    {
+      "sheet": 15,
+      "side": "frente",
+      "row": 2,
+      "column": 2,
+      "card": "U09"
+    },
+    {
+      "sheet": 15,
+      "side": "verso",
+      "row": 0,
+      "column": 2,
+      "card": "U01"
+    },
+    {
+      "sheet": 15,
+      "side": "verso",
+      "row": 0,
+      "column": 1,
+      "card": "U02"
+    },
+    {
+      "sheet": 15,
+      "side": "verso",
+      "row": 0,
+      "column": 0,
+      "card": "U03"
+    },
+    {
+      "sheet": 15,
+      "side": "verso",
+      "row": 1,
+      "column": 2,
+      "card": "U04"
+    },
+    {
+      "sheet": 15,
+      "side": "verso",
+      "row": 1,
+      "column": 1,
+      "card": "U05"
+    },
+    {
+      "sheet": 15,
+      "side": "verso",
+      "row": 1,
+      "column": 0,
+      "card": "U06"
+    },
+    {
+      "sheet": 15,
+      "side": "verso",
+      "row": 2,
+      "column": 2,
+      "card": "U07"
+    },
+    {
+      "sheet": 15,
+      "side": "verso",
+      "row": 2,
+      "column": 1,
+      "card": "U08"
+    },
+    {
+      "sheet": 15,
+      "side": "verso",
+      "row": 2,
+      "column": 0,
+      "card": "U09"
+    },
+    {
+      "sheet": 16,
+      "side": "frente",
+      "row": 0,
+      "column": 0,
+      "card": "G01"
+    },
+    {
+      "sheet": 16,
+      "side": "frente",
+      "row": 0,
+      "column": 1,
+      "card": "G02"
+    },
+    {
+      "sheet": 16,
+      "side": "frente",
+      "row": 0,
+      "column": 2,
+      "card": "G03"
+    },
+    {
+      "sheet": 16,
+      "side": "frente",
+      "row": 1,
+      "column": 0,
+      "card": "G04"
+    },
+    {
+      "sheet": 16,
+      "side": "frente",
+      "row": 1,
+      "column": 1,
+      "card": "G05"
+    },
+    {
+      "sheet": 16,
+      "side": "frente",
+      "row": 1,
+      "column": 2,
+      "card": "G06"
+    },
+    {
+      "sheet": 16,
+      "side": "verso",
+      "row": 0,
+      "column": 2,
+      "card": "G01"
+    },
+    {
+      "sheet": 16,
+      "side": "verso",
+      "row": 0,
+      "column": 1,
+      "card": "G02"
+    },
+    {
+      "sheet": 16,
+      "side": "verso",
+      "row": 0,
+      "column": 0,
+      "card": "G03"
+    },
+    {
+      "sheet": 16,
+      "side": "verso",
+      "row": 1,
+      "column": 2,
+      "card": "G04"
+    },
+    {
+      "sheet": 16,
+      "side": "verso",
+      "row": 1,
+      "column": 1,
+      "card": "G05"
+    },
+    {
+      "sheet": 16,
+      "side": "verso",
+      "row": 1,
+      "column": 0,
+      "card": "G06"
+    }
+  ],
+  "physical_print_tested": false
+}

@@ -54,3 +54,7 @@ python scripts/cards.py draw --families D F V L P --modules nucleo expansao expa
 ```
 
 O padrão sorteia D/F/V; N exige inclusão intencional. U/G são consultáveis, mas rejeitados no sorteio. Combinação aleatória não garante compatibilidade: interprete e revise.
+
+## Cartas para imprimir
+
+A pasta [print](print/README.md) contém todas as 141 cartas 5.0 em PDF: duplex A4, frentes, versos e manual rápido. Quando pedirem impressão, indique esses arquivos prontos. Use 100% e virar na borda longa; teste uma folha antes do lote.

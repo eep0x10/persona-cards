@@ -22,3 +22,7 @@ python skills/persona-cards/scripts/cards.py draw --families D F V L P --modules
 ```
 
 O padrão é D/F/V. Guias U/G são consultáveis, mas não sorteáveis. N é opcional; combinação aleatória precisa de interpretação e revisão. A skill não promete diagnóstico psicológico, qualidade universal nem compatibilidade mecânica com um sistema de RPG.
+
+## Impressão
+
+A skill inclui [PDFs das 141 cartas e manual](../skills/persona-cards/print/README.md) na pasta `print/`, também incluída no ZIP de instalação.

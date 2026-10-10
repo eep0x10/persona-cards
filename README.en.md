@@ -85,6 +85,10 @@ npm --prefix app run build
 
 Swagger is available at `/api/docs`, OpenAPI at `/api/openapi.json`. The local server binds to loopback. Character data stays in the browser, scoped to its origin; export JSON for backup. There are no accounts, remote character database, synchronization or connected AI generation.
 
-Narrative evaluations are author exercises, not independent validation or table playtests. No universal quality, speed or mechanical balance is claimed. New printable PDFs are not included. Redistribution licensing has not been defined; dependencies retain their own licenses.
+Narrative evaluations are author exercises, not independent validation or table playtests. No universal quality, speed or mechanical balance is claimed. Printable PDFs include all 141 cards; see the [printing guide](skills/persona-cards/print/README.md). Redistribution licensing has not been defined; dependencies retain their own licenses.
 
 Initial conceptual reference: [Anatomia do personagem — Jurandir Gouveia](https://jurandirgouveia.com/anatomia-do-storytelling/anatomia-do-personagem/). This project does not imply endorsement by that author.
+
+## Printable cards
+
+[Duplex A4](skills/persona-cards/print/Persona-Cards-5.0-Duplex-A4.pdf) · [Frentes / Fronts](skills/persona-cards/print/Persona-Cards-5.0-Frentes-A4.pdf) · [Versos / Backs](skills/persona-cards/print/Persona-Cards-5.0-Versos-A4.pdf) · [Manual](skills/persona-cards/print/Persona-Cards-5.0-Manual-Rapido.pdf)

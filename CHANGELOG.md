@@ -1,5 +1,11 @@
 # Histórico
 
+## Impressão — 5.0.2
+
+- Todas as 141 cartas 5.0 na pasta print da skill, com frente/verso A4, corte e manual rápido.
+- Verificação de conteúdo, dimensões e espelhamento; impressão física ainda não testada.
+- Skill instalada e pacotes públicos incluem os PDFs.
+
 ## Correção documental — 5.0.1
 
 - README reorganizado com banner de identidade, badges verificáveis, navegação e resumos português/inglês.

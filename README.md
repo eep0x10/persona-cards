@@ -138,6 +138,10 @@ npm --prefix app run build
 
 A API está documentada em **/api/docs**, com OpenAPI em **/api/openapi.json**. O padrão é execução local em loopback. As verificações do deck preservam as três cópias e o hash oficial; a conferência visual original cobriu desktop e 390 px. [Evidência e limitações](docs/VALIDACAO.md)
 
-Os ensaios narrativos são autorais, sem validação independente nem teste de mesa. Não demonstram qualidade universal, rapidez medida ou equilíbrio mecânico. Novos PDFs de impressão não estão incluídos nesta versão.
+Os ensaios narrativos são autorais, sem validação independente nem teste de mesa. Não demonstram qualidade universal, rapidez medida ou equilíbrio mecânico. Os PDFs 5.0 incluem todas as 141 cartas; confira o [guia de impressão](skills/persona-cards/print/README.md).
 
 Referência conceitual inicial: [Anatomia do personagem — Jurandir Gouveia](https://jurandirgouveia.com/anatomia-do-storytelling/anatomia-do-personagem/). O deck e os exemplos são elaboração deste projeto; não implicam endosso do autor. Licenciamento de redistribuição ainda não definido; dependências mantêm suas próprias licenças.
+
+## Cartas para imprimir
+
+[Duplex A4](skills/persona-cards/print/Persona-Cards-5.0-Duplex-A4.pdf) · [Frentes / Fronts](skills/persona-cards/print/Persona-Cards-5.0-Frentes-A4.pdf) · [Versos / Backs](skills/persona-cards/print/Persona-Cards-5.0-Versos-A4.pdf) · [Manual](skills/persona-cards/print/Persona-Cards-5.0-Manual-Rapido.pdf)

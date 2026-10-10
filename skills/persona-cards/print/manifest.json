@@ -1,0 +1,10 @@
+{
+  "deck_sha256": "eb97dcae9235f08008fcea79ee765d8735b1b5eff5453a6e9b8dd79e09dab7e5",
+  "cards": 141,
+  "files": {
+    "Persona-Cards-5.0-Duplex-A4.pdf": "5ec5512e8723ef882ee300217d3b00e3dc4b03543b218448763d04e3bfc45e60",
+    "Persona-Cards-5.0-Frentes-A4.pdf": "69413d0cfcbd22ea7ae10c5b54ef9ad786a993c1904d8648ada4ac57f9376249",
+    "Persona-Cards-5.0-Manual-Rapido.pdf": "7f7855bf2ac614220913d6213ea118f684e556f3f49e7386caa23bdbe2ef0f08",
+    "Persona-Cards-5.0-Versos-A4.pdf": "84c9fe8314d66011dd49abd262debdb18ffe5e50e0cc4007b86f1d775215440a"
+  }
+}

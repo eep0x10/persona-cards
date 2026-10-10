@@ -9,3 +9,7 @@ Preserve códigos e textos publicados; mudanças deliberadas exigem versão e no
 Para UI, preserve acessibilidade, Anime.js, movimento reduzido e funcionamento em desktop e 390 px. Não inclua ambientes virtuais, dependências instaladas, logs ou personagens pessoais no commit.
 
 As discussões e propostas podem ser feitas por issues e pull requests. O projeto ainda não tem licença de redistribuição definida.
+
+## Documentação
+
+Mantenha banner de identidade, proposta clara, badges verificáveis, navegação e início rápido no README. Detalhes pertencem aos guias vinculados; atualize os resumos português/inglês quando afetados. Rode `python -m unittest discover -s tests` para conferir assets, links e anchors, e inspecione a renderização do README no GitHub. Pacotes de release devem incluir os documentos atualizados. [Identidade documental](docs/BRAND.md).

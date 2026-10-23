@@ -22,11 +22,17 @@ Rascunhos e personagens são mantidos **neste navegador e neste endereço**. Exp
 
 Fotos JPEG/PNG/WebP são lidas e reduzidas no navegador: entrada até 10 MiB, saída JPEG até 960 px e dataURL de até 350 mil caracteres. O JSON inclui a foto. Não existe upload ao servidor; o limite do armazenamento do navegador continua valendo, e uma falha gera aviso para exportar antes de fechar.
 
+## Inspiração
+
+A aba **Inspiração** reúne 100 personagens da cultura pop com cartas interpretadas para um recorte específico. Busque nome ou obra, filtre por mídia/papel e abra os detalhes. **Usar como base** copia o exemplo para adaptar na sua criação; consultar não altera o rascunho. As fontes e a distinção entre obra e cena sugerida acompanham cada exemplo. Veja a [revisão editorial do sistema](../docs/REVISAO-100-PERSONAGENS.md).
+
 ## API
 
 Documentação interativa em **http://127.0.0.1:8766/api/docs**, especificação em `/api/openapi.json`. Endpoints:
 
 - `GET /api/deck`: deck completo.
+- `GET /api/inspirations?q=...&medium=...&archetype=...`: coleção e filtros.
+- `GET /api/inspirations/{id}`: exemplo individual.
 - `GET /api/cards?q=...&family=...&module=...`: busca sem distinção de acento e filtros.
 - `GET /api/cards/{code}`: carta individual.
 - `POST /api/draw`: uma carta por família, módulos e exclusões explícitos. U/G não aceitos.

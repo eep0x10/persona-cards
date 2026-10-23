@@ -47,3 +47,13 @@ Anime.js está integrado com scope/revert. O ambiente de conferência sinalizava
 O pacote público acrescenta verificações de identidade das três cópias do deck, hash congelado, consulta por código, busca sem acento e exclusão de guias no sorteio. A API tem quatro testes de contratos. O build é conferido separadamente.
 
 Os quinze ensaios narrativos são exercícios autorais, sem teste independente nem em mesa. Não demonstram uma taxa universal de qualidade.
+
+## Inspiração — 100 personagens (23/10/2026)
+
+Ambiente isolado `http://localhost:8768`, sem editar fichas do domínio público. Exatamente100 cartões no DOM, seis mídias e quatro papéis. Desktop1366×900 e390×844 sem overflow horizontal; galeria e detalhe inspecionados. Capturas: [desktop](../design/inspiracao-desktop.png), [mobile](../design/inspiracao-mobile.png), [detalhe](../design/inspiracao-detalhe.png).
+
+Busca por Nami, resultado vazio/reset e busca sem acento `aneis` (quatro), filtros combinados Cinema/Vilão (dois), detalhes com fontes e Escape/foco foram exercitados. Inspecionar/cancelar manteve D01 no rascunho; confirmar Nami como base abriu revisão, renomear/finalizar criou Cartógrafa do Cais e a ficha permaneceu após reload. Não houve substituição automática de salvos.
+
+Anime.js observado: filtro com opacidade0,7663/translateY8,6814; detalhe com opacidade0,6909 e matrix3d. Modo reduzido: opacidade1 e transformnone em lista e detalhe. Sequência rápida Zoro→Nami→Usopp terminou no personagem correto. A revisão independente por leitura não encontrou perda de rascunho ou clone compartilhado.
+
+Testes do catálogo conferem100 IDs/nomes únicos, fichas completas, códigos e fontes estruturadas; fontes oficiais contextualizam as obras, não comprovam as interpretações. [Revisão do sistema](REVISAO-100-PERSONAGENS.md). Estes resultados não equivalem a teste com jogadores ou fidelidade universal às obras.

@@ -14,8 +14,50 @@ HERE=Path(__file__).resolve().parent
 DECK_PATH=HERE/'public/deck.json'
 DECK=json.loads(DECK_PATH.read_text(encoding='utf-8'))
 BY_CODE={c['codigo']:c for c in DECK['cartas']}
+INSPIRATIONS=json.loads((HERE/'public/inspirations.json').read_text(encoding='utf-8'))
+INSPIRATIONS_BY_ID={c['id']:c for c in INSPIRATIONS['characters']}
 Family=Literal['D','F','N','L','V','P']
 Module=Literal['nucleo','expansao','expansao_5']
+Medium=Literal['Anime','Cinema','Animação','Quadrinhos','Séries','Jogos']
+Archetype=Literal['Herói','Vilão','Ambíguo','Coadjuvante']
+
+class InspirationSource(BaseModel):
+    label:str
+    url:str
+
+class InspirationAudit(BaseModel):
+    fit:Literal['direto','adaptado']
+    note:str
+    gapTags:list[str]
+
+class InspirationTemplate(BaseModel):
+    id:str|None
+    name:str
+    role:str
+    context:str
+    cards:dict[Family,str]
+    fields:dict[Family,str]
+    locks:list[Family]
+    enabled:list[Family]
+    notes:str
+    portrait:Literal['']
+    finalized:bool
+
+class Inspiration(BaseModel):
+    id:str
+    name:str
+    franchise:str
+    medium:Medium
+    archetype:Archetype
+    excerpt:str
+    sources:list[InspirationSource]
+    character:InspirationTemplate
+    audit:InspirationAudit
+
+class InspirationCatalog(BaseModel):
+    version:Literal['5.1']
+    disclaimer:str
+    characters:list[Inspiration]
 
 class Card(BaseModel):
     versao:str
@@ -85,6 +127,26 @@ def health():
 @app.get('/api/deck',response_model=Deck,tags=['Cartas'])
 def get_deck():
     return DECK
+
+@app.get('/api/inspirations',response_model=InspirationCatalog,tags=['Inspirações'],
+         summary='Consulta leituras autorais de personagens; não acessa fichas do navegador')
+def list_inspirations(q:str=Query(default='',max_length=300),
+                      medium:Medium|None=None,archetype:Archetype|None=None):
+    query=normalize(q)
+    characters=[entry for entry in INSPIRATIONS['characters']
+                if (not medium or entry['medium']==medium)
+                and (not archetype or entry['archetype']==archetype)
+                and (not query or query in normalize(' '.join([
+                    entry['name'],entry['franchise'],entry['excerpt'],entry['character']['role']])))]
+    return {'version':INSPIRATIONS['version'],'disclaimer':INSPIRATIONS['disclaimer'],
+            'characters':characters}
+
+@app.get('/api/inspirations/{inspiration_id}',response_model=Inspiration,tags=['Inspirações'],
+         responses={404:{'description':'Inspiração não encontrada'}})
+def get_inspiration(inspiration_id:str):
+    if inspiration_id not in INSPIRATIONS_BY_ID:
+        raise HTTPException(404,'Inspiração não encontrada')
+    return INSPIRATIONS_BY_ID[inspiration_id]
 
 @app.get('/api/cards',response_model=list[Card],tags=['Cartas'])
 def list_cards(q:str=Query(default='',max_length=300),

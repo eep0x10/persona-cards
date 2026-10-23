@@ -43,6 +43,16 @@ Add a name, role, competence, and everyday habit or pleasure. Attempt something 
 
 Add **L (Relationship)** for someone with their own goals and **P (Pressure)** for a circumstance that changes the decision. Use **N (Internal conflict)** only when two values the character genuinely wants to preserve compete. **U/G** are reference guides, excluded from personality draws. There are **126 creation cards and 15 guides**, 141 in all. Choose cards deliberately or draw for surprise. Preserve established story events when a card no longer fits. Trauma, secrets, and redemption are optional.
 
+## 100 characters for inspiration
+
+Open **Inspiração** in the web app to browse **100 pop-culture characters** from films, anime, animation, comics, television and games, including heroes, villains and supporting characters. Search by name or franchise, then inspect the chosen story context, interpreted D/F/V cards and relevant optional layers.
+
+<img src="design/inspiracao-desktop.png" alt="Inspiration gallery with 100 characters and filters" width="900">
+
+These are possible readings, not definitive character profiles. Suggested scenes are original exercises; official sources accompany each example. Deck illustrations symbolize the selected ideas, rather than depicting copyrighted characters. **Usar como base** copies a template into your own creation; browsing preserves your draft, and replacing ongoing work requires confirmation.
+
+The [system review](docs/REVISAO-100-PERSONAGENS.md) uses the same 100 builds to examine fit, gaps and proposed improvements. Proposed additions are separate from the published **141-card** deck. This is an editorial exercise, not a player study.
+
 ## 1. PDF — cards on your table
 
 Each 5.1 card has an individual reading prompt and folk illustration. This is an actual print sheet:

@@ -10,6 +10,8 @@ Swagger: http://127.0.0.1:8766/api/docs. OpenAPI: `/api/openapi.json`. API sem e
 | `GET /api/deck` | Deck completo |
 | `GET /api/cards?q=...&family=...&module=...` | Busca sem distinção de acentos e filtros |
 | `GET /api/cards/{code}` | Carta por código, ou 404 |
+| `GET /api/inspirations?q=...&medium=...&archetype=...` | Exemplos de personagens, com busca e filtros |
+| `GET /api/inspirations/{id}` | Exemplo por identificador, ou 404 |
 | `POST /api/draw` | Uma carta por família de criação, com módulos/exclusões |
 | `POST /api/characters/compose` | Ficha de prompts e Markdown, sem salvar |
 

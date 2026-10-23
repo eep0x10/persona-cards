@@ -2,6 +2,8 @@ import React, { useEffect, useRef, useState } from "react";
 import { animate, createScope, stagger } from "animejs";
 import { useCardMotion } from "./motion.js";
 import { CharacterReview, FinishedCharacter } from "./CharacterExperience.jsx";
+import InspirationGallery from "./InspirationGallery.jsx";
+import inspirations from "../public/inspirations.json";
 import { loadPersistence, persistProtected } from "./persistence.js";
 import deck from "../public/deck.json";
 import atlas from "../../deck/illustration_sheets_5_1.json";
@@ -53,6 +55,8 @@ export default function App() {
   const [draft, setDraft] = useState(() => normalizeCharacter({ ...blank(), ...stored.draft || {}, cards: { ...stored.draft?.cards || {} }, fields: { ...stored.draft?.fields || {} } }));
   const [screen, setScreen] = useState(() => stored.draft?.finalized && !completionIssues(stored.draft, byCode).length ? "character" : "table");
   const tableScroll = useRef(0);
+  const inspirationScroll = useRef(0);
+  const [inspirationFilters,setInspirationFilters]=useState({query:"",medium:"all",archetype:"all"});
   const [saved, setSaved] = useState(() => stored.saved || []), [modules, setModules] = useState(() => stored.modules || Object.keys(MODULES));
   const [view, setView] = useState("table");
   const focusMesa = useRef(false);
@@ -78,7 +82,7 @@ export default function App() {
   const steps = [...CORE, ...draft.enabled.filter(item => !CORE.includes(item))];
   useEffect(() => {
     if (screen === "table") window.scrollTo({top:tableScroll.current, behavior:"instant"});
-    else { root.current?.querySelector("[data-screen-heading]")?.focus(); window.scrollTo({top:0,behavior:"instant"}); }
+    else { root.current?.querySelector("main:not([hidden]) [data-screen-heading]")?.focus({preventScroll:true}); window.scrollTo({top:screen === "inspiration" ? inspirationScroll.current : 0,behavior:"instant"}); }
   }, [screen]);
   useEffect(() => {
     const scope = createScope({root}).add(() => { if (!reduced && screen === "table") animate(".optional-step",{translateY:[-12,0],scale:[0.9,1],opacity:[0.5,1],duration:300,delay:stagger(35),ease:"out(3)"}); });
@@ -236,10 +240,10 @@ export default function App() {
       setNotice("Não foi possível exportar. Tente novamente.");
     }
   };
-  const hasWork = Boolean(draft.name || draft.role || draft.context || draft.notes || Object.keys(draft.cards).length || Object.keys(draft.fields).length);
+  const hasWork = Boolean(draft.name || draft.role || draft.context || draft.notes || draft.portrait || Object.keys(draft.cards).length || Object.keys(draft.fields).length);
   const requestAction = (action, event) => {
     if (event) trigger.current = event.currentTarget;
-    if (hasWork && (action.type === "new" || action.type === "open")) {
+    if (hasWork && (action.type === "new" || action.type === "open" || action.type === "inspiration")) {
       setConfirmation(action);
       setPanel("confirm");
     } else perform(action);
@@ -258,6 +262,11 @@ export default function App() {
       setStorageReady(true);
       goFamily("D");
       setNotice("Combinação aberta. Todos os seus textos foram preservados.");
+    } else if (action.type === "inspiration") {
+      const character = structuredClone(action.inspiration.character);
+      setDraft(normalizeCharacter({...blank(),...character,id:null,finalized:false}));
+      setStorageReady(true); setScreen("review"); goFamily("D");
+      setNotice(`${action.inspiration.name} como ponto de partida. Adapte as cartas à sua história.`);
     } else if (action.type === "delete") {
       setSaved((s) => s.filter((c) => c.id !== action.id));
       if (draft.id === action.id) setDraft((d) => ({ ...d, id: null }));
@@ -308,6 +317,16 @@ export default function App() {
     setNotice(`${FAMILIES[familyToRemove]} retirada. Carta e texto continuam guardados.`);
   };
   const titles = { library: "Meus personagens", menu: "Sua mesa", help: "Uma mesa, três escolhas", families: "Acrescentar uma camada", guides: "Guias de consulta", draw: "Sorteio e cartas mantidas", transfer: "Guardar e transferir", confirm: confirmation?.type === "delete" ? "Excluir personagem?" : "Abrir outra mesa?" };
+  const navigatePrimary = next => {
+    if (screen === "table") tableScroll.current=window.scrollY;
+    if (screen === "inspiration") inspirationScroll.current=window.scrollY;
+    setScreen(next);
+  };
+  const useInspiration = (entry,button) => {
+    inspirationScroll.current=window.scrollY;
+    trigger.current=button;
+    requestAction({type:"inspiration",inspiration:entry});
+  };
   const navArrows = (e) => {
     if (e.key === "ArrowRight") {
       e.preventDefault();
@@ -330,6 +349,11 @@ export default function App() {
 </nav>
 <button className="mobile-menu" onClick={(e) => open("menu", e)}>Menu ☰</button>
 </header>
+<nav className="product-navigation" aria-label="Navegação principal">
+<button aria-current={screen !== "inspiration" ? "page" : undefined} onClick={()=>navigatePrimary("table")}>Mesa de cartas</button>
+<button aria-current={screen === "inspiration" ? "page" : undefined} onClick={()=>navigatePrimary("inspiration")}>Inspiração <span>{inspirations.characters.length}</span></button>
+</nav>
+{screen === "inspiration" && <InspirationGallery dataset={inspirations} lookup={byCode} Art={Art} active reduced={reduced} filters={inspirationFilters} onFiltersChange={setInspirationFilters} onUse={useInspiration}/>}
 {screen === "review" && <CharacterReview draft={draft} lookup={byCode} Art={Art} onChange={updateReview} onBack={() => returnToTable()} onFinish={finish} onChooseFamily={returnToTable} reduced={reduced}/>}
 {screen === "character" && <FinishedCharacter character={draft} lookup={byCode} Art={Art} onEdit={() => setScreen("review")} onNewVersion={newVersion} onTable={() => returnToTable()} onExport={exportCharacter} reduced={reduced}/>}
  <main hidden={screen !== "table"}>
@@ -455,14 +479,14 @@ export default function App() {
 <p>L traz um vínculo, P uma pressão. N só entra se dois valores realmente importarem. U/G são consulta, sem entrar no sorteio.</p>
 <p>Suas combinações ficam neste navegador. Ao salvar, revise as interpretações, dê um nome e acrescente uma foto se quiser. Dados antigos continuam guardados e saem nas exportações. Ao trocar cartas, os textos anteriores são preservados.</p>
 </div> : panel === "confirm" ? <div className="confirmation">
-<p>{confirmation?.type === "delete" ? "Esta ação exclui o personagem salvo. O rascunho aberto será preservado." : "O rascunho atual será substituído. Salve ou exporte antes se quiser guardá-lo. Os personagens salvos continuam na biblioteca."}</p>
+<p>{confirmation?.type === "delete" ? "Esta ação exclui o personagem salvo. O rascunho aberto será preservado." : "O rascunho atual será substituído. Revise e finalize ou exporte antes se quiser guardá-lo. Os personagens salvos continuam na biblioteca."}</p>
 <div className="action-row">
 <button onClick={() => {
     setConfirmation(null);
     setPanel(confirmation?.type === "delete" ? "library" : null);
   }}>Cancelar</button>{confirmation?.type !== "delete" && <button disabled={count < 3} onClick={() => {
     beginReview();
-  }}>Revisar personagem atual</button>}<button className="danger-action" onClick={() => perform(confirmation)}>{confirmation?.type === "delete" ? "Excluir salvo" : "Substituir rascunho"}</button>
+  }}>Revisar personagem atual</button>}<button className="danger-action" onClick={() => perform(confirmation)}>{confirmation?.type === "delete" ? "Excluir salvo" : confirmation?.type === "inspiration" ? "Usar esta inspiração" : "Substituir rascunho"}</button>
 </div>
 </div> : panel === "families" ? <>
 <p className="panel-description">Dê mais uma dimensão ao personagem. As camadas entram na sequência em que você as acrescenta; retirar uma guarda sua carta e seu texto.</p>

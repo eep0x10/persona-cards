@@ -28,3 +28,7 @@ A impressão ilustrada usa [24 spritesheets](../deck/illustration_sheets_5_1.jso
 `python deck/build_all_5_1.py` reúne os builders editoriais, o renderer final e o verificador, em processos sequenciais com falha imediata. `render_print_5_1.py` fornece somente utilitários de texto/cor/fontes; o renderer final define sua geometria explicitamente, sem substituir funções ou variáveis de outro módulo.
 
 A skill reúne o fluxo narrativo, manual, índice, exemplos e consulta Python padrão. Não chama um serviço de geração de texto. Assistentes interpretam o método; a oficina continua funcional sem IA conectada.
+
+## Inspiração
+
+`app/public/inspirations.json` contém 100 exemplos editoriais separados do baralho. A galeria os importa no build e a API oferece consulta pública sem estado. Cada registro reúne identidade, obra, recorte, fontes e uma ficha compatível com o modelo existente. Inspecionar não altera persistência; usar como base cria um rascunho independente, sem modificar o exemplo ou uma ficha salva. Propostas de cartas do relatório não são códigos selecionáveis no deck 5.1.

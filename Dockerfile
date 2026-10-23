@@ -20,6 +20,7 @@ RUN python -m pip install --disable-pip-version-check -r requirements.lock.txt \
     && useradd --uid 10001 --gid persona --no-create-home --shell /usr/sbin/nologin persona
 COPY --chown=10001:10001 app/server.py ./server.py
 COPY --chown=10001:10001 app/public/deck.json ./public/deck.json
+COPY --chown=10001:10001 app/public/inspirations.json ./public/inspirations.json
 COPY --from=frontend --chown=10001:10001 /build/app/dist ./dist
 USER 10001:10001
 EXPOSE 8000

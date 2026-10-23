@@ -63,4 +63,33 @@ class Contracts(unittest.TestCase):
         for host in ('example.com','sub.personcard.runictools.com','personcard.runictools.com.attacker.example'):
             self.assertEqual(client.get('/api/health',headers={'host':host}).status_code,400,host)
 
+    def test_inspirations_catalog_and_exact_item(self):
+        response=client.get('/api/inspirations')
+        self.assertEqual(response.status_code,200)
+        catalog=response.json()
+        self.assertEqual(catalog['version'],'5.1')
+        self.assertIn('não são eventos canônicos',catalog['disclaimer'])
+        self.assertEqual(len(catalog['characters']),100)
+        self.assertEqual(len({entry['id'] for entry in catalog['characters']}),100)
+        for entry in catalog['characters']:
+            self.assertIsNone(entry['character']['id'])
+            self.assertTrue(entry['character']['finalized'])
+            for family,code in entry['character']['cards'].items():
+                self.assertEqual(next(c for c in DECK['cartas'] if c['codigo']==code)['familia'],family)
+        first=catalog['characters'][0]
+        self.assertEqual(client.get('/api/inspirations/'+first['id']).json(),first)
+        self.assertEqual(client.get('/api/inspirations/inexistente').status_code,404)
+
+    def test_inspirations_combined_filters_and_read_only_contract(self):
+        found=client.get('/api/inspirations',params={'q':'hermione','medium':'Cinema','archetype':'Herói'}).json()['characters']
+        self.assertEqual([entry['name'] for entry in found],['Hermione Granger'])
+        accented=client.get('/api/inspirations',params={'q':'aneis'}).json()['characters']
+        self.assertEqual(len(accented),4)
+        self.assertEqual(client.get('/api/inspirations',params={'q':'zzzinexistente'}).json()['characters'],[])
+        for params in ({'medium':'Podcast'},{'archetype':'Deus'},{'q':'x'*301}):
+            self.assertEqual(client.get('/api/inspirations',params=params).status_code,422)
+        self.assertEqual(client.post('/api/inspirations',json={'name':'Dado privado'}).status_code,405)
+        schema=client.get('/api/openapi.json').json()
+        self.assertEqual(set(schema['paths']['/api/inspirations']),{'get'})
+
 if __name__=='__main__':unittest.main(verbosity=2)

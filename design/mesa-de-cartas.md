@@ -99,3 +99,20 @@ Responsáveis: `frontend-sol` implementa UI e PNG; `backend-sol` implementa mode
 Checkpoint real: **pass** em desktop 1366 × 900 e 390 × 844. Ordem P/N/L virou 4/5/6 e persistiu; progresso ajustado para 6 de 6. Nome vazio e seis convites sem interpretação foram identificados; foco na primeira pendência. Foto inválida recusada, foto válida convertida proporcionalmente em JPEG 960 × 320/116719 caracteres, campos preservados na recarga. Finalização e edição, biblioteca, legado sem novos atributos, JSON completo e PNG real 1200 × 1704 observados. PNG com seis camadas foi inspecionado visualmente, inclusive textos e arte.
 
 Movimento completo apareceu após migrar automático; reduzido explícito permaneceu após recarga. Anime.js de apresentação final observado com matrix3d intermediária no papel e camadas em translateY12. Revisão independente encontrou e fechou cancelamento incorreto de upload ao mudar movimento e imagem corrigida oculta após erro. A corrida de processamento lento não foi reproduzida por temporização no browser; a correção foi conferida por leitura. Capturas publicáveis: `revisao-personagem-desktop.png` e `carta-personagem-desktop.png`; medições e limites em `docs/VALIDACAO.md`.
+
+## Inspiração — 100 personagens
+
+Ampliação funcional preservando mesa verde, papel creme, tipografia e artes folk existentes. A galeria favorece encontrar um personagem, compreender a interpretação e copiar uma base. Imagens do baralho são símbolos das ideias, sem prometer retratos dos personagens.
+
+- Navegação: Inspiração acessível no desktop e celular; voltar à mesa preserva rascunho.
+- Busca/filtros: nome/obra, mídia e papel narrativo, contagem e estado sem resultados com limpeza.
+- Inspeção: recorte, cartas interpretadas e fontes; nenhuma alteração na criação.
+- Uso: ação explícita, confirmação para substituir rascunho e cópia independente para adaptar.
+- Movimento: Anime.js na atualização da coleção e abertura dos detalhes; scopes revertidos; preferência reduzida e interrupções mantêm estado final acessível.
+- Proprietários: frontend-sol para UI; backend-sol para coleção/API/contratos; verifier-sol para revisão do sistema. Principal integra, documenta, verifica navegador e publicação.
+
+Checkpoint do slice com **cinco exemplos reais**, antes da expansão: **pass** para identidade visual desktop1366×900 e detalhe390×844, busca vazia/reset, busca Nami, inspeção somente leitura, confirmação/cancelamento com foco restaurado e manutenção da carta D01 anterior. Usar Nami como base abriu revisão com interpretações; renomear para Cartógrafa do Cais e finalizar criou uma ficha independente no ambiente isolado localhost:8768. **Fail corrigido na fonte:** título ocupava cinco linhas mobile; título encurtado e contador reposicionado, metadados ampliados. A versão corrigida e os100 exemplos ainda aguardam build e conferência final. Nenhuma amostra parcial foi publicada.
+
+Movimento do slice observado no navegador: filtragem Zoro com opacidade0,7663 e matriz com translateY8,6814; abertura do detalhe com opacidade0,6909 e matrix3d/translateY19,4262. Em reduzido, filtro e detalhe ficaram em opacidade1/transformnone; sequência rápida Zoro→Nami→Usopp abriu o conteúdo correto. Foco voltou ao cartão original ao cancelar substituição. A inspeção independente por verifier-sol não encontrou perda de rascunho ou referência compartilhada no clone.
+
+Checkpoint final com **100 exemplos**: **pass** desktop1366×900 e390×844, sem overflow horizontal. O título curto e metadados ampliados foram conferidos no build final. Ordem inicial intercala mídias sem modificar o catálogo: Luffy, Luke, Elsa, Batman, Eleven e Link. Busca sem acento `aneis` devolveu quatro casos; filtros Cinema+Vilão devolveram Vader/Palpatine. Escape fechou o detalhe e restaurou foco no cartão. A ficha derivada do slice permaneceu após recarga. API local catálogo, item, health e OpenAPI responderam200. Capturas: `inspiracao-desktop.png`, `inspiracao-mobile.png`, `inspiracao-detalhe.png`. Revisão visual final pelo principal; leitura independente de preservação por verifier-sol.

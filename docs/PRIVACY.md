@@ -13,3 +13,5 @@ Instalação baixa pacotes npm/Python. Swagger utiliza assets públicos de sua b
 `.gitignore` exclui `.venv`, `node_modules`, `dist`, `.runtime`, logs, caches e `.env`. O repositório contém personagens fictícios de exemplo; não contém arquivos de sessões pessoais nem credenciais. Ao contribuir, remova dados privados de imagens, exemplos e anexos.
 
 O início local escuta em loopback. O perfil de hospedagem do RunicTools serve a mesma aplicação por HTTPS, sem contas e sem banco de personagens. O servidor, o proxy e a Cloudflare processam as solicitações necessárias para entregar páginas e arquivos; logs operacionais podem registrar IP, endereço solicitado e horário. Publicar a aplicação não publica as fichas guardadas no navegador. Os dados do endereço local e do domínio online são separados: use exportação/importação para transferi-los.
+
+A coleção Inspiração é um catálogo público de interpretações de personagens fictícios, entregue junto da aplicação. Consultar ou copiar um exemplo não envia sua criação ao servidor. Links de fontes abrem sites externos somente quando acionados; o catálogo não incorpora retratos remotos ou rastreadores dessas fontes.

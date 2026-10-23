@@ -12,7 +12,7 @@ Um baralho narrativo em português para criar e interpretar personagens de RPG e
 [![141 cartas](https://img.shields.io/badge/cartas-141-B65135?style=flat-square)](skills/persona-cards/print/README.md)
 [![English](https://img.shields.io/badge/English-summary-637D71?style=flat-square)](README.en.md)
 
-[Escolha como usar](#três-jeitos-de-usar-o-mesmo-baralho) · [Como jogar](#como-jogar) · [PDF](#1-pdf--as-cartas-na-sua-mesa) · [Skill](#2-skill--as-cartas-com-seu-assistente) · [Web](#3-aplicação-web--as-cartas-no-navegador) · [5 exemplos](#cinco-personagens-criados-com-as-cartas)
+[Escolha como usar](#três-jeitos-de-usar-o-mesmo-baralho) · [Como jogar](#como-jogar) · [PDF](#1-pdf--as-cartas-na-sua-mesa) · [Skill](#2-skill--as-cartas-com-seu-assistente) · [Web](#3-aplicação-web--as-cartas-no-navegador) · [Inspiração](#100-personagens-para-inspiração) · [5 exemplos](#cinco-personagens-criados-com-as-cartas)
 
 </div>
 
@@ -49,6 +49,18 @@ Se quiser aprofundar, acrescente:
 - **N · Conflito interno:** dois valores que a personagem quer preservar, mas que entram em disputa. Inclua apenas quando esses dois lados existirem.
 
 As cartas **U/G** são guias para consultar durante a criação; deixe-as fora do sorteio de personalidade. O conjunto tem **126 cartas de criação e 15 guias**, 141 no total. Você pode escolher por significado ou sortear para se surpreender. Se uma carta contrariar o que já aconteceu na história, adapte ou troque a carta e preserve a história. Não é preciso dar trauma, segredo ou redenção a todo personagem.
+
+## 100 personagens para inspiração
+
+Na aplicação, abra **Inspiração** para explorar **100 personagens da cultura pop**: filmes, animes, animações, quadrinhos, séries e jogos, incluindo heróis, vilões e coadjuvantes. Busque um nome ou obra e abra a carta para ver o recorte escolhido, a combinação D/F/V e as camadas adicionais que fazem sentido naquela cena.
+
+<img src="design/inspiracao-desktop.png" alt="Galeria Inspiração com 100 personagens, busca e filtros por mídia e papel na história" width="900">
+
+Cada montagem mostra **como interpretar as cartas**, com desejos concretos, tentativas e expressão. São leituras possíveis de personagens conhecidos; as cenas sugeridas são exercícios autorais, e as fontes das obras ficam junto de cada exemplo. Uma combinação não resume toda a trajetória de alguém. As ilustrações do baralho representam as ideias das cartas, não retratos dos personagens.
+
+**Usar como base** leva uma cópia para sua criação. Adapte nome, mundo e interpretações e finalize sua própria carta. Explorar a galeria não altera seu rascunho; substituir uma criação em andamento pede confirmação.
+
+As 100 montagens também servem como revisão do sistema. Veja a [análise das lacunas e propostas de melhoria](docs/REVISAO-100-PERSONAGENS.md). O relatório distingue problemas observados, ajustes de uso e propostas de novas cartas; o baralho publicado continua com seus **141 códigos**. Este exercício editorial não substitui testes com jogadores.
 
 ## 1. PDF — as cartas na sua mesa
 

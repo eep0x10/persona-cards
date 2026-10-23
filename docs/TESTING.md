@@ -8,7 +8,7 @@ Na raiz do repositório, com Python e dependências instaladas:
 python -m unittest discover -s tests
 python -m pip install -r app/requirements.lock.txt
 python -m unittest discover -s app -p test_api.py
-node --test app/model.test.mjs
+node --test app/model.test.mjs app/inspirations.test.mjs
 npm --prefix app ci
 npm --prefix app run build
 ```
@@ -20,3 +20,5 @@ Para reconstruir a edição de leitura e os arquivos ilustrados de impressão, e
 A conferência original no navegador observou seleção, sorteio com carta mantida, edição, salvamento, recarga, exportação/importação e rejeição de ficha inválida. Desktop e 390 px foram examinados sem transbordamento horizontal. Movimento reduzido foi observado; o modo completo não foi conferido visualmente naquele ambiente.
 
 Os cinco personagens e quinze ensaios são exercícios autorais. Não houve avaliação independente, teste com jogadores, controle sem deck ou cronometragem. Não transformar essa evidência em porcentagem universal de qualidade. Um próximo teste útil é apresentar cenas sem códigos a leitores e observar reconhecimento, decisões improvisadas e lembrança em mesa.
+
+A coleção de inspiração tem contrato próprio em `app/inspirations.test.mjs`: 100 identidades únicas, códigos válidos, interpretações completas e metadados de contexto/fontes. A revisão editorial dos encaixes está em [Revisão dos 100 personagens](REVISAO-100-PERSONAGENS.md). Contagens de cobertura descrevem esta seleção, não uma medida universal da qualidade do baralho.

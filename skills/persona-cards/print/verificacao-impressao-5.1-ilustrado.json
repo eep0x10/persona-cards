@@ -1,0 +1,1289 @@
+{
+  "deck_sha256": "6c33a7adb5187c8e909ab5a3bc6c4b283a79c670d03b67ea3c1c32333229f86d",
+  "manifest_sha256": "e9a6e0ba4af5346890bb3ccb1d65e2f5a60ebf1f0a81a198742dddd8ef434368",
+  "cards": 141,
+  "illustrations": 141,
+  "spritesheets": 24,
+  "size_mm": [
+    92,
+    130
+  ],
+  "sheets": 36,
+  "fit": [
+    {
+      "code": "D01",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-d001-d006.png",
+      "slot": 0
+    },
+    {
+      "code": "D02",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-d001-d006.png",
+      "slot": 1
+    },
+    {
+      "code": "D03",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-d001-d006.png",
+      "slot": 2
+    },
+    {
+      "code": "D04",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-d001-d006.png",
+      "slot": 3
+    },
+    {
+      "code": "D05",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-d001-d006.png",
+      "slot": 4
+    },
+    {
+      "code": "D06",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-d001-d006.png",
+      "slot": 5
+    },
+    {
+      "code": "D07",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-d007-d012.png",
+      "slot": 0
+    },
+    {
+      "code": "D08",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-d007-d012.png",
+      "slot": 1
+    },
+    {
+      "code": "D09",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-d007-d012.png",
+      "slot": 2
+    },
+    {
+      "code": "D10",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-d007-d012.png",
+      "slot": 3
+    },
+    {
+      "code": "D11",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-d007-d012.png",
+      "slot": 4
+    },
+    {
+      "code": "D12",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-d007-d012.png",
+      "slot": 5
+    },
+    {
+      "code": "F01",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-f001-f006.png",
+      "slot": 0
+    },
+    {
+      "code": "F02",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 37.35,
+      "atlas": "folk-f001-f006.png",
+      "slot": 1
+    },
+    {
+      "code": "F03",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 37.35,
+      "atlas": "folk-f001-f006.png",
+      "slot": 2
+    },
+    {
+      "code": "F04",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 26.39,
+      "atlas": "folk-f001-f006.png",
+      "slot": 3
+    },
+    {
+      "code": "F05",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-f001-f006.png",
+      "slot": 4
+    },
+    {
+      "code": "F06",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-f001-f006.png",
+      "slot": 5
+    },
+    {
+      "code": "F07",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-f007-f012.png",
+      "slot": 0
+    },
+    {
+      "code": "F08",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-f007-f012.png",
+      "slot": 1
+    },
+    {
+      "code": "F09",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-f007-f012.png",
+      "slot": 2
+    },
+    {
+      "code": "F10",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 37.35,
+      "atlas": "folk-f007-f012.png",
+      "slot": 3
+    },
+    {
+      "code": "F11",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-f007-f012.png",
+      "slot": 4
+    },
+    {
+      "code": "F12",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-f007-f012.png",
+      "slot": 5
+    },
+    {
+      "code": "N01",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 35.9,
+      "atlas": "folk-f019-n004.png",
+      "slot": 2
+    },
+    {
+      "code": "N02",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-f019-n004.png",
+      "slot": 3
+    },
+    {
+      "code": "N03",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-f019-n004.png",
+      "slot": 4
+    },
+    {
+      "code": "N04",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-f019-n004.png",
+      "slot": 5
+    },
+    {
+      "code": "N05",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-n005-n010.png",
+      "slot": 0
+    },
+    {
+      "code": "N06",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-n005-n010.png",
+      "slot": 1
+    },
+    {
+      "code": "N07",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-n005-n010.png",
+      "slot": 2
+    },
+    {
+      "code": "N08",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-n005-n010.png",
+      "slot": 3
+    },
+    {
+      "code": "N09",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-n005-n010.png",
+      "slot": 4
+    },
+    {
+      "code": "N10",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-n005-n010.png",
+      "slot": 5
+    },
+    {
+      "code": "N11",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-n011-n016.png",
+      "slot": 0
+    },
+    {
+      "code": "N12",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-n011-n016.png",
+      "slot": 1
+    },
+    {
+      "code": "L01",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-l001-l006.png",
+      "slot": 0
+    },
+    {
+      "code": "L02",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 37.35,
+      "atlas": "folk-l001-l006.png",
+      "slot": 1
+    },
+    {
+      "code": "L03",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 37.35,
+      "atlas": "folk-l001-l006.png",
+      "slot": 2
+    },
+    {
+      "code": "L04",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 37.35,
+      "atlas": "folk-l001-l006.png",
+      "slot": 3
+    },
+    {
+      "code": "L05",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-l001-l006.png",
+      "slot": 4
+    },
+    {
+      "code": "L06",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-l001-l006.png",
+      "slot": 5
+    },
+    {
+      "code": "L07",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-l007-l012.png",
+      "slot": 0
+    },
+    {
+      "code": "L08",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-l007-l012.png",
+      "slot": 1
+    },
+    {
+      "code": "L09",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 29.76,
+      "atlas": "folk-l007-l012.png",
+      "slot": 2
+    },
+    {
+      "code": "L10",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 37.35,
+      "atlas": "folk-l007-l012.png",
+      "slot": 3
+    },
+    {
+      "code": "L11",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-l007-l012.png",
+      "slot": 4
+    },
+    {
+      "code": "L12",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-l007-l012.png",
+      "slot": 5
+    },
+    {
+      "code": "V01",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-l019-v004.png",
+      "slot": 2
+    },
+    {
+      "code": "V02",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 26.39,
+      "atlas": "folk-l019-v004.png",
+      "slot": 3
+    },
+    {
+      "code": "V03",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-l019-v004.png",
+      "slot": 4
+    },
+    {
+      "code": "V04",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 37.35,
+      "atlas": "folk-l019-v004.png",
+      "slot": 5
+    },
+    {
+      "code": "V05",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 37.35,
+      "atlas": "folk-v005-v010.png",
+      "slot": 0
+    },
+    {
+      "code": "V06",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-v005-v010.png",
+      "slot": 1
+    },
+    {
+      "code": "V07",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-v005-v010.png",
+      "slot": 2
+    },
+    {
+      "code": "V08",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 37.35,
+      "atlas": "folk-v005-v010.png",
+      "slot": 3
+    },
+    {
+      "code": "V09",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-v005-v010.png",
+      "slot": 4
+    },
+    {
+      "code": "V10",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-v005-v010.png",
+      "slot": 5
+    },
+    {
+      "code": "V11",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-v011-v016.png",
+      "slot": 0
+    },
+    {
+      "code": "V12",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-v011-v016.png",
+      "slot": 1
+    },
+    {
+      "code": "P01",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 26.39,
+      "atlas": "folk-p001-p006.png",
+      "slot": 0
+    },
+    {
+      "code": "P02",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 26.39,
+      "atlas": "folk-p001-p006.png",
+      "slot": 1
+    },
+    {
+      "code": "P03",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-p001-p006.png",
+      "slot": 2
+    },
+    {
+      "code": "P04",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 32.54,
+      "atlas": "folk-p001-p006.png",
+      "slot": 3
+    },
+    {
+      "code": "P05",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-p001-p006.png",
+      "slot": 4
+    },
+    {
+      "code": "P06",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 29.76,
+      "atlas": "folk-p001-p006.png",
+      "slot": 5
+    },
+    {
+      "code": "P07",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 37.35,
+      "atlas": "folk-p007-p012.png",
+      "slot": 0
+    },
+    {
+      "code": "P08",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-p007-p012.png",
+      "slot": 1
+    },
+    {
+      "code": "P09",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-p007-p012.png",
+      "slot": 2
+    },
+    {
+      "code": "P10",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-p007-p012.png",
+      "slot": 3
+    },
+    {
+      "code": "P11",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-p007-p012.png",
+      "slot": 4
+    },
+    {
+      "code": "P12",
+      "art_pt": 116,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 30.79,
+      "atlas": "folk-p007-p012.png",
+      "slot": 5
+    },
+    {
+      "code": "D13",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-d013-d018.png",
+      "slot": 0
+    },
+    {
+      "code": "D14",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 26.39,
+      "atlas": "folk-d013-d018.png",
+      "slot": 1
+    },
+    {
+      "code": "D15",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 37.35,
+      "atlas": "folk-d013-d018.png",
+      "slot": 2
+    },
+    {
+      "code": "D16",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 26.33,
+      "atlas": "folk-d013-d018.png",
+      "slot": 3
+    },
+    {
+      "code": "D17",
+      "art_pt": 116,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 30.79,
+      "atlas": "folk-d013-d018.png",
+      "slot": 4
+    },
+    {
+      "code": "D18",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 37.35,
+      "atlas": "folk-d013-d018.png",
+      "slot": 5
+    },
+    {
+      "code": "F13",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 37.35,
+      "atlas": "folk-f013-f018.png",
+      "slot": 0
+    },
+    {
+      "code": "F14",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 26.39,
+      "atlas": "folk-f013-f018.png",
+      "slot": 1
+    },
+    {
+      "code": "F15",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 37.35,
+      "atlas": "folk-f013-f018.png",
+      "slot": 2
+    },
+    {
+      "code": "F16",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-f013-f018.png",
+      "slot": 3
+    },
+    {
+      "code": "F17",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-f013-f018.png",
+      "slot": 4
+    },
+    {
+      "code": "F18",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 26.39,
+      "atlas": "folk-f013-f018.png",
+      "slot": 5
+    },
+    {
+      "code": "N13",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 24.94,
+      "atlas": "folk-n011-n016.png",
+      "slot": 2
+    },
+    {
+      "code": "N14",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 37.35,
+      "atlas": "folk-n011-n016.png",
+      "slot": 3
+    },
+    {
+      "code": "N15",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 37.35,
+      "atlas": "folk-n011-n016.png",
+      "slot": 4
+    },
+    {
+      "code": "N16",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 37.35,
+      "atlas": "folk-n011-n016.png",
+      "slot": 5
+    },
+    {
+      "code": "N17",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 26.39,
+      "atlas": "folk-n017-n022.png",
+      "slot": 0
+    },
+    {
+      "code": "N18",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 24.94,
+      "atlas": "folk-n017-n022.png",
+      "slot": 1
+    },
+    {
+      "code": "L13",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 26.39,
+      "atlas": "folk-l013-l018.png",
+      "slot": 0
+    },
+    {
+      "code": "L14",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-l013-l018.png",
+      "slot": 1
+    },
+    {
+      "code": "L15",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 37.35,
+      "atlas": "folk-l013-l018.png",
+      "slot": 2
+    },
+    {
+      "code": "L16",
+      "art_pt": 116,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 27.42,
+      "atlas": "folk-l013-l018.png",
+      "slot": 3
+    },
+    {
+      "code": "L17",
+      "art_pt": 116,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 27.42,
+      "atlas": "folk-l013-l018.png",
+      "slot": 4
+    },
+    {
+      "code": "L18",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 26.39,
+      "atlas": "folk-l013-l018.png",
+      "slot": 5
+    },
+    {
+      "code": "V13",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 37.35,
+      "atlas": "folk-v011-v016.png",
+      "slot": 2
+    },
+    {
+      "code": "V14",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 37.35,
+      "atlas": "folk-v011-v016.png",
+      "slot": 3
+    },
+    {
+      "code": "V15",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 37.35,
+      "atlas": "folk-v011-v016.png",
+      "slot": 4
+    },
+    {
+      "code": "V16",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 37.35,
+      "atlas": "folk-v011-v016.png",
+      "slot": 5
+    },
+    {
+      "code": "V17",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 26.39,
+      "atlas": "folk-v017-v022.png",
+      "slot": 0
+    },
+    {
+      "code": "V18",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-v017-v022.png",
+      "slot": 1
+    },
+    {
+      "code": "P13",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 37.35,
+      "atlas": "folk-p013-p018.png",
+      "slot": 0
+    },
+    {
+      "code": "P14",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 37.35,
+      "atlas": "folk-p013-p018.png",
+      "slot": 1
+    },
+    {
+      "code": "P15",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 26.39,
+      "atlas": "folk-p013-p018.png",
+      "slot": 2
+    },
+    {
+      "code": "P16",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 26.39,
+      "atlas": "folk-p013-p018.png",
+      "slot": 3
+    },
+    {
+      "code": "P17",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 26.39,
+      "atlas": "folk-p013-p018.png",
+      "slot": 4
+    },
+    {
+      "code": "P18",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 37.35,
+      "atlas": "folk-p013-p018.png",
+      "slot": 5
+    },
+    {
+      "code": "U01",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 37.35,
+      "atlas": "folk-u001-u006.png",
+      "slot": 0
+    },
+    {
+      "code": "U02",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-u001-u006.png",
+      "slot": 1
+    },
+    {
+      "code": "U03",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 48.32,
+      "atlas": "folk-u001-u006.png",
+      "slot": 2
+    },
+    {
+      "code": "U04",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 26.39,
+      "atlas": "folk-u001-u006.png",
+      "slot": 3
+    },
+    {
+      "code": "U05",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 26.39,
+      "atlas": "folk-u001-u006.png",
+      "slot": 4
+    },
+    {
+      "code": "U06",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 26.39,
+      "atlas": "folk-u001-u006.png",
+      "slot": 5
+    },
+    {
+      "code": "U07",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 26.39,
+      "atlas": "folk-u007-g003.png",
+      "slot": 0
+    },
+    {
+      "code": "U08",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 26.39,
+      "atlas": "folk-u007-g003.png",
+      "slot": 1
+    },
+    {
+      "code": "U09",
+      "art_pt": 128,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 37.35,
+      "atlas": "folk-u007-g003.png",
+      "slot": 2
+    },
+    {
+      "code": "D19",
+      "art_pt": 116,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 27.42,
+      "atlas": "folk-d019-d024.png",
+      "slot": 0
+    },
+    {
+      "code": "D20",
+      "art_pt": 80,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 29.08,
+      "atlas": "folk-d019-d024.png",
+      "slot": 1
+    },
+    {
+      "code": "D21",
+      "art_pt": 104,
+      "body_pt": 8.5,
+      "reading_pt": 9.35,
+      "lowest_pt": 29.35,
+      "atlas": "folk-d019-d024.png",
+      "slot": 2
+    },
+    {
+      "code": "D22",
+      "art_pt": 116,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 27.42,
+      "atlas": "folk-d019-d024.png",
+      "slot": 3
+    },
+    {
+      "code": "D23",
+      "art_pt": 104,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 28.46,
+      "atlas": "folk-d019-d024.png",
+      "slot": 4
+    },
+    {
+      "code": "D24",
+      "art_pt": 92,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 24.68,
+      "atlas": "folk-d019-d024.png",
+      "slot": 5
+    },
+    {
+      "code": "F19",
+      "art_pt": 104,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 28.46,
+      "atlas": "folk-f019-n004.png",
+      "slot": 0
+    },
+    {
+      "code": "F20",
+      "art_pt": 104,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 27.01,
+      "atlas": "folk-f019-n004.png",
+      "slot": 1
+    },
+    {
+      "code": "N19",
+      "art_pt": 104,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 28.46,
+      "atlas": "folk-n017-n022.png",
+      "slot": 2
+    },
+    {
+      "code": "N20",
+      "art_pt": 92,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 24.68,
+      "atlas": "folk-n017-n022.png",
+      "slot": 3
+    },
+    {
+      "code": "N21",
+      "art_pt": 92,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 29.49,
+      "atlas": "folk-n017-n022.png",
+      "slot": 4
+    },
+    {
+      "code": "N22",
+      "art_pt": 92,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 24.68,
+      "atlas": "folk-n017-n022.png",
+      "slot": 5
+    },
+    {
+      "code": "L19",
+      "art_pt": 92,
+      "body_pt": 8.5,
+      "reading_pt": 9.0,
+      "lowest_pt": 31.28,
+      "atlas": "folk-l019-v004.png",
+      "slot": 0
+    },
+    {
+      "code": "L20",
+      "art_pt": 104,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 28.46,
+      "atlas": "folk-l019-v004.png",
+      "slot": 1
+    },
+    {
+      "code": "V19",
+      "art_pt": 92,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 29.49,
+      "atlas": "folk-v017-v022.png",
+      "slot": 2
+    },
+    {
+      "code": "V20",
+      "art_pt": 104,
+      "body_pt": 8.5,
+      "reading_pt": 9.0,
+      "lowest_pt": 30.25,
+      "atlas": "folk-v017-v022.png",
+      "slot": 3
+    },
+    {
+      "code": "V21",
+      "art_pt": 92,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 24.68,
+      "atlas": "folk-v017-v022.png",
+      "slot": 4
+    },
+    {
+      "code": "V22",
+      "art_pt": 104,
+      "body_pt": 8.5,
+      "reading_pt": 9.35,
+      "lowest_pt": 29.35,
+      "atlas": "folk-v017-v022.png",
+      "slot": 5
+    },
+    {
+      "code": "G01",
+      "art_pt": 104,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 28.46,
+      "atlas": "folk-u007-g003.png",
+      "slot": 3
+    },
+    {
+      "code": "G02",
+      "art_pt": 104,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 28.46,
+      "atlas": "folk-u007-g003.png",
+      "slot": 4
+    },
+    {
+      "code": "G03",
+      "art_pt": 92,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 29.49,
+      "atlas": "folk-u007-g003.png",
+      "slot": 5
+    },
+    {
+      "code": "G04",
+      "art_pt": 104,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 28.46,
+      "atlas": "folk-g004-g006.png",
+      "slot": 0
+    },
+    {
+      "code": "G05",
+      "art_pt": 80,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 25.72,
+      "atlas": "folk-g004-g006.png",
+      "slot": 1
+    },
+    {
+      "code": "G06",
+      "art_pt": 80,
+      "body_pt": 8.5,
+      "reading_pt": 9.7,
+      "lowest_pt": 25.72,
+      "atlas": "folk-g004-g006.png",
+      "slot": 2
+    }
+  ],
+  "files": {
+    "Persona-Cards-5.1-Ilustrado-Frentes-A4.pdf": "1286f6d2012492e7d90e995d3feb1d0d573c16cb4fd914e3b5f98d3be51b1981",
+    "Persona-Cards-5.1-Ilustrado-Versos-A4.pdf": "5ed05ff349fa4c93e50b14dd0d8ee5b5110ed0320525fb5688de1305f43cf56c",
+    "Persona-Cards-5.1-Ilustrado-Duplex-A4.pdf": "9514cc7f1568dbf5f8b45675a3db8d6a23742db7104be5a34fa1a60af07faafd",
+    "Persona-Cards-5.1-Ilustrado-Manual-Rapido.pdf": "66b7f2a2b37f09d2211c3df82aaab1b1c328ad7f162ae72242592ab875bd8556"
+  }
+}

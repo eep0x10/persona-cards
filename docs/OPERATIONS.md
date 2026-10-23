@@ -27,7 +27,7 @@ Exporte cada ficha em JSON. Markdown/texto serve para leitura, mas a importaçã
 
 ## Diagnóstico
 
-- `/api/health` confirma estado, versão 5.0 e 141 cartas.
+- `/api/health` confirma estado, versão 5.1 e 141 cartas.
 - Interface em preparação: execute `npm run build` em `app/`.
 - Porta ocupada: escolha outra e use o endereço correspondente.
 - Importação recusada: confira formato, versão, códigos e limites; não edite a estrutura apenas para contornar a validação.

@@ -2,6 +2,18 @@ param([ValidateRange(1024,65535)][int]$Port = 8766)
 $ErrorActionPreference = 'Stop'
 Push-Location $PSScriptRoot
 try {
+    $personaDeck = Get-Content -LiteralPath (Join-Path $PSScriptRoot 'public/deck.json') -Raw | ConvertFrom-Json
+    function Test-PersonaHealth {
+        param($Health)
+        return ($null -ne $Health -and $Health.status -eq 'ok' -and
+            $Health.version -eq $personaDeck.versao -and
+            $Health.cards -eq $personaDeck.cartas.Count)
+    }
+    try { $personaHealth = Invoke-RestMethod "http://127.0.0.1:$Port/api/health" -TimeoutSec 2 } catch { $personaHealth = $null }
+    if (Test-PersonaHealth $personaHealth) {
+        Write-Output "Persona Cards já está disponível em http://127.0.0.1:$Port"
+        return
+    }
     $personaPython = Join-Path $PSScriptRoot '.venv/Scripts/python.exe'
     if (-not (Test-Path -LiteralPath $personaPython)) {
         $personaBasePython = (Get-Command python -ErrorAction Stop).Source
@@ -16,11 +28,6 @@ try {
         & npm.cmd run build
         if ($LASTEXITCODE -ne 0) { throw 'Não foi possível montar a interface.' }
     }
-    try { $personaHealth = Invoke-RestMethod "http://127.0.0.1:$Port/api/health" -TimeoutSec 2 } catch { $personaHealth = $null }
-    if ($personaHealth -and $personaHealth.version -eq '5.0' -and $personaHealth.cards -eq 141) {
-        Write-Output "Persona Cards já está disponível em http://127.0.0.1:$Port"
-        return
-    }
     New-Item -ItemType Directory -Force .runtime | Out-Null
     $personaProcess = Start-Process -FilePath $personaPython -ArgumentList '-m','uvicorn','server:app','--host','127.0.0.1','--port',"$Port" -WorkingDirectory $PSScriptRoot -WindowStyle Hidden -PassThru -RedirectStandardOutput .runtime/server.log -RedirectStandardError .runtime/server-error.log
     $personaProcess.Id | Set-Content .runtime/server.pid
@@ -28,7 +35,7 @@ try {
     for ($personaAttempt = 0; $personaAttempt -lt 20; $personaAttempt++) {
         try {
             $personaHealth = Invoke-RestMethod "http://127.0.0.1:$Port/api/health" -TimeoutSec 1
-            if ($personaHealth.version -eq '5.0' -and $personaHealth.cards -eq 141) { $personaReady = $true; break }
+            if (Test-PersonaHealth $personaHealth) { $personaReady = $true; break }
         } catch { }
         if ($personaProcess.HasExited) { break }
         Start-Sleep -Milliseconds 250

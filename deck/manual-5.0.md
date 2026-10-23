@@ -36,7 +36,7 @@ Os guias G mantêm mecanismos narrativos fora das cartas de personalidade. G06 m
 
 Cartas são prompts narrativos, não testes psicológicos, diagnósticos ou garantia de qualidade. Não presumir trauma, bondade, culpa, redenção ou recuperação. Intenção de um personagem não determina a ação de outro. Em língua de sinais, descreva o conteúdo e a compreensão; não invente uma tradução gestual real. Em memória ou influência sobrenatural, registre o que o cenário estabelece e o que continua incerto.
 
-Os PDFs anteriores continuam sendo da versão 4.0. Esta entrega contém a versão 5.0 em Markdown/JSON e o reteste comparativo; não produz novos arquivos de impressão.
+Os quatro PDFs 5.0 estão em [`skills/persona-cards/print/`](../skills/persona-cards/print/README.md): duplex A4, frentes, versos e manual rápido. A redação das cartas neste arquivo corresponde ao deck 5.0 publicado; a proposta editorial 5.1 é mantida separadamente.
 
 ## Cartas completas
 

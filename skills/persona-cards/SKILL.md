@@ -1,6 +1,6 @@
 ---
 name: persona-cards
-description: Cria e aprofunda personagens vivos para RPG e ficção usando Persona Cards 5.0. Use ao criar NPCs, protagonistas, antagonistas, elencos, vozes, vínculos, cenas e arcos, ou melhorar personagens existentes preservando contexto e continuidade.
+description: Cria e aprofunda personagens vivos para RPG e ficção usando Persona Cards 5.1. Use ao criar NPCs, protagonistas, antagonistas, elencos, vozes, vínculos, cenas e arcos, ou melhorar personagens existentes preservando contexto e continuidade.
 ---
 
 # Persona Cards
@@ -9,7 +9,7 @@ Transforme cartas em comportamento específico, escolhas e consequências. Profu
 
 ## Material
 
-Leia [manual e cartas](references/deck.md) na primeira aplicação. Use [índice](references/indice.md) e `scripts/cards.py` para consultas direcionadas. A fonte oficial é [deck.json](references/deck.json): 141 cartas, 126 de criação e 15 guias. Consulte campos reais; nunca invente códigos e títulos oficiais. Veja [exemplos](references/exemplos.md) e [revisão](references/revisao.md).
+Leia [manual e cartas](references/deck.md) na primeira aplicação. Use [índice](references/indice.md) e `scripts/cards.py` para consultas direcionadas. A fonte oficial é [deck.json](references/deck.json): 141 cartas, 126 de criação e 15 guias. Cada carta 5.1 tem uma abertura editorial (`leitura`) para ser lida ao puxar, seguida dos campos de ação; não trate a abertura como biografia pronta. Consulte campos reais; nunca invente códigos e títulos oficiais. Veja [exemplos](references/exemplos.md) e [revisão](references/revisao.md).
 
 ## Método
 
@@ -57,4 +57,4 @@ O padrão sorteia D/F/V; N exige inclusão intencional. U/G são consultáveis, 
 
 ## Cartas para imprimir
 
-A pasta [print](print/README.md) contém todas as 141 cartas 5.0 em PDF: duplex A4, frentes, versos e manual rápido. Quando pedirem impressão, indique esses arquivos prontos. Use 100% e virar na borda longa; teste uma folha antes do lote.
+A pasta [print](print/README.md) contém as 141 cartas 5.1 em PDF de leitura ampliada: duplex A4, frentes, versos e manual rápido. Os PDFs 5.0 de 63 × 88 mm permanecem como histórico. Use 100% e virar na borda longa; teste uma folha antes do lote.

@@ -1,9 +1,9 @@
 {
-  "versao": "5.0",
+  "versao": "5.1",
   "nome": "Persona Cards",
   "cartas": [
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "D01",
       "titulo": "Ter meu lugar",
       "familia": "D",
@@ -12,10 +12,11 @@
         "Mostre": "Assume uma tarefa comum e pede um lugar à mesa.",
         "Pedido": "Peça uma apresentação; ofereça uma contribuição."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você procura um lugar onde sua presença conte, não apenas um convite para entrar."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "D02",
       "titulo": "Assinar uma conquista",
       "familia": "D",
@@ -24,10 +25,11 @@
         "Mostre": "Mostra uma amostra do que sabe fazer.",
         "Pedido": "Peça testemunhas ou uma chance; ofereça seu talento."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Há uma conquista sua que ainda leva outro nome. O que mudaria se fosse reconhecida?"
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "D03",
       "titulo": "Escolher meu caminho",
       "familia": "D",
@@ -36,10 +38,11 @@
         "Mostre": "Compara condições antes de aceitar.",
         "Pedido": "Peça uma alternativa; diga qual compromisso aceita."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "O caminho está posto, mas você quer poder escolhê-lo por conta própria."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "D04",
       "titulo": "Garantir proteção",
       "familia": "D",
@@ -48,10 +51,11 @@
         "Mostre": "Confere um risco e prepara ajuda.",
         "Pedido": "Peça um recurso; ouça quem será protegido."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Algo importa o bastante para você vigiar o risco e preparar um abrigo."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "D05",
       "titulo": "Obter reparação",
       "familia": "D",
@@ -60,10 +64,11 @@
         "Mostre": "Apresenta o prejuízo e uma reparação possível.",
         "Pedido": "Peça apoio ou prova; diga quando bastará."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Um dano pede resposta concreta. Que reparação seria suficiente para você?"
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "D06",
       "titulo": "Resolver uma pergunta",
       "familia": "D",
@@ -72,10 +77,11 @@
         "Mostre": "Testa uma hipótese e aceita evidência contrária.",
         "Pedido": "Peça acesso; ofereça compartilhar a descoberta."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Uma pergunta não o deixa em paz. Siga a pista, mesmo se ela contrariar sua hipótese."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "D07",
       "titulo": "Fazer algo durar",
       "familia": "D",
@@ -84,10 +90,11 @@
         "Mostre": "Ensina um passo ou restaura uma parte.",
         "Pedido": "Peça material ou aprendiz; entregue conhecimento."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você quer que uma obra sobreviva às suas mãos. A quem confiaria o próximo passo?"
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "D08",
       "titulo": "Ter recursos suficientes",
       "familia": "D",
@@ -96,10 +103,11 @@
         "Mostre": "Conta o que falta e propõe uma troca.",
         "Pedido": "Peça trabalho ou recurso; defina quanto é suficiente."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você sabe o que falta para realizar um projeto. Quanto será bastante?"
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "D09",
       "titulo": "Viver uma experiência",
       "familia": "D",
@@ -108,10 +116,11 @@
         "Mostre": "Prepara uma pequena amostra do prazer esperado.",
         "Pedido": "Convide o grupo; ofereça uma experiência concreta."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Existe algo que você quer viver, sem transformá-lo em prêmio ou obrigação."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "D10",
       "titulo": "Ampliar minha influência",
       "familia": "D",
@@ -120,10 +129,11 @@
         "Mostre": "Reúne apoio e explica como usará o poder.",
         "Pedido": "Peça um voto ou aliança; declare um limite."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você quer participar das decisões. Que poder procura, e como pretende usá-lo?"
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "D11",
       "titulo": "Cumprir minha palavra",
       "familia": "D",
@@ -132,10 +142,11 @@
         "Mostre": "Confere o que ainda falta cumprir.",
         "Pedido": "Peça ajuda específica; diga o que já prometeu."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Sua palavra criou uma expectativa. O que ainda precisa fazer para cumpri-la?"
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "D12",
       "titulo": "Abrir um horizonte",
       "familia": "D",
@@ -144,10 +155,11 @@
         "Mostre": "Experimenta um caminho ainda indisponível.",
         "Pedido": "Peça parceiros para um primeiro teste."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Uma possibilidade ainda não existe para essas pessoas. Você tenta abri-la."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "F01",
       "titulo": "Planejo antes",
       "familia": "F",
@@ -156,10 +168,11 @@
         "Ajuda": "As pessoas sabem o próximo passo.",
         "Custa": "A preparação pode consumir a oportunidade."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você organiza antes de agir. Quando o preparo protege, e quando faz perder a hora?"
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "F02",
       "titulo": "Faço uma troca",
       "familia": "F",
@@ -168,10 +181,11 @@
         "Ajuda": "Interesses diferentes podem virar acordo.",
         "Custa": "A cobrança pode romper confiança; diga o que ficou explícito."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você oferece algo em troca de algo. Deixe claro o acordo antes de cobrar."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "F03",
       "titulo": "Defendo um princípio",
       "familia": "F",
@@ -180,10 +194,11 @@
         "Ajuda": "Minha posição fica compreensível.",
         "Custa": "Posso ignorar uma exceção ou um custo que contraria a convicção."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você declara um princípio e o segue. Que caso concreto desafia essa firmeza?"
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "F04",
       "titulo": "Faço disso uma disputa",
       "familia": "F",
@@ -192,10 +207,11 @@
         "Ajuda": "A comparação mobiliza esforço.",
         "Custa": "Posso tratar um parceiro como obstáculo ou perder o motivo da tarefa."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você transforma a tarefa em disputa. Lembre o que pretendia fazer antes de querer vencer."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "F05",
       "titulo": "Aproveito o momento",
       "familia": "F",
@@ -204,10 +220,11 @@
         "Ajuda": "As pessoas celebram e percebem o momento.",
         "Custa": "Uma tarefa necessária pode ser adiada."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você percebe o prazer possível agora. Ele pode alimentar a ação ou adiá-la."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "F06",
       "titulo": "Aposto na possibilidade",
       "familia": "F",
@@ -216,10 +233,11 @@
         "Ajuda": "Um caminho novo pode aparecer.",
         "Custa": "Defina a perda possível e quem assume o risco comigo."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você tenta mesmo sem garantia. Nomeie o risco e quem o divide com você."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "F07",
       "titulo": "Aproximo as partes",
       "familia": "F",
@@ -228,10 +246,11 @@
         "Ajuda": "Um impasse pode virar negociação.",
         "Custa": "Posso adiar a posição que alguém precisa de mim."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você procura uma linguagem comum para lados diferentes. Sua própria posição também importa."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "F08",
       "titulo": "Ofereço primeiro",
       "familia": "F",
@@ -240,10 +259,11 @@
         "Ajuda": "A colaboração começa por uma prova concreta.",
         "Custa": "Posso prometer recursos compartilhados sem consultar."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você começa oferecendo ajuda. Verifique o que é seu para oferecer."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "F09",
       "titulo": "Guardo meu espaço",
       "familia": "F",
@@ -252,10 +272,11 @@
         "Ajuda": "Preservo foco, tempo e autonomia.",
         "Custa": "Alguém pode ficar sem informação necessária."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você guarda tempo, informação ou intimidade. Diga onde termina o seu limite."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "F10",
       "titulo": "Vou ao que funciona",
       "familia": "F",
@@ -264,10 +285,11 @@
         "Ajuda": "O problema avança sem depender de prestígio ou ritual.",
         "Custa": "Posso ignorar o efeito simbólico ou humano do procedimento."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você pergunta o que funciona. Observe também o que o procedimento significa para os outros."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "F11",
       "titulo": "Mudo conforme o terreno",
       "familia": "F",
@@ -276,10 +298,11 @@
         "Ajuda": "O plano responde a novas informações.",
         "Custa": "Alguém pode ter contado com minha decisão anterior."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você muda o plano quando o terreno muda. Avise quem contava com a decisão anterior."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "F12",
       "titulo": "Sustento os meus",
       "familia": "F",
@@ -288,10 +311,11 @@
         "Ajuda": "As pessoas têm apoio também quando falham.",
         "Custa": "Posso favorecer os próximos num caso injusto."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você permanece ao lado dos seus. Apoio e favorecimento podem se parecer de longe."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "N01",
       "titulo": "Raízes / horizontes",
       "familia": "N",
@@ -300,10 +324,11 @@
         "Revele": "Partir coincide com uma ocasião importante em casa.",
         "Abra": "O que levar, preservar à distância ou adiar?"
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você valoriza o lugar de onde veio e a possibilidade de ir além. Ambos pedem algo agora."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "N02",
       "titulo": "Eficiência / dignidade",
       "familia": "N",
@@ -312,10 +337,11 @@
         "Revele": "O atalho exclui alguém da decisão.",
         "Abra": "Como ouvir essa pessoa sem perder todo o prazo?"
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você quer poupar recursos sem calar os afetados. O atalho tem um preço humano."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "N03",
       "titulo": "Verdade / pertencimento",
       "familia": "N",
@@ -324,10 +350,11 @@
         "Revele": "Uma descoberta contradiz a narrativa comum.",
         "Abra": "Como apresentar evidências e preservar diálogo?"
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você quer dizer o que descobriu e continuar pertencendo. Como abrir a conversa?"
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "N04",
       "titulo": "Afeto / imparcialidade",
       "familia": "N",
@@ -336,10 +363,11 @@
         "Revele": "Uma decisão pública envolve essa pessoa.",
         "Abra": "Quem pode decidir sem favorecer ou abandonar?"
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você ama alguém envolvido na decisão e quer ser justo com os demais."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "N05",
       "titulo": "Beleza / utilidade",
       "familia": "N",
@@ -348,10 +376,11 @@
         "Revele": "O mesmo material serve à obra e ao reparo.",
         "Abra": "O que adaptar, reutilizar ou fazer em etapas?"
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você deseja criar beleza e atender uma necessidade. Talvez o mesmo material não baste."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "N06",
       "titulo": "Continuidade / renovação",
       "familia": "N",
@@ -360,10 +389,11 @@
         "Revele": "Uma novidade muda algo que ainda serve a alguém.",
         "Abra": "Que parte manter e que parte experimentar?"
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você quer guardar o que ainda serve e permitir que algo novo exista."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "N07",
       "titulo": "Liberdade / compromisso",
       "familia": "N",
@@ -372,10 +402,11 @@
         "Revele": "Uma vontade nova esbarra no que prometeu.",
         "Abra": "Que condição pode renegociar com os envolvidos?"
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você deseja escolher de novo sem tratar a promessa anterior como nada."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "N08",
       "titulo": "Ambição / suficiência",
       "familia": "N",
@@ -384,10 +415,11 @@
         "Revele": "A próxima conquista consome um prazer atual.",
         "Abra": "O que merece expansão e o que merece pausa?"
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você quer crescer e sabe apreciar o bastante. Qual conquista mudaria o equilíbrio?"
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "N09",
       "titulo": "Curiosidade / privacidade",
       "familia": "N",
@@ -396,10 +428,11 @@
         "Revele": "Uma pista depende do acesso que alguém recusa.",
         "Abra": "Existe outra prova ou um acesso consentido?"
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você quer descobrir, mas reconhece o direito de alguém não abrir a porta."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "N10",
       "titulo": "Lealdade / justiça",
       "familia": "N",
@@ -408,10 +441,11 @@
         "Revele": "Seu grupo ganhou algo às custas de outros.",
         "Abra": "Como apoiar a pessoa e responsabilizar o ato?"
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você é leal aos seus e vê uma injustiça que os beneficia. O que fará com as duas verdades?"
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "N11",
       "titulo": "Prudência / oportunidade",
       "familia": "N",
@@ -420,10 +454,11 @@
         "Revele": "A informação segura chega depois do prazo.",
         "Abra": "Que teste pequeno ou risco compartilhado cabe?"
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você quer evitar uma perda e aproveitar a ocasião. Que risco pequeno pode testar?"
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "N12",
       "titulo": "Franqueza / harmonia",
       "familia": "N",
@@ -432,10 +467,11 @@
         "Revele": "Uma conversa pessoal vem sendo evitada.",
         "Abra": "Qual momento e proposta tornam a fala possível?"
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você quer dizer o que sente sem destruir a convivência que também estima."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "L01",
       "titulo": "Amizade que descansa",
       "familia": "L",
@@ -444,10 +480,11 @@
         "Outra pessoa": "Pergunte o que ele quer agora, mesmo fora da amizade.",
         "Em cena": "Que tempo, ritual ou limite esse pedido afeta?"
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Há alguém com quem você pode simplesmente estar. O que essa pessoa quer hoje?"
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "L02",
       "titulo": "Rival que admiro",
       "familia": "L",
@@ -456,10 +493,11 @@
         "Outra pessoa": "Defina o que quer vencer e qual regra aceita.",
         "Em cena": "Que resultado aproxima ou afasta vocês?"
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você disputa com alguém cuja qualidade reconhece. A rivalidade não apaga o respeito."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "L03",
       "titulo": "Sócio de outra ideia",
       "familia": "L",
@@ -468,10 +506,11 @@
         "Outra pessoa": "Defina seu projeto e o recurso compartilhado.",
         "Em cena": "Como cada um pretende usar o que pertence aos dois?"
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Vocês fizeram algo juntos e agora imaginam futuros diferentes para o que construíram."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "L04",
       "titulo": "Favor com história",
       "familia": "L",
@@ -480,10 +519,11 @@
         "Outra pessoa": "Defina o pedido atual e o que considera devido.",
         "Em cena": "A ajuda era presente, acordo ou foi entendida de outro jeito?"
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Uma ajuda antiga chega à conversa de hoje. Foi presente, acordo ou dívida?"
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "L05",
       "titulo": "Quem viu minha mudança",
       "familia": "L",
@@ -492,10 +532,11 @@
         "Outra pessoa": "Defina o que quer hoje e o que pensa que ainda é igual.",
         "Em cena": "Que hábito atual confirma ou desfaz essa impressão?"
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Essa pessoa conheceu quem você era. Ela vê quem você se tornou?"
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "L06",
       "titulo": "Quem aprendeu comigo",
       "familia": "L",
@@ -504,10 +545,11 @@
         "Outra pessoa": "Defina sua aplicação, inclusive uma que você desaprove.",
         "Em cena": "Você apoia, impõe condição ou tenta impedir? Por quê?"
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você ensinou; a outra pessoa aprendeu e escolhe o que fazer com isso."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "L07",
       "titulo": "Quem me orienta",
       "familia": "L",
@@ -516,10 +558,11 @@
         "Outra pessoa": "Defina seu projeto e os critérios que defende.",
         "Em cena": "Que conselho aceita e onde começa sua decisão?"
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Alguém oferece direção por experiência ou poder. Onde começa a sua decisão?"
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "L08",
       "titulo": "Companhia de estrada",
       "familia": "L",
@@ -528,10 +571,11 @@
         "Outra pessoa": "Defina destino, prioridade ou limite próprio.",
         "Em cena": "Que parte da rota ou do plano precisa combinar?"
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Vocês seguem pela mesma estrada com prioridades que podem não coincidir."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "L09",
       "titulo": "Responsabilidade escolhida",
       "familia": "L",
@@ -540,10 +584,11 @@
         "Outra pessoa": "Defina uma decisão que essa pessoa quer tomar.",
         "Em cena": "Onde cuidado vira interferência, abandono ou apoio?"
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você escolheu cuidar de alguém. A pessoa cuidada ainda pode escolher por si."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "L10",
       "titulo": "Afeto com divergência",
       "familia": "L",
@@ -552,10 +597,11 @@
         "Outra pessoa": "Defina o que quer, sem exigir concordância.",
         "Em cena": "Como a discordância afeta a relação e a decisão?"
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você gosta de alguém que discorda de você. O afeto não precisa encerrar a discussão."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "L11",
       "titulo": "Quem está ausente",
       "familia": "L",
@@ -564,10 +610,11 @@
         "Outra pessoa": "Defina o que sabe de sua vontade; o resto é incerto.",
         "Em cena": "Como responde a distância, silêncio ou mensagem?"
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Alguém vivo está longe. Separe o que sabe do que imagina sobre sua vontade."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "L12",
       "titulo": "Estranho que me marcou",
       "familia": "L",
@@ -576,10 +623,11 @@
         "Outra pessoa": "Defina algo atual que você ainda não conhece.",
         "Em cena": "Como a primeira impressão ajuda ou engana?"
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Um encontro breve deixou marca. A pessoa de hoje pode surpreender sua lembrança."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "V01",
       "titulo": "Perguntas que delimitam",
       "familia": "V",
@@ -588,10 +636,11 @@
         "Ensaie": "“Até quando? Quem pode autorizar?”",
         "Subtexto": "Pode esclarecer, testar ou ganhar tempo."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você recorta a conversa com perguntas precisas. Cada resposta abre a próxima."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "V02",
       "titulo": "Cuidado pelas mãos",
       "familia": "V",
@@ -600,10 +649,11 @@
         "Ensaie": "Ajuste a alça, aproxime o objeto e espere; ou diga: “Eu seguro.”",
         "Subtexto": "O gesto pode acolher, reparar ou evitar exposição."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Suas mãos fazem parte da fala. Um pequeno cuidado pode dizer muito."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "V03",
       "titulo": "Imagens do cotidiano",
       "familia": "V",
@@ -612,10 +662,11 @@
         "Ensaie": "“Esse acordo é ponte: precisa apoiar dos dois lados.”",
         "Subtexto": "Pode explicar, persuadir ou diminuir tensão."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você traduz uma ideia em objeto ou imagem cotidiana que ambos conhecem."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "V04",
       "titulo": "Conclusão primeiro",
       "familia": "V",
@@ -624,10 +675,11 @@
         "Ensaie": "“Saímos hoje.” Aponte a rota e espere a reação.",
         "Subtexto": "Pode orientar, proteger ou encerrar uma discussão."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você entrega a conclusão primeiro e deixa o silêncio carregar a reação."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "V05",
       "titulo": "Termos cuidadosos",
       "familia": "V",
@@ -636,10 +688,11 @@
         "Ensaie": "“Posso garantir o acesso. O resultado, ainda não.”",
         "Subtexto": "Pode limitar promessa, negociar ou esconder insegurança."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você escolhe os termos com atenção. Uma palavra corrigida muda a promessa."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "V06",
       "titulo": "Lembrança breve",
       "familia": "V",
@@ -648,10 +701,11 @@
         "Ensaie": "“Na última travessia faltou corda. Trouxe duas.”",
         "Subtexto": "Pode alertar, criar intimidade ou justificar cautela."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você traz uma lembrança breve para iluminar o que acontece agora."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "V07",
       "titulo": "Raciocínio em voz alta",
       "familia": "V",
@@ -660,10 +714,11 @@
         "Ensaie": "“Se o selo é novo... então alguém voltou aqui.”",
         "Subtexto": "Pode investigar, convidar ajuda ou buscar confirmação."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você pensa em voz alta e permite que a hipótese mude diante de outros."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "V08",
       "titulo": "Atenção pessoal",
       "familia": "V",
@@ -672,10 +727,11 @@
         "Ensaie": "“Você falou da sua irmã. Isso muda sua resposta?”",
         "Subtexto": "Pode cuidar, investigar ou usar o detalhe como argumento."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você se lembra de um detalhe pessoal. Use-o com atenção à pessoa, não apenas ao argumento."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "V09",
       "titulo": "Entusiasmo que convida",
       "familia": "V",
@@ -684,10 +740,11 @@
         "Ensaie": "“Tenho uma ideia! Você testa e eu preparo o resto?”",
         "Subtexto": "Pode mobilizar, compartilhar prazer ou pedir coragem."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Sua energia abre uma tarefa compartilhada. Convide para uma parte concreta."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "V10",
       "titulo": "Humor que muda o ângulo",
       "familia": "V",
@@ -696,10 +753,11 @@
         "Ensaie": "“A porta venceu. Tentamos a janela?”",
         "Subtexto": "Pode aliviar, criticar, disfarçar ou marcar superioridade."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Seu humor muda o ângulo da cena. Veja se alguém riu com você."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "V11",
       "titulo": "Passo a passo",
       "familia": "V",
@@ -708,10 +766,11 @@
         "Ensaie": "“Primeiro guardamos isto. Depois ouvimos os dois.”",
         "Subtexto": "Pode ensinar, organizar ou recuperar controle."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Você organiza o pensamento em passos que o outro consegue acompanhar."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "V12",
       "titulo": "Convite à participação",
       "familia": "V",
@@ -720,10 +779,11 @@
         "Ensaie": "“É minha proposta. O que precisa mudar para você?”",
         "Subtexto": "Pode incluir, negociar ou dividir responsabilidade."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Sua proposta deixa uma abertura real para a resposta e para a mudança."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "P01",
       "titulo": "Crédito em disputa",
       "familia": "P",
@@ -732,10 +792,11 @@
         "Pesa": "Reconhecimento afeta acesso, identidade ou recompensa.",
         "Abra": "Mostre as reivindicações e deixe a reação em aberto."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Uma disputa por crédito altera quem é visto, ouvido ou recompensado."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "P02",
       "titulo": "Oferta com condições",
       "familia": "P",
@@ -744,10 +805,11 @@
         "Pesa": "Aceitar compromete liberdade, recurso ou outro objetivo.",
         "Abra": "Defina condição conhecida e assimetria; não imponha acordo."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "A oferta é tentadora; suas condições merecem ser vistas antes da resposta."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "P03",
       "titulo": "Regra e caso concreto",
       "familia": "P",
@@ -756,10 +818,11 @@
         "Pesa": "Manter ou romper afeta quem depende dela.",
         "Abra": "Mostre os efeitos plausíveis de cada resposta."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Uma regra encontra um caso que não cabe nela sem ferir alguém."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "P04",
       "titulo": "Um vínculo escolhe diferente",
       "familia": "P",
@@ -768,10 +831,11 @@
         "Pesa": "O plano ou vínculo já não continua igual.",
         "Abra": "Mostre sua decisão; o personagem escolhe como reage."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Uma pessoa próxima escolhe diferente. A relação precisa lidar com essa escolha."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "P05",
       "titulo": "Evidência inesperada",
       "familia": "P",
@@ -780,10 +844,11 @@
         "Pesa": "Rever custa algo; insistir assume um risco novo.",
         "Abra": "Separe o fato confirmado do que continua incerto."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Uma prova confiável mudou o terreno. O que ainda permanece desconhecido?"
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "P06",
       "titulo": "Capacidades complementares",
       "familia": "P",
@@ -792,10 +857,11 @@
         "Pesa": "Cooperar exige ceder algo ou lidar com dependência.",
         "Abra": "Defina contribuições e limites sem garantir boa vontade."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Alguém tem o recurso que lhe falta. Cooperar envolve duas vontades."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "P07",
       "titulo": "Custo transferido",
       "familia": "P",
@@ -804,10 +870,11 @@
         "Pesa": "O efeito é conhecido antes da decisão.",
         "Abra": "Mostre quem paga e como pode reagir; não apague a perda."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "A solução transfere a perda para outra pessoa. Mostre quem pagaria."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "P08",
       "titulo": "Vitória já alcançada",
       "familia": "P",
@@ -816,10 +883,11 @@
         "Pesa": "Descansar, celebrar ou crescer usam esse tempo.",
         "Abra": "Apresente possibilidades boas sem punir a conquista."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "A vitória já aconteceu. O tempo que sobra também pode ser bom."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "P09",
       "titulo": "Oportunidade com prazo",
       "familia": "P",
@@ -828,10 +896,11 @@
         "Pesa": "Esperar perde a ocasião; agir aceita risco definido.",
         "Abra": "Diga o prazo e a incerteza; não escolha pelo personagem."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "A ocasião termina antes de todas as respostas chegarem. Qual risco é conhecido?"
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "P10",
       "titulo": "Mais do que esperava",
       "familia": "P",
@@ -840,10 +909,11 @@
         "Pesa": "Há contribuições, direitos e prioridades sobre o excedente.",
         "Abra": "Mostre essas posições e deixe a distribuição em aberto."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Veio mais do que o esperado. Pessoas diferentes podem ter direito ao excedente."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "P11",
       "titulo": "Convite para algo bom",
       "familia": "P",
@@ -852,10 +922,11 @@
         "Pesa": "Ela cruza rotina, compromisso ou receio de participar.",
         "Abra": "Mostre o convite; aceitar não precisa gerar crise."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Há um convite para algo bom. Aceitar ou recusar não precisa virar crise."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "P12",
       "titulo": "Duas promessas, um recurso",
       "familia": "P",
@@ -864,10 +935,11 @@
         "Pesa": "Não se pode entregar ambas como combinado.",
         "Abra": "Mostre pessoas afetadas e deixe prioridade ou ruptura abertas."
       },
-      "modulo": "nucleo"
+      "modulo": "nucleo",
+      "leitura": "Duas promessas precisam do mesmo recurso. Cada pessoa afetada merece ser vista."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "D13",
       "titulo": "Continuar vivo",
       "familia": "D",
@@ -876,10 +948,11 @@
         "Quero": "Sair de [ameaça] com [condição mínima].",
         "Mostre": "Confere uma saída e separa o indispensável.",
         "Interação": "Peça, exija ou procure o recurso que permite sobreviver."
-      }
+      },
+      "leitura": "O perigo é presente. Seu objetivo imediato é sair com o indispensável."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "D14",
       "titulo": "Encontrar intimidade",
       "familia": "D",
@@ -888,10 +961,11 @@
         "Quero": "Construir proximidade com [pessoa] sem presumir reciprocidade.",
         "Mostre": "Oferece presença ou revela algo pessoal.",
         "Interação": "Faça um convite; a outra pessoa pode não querer o mesmo."
-      }
+      },
+      "leitura": "Você deseja se aproximar. O convite pode ser sincero sem exigir resposta igual."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "D15",
       "titulo": "Entender quem sou",
       "familia": "D",
@@ -900,10 +974,11 @@
         "Quero": "Reconhecer que papel ou identidade corresponde à minha experiência.",
         "Mostre": "Compara uma crença sobre si com o que vive.",
         "Interação": "Peça uma prova, escuta ou espaço para experimentar."
-      }
+      },
+      "leitura": "A ideia que tinha de si talvez não baste. O que sua experiência mostra?"
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "D16",
       "titulo": "Reparar minha própria falta",
       "familia": "D",
@@ -912,10 +987,11 @@
         "Quero": "Responder pelo que fiz e viver de outro modo.",
         "Mostre": "Nomeia uma responsabilidade e tenta um gesto de reparação.",
         "Interação": "Defina o que assume; perdão alheio não é garantido."
-      }
+      },
+      "leitura": "Você reconhece uma falta sua e procura responder por ela. A outra pessoa decide o que aceita."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "D17",
       "titulo": "Reaver o que considero meu",
       "familia": "D",
@@ -924,10 +1000,11 @@
         "Quero": "Recuperar [objeto, lugar ou posição] pelo valor que tem em si.",
         "Mostre": "Persegue uma pista ou impede que alguém leve o alvo.",
         "Interação": "Declare a reivindicação; ela pode ser contestada."
-      }
+      },
+      "leitura": "Algo lhe foi tirado, ou você crê que lhe pertence. Sua reivindicação pode ser contestada."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "D18",
       "titulo": "Romper uma ordem",
       "familia": "D",
@@ -936,10 +1013,11 @@
         "Quero": "Desfazer [regra, sistema ou crença coletiva] que quero ver cair.",
         "Mostre": "Ataca um apoio concreto dessa ordem.",
         "Interação": "Provoque uma reação; não exige querer governar depois."
-      }
+      },
+      "leitura": "Uma ordem sustenta o que você quer desfazer. Qual apoio dela pode ser atingido?"
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "F13",
       "titulo": "Pressiono e controlo",
       "familia": "F",
@@ -948,10 +1026,11 @@
         "Faço": "Uso ameaça, restrição ou poder para obter uma conduta.",
         "Ajuda": "Posso conseguir obediência enquanto mantenho a vantagem.",
         "Custa": "Consentimento não é garantido; oposição pode crescer."
-      }
+      },
+      "leitura": "Você usa a vantagem para obter obediência. O resultado não transforma coerção em acordo."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "F14",
       "titulo": "Oculto e enceno",
       "familia": "F",
@@ -960,10 +1039,11 @@
         "Faço": "Escondo intenção ou represento um papel para produzir uma impressão.",
         "Ajuda": "Consigo acesso, proteção ou influência pela aparência.",
         "Custa": "Uma contradição pode expor a encenação e romper confiança."
-      }
+      },
+      "leitura": "Você escolhe o que mostrar e o que ocultar. Toda encenação deixa uma borda exposta."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "F15",
       "titulo": "Insisto além do custo",
       "familia": "F",
@@ -972,10 +1052,11 @@
         "Faço": "Repito a tentativa mesmo quando o desgaste se torna visível.",
         "Ajuda": "Posso avançar onde outros já teriam parado.",
         "Custa": "Corpo, relações ou recursos pagam a insistência."
-      }
+      },
+      "leitura": "Você insiste depois que o custo aparece. O que continua avançando, e quem está pagando?"
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "F16",
       "titulo": "Avalio perigos",
       "familia": "F",
@@ -984,10 +1065,11 @@
         "Faço": "Procuro sinais de risco e testo se a saída é segura.",
         "Ajuda": "Percebo ameaças que passariam despercebidas.",
         "Custa": "Posso paralisar, controlar demais ou suspeitar sem prova."
-      }
+      },
+      "leitura": "Você procura perigos antes do primeiro passo. Separe sinal observado de suspeita."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "F17",
       "titulo": "Tomo a frente",
       "familia": "F",
@@ -996,10 +1078,11 @@
         "Faço": "Distribuo tarefas e decido como a ação começa.",
         "Ajuda": "Dou direção quando falta coordenação.",
         "Custa": "Posso retirar espaço de decisão ou errar por não ouvir."
-      }
+      },
+      "leitura": "Você toma a frente quando falta direção. Deixe espaço para quem também terá de agir."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "F18",
       "titulo": "Sigo ao pé da letra",
       "familia": "F",
@@ -1008,10 +1091,11 @@
         "Faço": "Executo instrução ou regra segundo seus termos explícitos.",
         "Ajuda": "Entregas ficam previsíveis e verificáveis.",
         "Custa": "Uma intenção implícita ou exceção pode passar despercebida."
-      }
+      },
+      "leitura": "Você segue os termos exatos. Uma ordem clara ainda pode deixar uma intenção de fora."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "N13",
       "titulo": "Segurança / confiança",
       "familia": "N",
@@ -1020,10 +1104,11 @@
         "Disputam": "Evitar uma perda e permitir dependência, abertura ou risco.",
         "Mostre": "Um passo depende de deixar de controlar tudo.",
         "Pergunte": "Que sinal permite confiar e qual risco continua real?"
-      }
+      },
+      "leitura": "Você precisa de segurança e deseja confiar. Nenhuma das duas vontades desaparece por decreto."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "N14",
       "titulo": "Controle / entrega",
       "familia": "N",
@@ -1032,10 +1117,11 @@
         "Disputam": "Conferir cada detalhe e permitir espontaneidade ou ação alheia.",
         "Mostre": "Uma tentativa exige soltar parte do comando.",
         "Pergunte": "O que pode deixar acontecer e o que precisa proteger?"
-      }
+      },
+      "leitura": "Você valoriza o cuidado com os detalhes e a liberdade de deixar alguém agir."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "N15",
       "titulo": "Imagem / identidade",
       "familia": "N",
@@ -1044,10 +1130,11 @@
         "Disputam": "Preservar o papel em que acredita e admitir o que vive ou descobre.",
         "Mostre": "Uma experiência contraria a versão que sustenta de si.",
         "Pergunte": "Que parte é crença, desejo ou fato observado?"
-      }
+      },
+      "leitura": "Você sustenta uma imagem de si e encontra uma experiência que não cabe nela."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "N16",
       "titulo": "Apego / desprendimento",
       "familia": "N",
@@ -1056,10 +1143,11 @@
         "Disputam": "Conservar algo significativo e seguir sem mantê-lo igual.",
         "Mostre": "Segurar a lembrança, posição ou rotina cobra um custo atual.",
         "Pergunte": "O que preserva ao soltar, e o que realmente perde?"
-      }
+      },
+      "leitura": "Você quer preservar algo precioso e continuar vivendo sem mantê-lo intacto."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "N17",
       "titulo": "Convicção / vínculo",
       "familia": "N",
@@ -1068,10 +1156,11 @@
         "Disputam": "Realizar um projeto em que acredita e preservar um vínculo.",
         "Mostre": "A decisão ameaça quem importa, sem torná-la automaticamente justa.",
         "Pergunte": "Qual perda admite e qual relação tenta preservar?"
-      }
+      },
+      "leitura": "Você acredita no projeto e se importa com quem ele ameaça afastar."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "N18",
       "titulo": "Impulso / limite",
       "familia": "N",
@@ -1080,10 +1169,11 @@
         "Disputam": "Atender uma vontade recorrente e manter uma escolha ou limite próprio.",
         "Mostre": "A vontade retorna apesar de uma decisão anterior.",
         "Pergunte": "O que dispara a vontade e que limite ainda reconhece?"
-      }
+      },
+      "leitura": "Uma vontade retorna; um limite seu também permanece. O que acontece quando se encontram?"
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "L13",
       "titulo": "Inimigo que me define",
       "familia": "L",
@@ -1092,10 +1182,11 @@
         "Laço": "Um adversário ameaça um objetivo, crença ou identidade importante.",
         "Outra parte": "Defina o que quer de você; admiração e jogo justo são opcionais.",
         "Em cena": "Que reação tenta provocar, impedir ou explorar?"
-      }
+      },
+      "leitura": "Seu adversário toca em algo central para você. Descubra o que ele próprio busca."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "L14",
       "titulo": "Autoridade e dependência",
       "familia": "L",
@@ -1104,10 +1195,11 @@
         "Laço": "Uma pessoa pode autorizar, limitar ou punir a outra.",
         "Outra parte": "Defina quem detém poder e do que depende cada parte.",
         "Em cena": "Mostre ordem, condição e possibilidade real de recusa."
-      }
+      },
+      "leitura": "Há poder desigual entre vocês. Qual recusa é realmente possível?"
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "L15",
       "titulo": "Aliança por interesse",
       "familia": "L",
@@ -1116,10 +1208,11 @@
         "Laço": "Vocês cooperam por objetivos distintos, sem confiança obrigatória.",
         "Outra parte": "Defina o que busca e o que oferece ou esconde.",
         "Em cena": "O que mantém a aliança e o que a faria terminar?"
-      }
+      },
+      "leitura": "A aliança funciona enquanto interesses distintos se encontram. O que cada parte oferece?"
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "L16",
       "titulo": "Alguém que morreu",
       "familia": "L",
@@ -1128,10 +1221,11 @@
         "Laço": "Uma pessoa morta continua significativa por memória ou legado.",
         "Outra parte": "Use apenas o que foi vivido, registrado ou imaginado como tal.",
         "Em cena": "Que lembrança afeta a escolha? Não invente vontade atual do morto."
-      }
+      },
+      "leitura": "Alguém morreu e continua presente na memória ou no legado, não em uma vontade inventada."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "L17",
       "titulo": "Afeto que busco",
       "familia": "L",
@@ -1140,10 +1234,11 @@
         "Laço": "Você deseja proximidade com alguém que tem vontade própria.",
         "Outra parte": "Defina o que essa pessoa quer e o que você ainda não sabe.",
         "Em cena": "Mostre aproximação, distância ou desencontro sem garantir reciprocidade."
-      }
+      },
+      "leitura": "Você deseja proximidade com alguém que pode querer outra coisa."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "L18",
       "titulo": "Objeto que me prende",
       "familia": "L",
@@ -1152,10 +1247,11 @@
         "Laço": "Um objeto ou lugar concentra apego, identidade ou fixação.",
         "Outra parte": "Ele não tem vontade própria, salvo se isso existir no cenário.",
         "Em cena": "Que gesto revela o apego e o que custa deixá-lo?"
-      }
+      },
+      "leitura": "Um objeto ou lugar concentra seu apego. O que muda quando precisa soltá-lo?"
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "V13",
       "titulo": "Silêncio que comunica",
       "familia": "V",
@@ -1164,10 +1260,11 @@
         "Faça": "Use olhar, distância, gesto ou objeto no lugar de fala.",
         "Ensaie": "Estenda a mão, recue ou entregue algo; espere a resposta.",
         "Subtexto": "Pode reservar, desejar, recusar ou pedir sem palavras."
-      }
+      },
+      "leitura": "Você pode dizer muito sem palavras. Dê tempo para o gesto receber resposta."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "V14",
       "titulo": "Literalidade",
       "familia": "V",
@@ -1176,10 +1273,11 @@
         "Faça": "Responda aos termos exatos, com pouca inferência social.",
         "Ensaie": "“A ordem é proteger. Defina quem não pode ser ferido.”",
         "Subtexto": "Pode buscar precisão, obedecer ou mostrar desencontro."
-      }
+      },
+      "leitura": "Você leva as palavras ao pé da letra e pede a precisão de que precisa."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "V15",
       "titulo": "Fala cerimonial",
       "familia": "V",
@@ -1188,10 +1286,11 @@
         "Faça": "Use cadência solene e referências ao papel que representa.",
         "Ensaie": "“Por este compromisso, assumo a guarda da passagem.”",
         "Subtexto": "Pode legitimar, inspirar ou sustentar uma identidade."
-      }
+      },
+      "leitura": "Sua fala dá forma pública a um papel, voto ou compromisso."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "V16",
       "titulo": "Encanto calculado",
       "familia": "V",
@@ -1200,10 +1299,11 @@
         "Faça": "Cuide do ritmo, da atenção e da oferta para conduzir a conversa.",
         "Ensaie": "“Tenho o que deseja. Antes, uma pergunta sobre você.”",
         "Subtexto": "Pode seduzir, negociar ou intimidar com cortesia."
-      }
+      },
+      "leitura": "Você mede o ritmo e a atenção da conversa para conduzi-la."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "V17",
       "titulo": "Registros alternados",
       "familia": "V",
@@ -1212,10 +1312,11 @@
         "Faça": "Mude pronome, ritmo ou vocabulário ao mudar de posição.",
         "Ensaie": "Repita a questão em dois tons; deixe claro o contraste.",
         "Subtexto": "Pode mostrar papel encenado ou posições internas em conflito."
-      }
+      },
+      "leitura": "Seu registro muda com a posição que ocupa. Mostre o contraste sem inventar sua causa."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "V18",
       "titulo": "Fala contida",
       "familia": "V",
@@ -1224,10 +1325,11 @@
         "Faça": "Use pausa, correção ou frase curta para conter exposição.",
         "Ensaie": "“Eu... posso tentar. Não é isso que quero dizer.”",
         "Subtexto": "Pode esconder receio, controlar emoção ou pedir espaço."
-      }
+      },
+      "leitura": "Você reduz, pausa ou corrige a fala antes de se expor demais."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "P13",
       "titulo": "Perigo presente",
       "familia": "P",
@@ -1236,10 +1338,11 @@
         "Acontece": "Uma ameaça concreta impede seguir como antes.",
         "Pesa": "Integridade, vida ou segurança estão em risco agora.",
         "Abra": "Defina ameaça e saídas plausíveis; sobrevivência não é um prêmio."
-      }
+      },
+      "leitura": "O perigo está aqui e impede a rotina. Mostre saídas plausíveis."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "P14",
       "titulo": "Tentação acessível",
       "familia": "P",
@@ -1248,10 +1351,11 @@
         "Acontece": "Algo desejado fica ao alcance por um caminho problemático.",
         "Pesa": "Obter o alvo cobra um limite, compromisso ou risco.",
         "Abra": "Mostre acesso e custo sem decidir se resistirá."
-      }
+      },
+      "leitura": "O que se deseja está ao alcance por um caminho que cobra um custo."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "P15",
       "titulo": "Sinal ambíguo",
       "familia": "P",
@@ -1260,10 +1364,11 @@
         "Acontece": "Um sinal contradiz a explicação atual, mas não está confirmado.",
         "Pesa": "Agir ou esperar depende de informação incerta.",
         "Abra": "Separe percepção, relato e fato; não declare prova sem suporte."
-      }
+      },
+      "leitura": "Um sinal inquieta, mas ainda não é prova. Separe fato e interpretação."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "P16",
       "titulo": "Perda sem retorno",
       "familia": "P",
@@ -1272,10 +1377,11 @@
         "Acontece": "Uma pessoa, oportunidade ou condição não pode ser recuperada igual.",
         "Pesa": "A escolha atual convive com essa ausência.",
         "Abra": "Mostre o que acabou e o que ainda é possível, sem exigir superação."
-      }
+      },
+      "leitura": "Algo se perdeu sem retorno igual. O que ainda pode ser escolhido?"
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "P17",
       "titulo": "Controle exigido",
       "familia": "P",
@@ -1284,10 +1390,11 @@
         "Acontece": "Alguém com vantagem tenta impor uma conduta.",
         "Pesa": "Recusar, obedecer ou resistir tem consequências distintas.",
         "Abra": "Defina poder e margens reais; não presuma consentimento."
-      }
+      },
+      "leitura": "Alguém exige obediência a partir de uma vantagem real. Mostre as margens de resposta."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "P18",
       "titulo": "O custo em mim",
       "familia": "P",
@@ -1296,10 +1403,11 @@
         "Acontece": "Prosseguir consome meu corpo, tempo, identidade ou paz.",
         "Pesa": "A perda pessoal já interfere na próxima ação.",
         "Abra": "Mostre o custo observável; insistir não garante grandeza."
-      }
+      },
+      "leitura": "Seguir adiante já cobra corpo, tempo ou paz. Dê forma visível ao custo."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "U01",
       "titulo": "NPC rápido",
       "familia": "U",
@@ -1308,10 +1416,11 @@
         "Complete": "Quero [resultado]. Tento obter [algo] de vocês.",
         "Entre": "Mostre F e V; pedir, oferecer ou exigir não garante resposta."
       },
-      "modulo": "guia"
+      "modulo": "guia",
+      "leitura": "Comece pequeno: uma intenção, um modo de agir e uma expressão em cena."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "U02",
       "titulo": "Personagem completo",
       "familia": "U",
@@ -1320,10 +1429,11 @@
         "Conecte": "Não invente dois valores para justificar o sorteio.",
         "Prepare": "Uma entrada, uma tentativa de ação e um custo."
       },
-      "modulo": "guia"
+      "modulo": "guia",
+      "leitura": "Acrescente camadas apenas quando elas mudarem uma escolha possível."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "U03",
       "titulo": "Conversa viva",
       "familia": "U",
@@ -1332,10 +1442,11 @@
         "Tática": "Convencer, acolher, testar, negociar ou ganhar tempo.",
         "Reaja": "Use V; mude a tática quando a resposta mudar."
       },
-      "modulo": "guia"
+      "modulo": "guia",
+      "leitura": "Numa conversa, cada resposta pode pedir outra tática do personagem."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "U04",
       "titulo": "Subtexto",
       "familia": "U",
@@ -1344,10 +1455,11 @@
         "Mostre": "Gesto e fala oferecem pistas; silêncio também comunica.",
         "Respeite": "Regras resolvem percepção; jogadores decidem interpretação e ação."
       },
-      "modulo": "guia"
+      "modulo": "guia",
+      "leitura": "O que se quer e o que se mostra podem diferir sem exigir segredo."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "U05",
       "titulo": "Dupla em movimento",
       "familia": "U",
@@ -1356,10 +1468,11 @@
         "Defina": "Cada uma quer algo; reciprocidade e equilíbrio são opcionais.",
         "Encontre": "Um ponto de contato e um atrito; cooperação não é obrigatória."
       },
-      "modulo": "guia"
+      "modulo": "guia",
+      "leitura": "Duas pessoas ganham vida quando cada uma pode querer algo próprio."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "U06",
       "titulo": "Escolha aberta",
       "familia": "U",
@@ -1368,10 +1481,11 @@
         "Concretize": "Defina quem é afetado e quais poder, recurso ou risco pesam.",
         "Abra": "Prepare consequências plausíveis; aceite soluções da mesa."
       },
-      "modulo": "guia"
+      "modulo": "guia",
+      "leitura": "Prepare circunstância e consequências; deixe a decisão para a mesa."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "U07",
       "titulo": "Depois da escolha",
       "familia": "U",
@@ -1380,10 +1494,11 @@
         "Atualize": "Anote uma mudança em objetivo, método ou vínculo, se houver.",
         "Retome": "Na próxima cena, mostre essa consequência antes de sortear mais."
       },
-      "modulo": "guia"
+      "modulo": "guia",
+      "leitura": "Depois da cena, registre a mudança observada antes de escolher outra carta."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "U08",
       "titulo": "Elenco variado",
       "familia": "U",
@@ -1392,10 +1507,11 @@
         "Contraste": "Varie desejo, método e expressão; sorteie sem reposição.",
         "Confira": "Ausência de conflito não é falha. Não force trauma ou redenção."
       },
-      "modulo": "guia"
+      "modulo": "guia",
+      "leitura": "Varie objetivos, métodos e expressão sem obrigar todos a ter conflito."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "U09",
       "titulo": "Ajuste e continuidade",
       "familia": "U",
@@ -1404,10 +1520,11 @@
         "Adapte": "Se a carta contradiz a pessoa, troque ou deixe a camada aberta.",
         "Separe": "U é consulta; registre código e versão ao retomar alguém."
       },
-      "modulo": "guia"
+      "modulo": "guia",
+      "leitura": "Quando a carta contrariar a história jogada, preserve a história."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "D19",
       "titulo": "Punir quem causou o dano",
       "familia": "D",
@@ -1416,10 +1533,11 @@
         "Mostre": "Escolhe o alvo e a forma de retribuição; reparar a vítima pode ser outro objetivo.",
         "Pergunte": "Que resultado encerraria a busca? Pode não haver limite reconhecido nem encerramento possível."
       },
-      "modulo": "expansao_5"
+      "modulo": "expansao_5",
+      "leitura": "Você quer que o responsável pague pelo dano. Punir e reparar não são a mesma escolha."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "D20",
       "titulo": "Sair de um fardo",
       "familia": "D",
@@ -1428,10 +1546,11 @@
         "Mostre": "Tenta escapar, desaparecer ou interromper uma obrigação; registre a intenção concreta sem presumir desejo de viver.",
         "Pergunte": "O que quer que cesse? Que saída percebe e que possibilidades desconhece? Não determine a saída nem imponha recuperação."
       },
-      "modulo": "expansao_5"
+      "modulo": "expansao_5",
+      "leitura": "Há um peso que você não consegue continuar carregando. Nomeie o que precisa cessar sem decidir a saída por antecipação."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "D21",
       "titulo": "Cumprir uma obrigação",
       "familia": "D",
@@ -1440,10 +1559,11 @@
         "Mostre": "Consulta o mandato e age pelo que ele exige, mesmo sem promessa pessoal.",
         "Pergunte": "É escolha, obrigação ou protocolo? Quanto pode interpretar, recusar ou aprender? Não atribua vontade autônoma sem evidência."
       },
-      "modulo": "expansao_5"
+      "modulo": "expansao_5",
+      "leitura": "Um dever orienta seus passos. Descubra de onde veio e quanto espaço deixa para sua interpretação."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "D22",
       "titulo": "Provar meu valor a mim",
       "familia": "D",
@@ -1452,10 +1572,11 @@
         "Mostre": "Escolhe uma medida pessoal de dignidade, capacidade ou respeito por si.",
         "Pergunte": "Que prova aceitaria? Não confunda reconhecimento público, descoberta de identidade e valor pessoal."
       },
-      "modulo": "expansao_5"
+      "modulo": "expansao_5",
+      "leitura": "A prova que você busca é para si. O aplauso de outros talvez não resolva nada."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "D23",
       "titulo": "Exercer minha vocação",
       "familia": "D",
@@ -1464,10 +1585,11 @@
         "Mostre": "Procura tempo, meios ou ocasião para praticar, mesmo sem prêmio ou fama.",
         "Pergunte": "O que a prática oferece que o reconhecimento não substitui? Ela pode nutrir ou consumir outras partes da vida."
       },
-      "modulo": "expansao_5"
+      "modulo": "expansao_5",
+      "leitura": "A própria prática lhe dá sentido. Onde ela cabe entre as outras partes da sua vida?"
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "D24",
       "titulo": "Controlar a imagem que deixo",
       "familia": "D",
@@ -1476,10 +1598,11 @@
         "Mostre": "Seleciona sinais, relatos e comparações que sustentem sua reputação ou versão da história.",
         "Pergunte": "Que impressão precisa manter? Quem pode contradizê-la? Objetivo de imagem não implica querer descobrir ou revelar identidade."
       },
-      "modulo": "expansao_5"
+      "modulo": "expansao_5",
+      "leitura": "Você quer governar a imagem que deixam de você. Quem conhece outra versão?"
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "F19",
       "titulo": "Uso âncoras externas",
       "familia": "F",
@@ -1488,10 +1611,11 @@
         "Ajuda": "Posso agir quando lembrar, ordenar ou conferir tudo internamente não é viável.",
         "Custa": "Uma âncora incompleta, desatualizada ou manipulada pode orientar mal. Registre autoria e acesso sem garantir que o registro seja verdadeiro."
       },
-      "modulo": "expansao_5"
+      "modulo": "expansao_5",
+      "leitura": "Você usa notas, rituais ou instruções para seguir. Confira quem fez a âncora e se ainda vale."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "F20",
       "titulo": "Recuo para suportar",
       "familia": "F",
@@ -1500,10 +1624,11 @@
         "Ajuda": "Ganho distância, alívio ou tempo para continuar.",
         "Custa": "Uma necessidade pode permanecer sem resposta e alguém pode não saber por que me afastei. Pode ser proteção sob coerção, não decisão plenamente livre."
       },
-      "modulo": "expansao_5"
+      "modulo": "expansao_5",
+      "leitura": "Você se afasta do que não consegue enfrentar agora. A distância pode proteger e também deixar algo sem resposta."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "N19",
       "titulo": "Esperança / desistência",
       "familia": "N",
@@ -1512,10 +1637,11 @@
         "Mostre": "A mesma pessoa encontra motivos reais para tentar mais uma vez e para abandonar essa tentativa.",
         "Pergunte": "Que sinal sustenta cada lado? A derrota externa sozinha não prova conflito interno; desistir de uma tentativa não é automaticamente desistir da vida."
       },
-      "modulo": "expansao_5"
+      "modulo": "expansao_5",
+      "leitura": "Você vê uma razão para tentar de novo e outra para poupar as forças que restam."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "N20",
       "titulo": "Dever recebido / autoria da vida",
       "familia": "N",
@@ -1524,10 +1650,11 @@
         "Mostre": "A obrigação importa à pessoa, mas custa um caminho que ela também valoriza.",
         "Pergunte": "Quanto desse dever foi imposto, herdado ou escolhido? Se só há coerção sem adesão, registre pressão em vez de inventar valor concorrente."
       },
-      "modulo": "expansao_5"
+      "modulo": "expansao_5",
+      "leitura": "O dever recebido tem valor para você, mas existe uma vida que também quer escolher."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "N21",
       "titulo": "Verdade / consolo",
       "familia": "N",
@@ -1536,10 +1663,11 @@
         "Mostre": "Há razões valorizadas para esclarecer e para proteger o consolo, ainda que escolha ocultar ou selecionar a informação.",
         "Pergunte": "Quem sabe o quê? Que importância dá à verdade? Mentir sem valorizar a verdade não basta para preencher os dois lados."
       },
-      "modulo": "expansao_5"
+      "modulo": "expansao_5",
+      "leitura": "Você quer conhecer a verdade e preservar um consolo que considera valioso."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "N22",
       "titulo": "Dedicação / presença cotidiana",
       "familia": "N",
@@ -1548,10 +1676,11 @@
         "Mostre": "A pessoa preza a prática e também algo que perde enquanto só pratica.",
         "Pergunte": "Que ocasião concreta quer viver além do trabalho? Se os outros cobram descanso mas a pessoa não o valoriza, há custo externo, não tensão comprovada."
       },
-      "modulo": "expansao_5"
+      "modulo": "expansao_5",
+      "leitura": "A obra importa, e a vida fora dela também. O que perderia se só uma coubesse?"
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "L19",
       "titulo": "Vínculo por obrigação",
       "familia": "L",
@@ -1560,10 +1689,11 @@
         "Outra parte": "Defina sua vontade e a margem que tem diante desse papel; receber cuidado não implica consentir com interferência.",
         "Em cena": "O que é obrigação, afeto, autoridade ou escolha? O papel pode persistir mesmo sem proximidade ou acordo voluntário."
       },
-      "modulo": "expansao_5"
+      "modulo": "expansao_5",
+      "leitura": "Um papel lhe atribuiu responsabilidade por alguém. Dever, afeto e consentimento não se confundem."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "L20",
       "titulo": "Afeto misturado a domínio",
       "familia": "L",
@@ -1572,10 +1702,11 @@
         "Outra parte": "Pode desejar distância, recusar a relação ou querer algo que contrarie seu plano.",
         "Em cena": "Registre o que há de afeto demonstrado e de controle exercido. Se só existe domínio, use autoridade ou inimigo; não invente amor."
       },
-      "modulo": "expansao_5"
+      "modulo": "expansao_5",
+      "leitura": "Há afeto e há controle nessa relação. Observe os dois sem chamar domínio de cuidado."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "V19",
       "titulo": "Língua em sinais",
       "familia": "V",
@@ -1584,10 +1715,11 @@
         "Ensaie": "Descreva o conteúdo comunicado e se há confirmação ou tradução, sem inventar sinais reais.",
         "Subtexto": "Expressão, ritmo e escolha do conteúdo podem mostrar intenção. Língua de sinais não é ausência de linguagem nem sinônimo de silêncio."
       },
-      "modulo": "expansao_5"
+      "modulo": "expansao_5",
+      "leitura": "Você se expressa em língua de sinais completa. Defina quem compreende o que comunica."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "V20",
       "titulo": "Palavras que ficam",
       "familia": "V",
@@ -1596,10 +1728,11 @@
         "Ensaie": "Registre destinatário, conteúdo, autoria e distância entre escrever e reler.",
         "Subtexto": "Uma carta ou nota pode dizer o que ainda não consegue declarar. O meio não garante memória fiel, sinceridade ou leitura imediata."
       },
-      "modulo": "expansao_5"
+      "modulo": "expansao_5",
+      "leitura": "Você deixa palavras para serem recebidas em outro tempo. A distância também faz parte da mensagem."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "V21",
       "titulo": "Imagens que carregam sentido",
       "familia": "V",
@@ -1608,10 +1741,11 @@
         "Ensaie": "Escolha uma imagem coerente com sua experiência e diga o que ela deixa implícito; não copie uma fala conhecida.",
         "Subtexto": "Pode mostrar assombro, despedida ou distância. Não precisa de cerimônia, autoridade ou metáfora cotidiana."
       },
-      "modulo": "expansao_5"
+      "modulo": "expansao_5",
+      "leitura": "Uma imagem ou um ritmo comunica aquilo que a explicação direta empobreceria."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "V22",
       "titulo": "Vocabulário próprio",
       "familia": "V",
@@ -1620,10 +1754,11 @@
         "Ensaie": "Defina duas escolhas de linguagem, uma ocasião de uso e o que o interlocutor entende.",
         "Subtexto": "O vocabulário situa pertencimento, estilo ou poder. Evite caricatura de grupo real; escolha expressões originais sem copiar bordões."
       },
-      "modulo": "expansao_5"
+      "modulo": "expansao_5",
+      "leitura": "Seu vocabulário revela repertório e pertencimento. Crie-o sem caricaturar um grupo real."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "G01",
       "titulo": "Memória e registros",
       "familia": "G",
@@ -1632,10 +1767,11 @@
         "Em cena": "Defina alcance da retenção, quem altera notas e o que permite recuperar contexto; não improvise uma perda de memória só para forçar surpresa.",
         "Use": "F19 descreve o método; V20 o meio. O guia descreve continuidade, não diagnóstico nem conflito entre valores."
       },
-      "modulo": "guia_contexto"
+      "modulo": "guia_contexto",
+      "leitura": "Memória, experiência e registro são fontes distintas de continuidade."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "G02",
       "titulo": "Percepção e verificação",
       "familia": "G",
@@ -1644,10 +1780,11 @@
         "Em cena": "Escolha como um sinal pode ser verificado pelas regras e que explicações permanecem abertas.",
         "Use": "P15 cria incerteza, mas não explica sua causa. Registre projeção, aparência ou crença apenas quando o recorte ou cenário as sustentar."
       },
-      "modulo": "guia_contexto"
+      "modulo": "guia_contexto",
+      "leitura": "Percepção, relato e fato devem continuar separados até a verificação."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "G03",
       "titulo": "Influência externa",
       "familia": "G",
@@ -1656,10 +1793,11 @@
         "Em cena": "Defina gatilho, alcance, margem de resistência e o que permanece escolha. Não atribua vontade a um objeto sem base no cenário.",
         "Use": "O Anel, uma maldição ou um hotel podem exigir esse contexto; ele não transforma influência em tensão interna nem autoriza controlar jogadores."
       },
-      "modulo": "guia_contexto"
+      "modulo": "guia_contexto",
+      "leitura": "Uma influência externa tem limites próprios; registre o que ainda é escolha."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "G04",
       "titulo": "Mandato e aprendizagem",
       "familia": "G",
@@ -1668,10 +1806,11 @@
         "Em cena": "Defina o que pode aprender, quem pode mudar a ordem e como resolve instruções incompatíveis.",
         "Use": "D21/L19 cabem em dever e programação; não presuma afeto, consentimento ou livre-arbítrio pela aparência de cuidado."
       },
-      "modulo": "guia_contexto"
+      "modulo": "guia_contexto",
+      "leitura": "Um mandato diz o que se exige, não tudo o que a pessoa pode aprender."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "G05",
       "titulo": "Identidade e mudança de registro",
       "familia": "G",
@@ -1680,10 +1819,11 @@
         "Em cena": "Registre o que muda, quem percebe e o que cada posição sabe. V17 só descreve expressão; não explica causas ou retenção de experiência.",
         "Use": "Não deduza diagnóstico de alternância de fala nem associe condição real a violência. Preserve o mecanismo específico da obra ou do cenário."
       },
-      "modulo": "guia_contexto"
+      "modulo": "guia_contexto",
+      "leitura": "Uma mudança de fala não explica, por si, identidade ou diagnóstico."
     },
     {
-      "versao": "5.0",
+      "versao": "5.1",
       "codigo": "G06",
       "titulo": "Orientação sem conflito ativo",
       "familia": "G",
@@ -1692,7 +1832,8 @@
         "Em cena": "Uma pessoa pode manter o objetivo e responder ao custo sem hesitar por outro valor; varie tática, informação e relação.",
         "Use": "N é opcional. Declare ausente ou desconhecido quando não houver dois lados demonstrados. Isso continua X na comparação histórica de seis camadas."
       },
-      "modulo": "guia_contexto"
+      "modulo": "guia_contexto",
+      "leitura": "Um objetivo firme também produz um personagem vivo; conflito interno é opcional."
     }
   ],
   "familias_sorteaveis": [
@@ -1715,6 +1856,6 @@
     "guia_contexto": 6
   },
   "modo_rapido": "D/F/V; L/P opcionais; N apenas com dois valores internos reais",
-  "preservacao": "Todos os 117 códigos, títulos, campos e módulos de 4.0 preservados; só o metadado de versão muda.",
-  "comparacao": "Critérios E/A/X de seis famílias preservados; G não entra no denominador e ausência de N não conta como E."
+  "preservacao": "Os 141 códigos, títulos, campos e módulos de 5.0 permanecem; 5.1 acrescenta uma leitura editorial individual a cada carta.",
+  "comparacao": "O método D/F/V, a opção L/P e o critério de dois valores reais para N permanecem. U/G continuam fora do sorteio de personalidade."
 }

@@ -4,7 +4,7 @@ Persona Cards oferece três entradas: ler o deck, usar a skill ou abrir a oficin
 
 ## Sem instalar o aplicativo
 
-Leia o [manual 5.0](../deck/manual-5.0.md), escolha D/F/V e complete objetivo, método e expressão com detalhes do cenário. Vínculo e pressão são opcionais; N exige dois valores em disputa. Consulte [a skill](SKILL.md) para uso com assistentes.
+Leia o [manual 5.1](../deck/manual-5.1.md), escolha D/F/V e leia a abertura de cada carta. Complete objetivo, método e expressão com detalhes do cenário. Vínculo e pressão são opcionais; N exige dois valores em disputa. Consulte [a skill](SKILL.md) para uso com assistentes.
 
 ## Oficina no Windows
 

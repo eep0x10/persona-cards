@@ -1,6 +1,6 @@
-# Persona Cards — laboratório web
+# Persona Cards — mesa web
 
-Protótipo local em português para experimentar o deck **5.0**. As 141 cartas são uma cópia fiel do arquivo do projeto, com 126 cartas de criação e 15 guias. Guias U/G nunca entram em sorteios de personalidade.
+Mesa local em português para explorar o deck **5.1** por cartas, sem formulário. As 141 cartas têm uma abertura para ler ao puxar e uma ilustração própria: 126 cartas de criação e 15 guias. O [README principal](../README.md) explica as três entregas do projeto e o método completo, com cinco personagens de exemplo.
 
 ## Abrir
 
@@ -8,9 +8,9 @@ Endereço local: **http://127.0.0.1:8766**. Para iniciar novamente no Windows, e
 
 ## Usar
 
-Explore o catálogo por família, módulo, código ou conteúdo. Inspecionar uma carta não a seleciona; use a ação explícita para levá-la à ficha. A oficina começa com desejo/objetivo, método e expressão. Relação, pressão e conflito podem ser acrescentados; conflito interno só faz sentido quando houver dois valores reais em disputa.
+Comece pelas famílias Desejo, Forma de agir e Expressão. Alterne **Mesa / Grade** para ver a mão em leque ou comparar as cartas de uma família. Navegue pela mão com setas, gesto ou rolagem horizontal, vire a carta para consultar seus convites e use **Escolher esta carta** para levá-la à combinação. Explorar e virar não selecionam. Na Grade, tocar abre a carta na Mesa. As posições da combinação permitem voltar a uma escolha sem preencher ficha ou questionário.
 
-Sorteie uma combinação, troque uma família ou mantenha cartas durante o sorteio. Complete nome, papel, contexto e camadas com detalhes da campanha. A síntese é um apoio baseado nas cartas e no texto que você escreve; não usa um serviço de IA nem promete uma história pronta.
+As combinações novas recebem nome automático. A interpretação é feita pela pessoa ou pelo grupo ao jogar. Textos de fichas antigas continuam preservados, mesmo sem campos de edição na mesa. O app não usa geração por IA. Navegação, virada, entrada na Grade e escolha usam Anime.js, com limpeza das instâncias. O padrão acompanha a preferência dinâmica de movimento reduzido; o controle no rodapé permite escolher movimento completo, reduzido ou voltar a seguir o sistema.
 
 Rascunhos e personagens são mantidos **neste navegador e neste endereço**. Exportar JSON/Markdown permite levar uma ficha para outro lugar; importar JSON validado cria uma nova ficha. Outro navegador ou outro endereço/porta tem armazenamento separado. O protótipo não tem contas, sincronização ou banco remoto.
 

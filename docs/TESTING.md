@@ -12,7 +12,9 @@ npm --prefix app ci
 npm --prefix app run build
 ```
 
-`tests/test_deck.py` protege identidade e hash das três cópias do deck, contagem/códigos únicos, consulta, busca e limites de sorteio. `app/test_api.py` protege deck, filtros/exclusões, erros, composição e OpenAPI. `tests/test_docs.py` verifica referências documentais locais, anchors internos, banner e navegação. O workflow Checks executa esses contratos e o build.
+`tests/test_deck.py` protege o hash congelado de 5.0, identidade das três cópias ativas 5.1, contagem/códigos únicos, as 141 leituras e limites de sorteio. `app/test_api.py` protege deck, filtros/exclusões, erros, composição e OpenAPI. `tests/test_docs.py` verifica referências documentais locais, anchors internos, banner e navegação. O workflow Checks executa esses contratos e o build.
+
+Para reconstruir a edição de leitura e os arquivos ilustrados de impressão, execute `python deck/build_5_1.py`, `python deck/build_5_1_docs.py` e `python deck/render_print_illustrated_5_1.py`. Depois, execute `python deck/verify_illustrated_print_5_1.py`. A renderização requer ReportLab, pypdf e as fontes Georgia/Arial indicadas no script; a verificação de transparência das artes também usa Pillow. A validação digital da impressão está registrada em [VALIDACAO.md](VALIDACAO.md); ela não substitui uma prova física.
 
 A conferência original no navegador observou seleção, sorteio com carta mantida, edição, salvamento, recarga, exportação/importação e rejeição de ficha inválida. Desktop e 390 px foram examinados sem transbordamento horizontal. Movimento reduzido foi observado; o modo completo não foi conferido visualmente naquele ambiente.
 

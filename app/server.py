@@ -21,6 +21,7 @@ class Card(BaseModel):
     versao:str
     codigo:str
     titulo:str
+    leitura:str
     familia:Literal['D','F','N','L','V','P','U','G']
     campos:dict[str,str]
     modulo:Literal['nucleo','expansao','expansao_5','guia','guia_contexto']
@@ -39,7 +40,7 @@ class DrawRequest(BaseModel):
     excluded_codes:list[str]=Field(default_factory=list,max_length=126)
 
 class DrawResponse(BaseModel):
-    version:Literal['5.0']='5.0'
+    version:Literal['5.1']='5.1'
     cards:list[Card]
 
 class ComposeRequest(BaseModel):
@@ -51,7 +52,7 @@ class ComposeRequest(BaseModel):
     guide_codes:list[str]=Field(default_factory=list,max_length=15)
 
 class Character(BaseModel):
-    version:Literal['5.0']='5.0'
+    version:Literal['5.1']='5.1'
     nome:str
     papel:str
     contexto:str
@@ -60,7 +61,7 @@ class Character(BaseModel):
     layers:dict[str,str]
     markdown:str
 
-app=FastAPI(title='Persona Cards — protótipo local',version='5.0',
+app=FastAPI(title='Persona Cards — protótipo local',version=DECK['versao'],
             docs_url='/api/docs',redoc_url=None,openapi_url='/api/openapi.json',
             description='Explore as cartas, sorteie combinações e componha fichas a partir de prompts. '
             'Operações sem estado e sem geração por IA. Personagens salvos e rascunhos pertencem ao navegador, '
@@ -77,7 +78,7 @@ def known(codes:list[str])->list[dict]:
 
 @app.get('/api/health',tags=['Serviço'])
 def health():
-    return {'status':'ok','version':'5.0','cards':len(BY_CODE)}
+    return {'status':'ok','version':DECK['versao'],'cards':len(BY_CODE)}
 
 @app.get('/api/deck',response_model=Deck,tags=['Cartas'])
 def get_deck():
@@ -90,7 +91,7 @@ def list_cards(q:str=Query(default='',max_length=300),
     query=normalize(q)
     return [c for c in DECK['cartas']
             if (not family or c['familia']==family) and (not module or c['modulo']==module)
-            and (not query or query in normalize(' '.join([c['codigo'],c['titulo'],*c['campos'].values()])))]
+            and (not query or query in normalize(' '.join([c['codigo'],c['titulo'],c['leitura'],*c['campos'].values()])))]
 
 @app.get('/api/cards/{code}',response_model=Card,tags=['Cartas'])
 def get_card(code:str):
@@ -108,7 +109,7 @@ def draw(request:DrawRequest):
         pool=[c for c in DECK['cartas'] if c['familia']==family and c['modulo'] in request.modules and c['codigo'] not in excluded]
         if not pool:raise HTTPException(400,f'Nenhuma carta disponível na família {family}')
         drawn.append(secrets.choice(pool))
-    return {'version':'5.0','cards':drawn}
+    return {'version':DECK['versao'],'cards':drawn}
 
 @app.post('/api/characters/compose',response_model=Character,tags=['Criação'],
           responses={400:{'description':'Códigos inválidos, família repetida, guia como personalidade ou ausência de D/F/V'}})
@@ -124,16 +125,17 @@ def compose(request:ComposeRequest):
     selected.sort(key=lambda c:'DFVLPN'.index(c['familia']))
     layers={labels[c['familia']]:next(iter(c['campos'].values())) for c in selected}
     name=request.nome.strip() or 'Sem nome'
-    md=[f'# {name}','',request.papel.strip(),request.contexto.strip(),'','Persona Cards 5.0 · prompts para completar, sem geração por IA.','']
+    md=[f'# {name}','',request.papel.strip(),request.contexto.strip(),'','Persona Cards 5.1 · prompts para completar, sem geração por IA.','']
     for c in selected:
         md += [f"## {labels[c['familia']]} — {c['codigo']} · {c['titulo']}"]
+        md += [c['leitura'], '']
         md += [f'**{label}:** {text}' for label,text in c['campos'].items()]
         md.append('')
     if 'N' not in families:md += ['Conflito interno não definido. Não inventar dois valores para preencher uma camada.','']
     if guides:
         md += ['## Guias de consulta']
         for g in guides:md.append(f"- {g['codigo']} · {g['titulo']}")
-    return {'version':'5.0','nome':name,'papel':request.papel,'contexto':request.contexto,
+    return {'version':DECK['versao'],'nome':name,'papel':request.papel,'contexto':request.contexto,
             'cards':selected,'guides':guides,'layers':layers,'markdown':'\n'.join(md)}
 
 @app.get('/{path:path}',include_in_schema=False)

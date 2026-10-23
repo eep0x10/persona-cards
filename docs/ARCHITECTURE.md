@@ -11,11 +11,13 @@ flowchart TD
   F[Skill e consulta Python] --> G[Referência própria do mesmo deck]
 ```
 
-`app/src/App.jsx` mantém a mesa de cartas e a biblioteca. A apresentação é guiada por D/F/V, com leitura, virada e seleção de cartas, sem formulário de identidade ou interpretação. O frontend usa React, Vite e Anime.js; instâncias de animação são limpas por scope/revert, respeitando movimento reduzido. O deck é importado no build, portanto as ações da interface não dependem da API. A API compatível continua carregando sua cópia do deck no início e serve o build em `app/dist/`; o Vite de desenvolvimento encaminha `/api` ao servidor local.
+`app/src/App.jsx` mantém os estados de mesa, revisão, carta final e biblioteca. A mesa é guiada por D/F/V e etapas opcionais L/P/N; o preenchimento de identidade e interpretação acontece somente ao salvar/revisar. O frontend usa React, Vite e Anime.js; instâncias de animação são limpas por scope/revert e há controle de movimento reduzido. O deck é importado no build, portanto as ações da interface não dependem da API. A API compatível continua carregando sua cópia do deck no início e serve o build em `app/dist/`; o Vite de desenvolvimento encaminha `/api` ao servidor local.
 
 Rascunhos e fichas ficam em localStorage, chave `persona-cards-workbench-v1`. A API não os recebe nem consulta: composição produz prompts sem persistência. O sorteio do frontend acontece no cliente; o endpoint de sorteio oferece a mesma capacidade a consumidores da API.
 
 `model.js` concentra validação, combinação, importação e exportação; `motion.js` mantém as animações Anime.js com scopes e cancelamento. `persistence.js` recupera fichas válidas de dados parcialmente inválidos e exige backup exclusivo, com leitura de conferência, antes de substituir o original. Ajuda e Importar/exportar permitem baixar os originais recuperados. Se o navegador bloquear o armazenamento, a mesa funciona em memória com aviso; exportar é necessário para conservar a combinação.
+
+`portrait.js` valida e reduz fotos raster localmente; o retrato e o estado opcional de finalização acompanham a ficha no JSON. Fichas 5.0/5.1 sem esses atributos continuam válidas e recebem defaults sem perder texto. A API não recebe fotos. O PNG da carta é produzido no navegador; o JSON é a cópia completa para importar depois.
 
 Dados antigos de nome, papel, contexto, interpretação e notas continuam no esquema e nas exportações mesmo sem controles de edição na mesa. As ilustrações usam o manifesto do PDF e os atlas originais em `app/public/art/`; recortes CSS preservam a proporção sem editar os PNG. O navegador carrega as imagens das cartas renderizadas, em vez de antecipar toda a coleção.
 

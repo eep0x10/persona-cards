@@ -8,11 +8,12 @@ Na raiz do repositório, com Python e dependências instaladas:
 python -m unittest discover -s tests
 python -m pip install -r app/requirements.lock.txt
 python -m unittest discover -s app -p test_api.py
+node --test app/model.test.mjs
 npm --prefix app ci
 npm --prefix app run build
 ```
 
-`tests/test_deck.py` protege o hash congelado de 5.0, identidade das três cópias ativas 5.1, contagem/códigos únicos, as 141 leituras e limites de sorteio. `app/test_api.py` protege deck, filtros/exclusões, erros, composição e OpenAPI. `tests/test_docs.py` verifica referências documentais locais, anchors internos, banner e navegação. O workflow Checks executa esses contratos e o build.
+`tests/test_deck.py` protege o hash congelado de 5.0, identidade das três cópias ativas 5.1, contagem/códigos únicos, as 141 leituras e limites de sorteio. `app/test_api.py` protege deck, filtros/exclusões, erros, composição e OpenAPI. `tests/test_docs.py` verifica referências documentais locais, anchors internos, banner e navegação. `app/model.test.mjs` cobre compatibilidade de fichas, finalização, ordem das camadas e validação de retratos. O workflow Checks executa esses contratos e o build. Decodificação/redimensionamento real, layout e PNG final exigem a conferência no navegador.
 
 Para reconstruir a edição de leitura e os arquivos ilustrados de impressão, execute `python deck/build_5_1.py`, `python deck/build_5_1_docs.py` e `python deck/render_print_illustrated_5_1.py`. Depois, execute `python deck/verify_illustrated_print_5_1.py`. A renderização requer ReportLab, pypdf e as fontes Georgia/Arial indicadas no script; a verificação de transparência das artes também usa Pillow. A validação digital da impressão está registrada em [VALIDACAO.md](VALIDACAO.md); ela não substitui uma prova física.
 

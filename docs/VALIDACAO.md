@@ -1,5 +1,14 @@
 # Verificação de entrega
 
+## Finalização e carta do personagem — 23/10/2026
+
+- Em origem isolada `localhost:8767`, o antigo modo automático migrou para movimento completo; escolha explícita por reduzido persistiu após recarga. D/F/V permaneceram no rascunho e o + acrescentou P, N e L como etapas 4, 5 e 6 na ordem de escolha. O progresso passou a 6 de 6.
+- Salvar abriu revisão separada. Nome vazio e interpretações ainda iguais ao convite foram apontados como pendências; o foco foi ao nome. Preenchimento de seis interpretações, papel/contexto/notas e retorno/recarga mantiveram os dados. Importação de ficha 5.1 sem retrato/finalização conservou identidade, notas, cartas e interpretações e abriu a nova revisão.
+- Upload real de PNG válido foi convertido localmente em JPEG 960 × 320 e 116719 caracteres, preservando a proporção. PNG de conteúdo inválido foi recusado sem perder os campos. Remoção do retrato manteve interpretações e permitiu finalizar sem foto.
+- Finalização, reabertura na biblioteca após recarregar e edição foram observadas. JSON real exportado incluiu `finalized:true`, retrato e ordem `D/F/V/P/N/L`. PNGs reais com e sem foto foram baixados; o primeiro foi inspecionado como imagem 1200 × 1704, com seis interpretações legíveis e notas. O PNG tem limite de altura para evitar exportações enormes; JSON/Markdown conservam o texto completo.
+- Revisão e carta final conferidas em desktop 1366 × 900 e 390 × 844; no móvel, largura de página 375 para viewport 390. Capturas de identidade fictícia em `design/revisao-personagem-desktop.png` e `design/carta-personagem-desktop.png`. Animação final observada com matrix3d intermediária no papel e entrada escalonada das camadas.
+- Revisão independente fechou dois defeitos de foto antes da entrega: cancelamento indevido ao trocar movimento e imagem corrigida que permanecia oculta após erro. Seis testes Node do modelo, cinco testes Python de deck/documentação e cinco de API passaram; build integrado com 79 módulos aprovado.
+
 ## Publicação RunicTools — 23/10/2026
 
 - `https://personcard.runictools.com/` abre sem conta ou login; DNS A com proxy Cloudflare ativo. HTTPS público e de origem conferidos, sem desativar validação de certificado. `/api/health` retorna 200, versão 5.1 e 141 cartas; OpenAPI e Swagger acessíveis.

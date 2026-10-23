@@ -91,10 +91,20 @@ The application lets you explore the deck, assemble combinations, and save and e
 1. Start with **Desejo**. Browse with arrows, swipe on a phone or scroll horizontally over the hand. In **Grade**, tap a card to inspect it on the table.
 2. Use **Virar · como jogar** to read its instructions. Browsing and flipping do not select it.
 3. Press **Escolher esta carta**. It joins your combination and the table guides you through **D → F → V**. Tap a combination slot to revisit it.
-4. **Salvar combinação** saves it with an automatic name. **Meus personagens** lets you reopen, duplicate and delete saved combinations.
-5. **Aprofundar · guias** opens optional L/P/N and U/G guides. **Sortear · manter** draws cards while keeping locked choices. **Importar · exportar** transfers JSON or Markdown copies.
+4. Use **+ after Expressão** to add Bond, Pressure or Inner Conflict. They become steps 4–6 in the order you choose. U/G remain separate under **Guias**.
+5. **Salvar personagem** opens a review where you name the character, complete pending details and interpret the cards in your setting. Add an optional photo, then **Finalizar** saves and shows the character card. You can edit it and download a PNG.
+6. **Meus personagens** holds finished cards and older combinations. **Sortear · manter** keeps locked choices when drawing. **Importar · exportar** transfers JSON or Markdown; JSON also preserves the photo.
 
-**Anime.js** animates browsing, flipping and placing cards. Motion follows your system preference; the footer lets you choose full or reduced motion and return to **Seguir sistema**. Text from older characters remains preserved and included in exports, without editing fields on the table.
+**Anime.js** animates browsing, flipping and placing cards. **Full motion is the default**; the footer lets you reduce it or choose **Seguir sistema**. An explicit reduced-motion choice is preserved. Older character text remains available in the review and exports. Photos are processed and stored in your browser, without uploading them to the server.
+
+<details>
+<summary>See the review and a fictional character card</summary>
+
+<img src="design/revisao-personagem-desktop.png" alt="Review of Lina do Canal with identity, optional photo and card interpretations" width="900">
+
+<img src="design/carta-personagem-desktop.png" alt="Finished Lina do Canal card using deck artwork instead of a photo" width="700">
+
+</details>
 
 On Windows, install **Git, Python 3.12+, and Node.js 22 with npm**, open PowerShell, and run:
 

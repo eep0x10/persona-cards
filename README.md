@@ -106,10 +106,20 @@ A aplicação é a versão digital do mesmo baralho. Ela permite explorar cartas
 1. Comece em **Desejo**. Explore com as setas, deslize no celular ou role horizontalmente sobre a mão. Em **Grade**, toque numa carta para conhecê-la na mesa.
 2. Use **Virar · como jogar** para ler as instruções. Explorar e virar não selecionam a carta.
 3. Clique em **Escolher esta carta**. Ela vai para a combinação, e a mesa guia você pelas famílias **D → F → V**. Toque numa posição da combinação para revisá-la.
-4. Use **Salvar combinação** para guardar o personagem com nome automático. **Meus personagens** permite reabrir, duplicar ou excluir as combinações salvas.
-5. Se quiser, abra **Aprofundar · guias** para L/P/N e os guias U/G. Em **Sortear · manter**, trave escolhas que quer preservar. **Importar · exportar** transfere cópias JSON ou Markdown.
+4. Use o **+ após Expressão** para acrescentar **Vínculo, Pressão ou Conflito interno**. Eles se tornam as etapas 4, 5 e 6 na ordem escolhida. Os guias U/G continuam separados em **Guias**.
+5. Clique em **Salvar personagem** para revisar as informações pendentes, dar nome e interpretar as cartas no seu cenário. Se quiser, envie uma foto. **Finalizar** guarda e apresenta a carta do personagem, que pode ser editada e baixada em PNG.
+6. **Meus personagens** reúne as cartas finalizadas e as combinações antigas. Em **Sortear · manter**, trave escolhas que quer preservar. **Importar · exportar** transfere cópias JSON ou Markdown; JSON conserva também a foto.
 
-As cartas navegam, viram e seguem até a combinação com **Anime.js**. O movimento acompanha a preferência do sistema; o controle no rodapé permite escolher movimento completo ou reduzido e voltar a **Seguir sistema**. Os textos de fichas antigas continuam preservados e são exportados, mesmo sem campos de edição na mesa.
+As cartas navegam, viram e seguem até a combinação com **Anime.js**. **Movimento completo é o padrão**; o controle no rodapé permite reduzir ou escolher **Seguir sistema**. Uma preferência explícita por movimento reduzido é preservada. Textos de fichas antigas continuam disponíveis na revisão e nas exportações. A foto é processada e guardada no navegador, sem upload ao servidor.
+
+<details>
+<summary>Ver a revisão e a carta de um personagem fictício</summary>
+
+<img src="design/revisao-personagem-desktop.png" alt="Revisão de Lina do Canal, com identidade, foto opcional e interpretação das cartas" width="900">
+
+<img src="design/carta-personagem-desktop.png" alt="Carta final de Lina do Canal, com a arte do baralho como alternativa à foto" width="700">
+
+</details>
 
 ### Rodar no seu computador (opcional) — Windows
 

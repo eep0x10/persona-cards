@@ -12,9 +12,15 @@ Endereço local: **http://127.0.0.1:8766**. Para iniciar novamente no Windows, e
 
 Comece pelas famílias Desejo, Forma de agir e Expressão. Alterne **Mesa / Grade** para ver a mão em leque ou comparar as cartas de uma família. Navegue pela mão com setas, gesto ou rolagem horizontal, vire a carta para consultar seus convites e use **Escolher esta carta** para levá-la à combinação. Explorar e virar não selecionam. Na Grade, tocar abre a carta na Mesa. As posições da combinação permitem voltar a uma escolha sem preencher ficha ou questionário.
 
-As combinações novas recebem nome automático. A interpretação é feita pela pessoa ou pelo grupo ao jogar. Textos de fichas antigas continuam preservados, mesmo sem campos de edição na mesa. O app não usa geração por IA. Navegação, virada, entrada na Grade e escolha usam Anime.js, com limpeza das instâncias. O padrão acompanha a preferência dinâmica de movimento reduzido; o controle no rodapé permite escolher movimento completo, reduzido ou voltar a seguir o sistema.
+O **+ após Expressão** acrescenta Vínculo, Pressão e Conflito interno como etapas 4–6, na ordem de escolha. Retirar uma camada guarda seu texto e carta para depois. Os guias U/G ficam separados em **Guias**.
+
+**Salvar personagem** abre uma revisão com nome, informações pendentes, interpretações e foto opcional. **Finalizar** salva e apresenta a carta do personagem; ela pode ser editada, exportada em PNG ou usada como base de uma nova versão. Voltar da revisão conserva o rascunho. Textos de fichas antigas continuam preservados. O app não usa geração por IA.
+
+Anime.js anima navegação, virada, Grade, colocação e finalização; scopes são limpos ao interromper ou sair. Movimento completo é o padrão, preservando uma escolha explícita por reduzido. O rodapé permite reduzir ou seguir o sistema.
 
 Rascunhos e personagens são mantidos **neste navegador e neste endereço**. Exportar JSON/Markdown permite levar uma ficha para outro lugar; importar JSON validado cria uma nova ficha. Outro navegador ou outro endereço/porta tem armazenamento separado. O protótipo não tem contas, sincronização ou banco remoto.
+
+Fotos JPEG/PNG/WebP são lidas e reduzidas no navegador: entrada até 10 MiB, saída JPEG até 960 px e dataURL de até 350 mil caracteres. O JSON inclui a foto. Não existe upload ao servidor; o limite do armazenamento do navegador continua valendo, e uma falha gera aviso para exportar antes de fechar.
 
 ## API
 

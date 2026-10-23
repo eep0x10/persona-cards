@@ -83,3 +83,19 @@ Implementação concluída com a direção aprovada. A adição solicitada de **
 Movimento real medido: `matrix3d` intermediária no papel ativo e vizinhas; Grade com opacidade 0,8519 e translateY2,37; voo de seleção com escala0,69038 e estado já atualizado. Movimento reduzido e sequência próximo/anterior/próximo terminaram em D02 com transform none, opacidade1 e nenhum voo. Revisão independente de persistência encontrou e fechou recuperação parcial e aquisição do getter localStorage. Testes simulados passaram; não foi reproduzido bloqueio real de armazenamento no browser.
 
 Evidência atual: `mesa-final-desktop.png`, `mesa-final-mobile.png`, `mesa-final-grid-desktop.png`, `mesa-final-grid-mobile.png`. O checkpoint acima permanece como histórico do slice. A conferência visual final foi feita pelo principal; a revisão independente cobriu código e preservação, sem segunda inspeção visual. Não houve publicação ou impressão física nesta etapa.
+
+## Etapas opcionais e carta do personagem — 23/10/2026
+
+O pedido seguinte autoriza uma etapa de preenchimento após Salvar. A mesa conserva o estilo aprovado e continua dedicada às cartas; revisão e cartão final são estados separados. É uma ampliação funcional, sem nova direção visual ou gate de prévia.
+
+- **Mesa:** D/F/V e botão + após Expressão. L/P/N aparecem como etapas 4–6 na ordem de adição; retirar preserva carta e interpretação. U/G continuam guias, fora das etapas do personagem.
+- **Revisão:** nome, papel/contexto/notas opcionais, interpretações das famílias ativas e foto opcional. Voltar mantém o rascunho; Finalizar valida e salva. Legados conservam textos e identificadores.
+- **Carta:** papel creme, identidade e retrato em destaque, combinação e interpretações legíveis, edição e exportação PNG. Sem foto, usar a arte existente ou composição tipográfica, sem gerar retrato por IA.
+- **Dados:** retrato raster processado localmente e guardado/exportado com a ficha; não há upload ao servidor. Tamanho limitado e falha de leitura não substitui foto válida anterior.
+- **Movimento:** completo por padrão, migrando o antigo modo automático uma vez; escolha explícita por reduzido é preservada. O usuário ainda pode seguir o sistema. Anime.js anima a adição das etapas, a abertura da revisão e a apresentação do cartão, com cleanup e estado independente da animação.
+
+Responsáveis: `frontend-sol` implementa UI e PNG; `backend-sol` implementa modelo, validação e processamento local do retrato. Principal integra, documenta e confere desktop/390 px e produção.
+
+Checkpoint real: **pass** em desktop 1366 × 900 e 390 × 844. Ordem P/N/L virou 4/5/6 e persistiu; progresso ajustado para 6 de 6. Nome vazio e seis convites sem interpretação foram identificados; foco na primeira pendência. Foto inválida recusada, foto válida convertida proporcionalmente em JPEG 960 × 320/116719 caracteres, campos preservados na recarga. Finalização e edição, biblioteca, legado sem novos atributos, JSON completo e PNG real 1200 × 1704 observados. PNG com seis camadas foi inspecionado visualmente, inclusive textos e arte.
+
+Movimento completo apareceu após migrar automático; reduzido explícito permaneceu após recarga. Anime.js de apresentação final observado com matrix3d intermediária no papel e camadas em translateY12. Revisão independente encontrou e fechou cancelamento incorreto de upload ao mudar movimento e imagem corrigida oculta após erro. A corrida de processamento lento não foi reproduzida por temporização no browser; a correção foi conferida por leitura. Capturas publicáveis: `revisao-personagem-desktop.png` e `carta-personagem-desktop.png`; medições e limites em `docs/VALIDACAO.md`.

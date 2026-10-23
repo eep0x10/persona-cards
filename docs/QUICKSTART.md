@@ -44,6 +44,8 @@ O processo manual precisa continuar ligado. Ctrl+C encerra o servidor.
 
 ## Primeira ficha
 
-Comece em **Desejo**. Explore com setas, gesto ou rolagem horizontal; alterne **Mesa / Grade** para comparar as cartas. Vire para ler as instruções e clique em **Escolher esta carta**. A mesa guia você por D/F/V, sem formulário. Interprete os espaços entre colchetes com detalhes do cenário durante o jogo. Salve a combinação com nome automático e exporte JSON; ela fica no navegador atual. **Sortear · manter** permite travar escolhas, e **Aprofundar · guias** abre as famílias opcionais.
+Comece em **Desejo**. Explore com setas, gesto ou rolagem horizontal; alterne **Mesa / Grade** para comparar as cartas. Vire para ler as instruções e clique em **Escolher esta carta**. A mesa guia você por D/F/V. Use o **+ após Expressão** para acrescentar L/P/N como etapas 4–6. **Sortear · manter** permite travar escolhas; U/G estão em **Guias**.
+
+Em **Salvar personagem**, dê nome, complete as interpretações com detalhes do cenário e acrescente uma foto opcional. **Finalizar** apresenta a carta do personagem, pronta para editar ou baixar em PNG. Exporte também JSON para conservar a ficha completa, incluindo retrato; ela fica no navegador atual.
 
 Porta ocupada: no Windows, `./iniciar.ps1 -Port 8767`; no início manual, substitua `--port 8766` por `--port 8767`. Use o novo endereço no navegador. Armazenamento de fichas muda com a porta: exporte antes de trocar. [Operação](OPERATIONS.md).

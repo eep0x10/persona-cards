@@ -1,5 +1,12 @@
 # Histórico
 
+## Carta do personagem e etapas opcionais
+
+- Botão + após Expressão acrescenta L/P/N como etapas 4–6 na ordem escolhida.
+- Salvar abre revisão com informações pendentes e foto opcional; finalizar cria carta do personagem, com edição e exportação PNG.
+- Retrato processado e armazenado no navegador, com validação raster e limite de tamanho; JSON preserva foto e compatibilidade com fichas anteriores.
+- Movimento completo passa a ser o padrão; preferência explícita por reduzido é preservada.
+
 ## Hospedagem pública — RunicTools
 
 - Mesa disponível em `https://personcard.runictools.com/`, sem instalação ou conta; personagens continuam no navegador de cada pessoa.

@@ -1,10 +1,11 @@
 import React, { useEffect, useRef, useState } from "react";
 import { animate, createScope, stagger } from "animejs";
 import { useCardMotion } from "./motion.js";
+import { CharacterReview, FinishedCharacter } from "./CharacterExperience.jsx";
 import { loadPersistence, persistProtected } from "./persistence.js";
 import deck from "../public/deck.json";
 import atlas from "../../deck/illustration_sheets_5_1.json";
-import { CORE, ORDER, MODULES, blank, validateCharacter, applyCards, parseImport, characterMarkdown } from "./model.js";
+import { CORE, ORDER, MODULES, blank, applyCards, parseImport, characterMarkdown, normalizeCharacter, completionIssues, finalizeCharacter } from "./model.js";
 const KEY = "persona-cards-workbench-v1";
 const FAMILIES = { D: "Desejo", F: "Forma de agir", V: "Expressão", L: "Vínculo", P: "Pressão", N: "Conflito interno", U: "Guias de uso", G: "Guias de contexto" };
 const QUESTIONS = { D: "O que move seu personagem?", F: "Como ele tenta conseguir?", V: "Como sua presença aparece?", L: "Quem mais tem vontade própria nesta história?", P: "O que muda as condições da escolha?", N: "Quais dois valores vale a pena preservar?", U: "Um convite para usar as cartas.", G: "Um novo olhar para a sua história." };
@@ -49,12 +50,14 @@ function randomCard(pool) {
 export default function App() {
   const [initialStorage] = useState(readStorage);
   const stored = initialStorage.data;
-  const [draft, setDraft] = useState(() => ({ ...blank(), ...stored.draft || {}, cards: { ...stored.draft?.cards || {} }, fields: { ...stored.draft?.fields || {} } }));
+  const [draft, setDraft] = useState(() => normalizeCharacter({ ...blank(), ...stored.draft || {}, cards: { ...stored.draft?.cards || {} }, fields: { ...stored.draft?.fields || {} } }));
+  const [screen, setScreen] = useState(() => stored.draft?.finalized && !completionIssues(stored.draft, byCode).length ? "character" : "table");
+  const tableScroll = useRef(0);
   const [saved, setSaved] = useState(() => stored.saved || []), [modules, setModules] = useState(() => stored.modules || Object.keys(MODULES));
   const [view, setView] = useState("table");
   const focusMesa = useRef(false);
   const [family, setFamily] = useState("D"), [positions, setPositions] = useState({}), [back, setBack] = useState(false);
-  const [notice, setNotice] = useState(initialStorage.warning || ""), [panel, setPanel] = useState(null), [confirmation, setConfirmation] = useState(null), [pulse, setPulse] = useState(0), [changedFamilies, setChangedFamilies] = useState([]), [motionMode, setMotionMode] = useState(() => ["auto", "full", "reduced"].includes(stored.motionMode) ? stored.motionMode : stored.userReduced ? "reduced" : "auto");
+  const [notice, setNotice] = useState(initialStorage.warning || ""), [panel, setPanel] = useState(null), [confirmation, setConfirmation] = useState(null), [pulse, setPulse] = useState(0), [changedFamilies, setChangedFamilies] = useState([]), [motionMode, setMotionMode] = useState(() => stored.motionDefaultsVersion === 1 ? (["auto", "full", "reduced"].includes(stored.motionMode) ? stored.motionMode : "full") : stored.motionMode === "reduced" || stored.userReduced ? "reduced" : "full");
   const [systemReduced, setSystemReduced] = useState(() => matchMedia("(prefers-reduced-motion: reduce)").matches), [storageReady, setStorageReady] = useState(true);
   const root = useRef(null), hand = useRef(null), dialog = useRef(null), trigger = useRef(null), touch = useRef(null), selectionSource = useRef(null), importInput = useRef(null), wheel = useRef({ amount: 0, last: 0 });
   const reduced = motionMode === "reduced" || motionMode === "auto" && systemReduced, guide = family === "U" || family === "G";
@@ -68,10 +71,19 @@ export default function App() {
   useEffect(() => {
     if (!storageReady) return;
     const result = persistProtected(() => localStorage, KEY,
-      { ...stored, draft, saved, userReduced: motionMode === "reduced", motionMode, modules }, initialStorage.recovery);
+      { ...stored, draft, saved, userReduced: motionMode === "reduced", motionMode, motionDefaultsVersion: 1, modules }, initialStorage.recovery);
     if (!result.ok) setNotice(result.error);
   }, [draft, saved, motionMode, modules, storageReady]);
-  useCardMotion({ root, family, index, back, view, reduced, pulse, selectionSource });
+  useCardMotion({ root, family, index, back, view: screen === "table" ? view : "none", reduced, pulse, selectionSource });
+  const steps = [...CORE, ...draft.enabled.filter(item => !CORE.includes(item))];
+  useEffect(() => {
+    if (screen === "table") window.scrollTo({top:tableScroll.current, behavior:"instant"});
+    else { root.current?.querySelector("[data-screen-heading]")?.focus(); window.scrollTo({top:0,behavior:"instant"}); }
+  }, [screen]);
+  useEffect(() => {
+    const scope = createScope({root}).add(() => { if (!reduced && screen === "table") animate(".optional-step",{translateY:[-12,0],scale:[0.9,1],opacity:[0.5,1],duration:300,delay:stagger(35),ease:"out(3)"}); });
+    return () => scope.revert();
+  }, [draft.enabled.join("|"), reduced, screen]);
   useEffect(() => {
     if (!panel) return;
     const node = dialog.current;
@@ -149,12 +161,13 @@ export default function App() {
     return () => clearTimeout(timeout);
   }, [notice]);
   const announceChanges = (changes, message) => {
+    if (screen !== "table") setScreen("table");
     const paper = hand.current?.querySelector(".active-card");
     if (!reduced && view === "table" && !panel && changes.length === 1 && paper) {
       selectionSource.current = { node: paper.cloneNode(true), rect: paper.getBoundingClientRect() };
     }
     setStorageReady(true);
-    setDraft((d) => applyCards(d, changes));
+    setDraft((d) => ({...applyCards(d, changes), finalized:false}));
     setChangedFamilies(changes.map((c) => c.familia));
     setPulse((v) => v + 1);
     setNotice(message);
@@ -162,7 +175,7 @@ export default function App() {
   const choose = () => {
     if (guide) return;
     announceChanges([active], `${active.codigo} na sua combinação.${Object.hasOwn(draft.fields, family) ? " Seu texto anterior foi preservado." : ""}`);
-    const next = CORE.find((f) => f !== family && !draft.cards[f]);
+    const next = steps.find((f) => f !== family && !draft.cards[f]);
     if (next) goFamily(next);
   };
   const draw = (only) => {
@@ -178,12 +191,31 @@ export default function App() {
     if (changes.length) announceChanges(changes, `Novas cartas na mesa. Textos anteriores preservados.${missing ? " Uma família não tem outra carta nos módulos ativos." : ""}`);
     else setNotice(missing ? "Nenhuma outra carta disponível. Ative mais módulos." : "Todas as cartas estão mantidas. Libere uma para sortear.");
   };
-  const save = () => {
-    const character = { ...draft, id: draft.id || crypto.randomUUID(), name: draft.name || `Combinação ${ORDER.filter((f) => draft.enabled.includes(f) && draft.cards[f]).map((f) => draft.cards[f]).join(" · ")}`, updatedAt: (/* @__PURE__ */ new Date()).toISOString() };
+  const beginReview = () => {
+    if (count < 3) return;
+    tableScroll.current = window.scrollY;
+    setPanel(null); setConfirmation(null); setScreen("review");
+  };
+  const updateReview = changes => {
     setStorageReady(true);
-    setDraft(character);
-    setSaved((s) => [character, ...s.filter((c) => c.id !== character.id)]);
-    setNotice("Combinação salva neste navegador.");
+    setDraft(previous => ({...previous,...changes,finalized:false}));
+  };
+  const finish = () => {
+    try {
+      const character = {...finalizeCharacter(draft,byCode),id:draft.id||crypto.randomUUID(),updatedAt:new Date().toISOString()};
+      setDraft(character);
+      setSaved(previous => [character,...previous.filter(item => item.id !== character.id)]);
+      setStorageReady(true); setScreen("character");
+      setNotice("Personagem finalizado e guardado neste navegador.");
+    } catch(error) { setNotice(error.message || "Complete as informações antes de finalizar."); }
+  };
+  const newVersion = () => {
+    setDraft(previous => ({...previous,id:crypto.randomUUID(),name:previous.name ? previous.name+" (nova versão)" : "",finalized:false}));
+    setScreen("review"); setNotice("Nova versão aberta. O personagem salvo foi preservado.");
+  };
+  const returnToTable = familyToInspect => {
+    setScreen("table");
+    if(familyToInspect) { goFamily(familyToInspect); setView("table"); }
   };
   const hasRecovery = Boolean(initialStorage.recovery?.raw || stored.recoveryBackupKeys?.length);
   const downloadRecovery = () => {
@@ -217,9 +249,12 @@ export default function App() {
       setDraft(blank());
       setStorageReady(true);
       goFamily("D");
+      setScreen("table");
+      tableScroll.current = 0;
       setNotice("Mesa nova. Seus personagens salvos continuam na biblioteca.");
     } else if (action.type === "open") {
-      setDraft({ ...blank(), ...action.character });
+      setDraft(normalizeCharacter({ ...blank(), ...action.character }));
+      setScreen(action.character.finalized && !completionIssues(action.character,byCode).length ? "character" : "table");
       setStorageReady(true);
       goFamily("D");
       setNotice("Combinação aberta. Todos os seus textos foram preservados.");
@@ -260,12 +295,19 @@ export default function App() {
     goFamily(f);
     setPanel(null);
   };
-  const toggleOptional = (f) => {
+  const addOptional = familyToAdd => {
     setStorageReady(true);
-    setDraft((d) => ({ ...d, enabled: d.enabled.includes(f) ? d.enabled.filter((v) => v !== f) : [...d.enabled, f] }));
-    setNotice(`${FAMILIES[f]} ${draft.enabled.includes(f) ? "fora da combinação. Carta e texto guardados." : "adicionada à combinação."}`);
+    setDraft(previous => previous.enabled.includes(familyToAdd) ? previous : {...previous,enabled:[...previous.enabled,familyToAdd],finalized:false});
+    goFamily(familyToAdd); setPanel(null); setScreen("table");
   };
-  const titles = { library: "Meus personagens", menu: "Sua mesa", help: "Uma mesa, três escolhas", families: "Mais cartas para a história", draw: "Sorteio e cartas mantidas", transfer: "Guardar e transferir", confirm: confirmation?.type === "delete" ? "Excluir personagem?" : "Abrir outra mesa?" };
+  const removeOptional = familyToRemove => {
+    if (screen === "character") setScreen("table");
+    setStorageReady(true);
+    setDraft(previous => ({...previous,enabled:previous.enabled.filter(value => value !== familyToRemove),finalized:false}));
+    if (family === familyToRemove) goFamily("V");
+    setNotice(`${FAMILIES[familyToRemove]} retirada. Carta e texto continuam guardados.`);
+  };
+  const titles = { library: "Meus personagens", menu: "Sua mesa", help: "Uma mesa, três escolhas", families: "Acrescentar uma camada", guides: "Guias de consulta", draw: "Sorteio e cartas mantidas", transfer: "Guardar e transferir", confirm: confirmation?.type === "delete" ? "Excluir personagem?" : "Abrir outra mesa?" };
   const navArrows = (e) => {
     if (e.key === "ArrowRight") {
       e.preventDefault();
@@ -288,14 +330,16 @@ export default function App() {
 </nav>
 <button className="mobile-menu" onClick={(e) => open("menu", e)}>Menu ☰</button>
 </header>
- <main>
-<nav className="family-navigation" aria-label="Família da carta">{CORE.map((f, i) => <button key={f} aria-current={family === f ? "step" : void 0} onClick={() => goFamily(f)}>
-<span className="step-number">{draft.cards[f] ? "✓" : i + 1}</span>
+{screen === "review" && <CharacterReview draft={draft} lookup={byCode} Art={Art} onChange={updateReview} onBack={() => returnToTable()} onFinish={finish} onChooseFamily={returnToTable} reduced={reduced}/>}
+{screen === "character" && <FinishedCharacter character={draft} lookup={byCode} Art={Art} onEdit={() => setScreen("review")} onNewVersion={newVersion} onTable={() => returnToTable()} onExport={exportCharacter} reduced={reduced}/>}
+ <main hidden={screen !== "table"}>
+<nav className="family-navigation" aria-label="Família da carta">{steps.map((f, i) => <button key={f} className={CORE.includes(f)?"":"optional-step"} aria-current={family === f ? "step" : void 0} onClick={() => goFamily(f)}>
+<span className="step-number">{i + 1}</span>
 <span>{f === "F" ? <>
 <span className="desktop-label">Forma de agir</span>
 <span className="mobile-label">Forma</span>
 </> : FAMILIES[f]}</span>
-</button>)}</nav>
+</button>)}<button className="add-step" aria-label={steps.length < 6 ? "Acrescentar camada" : "Gerenciar e remover camadas adicionais"} onClick={event => open("families",event)}>+</button></nav>
  <div className="view-switch" role="group" aria-label="Visualização das cartas">
 <button aria-pressed={view === "table"} onClick={() => setView("table")}>Mesa</button>
 <button aria-pressed={view === "grid"} onClick={() => setView("grid")}>Grade</button>
@@ -346,7 +390,7 @@ export default function App() {
 </div>
  </div>
  <section className="combination-tray" aria-label="Sua combinação">
-<h1>Seu personagem <span>· {count} de 3</span>
+<h1>Seu personagem <span>· {steps.filter(step => byCode[draft.cards[step]]).length} de {steps.length}</span>
 </h1>
 <div className="tray-cards">{CORE.map((f) => {
     const card = byCode[draft.cards[f]];
@@ -365,20 +409,15 @@ export default function App() {
 <span>{FAMILIES[f]}</span>
 </>}</button>;
   })}</div>
-<button className="save-button" disabled={count < 3} onClick={save}>Salvar combinação</button>
+<button className="save-button" disabled={count < 3} onClick={beginReview}>Salvar personagem</button>
 </section>
  <section className="table-tools" aria-label="Outras ações da mesa">
 <div className="tool-buttons">
-<button onClick={(e) => open("families", e)}>Aprofundar · guias</button>
+<button onClick={(e) => open("guides", e)}>Consultar guias</button>
 <button onClick={(e) => open("draw", e)}>Sortear · manter</button>
 <button onClick={(e) => requestAction({ type: "new" }, e)}>Nova combinação</button>
 <button onClick={(e) => open("transfer", e)}>Importar · exportar</button>
-</div>{draft.enabled.some((f) => !CORE.includes(f)) && <div className="optional-tray">{ORDER.filter((f) => !CORE.includes(f) && draft.enabled.includes(f)).map((f) => {
-    const card = byCode[draft.cards[f]];
-    return <button key={f} className={`optional-choice ${changedFamilies.includes(f) ? "just-chosen" : ""}`} onClick={() => goFamily(f)}>{card && <Art code={card.codigo} />}<span>{FAMILIES[f]}</span>
-<strong>{card ? `${card.codigo} · ${card.titulo}` : "Escolher carta"}</strong>
-</button>;
-  })}</div>}</section>
+</div></section>
  </main>
  <footer>
 <span>Persona Cards · edição ilustrada 5.1</span>
@@ -405,7 +444,7 @@ export default function App() {
 <div className="panel-body">{hasRecovery && (panel === "help" || panel === "transfer") && <div className="recovery-actions"><p>Uma cópia do conteúdo original está disponível para recuperação.</p><button onClick={downloadRecovery}>Baixar dados originais</button></div>}{notice && <p className="panel-feedback" role="status">{notice}</p>}
  {panel === "menu" ? <div className="menu-options">
 <button onClick={() => setPanel("library")}>Meus personagens · {saved.length}</button>
-<button onClick={() => setPanel("families")}>Aprofundar · consultar guias</button>
+<button onClick={() => setPanel("families")}>Acrescentar uma camada</button><button onClick={() => setPanel("guides")}>Consultar guias</button>
 <button onClick={() => setPanel("draw")}>Sortear · manter cartas</button>
 <button onClick={() => requestAction({ type: "new" })}>Nova combinação</button>
 <button onClick={() => setPanel("transfer")}>Importar · exportar</button>
@@ -414,7 +453,7 @@ export default function App() {
 <p>Escolha um Desejo, uma Forma de agir e uma Expressão. As cartas são convites para interpretar, não resultados obrigatórios.</p>
 <p>Use as setas do teclado ou da mesa, deslize ou role horizontalmente na mão. Shift + rolagem também troca cartas. A rolagem vertical continua livre. Vire a carta para consultar como levá-la à cena.</p>
 <p>L traz um vínculo, P uma pressão. N só entra se dois valores realmente importarem. U/G são consulta, sem entrar no sorteio.</p>
-<p>Suas combinações ficam neste navegador. Dados antigos continuam guardados e saem nas exportações, mesmo sem campos de edição. Ao trocar cartas, os textos anteriores são preservados.</p>
+<p>Suas combinações ficam neste navegador. Ao salvar, revise as interpretações, dê um nome e acrescente uma foto se quiser. Dados antigos continuam guardados e saem nas exportações. Ao trocar cartas, os textos anteriores são preservados.</p>
 </div> : panel === "confirm" ? <div className="confirmation">
 <p>{confirmation?.type === "delete" ? "Esta ação exclui o personagem salvo. O rascunho aberto será preservado." : "O rascunho atual será substituído. Salve ou exporte antes se quiser guardá-lo. Os personagens salvos continuam na biblioteca."}</p>
 <div className="action-row">
@@ -422,24 +461,18 @@ export default function App() {
     setConfirmation(null);
     setPanel(confirmation?.type === "delete" ? "library" : null);
   }}>Cancelar</button>{confirmation?.type !== "delete" && <button disabled={count < 3} onClick={() => {
-    save();
-    setPanel(null);
-    setConfirmation(null);
-  }}>Salvar atual e ficar</button>}<button className="danger-action" onClick={() => perform(confirmation)}>{confirmation?.type === "delete" ? "Excluir salvo" : "Substituir rascunho"}</button>
+    beginReview();
+  }}>Revisar personagem atual</button>}<button className="danger-action" onClick={() => perform(confirmation)}>{confirmation?.type === "delete" ? "Excluir salvo" : "Substituir rascunho"}</button>
 </div>
 </div> : panel === "families" ? <>
-<p className="panel-description">Aprofunde quando servir à história. Retirar uma camada guarda a carta e seu texto para depois.</p>
-<div className="family-choices">{["L", "P", "N"].map((f) => <article key={f}>
-<button className="family-choice" onClick={() => inspectFamily(f)}>
-<b>{f}</b>
-<strong>{FAMILIES[f]}</strong>
-<span>{QUESTIONS[f]}</span>
-<span>Explorar cartas ↗</span>
-</button>
-<button className="chip" aria-pressed={draft.enabled.includes(f)} onClick={() => toggleOptional(f)}>{draft.enabled.includes(f) ? "✓ Na combinação · retirar" : "+ Adicionar camada"}</button>
+<p className="panel-description">Dê mais uma dimensão ao personagem. As camadas entram na sequência em que você as acrescenta; retirar uma guarda sua carta e seu texto.</p>
+<div className="family-choices">{["L","P","N"].map(f => <article key={f}>
+<button className="family-choice" onClick={() => addOptional(f)}><b>{f}</b><strong>{FAMILIES[f]}</strong><span>{QUESTIONS[f]}</span><span>{draft.enabled.includes(f)?`Etapa ${steps.indexOf(f)+1} · ver cartas` : "+ Acrescentar e escolher carta"}</span></button>
+{draft.enabled.includes(f) && <button className="chip" onClick={() => removeOptional(f)}>Retirar camada · guardar texto</button>}
 </article>)}</div>
-<h3 className="panel-subtitle">Guias de consulta</h3>
-<div className="action-row">{["U", "G"].map((f) => <button key={f} onClick={() => inspectFamily(f)}>{FAMILIES[f]} ↗</button>)}</div>
+</> : panel === "guides" ? <>
+<p className="panel-description">Cartas para consultar o jogo e olhar a história. Não entram na combinação nem criam etapas.</p>
+<div className="action-row">{["U","G"].map(f => <button key={f} onClick={() => inspectFamily(f)}>{FAMILIES[f]} ↗</button>)}</div>
 </> : panel === "draw" ? <>
 <p className="panel-description">Sorteie as camadas ativas. Cartas mantidas ficam no lugar. Textos anteriores continuam guardados.</p>
 <div className="draw-choices">{ORDER.filter((f) => draft.enabled.includes(f)).map((f) => <article key={f}>
@@ -469,10 +502,10 @@ export default function App() {
 </div>
 <div className="library">{saved.length ? saved.map((c) => <article className="character-card" key={c.id}>
 <button className="character-open" onClick={() => requestAction({ type: "open", character: c })}>
-<div className="library-art">{CORE.map((f) => c.cards?.[f] && <Art key={f} code={c.cards[f]} />)}</div>
+<div className={`library-art ${c.portrait?"has-portrait":""}`}>{c.portrait?<img src={c.portrait} alt="" onError={event => {event.currentTarget.style.display="none";}}/>:CORE.map((f) => c.cards?.[f] && <Art key={f} code={c.cards[f]} />)}</div>
 <h3>{c.name || "Combinação sem nome"}</h3>
 <p>{ORDER.filter((f) => c.enabled.includes(f)).map((f) => c.cards?.[f]).filter(Boolean).join(" · ")}</p>
-<span>Abrir combinação ↗</span>
+<span>{c.finalized?"Ver carta do personagem ↗":"Abrir combinação ↗"}</span>
 </button>
 <div className="character-actions">
 <button onClick={() => duplicate(c)}>Duplicar</button>

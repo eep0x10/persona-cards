@@ -1,4 +1,4 @@
-# API local
+# API Persona Cards
 
 [Projeto](../README.md) · [Arquitetura](ARCHITECTURE.md)
 
@@ -29,4 +29,4 @@ Composição:
 
 Famílias sorteáveis: D/F/N/L/V/P, sem repetição. Módulos: `nucleo`, `expansao`, `expansao_5`. U/G são rejeitados no sorteio. Cada carta 5.1 traz `leitura`, abertura para leitura ao puxar, e `campos`, instruções operacionais preservadas de 5.0. A busca consulta ambos. Composição exige D/F/V; outras famílias são opcionais, uma carta por família. Guias U/G entram apenas em `guide_codes`. Códigos e combinações inválidos retornam 400/422 conforme a validação. Os limites exatos de campos e listas constam no OpenAPI.
 
-O host é restrito a localhost/127.0.0.1 (e testserver nos testes). Alterar isso e expor na internet exige um projeto operacional adicional; não há tokens ou autenticação nesta API local.
+Os hosts aceitos são `personcard.runictools.com`, `localhost`, `127.0.0.1` e `testserver` para testes. Não há wildcard de domínio, tokens ou autenticação: os endpoints consultam cartas e devolvem composições sem persistência. O perfil Docker usa a porta interna 8000 atrás do proxy HTTPS, sem publicar porta direta no host. Veja [hospedagem](DEPLOY.md).

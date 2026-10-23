@@ -22,7 +22,7 @@ Um baralho narrativo em português para criar e interpretar personagens de RPG e
 | --- | --- | --- |
 | **Jogar com cartas na mesa** | [PDF para imprimir](skills/persona-cards/print/Persona-Cards-5.1-Ilustrado-Duplex-A4.pdf) | Imprima, separe as famílias e escolha ou sorteie suas cartas. Funciona sem computador ou IA. |
 | **Criar com um assistente de IA** | [Skill Persona Cards](skills/persona-cards/) | Uma pasta com as cartas e instruções para o assistente aplicar o mesmo método. |
-| **Explorar as cartas na tela** | [Aplicação web](app/) | Consulte e escolha cartas no navegador; guarde e exporte as combinações de personagens. |
+| **Explorar as cartas na tela** | [Abrir a mesa online](https://personcard.runictools.com/) | Consulte e escolha cartas no navegador; guarde e exporte as combinações de personagens. |
 
 São **três formas de acessar o mesmo jogo**. Você pode usar só uma delas. O baralho ajuda a inventar e interpretar pessoas; as regras de combate, atributos e testes continuam sendo as do RPG que sua mesa escolheu.
 
@@ -88,6 +88,8 @@ Você pode pedir um NPC rápido, um vilão, um grupo ou o aprofundamento de algu
 
 ## 3. Aplicação web — as cartas no navegador
 
+**[Abrir Persona Cards no RunicTools](https://personcard.runictools.com/)** — funciona no computador e no celular, sem instalação, conta ou chave de IA.
+
 A aplicação é a versão digital do mesmo baralho. Ela permite explorar cartas, montar combinações, salvar personagens neste navegador e exportar uma cópia. Os personagens não são enviados para uma conta ou banco remoto.
 
 **Uma mesa de cartas, sem formulário.** Alterne entre **Mesa**, com cartas em leque, e **Grade**, para comparar as ilustrações de uma família. As imagens abaixo são capturas da aplicação.
@@ -109,7 +111,7 @@ A aplicação é a versão digital do mesmo baralho. Ela permite explorar cartas
 
 As cartas navegam, viram e seguem até a combinação com **Anime.js**. O movimento acompanha a preferência do sistema; o controle no rodapé permite escolher movimento completo ou reduzido e voltar a **Seguir sistema**. Os textos de fichas antigas continuam preservados e são exportados, mesmo sem campos de edição na mesa.
 
-### Abrir no Windows
+### Rodar no seu computador (opcional) — Windows
 
 Instale **Git**, **Python 3.12 ou superior** e **Node.js 22 com npm**. Depois, abra o PowerShell e execute:
 

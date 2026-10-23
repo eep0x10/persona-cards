@@ -1,5 +1,13 @@
 # Verificação de entrega
 
+## Publicação RunicTools — 23/10/2026
+
+- `https://personcard.runictools.com/` abre sem conta ou login; DNS A com proxy Cloudflare ativo. HTTPS público e de origem conferidos, sem desativar validação de certificado. `/api/health` retorna 200, versão 5.1 e 141 cartas; OpenAPI e Swagger acessíveis.
+- Build Docker real aprovado no servidor: imagem `persona-cards:runictools-20261023`, usuário 10001, filesystem somente leitura, 256 MB, porta 8000 apenas interna e nenhum volume de personagens. nginx-proxy validou a configuração; o serviço Mesa20 continuou saudável. O gate compartilhado já estava desativado por configuração anterior; não foi alterado.
+- No navegador integrado público: origem nova começou sem fichas; seleção D02/F01/V01, salvamento e recarga mantiveram a combinação. Exportação gerou JSON 5.1 real; reimportação criou outro salvo e preservou o rascunho.
+- Desktop 1366 × 900 e mobile 390 × 844 conferidos. Grade móvel com duas colunas e 24 cartas de Desejo; `scrollWidth` 375 para viewport 390; zero formulários/campos de edição. Animação real de navegação observada com `matrix3d` intermediária no domínio público. Preferência retornada a Seguir sistema após a conferência.
+- Cinco testes do deck/documentação e cinco testes de API aprovados. A revisão independente identificou manifesto ausente no primeiro Dockerfile; o caminho foi corrigido antes do build real e o achado foi fechado por leitura.
+
 ## Mesa e Grade — conferência final em 23/10/2026
 
 - Interface real conferida no navegador integrado em 1366 × 900 e 390 × 844. Grade de Desejo com cinco e duas colunas respectivamente; tocar D01 abriu a Mesa mantendo D12/F07/V11 na combinação. DOM sem formulários ou campos de edição; somente input de arquivo oculto para importação.

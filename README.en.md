@@ -21,7 +21,7 @@ A Portuguese narrative card game for RPGs and fiction: **what characters want, h
 | --- | --- | --- |
 | **Play with physical cards** | [Printable PDF](skills/persona-cards/print/Persona-Cards-5.1-Ilustrado-Duplex-A4.pdf) | Print, sort the families, and choose or draw. No computer or AI needed. |
 | **Create with an AI assistant** | [Persona Cards skill](skills/persona-cards/) | A folder containing the deck and instructions for a compatible assistant. |
-| **Explore the cards on screen** | [Web application](app/) | Browse, choose, save, and export character combinations in your browser. |
+| **Explore the cards on screen** | [Open the online table](https://personcard.runictools.com/) | Browse, choose, save, and export character combinations in your browser. |
 
 These are three ways to access the same game; use whichever suits your table. Persona Cards supports invention and interpretation. Your RPG system supplies combat rules, statistics, and dice resolution. The card text is in Portuguese.
 
@@ -72,6 +72,8 @@ Give your assistant the setting and established facts. Ask for a quick NPC, vill
 Without skill support, attach or paste [`docs/persona-cards-gpt.md`](docs/persona-cards-gpt.md), which combines instructions and deck, into the same conversation as your request. This does not install it in other chats.
 
 ## 3. Web application — cards in your browser
+
+**[Open Persona Cards on RunicTools](https://personcard.runictools.com/)** — works on desktop and mobile, without installation, accounts or AI keys.
 
 The application lets you explore the deck, assemble combinations, and save and export characters. Data stays in that browser rather than an account or remote character database.
 

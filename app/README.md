@@ -4,6 +4,8 @@ Mesa local em português para explorar o deck **5.1** por cartas, sem formulári
 
 ## Abrir
 
+**Online:** [personcard.runictools.com](https://personcard.runictools.com/), sem instalar ou criar conta. Cada pessoa guarda suas combinações no próprio navegador.
+
 Endereço local: **http://127.0.0.1:8766**. Para iniciar novamente no Windows, execute `iniciar.ps1` desta pasta. O servidor funciona em segundo plano e só escuta neste computador. O script reutiliza a instalação e a interface já construída; quando necessárias, prepara as dependências antes de iniciar.
 
 ## Usar
@@ -25,7 +27,7 @@ Documentação interativa em **http://127.0.0.1:8766/api/docs**, especificação
 - `POST /api/characters/compose`: ficha de prompts com D/F/V, outras famílias opcionais e guias separados.
 - `GET /api/health`: estado e versão.
 
-A API é sem estado: compor uma ficha não a salva. Ela não lê os personagens privados do navegador. Como não há contas ou escrita persistente no servidor local, não há credenciais a emitir. Swagger pode depender dos assets públicos de sua biblioteca; a aplicação e o deck são servidos localmente.
+A API é sem estado: compor uma ficha não a salva. Ela não lê os personagens privados do navegador. Como não há contas ou escrita persistente de fichas no servidor, não há credenciais a emitir. Swagger pode depender dos assets públicos de sua biblioteca. O modo online serve os mesmos arquivos por HTTPS; o modo local continua disponível.
 
 ## Desenvolvimento e conferência
 

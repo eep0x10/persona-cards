@@ -33,4 +33,6 @@ Exporte cada ficha em JSON. Markdown/texto serve para leitura, mas a importaçã
 - Importação recusada: confira formato, versão, códigos e limites; não edite a estrutura apenas para contornar a validação.
 - Falha de salvamento local: mantenha a sessão e exporte uma cópia.
 
-Não há serviço de produção, Docker, HTTPS, autenticação ou sincronização configurados nesta entrega.
+## Hospedagem
+
+O perfil [Docker/RunicTools](DEPLOY.md) publica a mesa atrás de nginx-proxy e HTTPS. Ele não usa volumes, contas, banco de personagens ou sincronização: combinações continuam no navegador de cada pessoa. O início local acima permanece disponível.

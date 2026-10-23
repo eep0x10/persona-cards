@@ -1,5 +1,11 @@
 # Histórico
 
+## Hospedagem pública — RunicTools
+
+- Mesa disponível em `https://personcard.runictools.com/`, sem instalação ou conta; personagens continuam no navegador de cada pessoa.
+- Perfil Docker de produção com build Node/Python, isolamento do serviço, HTTPS pelo proxy e domínio permitido explicitamente na API.
+- Instruções de hospedagem, transferência entre endereços e privacidade atualizadas.
+
 ## Edição de leitura e impressão — 5.1
 
 - Aberturas originais para as 141 cartas, com funções das famílias preservadas e textos integrados ao app, API, manuais e busca.

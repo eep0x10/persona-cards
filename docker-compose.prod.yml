@@ -1,0 +1,33 @@
+services:
+  personcard:
+    image: ${PERSONA_IMAGE:-persona-cards:local}
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    environment:
+      VIRTUAL_HOST: personcard.runictools.com
+      VIRTUAL_PORT: "8000"
+      CERT_NAME: runictools.com
+    expose:
+      - "8000"
+    networks:
+      - web
+    mem_limit: 256m
+    mem_reservation: 128m
+    cpus: 0.50
+    pids_limit: 128
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    read_only: true
+    logging:
+      driver: json-file
+      options:
+        max-size: 5m
+        max-file: "2"
+
+networks:
+  web:
+    external: true

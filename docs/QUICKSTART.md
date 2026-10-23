@@ -4,6 +4,8 @@ Persona Cards oferece três entradas: ler o deck, usar a skill ou abrir a oficin
 
 ## Sem instalar o aplicativo
 
+Abra **[a mesa online](https://personcard.runictools.com/)** para explorar, escolher e guardar combinações sem conta ou instalação. Seus personagens ficam no navegador; exporte JSON para ter uma cópia.
+
 Leia o [manual 5.1](../deck/manual-5.1.md), escolha D/F/V e leia a abertura de cada carta. Complete objetivo, método e expressão com detalhes do cenário. Vínculo e pressão são opcionais; N exige dois valores em disputa. Consulte [a skill](SKILL.md) para uso com assistentes.
 
 ## Oficina no Windows
@@ -42,6 +44,6 @@ O processo manual precisa continuar ligado. Ctrl+C encerra o servidor.
 
 ## Primeira ficha
 
-Pesquise uma carta em **O baralho**, abra detalhes e use **Usar carta no personagem**. Preencha nome, papel e contexto. Sorteie as outras camadas e marque **Manter** nas que deseja preservar. Substitua espaços entre colchetes por situações concretas. Salve e exporte JSON; a ficha fica no navegador atual.
+Comece em **Desejo**. Explore com setas, gesto ou rolagem horizontal; alterne **Mesa / Grade** para comparar as cartas. Vire para ler as instruções e clique em **Escolher esta carta**. A mesa guia você por D/F/V, sem formulário. Interprete os espaços entre colchetes com detalhes do cenário durante o jogo. Salve a combinação com nome automático e exporte JSON; ela fica no navegador atual. **Sortear · manter** permite travar escolhas, e **Aprofundar · guias** abre as famílias opcionais.
 
 Porta ocupada: no Windows, `./iniciar.ps1 -Port 8767`; no início manual, substitua `--port 8766` por `--port 8767`. Use o novo endereço no navegador. Armazenamento de fichas muda com a porta: exporte antes de trocar. [Operação](OPERATIONS.md).

@@ -1,4 +1,4 @@
-"""Local Persona Cards API; personal drafts stay in the browser."""
+"""Stateless Persona Cards API; personal drafts stay in the browser."""
 from pathlib import Path
 from typing import Literal
 import json
@@ -61,12 +61,14 @@ class Character(BaseModel):
     layers:dict[str,str]
     markdown:str
 
-app=FastAPI(title='Persona Cards — protótipo local',version=DECK['versao'],
+app=FastAPI(title='Persona Cards — API pública sem contas',version=DECK['versao'],
             docs_url='/api/docs',redoc_url=None,openapi_url='/api/openapi.json',
             description='Explore as cartas, sorteie combinações e componha fichas a partir de prompts. '
             'Operações sem estado e sem geração por IA. Personagens salvos e rascunhos pertencem ao navegador, '
-            'não são armazenados ou acessíveis por esta API. Serviço local, sem contas; inicialização em 127.0.0.1.')
-app.add_middleware(TrustedHostMiddleware,allowed_hosts=['127.0.0.1','localhost','testserver'])
+            'não são armazenados ou acessíveis por esta API. Acesso público sem contas ou autenticação; '
+            'composição devolve o resultado sem salvar dados no servidor.')
+app.add_middleware(TrustedHostMiddleware,
+                   allowed_hosts=['personcard.runictools.com','127.0.0.1','localhost','testserver'])
 
 def normalize(text:str)->str:
     return ''.join(c for c in unicodedata.normalize('NFKD',text.casefold()) if not unicodedata.combining(c))

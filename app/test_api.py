@@ -48,9 +48,19 @@ class Contracts(unittest.TestCase):
 
     def test_openapi_exposes_product_operations(self):
         schema=client.get('/api/openapi.json').json()
+        self.assertEqual(schema['info']['version'],DECK['versao'])
+        self.assertIn('pública sem contas',schema['info']['title'])
         self.assertIn('/api/characters/compose',schema['paths'])
         self.assertIn('/api/draw',schema['paths'])
         self.assertEqual(client.get('/api/docs').status_code,200)
         self.assertEqual(client.get('/api/nonexistent').status_code,404)
+
+    def test_public_host_is_exact_and_local_health_remains_available(self):
+        for host in ('personcard.runictools.com','127.0.0.1','localhost','testserver'):
+            result=client.get('/api/health',headers={'host':host})
+            self.assertEqual(result.status_code,200,host)
+            self.assertEqual(result.json(),{'status':'ok','version':DECK['versao'],'cards':141})
+        for host in ('example.com','sub.personcard.runictools.com','personcard.runictools.com.attacker.example'):
+            self.assertEqual(client.get('/api/health',headers={'host':host}).status_code,400,host)
 
 if __name__=='__main__':unittest.main(verbosity=2)

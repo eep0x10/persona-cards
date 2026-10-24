@@ -1,0 +1,29 @@
+{
+  "versao": "5.1",
+  "revisao_editorial": "5.1.1",
+  "alteracoes": {
+    "U08": {
+      "campos": {
+        "Distribua": "Núcleo: 01–12. Expansão: 13–18. Expansão 5.0: D19–D24, F19–F20, N19–N22, L19–L20 e V19–V22; P termina em P18. Misture por família se quiser.",
+        "Contraste": "Varie desejo, método e expressão; sorteie sem reposição quando quiser reduzir repetições no elenco.",
+        "Confira": "Ausência de conflito não é falha. Não force trauma ou redenção."
+      }
+    },
+    "D10": {
+      "leitura": "Você quer ter poder sobre uma decisão. Que autoridade procura, e quem poderá contestá-la?",
+      "campos": {
+        "Quero": "Obter [autoridade] para decidir [assunto].",
+        "Mostre": "Busca apoio, acesso ou posição que lhe permita decidir; descreva como usa esse poder.",
+        "Interação": "Declare a autoridade pretendida e a margem real de recusa dos demais. Só atribua um limite se a pessoa o reconhecer."
+      }
+    },
+    "D13": {
+      "leitura": "Uma ameaça pesa sobre sua continuidade. Você tenta atravessar este perigo ou impedir que ele volte a alcançá-lo?",
+      "campos": {
+        "Quero": "Preservar minha vida diante de [ameaça], buscando [condição de sobrevivência].",
+        "Mostre": "Procura uma saída imediata ou uma proteção duradoura; diga qual delas orienta a próxima ação.",
+        "Interação": "Peça, exija ou procure o recurso necessário. Não presuma que desejar sobreviver determina os meios ou um limite moral."
+      }
+    }
+  }
+}

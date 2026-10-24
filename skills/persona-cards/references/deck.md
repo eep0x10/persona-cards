@@ -1,6 +1,13 @@
-# Persona Cards 5.1 — edição de leitura
+# Persona Cards 5.1 — revisão editorial 5.1.1
 
-**141 cartas em português: 126 de criação e 15 guias.** A edição 5.1 mantém os códigos, títulos, campos e módulos de 5.0 e acrescenta uma leitura individual para cada carta. O deck 5.0 permanece disponível como histórico.
+**141 cartas em português: 126 de criação e 15 guias.** O formato 5.1 mantém os códigos, títulos e módulos de 5.0 e acrescenta uma leitura individual para cada carta. O deck 5.0 permanece congelado como histórico.
+
+## Correções da revisão 5.1.1
+
+- **U08:** apresenta os três módulos e os intervalos diferentes da expansão 5.0 por família; P termina em P18.
+- **D10:** descreve poder sobre uma decisão sem exigir cooperação ou um limite moral reconhecido. A margem real de recusa dos demais deve ficar explícita.
+- **D13:** admite sobrevivência imediata ou proteção duradoura da própria vida; esse desejo não determina os meios empregados.
+As correções alteram somente campos de U08/D10/D13 e aberturas de D10/D13. As outras 138 cartas permanecem iguais à edição de leitura anterior. Nenhum código novo foi criado; D06 não foi revisada. O campo `versao` continua 5.1 para compatibilidade, e `revisao_editorial` identifica 5.1.1.
 
 ## Como começar
 
@@ -119,13 +126,13 @@ As aberturas convidam a interpretar, não atribuem diagnóstico, trauma, bondade
 
 ### D10 — Ampliar minha influência (nucleo)
 
-> Você quer participar das decisões. Que poder procura, e como pretende usá-lo?
+> Você quer ter poder sobre uma decisão. Que autoridade procura, e quem poderá contestá-la?
 
 **Quero:** Obter [autoridade] para decidir [assunto].
 
-**Mostre:** Reúne apoio e explica como usará o poder.
+**Mostre:** Busca apoio, acesso ou posição que lhe permita decidir; descreva como usa esse poder.
 
-**Pedido:** Peça um voto ou aliança; declare um limite.
+**Interação:** Declare a autoridade pretendida e a margem real de recusa dos demais. Só atribua um limite se a pessoa o reconhecer.
 
 ### D11 — Cumprir minha palavra (nucleo)
 
@@ -149,13 +156,13 @@ As aberturas convidam a interpretar, não atribuem diagnóstico, trauma, bondade
 
 ### D13 — Continuar vivo (expansao)
 
-> O perigo é presente. Seu objetivo imediato é sair com o indispensável.
+> Uma ameaça pesa sobre sua continuidade. Você tenta atravessar este perigo ou impedir que ele volte a alcançá-lo?
 
-**Quero:** Sair de [ameaça] com [condição mínima].
+**Quero:** Preservar minha vida diante de [ameaça], buscando [condição de sobrevivência].
 
-**Mostre:** Confere uma saída e separa o indispensável.
+**Mostre:** Procura uma saída imediata ou uma proteção duradoura; diga qual delas orienta a próxima ação.
 
-**Interação:** Peça, exija ou procure o recurso que permite sobreviver.
+**Interação:** Peça, exija ou procure o recurso necessário. Não presuma que desejar sobreviver determina os meios ou um limite moral.
 
 ### D14 — Encontrar intimidade (expansao)
 
@@ -1373,9 +1380,9 @@ As aberturas convidam a interpretar, não atribuem diagnóstico, trauma, bondade
 
 > Varie objetivos, métodos e expressão sem obrigar todos a ter conflito.
 
-**Distribua:** Núcleo: 01–12. Expansão: 13–18. Misture por família se quiser.
+**Distribua:** Núcleo: 01–12. Expansão: 13–18. Expansão 5.0: D19–D24, F19–F20, N19–N22, L19–L20 e V19–V22; P termina em P18. Misture por família se quiser.
 
-**Contraste:** Varie desejo, método e expressão; sorteie sem reposição.
+**Contraste:** Varie desejo, método e expressão; sorteie sem reposição quando quiser reduzir repetições no elenco.
 
 **Confira:** Ausência de conflito não é falha. Não force trauma ou redenção.
 

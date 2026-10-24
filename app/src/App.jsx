@@ -9,6 +9,7 @@ import deck from "../public/deck.json";
 import atlas from "../../deck/illustration_sheets_5_1.json";
 import { CORE, ORDER, MODULES, blank, applyCards, parseImport, characterMarkdown, normalizeCharacter, completionIssues, finalizeCharacter } from "./model.js";
 const KEY = "persona-cards-workbench-v1";
+const EDITION = deck.revisao_editorial || deck.versao;
 const FAMILIES = { D: "Desejo", F: "Forma de agir", V: "Expressão", L: "Vínculo", P: "Pressão", N: "Conflito interno", U: "Guias de uso", G: "Guias de contexto" };
 const QUESTIONS = { D: "O que move seu personagem?", F: "Como ele tenta conseguir?", V: "Como sua presença aparece?", L: "Quem mais tem vontade própria nesta história?", P: "O que muda as condições da escolha?", N: "Quais dois valores vale a pena preservar?", U: "Um convite para usar as cartas.", G: "Um novo olhar para a sua história." };
 const byCode = Object.fromEntries(deck.cartas.map((c) => [c.codigo, c]));
@@ -355,7 +356,7 @@ export default function App() {
 </nav>
 {screen === "inspiration" && <InspirationGallery dataset={inspirations} lookup={byCode} Art={Art} active reduced={reduced} filters={inspirationFilters} onFiltersChange={setInspirationFilters} onUse={useInspiration}/>}
 {screen === "review" && <CharacterReview draft={draft} lookup={byCode} Art={Art} onChange={updateReview} onBack={() => returnToTable()} onFinish={finish} onChooseFamily={returnToTable} reduced={reduced}/>}
-{screen === "character" && <FinishedCharacter character={draft} lookup={byCode} Art={Art} onEdit={() => setScreen("review")} onNewVersion={newVersion} onTable={() => returnToTable()} onExport={exportCharacter} reduced={reduced}/>}
+{screen === "character" && <FinishedCharacter edition={EDITION} character={draft} lookup={byCode} Art={Art} onEdit={() => setScreen("review")} onNewVersion={newVersion} onTable={() => returnToTable()} onExport={exportCharacter} reduced={reduced}/>}
  <main hidden={screen !== "table"}>
 <nav className="family-navigation" aria-label="Família da carta">{steps.map((f, i) => <button key={f} className={CORE.includes(f)?"":"optional-step"} aria-current={family === f ? "step" : void 0} onClick={() => goFamily(f)}>
 <span className="step-number">{i + 1}</span>
@@ -444,7 +445,7 @@ export default function App() {
 </div></section>
  </main>
  <footer>
-<span>Persona Cards · edição ilustrada 5.1</span>
+<span>Persona Cards · edição ilustrada {EDITION}</span>
 <button aria-label={`Movimento ${reduced ? "reduzido" : "completo"}. Clique para ${reduced ? "ativar movimento completo" : "reduzir movimento"}.`} aria-pressed={!reduced} onClick={() => {
     setStorageReady(true);
     setMotionMode(reduced ? "full" : "reduced");

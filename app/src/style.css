@@ -1498,3 +1498,51 @@ main[hidden] { display:none; }
  .inspiration-total { display:flex; align-items:baseline; gap:8px; font-size:25px; text-align:left; padding:0; }
  .inspiration-total>span { display:inline; font-size:10px; margin:0; letter-spacing:.7px; }
 }
+/* Actual card faces are read-only; the interpretation belongs below each paper. */
+.inspiration-deck-section { padding-top:3px; }
+.inspiration-deck-section>h3 { font:25px Georgia,serif; margin:0 0 10px; }
+.inspiration-deck-section>p { font-size:12px; line-height:1.75; color:#637157; margin:0 0 20px; }
+.inspiration-detail-layers { gap:22px 18px; align-items:start; perspective:1200px; }
+.inspiration-layer-explainer { margin:0; min-width:0; }
+.inspiration-real-card { display:flex; flex-direction:column; align-items:stretch; min-height:353px; padding:17px 19px 13px; border:1px solid #d3c8aa; border-radius:9px; background:radial-gradient(ellipse at 25% 15%,#fffaf2b0,transparent 80%),#f7efde; box-shadow:0 5px 12px #4a473b1a; transform-origin:center bottom; }
+.inspiration-real-card-rule { display:flex; align-items:baseline; justify-content:space-between; gap:10px; border-top:1px solid #b34f31; border-bottom:1px solid #c18f70; color:#a5442d; padding:7px 0; text-transform:uppercase; font-size:10px; line-height:1.4; }
+.inspiration-real-card-rule b { font-size:10px; }
+.inspiration-detail-layers .inspiration-real-card h3 { min-height:48px; display:grid; place-items:center; font:700 24px/1.12 Georgia,serif; text-align:center; margin:13px 0 7px; }
+.inspiration-real-card>.card-art { width:150px; max-width:100%; margin:0 auto; flex-shrink:0; }
+.inspiration-detail-layers .inspiration-official-reading { font:italic 14px/1.55 Georgia,serif; text-align:center; color:#284b39; margin:11px 0 15px; white-space:normal; }
+.inspiration-real-card-footer { display:flex; align-items:center; justify-content:space-between; gap:8px; border-top:1px solid #c18f70; padding-top:8px; margin-top:auto; color:#7e775d; font-size:8px; line-height:1.4; }
+.inspiration-card-explanation { padding:15px 2px 0; }
+.inspiration-card-explanation h4 { font:700 14px/1.4 Arial,sans-serif; margin:0 0 8px; color:#955035; }
+.inspiration-card-explanation h4:not(:first-child) { margin-top:17px; color:#456149; }
+.inspiration-detail-layers .inspiration-card-explanation p { font:13px/1.8 Arial,sans-serif; color:#42573f; margin:0; white-space:pre-wrap; overflow-wrap:anywhere; }
+@media(max-width:600px) {
+ .inspiration-deck-section>h3 { font-size:24px; }
+ .inspiration-deck-section>p { font-size:12px; }
+ .inspiration-detail-layers { gap:27px; }
+ .inspiration-real-card { min-height:0; padding:17px 19px 14px; }
+ .inspiration-detail-layers .inspiration-real-card h3 { font-size:25px; min-height:0; margin:14px 0 12px; }
+ .inspiration-real-card>.card-art { width:160px; }
+ .inspiration-detail-layers .inspiration-official-reading { font-size:15px; line-height:1.55; margin:12px 0 18px; }
+ .inspiration-real-card-footer { font-size:8px; }
+ .inspiration-card-explanation { padding:17px 1px 0; }
+ .inspiration-card-explanation h4 { font-size:14px; }
+ .inspiration-detail-layers .inspiration-card-explanation p { font-size:14px; line-height:1.8; }
+}
+/* Put the selected cards and reasons before repeated contextual detail. */
+.inspiration-detail-heading { padding:18px 0; }
+.inspiration-detail-heading h2 { font:700 36px/1.1 Georgia,serif; color:var(--ink); margin:8px 0 9px; overflow-wrap:anywhere; }
+.inspiration-detail-heading>p { font:14px/1.55 Georgia,serif; color:#4d624e; margin:0; }
+.inspiration-deck-section>p { margin-bottom:15px; }
+@media(max-width:600px) {
+ .inspiration-detail-heading { padding:17px 0; }
+ .inspiration-detail-heading h2 { font-size:30px; }
+ .inspiration-detail-heading>p { font-size:14px; }
+}
+.inspiration-real-card[data-family=D] { --card-accent:#ac4c32; }
+.inspiration-real-card[data-family=F] { --card-accent:#27674e; }
+.inspiration-real-card[data-family=V] { --card-accent:#253f72; }
+.inspiration-real-card[data-family=L] { --card-accent:#9d6b30; }
+.inspiration-real-card[data-family=P] { --card-accent:#386b7c; }
+.inspiration-real-card[data-family=N] { --card-accent:#715783; }
+.inspiration-real-card-rule { color:var(--card-accent,#ac4c32); border-top-color:var(--card-accent,#ac4c32); border-bottom-color:var(--card-accent,#ac4c32); }
+.inspiration-real-card-footer { border-top-color:var(--card-accent,#ac4c32); }

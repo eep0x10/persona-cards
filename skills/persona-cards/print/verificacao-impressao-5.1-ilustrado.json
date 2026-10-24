@@ -1,5 +1,6 @@
 {
-  "deck_sha256": "6c33a7adb5187c8e909ab5a3bc6c4b283a79c670d03b67ea3c1c32333229f86d",
+  "revisao_editorial": "5.1.1",
+  "deck_sha256": "181d079735ed27358a911bc3e1affc249ac3815ca740fa0330115563210ea06f",
   "manifest_sha256": "e9a6e0ba4af5346890bb3ccb1d65e2f5a60ebf1f0a81a198742dddd8ef434368",
   "cards": 141,
   "illustrations": 141,
@@ -93,10 +94,10 @@
     },
     {
       "code": "D10",
-      "art_pt": 128,
+      "art_pt": 116,
       "body_pt": 8.5,
       "reading_pt": 9.7,
-      "lowest_pt": 48.32,
+      "lowest_pt": 27.42,
       "atlas": "folk-d007-d012.png",
       "slot": 3
     },
@@ -660,10 +661,10 @@
     },
     {
       "code": "D13",
-      "art_pt": 128,
+      "art_pt": 92,
       "body_pt": 8.5,
       "reading_pt": 9.7,
-      "lowest_pt": 48.32,
+      "lowest_pt": 28.04,
       "atlas": "folk-d013-d018.png",
       "slot": 0
     },
@@ -1047,10 +1048,10 @@
     },
     {
       "code": "U08",
-      "art_pt": 128,
+      "art_pt": 104,
       "body_pt": 8.5,
       "reading_pt": 9.7,
-      "lowest_pt": 26.39,
+      "lowest_pt": 28.46,
       "atlas": "folk-u007-g003.png",
       "slot": 1
     },
@@ -1281,9 +1282,9 @@
     }
   ],
   "files": {
-    "Persona-Cards-5.1-Ilustrado-Frentes-A4.pdf": "1286f6d2012492e7d90e995d3feb1d0d573c16cb4fd914e3b5f98d3be51b1981",
-    "Persona-Cards-5.1-Ilustrado-Versos-A4.pdf": "5ed05ff349fa4c93e50b14dd0d8ee5b5110ed0320525fb5688de1305f43cf56c",
-    "Persona-Cards-5.1-Ilustrado-Duplex-A4.pdf": "9514cc7f1568dbf5f8b45675a3db8d6a23742db7104be5a34fa1a60af07faafd",
-    "Persona-Cards-5.1-Ilustrado-Manual-Rapido.pdf": "66b7f2a2b37f09d2211c3df82aaab1b1c328ad7f162ae72242592ab875bd8556"
+    "Persona-Cards-5.1-Ilustrado-Frentes-A4.pdf": "624b2659198f979f79f632185a087da24218f7914f00c91a554ceae33d178b6c",
+    "Persona-Cards-5.1-Ilustrado-Versos-A4.pdf": "15958f2d6c61d3a2163c23e12d211d836a7220faceb27351a340fb5e3f1e17c9",
+    "Persona-Cards-5.1-Ilustrado-Duplex-A4.pdf": "70a7dacc0fbc6a54b6049fe6219ae7de641483ec5b8bce2d95f61e405ce090bc",
+    "Persona-Cards-5.1-Ilustrado-Manual-Rapido.pdf": "f3031e7f6cabb17efabd5f5fe01b883785268a58382a15acb60cd60023793ebc"
   }
 }

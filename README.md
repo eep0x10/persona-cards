@@ -8,7 +8,7 @@
 
 Um baralho narrativo em português para criar e interpretar personagens de RPG e ficção: **o que querem, como agem e como se expressam**.
 
-[![Baralho 5.1](https://img.shields.io/badge/baralho-5.1-244F42?style=flat-square)](deck/manual-5.1.md)
+[![Revisão 5.1.1](https://img.shields.io/badge/revisão-5.1.1-244F42?style=flat-square)](deck/manual-5.1.md)
 [![141 cartas](https://img.shields.io/badge/cartas-141-B65135?style=flat-square)](skills/persona-cards/print/README.md)
 [![English](https://img.shields.io/badge/English-summary-637D71?style=flat-square)](README.en.md)
 
@@ -26,7 +26,17 @@ Um baralho narrativo em português para criar e interpretar personagens de RPG e
 
 São **três formas de acessar o mesmo jogo**. Você pode usar só uma delas. O baralho ajuda a inventar e interpretar pessoas; as regras de combate, atributos e testes continuam sendo as do RPG que sua mesa escolheu.
 
-**[Baixar a edição 5.1 completa](https://github.com/eep0x10/persona-cards/releases/tag/v5.1.0):** PDFs separados e um ZIP do projeto com a skill, a aplicação já construída, instruções e documentação.
+**[Baixar a revisão 5.1.1 completa](https://github.com/eep0x10/persona-cards/releases/tag/v5.1.1):** PDFs separados e um ZIP do projeto com a skill, a aplicação já construída, instruções e documentação.
+
+## Revisão editorial 5.1.1
+
+A revisão aprovada dos 100 exemplos está aplicada ao baralho, à skill, aos PDFs e à aplicação:
+
+- **U08:** inclui a expansão 5.0 e os intervalos corretos de cada família.
+- **D10:** permite interpretar influência e autoridade sem exigir cooperação ou um limite moral do personagem.
+- **D13:** distingue atravessar um perigo imediato de buscar proteção duradoura para continuar vivo.
+
+Continuam sendo **141 cartas com os mesmos códigos, títulos e módulos**. Os arquivos mantêm `5.1` no nome e no formato de importação; `5.1.1` identifica esta revisão editorial nos documentos e na aplicação. A edição congelada 5.0 permanece intacta. [Alterações e evidências](docs/REVISAO-100-PERSONAGENS.md#aplicação-da-revisão-editorial-511).
 
 ## Como jogar
 
@@ -56,7 +66,7 @@ Na aplicação, abra **Inspiração** para explorar **100 personagens da cultura
 
 <img src="design/inspiracao-desktop.png" alt="Galeria Inspiração com 100 personagens, busca e filtros por mídia e papel na história" width="900">
 
-Cada montagem mostra **como interpretar as cartas**, com desejos concretos, tentativas e expressão. São leituras possíveis de personagens conhecidos; as cenas sugeridas são exercícios autorais, e as fontes das obras ficam junto de cada exemplo. Uma combinação não resume toda a trajetória de alguém. As ilustrações do baralho representam as ideias das cartas, não retratos dos personagens.
+Cada montagem mostra **as cartas ilustradas escolhidas** e, abaixo de cada uma, **por que ela compõe aquele personagem**, além de uma aplicação concreta em cena. A lista do personagem inclui todas as camadas usadas — D/F/V e também L/P/N quando presentes. São leituras possíveis de personagens conhecidos; as cenas sugeridas são exercícios autorais, e as fontes das obras ficam junto de cada exemplo. Uma combinação não resume toda a trajetória de alguém. As ilustrações do baralho representam as ideias das cartas, não retratos dos personagens.
 
 **Usar como base** leva uma cópia para sua criação. Adapte nome, mundo e interpretações e finalize sua própria carta. Explorar a galeria não altera seu rascunho; substituir uma criação em andamento pede confirmação.
 

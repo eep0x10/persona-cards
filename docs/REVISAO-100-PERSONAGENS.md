@@ -314,3 +314,126 @@ O conjunto diferencia coerção de consentimento e, em casos como `darth-vader`,
 | `chell` | D13 / F10 / V13 | P13 | adaptado |
 | `glados` | D23 / F13 / V05 | P04 | adaptado |
 | `wheatley` | D22 / F06 / V07 | — | direto |
+
+## Aplicação da revisão editorial 5.1.1
+
+Esta seção registra uma aplicação posterior, autorizada, das correções **U08, D10 e D13**. As seções e a tabela anteriores são o snapshot da revisão original dos 100 casos: descrevem o baralho e o conjunto anteriores à aplicação. Seus hashes, conclusões, propostas e classificações foram preservados, sem atribuir retrospectivamente os resultados atuais à primeira avaliação. **D06 não foi alterada.**
+
+O formato dos personagens e do catálogo continua **5.1**. A revisão do baralho é identificada por `revisao_editorial: "5.1.1"` nas três fontes JSON ativas. O catálogo de inspirações não recebeu um novo campo de versão; seu vínculo com a revisão atual é documentado nesta seção e nas nove notas reavaliadas.
+
+### Decisão sobre os nove casos afetados
+
+Os novos campos de D10 admitem poder sobre uma decisão sem pressupor cooperação ou um limite moral reconhecido. D13 agora distingue saída imediata de proteção duradoura da própria vida. As interpretações dos personagens não precisaram ser reescritas para caber: mudaram somente `audit.fit`, `audit.note` e `audit.gapTags` nos nove IDs abaixo.
+
+| ID | Carta | Classificação anterior → atual | Justificativa da reavaliação |
+| --- | --- | --- | --- |
+| `freeza` | D10 | adaptado → direto | Autoridade sobre os recursos de Namek; o convite já não exige limite moral. F13/V16 preservam coerção e cortesia intimidatória. |
+| `darth-vader` | D10 | adaptado → direto | Poder pretendido sobre o destino de Luke; parentesco não cria consentimento. L20 conserva proximidade e domínio como aspectos distintos. |
+| `palpatine` | D10 | adaptado → direto | Concentração das decisões e supressão de contestação; F14/V05 continuam descrevendo encenação e formulação legal estreita. |
+| `scar` | D10 | adaptado → direto | Tomar o trono e governar; manipular aliados não precisa ser interpretado como cooperação ou limite voluntário. |
+| `doutor-destino` | D10 | adaptado → direto | Expandir soberania; preparação técnica e legitimação cerimonial continuam em F01/V15. |
+| `o-mestre` | D10 | adaptado → direto | Domínio institucional no recorte John Simm; a formulação não impõe limite moral nem generaliza a todas as encarnações. |
+| `ganondorf` | D10 | adaptado → direto | Concentrar autoridade e retirar meios de resistência; F13/V15 preservam coerção e reivindicação de soberania. |
+| `bowser` | D10 | adaptado → direto | Autoridade imposta sobre uma região; o encaixe não acrescenta reciprocidade afetiva ou consentimento. |
+| `muzan-kibutsuji` | D13 | adaptado → direto | Eliminar duradouramente a vulnerabilidade ao sol é proteção da própria continuidade, horizonte agora explícito na carta. O desejo não foi trocado por uma fuga imediata. |
+
+As oito tags `d10-convite-cooperativo` e a tag `d13-objetivo-duradouro` foram retiradas desses casos. Suas novas notas explicam o encaixe na revisão, sem afirmar reforma moral dos personagens. Os sete casos adaptados por cautela de contexto permanecem: `severo-snape`, `hera-venenosa`, `thanos`, `link`, `red`, `chell` e `glados`.
+
+U08 é um guia, não uma camada dos 100 personagens. Seu novo campo `Distribua` agora inclui a expansão 5.0 e os intervalos específicos por família; a leitura foi mantida. Isso fecha a omissão editorial sem acrescentar códigos ou inflar a cobertura da amostra.
+
+### Métricas atuais e alcance da comparação
+
+| Medida | Snapshot anterior | Após aplicação 5.1.1 |
+| --- | ---: | ---: |
+| IDs únicos / franquias | 100 / 27 | 100 / 27 |
+| Atribuições / códigos distintos | 353 / 100 | 353 / 100 |
+| Trios D/F/V distintos | 94 | 94 |
+| Casos com D / F / V | 100 / 100 / 100 | 100 / 100 / 100 |
+| Casos com L / P / N | 23 / 22 / 8 | 23 / 22 / 8 |
+| Casos sem N | 92 | 92 |
+| Rotulados direto / adaptado | 84 / 16 | 93 / 7 |
+
+As distribuições por mídia, papel e frequência de cada código não mudaram. Todos os 100 objetos de personagem e todos os campos interpretativos, nomes, recortes, fontes, IDs e ordem dos registros permaneceram semanticamente idênticos. A diferença de nove classificações resulta da revisão dos textos das cartas e da reapreciação dos mesmos casos; **não é uma melhora medida em jogadores, um novo teste cego ou nove personagens adicionais**. As sete adaptações contextuais continuam sem ser tratadas como erros do baralho.
+
+### Prova de preservação e sincronização
+
+| Artefato | SHA-256 / resultado |
+| --- | --- |
+| Snapshot anterior do catálogo | `e86d8100963b81da76b28259e18d1408107dfccf8f1d224ba1d916482b013ae7` |
+| Catálogo após as nove reavaliações | `7eae66fa26f9c50947b01ba665fa972cf771c1261a95d9be35a2b097268cd68c` |
+| Baralho anterior à revisão | `6c33a7adb5187c8e909ab5a3bc6c4b283a79c670d03b67ea3c1c32333229f86d` |
+| Baralho ativo com revisão 5.1.1 | `181d079735ed27358a911bc3e1affc249ac3815ca740fa0330115563210ea06f` |
+| Baralho congelado 5.0 | `eb97dcae9235f08008fcea79ee765d8735b1b5eff5453a6e9b8dd79e09dab7e5`, preservado |
+| Relatório histórico antes desta seção | SHA-256 `832a1624a01454ccdc2d7ac5257700d987b45ca4e4cce4cb34d3142c97e01222` dos 28303 bytes originais, preservados como prefixo |
+
+Comparação estrutural independente dos hashes de cada carta antes/depois: **somente D10, D13 e U08 mudaram; as outras 138 cartas, incluindo D06, ficaram idênticas**. Códigos, títulos, famílias e módulos continuam iguais aos do arquivo congelado 5.0. A revisão veio do overlay editorial [editorial-5.1.1.json](../deck/editorial-5.1.1.json), aplicado pelo gerador; não foi uma alteração avulsa nas cópias distribuídas.
+
+Os arquivos `deck/persona-cards-5.1.json`, `app/public/deck.json` e `skills/persona-cards/references/deck.json` foram comparados byte a byte e estão idênticos. O manual e `skills/persona-cards/references/deck.md` também estão idênticos. As novas leituras e os campos das três cartas aparecem no manual e na referência autocontida para GPT; skill e índice identificam a revisão 5.1.1.
+
+**Verificações executadas nesta aplicação:**
+
+- `node --test app/inspirations.test.mjs`: quatro testes passaram. Cobrem os 100 IDs, validação e finalização das 100 fichas, roundtrip no formato 5.1, conteúdo interpretativo específico, fontes permitidas e contagens de cobertura. Não demonstram reconhecimento narrativo nem desempenho em mesa.
+- Comparações por Python padrão: hashes semânticos por registro e por carta, igualdade das três cópias JSON, preservação do hash 5.0, igualdade manual/referência e presença dos textos aprovados nas fontes geradas. Resultado: nove auditorias alteradas, zero interpretações alteradas e três cartas alteradas.
+- Conferência do prefixo histórico deste relatório e das métricas atuais após a escrita. Nenhuma geração de PDF, edição de UI ou alteração de README foi executada por este revisor.
+
+**Aceite da aplicação:** aprovado no catálogo e nas fontes textuais conferidas. Os achados U08, D10 e D13 estão atendidos pelos textos autorizados. D06 permanece apenas como hipótese editorial do snapshot, sem promoção nesta revisão. PDFs, build, navegação e publicação pertencem à validação de integração do responsável principal; os resultados desta seção não os substituem.
+
+## Explicações visuais e todas as camadas na galeria
+
+Este complemento registra um pedido posterior à aplicação editorial 5.1.1: mostrar as cartas selecionadas e explicar por que cada uma compõe a interpretação. O relatório histórico e a seção 5.1.1 anteriores foram preservados como estavam. Não houve outra revisão das cartas nem nova reclassificação dos nove casos já reavaliados.
+
+### Correção da prévia e leitura das cartas
+
+A prévia do catálogo em [InspirationGallery.jsx](../app/src/InspirationGallery.jsx) usava uma lista fixa de D/F/V. `CardCombination` passou a percorrer `character.enabled`, assim como a apresentação dos detalhes. Isso inclui L, P e N quando presentes e respeita sua ordem armazenada. O total de camadas da amostra continua sendo 353; exibir somente D/F/V ocultava 53 camadas opcionais, sem que elas estivessem ausentes dos personagens.
+
+Nos detalhes, `IllustratedExplanation` consulta o baralho atual pelo código e apresenta família, código, título, ilustração e leitura oficial numa face de carta. A justificativa autoral em **Por que esta carta?** e a aplicação em **Na cena** ficam fora dessa face, para não atribuir ao texto oficial aquilo que pertence à interpretação do personagem. Não foram adicionados controles de seleção às faces: explorar e ler continuam separados de **Usar como base**.
+
+**Prova por leitura:** prévia e detalhes percorrem `enabled`; a face usa `lookup`, `card.leitura` e `Art`, identificando a revisão atual; as duas explicações usam, respectivamente, `entry.rationale[family]` e `entry.character.fields[family]`. As novas faces são `article` dentro de `figure`, sem botões aninhados no controle de inspeção. As regras de texto consultadas no CSS permitem quebra de linhas; não foi encontrada supressão por limite de linhas nesses novos parágrafos. Isso não substitui a observação do layout, foco e animação no navegador em desktop e 390px, que cabe ao responsável pela integração.
+
+### Metadados: 100 registros, 353 explicações
+
+Cada registro recebeu `rationale`, fora do objeto `character`, com uma chave para cada família ativa. A conferência de todas as chaves e valores encontrou:
+
+| Verificação | Resultado local |
+| --- | ---: |
+| Registros com `rationale` | 100 |
+| Explicações não vazias | 353 |
+| D / F / V | 100 / 100 / 100 |
+| L / P / N | 23 / 22 / 8 |
+| Divergências entre chaves de `rationale` e ordem de `enabled` | 0 |
+| Objetos `character` alterados | 0 |
+| Registros alterados quando se ignora apenas `rationale` | 0 |
+| Classificações direto / adaptado | 93 / 7, preservadas |
+
+O esquema da API agora inclui `rationale: dict[Family, str]` em `Inspiration`, permitindo devolver as explicações sem filtrá-las da resposta. São metadados do catálogo público de inspirações; não são novos campos das fichas pessoais e não alteram seus dados ou contratos de importação/finalização.
+
+### Amostragem semântica independente
+
+Foi feita leitura de explicações em 24 IDs, cobrindo D/F/V/L/P/N e os oito casos ativos de N. É uma amostragem das explicações, não leitura semântica integral das 353 justificativas. A cobertura estrutural de 353 foi conferida separadamente em todos os registros.
+
+| Família | Exemplos conferidos | Critério observado nos textos |
+| --- | --- | --- |
+| D | `monkey-d-luffy`, `nico-robin`, `muzan-kibutsuji`, `darth-vader`, `palpatine` | Autonomia, resposta histórica, sobrevivência duradoura e autoridade são resultados desejados. O método coercitivo não vira prova de bondade nem obriga novo conflito interno. |
+| F | `roronoa-zoro`, `nico-robin`, `palpatine`, `john-watson`, `glados` | Insistência, avaliação de risco, encenação, registros e controle são maneiras observáveis de tentar; o texto relaciona sua utilidade e seu custo ao recorte. |
+| V | `roronoa-zoro`, `gollum`, `john-watson`, `hera-venenosa`, `severo-snape` | Concisão, alternância de registro, escrita, imagem sensorial e precisão verbal explicam expressão. A alternância não recebe diagnóstico, nem a metáfora vira prova técnica. |
+| L | `roronoa-zoro`, `darth-vader`, `gollum`, `jim-hopper`, `thanos` | Memória de Kuina não ganha vontade atual; parentesco não produz consentimento; o Anel é distinguido de duas vontades humanas; obrigação de cuidado não legitima imposição; a Morte tem vontade própria apenas no recorte de entidade explicitado. |
+| P | `monkey-d-luffy`, `katniss-everdeen`, `homem-aranha`, `rey`, `eleven`, `chell`, `glados` | Mudança de rota alheia, ajuda condicionada, tempo incompatível, pista confirmada, coerção material e perigo letal mudam a situação. A explicação não converte a pressão numa característica fixa do personagem nem numa resposta obrigatória. |
+| N | `han-solo`, `katniss-everdeen`, `elsa`, `moana`, `zuko`, `batman`, `homem-aranha`, `cloud-strife` | Os textos identificam dois lados valorizados; liberdade/compromisso, segurança/confiança, dever/autoria, raízes/horizonte, verdade/pertencimento, controle/iniciativa, dedicação/presença e autoimagem/experiência. Custo externo isolado não foi usado como justificativa de N. |
+
+O conjunto de IDs amostrados também inclui `hera-venenosa`, `severo-snape` e `john-watson` para confrontar a relação entre explicação e a carta específica, não apenas definições genéricas das famílias. Não foi encontrado defeito material nessa amostra. A ausência de N em Robin e nos demais casos sem dois lados estabelecidos permaneceu intacta. As explicações continuam sendo interpretações autorais de cenas propostas; não são validação canônica linha por linha, diagnóstico ou observação de jogo.
+
+### Hashes e distinção das mudanças
+
+| Estado do catálogo | SHA-256 |
+| --- | --- |
+| Snapshot histórico, antes das nove reclassificações | `e86d8100963b81da76b28259e18d1408107dfccf8f1d224ba1d916482b013ae7` |
+| Aplicação 5.1.1: nove auditorias atualizadas, sem `rationale` | `7eae66fa26f9c50947b01ba665fa972cf771c1261a95d9be35a2b097268cd68c` |
+| Complemento atual: adição das 353 explicações | `72e60b6439971d96229bd03b017e2f81ff76fe7d438da6bbf0d007b6388db7f4` |
+
+Comparações semânticas por registro confirmaram que retirar `rationale` do conjunto atual reproduz integralmente o estado anterior: mesmos 100 IDs na mesma ordem, personagens, fontes, auditorias, classificações, camadas e interpretações. Portanto a diferença do hash atual não representa mais nove mudanças de aderência nem revisão do baralho. A adição de explicações é distinta da aplicação editorial 5.1.1 já registrada.
+
+O prefixo deste relatório antes do complemento tinha 35645 bytes e SHA-256 `c1c3f5b26d2e73b82ea66ca8fd7ffff28c15818f9820de5af09641fee50b41db`; foi preservado. Os hashes anteriores documentam seus respectivos snapshots e não devem ser apresentados como o hash do catálogo atual.
+
+**Verificações próprias deste complemento:** leitura focal de `InspirationGallery.jsx`, das regras de texto no CSS e do campo de resposta em `app/server.py`; leitura semântica da amostra indicada; agregação por Python/PowerShell das 353 chaves, valores não vazios, famílias, IDs e classificações; comparação de hashes semânticos por personagem e registro; conferência do prefixo histórico. Nenhuma edição de UI, API, catálogo ou PDF foi feita por este revisor neste complemento. O responsável pelo backend informou cinco testes Node e sete de API aprovados; essas suítes não foram repetidas nem são contabilizadas como execução própria.
+
+**Aceite:** aprovado por leitura dos contratos, conferência estrutural integral dos metadados e amostragem semântica. A comprovação visual e de interação em desktop/390px e a publicação devem ser associadas às evidências reais do responsável pela integração. A existência de 353 textos e um build aprovado, isoladamente, não comprova sua apresentação no serviço publicado.

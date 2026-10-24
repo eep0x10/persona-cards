@@ -1,6 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
+import { createHash } from "node:crypto";
 import { completionIssues, validateCharacter, parseImport } from "./src/model.js";
 
 const read = (name) => JSON.parse(readFileSync(new URL(name, import.meta.url), "utf8"));
@@ -9,6 +10,28 @@ const deck = read("./public/deck.json");
 const lookup = Object.fromEntries(deck.cartas.map((c) => [c.codigo, c]));
 const allowedMedia = ["Anime", "Cinema", "Animação", "Quadrinhos", "Séries", "Jogos"];
 const allowedArchetypes = ["Herói", "Vilão", "Ambíguo", "Coadjuvante"];
+
+test("353 explanations cover every selected layer and preserve the original character templates", () => {
+  const explanations = [];
+  for (const entry of catalog.characters) {
+    assert.deepEqual(Object.keys(entry.rationale), entry.character.enabled, entry.id);
+    assert.equal(Object.hasOwn(entry.character, "rationale"), false, entry.id);
+    for (const family of entry.character.enabled) {
+      const text = entry.rationale[family];
+      assert.equal(typeof text, "string", entry.id + family);
+      assert.ok(text.length >= 35 && text.length <= 200, entry.id + family);
+      assert.equal(text, text.trim());
+      assert.notEqual(text, entry.character.fields[family], entry.id + family);
+      assert.notEqual(text, lookup[entry.character.cards[family]].leitura, entry.id + family);
+      explanations.push(text);
+    }
+  }
+  assert.equal(explanations.length, 353);
+  assert.equal(new Set(explanations).size, 353);
+  // Recorded before adding explanatory metadata: all 100 character objects stay exact.
+  const hash = createHash("sha256").update(JSON.stringify(catalog.characters.map((e) => e.character))).digest("hex");
+  assert.equal(hash, "489995a3d3f4e27a25ff02c23754b23169ae2203f40442d92b44a543303a5cf3");
+});
 
 test("exactly 100 distinct inspirations use the complete published schema", () => {
   assert.equal(catalog.version, "5.1");

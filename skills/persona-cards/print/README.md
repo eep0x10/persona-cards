@@ -1,6 +1,8 @@
 # Impressão — Persona Cards 5.1 ilustrado
 
-## Edição ilustrada 5.1
+## Edição ilustrada 5.1 — revisão 5.1.1
+
+**Revisão editorial 5.1.1:** textos de U08, D10 e D13 atualizados. Os quatro PDFs exibem a revisão 5.1.1; nomes dos arquivos conservam 5.1 para estabilidade dos links.
 
 Todas as **141 cartas** têm uma abertura para leitura ao puxar e **uma ilustração própria** relacionada à situação da carta. Os 24 spritesheets PNG transparentes ficam em [`assets/`](assets/), com a correspondência exata de código e célula no [manifesto de ilustrações](../../../deck/illustration_sheets_5_1.json). As cenas seguem uma linguagem folk de recortes e duas tintas, com composição aberta; o verso comum usa um ornamento botânico simétrico. As artes foram geradas para esta edição e revisadas na página impressa.
 

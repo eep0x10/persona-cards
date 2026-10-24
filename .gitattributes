@@ -4,3 +4,8 @@ deck/persona-cards-5.1.json -text
 app/public/deck.json -text
 skills/persona-cards/references/deck.json -text
 *.jpg binary
+
+# Preserve published artifact bytes and source hashes across Windows/Linux.
+*.pdf binary
+app/public/inspirations.json -text whitespace=cr-at-eol
+docs/REVISAO-100-PERSONAGENS.md -text whitespace=cr-at-eol

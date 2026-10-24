@@ -1,4 +1,4 @@
-# Persona Cards 5.1 — instruções e referência para GPT
+# Persona Cards 5.1 — revisão editorial 5.1.1 — instruções e referência para GPT
 
 O método da skill e as 141 cartas completas estão reunidos abaixo.
 
@@ -11,6 +11,12 @@ Transforme cartas em comportamento específico, escolhas e consequências. Profu
 Leia [manual e cartas](../skills/persona-cards/references/deck.md) na primeira aplicação. Use [índice](../skills/persona-cards/references/indice.md) e `scripts/cards.py` para consultas direcionadas. A fonte oficial é [deck.json](../skills/persona-cards/references/deck.json): 141 cartas, 126 de criação e 15 guias. Cada carta 5.1 tem uma abertura editorial (`leitura`) para ser lida ao puxar, seguida dos campos de ação; não trate a abertura como biografia pronta. Consulte campos reais; nunca invente códigos e títulos oficiais. Veja [exemplos](../skills/persona-cards/references/exemplos.md) e [revisão](../skills/persona-cards/references/revisao.md).
 
 ## Método
+
+A revisão editorial **5.1.1** mantém o formato 5.1, os 141 códigos, títulos e módulos. Corrige somente U08/D10/D13; o deck 5.0 permanece congelado.
+
+- **D10 — autoridade:** o desejo é ter poder sobre uma decisão. Pode envolver participação, influência ou domínio; não exige cooperação, consentimento ou limite moral reconhecido. Descreva a margem real de recusa dos demais. F13/F14 distinguem coerção e encenação do objetivo.
+- **D13 — sobrevivência:** pode orientar saída de perigo imediato ou proteção duradoura da própria vida. Diga qual horizonte move a próxima ação; desejar sobreviver não determina meios ou bondade. D04 continua protegendo alguém ou lugar.
+- **U08 — módulos:** núcleo 01–12; expansão 13–18; expansão 5.0 D19–D24/F19–F20/N19–N22/L19–L20/V19–V22. P termina em P18. U/G continuam sendo consulta.
 
 1. Extraia contexto, tom, papel e fatos estabelecidos. Separe fatos de propostas. Resolva detalhes rotineiros com escolhas adequadas; pergunte só pelo indispensável. Preserve agência dos jogadores e continuidade.
 2. Escolha **D + F + V**: o que quer agora, como tenta obter e como se expressa. Selecione por significado em criação intencional; sorteie quando o pedido for surpresa. Substitua espaços por pessoas, objetos e situações concretas.
@@ -60,9 +66,16 @@ A pasta [print](../skills/persona-cards/print/README.md) contém as 141 cartas 5
 
 ---
 
-# Persona Cards 5.1 — edição de leitura
+# Persona Cards 5.1 — revisão editorial 5.1.1
 
-**141 cartas em português: 126 de criação e 15 guias.** A edição 5.1 mantém os códigos, títulos, campos e módulos de 5.0 e acrescenta uma leitura individual para cada carta. O deck 5.0 permanece disponível como histórico.
+**141 cartas em português: 126 de criação e 15 guias.** O formato 5.1 mantém os códigos, títulos e módulos de 5.0 e acrescenta uma leitura individual para cada carta. O deck 5.0 permanece congelado como histórico.
+
+## Correções da revisão 5.1.1
+
+- **U08:** apresenta os três módulos e os intervalos diferentes da expansão 5.0 por família; P termina em P18.
+- **D10:** descreve poder sobre uma decisão sem exigir cooperação ou um limite moral reconhecido. A margem real de recusa dos demais deve ficar explícita.
+- **D13:** admite sobrevivência imediata ou proteção duradoura da própria vida; esse desejo não determina os meios empregados.
+As correções alteram somente campos de U08/D10/D13 e aberturas de D10/D13. As outras 138 cartas permanecem iguais à edição de leitura anterior. Nenhum código novo foi criado; D06 não foi revisada. O campo `versao` continua 5.1 para compatibilidade, e `revisao_editorial` identifica 5.1.1.
 
 ## Como começar
 
@@ -181,13 +194,13 @@ As aberturas convidam a interpretar, não atribuem diagnóstico, trauma, bondade
 
 ### D10 — Ampliar minha influência (nucleo)
 
-> Você quer participar das decisões. Que poder procura, e como pretende usá-lo?
+> Você quer ter poder sobre uma decisão. Que autoridade procura, e quem poderá contestá-la?
 
 **Quero:** Obter [autoridade] para decidir [assunto].
 
-**Mostre:** Reúne apoio e explica como usará o poder.
+**Mostre:** Busca apoio, acesso ou posição que lhe permita decidir; descreva como usa esse poder.
 
-**Pedido:** Peça um voto ou aliança; declare um limite.
+**Interação:** Declare a autoridade pretendida e a margem real de recusa dos demais. Só atribua um limite se a pessoa o reconhecer.
 
 ### D11 — Cumprir minha palavra (nucleo)
 
@@ -211,13 +224,13 @@ As aberturas convidam a interpretar, não atribuem diagnóstico, trauma, bondade
 
 ### D13 — Continuar vivo (expansao)
 
-> O perigo é presente. Seu objetivo imediato é sair com o indispensável.
+> Uma ameaça pesa sobre sua continuidade. Você tenta atravessar este perigo ou impedir que ele volte a alcançá-lo?
 
-**Quero:** Sair de [ameaça] com [condição mínima].
+**Quero:** Preservar minha vida diante de [ameaça], buscando [condição de sobrevivência].
 
-**Mostre:** Confere uma saída e separa o indispensável.
+**Mostre:** Procura uma saída imediata ou uma proteção duradoura; diga qual delas orienta a próxima ação.
 
-**Interação:** Peça, exija ou procure o recurso que permite sobreviver.
+**Interação:** Peça, exija ou procure o recurso necessário. Não presuma que desejar sobreviver determina os meios ou um limite moral.
 
 ### D14 — Encontrar intimidade (expansao)
 
@@ -1435,9 +1448,9 @@ As aberturas convidam a interpretar, não atribuem diagnóstico, trauma, bondade
 
 > Varie objetivos, métodos e expressão sem obrigar todos a ter conflito.
 
-**Distribua:** Núcleo: 01–12. Expansão: 13–18. Misture por família se quiser.
+**Distribua:** Núcleo: 01–12. Expansão: 13–18. Expansão 5.0: D19–D24, F19–F20, N19–N22, L19–L20 e V19–V22; P termina em P18. Misture por família se quiser.
 
-**Contraste:** Varie desejo, método e expressão; sorteie sem reposição.
+**Contraste:** Varie desejo, método e expressão; sorteie sem reposição quando quiser reduzir repetições no elenco.
 
 **Confira:** Ausência de conflito não é falha. Não force trauma ou redenção.
 

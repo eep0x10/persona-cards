@@ -22,7 +22,7 @@ function art(ctx,image,code,x,y,size){const a=ART[code];if(!a||!image)return;con
 function cover(ctx,image,x,y,width,height){const scale=Math.max(width/image.naturalWidth,height/image.naturalHeight);const sw=width/scale,sh=height/scale;ctx.drawImage(image,(image.naturalWidth-sw)/2,(image.naturalHeight-sh)/2,sw,sh,x,y,width,height);}
 
 /** Raster-only canvas export: actual portrait, illustrations and complete readable text. */
-export async function downloadCharacterPng(character,lookup){
+export async function downloadCharacterPng(character,lookup,edition){
  await document.fonts?.ready;
  const canvas=document.createElement('canvas');const ctx=canvas.getContext('2d');if(!ctx)throw Error('Este navegador não conseguiu criar a imagem.');
  const families=character.enabled.filter(f=>lookup[character.cards[f]]);
@@ -50,7 +50,7 @@ export async function downloadCharacterPng(character,lookup){
  y=64+headerHeight;
  for(const layer of layers){const code=character.cards[layer.family];ctx.strokeStyle='#c2baa0';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(66,y);ctx.lineTo(1134,y);ctx.stroke();art(ctx,images[ART[code]?.file],code,66,y+24,110);ctx.fillStyle='#a6422d';ctx.font='bold 17px Arial';ctx.fillText(`${LABELS[layer.family].toUpperCase()} · ${code}`,205,y+34);ctx.fillStyle='#123b32';ctx.font='bold 34px Georgia';let end=text(ctx,layer.title,205,y+79,42);ctx.font='28px Arial';text(ctx,layer.body,205,end+2,39);y+=layer.height;}
  if(notes.length){y+=36;ctx.fillStyle='#a6422d';ctx.font='bold 17px Arial';ctx.fillText('PARA LEVAR À CENA',66,y);ctx.fillStyle='#344d40';ctx.font='27px Arial';text(ctx,notes,66,y+42,38);}
- ctx.fillStyle='#6a715d';ctx.font='bold 17px Arial';ctx.fillText('PERSONA CARDS · 5.1',66,height-54);ctx.font='italic 20px Georgia';ctx.textAlign='right';ctx.fillText('Personagens vivos. Escolhas reais.',1134,height-54);
+ ctx.fillStyle='#6a715d';ctx.font='bold 17px Arial';ctx.fillText(`PERSONA CARDS · ${edition}`,66,height-54);ctx.font='italic 20px Georgia';ctx.textAlign='right';ctx.fillText('Personagens vivos. Escolhas reais.',1134,height-54);
  const blob=await new Promise(resolve=>canvas.toBlob(resolve,'image/png'));if(!blob)throw Error('Não foi possível gerar o arquivo PNG.');
  const url=URL.createObjectURL(blob);const link=document.createElement('a');link.href=url;link.download=(character.name||'personagem').replace(/[<>:"/\\|?*]/g,'-')+'.png';link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
  return {width:canvas.width,height:canvas.height};

@@ -1,7 +1,9 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { animate, createScope, stagger } from 'animejs';
+import activeDeck from '../public/deck.json';
 
 const normalize = value => String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+const EDITION = activeDeck.revisao_editorial || activeDeck.versao;
 const FAMILIES = {D:'Desejo',F:'Forma de agir',V:'Expressão',L:'Vínculo',P:'Pressão',N:'Conflito interno'};
 const compare = (left,right) => left.localeCompare(right,'pt-BR');
 const safeUrl = value => /^https?:\/\//i.test(value || '');
@@ -22,10 +24,32 @@ export function interleaveInspirations(characters) {
 }
 
 function CardCombination({character,lookup}) {
-  return <div className="inspiration-combination">{['D','F','V'].map(family => {
+  return <div className="inspiration-combination">{character.enabled.map(family => {
     const card=lookup[character.cards[family]];
     return <div key={family}><b>{card?.codigo || family}</b><span>{card?.titulo || 'Carta não disponível'}</span></div>;
   })}</div>;
+}
+
+/** A real deck face followed by the author's interpretation, never a selection control. */
+function IllustratedExplanation({entry,family,lookup,Art}) {
+  const card=lookup[entry.character.cards[family]];
+  const rationale=entry.rationale?.[family];
+  if(!card)return <figure className="inspiration-layer-explainer"><p>Carta não disponível neste baralho.</p></figure>;
+  return <figure className="inspiration-layer-explainer">
+    <article className="inspiration-real-card" data-family={family} aria-label={`Carta ${card.codigo}: ${card.titulo}`}>
+      <div className="inspiration-real-card-rule"><span>{FAMILIES[family]}</span><b>{card.codigo}</b></div>
+      <h3>{card.titulo}</h3>
+      <Art code={card.codigo}/>
+      <p className="inspiration-official-reading">{card.leitura}</p>
+      <div className="inspiration-real-card-footer"><span>PERSONA CARDS · {EDITION}</span><span>{card.codigo}</span></div>
+    </article>
+    <figcaption className="inspiration-card-explanation">
+      <h4>Por que esta carta?</h4>
+      <p>{typeof rationale === 'string' && rationale.trim() ? rationale : 'A explicação desta escolha ainda não está disponível.'}</p>
+      <h4>Na cena</h4>
+      <p>{entry.character.fields[family]}</p>
+    </figcaption>
+  </figure>;
 }
 
 /** Browsing is read-only. Only onUse asks the application to replace a draft. */
@@ -68,7 +92,11 @@ export default function InspirationGallery({dataset,lookup,Art,active,reduced,on
   useEffect(()=>{
     if(!detail)return;
     const scope=createScope({root}).add(()=>{
-      if(!reduced)animate('.inspiration-detail-paper',{translateY:[22,0],rotateY:[-5,0],opacity:[.65,1],duration:320,ease:'out(3)'});
+      if(!reduced){
+        animate('.inspiration-detail-paper',{translateY:[22,0],rotateY:[-5,0],opacity:[.65,1],duration:320,ease:'out(3)'});
+        animate('.inspiration-real-card',{translateY:[18,0],rotateY:[-7,0],rotateZ:[-1,0],duration:360,delay:stagger(45),ease:'out(3)'});
+        animate('.inspiration-card-explanation',{opacity:[.55,1],translateY:[7,0],duration:240,delay:stagger(45,{start:100}),ease:'out(3)'});
+      }
     });
     return()=>scope.revert();
   },[detail,reduced]);
@@ -104,12 +132,13 @@ export default function InspirationGallery({dataset,lookup,Art,active,reduced,on
     {detail&&<dialog ref={dialog} className="inspiration-dialog" aria-labelledby="inspiration-detail-title" onCancel={()=>setDetail(null)}>
       <div className="inspiration-detail-paper">
         <div className="inspiration-detail-top"><span>{detail.medium} · {detail.archetype}</span><div className="inspiration-detail-top-actions"><button className="inspiration-detail-quick-use" onClick={useAsBase}>Usar como base</button><button className="inspiration-close" onClick={()=>setDetail(null)} aria-label="Fechar leitura do personagem">Fechar ×</button></div></div>
-        <div className="inspiration-detail-identity"><div><span className="paper-eyebrow">{detail.franchise}</span><h2 id="inspiration-detail-title">{detail.name}</h2><p>{detail.excerpt}</p></div><div><Art code={detail.character.cards.D}/><span>Arte do baralho.<br/>Não é retrato do personagem.</span></div></div>
+        <header className="inspiration-detail-heading"><span className="paper-eyebrow">{detail.franchise}</span><h2 id="inspiration-detail-title">{detail.name}</h2><p>{detail.excerpt}</p></header>
+        <section className="inspiration-deck-section" aria-label="Cartas selecionadas e suas explicações">
+          <h3>As cartas desta leitura</h3>
+          <p>Carta do baralho, motivo da escolha e aplicação na cena.</p>
+          <div className="inspiration-detail-layers">{detail.character.enabled.map(family => <IllustratedExplanation key={family} entry={detail} family={family} lookup={lookup} Art={Art}/>)}</div>
+        </section>
         <section className="inspiration-detail-section"><h3>O recorte desta leitura</h3><p>{detail.character.context}</p>{detail.character.role&&<p className="inspiration-detail-role">{detail.character.role}</p>}</section>
-        <div className="inspiration-detail-layers">{detail.character.enabled.map(family=>{
-          const card=lookup[detail.character.cards[family]];
-          return <section key={family}><span className="paper-eyebrow">{FAMILIES[family]} · {card?.codigo}</span><h3>{card?.titulo}</h3><p>{detail.character.fields[family]}</p></section>;
-        })}</div>
         {detail.character.notes&&<section className="inspiration-detail-section"><h3>Para levar à cena</h3><p>{detail.character.notes}</p></section>}
         <section className="inspiration-audit"><h3>Como ler esta interpretação</h3>{detail.audit?.fit!==undefined&&<span className="inspiration-fit">Aderência ao recorte: {String(detail.audit.fit)}</span>}<p>{detail.audit?.note}</p></section>
         <section className="inspiration-sources"><h3>Fontes e referências</h3><ul>{detail.sources.map((source,index)=><li key={`${source.url}-${index}`}>{safeUrl(source.url)?<a href={source.url} target="_blank" rel="noreferrer">{source.label} ↗</a>:<span>{source.label}</span>}</li>)}</ul></section>

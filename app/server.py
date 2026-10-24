@@ -53,6 +53,7 @@ class Inspiration(BaseModel):
     sources:list[InspirationSource]
     character:InspirationTemplate
     audit:InspirationAudit
+    rationale:dict[Family,str]
 
 class InspirationCatalog(BaseModel):
     version:Literal['5.1']

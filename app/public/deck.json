@@ -126,11 +126,11 @@
       "familia": "D",
       "campos": {
         "Quero": "Obter [autoridade] para decidir [assunto].",
-        "Mostre": "Reúne apoio e explica como usará o poder.",
-        "Pedido": "Peça um voto ou aliança; declare um limite."
+        "Mostre": "Busca apoio, acesso ou posição que lhe permita decidir; descreva como usa esse poder.",
+        "Interação": "Declare a autoridade pretendida e a margem real de recusa dos demais. Só atribua um limite se a pessoa o reconhecer."
       },
       "modulo": "nucleo",
-      "leitura": "Você quer participar das decisões. Que poder procura, e como pretende usá-lo?"
+      "leitura": "Você quer ter poder sobre uma decisão. Que autoridade procura, e quem poderá contestá-la?"
     },
     {
       "versao": "5.1",
@@ -945,11 +945,11 @@
       "familia": "D",
       "modulo": "expansao",
       "campos": {
-        "Quero": "Sair de [ameaça] com [condição mínima].",
-        "Mostre": "Confere uma saída e separa o indispensável.",
-        "Interação": "Peça, exija ou procure o recurso que permite sobreviver."
+        "Quero": "Preservar minha vida diante de [ameaça], buscando [condição de sobrevivência].",
+        "Mostre": "Procura uma saída imediata ou uma proteção duradoura; diga qual delas orienta a próxima ação.",
+        "Interação": "Peça, exija ou procure o recurso necessário. Não presuma que desejar sobreviver determina os meios ou um limite moral."
       },
-      "leitura": "O perigo é presente. Seu objetivo imediato é sair com o indispensável."
+      "leitura": "Uma ameaça pesa sobre sua continuidade. Você tenta atravessar este perigo ou impedir que ele volte a alcançá-lo?"
     },
     {
       "versao": "5.1",
@@ -1503,8 +1503,8 @@
       "titulo": "Elenco variado",
       "familia": "U",
       "campos": {
-        "Distribua": "Núcleo: 01–12. Expansão: 13–18. Misture por família se quiser.",
-        "Contraste": "Varie desejo, método e expressão; sorteie sem reposição.",
+        "Distribua": "Núcleo: 01–12. Expansão: 13–18. Expansão 5.0: D19–D24, F19–F20, N19–N22, L19–L20 e V19–V22; P termina em P18. Misture por família se quiser.",
+        "Contraste": "Varie desejo, método e expressão; sorteie sem reposição quando quiser reduzir repetições no elenco.",
         "Confira": "Ausência de conflito não é falha. Não force trauma ou redenção."
       },
       "modulo": "guia",
@@ -1856,6 +1856,7 @@
     "guia_contexto": 6
   },
   "modo_rapido": "D/F/V; L/P opcionais; N apenas com dois valores internos reais",
-  "preservacao": "Os 141 códigos, títulos, campos e módulos de 5.0 permanecem; 5.1 acrescenta uma leitura editorial individual a cada carta.",
-  "comparacao": "O método D/F/V, a opção L/P e o critério de dois valores reais para N permanecem. U/G continuam fora do sorteio de personalidade."
+  "preservacao": "Os 141 códigos, títulos e módulos de 5.0 permanecem; 5.1 acrescenta uma leitura individual a cada carta. A revisão editorial 5.1.1 corrige os campos de U08, D10 e D13 e as leituras de D10 e D13; os campos das outras 138 cartas são preservados. O arquivo 5.0 permanece congelado.",
+  "comparacao": "O método D/F/V, a opção L/P e o critério de dois valores reais para N permanecem. U/G continuam fora do sorteio de personalidade.",
+  "revisao_editorial": "5.1.1"
 }

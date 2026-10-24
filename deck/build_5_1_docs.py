@@ -21,9 +21,15 @@ ORDER = "DFVLPNUG"
 
 def main() -> None:
     cards = DECK["cartas"]
+    revision = DECK["revisao_editorial"]
     manual = [
-        "# Persona Cards 5.1 — edição de leitura", "",
-        "**141 cartas em português: 126 de criação e 15 guias.** A edição 5.1 mantém os códigos, títulos, campos e módulos de 5.0 e acrescenta uma leitura individual para cada carta. O deck 5.0 permanece disponível como histórico.", "",
+        f"# Persona Cards 5.1 — revisão editorial {revision}", "",
+        "**141 cartas em português: 126 de criação e 15 guias.** O formato 5.1 mantém os códigos, títulos e módulos de 5.0 e acrescenta uma leitura individual para cada carta. O deck 5.0 permanece congelado como histórico.", "",
+        "## Correções da revisão 5.1.1", "",
+        "- **U08:** apresenta os três módulos e os intervalos diferentes da expansão 5.0 por família; P termina em P18.",
+        "- **D10:** descreve poder sobre uma decisão sem exigir cooperação ou um limite moral reconhecido. A margem real de recusa dos demais deve ficar explícita.",
+        "- **D13:** admite sobrevivência imediata ou proteção duradoura da própria vida; esse desejo não determina os meios empregados.",
+        "As correções alteram somente campos de U08/D10/D13 e aberturas de D10/D13. As outras 138 cartas permanecem iguais à edição de leitura anterior. Nenhum código novo foi criado; D06 não foi revisada. O campo `versao` continua 5.1 para compatibilidade, e `revisao_editorial` identifica 5.1.1.", "",
         "## Como começar", "",
         "1. Escolha ou sorteie **D + F + V**. Leia a abertura da carta; complete o objetivo, a forma de agir e a expressão com detalhes de sua campanha.",
         "2. Dê nome, papel, competência, prazer cotidiano e limite ao personagem. Mostre uma tentativa concreta em cena e deixe a resposta do interlocutor aberta.",
@@ -37,7 +43,7 @@ def main() -> None:
         count = sum(c["familia"] == family for c in cards)
         manual.append(f"- **{family} — {LABELS[family]}:** {count} cartas.")
     manual += ["", "## Cartas completas", ""]
-    index = ["# Índice oficial 5.1", "", "Leitura individual e campos completos: [manual](deck.md).", ""]
+    index = [f"# Índice oficial 5.1 — revisão editorial {revision}", "", "Leitura individual, correções U08/D10/D13 e campos completos: [manual](deck.md).", ""]
     for family in ORDER:
         manual += [f"## {LABELS[family]}", ""]
         index += [f"## {LABELS[family]}", ""]
@@ -58,7 +64,7 @@ def main() -> None:
     skill = skill.split("---", 2)[-1].strip()
     skill = skill.replace("](references/", "](../skills/persona-cards/references/")
     skill = skill.replace("](print/", "](../skills/persona-cards/print/")
-    gpt = "# Persona Cards 5.1 — instruções e referência para GPT\n\n"
+    gpt = f"# Persona Cards 5.1 — revisão editorial {revision} — instruções e referência para GPT\n\n"
     gpt += "O método da skill e as 141 cartas completas estão reunidos abaixo.\n\n"
     gpt += skill + "\n\n---\n\n" + rendered
     (ROOT / "docs/persona-cards-gpt.md").write_text(gpt, encoding="utf-8")

@@ -50,6 +50,13 @@
         "fit": "direto",
         "note": "Quero decidir a próxima ilha sem aceitar que um governante escolha o destino da tripulação. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "A autonomia orienta a escolha de rotas de Luffy; a aventura perde sentido se outra autoridade decidir por ele.",
+        "F": "Sua iniciativa transforma a vontade de partir em ação coletiva, mas pode passar à frente da avaliação dos companheiros.",
+        "V": "O entusiasmo dá à liberdade uma expressão contagiante: Luffy chama alguém para viver a possibilidade com ele.",
+        "L": "A viagem aproxima Luffy e Nami sem unificar seus objetivos; a vontade da navegadora pode alterar a rota desejada pelo capitão.",
+        "P": "A escolha de um tripulante muda a situação, não a personalidade de Luffy. Sua reação mostra como lida com a liberdade que também deseja para si."
       }
     },
     {
@@ -97,6 +104,12 @@
         "fit": "direto",
         "note": "Quero honrar a promessa de me tornar o maior espadachim, sem tratar a memória de Kuina como uma ordem atual. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "A promessa a Kuina dá direção à ambição de Zoro; alcançar excelência responde a um compromisso que ele continua assumindo.",
+        "F": "A repetição além da dor torna sua determinação observável e mostra o custo que aceita para perseguir a promessa.",
+        "V": "A conclusão curta traduz sua reserva e firmeza; o pouco dito pode sustentar uma decisão ou fechar uma conversa.",
+        "L": "Kuina permanece pelo compromisso lembrado; a ligação ajuda a compreender a disciplina de Zoro sem inventar uma vontade atual para quem morreu."
       }
     },
     {
@@ -144,6 +157,12 @@
         "fit": "direto",
         "note": "Quero desenhar um mapa que registre uma costa ainda desconhecida, pelo prazer de compreender sua geografia. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "O mapa interessa a Nami como prática com valor próprio; o prazer de conhecer o mundo não depende apenas de dinheiro ou aplauso.",
+        "F": "Preparar a rota converte o desejo de cartografar em decisões técnicas e explica sua resistência à pressa do capitão.",
+        "V": "As perguntas precisas mostram como sua voz profissional delimita condições antes de aceitar um risco no mar.",
+        "P": "O prazo do vento coloca a preparação de Nami sob pressão: ela terá de decidir que incerteza aceita, em vez de apenas esperar um mapa perfeito."
       }
     },
     {
@@ -188,6 +207,11 @@
         "fit": "direto",
         "note": "Quero atravessar o cais e ajudar os amigos mesmo com medo, para reconhecer coragem na minha própria ação. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "O feito vale como uma prova que Usopp possa reconhecer em si; a coragem buscada convive com o medo, em vez de exigir sua ausência.",
+        "F": "A bravata encenada permite participar mesmo tremendo; também ameaça a confiança quando alguém verifica o relato.",
+        "V": "O exagero engraçado muda a posição de Usopp diante da plateia e pode esconder o receio que move sua apresentação."
       }
     },
     {
@@ -232,6 +256,11 @@
         "fit": "direto",
         "note": "Quero preparar uma refeição que faça sentido com os ingredientes desta ilha, mesmo sem elogio ou recompensa. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Cozinhar é uma finalidade para Sanji, e não apenas o serviço que presta ao navio; o prato expressa dedicação ao ofício.",
+        "F": "Alimentar antes de negociar transforma cuidado em gesto concreto e dá início a uma relação sem garantia de retorno.",
+        "V": "A atenção charmosa ao convidado faz da hospitalidade uma forma de conduzir a conversa, sem assegurar reciprocidade."
       }
     },
     {
@@ -276,6 +305,11 @@
         "fit": "direto",
         "note": "D06 descreve a investigação de uma história apagada; F16 aparece na verificação de riscos e V05 na distinção entre tradução e certeza. Não foi acrescentado um valor de privacidade não demonstrado pelo recorte.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "A pergunta histórica move Robin para além da obtenção de um objeto: interessa esclarecer quem escreveu e que passado foi apagado.",
+        "F": "A leitura de riscos combina investigação e cautela; verificar armadilhas ou procedência protege a pesquisa de uma confiança precipitada.",
+        "V": "A precisão dos termos torna visível a diferença entre saber, traduzir e supor, coerente com sua postura investigativa neste recorte."
       }
     },
     {
@@ -323,6 +357,12 @@
         "fit": "direto",
         "note": "Quero que a aldeia me aceite como alguém que contribui, começando por uma missão cuja responsabilidade eu possa assumir. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Naruto quer participação reconhecida na aldeia; o desejo de pertencer dá sentido ao empenho em assumir uma tarefa real.",
+        "F": "Sua insistência faz do reconhecimento uma busca ativa, embora o desgaste possa atingir justamente os parceiros dos quais quer se aproximar.",
+        "V": "A energia do convite tenta converter distância social em ação compartilhada: o colega recebe uma ocasião concreta de participar.",
+        "L": "A rivalidade com Sasuke reúne comparação e admiração; a preferência do colega por outro treino pode contrariar a aproximação que Naruto procura."
       }
     },
     {
@@ -370,6 +410,12 @@
         "fit": "direto",
         "note": "Quero fazer Itachi pagar pela destruição do meu clã; obter reparação para terceiros não é o mesmo objetivo. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "A vingança organiza a escolha do alvo de Sasuke; querer punir Itachi não equivale a reconstruir o que o clã perdeu.",
+        "F": "Reservar informações preserva sua autonomia, mas mostra como a perseguição pode afastá-lo das pessoas com quem trabalha.",
+        "V": "A afirmação direta concentra a atenção no alvo e mantém a intimidade fora da conversa, reforçando a distância deste recorte.",
+        "L": "Itachi orienta o alvo e a identidade do perseguidor como adversário significativo, sem ter sua próxima ação definida pela expectativa de Sasuke."
       }
     },
     {
@@ -414,6 +460,11 @@
         "fit": "direto",
         "note": "Quero realizar um atendimento difícil que me mostre capaz de sustentar o time, sem depender da comparação com Naruto e Sasuke. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "O atendimento funciona como prova de capacidade para Sakura; não basta receber elogio se ela própria ainda não reconhece o que consegue fazer.",
+        "F": "A prioridade ao efeito do procedimento faz sua competência aparecer na decisão prática, em vez de depender de uma apresentação vistosa.",
+        "V": "Explicar etapas é uma voz de quem organiza cuidado sob pressão; a clareza ajuda outros a colaborar no atendimento."
       }
     },
     {
@@ -461,6 +512,12 @@
         "fit": "direto",
         "note": "Quero cumprir o dever de formar uma equipe capaz de voltar da missão, incluindo aprender a proteger os companheiros. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "A formação do time nasce de um encargo de instrutor, não de uma promessa privada nem de querer vencer uma missão para si.",
+        "F": "Permanecer ao lado dos alunos traduz lealdade em método e revela o risco de favorecer os seus quando seria necessário responsabilizá-los.",
+        "V": "O comentário seco permite ensinar e testar atenção sem recorrer sempre a uma ordem frontal, preservando sua distância aparente.",
+        "L": "A aplicação própria que Sakura deseja testar impede reduzir a aluna a resultado do ensino; a orientação de Kakashi encontrará outra autoria."
       }
     },
     {
@@ -508,6 +565,12 @@
         "fit": "direto",
         "note": "Quero praticar uma técnica contra alguém que me obrigue a aprender, mesmo que o encontro não dê título ou prêmio. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "O treino interessa por ser vivido: melhorar a técnica tem valor para Goku mesmo fora de um campeonato ou recompensa pública.",
+        "F": "A disputa mobiliza sua curiosidade marcial e expõe o risco de enxergar um parceiro apenas como medida para superar.",
+        "V": "A animação comunica prazer diante de uma nova possibilidade e tenta atrair outra pessoa para a experiência do treino.",
+        "L": "A capacidade respeitada de Vegeta torna a disputa relevante, mas o rival conserva o direito de escolher por que e em que condições treinar."
       }
     },
     {
@@ -555,6 +618,12 @@
         "fit": "direto",
         "note": "Quero executar uma técnica que eu mesmo reconheça como prova de força, sem aceitar que o parâmetro de Kakarotto defina meu valor. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "A medida de força é também uma medida íntima de valor; o recorte não reduz Vegeta a querer aplausos ou um título público.",
+        "F": "Insistir quando a precisão já piora revela o peso da prova pessoal e o custo de não aceitar uma pausa.",
+        "V": "O resultado enunciado sem rodeios exprime exigência e reserva; a fala curta torna o critério rígido antes de revelar sua razão.",
+        "P": "A fadiga já altera a técnica: ela obriga Vegeta a reagir ao preço pessoal da insistência, sem transformar desgaste em valor interno concorrente."
       }
     },
     {
@@ -602,6 +671,12 @@
         "fit": "direto",
         "note": "Quero que Gohan atravesse um perigo preparado para se proteger, sem pressupor que ele queira viver apenas para lutar. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "O foco em preparar Gohan dá à proteção uma forma de ensino, distinta de apenas resolver o combate no lugar do aluno.",
+        "F": "A progressão preparada mostra proteção por antecipação: Piccolo organiza a dificuldade antes que o perigo determine tudo.",
+        "V": "A instrução breve sustenta a austeridade do mentor e deixa a reação do aluno aparecer antes de uma nova exigência.",
+        "L": "Os interesses de Gohan podem sair da progressão preparada pelo mentor; a relação revela como Piccolo responde à autonomia de quem ensinou."
       }
     },
     {
@@ -643,11 +718,14 @@
         "finalized": true
       },
       "audit": {
-        "fit": "adaptado",
-        "note": "D10 capta a expansão de autoridade. O convite cooperativo da carta para declarar um limite não descreve uma fronteira moral demonstrada pelo tirano; F13/V16 representam a coerção.",
-        "gapTags": [
-          "d10-convite-cooperativo"
-        ]
+        "fit": "direto",
+        "note": "D10 descreve a autoridade pretendida sobre os recursos de Namek sem exigir cooperação nem limite moral reconhecido. F13 mostra a coerção e V16 a cortesia intimidatória; a revisão 5.1.1 permite esse encaixe sem mudar o objetivo do recorte.",
+        "gapTags": []
+      },
+      "rationale": {
+        "D": "A autoridade é o resultado desejado: decidir sobre Namek. Sua ambição não precisa ser confundida com segurança ou reconhecimento afetivo.",
+        "F": "A ameaça transforma superioridade material em obediência exigida; é esse meio que distingue domínio de uma aliança voluntária.",
+        "V": "A cortesia calculada torna a desigualdade mais tensa: a oferta parece polida enquanto a recusa é tratada como afronta."
       }
     },
     {
@@ -695,6 +773,12 @@
         "fit": "direto",
         "note": "Quero manter Nezuko segura durante a travessia e impedir que o medo dos moradores produza um ataque precipitado. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Proteger Nezuko orienta uma decisão imediata de abrigo e convivência; não torna todos os medos dos moradores irrelevantes.",
+        "F": "Sua convicção aparece ao sustentar um critério de julgamento numa negociação difícil, e não apenas ao se declarar compassivo.",
+        "V": "A atenção ao receio familiar do morador mostra empatia por um detalhe concreto, abrindo uma conversa em vez de uma pregação abstrata.",
+        "L": "A proteção assumida encontra a iniciativa de Nezuko, que também pode querer proteger alguém. Esse desencontro testa como o cuidado se ajusta à outra vontade."
       }
     },
     {
@@ -739,6 +823,11 @@
         "fit": "direto",
         "note": "Quero responsabilizar o demônio ligado à perda da minha irmã por meio de uma punição que planejo executar. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "A punição de um responsável é o centro deste recorte; serenidade aparente não deve esconder que o resultado buscado é vingança.",
+        "F": "A aparência amável é uma encenação útil ao preparo oculto; o contraste ajuda a reconhecer uma intenção que não está toda na superfície.",
+        "V": "O ritmo gentil conduz o adversário a responder. Delicadeza de expressão e hostilidade da intenção podem coexistir."
       }
     },
     {
@@ -780,11 +869,14 @@
         "finalized": true
       },
       "audit": {
-        "fit": "adaptado",
-        "note": "D13 aproxima a busca de sobrevivência, mas a carta literal trata de sair de uma ameaça presente com condição mínima. Muzan busca eliminar duradouramente a vulnerabilidade ao sol; o horizonte temporal da ambição excede esse enunciado. O objetivo foi preservado para não fabricar um encaixe imediato.",
-        "gapTags": [
-          "d13-objetivo-duradouro"
-        ]
+        "fit": "direto",
+        "note": "D13, na revisão 5.1.1, admite proteção duradoura da própria vida. A busca de eliminar a vulnerabilidade ao sol cabe nesse horizonte sem transformar a ambição em uma fuga imediata nem lhe atribuir limite moral; F13 e V04 preservam ameaça e exigência.",
+        "gapTags": []
+      },
+      "rationale": {
+        "D": "A sobrevivência desejada inclui eliminar uma vulnerabilidade duradoura. A revisão de D13 permite manter essa ambição além de uma fuga imediata.",
+        "F": "Punir falhas usa medo para mover subordinados; também incentiva esconder resultados, tornando o controle uma fonte de informação ruim.",
+        "V": "A exigência curta deixa pouco espaço para negociação e faz o silêncio dos demais compor a demonstração de poder."
       }
     },
     {
@@ -832,6 +924,12 @@
         "fit": "direto",
         "note": "Quero tirar os civis do edifício antes de enfrentar a maldição, sem decidir por eles qual risco aceitar. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Pessoas identificáveis, e não uma vitória abstrata, definem o que Yuji tenta preservar ao entrar no edifício.",
+        "F": "A ajuda anterior à cobrança dá forma prática à disposição de se aproximar, mesmo quando o outro ainda não tem motivos para confiar nele.",
+        "V": "Perguntar por um familiar mostra uma escuta dirigida ao que importa à pessoa; isso ajuda a reconhecer cuidado na expressão.",
+        "P": "A perda imposta ao companheiro muda o custo da evacuação. A reação de Yuji mostrará como prioriza cuidados que não podem ser garantidos ao mesmo tempo."
       }
     },
     {
@@ -876,6 +974,11 @@
         "fit": "direto",
         "note": "Quero abrir aos alunos possibilidades que a hierarquia jujutsu costuma fechar, começando por uma missão em que possam decidir. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Abrir possibilidades para os alunos dá à reforma um alvo concreto; poder pessoal e desejo de comandar não explicam sozinhos esse movimento.",
+        "F": "A aposta antecede a autorização e a garantia; sua confiança produz iniciativa, mas pode colocar outros dentro do risco que ele aceita.",
+        "V": "O humor enfraquece a solenidade da hierarquia e testa quem ainda consegue formular uma objeção séria diante dele."
       }
     },
     {
@@ -920,6 +1023,11 @@
         "fit": "direto",
         "note": "Quero agir segundo minha vontade, sem aceitar que os termos de Yuji determinem quando posso usar o corpo compartilhado. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "A autonomia aqui é predatória: Sukuna quer agir sem os termos de Yuji. A mesma carta de liberdade não impõe um resultado moralmente bom.",
+        "F": "A exploração de uma vantagem revela como tenta transformar vontade própria em conduta obrigatória do outro.",
+        "V": "Ridicularizar muda a posição do adversário na conversa; a graça procura superioridade e desconcerto, não aproximação amistosa."
       }
     },
     {
@@ -967,6 +1075,12 @@
         "fit": "direto",
         "note": "Quero sair da vida que outros escolheram em Tatooine e assumir um caminho cujas consequências eu reconheça como minhas. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Escolher o próprio caminho explica a disposição de sair de Tatooine; o desejo não exige que Luke já saiba qual vida construirá.",
+        "F": "Dar um passo sem garantia torna a aprendizagem possível e expõe sua tendência a agir antes de dominar todas as consequências.",
+        "V": "As perguntas delimitam o risco e a ação disponível, situando a curiosidade de um aprendiz diante de uma experiência ainda desconhecida.",
+        "L": "A experiência de Obi-Wan oferece direção, não substitui a decisão de Luke. O vínculo torna visível o ponto em que conselho e autoria se separam."
       }
     },
     {
@@ -1014,6 +1128,12 @@
         "fit": "direto",
         "note": "Quero desarticular um apoio concreto do Império para que uma comunidade deixe de obedecer por medo. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Desarticular a ordem imperial é diferente de apenas ocupar uma posição dentro dela; a comunidade livre é o resultado pretendido.",
+        "F": "Coordenar distribui o desejo de resistência em tarefas executáveis e mostra por que Leia costuma assumir a iniciativa coletiva.",
+        "V": "A prioridade anunciada primeiro dá direção sob pressão; a concisão também pode deixar razões importantes para uma pergunta posterior.",
+        "P": "O acesso do piloto torna a operação dependente de outra capacidade; negociar essa condição testa a coordenação de Leia sem garantir adesão à Rebelião."
       }
     },
     {
@@ -1058,11 +1178,15 @@
         "finalized": true
       },
       "audit": {
-        "fit": "adaptado",
-        "note": "D10 capta o comando pretendido, mas o limite cooperativo sugerido pela carta não é pressuposto. L20 distingue proximidade familiar e domínio neste recorte, sem antecipar a decisão final.",
-        "gapTags": [
-          "d10-convite-cooperativo"
-        ]
+        "fit": "direto",
+        "note": "D10 descreve o poder pretendido sobre o destino de Luke sem exigir limite moral reconhecido ou consentimento. F13 e V04 mostram imposição e exigência; L20 distingue proximidade familiar e domínio, preservando a possibilidade de recusa de Luke.",
+        "gapTags": []
+      },
+      "rationale": {
+        "D": "A relação com Luke é atravessada pelo desejo de decidir seu destino; D10 permite reconhecer autoridade mesmo quando ela invade um vínculo familiar.",
+        "F": "A força restringe alternativas e tenta produzir obediência. Identificar esse método impede ler a ordem apenas como expressão de cuidado.",
+        "V": "A exigência definitiva condensa seu poder numa frase e faz a pausa sustentar a pressão sobre quem precisa responder.",
+        "L": "A proximidade desejada com Luke se mistura à tentativa de comandar seu futuro. O parentesco não elimina a recusa possível nem converte domínio em cuidado."
       }
     },
     {
@@ -1110,6 +1234,12 @@
         "fit": "direto",
         "note": "N07 distingue a liberdade de partir do valor que Han atribui ao compromisso que aceitou. O confronto proposto torna custoso honrar o acordo, sem reduzir a liberdade a egoísmo ou presumir que ele cumprirá a promessa.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "A quantia serve a uma dívida definida: o dinheiro tem uma condição de suficiência neste recorte, em vez de significar acumulação sem fim.",
+        "F": "O transporte vira negociação explícita entre risco e pagamento; a troca revela como Han preserva margem para escolher participar.",
+        "V": "A ironia mantém distância da pretensão alheia e pode ajudar a negociar ou tornar o acordo mais difícil.",
+        "N": "Partir livremente e honrar o transporte aceito têm valor para Han neste recorte. A ocasião nova torna custoso preservar ambos, em vez de opor virtude e egoísmo."
       }
     },
     {
@@ -1151,11 +1281,14 @@
         "finalized": true
       },
       "audit": {
-        "fit": "adaptado",
-        "note": "A intenção de concentrar autoridade cabe em D10; a sugestão de declarar um limite é inadequada como descrição literal de sua ambição. A encenação e a linguagem legal aparecem em F14/V05.",
-        "gapTags": [
-          "d10-convite-cooperativo"
-        ]
+        "fit": "direto",
+        "note": "D10 descreve concentrar decisões e retirar dos rivais os meios de contestação. O texto 5.1.1 admite esse uso da autoridade sem presumir cooperação ou limite moral; F14 e V05 distinguem a encenação da crise e a linguagem legal estreita.",
+        "gapTags": []
+      },
+      "rationale": {
+        "D": "Concentrar decisões é o objetivo por trás da crise; a autoridade pretendida não pressupõe participação cooperativa nem limite voluntário.",
+        "F": "A solução pública encobre a intenção e a participação na ameaça. A encenação é o caminho para obter legitimidade aparente.",
+        "V": "Os termos legais selecionados permitem prometer pouco e sugerir muito, fazendo a precisão verbal servir ao ocultamento."
       }
     },
     {
@@ -1203,6 +1336,12 @@
         "fit": "direto",
         "note": "Quero entender quais escolhas dizem quem sou, sem tratar uma origem descoberta como destino obrigatório. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "A pergunta sobre quem é liga a investigação da origem às escolhas presentes; descobrir uma linhagem não encerra automaticamente essa questão.",
+        "F": "A adaptação de recursos aprendida na sucata vira método para lidar com situações que escapam ao primeiro plano.",
+        "V": "As perguntas procuram observação verificável num assunto carregado de esperança, dando forma à busca sem inventar uma certeza familiar.",
+        "P": "A pista confirmada muda a base da história que Rey vinha contando a si; sua reação revela como investiga identidade quando a esperança já não basta como evidência."
       }
     },
     {
@@ -1253,6 +1392,13 @@
         "fit": "direto",
         "note": "Quero levar adiante o encargo de retirar o Anel do alcance de Sauron, sem supor que eu consiga resolver cada ameaça sozinho. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "O encargo do Anel orienta Frodo como dever assumido; não é necessário convertê-lo num desejo de glória para tornar a jornada ativa.",
+        "F": "A verificação constante de aproximações e esconderijos mostra cautela, com o risco de a ameaça contaminar toda possibilidade de confiança.",
+        "V": "A hesitação deixa entrever um peso que Frodo ainda não consegue expor inteiro, sem precisar nomear uma emoção para cada pausa.",
+        "L": "Sam compartilha o caminho, mas pode discordar da prioridade da etapa. A companhia ajuda a ver a diferença entre lealdade e ausência de juízo próprio.",
+        "P": "O descanso e a atenção já afetados mudam a próxima decisão de Frodo; o peso deixa de ser apenas perigo futuro e entra no modo como consegue continuar."
       }
     },
     {
@@ -1300,6 +1446,12 @@
         "fit": "direto",
         "note": "Quero cumprir o compromisso de acompanhar Frodo enquanto houver um passo que eu possa dar ao seu lado. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Acompanhar Frodo responde a um compromisso concreto; o sentido da jornada inclui cumprir a palavra dada a outra pessoa.",
+        "F": "A lealdade aparece quando permanecer custa esforço e deixa de ser conveniente, não apenas quando ambos concordam.",
+        "V": "Ajustar a carga e oferecer comida faz o cuidado falar pelas mãos, distinguindo a presença de Sam de uma orientação apenas verbal.",
+        "P": "O intervalo seguro não atende às duas promessas: a escolha testa como Sam lida com os limites materiais de uma lealdade que não pode entregar tudo."
       }
     },
     {
@@ -1344,6 +1496,11 @@
         "fit": "direto",
         "note": "Quero tornar possível uma aliança que as comunidades isoladas ainda não conseguem imaginar. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "A aliança ainda indisponível é o horizonte buscado; aconselhar interessa pelo caminho que pode abrir entre povos isolados.",
+        "F": "Traduzir temores e interesses produz uma primeira ação comum sem exigir que todas as diferenças desapareçam.",
+        "V": "A lembrança breve dá contexto à decisão atual; sua experiência funciona como argumento, não como autoria sobre a escolha de outro."
       }
     },
     {
@@ -1394,6 +1551,13 @@
         "fit": "direto",
         "note": "Quero recuperar o Anel pelo valor absoluto que atribuo a ele, mesmo que os outros contestem minha reivindicação. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "O Anel vale como alvo em si para Gollum; recuperá-lo não precisa servir a uma função prática ou a uma ambição de governo.",
+        "F": "A cooperação representada mantém acesso ao portador e mostra como uma aliança aparente pode esconder a preparação de outra ação.",
+        "V": "A alternância de autorreferência e tom torna audíveis posições distintas na conversa, sem transformar a carta em explicação clínica.",
+        "L": "O apego ao Anel dá centralidade a um objeto na escolha de Gollum; esta lente distingue fixação e memória de uma relação entre duas vontades humanas.",
+        "P": "A chance de tomar o Anel ameaça a cooperação que mantém Gollum perto dele. A situação revela qual perda aceita para agarrar a oportunidade."
       }
     },
     {
@@ -1441,6 +1605,12 @@
         "fit": "direto",
         "note": "Quero impedir que um colega seja ferido pela ameaça que a escola ainda não reconheceu. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "O risco a um colega torna a proteção um objetivo situado, mais preciso que presumir heroísmo como resposta a qualquer situação.",
+        "F": "Testar a pista antes da autorização mostra iniciativa e o preço de levar amigos a uma incerteza que talvez não escolhessem.",
+        "V": "A urgência aparece na conclusão apresentada primeiro: Harry anuncia o perigo e a ação antes de desenvolver todo o argumento.",
+        "L": "A urgência de Harry e o critério de Hermione podem divergir na mesma jornada; a amizade não assegura que ela aceite o risco escolhido por ele."
       }
     },
     {
@@ -1488,6 +1658,12 @@
         "fit": "direto",
         "note": "Quero explicar o fenômeno que põe os alunos em risco e substituir uma hipótese por outra se a evidência exigir. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Explicar o fenômeno dá finalidade à pesquisa; o alvo da carta é a resposta que permita compreender o risco, não parecer a pessoa mais erudita.",
+        "F": "Organizar perguntas e materiais faz do conhecimento um plano verificável, incluindo a possibilidade de preparação excessiva.",
+        "V": "A exposição por etapas permite compartilhar o que sabe sem confundir hipótese, teste e conclusão numa única afirmação.",
+        "P": "A regra bloqueia o registro necessário, criando um caso em que obedecer e investigar têm efeitos distintos; a resposta revela como Hermione interpreta a norma."
       }
     },
     {
@@ -1534,6 +1710,11 @@
         "gapTags": [
           "motivacao-recortada"
         ]
+      },
+      "rationale": {
+        "D": "O compromisso específico de proteção orienta este recorte clandestino; a carta não transforma todas as suas ações em cuidado ou virtude.",
+        "F": "A posição encenada preserva acesso ao que pretende influenciar e explica por que a intenção não coincide com a hostilidade visível.",
+        "V": "A escolha literal das palavras permite sustentar uma resposta e deixar outra impressão; precisão e franqueza não são equivalentes aqui."
       }
     },
     {
@@ -1581,6 +1762,12 @@
         "fit": "direto",
         "note": "Quero que os colegas continuem me vendo como alguém com poder, escondendo o quanto a tarefa recebida me ultrapassa. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Sustentar a aparência de poder é diferente de descobrir quem é; Draco tenta conservar a leitura que os colegas fazem dele.",
+        "F": "A segurança representada protege o segredo das falhas e mostra como a reputação exige esconder informação verificável.",
+        "V": "A frase interrompida torna perceptível o esforço de conter exposição quando a pose já não responde à pergunta.",
+        "P": "A ameaça à família cria uma margem de ação desigual; a reação de Draco precisa ser lida sob coerção, sem deduzir um conflito de valores só porque ele sofre."
       }
     },
     {
@@ -1631,6 +1818,13 @@
         "fit": "direto",
         "note": "N13 reúne dois valores do recorte da arena: evitar ser usada e conseguir confiar numa ajuda necessária. A cooperação com Peeta importa tanto quanto o risco real de se expor; o exemplo deixa o grau de confiança em aberto.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Manter Peeta vivo dá à proteção um alvo concreto dentro de um sistema que tenta transformar cooperação em derrota.",
+        "F": "Procurar recursos e ler sinais traduz autoproteção em avaliação contínua, com o risco de suspeitar também da ajuda necessária.",
+        "V": "O gesto e o objeto comunicam intenção sob vigilância, fazendo a reserva expressiva participar da estratégia de sobrevivência.",
+        "N": "Evitar ser usada e conseguir confiar em Peeta importam para Katniss; o risco da abertura compete com o valor real da cooperação, não com uma fraqueza a superar.",
+        "P": "A ajuda condicionada à apresentação pública faz o recurso cobrar um novo papel; sua reação revela que exposição Katniss aceita para manter a possibilidade de sobreviver."
       }
     },
     {
@@ -1678,6 +1872,12 @@
         "fit": "direto",
         "note": "Quero reconhecer a mim mesmo nas decisões que tomar, em vez de aceitar que a arena defina o tipo de pessoa que sou. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "A prova de valor é conservar reconhecimento de si nas próprias escolhas; ela não se resume a ganhar a arena ou conquistar aplauso.",
+        "F": "A ajuda inicial põe em prática uma disposição de oferecer algo, mesmo quando a organização torna ambíguo o sentido de cada gesto.",
+        "V": "Retomar uma lembrança pessoal rompe por um instante o enquadramento de audiência e torna a interlocução menos abstrata.",
+        "L": "A proximidade desejada encontra as prioridades de Katniss; a carta impede tomar a intensidade de Peeta como garantia do sentimento ou da decisão dela."
       }
     },
     {
@@ -1722,6 +1922,11 @@
         "fit": "direto",
         "note": "Quero atravessar o parque com as crianças até um local seguro, levando apenas o que ajuda a sobreviver. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "O alvo é atravessar um perigo presente com as crianças em segurança; a sobrevivência explica o recorte sem exigir mudar quem Grant deseja ser.",
+        "F": "O saber científico se transforma em leitura de terreno e comportamento, e sua utilidade depende de avaliar a ameaça à frente.",
+        "V": "A instrução curta traduz conhecimento em ação imediata quando explicar toda a teoria consumiria o tempo necessário para escapar."
       }
     },
     {
@@ -1766,6 +1971,11 @@
         "fit": "direto",
         "note": "Quero restabelecer uma condição segura para as pessoas presas no parque, começando pelo recurso que falta agora. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "A proteção procurada tem uma condição concreta de segurança, dando direção ao trabalho de campo em vez de um interesse científico sem urgência.",
+        "F": "Verificar o equipamento troca a promessa de segurança por um procedimento cujo resultado pode ser observado.",
+        "V": "O raciocínio exposto permite corrigir a hipótese durante a ação e mostra uma voz investigativa que continua pensando sob pressão."
       }
     },
     {
@@ -1813,6 +2023,12 @@
         "fit": "direto",
         "note": "N20 contrapõe a responsabilidade pelo reino, que Elsa não trata como irrelevante, à autoria de uma vida em que seus poderes não precisem permanecer ocultos. O isolamento não elimina nenhum desses valores.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "A escolha sobre como viver com os poderes distingue autonomia de simples fuga; Elsa quer deixar de caber apenas numa forma imposta.",
+        "F": "O afastamento é uma maneira de suportar exposição excessiva, mas o alívio imediato não resolve o que ficou sem resposta no reino.",
+        "V": "A frase contida mostra o esforço de impedir que a aproximação revele o medo inteiro, dando uma forma reconhecível à reserva.",
+        "N": "O dever pelo reino continua valioso, mas também a autoria de uma vida sem ocultar os poderes. O afastamento não torna irrelevante nenhum dos lados que Elsa tenta preservar."
       }
     },
     {
@@ -1860,6 +2076,12 @@
         "fit": "direto",
         "note": "Quero reconstruir a intimidade com Elsa, começando por uma conversa que ela aceite ter comigo. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "A proximidade com Elsa é desejada como relação, não como prêmio por insistir; a carta preserva a possibilidade de desencontro.",
+        "F": "A aproximação anterior à garantia faz a esperança agir e também pode fazê-la passar depressa por um sinal de recuo.",
+        "V": "O convite entusiasmado transforma a intenção afetiva numa atividade partilhável, mostrando energia de aproximação em vez de uma ordem.",
+        "L": "O afeto de Anna não dissolve o desejo de distância de Elsa; a divergência torna a reaproximação uma conversa entre vontades, não uma solução unilateral."
       }
     },
     {
@@ -1904,6 +2126,11 @@
         "fit": "direto",
         "note": "Quero conhecer um dia de verão com meus amigos e descobrir como a paisagem muda nessa estação. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Conhecer o verão é uma experiência que vale por ser vivida; o objetivo não precisa servir à aventura principal para ser significativo.",
+        "F": "Introduzir alegria no caminho mostra como Olaf desloca a atenção para uma possibilidade boa em meio à preocupação dos outros.",
+        "V": "A comparação com algo simples revela sua maneira de compreender o desconhecido e pode produzir uma conclusão inesperada."
       }
     },
     {
@@ -1951,6 +2178,12 @@
         "fit": "direto",
         "note": "N01 reúne o pertencimento à comunidade e o desejo de conhecer o horizonte. A partida e a necessidade em casa criam uma escolha entre dois vínculos valorizados, sem declarar que explorar equivale a abandonar os seus.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Abrir uma travessia amplia o que a comunidade consegue imaginar e fazer; não equivale apenas a querer se afastar de casa.",
+        "F": "A repetição após a queda torna a disposição de aprender visível, incluindo o desgaste que a vontade de continuar impõe.",
+        "V": "Nomear a sequência da manobra mostra aprendizagem convertida em orientação prática, mantendo a aventura ligada ao trabalho de navegar.",
+        "N": "Pertencer e conhecer o horizonte são experiências valorizadas por Moana; partir enquanto a casa precisa dela dá custo a ambas, sem tratar exploração como simples rejeição das raízes."
       }
     },
     {
@@ -1995,6 +2228,11 @@
         "fit": "direto",
         "note": "Quero que Moana reconheça em mim o herói das histórias, mesmo quando meus atos recentes não sustentam essa imagem. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "A imagem de herói é o resultado que Maui tenta sustentar perante Moana; o recorte distingue reputação de valor reconhecido apenas por si.",
+        "F": "Selecionar feitos e esconder a falha mantém a versão desejada, tornando a aparência de domínio uma construção ativa.",
+        "V": "O charme tenta escolher o rumo da atenção alheia; a conversa pode ser agradável e ainda assim evitar o ponto que o exporia."
       }
     },
     {
@@ -2039,6 +2277,11 @@
         "fit": "direto",
         "note": "Quero deixar de carregar o papel associado ao passado que evito enfrentar, mantendo distância das Terras do Reino. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "O afastamento procura fazer cessar o peso de um papel, não simplesmente conhecer outro caminho; essa diferença situa o desejo no exílio.",
+        "F": "Interromper o assunto dá proteção momentânea contra a exposição, enquanto mantém sem resposta a demanda que o outro trouxe.",
+        "V": "A brincadeira desloca uma conversa dolorosa e permite perceber quando o humor já não consegue conservar a distância desejada."
       }
     },
     {
@@ -2080,11 +2323,14 @@
         "finalized": true
       },
       "audit": {
-        "fit": "adaptado",
-        "note": "D10 representa tomar o trono. Não se importou para o personagem a sugestão cooperativa da carta de reconhecer um limite; o plano depende de manipular os aliados.",
-        "gapTags": [
-          "d10-convite-cooperativo"
-        ]
+        "fit": "direto",
+        "note": "D10 descreve ocupar o trono e decidir como governar as Terras do Reino. O desejo de autoridade não exige cooperação nem limite reconhecido; F14 e V16 mostram como a preocupação encenada e as promessas ajustadas aos aliados servem à ascensão.",
+        "gapTags": []
+      },
+      "rationale": {
+        "D": "O trono é autoridade para decidir sobre os demais; a ambição é concreta sem precisar de justificativa protetora ou limite moral reconhecido.",
+        "F": "A preocupação familiar encenada esconde como cada relação será usada na tomada do poder.",
+        "V": "A promessa moldada ao ressentimento do aliado faz a atenção parecer reconhecimento e transforma encanto em instrumento político."
       }
     },
     {
@@ -2129,6 +2375,11 @@
         "fit": "direto",
         "note": "Quero que Simba reconheça uma possibilidade de agir que o exílio lhe tornou invisível. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "A possibilidade de voltar a agir é o horizonte que Rafiki tenta tornar visível a Simba; o conselho não determina que ele o seguirá.",
+        "F": "Traduzir a urgência de Nala e a resistência de Simba constrói espaço para interlocução entre vontades que não coincidem.",
+        "V": "A imagem da paisagem convida a ligar memória e escolha sem explicar tudo de maneira direta, dando espessura simbólica à orientação."
       }
     },
     {
@@ -2176,6 +2427,12 @@
         "fit": "direto",
         "note": "Quero recuperar o lugar de brinquedo preferido pelo valor que essa posição tem na minha relação com Andy. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "A posição afetiva perdida é desejada pelo valor que tem para Woody, e não apenas como meio de comandar os brinquedos.",
+        "F": "A tentativa de restringir a aproximação de Buzz revela controle como método para recuperar um lugar, com risco para a confiança do grupo.",
+        "V": "A ordem curta conserva a forma da autoridade antiga mesmo quando sua legitimidade já está sendo contestada.",
+        "P": "A atenção redistribuída pela chegada de Buzz muda a posição de Woody no quarto; sua reação mostrará como tenta recuperar um lugar que já não é incontestado."
       }
     },
     {
@@ -2223,6 +2480,12 @@
         "fit": "direto",
         "note": "Quero entender qual parte da missão em que acredito corresponde ao que consigo observar sobre mim. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "O problema é reconhecer que identidade corresponde ao que vive; perder uma crença sobre a missão não responde sozinho quem pode ser.",
+        "F": "A execução literal mostra como o repertório de patrulheiro organiza as tentativas mesmo quando o contexto desmente suas premissas.",
+        "V": "A solenidade da missão sustenta o papel que acredita representar, fazendo a expressão acompanhar a pergunta sobre identidade.",
+        "P": "O equipamento desmente a missão presumida, impondo uma revisão concreta. A resposta permite observar como Buzz liga uma descoberta material à pergunta sobre quem é."
       }
     },
     {
@@ -2267,6 +2530,11 @@
         "fit": "direto",
         "note": "Quero retirar meus filhos de uma área perigosa e reuni-los num ponto onde possamos preparar a próxima saída. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Reunir os filhos em segurança situa a proteção em pessoas e condições observáveis, em vez de tratá-la como controle de tudo.",
+        "F": "A mudança de plano incorpora as capacidades que descobre nos filhos; a competência aparece na adaptação, não na infalibilidade.",
+        "V": "As etapas curtas fazem a coordenação caber no perigo atual e revelam uma comunicação orientada a que o outro consiga agir."
       }
     },
     {
@@ -2311,6 +2579,11 @@
         "fit": "direto",
         "note": "Quero criar um traje cuja solução técnica me satisfaça; o aplauso do cliente não compensa uma peça mal resolvida. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "A solução do traje importa pelo próprio ofício; o gosto pelo trabalho explica exigência que o aplauso do cliente não substitui.",
+        "F": "O desempenho do material decide a escolha, distinguindo critério técnico de deferência ao prestígio ou ao gosto do solicitante.",
+        "V": "O veredito antecipado dá forma à impaciência segura de Edna e deixa a demonstração vir depois da conclusão."
       }
     },
     {
@@ -2355,6 +2628,11 @@
         "fit": "direto",
         "note": "Quero impedir que a guerra alcance outra comunidade e encontrar uma saída que não destrua quem procuro salvar. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Impedir que uma comunidade seja destruída dá direção à responsabilidade do Avatar sem definir de antemão o meio usado para protegê-la.",
+        "F": "Sustentar uma convicção torna compreensível a recusa de um atalho, com a dificuldade prática de aplicá-la a um adversário real.",
+        "V": "A proposta aberta à resposta mostra que Aang tenta mobilizar participação, ainda que precise rever aquilo que esperava dos amigos."
       }
     },
     {
@@ -2399,6 +2677,11 @@
         "fit": "direto",
         "note": "Quero reparar o dano que uma autoridade causou à comunidade, começando por devolver o recurso que ela tomou. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Devolver um recurso tomado torna reparação diferente de punir um culpado: o resultado desejado diz respeito ao dano da comunidade.",
+        "F": "A ajuda anterior ao pedido demonstra disposição de agir e permite que a colaboração comece por algo verificável.",
+        "V": "Escutar o relato pessoal liga a expressão de cuidado ao que a pessoa afetada considera necessário, em vez de uma bondade genérica."
       }
     },
     {
@@ -2443,6 +2726,11 @@
         "fit": "direto",
         "note": "Quero executar um plano em que minha análise faça diferença, reconhecendo meu valor sem precisar imitar os dobradores. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "O plano funciona como prova pessoal de contribuição; Sokka quer reconhecer uma capacidade que não depende de ter dobra.",
+        "F": "Inventariar recursos dá à criatividade uma estrutura executável e também pode revelar dependência excessiva da previsão.",
+        "V": "A piada torna um erro discutível e mostra como ele tenta conquistar atenção para a análise, mesmo quando o exagero irrita a equipe."
       }
     },
     {
@@ -2487,6 +2775,11 @@
         "fit": "direto",
         "note": "Quero decidir como participo da viagem, enfrentando a tentativa de confundir minha cegueira com incapacidade. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "A autonomia é decidir sua participação; a busca não se confunde com provar que nunca precisa de ninguém.",
+        "F": "A intervenção no terreno torna competência observável antes de obter aprovação, com o risco de ignorar o valor da conversa.",
+        "V": "A franqueza concentrada na decisão e no limite da ajuda exprime independência e pode soar áspera a quem tenta se aproximar."
       }
     },
     {
@@ -2537,6 +2830,13 @@
         "fit": "direto",
         "note": "N03 torna explícito que a verdade aprendida na guerra e o pertencimento familiar e nacional têm valor para Zuko. A revisão da própria identidade não pressupõe que ele deixe de desejar reconhecimento ou que os outros aceitem sua mudança.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "A identidade precisa responder ao que aprendeu, em vez de apenas à aprovação paterna; a carta acompanha uma pergunta de autoria pessoal.",
+        "F": "O esforço insistente torna a mudança algo praticado, mas deixa ver quando determinação e autopenalização se aproximam.",
+        "V": "A interrupção da defesa automática faz a fala revelar uma transição ainda difícil, não uma confiança já resolvida sobre quem é.",
+        "N": "A verdade aprendida e o pertencimento familiar e nacional ainda importam a Zuko; reconhecer ambos impede reduzir a mudança de lado a uma escolha sem perda íntima.",
+        "L": "Iroh oferece orientação por experiência e afeto, mas deseja um caminho que Zuko pode recusar. O vínculo continua distinto de concordância ou de obediência."
       }
     },
     {
@@ -2584,6 +2884,12 @@
         "fit": "direto",
         "note": "Quero que uma maneira mais atenta de viver continue na prática de quem aprende comigo, ainda que siga outro percurso. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Transmitir uma prática de atenção procura continuidade sem exigir uma cópia do mestre; esse é um legado distinto de ocupar o lugar do aluno.",
+        "F": "Traduzir a pergunta e aproximar posições mantém a relação em movimento mesmo quando concordar ainda não é possível.",
+        "V": "A imagem cotidiana do chá torna uma questão difícil acessível pela experiência, sem precisar encerrar a resposta numa máxima.",
+        "L": "A escolha própria de Zuko pode contrariar o mestre; essa relação faz a transmissão de uma prática conviver com a possibilidade de uso que Iroh desaprova."
       }
     },
     {
@@ -2631,6 +2937,12 @@
         "fit": "direto",
         "note": "N14 lê a tensão entre controlar detalhes e permitir iniciativa dos aliados. Ambos servem a objetivos que Batman valoriza neste recorte: reduzir o risco e sustentar uma cooperação real. A intensidade varia entre continuidades editoriais.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "O abrigo dá à proteção um alvo específico; investigar e preparar são meios para esse resultado, não o desejo por si só.",
+        "F": "As contingências mostram sua tendência a antecipar falhas, inclusive o risco de perder a ocasião enquanto tenta controlar cada variável.",
+        "V": "A indicação concisa organiza a operação e mantém sua reserva; os motivos podem ficar menos acessíveis a quem recebe a instrução.",
+        "N": "Conferir o resgate e permitir iniciativa dos aliados servem a valores que Batman preza neste recorte; a confiança necessária limita o controle que também procura manter."
       }
     },
     {
@@ -2678,6 +2990,12 @@
         "fit": "direto",
         "note": "Quero retirar os civis da ameaça e preservar a possibilidade de voltarem a uma vida que eles possam escolher. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Preservar a vida que os civis poderão escolher depois do resgate situa o cuidado para além de derrotar uma ameaça.",
+        "F": "A convicção limita o uso da força e obriga a procurar uma solução compatível, tornando a ética uma tentativa com custos concretos.",
+        "V": "Perguntar o que falta à proposta dá forma à escuta e mostra que poder de agir não equivale a conhecer todas as necessidades.",
+        "P": "O resgate rápido ameaça outro bairro, tornando conhecido quem pagará o preço. A reação de Superman testa sua proteção diante de uma solução que transfere o dano."
       }
     },
     {
@@ -2722,6 +3040,11 @@
         "fit": "direto",
         "note": "Quero abrir uma possibilidade de convivência entre grupos que hoje só reconhecem a guerra como caminho. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Criar uma alternativa à guerra é abrir um horizonte coletivo, em vez de apenas vencer uma negociação para o próprio grupo.",
+        "F": "Traduzir o que cada parte teme perder torna o desacordo trabalhável sem exigir que suas histórias se tornem idênticas.",
+        "V": "A solenidade dá peso ao compromisso assumido diante de outros; não serve como prova automática de que sua proposta é justa."
       }
     },
     {
@@ -2766,6 +3089,11 @@
         "fit": "direto",
         "note": "Quero que Bruce volte em condições de continuar vivendo fora da operação, começando pelo cuidado que ele negligenciou hoje. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Proteger Bruce inclui a possibilidade de ele continuar vivendo fora da missão, dando conteúdo próprio ao cuidado de Alfred.",
+        "F": "Preparar ajuda antes de cobrar uma mudança demonstra vínculo por ação e torna a discordância algo além de crítica distante.",
+        "V": "A lembrança breve mobiliza experiência compartilhada para discutir o risco de hoje, sem precisar transformar o passado em ordem."
       }
     },
     {
@@ -2810,6 +3138,11 @@
         "fit": "direto",
         "note": "Quero derrubar a crença de que as regras de Gotham protegem todos, atacando um símbolo que sustenta essa confiança. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Desacreditar uma ordem é diferente de governar depois dela; o ataque ao símbolo procura romper uma crença que mantém Gotham funcionando.",
+        "F": "A montagem esconde as condições que produziram o resultado, fazendo uma manipulação parecer demonstração inevitável da própria tese.",
+        "V": "A graça cruel tenta escolher o enquadramento do público; rir, resistir ou recusar esse enquadramento continuam respostas possíveis."
       }
     },
     {
@@ -2854,6 +3187,11 @@
         "fit": "direto",
         "note": "Quero que a cidade me reconheça como solução indispensável e veja Superman como um risco que somente eu controlo. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "A cidade acreditar na sua indispensabilidade é a conquista pretendida; a imagem pública pode importar mais que a solução material anunciada.",
+        "F": "A contrapartida de apoio mostra influência negociada por recursos, mesmo quando a apresentação inicial disfarça o custo do acordo.",
+        "V": "A precisão escolhida filtra o que pode ser cobrado depois; linguagem técnica e promessa estreita ajudam a preservar sua versão."
       }
     },
     {
@@ -2901,6 +3239,12 @@
         "fit": "direto",
         "note": "Quero escolher meus vínculos e meu próximo trabalho sem aceitar que um antigo parceiro determine quem posso ser. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Escolher trabalho e vínculos dá à autonomia um conteúdo próprio após uma relação controladora; não basta trocar de pessoa a quem obedecer.",
+        "F": "Rever a tática mostra tentativa de sair de um padrão herdado, incluindo o risco de mudar abruptamente um acordo recente.",
+        "V": "Apelidos e combinações irreverentes situam seu jeito de aproximar ou provocar, tornando o vocabulário parte da relação criada na cena.",
+        "P": "A escolha diferente de alguém próximo quebra o plano compartilhado; a resposta revela se a autonomia que Arlequina busca também consegue admitir a divergência do outro."
       }
     },
     {
@@ -2947,6 +3291,11 @@
         "gapTags": [
           "protecao-nao-humana"
         ]
+      },
+      "rationale": {
+        "D": "A área vegetal é o lugar protegido; a finalidade de conservar vida não determina que seus meios sejam benignos para os moradores.",
+        "F": "A restrição do avanço da obra converte capacidade em pressão e mostra por que o conflito não é só uma diferença de opinião.",
+        "V": "A imagem sensorial das raízes dá uma voz ligada à vida vegetal, sem transformar a metáfora em prova técnica do dano."
       }
     },
     {
@@ -2997,6 +3346,13 @@
         "fit": "direto",
         "note": "N22 reúne a dedicação à responsabilidade heroica e a presença desejada nas relações cotidianas de Peter. P12 concretiza o custo de tempo sem transformar cada compromisso pessoal em mero obstáculo à vocação.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Peter interpreta a capacidade como responsabilidade; o encargo reconhecido orienta a ação mesmo quando não nasceu de uma promessa específica.",
+        "F": "A mudança de rota atende à emergência e mostra o custo da adaptação para alguém que contava com um compromisso anterior.",
+        "V": "O humor altera tensão e ritmo do confronto; pode proteger a disposição de agir ou impedir que percebam o quanto está preocupado.",
+        "N": "A responsabilidade heroica e a presença nas relações cotidianas são ambas desejadas por Peter; não se presume que o encontro pessoal seja um obstáculo sem valor.",
+        "P": "O mesmo intervalo não comporta resgate e encontro como prometidos. A decisão deixa visível como Peter responde a uma impossibilidade concreta de cumprir tudo."
       }
     },
     {
@@ -3041,6 +3397,11 @@
         "fit": "direto",
         "note": "Quero assumir a responsabilidade de proteger as pessoas que a operação deveria servir, inclusive quando a instituição altera a ordem. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "O dever é com a proteção que o papel deveria garantir; a instituição não esgota o modo como Steve interpreta essa responsabilidade.",
+        "F": "Nomear a convicção e oferecer uma alternativa torna a resistência à ordem uma posição pela qual ele responde, não mero desacato.",
+        "V": "A recusa e a ação substituta aparecem antes da explicação, dando direção compreensível ao desacordo dentro da equipe."
       }
     },
     {
@@ -3085,6 +3446,11 @@
         "fit": "direto",
         "note": "Quero assumir uma consequência do uso da minha tecnologia e oferecer uma mudança cujo efeito possa ser verificado. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "A intenção de responder por uma consequência distingue reparação de autopromoção; a outra pessoa ainda decide o que considera suficiente.",
+        "F": "O protótipo dá um teste concreto à tentativa de reparar e evidencia o risco de reduzir a experiência humana a um efeito mensurável.",
+        "V": "A ironia pode ocultar exposição emocional e, ao mesmo tempo, afastar justamente quem esperava que ele reconhecesse a perda."
       }
     },
     {
@@ -3129,6 +3495,11 @@
         "fit": "direto",
         "note": "Quero garantir uma saída aos mutantes perseguidos e um lugar em que possam voltar a decidir suas rotinas. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Garantir saída e condições de escolha torna a proteção uma finalidade comunitária, não apenas uma demonstração do poder sobre o clima.",
+        "F": "Assumir a coordenação converte capacidade em responsabilidade pela ação coletiva, incluindo decisões que outros podem contestar.",
+        "V": "A cadência solene torna público o compromisso com a comunidade e ajuda a reconhecer liderança além da execução de uma técnica."
       }
     },
     {
@@ -3176,6 +3547,12 @@
         "fit": "direto",
         "note": "Quero impedir que outro grupo de mutantes seja capturado e retirar dos perseguidores os meios de repetir o ataque. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Impedir outra captura situa o desejo protetor sem decidir que toda estratégia tomada em seu nome será justa.",
+        "F": "A ameaça a um recurso usa dependência para impor resposta; seu método pode transferir custo a quem não participou da perseguição.",
+        "V": "A referência ao peso histórico busca legitimar a exigência, dando à ameaça um registro de dever coletivo em vez de explosão passageira.",
+        "L": "Xavier pode querer proteção mutante e rejeitar o meio proposto; o afeto com divergência obriga Magneto a enfrentar outra convicção sem reduzi-la a traição."
       }
     },
     {
@@ -3220,6 +3597,11 @@
         "fit": "direto",
         "note": "Quero que a corte me reconheça como autor indispensável do desfecho, ocultando minha participação na origem do problema. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Ser visto como autor indispensável é um resultado de imagem, diferente de precisar compreender quem é ou obter crédito fiel aos fatos.",
+        "F": "A lealdade representada e a informação retida mantêm poder sobre a leitura dos outros, enquanto a contradição ameaça a encenação.",
+        "V": "A oferta elegante se ajusta ao desejo alheio e conduz a atenção, deixando a condição problemática fora do primeiro plano."
       }
     },
     {
@@ -3269,6 +3651,12 @@
         "gapTags": [
           "continuidade-editorial"
         ]
+      },
+      "rationale": {
+        "D": "Neste recorte dos quadrinhos, o alvo é a proximidade com a Morte; a grandeza da oferta não determina a resposta da entidade.",
+        "F": "O poder sobre outras vidas é usado para produzir um gesto de conquista; reconhecer coerção evita confundir intensidade com intimidade.",
+        "V": "A apresentação grandiosa tenta conferir dignidade ao projeto pela escala, mostrando como a forma cerimonial pode sustentar uma intenção brutal.",
+        "L": "A Morte é tratada como entidade com vontade própria neste recorte; a indiferença possível revela o limite entre desejar proximidade e produzir submissão por poder."
       }
     },
     {
@@ -3310,11 +3698,14 @@
         "finalized": true
       },
       "audit": {
-        "fit": "adaptado",
-        "note": "D10 descreve ampliar soberania; o convite da carta a declarar um limite não é aceito como característica necessária. Preparação técnica e legitimação cerimonial são as lentes deste recorte.",
-        "gapTags": [
-          "d10-convite-cooperativo"
-        ]
+        "fit": "direto",
+        "note": "D10 descreve ampliar soberania além da Latvéria sem exigir um limite voluntário ao domínio. F01 representa a preparação técnica e V15 a legitimação cerimonial; a margem de resistência dos demais continua parte da cena, não consentimento presumido.",
+        "gapTags": []
+      },
+      "rationale": {
+        "D": "A solução da crise também pretende ampliar a soberania de Destino; competência técnica não elimina o desejo de decidir pelos demais.",
+        "F": "As contingências tornam seu projeto executável e colocam os outros diante de uma solução preparada para depender do comando dele.",
+        "V": "O título anunciado faz uma oferta técnica soar como afirmação de governo, ligando a expressão à autoridade que reivindica."
       }
     },
     {
@@ -3362,6 +3753,12 @@
         "fit": "direto",
         "note": "Quero decidir com quem convivo e para que uso minha força, deixando de ser apenas um recurso de adultos. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Decidir convivência e uso da própria força dá conteúdo à autonomia; ela tenta existir além da função que adultos lhe atribuem.",
+        "F": "A distância oferece um modo de suportar exposição excessiva, mas pode deixar os amigos sem compreender o que precisa cessar.",
+        "V": "As frases curtas e pausas tornam visível o esforço de colocar um limite ainda difícil de formular, sem reduzir sua voz a falta de linguagem.",
+        "P": "A restrição vem de quem controla o abrigo e muda o custo da recusa. A reação de Eleven mostra como procura autonomia numa relação materialmente desigual."
       }
     },
     {
@@ -3409,6 +3806,12 @@
         "fit": "direto",
         "note": "Quero impedir que Eleven seja encontrada por quem pretende capturá-la e manter um refúgio onde eu consiga protegê-la. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "O refúgio serve à proteção de Eleven; o resultado desejado não resolve se cada restrição que Hopper cria é necessária ou aceitável.",
+        "F": "Controlar circulação transforma cuidado em obediência exigida, mostrando o ponto em que a vantagem do adulto pode reforçar isolamento.",
+        "V": "A instrução anterior à explicação dá à proteção a forma de ordem e pode fazer uma necessidade de esclarecimento parecer desobediência.",
+        "L": "O papel de responsável atribui deveres a Hopper sem lhe conceder concordância de Eleven; o vínculo distingue obrigação de cuidado, afeto e poder de impor regras."
       }
     },
     {
@@ -3453,6 +3856,11 @@
         "fit": "direto",
         "note": "Quero descobrir qual padrão explica o sinal estranho e substituir minha teoria se o teste mostrar outra coisa. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "A resposta ao sinal é a finalidade da investigação; elaborar uma teoria atraente não equivale a já ter explicado o fenômeno.",
+        "F": "Experimentar sem garantia converte curiosidade em ação e pode levar a risco que os amigos ainda não aceitaram.",
+        "V": "Rever a hipótese enquanto fala deixa a descoberta aparecer como processo compartilhável, em vez de um veredito que só pede confiança."
       }
     },
     {
@@ -3497,6 +3905,11 @@
         "fit": "direto",
         "note": "Quero tirar as crianças da área em que a ameaça apareceu e reuni-las antes de decidir o próximo movimento. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Reunir as crianças torna o cuidado um objetivo concreto e permite ler sua mudança de prioridade para além da imagem de popularidade.",
+        "F": "O recurso e a tarefa assumida vêm antes do pedido, dando à orientação uma base prática em vez de autoridade apenas pela idade.",
+        "V": "O humor defensivo aproxima e protege sua apresentação de segurança, mesmo quando a situação o deixa tão confuso quanto aos outros."
       }
     },
     {
@@ -3541,6 +3954,11 @@
         "fit": "direto",
         "note": "Quero abrir uma saída para a comunidade que recebeu apenas a alternativa de obedecer ou desaparecer. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Inventar uma saída onde só foram oferecidas submissão e destruição dá direção à curiosidade do viajante neste recorte.",
+        "F": "A revisão do plano mostra como a informação nova muda sua intervenção; saber muito não o torna imune a uma primeira explicação errada.",
+        "V": "O encadeamento rápido das hipóteses torna o pensamento uma expressão reconhecível e permite que um acompanhante interrompa para contribuir."
       }
     },
     {
@@ -3585,6 +4003,11 @@
         "fit": "direto",
         "note": "Quero reconhecer que minha percepção faz diferença aqui, sem medir meu valor pelo conhecimento extraordinário do Doutor. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "O olhar cotidiano funciona como prova de valor para Donna, sem precisar competir com a erudição do Doutor para justificar sua presença.",
+        "F": "A defesa de que os afetados sejam ouvidos transforma uma convicção numa intervenção que pode contrariar uma solução brilhante.",
+        "V": "Nomear diretamente a pessoa esquecida desloca a conversa do mecanismo para suas consequências e dá força à sua franqueza."
       }
     },
     {
@@ -3626,11 +4049,14 @@
         "finalized": true
       },
       "audit": {
-        "fit": "adaptado",
-        "note": "D10 descreve domínio institucional no recorte John Simm; não se presume limite moral declarado nem motivação única entre encarnações.",
-        "gapTags": [
-          "d10-convite-cooperativo"
-        ]
+        "fit": "direto",
+        "note": "D10 descreve o domínio institucional pretendido no recorte John Simm sem exigir um limite moral declarado. F14 encena legitimidade e V10 procura rebaixar o rival; este encaixe não atribui uma motivação única a todas as encarnações.",
+        "gapTags": []
+      },
+      "rationale": {
+        "D": "A dependência do rival é convertida em autoridade sobre uma instituição; dominar é um resultado específico, não apenas o desejo de vencer uma discussão.",
+        "F": "O papel legítimo representado torna a estrutura uma armadilha antes que os outros conheçam a intenção por trás da função.",
+        "V": "A brincadeira tenta rebaixar a confiança do Doutor e proteger a informação relevante pelo desconcerto, sem pressupor amizade no gesto."
       }
     },
     {
@@ -3675,6 +4101,11 @@
         "fit": "direto",
         "note": "Quero explicar como o crime foi realizado, separando o detalhe observado da conclusão que ainda preciso testar. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Explicar o crime situa uma busca de resposta que pode ser distinguida do prazer de parecer mais inteligente que os demais.",
+        "F": "O teste que elimina uma hipótese mostra prioridade pelo resultado e o custo interpessoal de desprezar a cortesia durante a investigação.",
+        "V": "A cadeia verbal dá acesso ao raciocínio e revela o momento em que uma evidência obriga a mudar o caminho da conclusão."
       }
     },
     {
@@ -3722,6 +4153,12 @@
         "fit": "direto",
         "note": "Quero deixar um registro dos casos que faça sentido para quem não estava presente, preservando minha contribuição de testemunha. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "O relato procura continuidade para uma experiência compartilhada; registrá-la também preserva a contribuição de quem testemunhou o caso.",
+        "F": "As notas são âncoras para reconstruir a sequência, permitindo distinguir observação e inferência sem presumir que o registro seja infalível.",
+        "V": "O texto tem leitor e tempo diferentes dos da ação; escrever permite situar dúvida e autoria de um modo que a conversa imediata não resolve.",
+        "L": "Os casos alimentam um relato construído por contribuições diferentes; a divergência sobre publicar mostra que a parceria não apaga a autoria ou os interesses de Watson."
       }
     },
     {
@@ -3769,6 +4206,12 @@
         "fit": "direto",
         "note": "Quero que minha família continue me vendo como alguém que agiu por ela, mesmo quando minhas escolhas já contradizem essa versão. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Preservar a justificativa familiar é um objetivo de imagem; este recorte não aceita essa justificativa como explicação suficiente do que ele faz.",
+        "F": "A normalidade representada e os fatos selecionados mantêm uma impressão que depende de esconder partes verificáveis da própria conduta.",
+        "V": "A resposta literal estreita o que foi prometido e tenta controlar a inferência do outro, usando cuidado verbal para sustentar ocultamento.",
+        "P": "A informação verificável desfaz a compatibilidade entre versões que Walter contou; sua resposta expõe se reconhece o fato ou aumenta o trabalho de ocultamento."
       }
     },
     {
@@ -3816,6 +4259,12 @@
         "fit": "direto",
         "note": "Quero sair da condição de violência e dependência que tornou insuportável continuar nesse trabalho e nessas relações. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Sair da condição que se tornou insuportável é diferente de apenas escolher uma aventura nova; o desejo pode existir antes de um plano de saída.",
+        "F": "Interromper contato dá alívio ou distância sob coerção, sem que isso prove indiferença ao problema que ficou pendente.",
+        "V": "A fala contida mostra a dificuldade de se expor novamente; pausa e correção importam sem exigir uma descrição clínica da experiência.",
+        "P": "A ameaça de quem controla a saída muda o sentido da tarefa exigida; o comportamento de Jesse sob coerção não deve ser tomado por adesão livre ao trabalho."
       }
     },
     {
@@ -3860,6 +4309,11 @@
         "fit": "direto",
         "note": "Quero fazer o adversário responsável pela perda que me marcou pagar, mantendo a punição como objetivo além do negócio. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "A retaliação tem um responsável como alvo; o trabalho empresarial não esgota a intenção que sustenta a preparação deste recorte.",
+        "F": "A organização paciente dá à punição um método que procura reduzir improviso e também pode falhar quando o outro rompe a previsão.",
+        "V": "A cortesia profissional regula o ritmo da conversa e permite que uma ameaça seja percebida antes de ser explicitamente enunciada."
       }
     },
     {
@@ -3906,6 +4360,11 @@
         "gapTags": [
           "agencia-jogador"
         ]
+      },
+      "rationale": {
+        "D": "O encargo de ajudar organiza esta proposta de jogo; não pretende provar uma motivação única para um protagonista parcialmente definido pelo jogador.",
+        "F": "O efeito das ferramentas decide a tentativa, ligando exploração e solução de problemas sem pressupor planejamento infalível.",
+        "V": "Objeto, direção e resposta corporal oferecem comunicação observável; o silêncio não obriga a inventar uma fala ou uma ausência de intenção."
       }
     },
     {
@@ -3950,6 +4409,11 @@
         "fit": "direto",
         "note": "Quero responder pelo povo de Hyrule mesmo com o poder disponível reduzido, assumindo o dever ligado ao meu papel. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "O papel recebido dá direção à responsabilidade nesta versão de Zelda; ter pouco poder disponível não elimina o valor que atribui ao encargo.",
+        "F": "A preparação organiza recursos ainda existentes e evita confundir esperança de recuperação com uma capacidade já garantida.",
+        "V": "A distinção entre entregar e esperar conseguir torna a responsabilidade perceptível na própria formulação da promessa."
       }
     },
     {
@@ -3991,11 +4455,14 @@
         "finalized": true
       },
       "audit": {
-        "fit": "adaptado",
-        "note": "A autoridade pretendida cabe em D10, mas a carta não deve importar cooperação ou limitação voluntária para o conquistador. O recorte é Twilight Princess.",
-        "gapTags": [
-          "d10-convite-cooperativo"
-        ]
+        "fit": "direto",
+        "note": "D10 descreve concentrar autoridade sobre Hyrule e remover meios de resistência, sem importar cooperação ou limitação voluntária. F13 e V15 distinguem coerção e reivindicação de soberania neste recorte de Twilight Princess.",
+        "gapTags": []
+      },
+      "rationale": {
+        "D": "A autoridade sobre Hyrule é a conquista desejada; a revisão de D10 admite esse domínio sem importar um limite moral que ele não reconhece.",
+        "F": "A força e a dependência dão custo à recusa, mostrando por qual meio a vontade de governar procura produzir submissão.",
+        "V": "O registro de soberania tenta tratar poder exercido como direito legítimo, fazendo a expressão reforçar a autoridade pretendida."
       }
     },
     {
@@ -4043,6 +4510,12 @@
         "fit": "direto",
         "note": "Quero recuperar meu lugar no Reino do Crepúsculo, ainda que Link não compartilhe todas as razões da minha busca. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Recuperar o próprio lugar é um objetivo com valor em si para Midna; isso não significa que o aliado tenha a mesma razão para cooperar.",
+        "F": "A informação ocultada faz a parceria atender a uma busca que o outro só conhece em parte, tornando a confiança uma questão ativa.",
+        "V": "A ironia testa o parceiro e preserva distância sobre o que ainda não deseja revelar, sem resumir a relação a humor amistoso.",
+        "L": "Salvar os atingidos pela sombra e recuperar o próprio lugar mantêm a cooperação por razões diferentes; o desacordo pode exigir de Midna outra oferta ou revelação."
       }
     },
     {
@@ -4087,6 +4560,11 @@
         "fit": "direto",
         "note": "Quero retirar Peach e os moradores da ameaça que bloqueou o caminho de volta ao Reino Cogumelo. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "O resgate tem pessoas e uma rota de retorno como alvo; a pessoa protegida não se torna um prêmio devido pelo sucesso.",
+        "F": "A repetição da passagem mostra persistência diante da falha e abre a pergunta sobre quando insistir precisa virar aprendizado de outra sequência.",
+        "V": "A energia diante da tentativa comunica disposição para agir e torna possível chamar um parceiro a um papel concreto na ação."
       }
     },
     {
@@ -4131,6 +4609,11 @@
         "fit": "direto",
         "note": "Quero encontrar Mario e abrir uma saída segura, mesmo quando o ambiente me dá razões para hesitar. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Encontrar Mario dá finalidade à entrada no lugar assustador; ter medo não apaga o objetivo nem torna obrigatório provar coragem ao público.",
+        "F": "Ler ruídos e sinais dá forma à cautela e mostra como ela pode proteger ou adiar demais o movimento necessário.",
+        "V": "O chamado hesitante torna o receio audível enquanto Luigi ainda tenta comunicar uma pergunta e manter a busca."
       }
     },
     {
@@ -4172,11 +4655,14 @@
         "finalized": true
       },
       "audit": {
-        "fit": "adaptado",
-        "note": "D10/F13 descrevem domínio e coerção. A leitura do desejo é proposta a partir de jogos de plataforma; não pressupõe reciprocidade afetiva nem um limite ético do tirano.",
-        "gapTags": [
-          "d10-convite-cooperativo"
-        ]
+        "fit": "direto",
+        "note": "D10 descreve impor autoridade sobre uma região do Reino Cogumelo sem pressupor limite ético ou consentimento dos habitantes. F13 mostra coerção e V04 a exigência direta; este recorte de plataforma não atribui reciprocidade afetiva.",
+        "gapTags": []
+      },
+      "rationale": {
+        "D": "Ampliar o domínio sobre uma região dá à oposição um resultado identificável; poder desejado não precisa esconder uma carência afetiva.",
+        "F": "A rota bloqueada converte uma vantagem material em exigência de submissão, preservando a possibilidade de que os habitantes resistam.",
+        "V": "A exigência direta faz a impaciência e a pretensão de comando aparecerem sem uma justificativa elaborada para a plateia."
       }
     },
     {
@@ -4223,6 +4709,11 @@
         "gapTags": [
           "agencia-jogador"
         ]
+      },
+      "rationale": {
+        "D": "O treino é interpretado como prática que vale por si; essa é uma lente proposta para o avatar, não uma motivação canônica deduzida do silêncio.",
+        "F": "A repetição situa uma disciplina ativa e seu possível custo para a equipe, evitando tratar excelência como atributo sem processo.",
+        "V": "Gesto e espera descrevem como uma intenção pode chegar ao Pokémon sem atribuir ao protagonista uma fala que não foi apresentada."
       }
     },
     {
@@ -4267,6 +4758,11 @@
         "fit": "direto",
         "note": "Quero receber crédito pela estratégia que preparei e demonstrar que a conquista não se deve apenas ao nome da minha família. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "O crédito pela estratégia dá conteúdo ao reconhecimento desejado; o recorte distingue competência reconhecida de apenas carregar um nome conhecido.",
+        "F": "A disputa cria uma comparação de resultado e também revela a tendência a converter um encontro numa classificação entre rivais.",
+        "V": "A condição do desafio aparece primeiro, tornando a declaração uma forma de ocupar posição antes de explicar sua importância."
       }
     },
     {
@@ -4311,6 +4807,11 @@
         "fit": "direto",
         "note": "Quero compreender como a ruína se relaciona ao mito local, aceitando revisar a hipótese quando surgir outra evidência. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "A investigação da ruína tem uma pergunta que o título de campeã não resolve; curiosidade e posição pública não são a mesma intenção.",
+        "F": "Rever o teste conforme a inscrição muda de sentido faz a competência responder ao terreno e à informação descoberta.",
+        "V": "Os termos precisos mantêm separadas plausibilidade e comprovação, deixando seu interesse histórico aparecer numa voz ponderada."
       }
     },
     {
@@ -4358,6 +4859,12 @@
         "fit": "direto",
         "note": "N15 contrapõe conservar a identidade que dá coerência à autoimagem e admitir experiências que a contradizem. O conflito não resolve quais lembranças são verdadeiras nem serve de diagnóstico; isso exige o contexto específico da obra.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Compreender a própria identidade organiza a busca sem permitir que um passado simplesmente decretado encerre as dúvidas presentes.",
+        "F": "A reserva preserva espaço para examinar a experiência e pode deixar amigos sem uma informação que ajudaria a confrontar a própria narrativa.",
+        "V": "A afirmação corrigida mostra a dificuldade de sustentar uma lembrança, sem que a forma de falar estabeleça sozinha o que realmente ocorreu.",
+        "N": "A autoimagem que dá coerência e a experiência que a contradiz têm valor para Cloud; admitir a dúvida ameaça algo significativo sem decidir por si quais memórias são verdadeiras."
       }
     },
     {
@@ -4405,6 +4912,12 @@
         "fit": "direto",
         "note": "Quero que a comunidade atravesse a crise com apoio concreto, começando pelas pessoas que o grande plano deixou sem recurso. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "O recurso que falta às pessoas situa a proteção no cotidiano da comunidade, além dos grandes objetivos do grupo.",
+        "F": "A ajuda feita antes da cobrança dá à confiança uma base concreta e mostra como cuidado também pode iniciar colaboração.",
+        "V": "O detalhe pessoal retomado reconhece uma necessidade específica; intimidade orienta a pergunta sem antecipar a resposta.",
+        "L": "A lembrança de outra fase permite a Tifa notar uma diferença no relato de Cloud; conhecer o passado não lhe dá certeza sobre toda experiência dele."
       }
     },
     {
@@ -4449,6 +4962,11 @@
         "fit": "direto",
         "note": "Quero derrubar a ordem que considero ilegítima, atacando a estrutura que permite aos outros continuar como antes. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "Atacar a estrutura do mundo procura romper uma ordem, não simplesmente obter uma posição melhor dentro dela.",
+        "F": "A revelação seletiva tenta conduzir a leitura de Cloud; a informação funciona como instrumento de encenação e influência.",
+        "V": "A imagem de retorno e dissolução sugere uma escala de sentido sem explicá-la toda, dando à fala um caráter poético e ameaçador."
       }
     },
     {
@@ -4498,6 +5016,12 @@
         "gapTags": [
           "agencia-jogador"
         ]
+      },
+      "rationale": {
+        "D": "Identificar uma saída real situa a sobrevivência como objetivo imediato, diferente de aceitar a próxima tarefa como recompensa suficiente.",
+        "F": "O teste pela geometria mostra solução apoiada em efeito observável, incluindo abandonar a ideia que o ambiente acabou de refutar.",
+        "V": "Escolher e deslocar objetos pode aceitar ou recusar uma instrução por ação; essa comunicação não exige fabricar diálogo para a protagonista.",
+        "P": "O mecanismo letal torna a rota anterior inviável; a resposta de Chell será uma tentativa situada de escapar, não prova de uma tendência abstrata a buscar risco."
       }
     },
     {
@@ -4547,6 +5071,12 @@
         "gapTags": [
           "agencia-nao-humana"
         ]
+      },
+      "rationale": {
+        "D": "Ler testes como vocação é uma interpretação da centralidade dessa atividade; a carta não resolve quanto há de autonomia ou programação na IA.",
+        "F": "Restringir saídas faz a dependência mover a execução dos testes, distinguindo interesse pela prática de consentimento de quem a realiza.",
+        "V": "A promessa estreita permite sugerir mais que o enunciado oferece, fazendo a precisão verbal integrar o controle da situação.",
+        "P": "O sujeito abandona a sequência prevista e muda a relação de controle; a reação de GLaDOS mostra o que faz quando sua expectativa já não organiza a ação do outro."
       }
     },
     {
@@ -4591,6 +5121,11 @@
         "fit": "direto",
         "note": "Quero produzir uma solução que me permita reconhecer capacidade própria, contrariando a avaliação depreciativa que recebi. O recorte não exige uma tensão interna adicional.",
         "gapTags": []
+      },
+      "rationale": {
+        "D": "O resultado procurado é uma prova de capacidade para si; a necessidade de se reconhecer competente não se reduz a obter elogios.",
+        "F": "A possibilidade é tentada antes da garantia, revelando iniciativa e a tendência a transferir ao parceiro um risco ainda mal compreendido.",
+        "V": "O pensamento em voz alta deixa a hipótese nascer, vacilar e pedir confirmação, expondo uma segurança ainda não conquistada pelo teste."
       }
     }
   ]

@@ -74,11 +74,14 @@ class Contracts(unittest.TestCase):
         for entry in catalog['characters']:
             self.assertIsNone(entry['character']['id'])
             self.assertTrue(entry['character']['finalized'])
+            self.assertEqual(set(entry['rationale']),set(entry['character']['enabled']))
+            self.assertTrue(all(isinstance(text,str) and len(text)>=35 for text in entry['rationale'].values()))
             for family,code in entry['character']['cards'].items():
                 self.assertEqual(next(c for c in DECK['cartas'] if c['codigo']==code)['familia'],family)
         first=catalog['characters'][0]
         self.assertEqual(client.get('/api/inspirations/'+first['id']).json(),first)
         self.assertEqual(client.get('/api/inspirations/inexistente').status_code,404)
+        self.assertEqual(sum(len(entry['rationale']) for entry in catalog['characters']),353)
 
     def test_inspirations_combined_filters_and_read_only_contract(self):
         found=client.get('/api/inspirations',params={'q':'hermione','medium':'Cinema','archetype':'Herói'}).json()['characters']

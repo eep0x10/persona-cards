@@ -57,3 +57,19 @@ Busca por Nami, resultado vazio/reset e busca sem acento `aneis` (quatro), filtr
 Anime.js observado: filtro com opacidade0,7663/translateY8,6814; detalhe com opacidade0,6909 e matrix3d. Modo reduzido: opacidade1 e transformnone em lista e detalhe. Sequência rápida Zoro→Nami→Usopp terminou no personagem correto. A revisão independente por leitura não encontrou perda de rascunho ou clone compartilhado.
 
 Testes do catálogo conferem100 IDs/nomes únicos, fichas completas, códigos e fontes estruturadas; fontes oficiais contextualizam as obras, não comprovam as interpretações. [Revisão do sistema](REVISAO-100-PERSONAGENS.md). Estes resultados não equivalem a teste com jogadores ou fidelidade universal às obras.
+
+## Revisão editorial 5.1.1
+
+Somente U08, D10 e D13 foram alteradas por overlay versionado. Três JSON ativos idênticos; 138 cartas restantes e fonte5.0 intactas, protegidas por testes. Skill local instalada foi sincronizada com os arquivos públicos do projeto, preservando arquivos locais adicionais.
+
+Os quatro PDFs foram regenerados com identificação5.1.1. MarkItDown foi usado nos quatro arquivos anteriores e nos quatro finais; tabelas de duas colunas aparecem parcialmente intercaladas na extração, por isso os campos não foram reconstruídos desse texto. O verificador comparou diretamente todos os códigos, títulos, leituras e campos operacionais das141 cartas com o JSON nas frentes e no duplex; conferiu hashes, arte, A4 e36+36+72+2 páginas. Corpo mínimo8,5pt e arte mínima80pt mantidos. Inspeção visual das folhas3(D10),19(D13),29(U08) e manual não encontrou cortes ou sobreposição. [Folha com U08](assets/revisao-u08-5.1.1.png). Prova física ainda não realizada.
+
+Mesa local `localhost:8769`: D10 nova leitura e campos conferidos no navegador; D13 nova leitura e verso rolável em390px; U08 exibe todos os intervalos de expansão e permanece fora da combinação. Rodapé identifica5.1.1. O formato JSON de fichas continua5.1 e importações5.0/5.1 passaram nos testes.
+
+### Cartas visuais e todas as camadas da Inspiração
+
+A galeria final exibiu100 registros e353 linhas de cartas no DOM (D/F/V/L/P/N). Zoro agora lista L16 junto de D11/F15/V04. Seus detalhes apresentaram4 faces ilustradas e4 justificativas específicas; a leitura oficial permanece na face e a explicação autoral fica abaixo. Desktop1366×900 e390×844 sem overflow horizontal; Escape devolveu foco à prévia. [Detalhe](../design/inspiracao-detalhe.png), [camadas extras](../design/inspiracao-camadas-extras.png), [mobile](../design/inspiracao-detalhe-mobile.png).
+
+Movimento completo: faces observadas com matrix3d/translateY intermediários. Movimento reduzido: todas as4 faces e explicações do caso em transformnone/opacity1, conteúdo completo. Cópia da base abriu4camadas; finalização guardou L16 e um PNG real de4camadas com rótulo5.1.1 foi inspecionado. Os metadados353/353 foram verificados por testes e amostra editorial independente de24IDs; isso não equivale a conferir visualmente cada uma das100 combinações nem testar leitores.
+
+PDFs são marcados como binários no Git, e o JSON de inspirações preserva seus bytes de origem, evitando conversão automática de finais de linha que alteraria os hashes publicados. O pacote de release deve conferir os hashes novamente contra os arquivos no ZIP.

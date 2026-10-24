@@ -22,6 +22,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PRINT = ROOT / "skills/persona-cards/print"
 DECK = ROOT / "deck/persona-cards-5.1.json"
 MANIFEST = ROOT / "deck/illustration_sheets_5_1.json"
+EDITION = json.loads(DECK.read_text(encoding="utf-8")).get("revisao_editorial", "5.1")
 ASSETS = PRINT / "assets"
 BACK_ART = ASSETS / "folk-verso-botanico.png"
 PAGE_W, PAGE_H = A4
@@ -130,7 +131,7 @@ def draw_front(canvas: Canvas, card: dict, x: float, y: float) -> dict:
     rule(canvas, x+16, y+18, x+CARD_W-16, accent, 0.45)
     canvas.setFont("Arial", 6.5)
     canvas.setFillColor(INK)
-    canvas.drawString(x+17, y+9, "PERSONA CARDS  /  EDIÇÃO ILUSTRADA")
+    canvas.drawString(x+17, y+9, f"PERSONA CARDS / {EDITION}")
     canvas.drawRightString(x+CARD_W-17, y+9, card["codigo"])
     canvas.restoreState()
     return dict(code=card["codigo"], art_pt=fit["art_size"],
@@ -164,7 +165,7 @@ def sheet_footer(canvas: Canvas, sheet: int, kind: str) -> None:
     canvas.setFillColor(INK)
     canvas.setFont("Arial", 7)
     canvas.drawString(LEFT, PAGE_H-6*mm,
-                      f"PERSONA CARDS / ILUSTRADO 5.1 / FOLHA {sheet:02d} DE 36")
+                      f"PERSONA CARDS / ILUSTRADO {EDITION} / FOLHA {sheet:02d} DE 36")
     canvas.drawRightString(PAGE_W-LEFT, PAGE_H-6*mm, kind)
     canvas.drawCentredString(PAGE_W/2, 5*mm,
                             "A4 / 100% / 92 x 130 mm / DUPLEX: BORDA LONGA")
@@ -196,7 +197,7 @@ def build_manual(path: Path) -> None:
         canvas.rect(0, PAGE_H-38*mm, PAGE_W, 38*mm, stroke=0, fill=1)
         canvas.setFillColor(BACK_CREAM)
         canvas.setFont("Arial-Bold", 9)
-        canvas.drawString(23*mm, PAGE_H-19*mm, "PERSONA CARDS / EDIÇÃO ILUSTRADA 5.1")
+        canvas.drawString(23*mm, PAGE_H-19*mm, f"PERSONA CARDS / EDIÇÃO ILUSTRADA {EDITION}")
         canvas.setFont("Georgia-Bold", 24)
         canvas.drawString(23*mm, PAGE_H-31*mm, heading)
         cursor = PAGE_H-55*mm
@@ -276,6 +277,7 @@ def main() -> None:
     build_duplex(front, back, duplex)
     build_manual(manual)
     report = {
+        "revisao_editorial": EDITION,
         "deck_sha256": hashlib.sha256(DECK.read_bytes()).hexdigest(),
         "manifest_sha256": hashlib.sha256(MANIFEST.read_bytes()).hexdigest(),
         "cards": len(cards), "illustrations": len(ART),

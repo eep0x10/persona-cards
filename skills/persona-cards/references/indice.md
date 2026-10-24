@@ -1,6 +1,6 @@
-# Índice oficial 5.1
+# Índice oficial 5.1 — revisão editorial 5.1.1
 
-Leitura individual e campos completos: [manual](deck.md).
+Leitura individual, correções U08/D10/D13 e campos completos: [manual](deck.md).
 
 ## Desejo — o que quer agora
 

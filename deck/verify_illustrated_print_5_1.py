@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import hashlib
 import json
 from pathlib import Path
 
@@ -55,9 +56,13 @@ def main() -> None:
         page = index // 4
         for reader, page_number in ((front, page), (duplex, 2 * page)):
             rendered = compact(reader.pages[page_number].extract_text())
-            for value in (card["codigo"], card["titulo"], card["leitura"]):
+            for value in (card["codigo"], card["titulo"], card["leitura"], *card["campos"].values()):
                 assert compact(value) in rendered, (card["codigo"], page_number, value)
     report = json.loads((PRINT / "verificacao-impressao-5.1-ilustrado.json").read_text(encoding="utf-8"))
+    assert report["deck_sha256"] == hashlib.sha256((ROOT / "deck/persona-cards-5.1.json").read_bytes()).hexdigest()
+    assert report["revisao_editorial"] == "5.1.1"
+    for path in paths.values():
+        assert report["files"][path.name] == hashlib.sha256(path.read_bytes()).hexdigest()
     assert report["cards"] == report["illustrations"] == 141
     assert report["spritesheets"] == 24
     assert min(item["body_pt"] for item in report["fit"]) >= 8.5

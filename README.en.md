@@ -8,7 +8,7 @@
 
 A Portuguese narrative card game for RPGs and fiction: **what characters want, how they act, and how they express themselves**.
 
-[![Deck 5.1](https://img.shields.io/badge/deck-5.1-244F42?style=flat-square)](deck/manual-5.1.md)
+[![Revision 5.1.1](https://img.shields.io/badge/revision-5.1.1-244F42?style=flat-square)](deck/manual-5.1.md)
 [![141 cards](https://img.shields.io/badge/cards-141-B65135?style=flat-square)](skills/persona-cards/print/README.md)
 
 [Three ways to play](#three-ways-to-use-the-same-deck) · [How to play](#how-to-play) · [PDF](#1-pdf--cards-on-your-table) · [Skill](#2-skill--cards-with-your-assistant) · [Web](#3-web-application--cards-in-your-browser) · [Five examples](#five-characters-built-with-the-cards) · [Português](README.md)
@@ -25,9 +25,13 @@ A Portuguese narrative card game for RPGs and fiction: **what characters want, h
 
 These are three ways to access the same game; use whichever suits your table. Persona Cards supports invention and interpretation. Your RPG system supplies combat rules, statistics, and dice resolution. The card text is in Portuguese.
 
+## Editorial revision 5.1.1
+
+The approved review is applied to the deck, skill, PDFs and web app. **U08** includes the 5.0 expansion and correct family ranges; **D10** separates authority from compulsory cooperation or moral limits; **D13** supports immediate survival and lasting protection. The deck retains **141 codes, titles and modules**. Filenames and import format remain `5.1`; `5.1.1` identifies this editorial revision. Frozen 5.0 remains intact. [Changes and evidence](docs/REVISAO-100-PERSONAGENS.md#aplicação-da-revisão-editorial-511).
+
 ## How to play
 
-**[Download edition 5.1](https://github.com/eep0x10/persona-cards/releases/tag/v5.1.0):** individual PDFs and a project ZIP containing the skill, the built web application, instructions and documentation.
+**[Download edition 5.1](https://github.com/eep0x10/persona-cards/releases/tag/v5.1.1):** individual PDFs and a project ZIP containing the skill, the built web application, instructions and documentation.
 
 Sort the cards by the letters in their headers. Choose or draw **one D, one F, and one V**, then read each opening prompt.
 
@@ -49,7 +53,7 @@ Open **Inspiração** in the web app to browse **100 pop-culture characters** fr
 
 <img src="design/inspiracao-desktop.png" alt="Inspiration gallery with 100 characters and filters" width="900">
 
-These are possible readings, not definitive character profiles. Suggested scenes are original exercises; official sources accompany each example. Deck illustrations symbolize the selected ideas, rather than depicting copyrighted characters. **Usar como base** copies a template into your own creation; browsing preserves your draft, and replacing ongoing work requires confirmation.
+Each detail shows the actual illustrated cards and an explanation below each one of why it fits that character. The preview lists every selected layer, including optional L/P/N. These are possible readings, not definitive character profiles. Suggested scenes are original exercises; official sources accompany each example. Deck illustrations symbolize the selected ideas, rather than depicting copyrighted characters. **Usar como base** copies a template into your own creation; browsing preserves your draft, and replacing ongoing work requires confirmation.
 
 The [system review](docs/REVISAO-100-PERSONAGENS.md) uses the same 100 builds to examine fit, gaps and proposed improvements. Proposed additions are separate from the published **141-card** deck. This is an editorial exercise, not a player study.
 

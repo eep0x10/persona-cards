@@ -13,6 +13,12 @@ Leia [manual e cartas](references/deck.md) na primeira aplicação. Use [índice
 
 ## Método
 
+A revisão editorial **5.1.1** mantém o formato 5.1, os 141 códigos, títulos e módulos. Corrige somente U08/D10/D13; o deck 5.0 permanece congelado.
+
+- **D10 — autoridade:** o desejo é ter poder sobre uma decisão. Pode envolver participação, influência ou domínio; não exige cooperação, consentimento ou limite moral reconhecido. Descreva a margem real de recusa dos demais. F13/F14 distinguem coerção e encenação do objetivo.
+- **D13 — sobrevivência:** pode orientar saída de perigo imediato ou proteção duradoura da própria vida. Diga qual horizonte move a próxima ação; desejar sobreviver não determina meios ou bondade. D04 continua protegendo alguém ou lugar.
+- **U08 — módulos:** núcleo 01–12; expansão 13–18; expansão 5.0 D19–D24/F19–F20/N19–N22/L19–L20/V19–V22. P termina em P18. U/G continuam sendo consulta.
+
 1. Extraia contexto, tom, papel e fatos estabelecidos. Separe fatos de propostas. Resolva detalhes rotineiros com escolhas adequadas; pergunte só pelo indispensável. Preserve agência dos jogadores e continuidade.
 2. Escolha **D + F + V**: o que quer agora, como tenta obter e como se expressa. Selecione por significado em criação intencional; sorteie quando o pedido for surpresa. Substitua espaços por pessoas, objetos e situações concretas.
 3. Acrescente vida cotidiana: uma competência, um prazer ou hábito, uma relação com vontade própria e uma reação reconhecível. Faça objetivo, tática e voz se influenciar. Não transforme todos os detalhes em trauma, segredo ou gancho épico.

@@ -24,7 +24,7 @@ Fotos JPEG/PNG/WebP são lidas e reduzidas no navegador: entrada até 10 MiB, sa
 
 ## Inspiração
 
-A aba **Inspiração** reúne 100 personagens da cultura pop com cartas interpretadas para um recorte específico. Busque nome ou obra, filtre por mídia/papel e abra os detalhes. **Usar como base** copia o exemplo para adaptar na sua criação; consultar não altera o rascunho. As fontes e a distinção entre obra e cena sugerida acompanham cada exemplo. Veja a [revisão editorial do sistema](../docs/REVISAO-100-PERSONAGENS.md).
+A aba **Inspiração** reúne 100 personagens da cultura pop com cartas interpretadas para um recorte específico. Busque nome ou obra, filtre por mídia/papel e abra os detalhes. A lista mostra todas as camadas escolhidas; os detalhes apresentam as cartas ilustradas, a explicação de cada escolha e a aplicação na cena. **Usar como base** copia o exemplo para adaptar na sua criação; consultar não altera o rascunho. As fontes e a distinção entre obra e cena sugerida acompanham cada exemplo. Veja a [revisão editorial do sistema](../docs/REVISAO-100-PERSONAGENS.md).
 
 ## API
 

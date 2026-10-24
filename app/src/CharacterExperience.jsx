@@ -95,7 +95,7 @@ export function CharacterReview({ draft, lookup, Art, onChange, onBack, onFinish
   </main>;
 }
 
-export function FinishedCharacter({ character, lookup, Art, onEdit, onNewVersion, onTable, onExport, reduced }) {
+export function FinishedCharacter({ character, lookup, Art, onEdit, onNewVersion, onTable, onExport, reduced, edition }) {
   const root = useRef(null);
   const [exporting, setExporting] = useState(false);
   const [portraitFailed,setPortraitFailed]=useState(false);
@@ -112,14 +112,14 @@ export function FinishedCharacter({ character, lookup, Art, onEdit, onNewVersion
   const exportPng = async () => {
     if (exporting) return;
     setExporting(true); setExportStatus('Preparando sua carta…');
-    try { await downloadCharacterPng(character, lookup); setExportStatus('PNG preparado para download.'); }
+    try { await downloadCharacterPng(character, lookup, edition); setExportStatus('PNG preparado para download.'); }
     catch (error) { setExportStatus(error.message || 'Não foi possível gerar o PNG. Tente novamente.'); }
     finally { setExporting(false); }
   };
   return <main ref={root} className="finished-experience">
     <div className="experience-heading"><div><span className="experience-eyebrow">PRONTO PARA A PRÓXIMA CENA</span><h1 data-screen-heading tabIndex={-1}>Seu personagem ganhou forma.</h1></div><button className="outline-on-green" onClick={onTable}>← Voltar à mesa</button></div>
     <article className="finished-paper" aria-label={`Carta de personagem de ${character.name}`}>
-      <div className="finished-hero"><div className="finished-portrait"><Art code={character.cards.D}/>{character.portrait && <img key={character.portrait} src={character.portrait} alt={`Retrato de ${character.name}`} onError={event => {event.currentTarget.style.display="none";setPortraitFailed(true);}}/>}<span className="portrait-caption">{portraitFailed?"ARTE DO BARALHO · RETRATO INDISPONÍVEL":"PERSONA CARDS · 5.1"}</span></div><div className="finished-identity"><span className="paper-eyebrow">CARTA DO PERSONAGEM</span><h2>{character.name}</h2>{character.role && <p className="finished-role">{character.role}</p>}<div className="finished-codes">{character.enabled.map(family => <span key={family}>{character.cards[family]}</span>)}</div>{character.context && <p className="finished-context">{character.context}</p>}</div></div>
+      <div className="finished-hero"><div className="finished-portrait"><Art code={character.cards.D}/>{character.portrait && <img key={character.portrait} src={character.portrait} alt={`Retrato de ${character.name}`} onError={event => {event.currentTarget.style.display="none";setPortraitFailed(true);}}/>}<span className="portrait-caption">{portraitFailed?"ARTE DO BARALHO · RETRATO INDISPONÍVEL":`PERSONA CARDS · ${edition}`}</span></div><div className="finished-identity"><span className="paper-eyebrow">CARTA DO PERSONAGEM</span><h2>{character.name}</h2>{character.role && <p className="finished-role">{character.role}</p>}<div className="finished-codes">{character.enabled.map(family => <span key={family}>{character.cards[family]}</span>)}</div>{character.context && <p className="finished-context">{character.context}</p>}</div></div>
       <div className="finished-layers">{character.enabled.map((family,index) => { const card=lookup[character.cards[family]]; return <section className="finished-layer" key={family}><div className="finished-layer-art"><Art code={card.codigo}/></div><div><span className="paper-eyebrow">{String(index+1).padStart(2,'0')} · {LABELS[family]} · {card.codigo}</span><h3>{card.titulo}</h3><p>{character.fields[family]}</p></div></section>; })}</div>
       {character.notes && <section className="finished-notes"><span className="paper-eyebrow">PARA LEVAR À CENA</span><p>{character.notes}</p></section>}
       <footer className="finished-signature"><span>PERSONA CARDS</span><span>Personagens vivos. Escolhas reais.</span></footer>

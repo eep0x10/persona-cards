@@ -1,5 +1,15 @@
 # Histórico
 
+## Revisão editorial — 5.1.1
+
+- U08 passa a distribuir também a expansão 5.0, com intervalos por família.
+- D10 mantém autoridade como desejo e remove exigência de cooperação/limite moral dos convites.
+- D13 inclui continuidade diante de ameaça imediata ou duradoura.
+- Overlay editorial reproduzível modifica somente essas três cartas; fonte 5.0 preservada, três JSON ativos idênticos.
+- Skill, referências, catálogo de inspiração, PDFs, aplicação, API e pacote de release sincronizados; formatos de fichas 5.0/5.1 compatíveis.
+- Inspiração lista todas as camadas escolhidas e mostra as cartas ilustradas com353 justificativas específicas abaixo delas, nos100 exemplos.
+
+
 ## Carta do personagem e etapas opcionais
 
 - Botão + após Expressão acrescenta L/P/N como etapas 4–6 na ordem escolhida.

@@ -5,7 +5,7 @@ services:
       index.title: "Persona Cards"
       index.description: "Crie personagens de RPG e ficção combinando cartas de personalidade."
       index.icon: "🎴"
-      index.image: "https://personcard.runictools.com/persona-cards-icon.png"
+      index.image: "https://personcard.runictools.com/persona-cards-icon.png?v=runic-2"
       index.group: "RPG"
       index.hidden: "false"
     build:

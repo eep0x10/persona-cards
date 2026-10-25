@@ -25,7 +25,8 @@
   "requiredText": [
     {"path": "app/public/deck.json", "contains": ["\"versao\": \"5.2\"", "\"revisao_editorial\": \"5.2.0\"", "\"codigo\": \"G07\"", "\"codigo\": \"OR12\"", "\"codigo\": \"CV12\""]},
     {"path": "docker-compose.prod.yml", "contains": ["personcard.runictools.com", "read_only: true", "no-new-privileges:true"]},
-    {"path": "app/server.py", "contains": ["/api/inspirations", "/api/characters/compose", "class Journey"]}
+    {"path": "app/server.py", "contains": ["/api/inspirations", "/api/characters/compose", "class Journey"]},
+    {"path": "app/public/inspirations.json", "contains": ["\"version\": \"5.2\"", "\"journeyRationale\"", "\"journey\""]}
   ],
   "checks": [
     {"name": "tracked-clean-and-published-head", "command": "C:/Users/eep0x10/scoop/apps/python/current/python.exe", "args": ["-X", "utf8", "ops/publish.py", "--check-local"]},

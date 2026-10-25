@@ -126,13 +126,17 @@ class Contracts(unittest.TestCase):
         response=client.get('/api/inspirations')
         self.assertEqual(response.status_code,200)
         catalog=response.json()
-        self.assertEqual(catalog['version'],'5.1')
+        self.assertEqual(catalog['version'],'5.2')
         self.assertIn('não são eventos canônicos',catalog['disclaimer'])
         self.assertEqual(len(catalog['characters']),100)
         self.assertEqual(len({entry['id'] for entry in catalog['characters']}),100)
         for entry in catalog['characters']:
             self.assertIsNone(entry['character']['id'])
             self.assertTrue(entry['character']['finalized'])
+            self.assertEqual(entry['character']['enabled'],['OR','CV','D','F','V','L','P','N'])
+            self.assertEqual(set(entry['character']['journey']),{'call','response','fact','belief','choice'})
+            self.assertTrue(all(len(text.strip())>=20 for text in entry['character']['journey'].values()))
+            self.assertGreater(len(entry['journeyRationale']),35)
             self.assertEqual(set(entry['rationale']),set(entry['character']['enabled']))
             self.assertTrue(all(isinstance(text,str) and len(text)>=35 for text in entry['rationale'].values()))
             for family,code in entry['character']['cards'].items():
@@ -140,7 +144,7 @@ class Contracts(unittest.TestCase):
         first=catalog['characters'][0]
         self.assertEqual(client.get('/api/inspirations/'+first['id']).json(),first)
         self.assertEqual(client.get('/api/inspirations/inexistente').status_code,404)
-        self.assertEqual(sum(len(entry['rationale']) for entry in catalog['characters']),353)
+        self.assertEqual(sum(len(entry['rationale']) for entry in catalog['characters']),800)
 
     def test_inspirations_combined_filters_and_read_only_contract(self):
         found=client.get('/api/inspirations',params={'q':'hermione','medium':'Cinema','archetype':'Herói'}).json()['characters']

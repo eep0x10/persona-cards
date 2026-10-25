@@ -442,4 +442,6 @@ O prefixo deste relatório antes do complemento tinha 35645 bytes e SHA-256 `c1c
 
 As avaliações acima pertencem ao método 5.0/5.1 e à aplicação editorial 5.1.1. Seus números, hashes, exemplos e critérios permanecem históricos. Na edição 5.2, a decisão autorizada passou a exigir OR/CV/D/F/V/L/P/N e G07 em toda criação completa. A orientação histórica de omitir N não deve ser aplicada ao novo método: N precisa de dois valores genuínos, ou de troca/ressorteio quando a carta for inadequada.
 
+A aplicação 5.2.1 atualiza os 100 registros para o método completo, com propostas autorais explícitas. Consulte [Inspiração 5.2](INSPIRACAO-5.2.md). Esse catálogo posterior não transforma os números ou resultados acima em uma validação do método novo.
+
 Os 100 exemplos continuam como leituras parciais; não receberam automaticamente novos passados, convicções, vínculos ou conflitos e não são 100 fichas finalizadas em 5.2. Copiar uma base preserva seus textos e abre pendências. A incorporação de OR/CV/G07 é uma decisão editorial, não um novo playtest nem melhora empiricamente medida das porcentagens acima. Consulte o [manual 5.2](../deck/manual-5.2.md) e os [exemplos completos atuais](../skills/persona-cards/references/exemplos.md) para o método vigente.

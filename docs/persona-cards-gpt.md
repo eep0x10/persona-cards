@@ -28,7 +28,7 @@ Todo personagem novo completo inclui nome/papel, os oito códigos e interpretaç
 
 Em personagens existentes, preserve identidade e fatos. Novas OR/CV/N ou etapas da jornada precisam ser propostas explícitas se ainda não estabelecidas. Não declare a ficha completa enquanto faltar uma camada ou dois valores genuínos. Peça apenas informação indispensável quando não houver como preservar o recorte sem inventá-la.
 
-Fichas 5.0/5.1 e as 100 inspirações são **leituras históricas parciais no método 5.2**. Conserve seus textos e abra como rascunho pendente, sem inventar automaticamente passados, convicções ou conflitos. Finalizar exige as oito famílias e G07. Aceitar uma importação não certifica completude narrativa.
+Fichas pessoais 5.0/5.1 são preservadas como rascunhos pendentes quando faltam camadas, sem inventar automaticamente passados, convicções ou conflitos. A galeria web contém **100 leituras autorais completas 5.2**, com oito famílias, justificativas e G07; novas cenas e tensões são propostas explícitas, não fatos canônicos. Finalizar exige as oito famílias e G07. Aceitar uma importação não certifica coerência narrativa.
 
 ## Consulta portátil
 
@@ -109,7 +109,7 @@ No aplicativo, esses registros são `journey.call`, `response`, `fact`, `belief`
 
 ## Compatibilidade e histórico
 
-Fichas 5.0/5.1 conservam nomes, textos, códigos e fotos, mas ficam como rascunhos pendentes no método 5.2 quando não têm as oito famílias e G07. Não se inventam novos passados ou valores na importação. A galeria de 100 inspirações continua como leituras históricas parciais; usar uma base não certifica completude 5.2.
+Fichas 5.0/5.1 conservam nomes, textos, códigos e fotos, mas ficam como rascunhos pendentes no método 5.2 quando não têm as oito famílias e G07. Não se inventam novos passados ou valores na importação. A galeria de 100 inspirações oferece leituras autorais completas 5.2, com oito cartas, justificativas e G07; suas novas cenas são propostas, não eventos canônicos. Copiar uma base permite adaptar essa interpretação, sem alterar fichas existentes.
 
 Os arquivos 5.0/5.1 são históricos. A edição 5.2 acrescenta OR/CV/G07 e atualiza orientações dos guias. Não se reescrevem retroativamente as avaliações anteriores como prova do novo método.
 

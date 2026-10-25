@@ -242,7 +242,7 @@ export default function App() {
       setNotice("Não foi possível exportar. Tente novamente.");
     }
   };
-  const hasWork = Boolean(draft.name || draft.role || draft.context || draft.notes || draft.portrait || Object.keys(draft.cards).length || Object.keys(draft.fields).length);
+  const hasWork = Boolean(draft.name || draft.role || draft.context || draft.notes || draft.portrait || Object.keys(draft.cards).length || Object.keys(draft.fields).length || Object.values(draft.journey || {}).some(value=>value.trim()));
   const requestAction = (action, event) => {
     if (event) trigger.current = event.currentTarget;
     if (hasWork && (action.type === "new" || action.type === "open" || action.type === "inspiration")) {
@@ -268,7 +268,7 @@ export default function App() {
       const character = structuredClone(action.inspiration.character);
       setDraft(normalizeCharacter({...blank(),...character,id:null,finalized:false},byCode));
       setStorageReady(true); setScreen("review"); goFamily(ORDER[0]);
-      setNotice(`${action.inspiration.name} como ponto de partida. Adapte as cartas à sua história.`);
+      setNotice(`${action.inspiration.name} como base completa 5.2. Revise as oito cartas e Chamado/Destino para a sua história.`);
     } else if (action.type === "delete") {
       setSaved((s) => s.filter((c) => c.id !== action.id));
       if (draft.id === action.id) setDraft((d) => ({ ...d, id: null }));

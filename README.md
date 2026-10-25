@@ -99,7 +99,7 @@ Na mesa, explore as **oito famílias**, alterne Mesa/Grade e vire para ler antes
 
 **Salvar personagem** abre a revisão: preencha nome, as oito interpretações e os cinco registros de Chamado e destino. Formulários ficam nessa etapa de salvar/revisar; a exploração da mesa é por cartas. Foto, papel, contexto e notas são livres. Finalizar exige os oito códigos válidos, interpretações e jornada preenchida. O personagem pode ser reaberto, editado e exportado.
 
-**Dados antigos:** fichas 5.0/5.1 continuam preservadas, mas abrem como rascunhos pendentes em 5.2. Não recebem OR/CV, conflito ou passado inventado automaticamente. As **100 inspirações são leituras históricas parciais**, não 100 fichas completas no novo método. Consulte cartas e explicações ou use uma base para completar as pendências, preservando sua criação atual.
+**Inspiração:** explore **100 leituras completas na edição 5.2**: oito cartas ilustradas, a explicação de cada escolha e G07 com chamado, resposta, fato, crença e margem de escolha. São interpretações e cenas autorais, não biografias canônicas. Use uma base para adaptar à sua história; substituir o rascunho atual exige confirmação. **Dados antigos:** fichas 5.0/5.1 continuam preservadas e abrem como rascunhos pendentes quando faltam camadas, sem receber passado ou conflito inventado automaticamente.
 
 Personagens e fotos ficam neste navegador e origem (protocolo, endereço e porta); não há conta ou banco remoto de fichas. Exporte JSON como cópia completa. Limpar dados do site pode apagar o que ficou apenas nele. Markdown e PNG são formatos de leitura; JSON permite continuar em outro navegador. Fotos são processadas localmente. Anime.js orienta o movimento; o rodapé oferece redução e acompanhamento da preferência do sistema.
 
@@ -175,6 +175,7 @@ Uma rotina organizada lhe ofereceu segurança (**OR09**); ela passou a crer que,
 | [Operação](docs/OPERATIONS.md) | Atualização e backup |
 | [Privacidade](docs/PRIVACY.md) | Dados locais e serviços externos |
 | [Testes e limites](docs/TESTING.md) | Comandos e alcance da evidência |
+| [Inspiração 5.2](docs/INSPIRACAO-5.2.md) | 100 leituras completas, cartas e jornada explicadas |
 | [Revisão histórica dos 100](docs/REVISAO-100-PERSONAGENS.md) | Avaliações autorais das edições anteriores |
 | [Validações registradas](docs/VALIDACAO.md) | Resultados identificados por edição |
 

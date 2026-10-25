@@ -32,6 +32,14 @@ class InspirationAudit(BaseModel):
     note:str
     gapTags:list[str]
 
+class Journey(BaseModel):
+    model_config=ConfigDict(extra='forbid')
+    call:str=Field(default='',max_length=20000)
+    response:str=Field(default='',max_length=20000)
+    fact:str=Field(default='',max_length=20000)
+    belief:str=Field(default='',max_length=20000)
+    choice:str=Field(default='',max_length=20000)
+
 class InspirationTemplate(BaseModel):
     id:str|None
     name:str
@@ -44,6 +52,7 @@ class InspirationTemplate(BaseModel):
     notes:str
     portrait:Literal['']
     finalized:bool
+    journey:Journey
 
 class Inspiration(BaseModel):
     id:str
@@ -56,9 +65,10 @@ class Inspiration(BaseModel):
     character:InspirationTemplate
     audit:InspirationAudit
     rationale:dict[Family,str]
+    journeyRationale:str
 
 class InspirationCatalog(BaseModel):
-    version:Literal['5.1']
+    version:Literal['5.2']
     disclaimer:str
     characters:list[Inspiration]
 
@@ -87,14 +97,6 @@ class DrawRequest(BaseModel):
 class DrawResponse(BaseModel):
     version:Literal['5.2']='5.2'
     cards:list[Card]
-
-class Journey(BaseModel):
-    model_config=ConfigDict(extra='forbid')
-    call:str=Field(default='',max_length=20000)
-    response:str=Field(default='',max_length=20000)
-    fact:str=Field(default='',max_length=20000)
-    belief:str=Field(default='',max_length=20000)
-    choice:str=Field(default='',max_length=20000)
 
 class ComposeRequest(BaseModel):
     model_config=ConfigDict(extra='forbid')

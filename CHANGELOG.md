@@ -1,5 +1,12 @@
 # Histórico
 
+## Aplicação — 5.2.1
+
+- As 100 inspirações agora incluem OR/CV/D/F/V/L/P/N, 800 interpretações e justificativas, cinco respostas de G07 por personagem e explicação da jornada.
+- Detalhe mostra as oito cartas reais e o guia ilustrado; copiar a base preserva toda a combinação e a jornada na revisão editável, com confirmação antes de substituir um rascunho.
+- Novas cenas e tensões são propostas autorais explícitas. IDs e referências das obras permanecem; o catálogo anterior e os resultados de revisão continuam no histórico.
+- Contratos de API, testes e documentação passam a distinguir esse catálogo completo de fichas pessoais antigas, que continuam preservadas como rascunhos quando faltam camadas.
+
 ## Edição 5.2 — revisão 5.2.0
 
 - 166 cartas: 150 de criação e 16 guias. OR/CV/D/F/V/L/P/N passam a ser obrigatórias em toda criação completa; G07 organiza chamado, resposta, fato, crença e escolha.

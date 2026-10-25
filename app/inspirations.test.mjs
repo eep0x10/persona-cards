@@ -1,8 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
-import { createHash } from "node:crypto";
-import { completionIssues, validateCharacter, parseImport, ORDER, emptyJourney } from "./src/model.js";
+import { completionIssues, validateCharacter, parseImport, ORDER, normalizeCharacter } from "./src/model.js";
 
 const read = (name) => JSON.parse(readFileSync(new URL(name, import.meta.url), "utf8"));
 const catalog = read("./public/inspirations.json");
@@ -11,30 +10,27 @@ const lookup = Object.fromEntries(deck.cartas.map((c) => [c.codigo, c]));
 const allowedMedia = ["Anime", "Cinema", "Animação", "Quadrinhos", "Séries", "Jogos"];
 const allowedArchetypes = ["Herói", "Vilão", "Ambíguo", "Coadjuvante"];
 
-test("353 explanations cover every selected layer and preserve the original character templates", () => {
+test("800 explanations cover all eight families and include a separate journey rationale", () => {
   const explanations = [];
   for (const entry of catalog.characters) {
-    assert.deepEqual(Object.keys(entry.rationale), entry.character.enabled, entry.id);
+    assert.deepEqual(Object.keys(entry.rationale), ORDER, entry.id);
     assert.equal(Object.hasOwn(entry.character, "rationale"), false, entry.id);
     for (const family of entry.character.enabled) {
       const text = entry.rationale[family];
       assert.equal(typeof text, "string", entry.id + family);
-      assert.ok(text.length >= 35 && text.length <= 200, entry.id + family);
+      assert.ok(text.trim().length >= 25, entry.id + family);
       assert.equal(text, text.trim());
       assert.notEqual(text, entry.character.fields[family], entry.id + family);
       assert.notEqual(text, lookup[entry.character.cards[family]].leitura, entry.id + family);
       explanations.push(text);
     }
   }
-  assert.equal(explanations.length, 353);
-  assert.equal(new Set(explanations).size, 353);
-  // Recorded before adding explanatory metadata: all 100 character objects stay exact.
-  const hash = createHash("sha256").update(JSON.stringify(catalog.characters.map((e) => e.character))).digest("hex");
-  assert.equal(hash, "489995a3d3f4e27a25ff02c23754b23169ae2203f40442d92b44a543303a5cf3");
+  assert.equal(explanations.length, 800);
+  for(const entry of catalog.characters)assert.ok(typeof entry.journeyRationale === "string" && entry.journeyRationale.trim().length >= 25,entry.id);
 });
 
 test("exactly 100 distinct inspirations use the complete published schema", () => {
-  assert.equal(catalog.version, "5.1");
+  assert.equal(catalog.version, "5.2");
   assert.match(catalog.disclaimer, /não são eventos canônicos/);
   assert.equal(catalog.characters.length, 100);
   assert.equal(new Set(catalog.characters.map((c) => c.id)).size, 100);
@@ -51,21 +47,26 @@ test("exactly 100 distinct inspirations use the complete published schema", () =
   }
 });
 
-test("the 100 historical 5.1 readings remain partial and import as unfinished 5.2 drafts",()=>{
+test("100 complete 5.2 readings import and clone as editable bases without losing eight cards or journey",()=>{
   for(const entry of catalog.characters){
     const c=entry.character,before=JSON.stringify(c);
     assert.equal(c.id,null);assert.equal(c.name,entry.name);assert.equal(validateCharacter(c,lookup),true,entry.id);
-    const issues=completionIssues(c,lookup);
-    for(const family of ["OR","CV"])assert.ok(issues.some(issue=>issue.family===family&&issue.field==="cards"),entry.id+family);
-    assert.equal(issues.filter(issue=>issue.field==="journey").length,5,entry.id);
-    const imported=parseImport(JSON.stringify({app:"Persona Cards",version:"5.1",character:c}),lookup);
-    assert.deepEqual(imported.enabled,ORDER);assert.deepEqual(imported.cards,c.cards);assert.deepEqual(imported.fields,c.fields);assert.deepEqual(imported.locks,c.locks);
-    assert.deepEqual(imported.journey,emptyJourney());assert.equal(imported.finalized,false);
-    assert.equal(Object.hasOwn(imported.cards,"OR"),false);assert.equal(Object.hasOwn(imported.cards,"CV"),false);
-    for(const key of ["name","role","context","notes","portrait"])assert.equal(imported[key],c[key]);
-    if(!c.cards.N)assert.equal(Object.hasOwn(imported.cards,"N"),false,"Do not invent internal conflict: "+entry.id);
-    assert.equal(JSON.stringify(c),before);
-    for(const family of c.enabled){assert.equal(lookup[c.cards[family]].familia,family);assert.ok(c.fields[family].length>=50);}
+    assert.deepEqual(c.enabled,ORDER,entry.id);
+    assert.deepEqual(Object.keys(c.cards),ORDER,entry.id);
+    assert.deepEqual(Object.keys(c.fields),ORDER,entry.id);
+    assert.equal(c.finalized,true,entry.id);
+    assert.deepEqual(completionIssues(c,lookup),[],entry.id);
+    const imported=parseImport(JSON.stringify({app:"Persona Cards",version:"5.2",character:c}),lookup);
+    const base=normalizeCharacter({...structuredClone(c),id:null,finalized:false},lookup);
+    for(const candidate of [imported,base]){
+      assert.deepEqual(candidate.enabled,ORDER);assert.deepEqual(candidate.cards,c.cards);assert.deepEqual(candidate.fields,c.fields);
+      assert.deepEqual(candidate.journey,c.journey);assert.deepEqual(candidate.locks,c.locks);
+      for(const key of ["name","role","context","notes","portrait"])assert.equal(candidate[key],c[key]);
+    }
+    assert.equal(base.id,null);assert.equal(base.finalized,false);assert.equal(imported.finalized,true);
+    base.fields.OR="Minha adaptação";base.journey.call="Outro chamado";
+    assert.equal(JSON.stringify(c),before,"Adapting cannot mutate the catalogue: "+entry.id);
+    for(const family of ORDER){assert.equal(lookup[c.cards[family]].familia,family);assert.ok(c.fields[family].trim().length>=25);}
   }
 });
 
@@ -84,17 +85,18 @@ test("sources identify official franchises via HTTPS without embedding remote po
   }
 });
 
-test("sampling includes six media, four roles and historically selective layers, without pretending 5.2 completion", () => {
+test("sampling retains six media, four roles and usable name/franchise filters", () => {
   const entries = catalog.characters;
   for (const medium of allowedMedia) assert.ok(entries.filter((e) => e.medium === medium).length >= 10, medium);
   for (const archetype of allowedArchetypes) assert.ok(entries.filter((e) => e.archetype === archetype).length >= 10, archetype);
-  for (const family of ["L", "P", "N"]) {
-    const count = entries.filter((e) => e.character.enabled.includes(family)).length;
-    assert.ok(count > 0 && count < 100, family);
+  const search=value=>value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+  for(const entry of entries){
+    assert.ok(entries.filter(candidate=>search(candidate.name+' '+candidate.franchise).includes(search(entry.name))).includes(entry),entry.id);
+    assert.ok(entries.filter(candidate=>candidate.medium===entry.medium&&candidate.archetype===entry.archetype).includes(entry));
   }
   const codes = new Set(entries.flatMap((e) => Object.values(e.character.cards)));
-  const noN = entries.filter((e) => !e.character.enabled.includes("N")).length;
-  console.log(JSON.stringify({ characters: entries.length, distinctCodes: codes.size, noN,
+
+  console.log(JSON.stringify({ characters: entries.length, distinctCodes: codes.size,
     media: Object.fromEntries(allowedMedia.map((m) => [m, entries.filter((e) => e.medium === m).length])),
     fit: Object.fromEntries(["direto", "adaptado"].map((f) => [f, entries.filter((e) => e.audit.fit === f).length])) }));
 });

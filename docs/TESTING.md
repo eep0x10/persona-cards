@@ -21,7 +21,7 @@ Os testes de documentação verificam links, anchors, assets, banner e navegaç�
 
 A validação no navegador precisa cobrir desktop e 390px: oito escolhas, revisão, G07, recusa de finalização incompleta, recarga, reabertura, exportação/importação, dados legados, filtros e movimento reduzido. Use origem de teste isolada; não substitua dados pessoais para testar migração.
 
-Os 100 personagens são um catálogo histórico parcial e continuam com suas próprias justificativas. Seus testes protegem identidade/códigos/metadados; não certificam completude 5.2. A [revisão histórica](REVISAO-100-PERSONAGENS.md) e os exercícios de OR/CV não são playtest nem medidas universais de qualidade.
+Os 100 personagens têm oito cartas, oito interpretações e justificativas, cinco respostas de G07 e explicação da jornada. Os testes verificam completude estrutural 5.2, códigos reais, importação sem perda, identidade, fontes e filtros. A revisão editorial precisa conferir valores genuínos em N, agência em L e separação de fato/crença/proposta. A [revisão histórica](REVISAO-100-PERSONAGENS.md) preserva critérios anteriores; nenhum desses checks substitui playtest nem mede qualidade narrativa universal.
 
 PDFs 5.2 exigem conversão inicial via MarkItDown, conferência de códigos/textos/arte, A4, 42 frentes, 42 versos, 84 páginas duplex e 3 páginas de manual, além de inspeção visual. Extração pode misturar colunas; não prometa extração perfeita nem impressão física aprovada com base só no arquivo digital.
 

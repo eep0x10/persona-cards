@@ -1613,3 +1613,13 @@ main[hidden] { display:none; }
 .grid-card[data-family=OR] .grid-card-code { color:#55705A; border-top-color:#55705A; }
 .grid-card[data-family=CV] .grid-card-code { color:#9A573F; border-top-color:#9A573F; }
 .journey-retained { overflow-wrap:anywhere; white-space:pre-wrap; }
+
+/* The complete inspiration carries its guide beside the five authored answers. */
+.inspiration-journey-section { border-top:1px solid #b6bea18c; padding:22px 0; }
+.inspiration-journey-section>h3 { font:25px/1.25 Georgia,serif; margin:0 0 18px; }
+.inspiration-journey-layout { display:grid; grid-template-columns:1fr 1fr; gap:22px; align-items:start; }
+.inspiration-journey-values { margin:0; display:grid; gap:20px; min-width:0; }
+.inspiration-journey-values dt { font-size:11px; font-weight:700; color:#9d4d33; text-transform:uppercase; margin:0 0 7px; }
+.inspiration-journey-values dd { margin:0; font-size:14px; line-height:1.8; color:#344d3c; white-space:pre-wrap; overflow-wrap:anywhere; }
+.inspiration-journey-section .inspiration-real-card h3 { font:700 25px/1.2 Georgia,serif; text-align:center; margin:14px 0; }
+@media(max-width:600px) { .inspiration-journey-layout { grid-template-columns:1fr; gap:24px; }.inspiration-journey-values dd { font-size:15px; } }

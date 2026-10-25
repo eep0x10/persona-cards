@@ -6,20 +6,20 @@ import InspirationGallery from "./InspirationGallery.jsx";
 import inspirations from "../public/inspirations.json";
 import { loadPersistence, persistProtected } from "./persistence.js";
 import deck from "../public/deck.json";
-import atlas from "../../deck/illustration_sheets_5_1.json";
-import { CORE, ORDER, MODULES, blank, applyCards, parseImport, characterMarkdown, normalizeCharacter, completionIssues, finalizeCharacter } from "./model.js";
+import atlas from "../../deck/illustration_sheets_5_2.json";
+import { CORE, ORDER, FAMILY_LABELS, JOURNEY_LABELS, MODULES, blank, applyCards, parseImport, characterMarkdown, normalizeCharacter, completionIssues, finalizeCharacter } from "./model.js";
 const KEY = "persona-cards-workbench-v1";
 const EDITION = deck.revisao_editorial || deck.versao;
-const FAMILIES = { D: "Desejo", F: "Forma de agir", V: "Expressão", L: "Vínculo", P: "Pressão", N: "Conflito interno", U: "Guias de uso", G: "Guias de contexto" };
-const QUESTIONS = { D: "O que move seu personagem?", F: "Como ele tenta conseguir?", V: "Como sua presença aparece?", L: "Quem mais tem vontade própria nesta história?", P: "O que muda as condições da escolha?", N: "Quais dois valores vale a pena preservar?", U: "Um convite para usar as cartas.", G: "Um novo olhar para a sua história." };
+const FAMILIES = { ...FAMILY_LABELS, D: "Desejo", F: "Forma de agir", V: "Expressão", L: "Vínculo", P: "Pressão", N: "Conflito interno", U: "Guias de uso", G: "Guias de contexto" };
+const QUESTIONS = { OR:"O que veio antes da sua escolha?", CV:"Em que seu personagem acredita?", D: "O que move seu personagem?", F: "Como ele tenta conseguir?", V: "Como sua presença aparece?", L: "Quem mais tem vontade própria nesta história?", P: "O que muda as condições da escolha?", N: "Quais dois valores vale a pena preservar?", U: "Um convite para usar as cartas.", G: "Um novo olhar para a sua história." };
 const byCode = Object.fromEntries(deck.cartas.map((c) => [c.codigo, c]));
-const artwork = Object.fromEntries(atlas.sheets.flatMap((s) => s.codes.map((code, i) => [code, { file: s.file, col: i % 3, row: Math.floor(i / 3) }])));
+const artwork = Object.fromEntries(atlas.sheets.flatMap(sheet => { const columns=sheet.columns||3,rows=sheet.rows||2; return sheet.codes.map((code,index)=>[code,{file:sheet.file,columns,rows,col:index%columns,row:Math.floor(index/columns)}]); }));
 function readStorage() { return loadPersistence(() => localStorage, KEY, byCode); }
 function Art({ code }) {
   const a = artwork[code];
   if (!a) return null;
-  const crop = { N04: "inset(12% 0 0 0)", U02: "inset(11% 0 0 9%)", G02: "inset(13% 9% 0 9%)" }[code];
-  return <span aria-hidden="true" className="card-art" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}art/${a.file})`, backgroundPosition: `${a.col * 50}% ${a.row * 100}%`, clipPath: crop }} />;
+  const crop = { CV02: "inset(0 0 0 4%)", N04: "inset(12% 0 0 0)", U02: "inset(11% 0 0 9%)", G02: "inset(13% 9% 0 9%)" }[code];
+  return <span aria-hidden="true" className="card-art" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}art/${a.file})`, backgroundSize:`${a.columns*100}% ${a.rows*100}%`, backgroundPosition: `${a.columns>1?a.col/(a.columns-1)*100:0}% ${a.rows>1?a.row/(a.rows-1)*100:0}%`, clipPath: crop }} />;
 }
 function Face({ card, back = false }) {
   return <>
@@ -53,15 +53,15 @@ function randomCard(pool) {
 export default function App() {
   const [initialStorage] = useState(readStorage);
   const stored = initialStorage.data;
-  const [draft, setDraft] = useState(() => normalizeCharacter({ ...blank(), ...stored.draft || {}, cards: { ...stored.draft?.cards || {} }, fields: { ...stored.draft?.fields || {} } }));
+  const [draft, setDraft] = useState(() => normalizeCharacter({ ...blank(), ...stored.draft || {}, cards: { ...stored.draft?.cards || {} }, fields: { ...stored.draft?.fields || {} } },byCode));
   const [screen, setScreen] = useState(() => stored.draft?.finalized && !completionIssues(stored.draft, byCode).length ? "character" : "table");
   const tableScroll = useRef(0);
   const inspirationScroll = useRef(0);
   const [inspirationFilters,setInspirationFilters]=useState({query:"",medium:"all",archetype:"all"});
-  const [saved, setSaved] = useState(() => stored.saved || []), [modules, setModules] = useState(() => stored.modules || Object.keys(MODULES));
+  const [saved, setSaved] = useState(() => (stored.saved || []).map(character=>normalizeCharacter(character,byCode))), [modules, setModules] = useState(() => stored.compositionVersion === "5.2" || !stored.modules?.length ? stored.modules || Object.keys(MODULES) : [...new Set([...stored.modules,"expansao_5_2"])]);
   const [view, setView] = useState("table");
   const focusMesa = useRef(false);
-  const [family, setFamily] = useState("D"), [positions, setPositions] = useState({}), [back, setBack] = useState(false);
+  const [family, setFamily] = useState(ORDER[0]), [positions, setPositions] = useState({}), [back, setBack] = useState(false);
   const [notice, setNotice] = useState(initialStorage.warning || ""), [panel, setPanel] = useState(null), [confirmation, setConfirmation] = useState(null), [pulse, setPulse] = useState(0), [changedFamilies, setChangedFamilies] = useState([]), [motionMode, setMotionMode] = useState(() => stored.motionDefaultsVersion === 1 ? (["auto", "full", "reduced"].includes(stored.motionMode) ? stored.motionMode : "full") : stored.motionMode === "reduced" || stored.userReduced ? "reduced" : "full");
   const [systemReduced, setSystemReduced] = useState(() => matchMedia("(prefers-reduced-motion: reduce)").matches), [storageReady, setStorageReady] = useState(true);
   const root = useRef(null), hand = useRef(null), dialog = useRef(null), trigger = useRef(null), touch = useRef(null), selectionSource = useRef(null), importInput = useRef(null), wheel = useRef({ amount: 0, last: 0 });
@@ -76,19 +76,20 @@ export default function App() {
   useEffect(() => {
     if (!storageReady) return;
     const result = persistProtected(() => localStorage, KEY,
-      { ...stored, draft, saved, userReduced: motionMode === "reduced", motionMode, motionDefaultsVersion: 1, modules }, initialStorage.recovery);
+      { ...stored, draft, saved, userReduced: motionMode === "reduced", motionMode, motionDefaultsVersion: 1, compositionVersion:"5.2", modules }, initialStorage.recovery);
     if (!result.ok) setNotice(result.error);
   }, [draft, saved, motionMode, modules, storageReady]);
   useCardMotion({ root, family, index, back, view: screen === "table" ? view : "none", reduced, pulse, selectionSource });
-  const steps = [...CORE, ...draft.enabled.filter(item => !CORE.includes(item))];
+  const steps = ORDER;
   useEffect(() => {
     if (screen === "table") window.scrollTo({top:tableScroll.current, behavior:"instant"});
     else { root.current?.querySelector("main:not([hidden]) [data-screen-heading]")?.focus({preventScroll:true}); window.scrollTo({top:screen === "inspiration" ? inspirationScroll.current : 0,behavior:"instant"}); }
   }, [screen]);
   useEffect(() => {
-    const scope = createScope({root}).add(() => { if (!reduced && screen === "table") animate(".optional-step",{translateY:[-12,0],scale:[0.9,1],opacity:[0.5,1],duration:300,delay:stagger(35),ease:"out(3)"}); });
-    return () => scope.revert();
-  }, [draft.enabled.join("|"), reduced, screen]);
+    const nav=root.current?.querySelector(".family-navigation");
+    const selected=nav?.querySelector("button[aria-current]");
+    if(nav&&selected)nav.scrollLeft=Math.max(0,selected.offsetLeft-(nav.clientWidth-selected.offsetWidth)/2);
+  }, [family]);
   useEffect(() => {
     if (!panel) return;
     const node = dialog.current;
@@ -197,7 +198,7 @@ export default function App() {
     else setNotice(missing ? "Nenhuma outra carta disponível. Ative mais módulos." : "Todas as cartas estão mantidas. Libere uma para sortear.");
   };
   const beginReview = () => {
-    if (count < 3) return;
+    if (count === 0) return;
     tableScroll.current = window.scrollY;
     setPanel(null); setConfirmation(null); setScreen("review");
   };
@@ -235,7 +236,7 @@ export default function App() {
   const exportCharacter = (character, type) => {
     try {
       const filename = (character.name || "persona").replace(/[<>:"/\\|?*]/g, "-");
-      download(`${filename}.${type === "json" ? "json" : "md"}`, type === "json" ? JSON.stringify({ app: "Persona Cards", version: "5.1", character }, null, 2) : characterMarkdown(character, byCode), type === "json" ? "application/json" : "text/markdown");
+      download(`${filename}.${type === "json" ? "json" : "md"}`, type === "json" ? JSON.stringify({ app: "Persona Cards", version: "5.2", character }, null, 2) : characterMarkdown(character, byCode), type === "json" ? "application/json" : "text/markdown");
       setNotice("Exportação preparada. Guarde o arquivo para transferir esta combinação.");
     } catch {
       setNotice("Não foi possível exportar. Tente novamente.");
@@ -253,20 +254,20 @@ export default function App() {
     if (action.type === "new") {
       setDraft(blank());
       setStorageReady(true);
-      goFamily("D");
+      goFamily(ORDER[0]);
       setScreen("table");
       tableScroll.current = 0;
       setNotice("Mesa nova. Seus personagens salvos continuam na biblioteca.");
     } else if (action.type === "open") {
-      setDraft(normalizeCharacter({ ...blank(), ...action.character }));
+      setDraft(normalizeCharacter({ ...blank(), ...action.character },byCode));
       setScreen(action.character.finalized && !completionIssues(action.character,byCode).length ? "character" : "table");
       setStorageReady(true);
-      goFamily("D");
+      goFamily(ORDER[0]);
       setNotice("Combinação aberta. Todos os seus textos foram preservados.");
     } else if (action.type === "inspiration") {
       const character = structuredClone(action.inspiration.character);
-      setDraft(normalizeCharacter({...blank(),...character,id:null,finalized:false}));
-      setStorageReady(true); setScreen("review"); goFamily("D");
+      setDraft(normalizeCharacter({...blank(),...character,id:null,finalized:false},byCode));
+      setStorageReady(true); setScreen("review"); goFamily(ORDER[0]);
       setNotice(`${action.inspiration.name} como ponto de partida. Adapte as cartas à sua história.`);
     } else if (action.type === "delete") {
       setSaved((s) => s.filter((c) => c.id !== action.id));
@@ -285,7 +286,7 @@ export default function App() {
     const file = e.target.files[0];
     if (!file) return;
     try {
-      if (file.size > 1e6) throw Error("Arquivo muito grande. Limite: 1 MB.");
+      if (file.size > 2 * 1024 * 1024) throw Error("Arquivo muito grande. Limite: 2 MB.");
       const character = parseImport(await file.text(), byCode);
       const imported = { ...character, id: crypto.randomUUID() };
       setSaved((s) => [imported, ...s]);
@@ -302,22 +303,16 @@ export default function App() {
     setDraft((d) => ({ ...d, locks: d.locks.includes(f) ? d.locks.filter((v) => v !== f) : [...d.locks, f] }));
   };
   const inspectFamily = (f) => {
+    setScreen("table");setView("table");
     goFamily(f);
     setPanel(null);
   };
-  const addOptional = familyToAdd => {
-    setStorageReady(true);
-    setDraft(previous => previous.enabled.includes(familyToAdd) ? previous : {...previous,enabled:[...previous.enabled,familyToAdd],finalized:false});
-    goFamily(familyToAdd); setPanel(null); setScreen("table");
+  const inspectJourneyGuide = () => {
+    const guides=deck.cartas.filter(card=>card.familia==='G');
+    const guideIndex=guides.findIndex(card=>card.codigo==='G07');
+    if(guideIndex>=0){setScreen('table');setView('table');goFamily('G');setPositions(previous=>({...previous,G:guideIndex}));setBack(true);setPanel(null);}
   };
-  const removeOptional = familyToRemove => {
-    if (screen === "character") setScreen("table");
-    setStorageReady(true);
-    setDraft(previous => ({...previous,enabled:previous.enabled.filter(value => value !== familyToRemove),finalized:false}));
-    if (family === familyToRemove) goFamily("V");
-    setNotice(`${FAMILIES[familyToRemove]} retirada. Carta e texto continuam guardados.`);
-  };
-  const titles = { library: "Meus personagens", menu: "Sua mesa", help: "Uma mesa, três escolhas", families: "Acrescentar uma camada", guides: "Guias de consulta", draw: "Sorteio e cartas mantidas", transfer: "Guardar e transferir", confirm: confirmation?.type === "delete" ? "Excluir personagem?" : "Abrir outra mesa?" };
+  const titles = { library: "Meus personagens", menu: "Sua mesa", help: "Oito cartas e um guia", guides: "Guias de consulta", draw: "Sorteio e cartas mantidas", transfer: "Guardar e transferir", confirm: confirmation?.type === "delete" ? "Excluir personagem?" : "Abrir outra mesa?" };
   const navigatePrimary = next => {
     if (screen === "table") tableScroll.current=window.scrollY;
     if (screen === "inspiration") inspirationScroll.current=window.scrollY;
@@ -355,16 +350,16 @@ export default function App() {
 <button aria-current={screen === "inspiration" ? "page" : undefined} onClick={()=>navigatePrimary("inspiration")}>Inspiração <span>{inspirations.characters.length}</span></button>
 </nav>
 {screen === "inspiration" && <InspirationGallery dataset={inspirations} lookup={byCode} Art={Art} active reduced={reduced} filters={inspirationFilters} onFiltersChange={setInspirationFilters} onUse={useInspiration}/>}
-{screen === "review" && <CharacterReview draft={draft} lookup={byCode} Art={Art} onChange={updateReview} onBack={() => returnToTable()} onFinish={finish} onChooseFamily={returnToTable} reduced={reduced}/>}
+{screen === "review" && <CharacterReview journeyGuide={byCode.G07} draft={draft} lookup={byCode} Art={Art} onChange={updateReview} onBack={() => returnToTable()} onFinish={finish} onChooseFamily={returnToTable} reduced={reduced}/>}
 {screen === "character" && <FinishedCharacter edition={EDITION} character={draft} lookup={byCode} Art={Art} onEdit={() => setScreen("review")} onNewVersion={newVersion} onTable={() => returnToTable()} onExport={exportCharacter} reduced={reduced}/>}
  <main hidden={screen !== "table"}>
-<nav className="family-navigation" aria-label="Família da carta">{steps.map((f, i) => <button key={f} className={CORE.includes(f)?"":"optional-step"} aria-current={family === f ? "step" : void 0} onClick={() => goFamily(f)}>
+<nav className="family-navigation" aria-label="Família da carta">{steps.map((f, i) => <button key={f} aria-label={`Etapa ${i+1}: ${FAMILIES[f]}${draft.cards[f]?`, ${draft.cards[f]}`:" · pendente"}`} aria-current={family === f ? "step" : void 0} onClick={() => goFamily(f)}>
 <span className="step-number">{i + 1}</span>
 <span>{f === "F" ? <>
 <span className="desktop-label">Forma de agir</span>
 <span className="mobile-label">Forma</span>
 </> : FAMILIES[f]}</span>
-</button>)}<button className="add-step" aria-label={steps.length < 6 ? "Acrescentar camada" : "Gerenciar e remover camadas adicionais"} onClick={event => open("families",event)}>+</button></nav>
+</button>)}</nav>
  <div className="view-switch" role="group" aria-label="Visualização das cartas">
 <button aria-pressed={view === "table"} onClick={() => setView("table")}>Mesa</button>
 <button aria-pressed={view === "grid"} onClick={() => setView("grid")}>Grade</button>
@@ -374,7 +369,7 @@ export default function App() {
 <p className="grid-description">{cards.length} cartas · toque para conhecer na mesa. {guide ? "Guias de consulta." : "A escolha continua no botão Escolher esta carta."}</p>
 <div className="illustrated-grid">{cards.map((card, cardIndex) => {
  const selected = !guide && draft.enabled.includes(family) && draft.cards[family] === card.codigo;
- return <button key={card.codigo} className={`grid-card ${selected ? "is-selected" : ""}`} aria-label={`Conhecer ${card.codigo}: ${card.titulo}${selected ? ", na combinação" : ""}`} onClick={() => inspectGridCard(card, cardIndex)}>
+ return <button key={card.codigo} data-family={card.familia} className={`grid-card ${selected ? "is-selected" : ""}`} aria-label={`Conhecer ${card.codigo}: ${card.titulo}${selected ? ", na combinação" : ""}`} onClick={() => inspectGridCard(card, cardIndex)}>
  <span className="grid-card-code">{card.codigo}<span>{selected ? "✓ Na combinação" : "Conhecer ↗"}</span></span>
  <Art code={card.codigo}/>
  <h2>{card.titulo}</h2>
@@ -392,11 +387,11 @@ export default function App() {
   }}>
  {[-2, -1, 1, 2].map((offset) => {
     const card = cards[(index + offset + cards.length) % cards.length];
-    return <button key={offset} className={`neighbor neighbor-${offset < 0 ? "left" : "right"} depth-${Math.abs(offset)}`} onClick={() => navigate(offset)} tabIndex={-1} aria-hidden="true">
+    return <button key={offset} data-family={card.familia} className={`neighbor neighbor-${offset < 0 ? "left" : "right"} depth-${Math.abs(offset)}`} onClick={() => navigate(offset)} tabIndex={-1} aria-hidden="true">
 <span className="neighbor-motion"><Face card={card} /></span>
 </button>;
   })}
- <article className="active-card" aria-label={`${active.codigo}: ${active.titulo}`}>
+ <article className="active-card" data-family={active.familia} aria-label={`${active.codigo}: ${active.titulo}`}>
 <div className="card-content">
 <Face card={active} back={back} />
 </div>
@@ -434,8 +429,9 @@ export default function App() {
 <span>{FAMILIES[f]}</span>
 </>}</button>;
   })}</div>
-<button className="save-button" disabled={count < 3} onClick={beginReview}>Salvar personagem</button>
+<button className="save-button" disabled={count === 0} onClick={beginReview}>Revisar e finalizar</button>
 </section>
+ <p className="composition-requirement">Oito cartas obrigatórias · Chamado/Destino: {Object.keys(JOURNEY_LABELS).filter(key=>draft.journey[key]?.trim()).length} de 5 respostas na revisão.</p>
  <section className="table-tools" aria-label="Outras ações da mesa">
 <div className="tool-buttons">
 <button onClick={(e) => open("guides", e)}>Consultar guias</button>
@@ -469,15 +465,15 @@ export default function App() {
 <div className="panel-body">{hasRecovery && (panel === "help" || panel === "transfer") && <div className="recovery-actions"><p>Uma cópia do conteúdo original está disponível para recuperação.</p><button onClick={downloadRecovery}>Baixar dados originais</button></div>}{notice && <p className="panel-feedback" role="status">{notice}</p>}
  {panel === "menu" ? <div className="menu-options">
 <button onClick={() => setPanel("library")}>Meus personagens · {saved.length}</button>
-<button onClick={() => setPanel("families")}>Acrescentar uma camada</button><button onClick={() => setPanel("guides")}>Consultar guias</button>
+<button onClick={() => setPanel("guides")}>Consultar guias</button>
 <button onClick={() => setPanel("draw")}>Sortear · manter cartas</button>
 <button onClick={() => requestAction({ type: "new" })}>Nova combinação</button>
 <button onClick={() => setPanel("transfer")}>Importar · exportar</button>
 <button onClick={() => setPanel("help")}>Como jogar</button>
 </div> : panel === "help" ? <div className="help-copy">
-<p>Escolha um Desejo, uma Forma de agir e uma Expressão. As cartas são convites para interpretar, não resultados obrigatórios.</p>
+<p>Escolha uma carta de cada família: Origem, Convicção, Desejo, Forma de agir, Expressão, Vínculo, Pressão e Conflito interno. As oito são obrigatórias; as cartas são convites para interpretar, não resultados obrigatórios.</p>
 <p>Use as setas do teclado ou da mesa, deslize ou role horizontalmente na mão. Shift + rolagem também troca cartas. A rolagem vertical continua livre. Vire a carta para consultar como levá-la à cena.</p>
-<p>L traz um vínculo, P uma pressão. N só entra se dois valores realmente importarem. U/G são consulta, sem entrar no sorteio.</p>
+<p>Na revisão, interprete as oito cartas e complete as cinco respostas de Chamado/Destino (G07). Diferencie o fato vivido, a crença e a margem de escolha. U/G são guias de consulta e não entram no sorteio de personalidade.</p>
 <p>Suas combinações ficam neste navegador. Ao salvar, revise as interpretações, dê um nome e acrescente uma foto se quiser. Dados antigos continuam guardados e saem nas exportações. Ao trocar cartas, os textos anteriores são preservados.</p>
 </div> : panel === "confirm" ? <div className="confirmation">
 <p>{confirmation?.type === "delete" ? "Esta ação exclui o personagem salvo. O rascunho aberto será preservado." : "O rascunho atual será substituído. Revise e finalize ou exporte antes se quiser guardá-lo. Os personagens salvos continuam na biblioteca."}</p>
@@ -485,21 +481,15 @@ export default function App() {
 <button onClick={() => {
     setConfirmation(null);
     setPanel(confirmation?.type === "delete" ? "library" : null);
-  }}>Cancelar</button>{confirmation?.type !== "delete" && <button disabled={count < 3} onClick={() => {
+  }}>Cancelar</button>{confirmation?.type !== "delete" && <button disabled={count === 0} onClick={() => {
     beginReview();
   }}>Revisar personagem atual</button>}<button className="danger-action" onClick={() => perform(confirmation)}>{confirmation?.type === "delete" ? "Excluir salvo" : confirmation?.type === "inspiration" ? "Usar esta inspiração" : "Substituir rascunho"}</button>
 </div>
-</div> : panel === "families" ? <>
-<p className="panel-description">Dê mais uma dimensão ao personagem. As camadas entram na sequência em que você as acrescenta; retirar uma guarda sua carta e seu texto.</p>
-<div className="family-choices">{["L","P","N"].map(f => <article key={f}>
-<button className="family-choice" onClick={() => addOptional(f)}><b>{f}</b><strong>{FAMILIES[f]}</strong><span>{QUESTIONS[f]}</span><span>{draft.enabled.includes(f)?`Etapa ${steps.indexOf(f)+1} · ver cartas` : "+ Acrescentar e escolher carta"}</span></button>
-{draft.enabled.includes(f) && <button className="chip" onClick={() => removeOptional(f)}>Retirar camada · guardar texto</button>}
-</article>)}</div>
-</> : panel === "guides" ? <>
-<p className="panel-description">Cartas para consultar o jogo e olhar a história. Não entram na combinação nem criam etapas.</p>
-<div className="action-row">{["U","G"].map(f => <button key={f} onClick={() => inspectFamily(f)}>{FAMILIES[f]} ↗</button>)}</div>
+</div> : panel === "guides" ? <>
+<p className="panel-description">Chamado/Destino (G07) orienta as cinco respostas obrigatórias da revisão. Os demais guias ajudam a consultar o jogo; nenhum ocupa uma das oito famílias.</p>
+<div className="action-row"><button onClick={inspectJourneyGuide}>Chamado/Destino · G07</button>{["U","G"].map(f => <button key={f} onClick={() => inspectFamily(f)}>{FAMILIES[f]} ↗</button>)}</div>
 </> : panel === "draw" ? <>
-<p className="panel-description">Sorteie as camadas ativas. Cartas mantidas ficam no lugar. Textos anteriores continuam guardados.</p>
+<p className="panel-description">Sorteie as oito famílias. Cartas mantidas ficam no lugar. Textos anteriores continuam guardados.</p>
 <div className="draw-choices">{ORDER.filter((f) => draft.enabled.includes(f)).map((f) => <article key={f}>
 <div>
 <strong>{FAMILIES[f]}</strong>
@@ -518,7 +508,7 @@ export default function App() {
 <div className="menu-options">
 <button onClick={() => exportCharacter(draft, "json")}>Exportar combinação · JSON</button>
 <button onClick={() => exportCharacter(draft, "md")}>Exportar texto · Markdown</button>
-<button onClick={() => importInput.current.click()}>Importar ficha · JSON 5.0 / 5.1</button>
+<button onClick={() => importInput.current.click()}>Importar ficha · JSON 5.0 / 5.1 / 5.2</button>
 </div>
 </> : <>
 <div className="library-toolbar">
@@ -527,10 +517,10 @@ export default function App() {
 </div>
 <div className="library">{saved.length ? saved.map((c) => <article className="character-card" key={c.id}>
 <button className="character-open" onClick={() => requestAction({ type: "open", character: c })}>
-<div className={`library-art ${c.portrait?"has-portrait":""}`}>{c.portrait?<img src={c.portrait} alt="" onError={event => {event.currentTarget.style.display="none";}}/>:CORE.map((f) => c.cards?.[f] && <Art key={f} code={c.cards[f]} />)}</div>
+<div className={`library-art ${c.portrait?"has-portrait":""}`}>{c.portrait?<img src={c.portrait} alt="" onError={event => {event.currentTarget.style.display="none";}}/>:ORDER.filter(f=>c.cards?.[f]).slice(0,3).map((f) => c.cards?.[f] && <Art key={f} code={c.cards[f]} />)}</div>
 <h3>{c.name || "Combinação sem nome"}</h3>
 <p>{ORDER.filter((f) => c.enabled.includes(f)).map((f) => c.cards?.[f]).filter(Boolean).join(" · ")}</p>
-<span>{c.finalized?"Ver carta do personagem ↗":"Abrir combinação ↗"}</span>
+<span>{c.finalized?"Ver carta do personagem ↗":"Completar personagem ↗"}</span>
 </button>
 <div className="character-actions">
 <button onClick={() => duplicate(c)}>Duplicar</button>
@@ -541,7 +531,7 @@ export default function App() {
     setPanel("confirm");
   }}>Excluir</button>
 </div>
-</article>) : <p>Seu elenco começa com três cartas. Escolha as suas e salve uma combinação.</p>}</div>
+</article>) : <p>Seu elenco começa com oito cartas e o guia Chamado/Destino. Escolha suas cartas e conclua na revisão.</p>}</div>
 </>}
  </div>
 </dialog>}

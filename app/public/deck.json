@@ -1,9 +1,9 @@
 {
-  "versao": "5.1",
+  "versao": "5.2",
   "nome": "Persona Cards",
   "cartas": [
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "D01",
       "titulo": "Ter meu lugar",
       "familia": "D",
@@ -16,7 +16,7 @@
       "leitura": "Você procura um lugar onde sua presença conte, não apenas um convite para entrar."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "D02",
       "titulo": "Assinar uma conquista",
       "familia": "D",
@@ -29,7 +29,7 @@
       "leitura": "Há uma conquista sua que ainda leva outro nome. O que mudaria se fosse reconhecida?"
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "D03",
       "titulo": "Escolher meu caminho",
       "familia": "D",
@@ -42,7 +42,7 @@
       "leitura": "O caminho está posto, mas você quer poder escolhê-lo por conta própria."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "D04",
       "titulo": "Garantir proteção",
       "familia": "D",
@@ -55,7 +55,7 @@
       "leitura": "Algo importa o bastante para você vigiar o risco e preparar um abrigo."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "D05",
       "titulo": "Obter reparação",
       "familia": "D",
@@ -68,7 +68,7 @@
       "leitura": "Um dano pede resposta concreta. Que reparação seria suficiente para você?"
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "D06",
       "titulo": "Resolver uma pergunta",
       "familia": "D",
@@ -81,7 +81,7 @@
       "leitura": "Uma pergunta não o deixa em paz. Siga a pista, mesmo se ela contrariar sua hipótese."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "D07",
       "titulo": "Fazer algo durar",
       "familia": "D",
@@ -94,7 +94,7 @@
       "leitura": "Você quer que uma obra sobreviva às suas mãos. A quem confiaria o próximo passo?"
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "D08",
       "titulo": "Ter recursos suficientes",
       "familia": "D",
@@ -107,7 +107,7 @@
       "leitura": "Você sabe o que falta para realizar um projeto. Quanto será bastante?"
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "D09",
       "titulo": "Viver uma experiência",
       "familia": "D",
@@ -120,7 +120,7 @@
       "leitura": "Existe algo que você quer viver, sem transformá-lo em prêmio ou obrigação."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "D10",
       "titulo": "Ampliar minha influência",
       "familia": "D",
@@ -133,7 +133,7 @@
       "leitura": "Você quer ter poder sobre uma decisão. Que autoridade procura, e quem poderá contestá-la?"
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "D11",
       "titulo": "Cumprir minha palavra",
       "familia": "D",
@@ -146,7 +146,7 @@
       "leitura": "Sua palavra criou uma expectativa. O que ainda precisa fazer para cumpri-la?"
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "D12",
       "titulo": "Abrir um horizonte",
       "familia": "D",
@@ -159,7 +159,7 @@
       "leitura": "Uma possibilidade ainda não existe para essas pessoas. Você tenta abri-la."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "F01",
       "titulo": "Planejo antes",
       "familia": "F",
@@ -172,7 +172,7 @@
       "leitura": "Você organiza antes de agir. Quando o preparo protege, e quando faz perder a hora?"
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "F02",
       "titulo": "Faço uma troca",
       "familia": "F",
@@ -185,7 +185,7 @@
       "leitura": "Você oferece algo em troca de algo. Deixe claro o acordo antes de cobrar."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "F03",
       "titulo": "Defendo um princípio",
       "familia": "F",
@@ -198,7 +198,7 @@
       "leitura": "Você declara um princípio e o segue. Que caso concreto desafia essa firmeza?"
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "F04",
       "titulo": "Faço disso uma disputa",
       "familia": "F",
@@ -211,7 +211,7 @@
       "leitura": "Você transforma a tarefa em disputa. Lembre o que pretendia fazer antes de querer vencer."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "F05",
       "titulo": "Aproveito o momento",
       "familia": "F",
@@ -224,7 +224,7 @@
       "leitura": "Você percebe o prazer possível agora. Ele pode alimentar a ação ou adiá-la."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "F06",
       "titulo": "Aposto na possibilidade",
       "familia": "F",
@@ -237,7 +237,7 @@
       "leitura": "Você tenta mesmo sem garantia. Nomeie o risco e quem o divide com você."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "F07",
       "titulo": "Aproximo as partes",
       "familia": "F",
@@ -250,7 +250,7 @@
       "leitura": "Você procura uma linguagem comum para lados diferentes. Sua própria posição também importa."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "F08",
       "titulo": "Ofereço primeiro",
       "familia": "F",
@@ -263,7 +263,7 @@
       "leitura": "Você começa oferecendo ajuda. Verifique o que é seu para oferecer."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "F09",
       "titulo": "Guardo meu espaço",
       "familia": "F",
@@ -276,7 +276,7 @@
       "leitura": "Você guarda tempo, informação ou intimidade. Diga onde termina o seu limite."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "F10",
       "titulo": "Vou ao que funciona",
       "familia": "F",
@@ -289,7 +289,7 @@
       "leitura": "Você pergunta o que funciona. Observe também o que o procedimento significa para os outros."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "F11",
       "titulo": "Mudo conforme o terreno",
       "familia": "F",
@@ -302,7 +302,7 @@
       "leitura": "Você muda o plano quando o terreno muda. Avise quem contava com a decisão anterior."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "F12",
       "titulo": "Sustento os meus",
       "familia": "F",
@@ -315,7 +315,7 @@
       "leitura": "Você permanece ao lado dos seus. Apoio e favorecimento podem se parecer de longe."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "N01",
       "titulo": "Raízes / horizontes",
       "familia": "N",
@@ -328,7 +328,7 @@
       "leitura": "Você valoriza o lugar de onde veio e a possibilidade de ir além. Ambos pedem algo agora."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "N02",
       "titulo": "Eficiência / dignidade",
       "familia": "N",
@@ -341,7 +341,7 @@
       "leitura": "Você quer poupar recursos sem calar os afetados. O atalho tem um preço humano."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "N03",
       "titulo": "Verdade / pertencimento",
       "familia": "N",
@@ -354,7 +354,7 @@
       "leitura": "Você quer dizer o que descobriu e continuar pertencendo. Como abrir a conversa?"
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "N04",
       "titulo": "Afeto / imparcialidade",
       "familia": "N",
@@ -367,7 +367,7 @@
       "leitura": "Você ama alguém envolvido na decisão e quer ser justo com os demais."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "N05",
       "titulo": "Beleza / utilidade",
       "familia": "N",
@@ -380,7 +380,7 @@
       "leitura": "Você deseja criar beleza e atender uma necessidade. Talvez o mesmo material não baste."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "N06",
       "titulo": "Continuidade / renovação",
       "familia": "N",
@@ -393,7 +393,7 @@
       "leitura": "Você quer guardar o que ainda serve e permitir que algo novo exista."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "N07",
       "titulo": "Liberdade / compromisso",
       "familia": "N",
@@ -406,7 +406,7 @@
       "leitura": "Você deseja escolher de novo sem tratar a promessa anterior como nada."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "N08",
       "titulo": "Ambição / suficiência",
       "familia": "N",
@@ -419,7 +419,7 @@
       "leitura": "Você quer crescer e sabe apreciar o bastante. Qual conquista mudaria o equilíbrio?"
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "N09",
       "titulo": "Curiosidade / privacidade",
       "familia": "N",
@@ -432,7 +432,7 @@
       "leitura": "Você quer descobrir, mas reconhece o direito de alguém não abrir a porta."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "N10",
       "titulo": "Lealdade / justiça",
       "familia": "N",
@@ -445,7 +445,7 @@
       "leitura": "Você é leal aos seus e vê uma injustiça que os beneficia. O que fará com as duas verdades?"
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "N11",
       "titulo": "Prudência / oportunidade",
       "familia": "N",
@@ -458,7 +458,7 @@
       "leitura": "Você quer evitar uma perda e aproveitar a ocasião. Que risco pequeno pode testar?"
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "N12",
       "titulo": "Franqueza / harmonia",
       "familia": "N",
@@ -471,7 +471,7 @@
       "leitura": "Você quer dizer o que sente sem destruir a convivência que também estima."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "L01",
       "titulo": "Amizade que descansa",
       "familia": "L",
@@ -484,7 +484,7 @@
       "leitura": "Há alguém com quem você pode simplesmente estar. O que essa pessoa quer hoje?"
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "L02",
       "titulo": "Rival que admiro",
       "familia": "L",
@@ -497,7 +497,7 @@
       "leitura": "Você disputa com alguém cuja qualidade reconhece. A rivalidade não apaga o respeito."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "L03",
       "titulo": "Sócio de outra ideia",
       "familia": "L",
@@ -510,7 +510,7 @@
       "leitura": "Vocês fizeram algo juntos e agora imaginam futuros diferentes para o que construíram."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "L04",
       "titulo": "Favor com história",
       "familia": "L",
@@ -523,7 +523,7 @@
       "leitura": "Uma ajuda antiga chega à conversa de hoje. Foi presente, acordo ou dívida?"
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "L05",
       "titulo": "Quem viu minha mudança",
       "familia": "L",
@@ -536,7 +536,7 @@
       "leitura": "Essa pessoa conheceu quem você era. Ela vê quem você se tornou?"
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "L06",
       "titulo": "Quem aprendeu comigo",
       "familia": "L",
@@ -549,7 +549,7 @@
       "leitura": "Você ensinou; a outra pessoa aprendeu e escolhe o que fazer com isso."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "L07",
       "titulo": "Quem me orienta",
       "familia": "L",
@@ -562,7 +562,7 @@
       "leitura": "Alguém oferece direção por experiência ou poder. Onde começa a sua decisão?"
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "L08",
       "titulo": "Companhia de estrada",
       "familia": "L",
@@ -575,7 +575,7 @@
       "leitura": "Vocês seguem pela mesma estrada com prioridades que podem não coincidir."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "L09",
       "titulo": "Responsabilidade escolhida",
       "familia": "L",
@@ -588,7 +588,7 @@
       "leitura": "Você escolheu cuidar de alguém. A pessoa cuidada ainda pode escolher por si."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "L10",
       "titulo": "Afeto com divergência",
       "familia": "L",
@@ -601,7 +601,7 @@
       "leitura": "Você gosta de alguém que discorda de você. O afeto não precisa encerrar a discussão."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "L11",
       "titulo": "Quem está ausente",
       "familia": "L",
@@ -614,7 +614,7 @@
       "leitura": "Alguém vivo está longe. Separe o que sabe do que imagina sobre sua vontade."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "L12",
       "titulo": "Estranho que me marcou",
       "familia": "L",
@@ -627,7 +627,7 @@
       "leitura": "Um encontro breve deixou marca. A pessoa de hoje pode surpreender sua lembrança."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "V01",
       "titulo": "Perguntas que delimitam",
       "familia": "V",
@@ -640,7 +640,7 @@
       "leitura": "Você recorta a conversa com perguntas precisas. Cada resposta abre a próxima."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "V02",
       "titulo": "Cuidado pelas mãos",
       "familia": "V",
@@ -653,7 +653,7 @@
       "leitura": "Suas mãos fazem parte da fala. Um pequeno cuidado pode dizer muito."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "V03",
       "titulo": "Imagens do cotidiano",
       "familia": "V",
@@ -666,7 +666,7 @@
       "leitura": "Você traduz uma ideia em objeto ou imagem cotidiana que ambos conhecem."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "V04",
       "titulo": "Conclusão primeiro",
       "familia": "V",
@@ -679,7 +679,7 @@
       "leitura": "Você entrega a conclusão primeiro e deixa o silêncio carregar a reação."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "V05",
       "titulo": "Termos cuidadosos",
       "familia": "V",
@@ -692,7 +692,7 @@
       "leitura": "Você escolhe os termos com atenção. Uma palavra corrigida muda a promessa."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "V06",
       "titulo": "Lembrança breve",
       "familia": "V",
@@ -705,7 +705,7 @@
       "leitura": "Você traz uma lembrança breve para iluminar o que acontece agora."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "V07",
       "titulo": "Raciocínio em voz alta",
       "familia": "V",
@@ -718,7 +718,7 @@
       "leitura": "Você pensa em voz alta e permite que a hipótese mude diante de outros."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "V08",
       "titulo": "Atenção pessoal",
       "familia": "V",
@@ -731,7 +731,7 @@
       "leitura": "Você se lembra de um detalhe pessoal. Use-o com atenção à pessoa, não apenas ao argumento."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "V09",
       "titulo": "Entusiasmo que convida",
       "familia": "V",
@@ -744,7 +744,7 @@
       "leitura": "Sua energia abre uma tarefa compartilhada. Convide para uma parte concreta."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "V10",
       "titulo": "Humor que muda o ângulo",
       "familia": "V",
@@ -757,7 +757,7 @@
       "leitura": "Seu humor muda o ângulo da cena. Veja se alguém riu com você."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "V11",
       "titulo": "Passo a passo",
       "familia": "V",
@@ -770,7 +770,7 @@
       "leitura": "Você organiza o pensamento em passos que o outro consegue acompanhar."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "V12",
       "titulo": "Convite à participação",
       "familia": "V",
@@ -783,7 +783,7 @@
       "leitura": "Sua proposta deixa uma abertura real para a resposta e para a mudança."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "P01",
       "titulo": "Crédito em disputa",
       "familia": "P",
@@ -796,7 +796,7 @@
       "leitura": "Uma disputa por crédito altera quem é visto, ouvido ou recompensado."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "P02",
       "titulo": "Oferta com condições",
       "familia": "P",
@@ -809,7 +809,7 @@
       "leitura": "A oferta é tentadora; suas condições merecem ser vistas antes da resposta."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "P03",
       "titulo": "Regra e caso concreto",
       "familia": "P",
@@ -822,7 +822,7 @@
       "leitura": "Uma regra encontra um caso que não cabe nela sem ferir alguém."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "P04",
       "titulo": "Um vínculo escolhe diferente",
       "familia": "P",
@@ -835,7 +835,7 @@
       "leitura": "Uma pessoa próxima escolhe diferente. A relação precisa lidar com essa escolha."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "P05",
       "titulo": "Evidência inesperada",
       "familia": "P",
@@ -848,7 +848,7 @@
       "leitura": "Uma prova confiável mudou o terreno. O que ainda permanece desconhecido?"
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "P06",
       "titulo": "Capacidades complementares",
       "familia": "P",
@@ -861,7 +861,7 @@
       "leitura": "Alguém tem o recurso que lhe falta. Cooperar envolve duas vontades."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "P07",
       "titulo": "Custo transferido",
       "familia": "P",
@@ -874,7 +874,7 @@
       "leitura": "A solução transfere a perda para outra pessoa. Mostre quem pagaria."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "P08",
       "titulo": "Vitória já alcançada",
       "familia": "P",
@@ -887,7 +887,7 @@
       "leitura": "A vitória já aconteceu. O tempo que sobra também pode ser bom."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "P09",
       "titulo": "Oportunidade com prazo",
       "familia": "P",
@@ -900,7 +900,7 @@
       "leitura": "A ocasião termina antes de todas as respostas chegarem. Qual risco é conhecido?"
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "P10",
       "titulo": "Mais do que esperava",
       "familia": "P",
@@ -913,7 +913,7 @@
       "leitura": "Veio mais do que o esperado. Pessoas diferentes podem ter direito ao excedente."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "P11",
       "titulo": "Convite para algo bom",
       "familia": "P",
@@ -926,7 +926,7 @@
       "leitura": "Há um convite para algo bom. Aceitar ou recusar não precisa virar crise."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "P12",
       "titulo": "Duas promessas, um recurso",
       "familia": "P",
@@ -939,7 +939,7 @@
       "leitura": "Duas promessas precisam do mesmo recurso. Cada pessoa afetada merece ser vista."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "D13",
       "titulo": "Continuar vivo",
       "familia": "D",
@@ -952,7 +952,7 @@
       "leitura": "Uma ameaça pesa sobre sua continuidade. Você tenta atravessar este perigo ou impedir que ele volte a alcançá-lo?"
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "D14",
       "titulo": "Encontrar intimidade",
       "familia": "D",
@@ -965,7 +965,7 @@
       "leitura": "Você deseja se aproximar. O convite pode ser sincero sem exigir resposta igual."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "D15",
       "titulo": "Entender quem sou",
       "familia": "D",
@@ -978,7 +978,7 @@
       "leitura": "A ideia que tinha de si talvez não baste. O que sua experiência mostra?"
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "D16",
       "titulo": "Reparar minha própria falta",
       "familia": "D",
@@ -991,7 +991,7 @@
       "leitura": "Você reconhece uma falta sua e procura responder por ela. A outra pessoa decide o que aceita."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "D17",
       "titulo": "Reaver o que considero meu",
       "familia": "D",
@@ -1004,7 +1004,7 @@
       "leitura": "Algo lhe foi tirado, ou você crê que lhe pertence. Sua reivindicação pode ser contestada."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "D18",
       "titulo": "Romper uma ordem",
       "familia": "D",
@@ -1017,7 +1017,7 @@
       "leitura": "Uma ordem sustenta o que você quer desfazer. Qual apoio dela pode ser atingido?"
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "F13",
       "titulo": "Pressiono e controlo",
       "familia": "F",
@@ -1030,7 +1030,7 @@
       "leitura": "Você usa a vantagem para obter obediência. O resultado não transforma coerção em acordo."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "F14",
       "titulo": "Oculto e enceno",
       "familia": "F",
@@ -1043,7 +1043,7 @@
       "leitura": "Você escolhe o que mostrar e o que ocultar. Toda encenação deixa uma borda exposta."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "F15",
       "titulo": "Insisto além do custo",
       "familia": "F",
@@ -1056,7 +1056,7 @@
       "leitura": "Você insiste depois que o custo aparece. O que continua avançando, e quem está pagando?"
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "F16",
       "titulo": "Avalio perigos",
       "familia": "F",
@@ -1069,7 +1069,7 @@
       "leitura": "Você procura perigos antes do primeiro passo. Separe sinal observado de suspeita."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "F17",
       "titulo": "Tomo a frente",
       "familia": "F",
@@ -1082,7 +1082,7 @@
       "leitura": "Você toma a frente quando falta direção. Deixe espaço para quem também terá de agir."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "F18",
       "titulo": "Sigo ao pé da letra",
       "familia": "F",
@@ -1095,7 +1095,7 @@
       "leitura": "Você segue os termos exatos. Uma ordem clara ainda pode deixar uma intenção de fora."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "N13",
       "titulo": "Segurança / confiança",
       "familia": "N",
@@ -1108,7 +1108,7 @@
       "leitura": "Você precisa de segurança e deseja confiar. Nenhuma das duas vontades desaparece por decreto."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "N14",
       "titulo": "Controle / entrega",
       "familia": "N",
@@ -1121,7 +1121,7 @@
       "leitura": "Você valoriza o cuidado com os detalhes e a liberdade de deixar alguém agir."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "N15",
       "titulo": "Imagem / identidade",
       "familia": "N",
@@ -1134,7 +1134,7 @@
       "leitura": "Você sustenta uma imagem de si e encontra uma experiência que não cabe nela."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "N16",
       "titulo": "Apego / desprendimento",
       "familia": "N",
@@ -1147,7 +1147,7 @@
       "leitura": "Você quer preservar algo precioso e continuar vivendo sem mantê-lo intacto."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "N17",
       "titulo": "Convicção / vínculo",
       "familia": "N",
@@ -1160,7 +1160,7 @@
       "leitura": "Você acredita no projeto e se importa com quem ele ameaça afastar."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "N18",
       "titulo": "Impulso / limite",
       "familia": "N",
@@ -1173,7 +1173,7 @@
       "leitura": "Uma vontade retorna; um limite seu também permanece. O que acontece quando se encontram?"
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "L13",
       "titulo": "Inimigo que me define",
       "familia": "L",
@@ -1186,7 +1186,7 @@
       "leitura": "Seu adversário toca em algo central para você. Descubra o que ele próprio busca."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "L14",
       "titulo": "Autoridade e dependência",
       "familia": "L",
@@ -1199,7 +1199,7 @@
       "leitura": "Há poder desigual entre vocês. Qual recusa é realmente possível?"
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "L15",
       "titulo": "Aliança por interesse",
       "familia": "L",
@@ -1212,7 +1212,7 @@
       "leitura": "A aliança funciona enquanto interesses distintos se encontram. O que cada parte oferece?"
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "L16",
       "titulo": "Alguém que morreu",
       "familia": "L",
@@ -1225,7 +1225,7 @@
       "leitura": "Alguém morreu e continua presente na memória ou no legado, não em uma vontade inventada."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "L17",
       "titulo": "Afeto que busco",
       "familia": "L",
@@ -1238,7 +1238,7 @@
       "leitura": "Você deseja proximidade com alguém que pode querer outra coisa."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "L18",
       "titulo": "Objeto que me prende",
       "familia": "L",
@@ -1251,7 +1251,7 @@
       "leitura": "Um objeto ou lugar concentra seu apego. O que muda quando precisa soltá-lo?"
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "V13",
       "titulo": "Silêncio que comunica",
       "familia": "V",
@@ -1264,7 +1264,7 @@
       "leitura": "Você pode dizer muito sem palavras. Dê tempo para o gesto receber resposta."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "V14",
       "titulo": "Literalidade",
       "familia": "V",
@@ -1277,7 +1277,7 @@
       "leitura": "Você leva as palavras ao pé da letra e pede a precisão de que precisa."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "V15",
       "titulo": "Fala cerimonial",
       "familia": "V",
@@ -1290,7 +1290,7 @@
       "leitura": "Sua fala dá forma pública a um papel, voto ou compromisso."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "V16",
       "titulo": "Encanto calculado",
       "familia": "V",
@@ -1303,7 +1303,7 @@
       "leitura": "Você mede o ritmo e a atenção da conversa para conduzi-la."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "V17",
       "titulo": "Registros alternados",
       "familia": "V",
@@ -1316,7 +1316,7 @@
       "leitura": "Seu registro muda com a posição que ocupa. Mostre o contraste sem inventar sua causa."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "V18",
       "titulo": "Fala contida",
       "familia": "V",
@@ -1329,7 +1329,7 @@
       "leitura": "Você reduz, pausa ou corrige a fala antes de se expor demais."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "P13",
       "titulo": "Perigo presente",
       "familia": "P",
@@ -1342,7 +1342,7 @@
       "leitura": "O perigo está aqui e impede a rotina. Mostre saídas plausíveis."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "P14",
       "titulo": "Tentação acessível",
       "familia": "P",
@@ -1355,7 +1355,7 @@
       "leitura": "O que se deseja está ao alcance por um caminho que cobra um custo."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "P15",
       "titulo": "Sinal ambíguo",
       "familia": "P",
@@ -1368,7 +1368,7 @@
       "leitura": "Um sinal inquieta, mas ainda não é prova. Separe fato e interpretação."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "P16",
       "titulo": "Perda sem retorno",
       "familia": "P",
@@ -1381,7 +1381,7 @@
       "leitura": "Algo se perdeu sem retorno igual. O que ainda pode ser escolhido?"
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "P17",
       "titulo": "Controle exigido",
       "familia": "P",
@@ -1394,7 +1394,7 @@
       "leitura": "Alguém exige obediência a partir de uma vantagem real. Mostre as margens de resposta."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "P18",
       "titulo": "O custo em mim",
       "familia": "P",
@@ -1407,33 +1407,33 @@
       "leitura": "Seguir adiante já cobra corpo, tempo ou paz. Dê forma visível ao custo."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "U01",
       "titulo": "NPC rápido",
       "familia": "U",
       "campos": {
-        "Tire": "D + F + V. Dê nome, papel e um gosto.",
-        "Complete": "Quero [resultado]. Tento obter [algo] de vocês.",
-        "Entre": "Mostre F e V; pedir, oferecer ou exigir não garante resposta."
+        "Tire": "Uma carta OR, CV, D, F, V, L, P e N; consulte G07 para Chamado e destino.",
+        "Complete": "Interprete as oito cartas com nome, papel e situação. Separe a origem proposta dos fatos já estabelecidos.",
+        "Entre": "Mostre uma tentativa e a expressão; registre chamado, resposta, fato, crença e escolha. A reação dos outros continua aberta."
       },
       "modulo": "guia",
-      "leitura": "Comece pequeno: uma intenção, um modo de agir e uma expressão em cena."
+      "leitura": "Comece pela combinação completa: origem, convicção, desejo, método, expressão, vínculo, pressão e dois valores em conflito; depois responda ao chamado."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "U02",
       "titulo": "Personagem completo",
       "familia": "U",
       "campos": {
-        "Acrescente": "L + P; use N se houver uma disputa interna real.",
-        "Conecte": "Não invente dois valores para justificar o sorteio.",
-        "Prepare": "Uma entrada, uma tentativa de ação e um custo."
+        "Acrescente": "Preencha OR + CV + D + F + V + L + P + N e os cinco campos de G07; nenhuma dessas camadas é dispensada na criação 5.2.",
+        "Conecte": "Origem não implica culpa. Convicção distingue fato, valor e regra; N precisa de dois valores genuínos que a pessoa deseja preservar.",
+        "Prepare": "Se o sorteio contradiz o recorte, escolha outra carta ou revise a proposta. Uma combinação aleatória não garante coerência nem exige redenção."
       },
       "modulo": "guia",
-      "leitura": "Acrescente camadas apenas quando elas mudarem uma escolha possível."
+      "leitura": "Todas as oito camadas e Chamado e destino fazem parte da criação 5.2. Conecte-as por escolhas e situações concretas."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "U03",
       "titulo": "Conversa viva",
       "familia": "U",
@@ -1446,7 +1446,7 @@
       "leitura": "Numa conversa, cada resposta pode pedir outra tática do personagem."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "U04",
       "titulo": "Subtexto",
       "familia": "U",
@@ -1459,7 +1459,7 @@
       "leitura": "O que se quer e o que se mostra podem diferir sem exigir segredo."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "U05",
       "titulo": "Dupla em movimento",
       "familia": "U",
@@ -1472,12 +1472,12 @@
       "leitura": "Duas pessoas ganham vida quando cada uma pode querer algo próprio."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "U06",
       "titulo": "Escolha aberta",
       "familia": "U",
       "campos": {
-        "Combine": "P muda a circunstância; N pode mostrar conflito interno.",
+        "Combine": "P muda a circunstância; N apresenta dois valores genuínos que a pessoa quer preservar e que a escolha coloca em disputa.",
         "Concretize": "Defina quem é afetado e quais poder, recurso ou risco pesam.",
         "Abra": "Prepare consequências plausíveis; aceite soluções da mesa."
       },
@@ -1485,7 +1485,7 @@
       "leitura": "Prepare circunstância e consequências; deixe a decisão para a mesa."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "U07",
       "titulo": "Depois da escolha",
       "familia": "U",
@@ -1498,20 +1498,20 @@
       "leitura": "Depois da cena, registre a mudança observada antes de escolher outra carta."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "U08",
       "titulo": "Elenco variado",
       "familia": "U",
       "campos": {
-        "Distribua": "Núcleo: 01–12. Expansão: 13–18. Expansão 5.0: D19–D24, F19–F20, N19–N22, L19–L20 e V19–V22; P termina em P18. Misture por família se quiser.",
-        "Contraste": "Varie desejo, método e expressão; sorteie sem reposição quando quiser reduzir repetições no elenco.",
-        "Confira": "Ausência de conflito não é falha. Não force trauma ou redenção."
+        "Distribua": "Núcleo 01–12; expansão 13–18; expansão 5.0 D19–24/F19–20/N19–22/L19–20/V19–22. P termina em P18. Expansão 5.2: OR01–12 e CV01–12.",
+        "Contraste": "Cada criação usa OR/CV/D/F/V/L/P/N e G07. Varie escolhas e respostas; sorteie sem reposição para reduzir repetições no elenco.",
+        "Confira": "N pede dois valores reais em disputa, não só adversidade. A obrigação da camada não autoriza inventar trauma, culpa ou redenção."
       },
       "modulo": "guia",
-      "leitura": "Varie objetivos, métodos e expressão sem obrigar todos a ter conflito."
+      "leitura": "Varie as oito famílias entre personagens e identifique dois valores genuínos em cada N; não uniformize passado, culpa ou destino."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "U09",
       "titulo": "Ajuste e continuidade",
       "familia": "U",
@@ -1524,7 +1524,7 @@
       "leitura": "Quando a carta contrariar a história jogada, preserve a história."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "D19",
       "titulo": "Punir quem causou o dano",
       "familia": "D",
@@ -1537,7 +1537,7 @@
       "leitura": "Você quer que o responsável pague pelo dano. Punir e reparar não são a mesma escolha."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "D20",
       "titulo": "Sair de um fardo",
       "familia": "D",
@@ -1550,7 +1550,7 @@
       "leitura": "Há um peso que você não consegue continuar carregando. Nomeie o que precisa cessar sem decidir a saída por antecipação."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "D21",
       "titulo": "Cumprir uma obrigação",
       "familia": "D",
@@ -1563,7 +1563,7 @@
       "leitura": "Um dever orienta seus passos. Descubra de onde veio e quanto espaço deixa para sua interpretação."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "D22",
       "titulo": "Provar meu valor a mim",
       "familia": "D",
@@ -1576,7 +1576,7 @@
       "leitura": "A prova que você busca é para si. O aplauso de outros talvez não resolva nada."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "D23",
       "titulo": "Exercer minha vocação",
       "familia": "D",
@@ -1589,7 +1589,7 @@
       "leitura": "A própria prática lhe dá sentido. Onde ela cabe entre as outras partes da sua vida?"
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "D24",
       "titulo": "Controlar a imagem que deixo",
       "familia": "D",
@@ -1602,7 +1602,7 @@
       "leitura": "Você quer governar a imagem que deixam de você. Quem conhece outra versão?"
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "F19",
       "titulo": "Uso âncoras externas",
       "familia": "F",
@@ -1615,7 +1615,7 @@
       "leitura": "Você usa notas, rituais ou instruções para seguir. Confira quem fez a âncora e se ainda vale."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "F20",
       "titulo": "Recuo para suportar",
       "familia": "F",
@@ -1628,7 +1628,7 @@
       "leitura": "Você se afasta do que não consegue enfrentar agora. A distância pode proteger e também deixar algo sem resposta."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "N19",
       "titulo": "Esperança / desistência",
       "familia": "N",
@@ -1641,7 +1641,7 @@
       "leitura": "Você vê uma razão para tentar de novo e outra para poupar as forças que restam."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "N20",
       "titulo": "Dever recebido / autoria da vida",
       "familia": "N",
@@ -1654,7 +1654,7 @@
       "leitura": "O dever recebido tem valor para você, mas existe uma vida que também quer escolher."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "N21",
       "titulo": "Verdade / consolo",
       "familia": "N",
@@ -1667,7 +1667,7 @@
       "leitura": "Você quer conhecer a verdade e preservar um consolo que considera valioso."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "N22",
       "titulo": "Dedicação / presença cotidiana",
       "familia": "N",
@@ -1680,7 +1680,7 @@
       "leitura": "A obra importa, e a vida fora dela também. O que perderia se só uma coubesse?"
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "L19",
       "titulo": "Vínculo por obrigação",
       "familia": "L",
@@ -1693,7 +1693,7 @@
       "leitura": "Um papel lhe atribuiu responsabilidade por alguém. Dever, afeto e consentimento não se confundem."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "L20",
       "titulo": "Afeto misturado a domínio",
       "familia": "L",
@@ -1706,7 +1706,7 @@
       "leitura": "Há afeto e há controle nessa relação. Observe os dois sem chamar domínio de cuidado."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "V19",
       "titulo": "Língua em sinais",
       "familia": "V",
@@ -1719,7 +1719,7 @@
       "leitura": "Você se expressa em língua de sinais completa. Defina quem compreende o que comunica."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "V20",
       "titulo": "Palavras que ficam",
       "familia": "V",
@@ -1732,7 +1732,7 @@
       "leitura": "Você deixa palavras para serem recebidas em outro tempo. A distância também faz parte da mensagem."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "V21",
       "titulo": "Imagens que carregam sentido",
       "familia": "V",
@@ -1745,7 +1745,7 @@
       "leitura": "Uma imagem ou um ritmo comunica aquilo que a explicação direta empobreceria."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "V22",
       "titulo": "Vocabulário próprio",
       "familia": "V",
@@ -1758,7 +1758,7 @@
       "leitura": "Seu vocabulário revela repertório e pertencimento. Crie-o sem caricaturar um grupo real."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "G01",
       "titulo": "Memória e registros",
       "familia": "G",
@@ -1771,7 +1771,7 @@
       "leitura": "Memória, experiência e registro são fontes distintas de continuidade."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "G02",
       "titulo": "Percepção e verificação",
       "familia": "G",
@@ -1784,7 +1784,7 @@
       "leitura": "Percepção, relato e fato devem continuar separados até a verificação."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "G03",
       "titulo": "Influência externa",
       "familia": "G",
@@ -1797,7 +1797,7 @@
       "leitura": "Uma influência externa tem limites próprios; registre o que ainda é escolha."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "G04",
       "titulo": "Mandato e aprendizagem",
       "familia": "G",
@@ -1810,7 +1810,7 @@
       "leitura": "Um mandato diz o que se exige, não tudo o que a pessoa pode aprender."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "G05",
       "titulo": "Identidade e mudança de registro",
       "familia": "G",
@@ -1823,26 +1823,355 @@
       "leitura": "Uma mudança de fala não explica, por si, identidade ou diagnóstico."
     },
     {
-      "versao": "5.1",
+      "versao": "5.2",
       "codigo": "G06",
       "titulo": "Orientação sem conflito ativo",
       "familia": "G",
       "campos": {
-        "Separe": "Objetivo dominante, obstáculo externo, custo e eventual segundo valor interno.",
-        "Em cena": "Uma pessoa pode manter o objetivo e responder ao custo sem hesitar por outro valor; varie tática, informação e relação.",
-        "Use": "N é opcional. Declare ausente ou desconhecido quando não houver dois lados demonstrados. Isso continua X na comparação histórica de seis camadas."
+        "Separe": "Objetivo, obstáculo e custo não são automaticamente valores concorrentes. Nomeie o que a pessoa quer preservar em cada lado de N.",
+        "Em cena": "Apresente uma escolha em que os dois valores importem à pessoa; mostre uma tentativa e deixe a consequência em aberto.",
+        "Use": "G06 ajuda a interpretar ou trocar N, não a omiti-lo na criação 5.2. Se o recorte não sustenta dois valores, reveja a carta ou proponha outra situação; não force culpa ou redenção."
       },
       "modulo": "guia_contexto",
-      "leitura": "Um objetivo firme também produz um personagem vivo; conflito interno é opcional."
+      "leitura": "Nem toda dificuldade é conflito interno. Na criação 5.2, encontre dois valores genuínos e uma escolha que os coloque em disputa."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "OR01",
+      "titulo": "Uma ausência ficou",
+      "familia": "OR",
+      "campos": {
+        "Pergunte": "O que se perdeu e o que você conserva? Perda não significa culpa; diga se existe alguma responsabilidade demonstrada.",
+        "Mostre": "Mostre um costume, objeto ou escolha que ainda carrega essa presença.",
+        "Contraste": "Pode sustentar cuidado com quem ficou ou uma tentativa de governar a vida dos outros para impedir novas perdas."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Alguém ou algo deixou de fazer parte da sua vida. A ausência continua tendo um lugar, mesmo quando você segue adiante."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "OR02",
+      "titulo": "Eu deixei uma marca",
+      "familia": "OR",
+      "campos": {
+        "Pergunte": "O que você fez, que alternativa conhecia e quem sofreu ou ganhou com isso? Separe responsabilidade de remorso.",
+        "Mostre": "Apresente uma consequência que outra pessoa ainda enfrenta; ela pode discordar da sua explicação.",
+        "Contraste": "Pode gerar reparação concreta ou a defesa orgulhosa de um ato nocivo. Arrependimento não vem na carta."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Uma decisão sua mudou a vida de alguém. O que aconteceu continua existindo fora da versão que você conta."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "OR03",
+      "titulo": "Fui preparado para um papel",
+      "familia": "OR",
+      "campos": {
+        "Pergunte": "Quem ensinou esse papel, o que esperava e o que você incorporou, recusou ou ainda não decidiu?",
+        "Mostre": "Mostre uma habilidade aprendida e uma expectativa que reaparece.",
+        "Contraste": "Pode formar um sucessor dedicado, um dissidente ou alguém que impõe a outros o mesmo papel."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Antes de você escolher, alguém já dizia quem deveria ser. Parte do que aprendeu ainda serve; parte talvez já não caiba."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "OR04",
+      "titulo": "Alguém ficou ao meu lado",
+      "familia": "OR",
+      "campos": {
+        "Pergunte": "O que recebeu e que significado deu ao gesto? Não presuma dívida nem reciprocidade.",
+        "Mostre": "Mostre como recebe ajuda hoje: acolhe, desconfia, oferece a outra pessoa ou tenta comandar a relação.",
+        "Contraste": "Pode inspirar solidariedade ou transformar cuidado recebido em sentimento de superioridade e proteção possessiva."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Houve quem lhe oferecesse tempo, abrigo ou confiança quando isso fez diferença. Esse gesto não determina o que você deve fazer agora."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "OR05",
+      "titulo": "Saí quando esperavam que ficasse",
+      "familia": "OR",
+      "campos": {
+        "Pergunte": "Do que saiu, por qual motivo e quem interpretou sua partida de outro jeito?",
+        "Mostre": "Faça uma exigência antiga voltar por meio de uma pessoa com vontade própria.",
+        "Contraste": "Pode ser emancipação legítima ou abandono de responsabilidades; a carta não absolve nem condena por antecipação."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Você atravessou uma porta que outras pessoas julgavam fechada. Sua saída abriu algo e deixou consequências para trás."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "OR06",
+      "titulo": "Fiquei quando outros partiram",
+      "familia": "OR",
+      "campos": {
+        "Pergunte": "O que escolheu sustentar e quais alternativas realmente tinha? Não trate quem partiu como covarde por padrão.",
+        "Mostre": "Mostre algo que só existe porque você ficou, e alguém que deseja mudá-lo.",
+        "Contraste": "Pode sustentar uma comunidade ou virar justificativa para cobrar obediência de quem chegou depois."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Você continuou onde a vida de outros seguiu outro caminho. Permanecer preservou alguma coisa e também mudou você."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "OR07",
+      "titulo": "Meu esforço não bastou",
+      "familia": "OR",
+      "campos": {
+        "Pergunte": "Faltaram capacidade, recursos, informação, oportunidade ou controle? Não transforme resultado em medida de valor pessoal.",
+        "Mostre": "Apresente uma situação parecida e mostre o que faz diferente — ou insiste em repetir.",
+        "Contraste": "Pode ensinar prudência e colaboração ou produzir ressentimento e punição de pessoas usadas como culpadas."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Você tentou algo importante e não alcançou o resultado. O fracasso aconteceu; a explicação que lhe deu pode continuar em disputa."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "OR08",
+      "titulo": "O êxito cobrou um preço",
+      "familia": "OR",
+      "campos": {
+        "Pergunte": "Qual foi o ganho, quem arcou com o custo e o que você sabe disso hoje?",
+        "Mostre": "Ofereça uma nova vantagem que repita parte desse custo.",
+        "Contraste": "Pode gerar gratidão e responsabilidade ou a crença de que vencer justifica repetir qualquer método."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Você conseguiu o que buscava. Nem tudo que veio com a vitória tinha sido escolhido ou pago por você."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "OR09",
+      "titulo": "Conheci um mundo seguro",
+      "familia": "OR",
+      "campos": {
+        "Pergunte": "O que tornava esse cotidiano bom e o que você aprendeu com ele?",
+        "Mostre": "Mostre um hábito simples que tenta levar a outro ambiente.",
+        "Contraste": "Pode ampliar hospitalidade ou sustentar a exigência de que todos vivam sob uma única ideia de ordem e normalidade."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Você teve um lugar onde podia existir sem provar seu valor o tempo todo. Isso pode ser uma força real, sem tragédia escondida."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "OR10",
+      "titulo": "Aprendi duas formas de viver",
+      "familia": "OR",
+      "campos": {
+        "Pergunte": "Que práticas ou critérios entram em contraste, e onde você encontrou lugar entre eles?",
+        "Mostre": "Mostre uma decisão em que reconhece mais de uma resposta possível.",
+        "Contraste": "Pode formar uma ponte entre pessoas ou alguém que explora divisões para se tornar indispensável."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Você conheceu modos diferentes de habitar o mundo. Nenhum precisa virar caricatura para que a diferença importe."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "OR11",
+      "titulo": "O tempo mudou o que eu conhecia",
+      "familia": "OR",
+      "campos": {
+        "Pergunte": "O que passou, o que só entendeu depois e o que ainda pode viver agora?",
+        "Mostre": "Reencontre um lugar, costume ou pessoa sem exigir que permaneça como na lembrança.",
+        "Contraste": "Pode abrir atenção ao presente ou alimentar uma tentativa autoritária de congelar o mundo."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "O mundo seguiu enquanto você seguia também. Uma coisa que parecia duradoura mudou antes que percebesse seu valor."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "OR12",
+      "titulo": "Descobri algo que me prende à vida",
+      "familia": "OR",
+      "campos": {
+        "Pergunte": "O que despertou esse interesse e por que ainda importa? Ele não precisa ser um chamado heroico.",
+        "Mostre": "Mostre o prazer de fazer algo bem, mesmo sem público ou recompensa.",
+        "Contraste": "Pode sustentar dedicação generosa ou uma obsessão que trata outras pessoas como matéria da própria obra."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Uma prática, descoberta ou encontro fez o mundo ficar maior. Nem todo começo precisa vir de uma ferida."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "CV01",
+      "titulo": "Sem controle, tudo se perde",
+      "familia": "CV",
+      "campos": {
+        "Pergunte": "Em que situação essa regra parece necessária? O que faria diante de alguém capaz que não obedece?",
+        "Mostre": "Outra pessoa resolve um problema de um jeito que você não autorizou. Mostre sua resposta.",
+        "Contraste": "Pode orientar preparação responsável ou domínio coercitivo. Crenças factuais sobre controle podem ser confrontadas; a preferência por ordem é um valor."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Você procura segurança em poder antecipar e dirigir o que acontece. Resta saber quanto controle a situação permite e quem fica sem escolha."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "CV02",
+      "titulo": "Meu valor precisa ser conquistado",
+      "familia": "CV",
+      "campos": {
+        "Pergunte": "O que contaria como suficiente, quem definiu esse critério e o que um fracasso significaria para você?",
+        "Mostre": "Alguém lhe oferece consideração antes da conquista. Diga o que faz com isso.",
+        "Contraste": "Pode mover dedicação ou uma busca de prestígio que humilha quem ameaça o reconhecimento."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Você mede parte de quem é por uma prova que ainda precisa passar. Talvez ninguém de fora tenha pedido essa prova."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "CV03",
+      "titulo": "Cuidar é estar presente",
+      "familia": "CV",
+      "campos": {
+        "Pergunte": "Por quem quer estar disponível e como percebe quando presença vira intromissão?",
+        "Mostre": "Um vínculo pede espaço quando você queria ajudar.",
+        "Contraste": "Pode produzir apoio atento ou vigilância possessiva. O valor do cuidado não prova que seu método ajuda."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Para você, cuidado precisa caber em tempo e gesto. Outra pessoa pode desejar um cuidado diferente do que oferece."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "CV04",
+      "titulo": "Não vou repetir aquele dano",
+      "familia": "CV",
+      "campos": {
+        "Pergunte": "Qual dano quer evitar e em que situação seria difícil sustentar esse limite?",
+        "Mostre": "Surge uma solução eficaz que repete parte do dano. Declare a escolha e quem assume seu custo.",
+        "Contraste": "Pode sustentar um limite ético ou uma prevenção extrema que faz inocentes pagar por um risco."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Há um tipo de consequência que você decidiu não produzir nem ajudar a repetir. Essa decisão precisa aparecer no meio que aceita usar."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "CV05",
+      "titulo": "Ninguém escolhe por mim",
+      "familia": "CV",
+      "campos": {
+        "Pergunte": "Que escolha reivindica e que escolhas alheias está disposto a respeitar?",
+        "Mostre": "Alguém apresenta uma obrigação, uma previsão ou um conselho como se já fosse sua decisão.",
+        "Contraste": "Pode sustentar emancipação ou a exigência de liberdade apenas para si."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Você quer reconhecer a própria mão nas decisões da sua vida. Isso não torna a vontade dos outros uma extensão da sua."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "CV06",
+      "titulo": "Há algo a preservar em cada vida",
+      "familia": "CV",
+      "campos": {
+        "Pergunte": "Quem costuma ficar fora da sua atenção e o que preservar uma vida exige neste contexto?",
+        "Mostre": "Uma pessoa hostil fica dependente de uma decisão sua.",
+        "Contraste": "Pode sustentar compaixão ou ser usado para justificar aprisionamento e tutela contra a vontade de alguém. Não implica pacifismo automático."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Você reconhece valor numa existência para além da utilidade que ela tem agora. O alcance desse valor se revela nas decisões difíceis."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "CV07",
+      "titulo": "É melhor saber do que viver enganado",
+      "familia": "CV",
+      "campos": {
+        "Pergunte": "A quem deve essa verdade, que acesso considera legítimo e o que faria diante de incerteza?",
+        "Mostre": "Uma informação útil também expõe alguém que não autorizou sua divulgação.",
+        "Contraste": "Pode sustentar investigação responsável ou uma cruzada que desconsidera privacidade e consequências."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Você atribui valor a compreender o que acontece, mesmo quando a descoberta pode tirar um consolo ou uma vantagem."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "CV08",
+      "titulo": "Depender de alguém me deixa à mercê",
+      "familia": "CV",
+      "campos": {
+        "Pergunte": "Que risco prevê e que experiência o faz acreditar nisso? É previsão factual, não verdade decretada pela carta.",
+        "Mostre": "Recebe ajuda que não consegue retribuir imediatamente. Mostre o que tenta manter sob seu controle.",
+        "Contraste": "Pode orientar cautela e limites ou isolamento, manipulação e desconfiança mesmo sem evidência suficiente."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Quando precisa de outra pessoa, você enxerga também a possibilidade de perder espaço, proteção ou saída."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "CV09",
+      "titulo": "A palavra vale mais que a vantagem",
+      "familia": "CV",
+      "campos": {
+        "Pergunte": "Que compromisso reconhece como seu e o que considera motivo legítimo para renegociá-lo?",
+        "Mostre": "Outra pessoa pede que reveja um acordo que a prejudica.",
+        "Contraste": "Pode sustentar confiabilidade ou fidelidade a uma ordem nociva. Não declara que cumprir sempre é a escolha correta."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "O compromisso que assumiu continua pesando quando aparece uma oportunidade melhor. Nem toda promessa foi livre, justa ou possível."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "CV10",
+      "titulo": "Viver também é deixar partir",
+      "familia": "CV",
+      "campos": {
+        "Pergunte": "O que pode soltar, o que ainda pode reparar e como distingue aceitação de abandono?",
+        "Mostre": "Uma oportunidade de conservar algo cobra impedir a vida de outra pessoa.",
+        "Contraste": "Pode sustentar despedida e renovação ou servir de desculpa para descartar pessoas e fugir de reparações possíveis."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Você tenta continuar sem exigir que tudo permaneça sob a mesma forma. Aceitar uma perda não apaga o que importou."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "CV11",
+      "titulo": "O fim dá sentido ao custo",
+      "familia": "CV",
+      "campos": {
+        "Pergunte": "Quem escolhe o objetivo, quem paga e quem pode recusar? Diga se existe um limite real; não invente um.",
+        "Mostre": "Alguém atingido pelo plano rejeita o sacrifício que você considera necessário.",
+        "Contraste": "Pode orientar um risco pessoal voluntário ou uma doutrina que transforma vidas alheias em recurso."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Você aceita pagar por um resultado que considera grande. A decisão muda quando o preço deixa de ser só seu."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "CV12",
+      "titulo": "O que termina também pode valer",
+      "familia": "CV",
+      "campos": {
+        "Pergunte": "O que vale viver mesmo sabendo que vai acabar, e por que isso importa agora?",
+        "Mostre": "Surge um encontro breve que não favorece seu projeto de longo prazo.",
+        "Contraste": "Pode sustentar atenção e coragem diante da finitude ou justificar gratificação que ignora compromissos e consequências."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Uma experiência não precisa durar para sempre para merecer seu tempo. Você ainda escolhe em que presença investir."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "G07",
+      "titulo": "Chamado e destino",
+      "familia": "G",
+      "campos": {
+        "Chamado": "1. Pedido de alguém\n2. Papel ou herança\n3. Risco concreto\n4. Encontro ou convite\n5. Presságio ou profecia\n6. Natureza, tempo ou finitude",
+        "Resposta": "1. Aceito\n2. Recuso\n3. Adio e investigo\n4. Negocio as condições\n5. Tento impedir o futuro\n6. Busco cumprir por outro caminho",
+        "Fato": "O que está confirmado no mundo?",
+        "Crença": "Quem interpreta ou prevê algo, e com qual evidência?",
+        "Escolha": "O que você decide e o que ainda pode escolher? Não sorteie um desfecho."
+      },
+      "modulo": "guia_contexto",
+      "leitura": "Algo põe uma possibilidade diante de você. Separe o que aconteceu, o sentido que atribui e a resposta que escolhe."
     }
   ],
   "familias_sorteaveis": [
+    "OR",
+    "CV",
     "D",
     "F",
-    "N",
-    "L",
     "V",
-    "P"
+    "L",
+    "P",
+    "N"
   ],
   "guias_nao_sorteaveis": [
     "U",
@@ -1851,12 +2180,33 @@
   "modulos": {
     "nucleo": 72,
     "expansao": 36,
-    "expansao_5": 18,
     "guia": 9,
-    "guia_contexto": 6
+    "expansao_5": 18,
+    "guia_contexto": 7,
+    "expansao_5_2": 24
   },
-  "modo_rapido": "D/F/V; L/P opcionais; N apenas com dois valores internos reais",
-  "preservacao": "Os 141 códigos, títulos e módulos de 5.0 permanecem; 5.1 acrescenta uma leitura individual a cada carta. A revisão editorial 5.1.1 corrige os campos de U08, D10 e D13 e as leituras de D10 e D13; os campos das outras 138 cartas são preservados. O arquivo 5.0 permanece congelado.",
-  "comparacao": "O método D/F/V, a opção L/P e o critério de dois valores reais para N permanecem. U/G continuam fora do sorteio de personalidade.",
-  "revisao_editorial": "5.1.1"
+  "modo_rapido": "Uma OR/CV/D/F/V/L/P/N e G07: oito interpretações mais chamado, resposta, fato, crença e escolha.",
+  "preservacao": "Os 141 códigos, títulos e módulos anteriores permanecem. Somente os guias U01/U02/U06/U08/G06 recebem orientação de criação 5.2. As edições 5.0 e 5.1 ficam preservadas em seus arquivos históricos.",
+  "comparacao": "5.2 exige oito famílias e Chamado e destino. OR não implica culpa; CV distingue fato, valor e regra; N exige dois valores genuínos, sem trauma ou redenção obrigatórios. Sorteio não garante coerência.",
+  "revisao_editorial": "5.2.0",
+  "criacao_completa": {
+    "familias": [
+      "OR",
+      "CV",
+      "D",
+      "F",
+      "V",
+      "L",
+      "P",
+      "N"
+    ],
+    "guia": "G07",
+    "journey": [
+      "call",
+      "response",
+      "fact",
+      "belief",
+      "choice"
+    ]
+  }
 }

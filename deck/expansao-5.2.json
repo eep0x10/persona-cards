@@ -1,0 +1,376 @@
+{
+  "versao": "5.2",
+  "revisao_editorial": "5.2.0",
+  "base": "persona-cards-5.1.json",
+  "nota": "OR/CV preservam integralmente o protótipo aprovado, incluindo CV04 corrigida. Criação completa exige as oito famílias e G07; os históricos não são reescritos.",
+  "cartas": [
+    {
+      "versao": "5.2",
+      "codigo": "OR01",
+      "titulo": "Uma ausência ficou",
+      "familia": "OR",
+      "campos": {
+        "Pergunte": "O que se perdeu e o que você conserva? Perda não significa culpa; diga se existe alguma responsabilidade demonstrada.",
+        "Mostre": "Mostre um costume, objeto ou escolha que ainda carrega essa presença.",
+        "Contraste": "Pode sustentar cuidado com quem ficou ou uma tentativa de governar a vida dos outros para impedir novas perdas."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Alguém ou algo deixou de fazer parte da sua vida. A ausência continua tendo um lugar, mesmo quando você segue adiante."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "OR02",
+      "titulo": "Eu deixei uma marca",
+      "familia": "OR",
+      "campos": {
+        "Pergunte": "O que você fez, que alternativa conhecia e quem sofreu ou ganhou com isso? Separe responsabilidade de remorso.",
+        "Mostre": "Apresente uma consequência que outra pessoa ainda enfrenta; ela pode discordar da sua explicação.",
+        "Contraste": "Pode gerar reparação concreta ou a defesa orgulhosa de um ato nocivo. Arrependimento não vem na carta."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Uma decisão sua mudou a vida de alguém. O que aconteceu continua existindo fora da versão que você conta."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "OR03",
+      "titulo": "Fui preparado para um papel",
+      "familia": "OR",
+      "campos": {
+        "Pergunte": "Quem ensinou esse papel, o que esperava e o que você incorporou, recusou ou ainda não decidiu?",
+        "Mostre": "Mostre uma habilidade aprendida e uma expectativa que reaparece.",
+        "Contraste": "Pode formar um sucessor dedicado, um dissidente ou alguém que impõe a outros o mesmo papel."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Antes de você escolher, alguém já dizia quem deveria ser. Parte do que aprendeu ainda serve; parte talvez já não caiba."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "OR04",
+      "titulo": "Alguém ficou ao meu lado",
+      "familia": "OR",
+      "campos": {
+        "Pergunte": "O que recebeu e que significado deu ao gesto? Não presuma dívida nem reciprocidade.",
+        "Mostre": "Mostre como recebe ajuda hoje: acolhe, desconfia, oferece a outra pessoa ou tenta comandar a relação.",
+        "Contraste": "Pode inspirar solidariedade ou transformar cuidado recebido em sentimento de superioridade e proteção possessiva."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Houve quem lhe oferecesse tempo, abrigo ou confiança quando isso fez diferença. Esse gesto não determina o que você deve fazer agora."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "OR05",
+      "titulo": "Saí quando esperavam que ficasse",
+      "familia": "OR",
+      "campos": {
+        "Pergunte": "Do que saiu, por qual motivo e quem interpretou sua partida de outro jeito?",
+        "Mostre": "Faça uma exigência antiga voltar por meio de uma pessoa com vontade própria.",
+        "Contraste": "Pode ser emancipação legítima ou abandono de responsabilidades; a carta não absolve nem condena por antecipação."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Você atravessou uma porta que outras pessoas julgavam fechada. Sua saída abriu algo e deixou consequências para trás."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "OR06",
+      "titulo": "Fiquei quando outros partiram",
+      "familia": "OR",
+      "campos": {
+        "Pergunte": "O que escolheu sustentar e quais alternativas realmente tinha? Não trate quem partiu como covarde por padrão.",
+        "Mostre": "Mostre algo que só existe porque você ficou, e alguém que deseja mudá-lo.",
+        "Contraste": "Pode sustentar uma comunidade ou virar justificativa para cobrar obediência de quem chegou depois."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Você continuou onde a vida de outros seguiu outro caminho. Permanecer preservou alguma coisa e também mudou você."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "OR07",
+      "titulo": "Meu esforço não bastou",
+      "familia": "OR",
+      "campos": {
+        "Pergunte": "Faltaram capacidade, recursos, informação, oportunidade ou controle? Não transforme resultado em medida de valor pessoal.",
+        "Mostre": "Apresente uma situação parecida e mostre o que faz diferente — ou insiste em repetir.",
+        "Contraste": "Pode ensinar prudência e colaboração ou produzir ressentimento e punição de pessoas usadas como culpadas."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Você tentou algo importante e não alcançou o resultado. O fracasso aconteceu; a explicação que lhe deu pode continuar em disputa."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "OR08",
+      "titulo": "O êxito cobrou um preço",
+      "familia": "OR",
+      "campos": {
+        "Pergunte": "Qual foi o ganho, quem arcou com o custo e o que você sabe disso hoje?",
+        "Mostre": "Ofereça uma nova vantagem que repita parte desse custo.",
+        "Contraste": "Pode gerar gratidão e responsabilidade ou a crença de que vencer justifica repetir qualquer método."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Você conseguiu o que buscava. Nem tudo que veio com a vitória tinha sido escolhido ou pago por você."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "OR09",
+      "titulo": "Conheci um mundo seguro",
+      "familia": "OR",
+      "campos": {
+        "Pergunte": "O que tornava esse cotidiano bom e o que você aprendeu com ele?",
+        "Mostre": "Mostre um hábito simples que tenta levar a outro ambiente.",
+        "Contraste": "Pode ampliar hospitalidade ou sustentar a exigência de que todos vivam sob uma única ideia de ordem e normalidade."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Você teve um lugar onde podia existir sem provar seu valor o tempo todo. Isso pode ser uma força real, sem tragédia escondida."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "OR10",
+      "titulo": "Aprendi duas formas de viver",
+      "familia": "OR",
+      "campos": {
+        "Pergunte": "Que práticas ou critérios entram em contraste, e onde você encontrou lugar entre eles?",
+        "Mostre": "Mostre uma decisão em que reconhece mais de uma resposta possível.",
+        "Contraste": "Pode formar uma ponte entre pessoas ou alguém que explora divisões para se tornar indispensável."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Você conheceu modos diferentes de habitar o mundo. Nenhum precisa virar caricatura para que a diferença importe."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "OR11",
+      "titulo": "O tempo mudou o que eu conhecia",
+      "familia": "OR",
+      "campos": {
+        "Pergunte": "O que passou, o que só entendeu depois e o que ainda pode viver agora?",
+        "Mostre": "Reencontre um lugar, costume ou pessoa sem exigir que permaneça como na lembrança.",
+        "Contraste": "Pode abrir atenção ao presente ou alimentar uma tentativa autoritária de congelar o mundo."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "O mundo seguiu enquanto você seguia também. Uma coisa que parecia duradoura mudou antes que percebesse seu valor."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "OR12",
+      "titulo": "Descobri algo que me prende à vida",
+      "familia": "OR",
+      "campos": {
+        "Pergunte": "O que despertou esse interesse e por que ainda importa? Ele não precisa ser um chamado heroico.",
+        "Mostre": "Mostre o prazer de fazer algo bem, mesmo sem público ou recompensa.",
+        "Contraste": "Pode sustentar dedicação generosa ou uma obsessão que trata outras pessoas como matéria da própria obra."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Uma prática, descoberta ou encontro fez o mundo ficar maior. Nem todo começo precisa vir de uma ferida."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "CV01",
+      "titulo": "Sem controle, tudo se perde",
+      "familia": "CV",
+      "campos": {
+        "Pergunte": "Em que situação essa regra parece necessária? O que faria diante de alguém capaz que não obedece?",
+        "Mostre": "Outra pessoa resolve um problema de um jeito que você não autorizou. Mostre sua resposta.",
+        "Contraste": "Pode orientar preparação responsável ou domínio coercitivo. Crenças factuais sobre controle podem ser confrontadas; a preferência por ordem é um valor."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Você procura segurança em poder antecipar e dirigir o que acontece. Resta saber quanto controle a situação permite e quem fica sem escolha."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "CV02",
+      "titulo": "Meu valor precisa ser conquistado",
+      "familia": "CV",
+      "campos": {
+        "Pergunte": "O que contaria como suficiente, quem definiu esse critério e o que um fracasso significaria para você?",
+        "Mostre": "Alguém lhe oferece consideração antes da conquista. Diga o que faz com isso.",
+        "Contraste": "Pode mover dedicação ou uma busca de prestígio que humilha quem ameaça o reconhecimento."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Você mede parte de quem é por uma prova que ainda precisa passar. Talvez ninguém de fora tenha pedido essa prova."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "CV03",
+      "titulo": "Cuidar é estar presente",
+      "familia": "CV",
+      "campos": {
+        "Pergunte": "Por quem quer estar disponível e como percebe quando presença vira intromissão?",
+        "Mostre": "Um vínculo pede espaço quando você queria ajudar.",
+        "Contraste": "Pode produzir apoio atento ou vigilância possessiva. O valor do cuidado não prova que seu método ajuda."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Para você, cuidado precisa caber em tempo e gesto. Outra pessoa pode desejar um cuidado diferente do que oferece."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "CV04",
+      "titulo": "Não vou repetir aquele dano",
+      "familia": "CV",
+      "campos": {
+        "Pergunte": "Qual dano quer evitar e em que situação seria difícil sustentar esse limite?",
+        "Mostre": "Surge uma solução eficaz que repete parte do dano. Declare a escolha e quem assume seu custo.",
+        "Contraste": "Pode sustentar um limite ético ou uma prevenção extrema que faz inocentes pagar por um risco."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Há um tipo de consequência que você decidiu não produzir nem ajudar a repetir. Essa decisão precisa aparecer no meio que aceita usar."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "CV05",
+      "titulo": "Ninguém escolhe por mim",
+      "familia": "CV",
+      "campos": {
+        "Pergunte": "Que escolha reivindica e que escolhas alheias está disposto a respeitar?",
+        "Mostre": "Alguém apresenta uma obrigação, uma previsão ou um conselho como se já fosse sua decisão.",
+        "Contraste": "Pode sustentar emancipação ou a exigência de liberdade apenas para si."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Você quer reconhecer a própria mão nas decisões da sua vida. Isso não torna a vontade dos outros uma extensão da sua."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "CV06",
+      "titulo": "Há algo a preservar em cada vida",
+      "familia": "CV",
+      "campos": {
+        "Pergunte": "Quem costuma ficar fora da sua atenção e o que preservar uma vida exige neste contexto?",
+        "Mostre": "Uma pessoa hostil fica dependente de uma decisão sua.",
+        "Contraste": "Pode sustentar compaixão ou ser usado para justificar aprisionamento e tutela contra a vontade de alguém. Não implica pacifismo automático."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Você reconhece valor numa existência para além da utilidade que ela tem agora. O alcance desse valor se revela nas decisões difíceis."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "CV07",
+      "titulo": "É melhor saber do que viver enganado",
+      "familia": "CV",
+      "campos": {
+        "Pergunte": "A quem deve essa verdade, que acesso considera legítimo e o que faria diante de incerteza?",
+        "Mostre": "Uma informação útil também expõe alguém que não autorizou sua divulgação.",
+        "Contraste": "Pode sustentar investigação responsável ou uma cruzada que desconsidera privacidade e consequências."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Você atribui valor a compreender o que acontece, mesmo quando a descoberta pode tirar um consolo ou uma vantagem."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "CV08",
+      "titulo": "Depender de alguém me deixa à mercê",
+      "familia": "CV",
+      "campos": {
+        "Pergunte": "Que risco prevê e que experiência o faz acreditar nisso? É previsão factual, não verdade decretada pela carta.",
+        "Mostre": "Recebe ajuda que não consegue retribuir imediatamente. Mostre o que tenta manter sob seu controle.",
+        "Contraste": "Pode orientar cautela e limites ou isolamento, manipulação e desconfiança mesmo sem evidência suficiente."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Quando precisa de outra pessoa, você enxerga também a possibilidade de perder espaço, proteção ou saída."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "CV09",
+      "titulo": "A palavra vale mais que a vantagem",
+      "familia": "CV",
+      "campos": {
+        "Pergunte": "Que compromisso reconhece como seu e o que considera motivo legítimo para renegociá-lo?",
+        "Mostre": "Outra pessoa pede que reveja um acordo que a prejudica.",
+        "Contraste": "Pode sustentar confiabilidade ou fidelidade a uma ordem nociva. Não declara que cumprir sempre é a escolha correta."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "O compromisso que assumiu continua pesando quando aparece uma oportunidade melhor. Nem toda promessa foi livre, justa ou possível."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "CV10",
+      "titulo": "Viver também é deixar partir",
+      "familia": "CV",
+      "campos": {
+        "Pergunte": "O que pode soltar, o que ainda pode reparar e como distingue aceitação de abandono?",
+        "Mostre": "Uma oportunidade de conservar algo cobra impedir a vida de outra pessoa.",
+        "Contraste": "Pode sustentar despedida e renovação ou servir de desculpa para descartar pessoas e fugir de reparações possíveis."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Você tenta continuar sem exigir que tudo permaneça sob a mesma forma. Aceitar uma perda não apaga o que importou."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "CV11",
+      "titulo": "O fim dá sentido ao custo",
+      "familia": "CV",
+      "campos": {
+        "Pergunte": "Quem escolhe o objetivo, quem paga e quem pode recusar? Diga se existe um limite real; não invente um.",
+        "Mostre": "Alguém atingido pelo plano rejeita o sacrifício que você considera necessário.",
+        "Contraste": "Pode orientar um risco pessoal voluntário ou uma doutrina que transforma vidas alheias em recurso."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Você aceita pagar por um resultado que considera grande. A decisão muda quando o preço deixa de ser só seu."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "CV12",
+      "titulo": "O que termina também pode valer",
+      "familia": "CV",
+      "campos": {
+        "Pergunte": "O que vale viver mesmo sabendo que vai acabar, e por que isso importa agora?",
+        "Mostre": "Surge um encontro breve que não favorece seu projeto de longo prazo.",
+        "Contraste": "Pode sustentar atenção e coragem diante da finitude ou justificar gratificação que ignora compromissos e consequências."
+      },
+      "modulo": "expansao_5_2",
+      "leitura": "Uma experiência não precisa durar para sempre para merecer seu tempo. Você ainda escolhe em que presença investir."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "G07",
+      "titulo": "Chamado e destino",
+      "familia": "G",
+      "campos": {
+        "Chamado": "1. Pedido de alguém\n2. Papel ou herança\n3. Risco concreto\n4. Encontro ou convite\n5. Presságio ou profecia\n6. Natureza, tempo ou finitude",
+        "Resposta": "1. Aceito\n2. Recuso\n3. Adio e investigo\n4. Negocio as condições\n5. Tento impedir o futuro\n6. Busco cumprir por outro caminho",
+        "Fato": "O que está confirmado no mundo?",
+        "Crença": "Quem interpreta ou prevê algo, e com qual evidência?",
+        "Escolha": "O que você decide e o que ainda pode escolher? Não sorteie um desfecho."
+      },
+      "modulo": "guia_contexto",
+      "leitura": "Algo põe uma possibilidade diante de você. Separe o que aconteceu, o sentido que atribui e a resposta que escolhe."
+    }
+  ],
+  "revisoes_guias": {
+    "U01": {
+      "leitura": "Comece pela combinação completa: origem, convicção, desejo, método, expressão, vínculo, pressão e dois valores em conflito; depois responda ao chamado.",
+      "campos": {
+        "Tire": "Uma carta OR, CV, D, F, V, L, P e N; consulte G07 para Chamado e destino.",
+        "Complete": "Interprete as oito cartas com nome, papel e situação. Separe a origem proposta dos fatos já estabelecidos.",
+        "Entre": "Mostre uma tentativa e a expressão; registre chamado, resposta, fato, crença e escolha. A reação dos outros continua aberta."
+      }
+    },
+    "U02": {
+      "leitura": "Todas as oito camadas e Chamado e destino fazem parte da criação 5.2. Conecte-as por escolhas e situações concretas.",
+      "campos": {
+        "Acrescente": "Preencha OR + CV + D + F + V + L + P + N e os cinco campos de G07; nenhuma dessas camadas é dispensada na criação 5.2.",
+        "Conecte": "Origem não implica culpa. Convicção distingue fato, valor e regra; N precisa de dois valores genuínos que a pessoa deseja preservar.",
+        "Prepare": "Se o sorteio contradiz o recorte, escolha outra carta ou revise a proposta. Uma combinação aleatória não garante coerência nem exige redenção."
+      }
+    },
+    "U06": {
+      "campos": {
+        "Combine": "P muda a circunstância; N apresenta dois valores genuínos que a pessoa quer preservar e que a escolha coloca em disputa.",
+        "Concretize": "Defina quem é afetado e quais poder, recurso ou risco pesam.",
+        "Abra": "Prepare consequências plausíveis; aceite soluções da mesa."
+      }
+    },
+    "U08": {
+      "leitura": "Varie as oito famílias entre personagens e identifique dois valores genuínos em cada N; não uniformize passado, culpa ou destino.",
+      "campos": {
+        "Distribua": "Núcleo 01–12; expansão 13–18; expansão 5.0 D19–24/F19–20/N19–22/L19–20/V19–22. P termina em P18. Expansão 5.2: OR01–12 e CV01–12.",
+        "Contraste": "Cada criação usa OR/CV/D/F/V/L/P/N e G07. Varie escolhas e respostas; sorteie sem reposição para reduzir repetições no elenco.",
+        "Confira": "N pede dois valores reais em disputa, não só adversidade. A obrigação da camada não autoriza inventar trauma, culpa ou redenção."
+      }
+    },
+    "G06": {
+      "leitura": "Nem toda dificuldade é conflito interno. Na criação 5.2, encontre dois valores genuínos e uma escolha que os coloque em disputa.",
+      "campos": {
+        "Separe": "Objetivo, obstáculo e custo não são automaticamente valores concorrentes. Nomeie o que a pessoa quer preservar em cada lado de N.",
+        "Em cena": "Apresente uma escolha em que os dois valores importem à pessoa; mostre uma tentativa e deixe a consequência em aberto.",
+        "Use": "G06 ajuda a interpretar ou trocar N, não a omiti-lo na criação 5.2. Se o recorte não sustenta dois valores, reveja a carta ou proponha outra situação; não force culpa ou redenção."
+      }
+    }
+  }
+}

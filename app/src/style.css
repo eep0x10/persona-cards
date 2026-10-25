@@ -1546,3 +1546,70 @@ main[hidden] { display:none; }
 .inspiration-real-card[data-family=N] { --card-accent:#715783; }
 .inspiration-real-card-rule { color:var(--card-accent,#ac4c32); border-top-color:var(--card-accent,#ac4c32); border-bottom-color:var(--card-accent,#ac4c32); }
 .inspiration-real-card-footer { border-top-color:var(--card-accent,#ac4c32); }
+/* 5.2: eight readable steps remain a horizontal navigation, never tiny labels. */
+.family-navigation { position:relative; flex-wrap:nowrap; justify-content:flex-start; overflow-x:auto; overflow-y:hidden; max-width:100%; gap:12px; padding:3px 2px 9px; scrollbar-width:thin; scrollbar-color:#9aaf87 #163a2e; }
+.family-navigation>button:not(.add-step) { flex:0 0 auto; min-width:129px; white-space:nowrap; font-size:16px; gap:9px; padding:2px 8px 12px; }
+.family-navigation .step-number { width:29px; height:29px; font-size:16px; }
+.combination-tray { display:grid; grid-template-columns:minmax(0,1fr) 210px; gap:15px 22px; }
+.combination-tray h1 { grid-column:1/-1; }
+.tray-cards { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:10px; }
+.tray-slot { min-height:77px; }
+.save-button { min-width:0; min-height:48px; align-self:stretch; }
+.composition-requirement { font-size:11px; line-height:1.7; text-align:center; color:#c1d0b4; margin:13px 0 0; }
+.active-card[data-family=OR],.neighbor[data-family=OR] { --family-accent:#55705A; }
+.active-card[data-family=CV],.neighbor[data-family=CV] { --family-accent:#9A573F; }
+.active-card[data-family=OR] .card-rule,.neighbor[data-family=OR] .card-rule,.active-card[data-family=CV] .card-rule,.neighbor[data-family=CV] .card-rule { color:var(--family-accent); border-color:var(--family-accent); }
+.journey-section { border-top:1px solid #b9bfa7; margin-top:28px; padding-top:25px; }
+.journey-section>h2 { margin:9px 0 15px; }
+.journey-choice-group { border:0; padding:0; margin:23px 0; min-width:0; }
+.journey-choice-group legend { font:700 14px/1.5 Arial,sans-serif; color:var(--ink); margin-bottom:12px; }
+.journey-choice-group legend>span { font-size:10px; font-weight:400; color:#757d65; margin-left:7px; }
+.journey-choice-group:focus-visible { outline:2px solid #a87347; outline-offset:5px; }
+.journey-choices { display:grid; grid-template-columns:1fr 1fr; gap:9px; }
+.journey-choice { display:flex; align-items:flex-start; gap:9px; min-height:71px; border:1px solid #bdc3a8; border-radius:6px; padding:11px; background:#f9f3e6; color:var(--ink); text-align:left; }
+.journey-choice>span { display:grid; place-items:center; flex:0 0 21px; height:21px; border:1px solid #afba9d; border-radius:50%; font:12px Georgia,serif; }
+.journey-choice strong { font:400 12px/1.6 Arial,sans-serif; }
+.journey-choice>b { margin-left:auto; color:#315b3d; font-size:12px; }
+.journey-choice[aria-pressed=true] { border:2px solid #477252; background:#e1e9d2; padding:10px; }
+.journey-retained { font-size:12px; line-height:1.6; color:#58654b; }
+.journey-written>p { color:#667358; font-size:12px; line-height:1.7; margin:0 0 10px; }
+.finished-journey { padding:24px 0; border-bottom:1px solid #c5bda5; }
+.finished-journey h3 { font:24px/1.3 Georgia,serif; margin:8px 0 18px; }
+.finished-journey dl { display:grid; grid-template-columns:1fr 1fr; gap:17px 25px; margin:0; }
+.finished-journey dt { font-size:10px; font-weight:700; color:#9d4d33; text-transform:uppercase; letter-spacing:.5px; margin:0 0 6px; }
+.finished-journey dd { font-size:14px; line-height:1.75; color:#344d3c; margin:0; white-space:pre-wrap; overflow-wrap:anywhere; }
+.inspiration-history-note { margin:13px 0 0; color:#caD5bf; font-size:12px; line-height:1.7; }
+.inspiration-detail-history { border:1px solid #babc9e; background:#e5e2ca; color:#65704f; padding:9px 11px; font-size:11px; line-height:1.6; border-radius:5px; margin:0 0 18px; }
+.inspiration-real-card[data-family=OR] { --card-accent:#55705A; }
+.inspiration-real-card[data-family=CV] { --card-accent:#9A573F; }
+@media(max-width:800px) { .combination-tray { grid-template-columns:1fr; }.save-button { width:100%; }.tray-cards { width:100%; } }
+@media(max-width:600px) {
+ .family-navigation { gap:8px; margin-top:19px; }
+ .family-navigation>button:not(.add-step) { flex:0 0 auto; min-width:136px; font-size:14px; gap:8px; padding:3px 7px 12px; min-height:44px; }
+ .family-navigation .step-number { width:27px; height:27px; font-size:14px; }
+ .tray-cards { grid-template-columns:1fr 1fr; gap:8px; }
+ .tray-slot { min-height:67px; }
+ .tray-slot strong { font-size:12px; }
+ .tray-slot.filled { grid-template-columns:35px 1fr; gap:5px; }
+ .tray-slot.filled .card-art { width:35px; }
+ .composition-requirement { font-size:11px; margin-top:11px; }
+ .journey-choices { grid-template-columns:1fr; }
+ .journey-choice { min-height:58px; padding:12px; }
+ .journey-choice[aria-pressed=true] { padding:11px; }
+ .journey-choice strong { font-size:14px; }
+ .journey-choice-group legend { font-size:15px; }
+ .journey-written>p { font-size:12px; }
+ .finished-journey dl { grid-template-columns:1fr; gap:19px; }
+ .finished-journey h3 { font-size:23px; }
+ .inspiration-history-note { font-size:11px; }
+}
+.finished-journey-heading { display:flex; align-items:center; gap:20px; margin-bottom:17px; }
+.finished-journey-heading>div { flex:1; min-width:0; }
+.finished-journey-heading h3 { margin-bottom:0; }
+.finished-journey-heading>.card-art { width:86px; }
+@media(max-width:600px) { .finished-journey-heading { gap:12px; }.finished-journey-heading>.card-art { width:65px; }.finished-journey-heading h3 { font-size:22px; } }
+/* Keep the review action the same size while the eight-slot collection grows. */
+.combination-tray .save-button { align-self:center; }
+.grid-card[data-family=OR] .grid-card-code { color:#55705A; border-top-color:#55705A; }
+.grid-card[data-family=CV] .grid-card-code { color:#9A573F; border-top-color:#9A573F; }
+.journey-retained { overflow-wrap:anywhere; white-space:pre-wrap; }

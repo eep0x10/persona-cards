@@ -16,8 +16,10 @@ DECK=json.loads(DECK_PATH.read_text(encoding='utf-8'))
 BY_CODE={c['codigo']:c for c in DECK['cartas']}
 INSPIRATIONS=json.loads((HERE/'public/inspirations.json').read_text(encoding='utf-8'))
 INSPIRATIONS_BY_ID={c['id']:c for c in INSPIRATIONS['characters']}
-Family=Literal['D','F','N','L','V','P']
-Module=Literal['nucleo','expansao','expansao_5']
+FAMILIES=['OR','CV','D','F','V','L','P','N']
+Family=Literal['OR','CV','D','F','N','L','V','P']
+Module=Literal['nucleo','expansao','expansao_5','expansao_5_2']
+Version=Literal['5.0','5.1','5.2']
 Medium=Literal['Anime','Cinema','Animação','Quadrinhos','Séries','Jogos']
 Archetype=Literal['Herói','Vilão','Ambíguo','Coadjuvante']
 
@@ -65,9 +67,9 @@ class Card(BaseModel):
     codigo:str
     titulo:str
     leitura:str
-    familia:Literal['D','F','N','L','V','P','U','G']
+    familia:Literal['OR','CV','D','F','N','L','V','P','U','G']
     campos:dict[str,str]
-    modulo:Literal['nucleo','expansao','expansao_5','guia','guia_contexto']
+    modulo:Literal['nucleo','expansao','expansao_5','expansao_5_2','guia','guia_contexto']
 
 class Deck(BaseModel):
     model_config=ConfigDict(extra='allow')
@@ -78,24 +80,41 @@ class Deck(BaseModel):
 
 class DrawRequest(BaseModel):
     model_config=ConfigDict(extra='forbid')
-    families:list[Family]=Field(default_factory=lambda:['D','F','V'],min_length=1,max_length=6)
-    modules:list[Module]=Field(default_factory=lambda:['nucleo','expansao','expansao_5'],min_length=1,max_length=3)
-    excluded_codes:list[str]=Field(default_factory=list,max_length=126)
+    families:list[Family]=Field(default_factory=lambda:list(FAMILIES),min_length=1,max_length=8)
+    modules:list[Module]=Field(default_factory=lambda:['nucleo','expansao','expansao_5','expansao_5_2'],min_length=1,max_length=4)
+    excluded_codes:list[str]=Field(default_factory=list,max_length=150)
 
 class DrawResponse(BaseModel):
-    version:Literal['5.1']='5.1'
+    version:Literal['5.2']='5.2'
     cards:list[Card]
+
+class Journey(BaseModel):
+    model_config=ConfigDict(extra='forbid')
+    call:str=Field(default='',max_length=20000)
+    response:str=Field(default='',max_length=20000)
+    fact:str=Field(default='',max_length=20000)
+    belief:str=Field(default='',max_length=20000)
+    choice:str=Field(default='',max_length=20000)
 
 class ComposeRequest(BaseModel):
     model_config=ConfigDict(extra='forbid')
-    nome:str=Field(default='Sem nome',max_length=120)
+    nome:str=Field(default='',max_length=120)
     papel:str=Field(default='',max_length=300)
     contexto:str=Field(default='',max_length=4000)
-    codes:list[str]=Field(min_length=3,max_length=6)
-    guide_codes:list[str]=Field(default_factory=list,max_length=15)
+    version:Version='5.2'
+    finalized:bool=True
+    codes:list[str]=Field(min_length=0,max_length=8)
+    guide_codes:list[str]=Field(default_factory=list,max_length=16)
+    journey:Journey=Field(default_factory=Journey)
+    fields:dict[Family,str]=Field(default_factory=dict)
 
 class Character(BaseModel):
-    version:Literal['5.1']='5.1'
+    version:Literal['5.2']='5.2'
+    source_version:Version
+    finalized:bool
+    enabled:list[Family]
+    journey:Journey
+    fields:dict[Family,str]
     nome:str
     papel:str
     contexto:str
@@ -151,8 +170,8 @@ def get_inspiration(inspiration_id:str):
 
 @app.get('/api/cards',response_model=list[Card],tags=['Cartas'])
 def list_cards(q:str=Query(default='',max_length=300),
-               family:Literal['D','F','N','L','V','P','U','G']|None=None,
-               module:Literal['nucleo','expansao','expansao_5','guia','guia_contexto']|None=None):
+               family:Literal['OR','CV','D','F','N','L','V','P','U','G']|None=None,
+               module:Literal['nucleo','expansao','expansao_5','expansao_5_2','guia','guia_contexto']|None=None):
     query=normalize(q)
     return [c for c in DECK['cartas']
             if (not family or c['familia']==family) and (not module or c['modulo']==module)
@@ -177,30 +196,49 @@ def draw(request:DrawRequest):
     return {'version':DECK['versao'],'cards':drawn}
 
 @app.post('/api/characters/compose',response_model=Character,tags=['Criação'],
-          responses={400:{'description':'Códigos inválidos, família repetida, guia como personalidade ou ausência de D/F/V'}})
+          responses={400:{'description':'Códigos inválidos, família repetida ou criação 5.2 incompleta'}})
 def compose(request:ComposeRequest):
     selected=known(request.codes);guides=known(request.guide_codes)
     families=[c['familia'] for c in selected]
-    if any(f not in 'DFNLVP' for f in families):raise HTTPException(400,'U/G são consulta, não camadas da personalidade')
+    if any(f not in FAMILIES for f in families):raise HTTPException(400,'U/G são consulta, não camadas da personalidade')
     if len(set(families))!=len(families):raise HTTPException(400,'Use uma carta por família')
-    if not set('DFV').issubset(families):raise HTTPException(400,'A ficha rápida precisa de D, F e V')
+    is_final=request.version=='5.2' and request.finalized
+    if is_final and not request.nome.strip():
+        raise HTTPException(400,'Dê um nome ao personagem antes de finalizar.')
+    if is_final and set(families)!=set(FAMILIES):
+        raise HTTPException(400,'A criação 5.2 exige uma carta OR, CV, D, F, V, L, P e N.')
+    if is_final and any(not value.strip() for value in request.journey.model_dump().values()):
+        raise HTTPException(400,'Complete chamado, resposta, fato, crença e escolha de G07.')
+    if is_final and any(not request.fields.get(card['familia'],'').strip() or
+                        request.fields[card['familia']].strip()==next(iter(card['campos'].values())).strip()
+                        for card in selected):
+        raise HTTPException(400,'Interprete cada uma das oito cartas; os prompts não são respostas preenchidas.')
+    if any(len(value)>20000 for value in request.fields.values()):
+        raise HTTPException(400,'Cada interpretação deve ter até 20000 caracteres.')
     if any(g['familia'] not in ('U','G') for g in guides):raise HTTPException(400,'Consulta aceita apenas U/G')
     if len(set(request.guide_codes))!=len(guides):raise HTTPException(400,'Não repita guias')
-    labels={'D':'Objetivo','F':'Método','V':'Expressão','L':'Vínculo','P':'Pressão','N':'Conflito interno'}
-    selected.sort(key=lambda c:'DFVLPN'.index(c['familia']))
-    layers={labels[c['familia']]:next(iter(c['campos'].values())) for c in selected}
+    if is_final and 'G07' not in request.guide_codes:
+        guides.append(BY_CODE['G07'])
+    labels={'OR':'Origem','CV':'Convicção','D':'Objetivo','F':'Método','V':'Expressão','L':'Vínculo','P':'Pressão','N':'Conflito interno'}
+    selected.sort(key=lambda c:FAMILIES.index(c['familia']))
+    layers={labels[c['familia']]:request.fields.get(c['familia'],next(iter(c['campos'].values()))) for c in selected}
     name=request.nome.strip() or 'Sem nome'
-    md=[f'# {name}','',request.papel.strip(),request.contexto.strip(),'','Persona Cards 5.1 · prompts para completar, sem geração por IA.','']
+    md=[f'# {name}','',request.papel.strip(),request.contexto.strip(),'','Persona Cards 5.2 · prompts para completar, sem geração por IA.','']
     for c in selected:
         md += [f"## {labels[c['familia']]} — {c['codigo']} · {c['titulo']}"]
         md += [c['leitura'], '']
         md += [f'**{label}:** {text}' for label,text in c['campos'].items()]
         md.append('')
-    if 'N' not in families:md += ['Conflito interno não definido. Não inventar dois valores para preencher uma camada.','']
+    if not is_final:md += ['Rascunho: complete as oito famílias e G07 antes de finalizar. Nenhum passado ou valor ausente foi inventado.','']
+    md += ['## Chamado e destino']
+    for key,label in [('call','Chamado'),('response','Resposta'),('fact','Fato'),('belief','Crença'),('choice','Escolha')]:
+        md.append(f'**{label}:** {getattr(request.journey,key)}')
     if guides:
         md += ['## Guias de consulta']
         for g in guides:md.append(f"- {g['codigo']} · {g['titulo']}")
-    return {'version':DECK['versao'],'nome':name,'papel':request.papel,'contexto':request.contexto,
+    return {'version':DECK['versao'],'source_version':request.version,'finalized':is_final,
+            'enabled':list(FAMILIES),'journey':request.journey,'nome':name,'papel':request.papel,'contexto':request.contexto,
+            'fields':request.fields,
             'cards':selected,'guides':guides,'layers':layers,'markdown':'\n'.join(md)}
 
 @app.get('/{path:path}',include_in_schema=False)

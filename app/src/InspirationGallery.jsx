@@ -4,7 +4,7 @@ import activeDeck from '../public/deck.json';
 
 const normalize = value => String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 const EDITION = activeDeck.revisao_editorial || activeDeck.versao;
-const FAMILIES = {D:'Desejo',F:'Forma de agir',V:'Expressão',L:'Vínculo',P:'Pressão',N:'Conflito interno'};
+const FAMILIES = {OR:'Origem',CV:'Convicção',D:'Desejo',F:'Forma de agir',V:'Expressão',L:'Vínculo',P:'Pressão',N:'Conflito interno'};
 const compare = (left,right) => left.localeCompare(right,'pt-BR');
 const safeUrl = value => /^https?:\/\//i.test(value || '');
 
@@ -111,7 +111,7 @@ export default function InspirationGallery({dataset,lookup,Art,active,reduced,on
   };
 
   return <main ref={root} hidden={!active} className="inspiration-gallery">
-    <div className="experience-heading inspiration-heading"><div><span className="experience-eyebrow">CEM MANEIRAS DE COMEÇAR</span><h1 data-screen-heading tabIndex={-1}>Inspiração para a sua mesa.</h1><p>Personagens conhecidos, lidos pelas cartas. Explore sem alterar sua criação.</p></div><span className="inspiration-total">{entries.length}<span>inspirações</span></span></div>
+    <div className="experience-heading inspiration-heading"><div><span className="experience-eyebrow">CEM MANEIRAS DE COMEÇAR</span><h1 data-screen-heading tabIndex={-1}>Inspiração para a sua mesa.</h1><p>Leituras históricas 5.1, preservadas como inspiração parcial. Para finalizar na 5.2, complete as oito famílias e Chamado/Destino.</p></div><span className="inspiration-total">{entries.length}<span>inspirações</span></span></div>
     <div className="inspiration-controls">
       <label className="inspiration-search">Nome ou universo<input type="search" value={query} onChange={event=>setQuery(event.target.value)} placeholder="Busque um personagem ou uma obra…" autoComplete="off"/></label>
       <label>Mídia<select value={medium} onChange={event=>setMedium(event.target.value)}><option value="all">Todas as mídias</option>{media.map(value=><option key={value} value={value}>{value}</option>)}</select></label>
@@ -133,6 +133,7 @@ export default function InspirationGallery({dataset,lookup,Art,active,reduced,on
       <div className="inspiration-detail-paper">
         <div className="inspiration-detail-top"><span>{detail.medium} · {detail.archetype}</span><div className="inspiration-detail-top-actions"><button className="inspiration-detail-quick-use" onClick={useAsBase}>Usar como base</button><button className="inspiration-close" onClick={()=>setDetail(null)} aria-label="Fechar leitura do personagem">Fechar ×</button></div></div>
         <header className="inspiration-detail-heading"><span className="paper-eyebrow">{detail.franchise}</span><h2 id="inspiration-detail-title">{detail.name}</h2><p>{detail.excerpt}</p></header>
+        <p className="inspiration-detail-history">Leitura histórica 5.1 · este recorte é parcial para a edição 5.2. Os campos ausentes precisam ser criados por você, sem inventar fatos canônicos.</p>
         <section className="inspiration-deck-section" aria-label="Cartas selecionadas e suas explicações">
           <h3>As cartas desta leitura</h3>
           <p>Carta do baralho, motivo da escolha e aplicação na cena.</p>
@@ -143,7 +144,7 @@ export default function InspirationGallery({dataset,lookup,Art,active,reduced,on
         <section className="inspiration-audit"><h3>Como ler esta interpretação</h3>{detail.audit?.fit!==undefined&&<span className="inspiration-fit">Aderência ao recorte: {String(detail.audit.fit)}</span>}<p>{detail.audit?.note}</p></section>
         <section className="inspiration-sources"><h3>Fontes e referências</h3><ul>{detail.sources.map((source,index)=><li key={`${source.url}-${index}`}>{safeUrl(source.url)?<a href={source.url} target="_blank" rel="noreferrer">{source.label} ↗</a>:<span>{source.label}</span>}</li>)}</ul></section>
         <p className="inspiration-detail-disclaimer">{dataset.disclaimer}</p>
-        <div className="inspiration-use-bar"><p>Explorar não altera sua criação. Use como base para adaptar estas cartas.</p><button onClick={useAsBase}>Usar como base →</button></div>
+        <div className="inspiration-use-bar"><p>Use como base para adaptar este recorte. O novo rascunho terá as oito famílias e o guia para completar; as escolhas ausentes não serão inventadas.</p><button onClick={useAsBase}>Usar como base →</button></div>
       </div>
     </dialog>}
   </main>;

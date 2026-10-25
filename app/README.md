@@ -1,50 +1,59 @@
-# Persona Cards — mesa web
+# Persona Cards — mesa web 5.2
 
-Mesa local em português para explorar o deck **5.1** por cartas, sem formulário. As 141 cartas têm uma abertura para ler ao puxar e uma ilustração própria: 126 cartas de criação e 15 guias. O [README principal](../README.md) explica as três entregas do projeto e o método completo, com cinco personagens de exemplo.
+Esta é uma das três formas de usar o **baralho narrativo Persona Cards**. A edição 5.2 / revisão 5.2.0 tem 166 cartas: 150 de criação e 16 guias. Veja [como jogar e os cinco exemplos completos](../README.md) ou use o [PDF](../skills/persona-cards/print/README.md) e a [skill](../skills/persona-cards/SKILL.md).
 
 ## Abrir
 
-**Online:** [personcard.runictools.com](https://personcard.runictools.com/), sem instalar ou criar conta. Cada pessoa guarda suas combinações no próprio navegador.
+[Mesa online](https://personcard.runictools.com/), sem conta. Para executar localmente, instale Git, Python 3.12+ e Node.js 22 com npm. No Windows, execute `./iniciar.ps1` nesta pasta e abra **http://127.0.0.1:8766**. O serviço local escuta somente neste computador; o launcher reutiliza instalação, interface construída e serviço saudável.
 
-Endereço local: **http://127.0.0.1:8766**. Para iniciar novamente no Windows, execute `iniciar.ps1` desta pasta. O servidor funciona em segundo plano e só escuta neste computador. O script reutiliza a instalação e a interface já construída; quando necessárias, prepara as dependências antes de iniciar.
+Para instalação manual, script bloqueado ou Linux/macOS, veja o [início rápido](../docs/QUICKSTART.md). Após atualizar fontes, reconstrua a interface e reinicie a API. Ações normais de uso não exigem F5.
 
-## Usar
+## Mesa e revisão
 
-Comece pelas famílias Desejo, Forma de agir e Expressão. Alterne **Mesa / Grade** para ver a mão em leque ou comparar as cartas de uma família. Navegue pela mão com setas, gesto ou rolagem horizontal, vire a carta para consultar seus convites e use **Escolher esta carta** para levá-la à combinação. Explorar e virar não selecionam. Na Grade, tocar abre a carta na Mesa. As posições da combinação permitem voltar a uma escolha sem preencher ficha ou questionário.
+A criação completa usa **OR → CV → D → F → V → L → P → N**, todas obrigatórias, e o guia **G07 — Chamado e destino**. Não há etapas opcionais acrescentadas por +. Mesa/Grade, setas, gesto ou rolagem horizontal permitem explorar; virar e inspecionar não selecionam. Use **Escolher esta carta** para preencher uma etapa. U/G permanecem consulta, fora do sorteio de personalidade.
 
-O **+ após Expressão** acrescenta Vínculo, Pressão e Conflito interno como etapas 4–6, na ordem de escolha. Retirar uma camada guarda seu texto e carta para depois. Os guias U/G ficam separados em **Guias**.
+Em **Sortear · manter**, preserve escolhas com trava e ressorteie as outras. Uma seleção aleatória não garante coerência: interprete as cartas e troque o que contrariar os fatos. N precisa de dois valores genuínos; adversidade isolada exige outra N, não sua omissão ou redenção obrigatória.
 
-**Salvar personagem** abre uma revisão com nome, informações pendentes, interpretações e foto opcional. **Finalizar** salva e apresenta a carta do personagem; ela pode ser editada, exportada em PNG ou usada como base de uma nova versão. Voltar da revisão conserva o rascunho. Textos de fichas antigas continuam preservados. O app não usa geração por IA.
+**Salvar personagem** abre a revisão com nome, oito interpretações e os cinco textos de G07: chamado, resposta, fato, crença e escolha. Formulários ficam nessa etapa; foto, papel, contexto e notas são livres. Finalizar guarda e apresenta a carta do personagem; reabra, edite ou crie outra versão, preservando o salvo anterior. Exporte JSON para backup completo, além de PNG/Markdown para leitura.
 
-Anime.js anima navegação, virada, Grade, colocação e finalização; scopes são limpos ao interromper ou sair. Movimento completo é o padrão, preservando uma escolha explícita por reduzido. O rodapé permite reduzir ou seguir o sistema.
+Anime.js anima navegação, virada, Grade, colocação e finalização, com limpeza de scopes ao interromper/sair. O rodapé permite reduzir o movimento ou seguir o sistema; a preferência explícita permanece no navegador.
 
-Rascunhos e personagens são mantidos **neste navegador e neste endereço**. Exportar JSON/Markdown permite levar uma ficha para outro lugar; importar JSON validado cria uma nova ficha. Outro navegador ou outro endereço/porta tem armazenamento separado. O protótipo não tem contas, sincronização ou banco remoto.
+## Legados e armazenamento
 
-Fotos JPEG/PNG/WebP são lidas e reduzidas no navegador: entrada até 10 MiB, saída JPEG até 960 px e dataURL de até 350 mil caracteres. O JSON inclui a foto. Não existe upload ao servidor; o limite do armazenamento do navegador continua valendo, e uma falha gera aviso para exportar antes de fechar.
+Fichas 5.0/5.1 preservam nomes, textos, códigos, notas e retrato. Abrem como rascunhos pendentes 5.2, sem OR/CV, conflitos ou jornada inventados automaticamente. Complete as oito famílias e G07 antes de finalizar. Uma importação aceita não certifica completude narrativa.
+
+Tudo fica no navegador/origem (protocolo, endereço, porta), sem conta, banco remoto de fichas ou sincronização. Limpar dados do site pode apagar trabalho local; exporte JSON antes de atualizar ou trocar de navegador. Falhas de armazenamento geram aviso e o original é protegido por backup local verificado quando houver recuperação de dados inválidos.
+
+Fotos JPEG/PNG/WebP são processadas localmente: entrada até 10 MiB, saída JPEG até 960 px e dataURL de até 350 mil caracteres. JSON inclui o retrato. Não existe upload ao servidor; várias fotos podem atingir a cota do navegador.
 
 ## Inspiração
 
-A aba **Inspiração** reúne 100 personagens da cultura pop com cartas interpretadas para um recorte específico. Busque nome ou obra, filtre por mídia/papel e abra os detalhes. A lista mostra todas as camadas escolhidas; os detalhes apresentam as cartas ilustradas, a explicação de cada escolha e a aplicação na cena. **Usar como base** copia o exemplo para adaptar na sua criação; consultar não altera o rascunho. As fontes e a distinção entre obra e cena sugerida acompanham cada exemplo. Veja a [revisão editorial do sistema](../docs/REVISAO-100-PERSONAGENS.md).
+Os **100 personagens são leituras históricas parciais**, não 100 fichas completas no método de oito famílias. A galeria permite buscar, filtrar e conhecer o recorte, as cartas, justificativas e fontes. Prévia e detalhes mostram todas as camadas existentes no registro; não preenchem as ausentes.
 
-## API
+**Usar como base** cria um rascunho independente e pede confirmação quando há uma criação atual. Complete as pendências sem modificar retroativamente o exemplo ou uma ficha salva. Consultar não altera seu rascunho. Veja [a revisão histórica](../docs/REVISAO-100-PERSONAGENS.md).
 
-Documentação interativa em **http://127.0.0.1:8766/api/docs**, especificação em `/api/openapi.json`. Endpoints:
+## API e consulta por terminal
 
-- `GET /api/deck`: deck completo.
-- `GET /api/inspirations?q=...&medium=...&archetype=...`: coleção e filtros.
-- `GET /api/inspirations/{id}`: exemplo individual.
-- `GET /api/cards?q=...&family=...&module=...`: busca sem distinção de acento e filtros.
-- `GET /api/cards/{code}`: carta individual.
-- `POST /api/draw`: uma carta por família, módulos e exclusões explícitos. U/G não aceitos.
-- `POST /api/characters/compose`: ficha de prompts com D/F/V, outras famílias opcionais e guias separados.
-- `GET /api/health`: estado e versão.
+Swagger em **http://127.0.0.1:8766/api/docs**, OpenAPI em `/api/openapi.json`. [Contrato completo](../docs/API.md).
 
-A API é sem estado: compor uma ficha não a salva. Ela não lê os personagens privados do navegador. Como não há contas ou escrita persistente de fichas no servidor, não há credenciais a emitir. Swagger pode depender dos assets públicos de sua biblioteca. O modo online serve os mesmos arquivos por HTTPS; o modo local continua disponível.
+- `GET /api/health`: versão 5.2, 166 cartas.
+- `GET /api/deck`: deck e revisão 5.2.0.
+- `GET /api/cards` e `GET /api/cards/{code}`: busca e consulta.
+- `GET /api/inspirations` e `GET /api/inspirations/{id}`: catálogo histórico sem dados pessoais.
+- `POST /api/draw`: oito famílias por padrão; filtros parciais para ressorteio.
+- `POST /api/characters/compose`: oito códigos e jornada para composição completa; `finalized:false` permite rascunho. Versão explícita 5.0/5.1 preserva dados como rascunho 5.2 com `source_version`.
 
-## Desenvolvimento e conferência
+O serviço não lê localStorage nem persiste composições ou fotos. Não usa geração por IA. Swagger pode carregar assets externos da sua biblioteca.
 
-Frontend: React/Vite/Anime.js com dependências travadas em `package-lock.json`. `npm ci` e `npm run dev` abrem a interface de desenvolvimento e encaminham `/api` ao servidor local. `npm run build` atualiza a interface servida pelo endereço principal; recarregar após build.
+A skill oferece consulta Python padrão na raiz do repositório:
 
-Servidor: ambiente isolado `.venv`, versões em `requirements.lock.txt`. Início direto: `.venv/Scripts/python.exe -m uvicorn server:app --host 127.0.0.1 --port 8766`. Contratos: `.venv/Scripts/python.exe -m unittest test_api`.
+```sh
+python skills/persona-cards/scripts/cards.py get OR04 CV05 D03 F17 V09 L08 P04 N07 G07
+python skills/persona-cards/scripts/cards.py draw --seed 42
+```
 
-Conferência de entrega em ../docs/VALIDACAO.md.
+## Desenvolvimento e validação
+
+React/Vite/Anime.js usam `package-lock.json`. Execute `npm ci` e `npm run dev`; o proxy encaminha `/api` ao backend local. `npm run build` atualiza a interface estática.
+
+Com o ambiente virtual preparado: `.venv/Scripts/python.exe -m uvicorn server:app --host 127.0.0.1 --port 8766`. Testes e limites estão em [TESTING.md](../docs/TESTING.md); evidências por edição, em [VALIDACAO.md](../docs/VALIDACAO.md). Não herdar validação visual da edição anterior nem confundir protótipos autorais com teste de mesa.

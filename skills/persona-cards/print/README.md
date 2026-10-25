@@ -1,23 +1,36 @@
-# Impressão — Persona Cards 5.1 ilustrado
+# Impressão — Persona Cards 5.2 ilustrado
 
-## Edição ilustrada 5.1 — revisão 5.1.1
+## Edição 5.2 — revisão 5.2.0
 
-**Revisão editorial 5.1.1:** textos de U08, D10 e D13 atualizados. Os quatro PDFs exibem a revisão 5.1.1; nomes dos arquivos conservam 5.1 para estabilidade dos links.
+**166 cartas: 150 de criação e 16 guias.** O método usa OR/CV/D/F/V/L/P/N obrigatórias e o guia G07 — Chamado e destino. U/G são consulta, fora do sorteio de personalidade.
 
-Todas as **141 cartas** têm uma abertura para leitura ao puxar e **uma ilustração própria** relacionada à situação da carta. Os 24 spritesheets PNG transparentes ficam em [`assets/`](assets/), com a correspondência exata de código e célula no [manifesto de ilustrações](../../../deck/illustration_sheets_5_1.json). As cenas seguem uma linguagem folk de recortes e duas tintas, com composição aberta; o verso comum usa um ornamento botânico simétrico. As artes foram geradas para esta edição e revisadas na página impressa.
+![Primeira folha da edição 5.2](preview-frentes-5.2-ilustrado.png)
 
-![Primeira folha da edição ilustrada 5.1](preview-frentes-5.1-ilustrado.png)
+| Arquivo | Conteúdo |
+| --- | --- |
+| [Duplex ilustrado 5.2](Persona-Cards-5.2-Ilustrado-Duplex-A4.pdf) | 84 páginas / 42 folhas, frente e verso alternados |
+| [Somente frentes](Persona-Cards-5.2-Ilustrado-Frentes-A4.pdf) | 42 páginas |
+| [Somente versos](Persona-Cards-5.2-Ilustrado-Versos-A4.pdf) | 42 páginas espelhadas |
+| [Manual rápido](Persona-Cards-5.2-Ilustrado-Manual-Rapido.pdf) | 3 páginas: criação completa, G07 e impressão |
 
-As cartas medem **92 × 130 mm**, quatro por folha A4, com marcas de corte e 1 mm de sangria. O tamanho da ilustração se ajusta ao espaço de cada texto; nenhuma carta fica sem arte. O corpo operacional mínimo é 8,5 pt.
+Cartas de **92 × 130 mm**, quatro por A4. Use **retrato, tamanho real / 100%, virar na borda longa**. Teste o primeiro par consecutivo do duplex antes do lote. A última folha tem duas cartas e dois espaços vazios. Reinserção manual depende da impressora; não ajustar à página.
 
-- [Duplex ilustrado 5.1](Persona-Cards-5.1-Ilustrado-Duplex-A4.pdf): 72 páginas / 36 folhas.
-- [Frentes ilustradas](Persona-Cards-5.1-Ilustrado-Frentes-A4.pdf): 36 páginas.
-- [Versos espelhados](Persona-Cards-5.1-Ilustrado-Versos-A4.pdf): 36 páginas.
-- [Manual rápido](Persona-Cards-5.1-Ilustrado-Manual-Rapido.pdf): 2 páginas, com régua de 100 mm.
+A fonte textual é [o deck 5.2](../../../deck/persona-cards-5.2.json); a correspondência de códigos e arte está no [manifesto 5.2](../../../deck/illustration_sheets_5_2.json). As fontes e artes são versionadas separadamente. A dimensão da ilustração pode variar conforme o texto, sem alterar a proporção do asset.
 
-Selecione A4, retrato, **tamanho real / 100%**, impressão duplex **virando na borda longa**. Teste o primeiro par antes do lote. A última folha tem uma carta. A reinserção manual de papel depende da impressora. Conteúdo, encaixe e correspondência foram verificados digitalmente; impressão física e leitura em mesa ainda não foram testadas. Consulte [a verificação ilustrada 5.1](verificacao-impressao-5.1-ilustrado.json).
+O [relatório digital 5.2](verificacao-impressao-5.2-ilustrado.json) registra corpo operacional de pelo menos **8,5 pt** em todas as cartas. Somente G06/G07 usam arte de **56 pt** para acomodar o texto dos guias; as demais mantêm pelo menos **80 pt**. Essas medidas são do arquivo digital, não prova física de leitura.
 
-Para reconstruir e conferir a edição, execute `python deck/build_all_5_1.py` na raiz do repositório. O comando reúne produção do deck, referências, PDFs e verificação; `--help` lista os pré-requisitos. As etapas individuais continuam disponíveis: `build_5_1.py`, `build_5_1_docs.py`, `render_print_illustrated_5_1.py` e `verify_illustrated_print_5_1.py`, todas em `deck/`. Para renderizar é necessário `reportlab` e `pypdf`; a verificação também usa `Pillow`. As fontes Georgia e Arial são carregadas do Windows. A origem textual é [o deck 5.1](../../../deck/persona-cards-5.1.json); as cenas foram planejadas em [direções de arte](../../../deck/art-directions-5.1.json).
+Para regenerar fontes textuais, execute `python deck/build_5_2.py` e depois `python deck/build_5_2_docs.py`. Estes comandos não geram PDFs. A geração e verificação da impressão são uma etapa própria, com ReportLab, pypdf, Pillow e fontes de sistema indicadas pelo renderizador. Veja [testes e limites](../../../docs/TESTING.md) e [validações por edição](../../../docs/VALIDACAO.md).
+
+Conferência digital de texto, páginas e alinhamento no arquivo não comprova qualidade de corte, registro frente/verso ou leitura em mesa. Faça prova física antes de imprimir um lote. A criação de oito camadas também não é eficácia narrativa comprovada com jogadores.
+
+## Edição histórica 5.1 — revisão 5.1.1
+
+As 141 cartas anteriores permanecem disponíveis, com método e orientação históricos. Elas não são a edição completa de oito famílias 5.2.
+
+- [Duplex 5.1](Persona-Cards-5.1-Ilustrado-Duplex-A4.pdf): 72 páginas / 36 folhas.
+- [Frentes 5.1](Persona-Cards-5.1-Ilustrado-Frentes-A4.pdf) e [versos 5.1](Persona-Cards-5.1-Ilustrado-Versos-A4.pdf): 36 páginas cada.
+- [Manual 5.1](Persona-Cards-5.1-Ilustrado-Manual-Rapido.pdf): 2 páginas.
+- [Verificação histórica](verificacao-impressao-5.1-ilustrado.json).
 
 ## Edição original 5.0
 

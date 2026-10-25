@@ -1,36 +1,41 @@
-# Arquitetura
+# Arquitetura — Persona Cards 5.2
 
 [Projeto](../README.md) · [API](API.md) · [Privacidade](PRIVACY.md)
 
 ```mermaid
 flowchart TD
-  A[React / Vite / Anime.js] --> C[Deck JSON empacotado no build]
-  B[API FastAPI local] --> FONTE[app/public/deck.json]
-  A --> D[localStorage do navegador]
-  A --> E[Exportação JSON ou Markdown]
-  F[Skill e consulta Python] --> G[Referência própria do mesmo deck]
+  A[Baralho fonte 5.2] --> B[PDFs ilustrados]
+  A --> C[Skill e referências]
+  A --> D[React / Vite / Anime.js]
+  A --> E[API sem estado]
+  D --> F[Armazenamento do navegador]
+  D --> G[JSON / Markdown / PNG]
 ```
 
-`app/src/App.jsx` mantém os estados de mesa, revisão, carta final e biblioteca. A mesa é guiada por D/F/V e etapas opcionais L/P/N; o preenchimento de identidade e interpretação acontece somente ao salvar/revisar. O frontend usa React, Vite e Anime.js; instâncias de animação são limpas por scope/revert e há controle de movimento reduzido. O deck é importado no build, portanto as ações da interface não dependem da API. A API compatível continua carregando sua cópia do deck no início e serve o build em `app/dist/`; o Vite de desenvolvimento encaminha `/api` ao servidor local.
+## Baralho e fontes
 
-Rascunhos e fichas ficam em localStorage, chave `persona-cards-workbench-v1`. A API não os recebe nem consulta: composição produz prompts sem persistência. O sorteio do frontend acontece no cliente; o endpoint de sorteio oferece a mesma capacidade a consumidores da API.
+A identidade do produto é o jogo de cartas. O deck 5.2 tem 166 cartas: 150 de criação em OR/CV/D/F/V/L/P/N e 16 guias U/G. G07 acompanha a criação com chamado, resposta, fato, crença e escolha. Nenhuma família de criação é opcional; U/G permanecem fora do sorteio de personalidade.
 
-`model.js` concentra validação, combinação, importação e exportação; `motion.js` mantém as animações Anime.js com scopes e cancelamento. `persistence.js` recupera fichas válidas de dados parcialmente inválidos e exige backup exclusivo, com leitura de conferência, antes de substituir o original. Ajuda e Importar/exportar permitem baixar os originais recuperados. Se o navegador bloquear o armazenamento, a mesa funciona em memória com aviso; exportar é necessário para conservar a combinação.
+As três cópias ativas são `deck/persona-cards-5.2.json`, `app/public/deck.json` e `skills/persona-cards/references/deck.json`, idênticas em bytes. `versao: 5.2` identifica o contrato; `revisao_editorial: 5.2.0`, os textos atuais. Os arquivos 5.0/5.1 e seus manuais são históricos.
 
-`portrait.js` valida e reduz fotos raster localmente; o retrato e o estado opcional de finalização acompanham a ficha no JSON. Fichas 5.0/5.1 sem esses atributos continuam válidas e recebem defaults sem perder texto. A API não recebe fotos. O PNG da carta é produzido no navegador; o JSON é a cópia completa para importar depois.
+`deck/build_5_2.py` produz o deck. `deck/build_5_2_docs.py` consome o JSON 5.2 e gera manual 5.2, referência da skill, índice e texto para GPT; não escreve JSON, PDFs nem manual 5.1. A geração usa campos reais, incluindo as listas e registros de G07. Arte e impressão têm manifesto próprio da edição 5.2.
 
-Dados antigos de nome, papel, contexto, interpretação e notas continuam no esquema e nas exportações mesmo sem controles de edição na mesa. As ilustrações usam o manifesto do PDF e os atlas originais em `app/public/art/`; recortes CSS preservam a proporção sem editar os PNG. O navegador carrega as imagens das cartas renderizadas, em vez de antecipar toda a coleção.
+## Aplicação e persistência
 
-O deck ativo existe em três locais para uso independente: `deck/persona-cards-5.1.json`, `app/public/deck.json` e `skills/persona-cards/references/deck.json`. `deck/build_5_1.py` acrescenta as leituras à fonte 5.0 congelada e aplica o overlay explícito `deck/editorial-5.1.1.json` somente em U08, D10 e D13, gerando as três cópias byte a byte idênticas. `versao: 5.1` preserva o contrato de fichas; `revisao_editorial: 5.1.1` identifica os textos atuais. O deck e os PDFs 5.0 permanecem como histórico. `.gitattributes` preserva os bytes das cópias.
+O frontend mantém mesa, revisão, carta final, biblioteca e galeria. A mesa usa as oito famílias sem formulário de interpretação. Salvar/revisar abre nome, oito interpretações e `journey.call/response/fact/belief/choice`; foto, papel, contexto e notas são livres. A finalização verifica todas as camadas e a jornada. Anime.js usa scopes/revert e controle de movimento reduzido.
 
-A impressão ilustrada usa [24 spritesheets](../deck/illustration_sheets_5_1.json) com 141 células atribuídas a códigos únicos. `deck/render_print_illustrated_5_1.py` compõe a arte própria de cada carta com a leitura 5.1, ajusta o espaço da imagem ao texto e gera frentes, verso comum, duplex e manual A4. O manifesto torna a correspondência entre código, arquivo e célula verificável; `deck/verify_illustrated_print_5_1.py` confere cobertura, pixels visíveis, textos e paginação.
+O deck é empacotado no build; a API carrega sua cópia ao iniciar e serve `app/dist/`. Vite de desenvolvimento encaminha `/api` ao serviço local. Uma alteração de deck requer reconstruir a interface e reiniciar a API para publicar a mesma edição.
 
-`python deck/build_all_5_1.py` reúne os builders editoriais, o renderer final e o verificador, em processos sequenciais com falha imediata. `render_print_5_1.py` fornece somente utilitários de texto/cor/fontes; o renderer final define sua geometria explicitamente, sem substituir funções ou variáveis de outro módulo.
+`model.js` concentra importação, validação, finalização e exportação. `portrait.js` processa raster localmente; `exportPng.js` produz a carta visual. JSON é o backup completo; PNG/Markdown são formatos de leitura.
 
-A skill reúne o fluxo narrativo, manual, índice, exemplos e consulta Python padrão. Não chama um serviço de geração de texto. Assistentes interpretam o método; a oficina continua funcional sem IA conectada.
+Rascunhos ficam no navegador, na chave `persona-cards-workbench-v1`, separados por origem. `persistence.js` recupera registros válidos e exige backup exclusivo com leitura de conferência antes de substituir dados parcialmente inválidos. Falha de armazenamento mantém aviso e permite exportar o trabalho em memória.
+
+## Compatibilidade
+
+Fichas 5.0/5.1 preservam identidade, códigos, texto, foto e notas. A migração abre um rascunho pendente 5.2; não inventa OR/CV, valores N nem jornada. Aceitar o arquivo não significa que ele possa ser finalizado sem completar os novos campos. A API também distingue composição completa e rascunho explícito; veja o contrato em [API](API.md).
 
 ## Inspiração
 
-`app/public/inspirations.json` contém 100 exemplos editoriais separados do baralho. A galeria os importa no build e a API oferece consulta pública sem estado. Cada registro reúne identidade, obra, recorte, fontes e uma ficha compatível com o modelo existente. Inspecionar não altera persistência; usar como base cria um rascunho independente, sem modificar o exemplo ou uma ficha salva. Propostas de cartas do relatório não são códigos selecionáveis no deck 5.1.
+Os 100 registros de `app/public/inspirations.json` são leituras históricas parciais. Não foram convertidos em 100 criações completas de oito famílias. Copiar uma base cria um rascunho independente e conserva o original, sem preencher novos antecedentes.
 
-As explicações da coleção ficam em `entry.rationale`, separadas de `character.fields`: rationale explica a escolha editorial da carta; fields aplica a ideia à cena. Prévia e detalhes percorrem `character.enabled` para não omitir L/P/N. A face ilustrada lê código/arte/texto do mesmo deck usado pela mesa.
+`entry.rationale` explica as escolhas editoriais; `character.fields` interpreta cada carta na cena. A prévia/detalhes percorrem as camadas realmente presentes no exemplo, sem fingir que OR/CV/N ausentes existem. A consulta pública desses exemplos não dá acesso a fichas pessoais.

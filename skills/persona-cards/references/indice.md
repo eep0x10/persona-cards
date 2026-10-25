@@ -1,6 +1,36 @@
-# Índice oficial 5.1 — revisão editorial 5.1.1
+# Índice Persona Cards 5.2 — revisão 5.2.0
 
-Leitura individual, correções U08/D10/D13 e campos completos: [manual](deck.md).
+Oito famílias obrigatórias e G07: [manual e cartas](deck.md).
+
+## Origem — o que aconteceu antes
+
+- OR01 — Uma ausência ficou (expansao_5_2)
+- OR02 — Eu deixei uma marca (expansao_5_2)
+- OR03 — Fui preparado para um papel (expansao_5_2)
+- OR04 — Alguém ficou ao meu lado (expansao_5_2)
+- OR05 — Saí quando esperavam que ficasse (expansao_5_2)
+- OR06 — Fiquei quando outros partiram (expansao_5_2)
+- OR07 — Meu esforço não bastou (expansao_5_2)
+- OR08 — O êxito cobrou um preço (expansao_5_2)
+- OR09 — Conheci um mundo seguro (expansao_5_2)
+- OR10 — Aprendi duas formas de viver (expansao_5_2)
+- OR11 — O tempo mudou o que eu conhecia (expansao_5_2)
+- OR12 — Descobri algo que me prende à vida (expansao_5_2)
+
+## Convicção — como interpreta e orienta escolhas
+
+- CV01 — Sem controle, tudo se perde (expansao_5_2)
+- CV02 — Meu valor precisa ser conquistado (expansao_5_2)
+- CV03 — Cuidar é estar presente (expansao_5_2)
+- CV04 — Não vou repetir aquele dano (expansao_5_2)
+- CV05 — Ninguém escolhe por mim (expansao_5_2)
+- CV06 — Há algo a preservar em cada vida (expansao_5_2)
+- CV07 — É melhor saber do que viver enganado (expansao_5_2)
+- CV08 — Depender de alguém me deixa à mercê (expansao_5_2)
+- CV09 — A palavra vale mais que a vantagem (expansao_5_2)
+- CV10 — Viver também é deixar partir (expansao_5_2)
+- CV11 — O fim dá sentido ao custo (expansao_5_2)
+- CV12 — O que termina também pode valer (expansao_5_2)
 
 ## Desejo — o que quer agora
 
@@ -121,7 +151,7 @@ Leitura individual, correções U08/D10/D13 e campos completos: [manual](deck.md
 - P17 — Controle exigido (expansao)
 - P18 — O custo em mim (expansao)
 
-## Conflito interno — dois valores reais
+## Conflito interno — dois valores genuínos
 
 - N01 — Raízes / horizontes (nucleo)
 - N02 — Eficiência / dignidade (nucleo)
@@ -166,3 +196,4 @@ Leitura individual, correções U08/D10/D13 e campos completos: [manual](deck.md
 - G04 — Mandato e aprendizagem (guia_contexto)
 - G05 — Identidade e mudança de registro (guia_contexto)
 - G06 — Orientação sem conflito ativo (guia_contexto)
+- G07 — Chamado e destino (guia_contexto)

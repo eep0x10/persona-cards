@@ -1,28 +1,36 @@
-# Skill Persona Cards
+# Skill Persona Cards 5.2
 
-[Projeto](../README.md) · [Método e referências](../skills/persona-cards/SKILL.md)
+[Projeto](../README.md) · [Método canônico](../skills/persona-cards/SKILL.md)
 
-Copie `skills/persona-cards/` para o diretório de skills do assistente; no Codex, o caminho habitual é `~/.codex/skills/persona-cards/`. Inicie uma sessão que descubra essa pasta e invoque `$persona-cards`. A disponibilidade em outros clientes depende do suporte deles; a instalação não se propaga automaticamente entre chats.
+Copie a pasta inteira `skills/persona-cards/` para `~/.codex/skills/persona-cards/` e inicie uma conversa que reconheça a skill. `SKILL.md` fica diretamente dentro da pasta. Outros clientes dependem do próprio suporte; a instalação não se propaga entre conversas.
 
 ```text
-Use $persona-cards para aprofundar este NPC preservando os fatos da campanha.
-Mostre objetivo, método, expressão, vínculo e uma reação à recusa.
-Só inclua conflito interno se houver dois valores reais em disputa.
+Use $persona-cards 5.2 para aprofundar este NPC preservando os fatos da campanha.
+Escolha e interprete OR/CV/D/F/V/L/P/N e registre G07:
+chamado, resposta, fato, crença e escolha.
+N precisa de dois valores genuínos; troque a carta se representar só um obstáculo.
+Marque como proposta qualquer novo passado ou convicção não estabelecido.
 ```
 
-Para um GPT/chat sem skills, forneça [instruções e referência autocontidas](persona-cards-gpt.md). O arquivo contém método, cartas e exemplos; o script de consulta e o índice são opcionais do pacote.
+Sem suporte a skills, anexe ou cole as [instruções, cartas e exemplos autocontidos](persona-cards-gpt.md) na mesma conversa. Não é uma instalação para outras sessões.
 
-Consulta portátil na raiz, sem dependências externas:
+## Consulta Python
+
+Da raiz, sem dependências externas:
 
 ```sh
-python skills/persona-cards/scripts/cards.py get D19 F20 V22
-python skills/persona-cards/scripts/cards.py search vocacao
+python skills/persona-cards/scripts/cards.py get OR04 CV05 D03 F17 V09 L08 P04 N07 G07
+python skills/persona-cards/scripts/cards.py search conviccao
 python skills/persona-cards/scripts/cards.py draw --seed 42
-python skills/persona-cards/scripts/cards.py draw --families D F V L P --modules nucleo expansao expansao_5
+python skills/persona-cards/scripts/cards.py draw --families OR CV
 ```
 
-O padrão é D/F/V. Guias U/G são consultáveis, mas não sorteáveis. N é opcional; combinação aleatória precisa de interpretação e revisão. A skill não promete diagnóstico psicológico, qualidade universal nem compatibilidade mecânica com um sistema de RPG.
+O padrão sorteia oito famílias; uma consulta parcial ou ressorteio não dispensa as demais numa ficha finalizada. Guias U/G não são sorteados como personalidade. G07 é consultado em toda criação.
 
-## Impressão
+OR é antecedente; CV pode ser crença factual, valor ou regra prática. N sempre contém dois valores genuínos. Não confunda coerção com consentimento, custo com conflito interno nem firmeza com falta de profundidade. Uma disputa interna pode terminar sem conciliação ou redenção.
 
-A skill inclui [PDFs das 141 cartas e manual](../skills/persona-cards/print/README.md) na pasta `print/`, também incluída no ZIP de instalação.
+Fichas 5.0/5.1 e exemplos históricos preservam textos, mas não estão automaticamente completos em 5.2. Proponha as camadas faltantes explicitamente e deixe pendências enquanto não houver informação suficiente. O assistente não recebe autorização para reescrever fatos da campanha.
+
+## Impressão e prova
+
+O pacote inclui [166 cartas e manual 5.2](../skills/persona-cards/print/README.md). Validação de códigos e exemplos autorais não comprova facilidade com leitores ou jogadores; não prometa diagnóstico, tempo de criação ou qualidade universal.

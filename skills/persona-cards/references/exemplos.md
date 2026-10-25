@@ -1,37 +1,51 @@
-# Persona Cards 5.0 — oito aplicações em RPG
+# Exemplos completos — Persona Cards 5.2
 
-Exemplos originais para mostrar usos além do elenco de cinema. São exercícios autorais feitos depois da revisão, não uma nova amostra independente ou teste de mesa. Não entram nos 100 personagens ou nas 600 notas. Descrevem uma entrada e possibilidades; jogadores decidem suas respostas e ações.
+Oito famílias obrigatórias e os cinco registros de G07 em cada exemplo. Propostas de interpretação não mudam o cânone; jogadores decidem suas respostas.
 
-## 1. Liora, padeira da ponte
+## Cinco personagens criados com as cartas
 
-**D23 / F08 / N22 / L01 / V09 / P11.** Fazer pão dá sentido ao seu dia; ela oferece primeiro. Também quer estar presente na festa com a amiga, mas a encomenda cresce. Entra com uma pequena amostra e convida o grupo a provar. Se receber ajuda, pode terminar mais cedo; se não receber, decide que pedido recusar. Nenhum trauma é necessário para haver vida e profundidade.
+Os códigos são reais; **todas as origens, convicções, tensões e cenas acrescentadas abaixo são propostas autorais**, não acontecimentos ou conclusões canônicas sobre as obras. Luffy, Zuko e Batman servem a leituras específicas. Lina e Seris são originais da mesma campanha. Os exemplos não são teste de mesa.
 
-## 2. Varek, caçador de uma dívida de sangue
+### 1. Luffy — One Piece
 
-**D19 / F15 / N ausente / L13 / V04 / P18. Consulta G06.** Quer punir o comandante responsável pela morte de seu antigo grupo. Insiste apesar do próprio desgaste, mas não demonstra uma contenção concorrente. Pede informação sobre o alvo e mede a resposta. A mesa pode recusar, negociar ou expor outro responsável. O custo pode alterar tática sem produzir arrependimento automático.
+**OR04 · CV05 · D03 · F17 · V09 · L08 · P04 · N07 · guia G07**
 
-## 3. Nara, herdeira do farol
+Na cena proposta, um companheiro permaneceu ao seu lado numa derrota (**OR04**). Luffy interpreta o apoio como espaço para escolher, não como direito de mandar na vida alheia (**CV05**). Quer decidir a próxima ilha (**D03**), toma a frente da partida (**F17**) e convida com entusiasmo (**V09**). Nami tem uma rota segura e prioridades próprias (**L08**). Um tripulante escolhe ficar no porto (**P04**). Para este exemplo, estabelecemos dois valores genuínos: **liberdade de partir e compromisso aceito de acompanhá-lo até uma entrega** (**N07**). Isso é uma tensão proposta, não deduzida de cansaço ou risco.
 
-**D21 / F01 / N20 / L19 / V05 / P12.** Recebeu a obrigação de manter o farol aceso e também valoriza a vida de navegadora que deseja construir. O vínculo com o irmão envolve cuidado pelo papel familiar, não só uma promessa. Duas travessias dependem do mesmo combustível. Ela apresenta as condições com precisão e pergunta como repartir os recursos. Nenhuma escolha do grupo está predeterminada.
+**G07:** chamado — o companheiro pede ajuda; resposta — renegociar as condições; fato — a entrega ainda não aconteceu; crença — ser livre também permite assumir compromissos; escolha — combinar uma parada sem decidir por Nami. Se ela recusar, ele precisa ouvir, negociar ou procurar outra rota. Competência: liderar em ação; prazer: procurar uma refeição na próxima ilha.
 
-## 4. Ivo, escudeiro sem plateia
+### 2. Zuko — Avatar: A Lenda de Aang
 
-**D22 / F06 / N19 / L07 / V18 / P09.** Quer concluir uma travessia difícil para acreditar na própria capacidade, mesmo sem virar herói público. A aposta encontra motivos reais para continuar e para parar: teme fracassar, mas também valoriza conservar forças para outra tentativa. A mentora esclarece que desistir desta rota não determina seu valor. Ele admite o receio e pede companhia até o primeiro marco.
+**OR03 · CV07 · D15 · F15 · V04 · L07 · P05 · N03 · guia G07**
 
-## 5. Sela, cartógrafa das notas
+Propomos o papel recebido de herdeiro como antecedente (**OR03**) e o valor de conhecer a verdade como convicção (**CV07**). Zuko tenta reconhecer quem escolhe ser (**D15**), insiste além do desgaste (**F15**) e apresenta a conclusão antes da explicação (**V04**). Iroh oferece conselho, com vontade e critérios próprios (**L07**). Um documento confiável contradiz uma ordem (**P05**). A disputa é entre **dizer a verdade e preservar pertencimento familiar/nacional** (**N03**), ambos ainda importantes neste recorte proposto.
 
-**D06 / F19 / N13 / L03 / V20 / P15. Consulta G01/G02.** Precisa comparar dois mapas, usa registros para orientar a próxima tarefa e teme confiar no sócio. O cenário estabelece que conserva detalhes por pouco tempo; o grupo já conhece essa regra. Anote separadamente o que aconteceu, o que ela lembra e o que escreveu. Um mapa foi alterado, mas isso não faz toda nota falsa. Ela entrega uma pergunta por escrito e pede confirmação do conteúdo.
+**G07:** chamado — obrigação de um papel recebido; resposta — renegociar; fato — o documento contradiz a justificativa da ordem; crença — discordar não apaga tudo que valoriza em sua origem; escolha — recusar aquela parte e apresentar a prova. A resposta do pai, de Iroh ou do grupo permanece aberta. Competência: treino disciplinado; prazer proposto: preparar uma bebida durante uma pausa.
 
-## 6. Oru, guardião de mandato
+### 3. Batman — DC Comics
 
-**D21 / F18 / N ausente / L19 / V14 / P03. Consulta G04/G06.** Uma ordem atribui cuidado dos viajantes e proíbe abrir a comporta. O cenário define quais instruções pode interpretar e quem pode modificá-las; não se presume desejo autônomo. Quando uma pessoa presa pede passagem, ele explica a incompatibilidade e pergunta quem tem autoridade para rever a ordem. O cuidado programado não determina consentimento dos protegidos nem garante que a ordem seja justa.
+**OR01 · CV06 · D04 · F01 · V04 · L07 · P03 · N14 · guia G07**
 
-## 7. Mina, mensageira que sinaliza
+Nesta proposta, uma ausência continua presente em sua rotina (**OR01**) e preservar uma vida importa além de sua utilidade (**CV06**). Batman quer retirar moradores de um ataque (**D04**), prepara acessos e recursos (**F01**) e dá a instrução em poucas palavras (**V04**). Alfred orienta sem decidir tudo por ele (**L07**). Um protocolo fechou o abrigo previsto (**P03**). A tensão estabelecida é **conferir cada detalhe e permitir iniciativa real dos aliados** (**N14**); identidade dupla ou juramento, sozinhos, não provariam esse conflito.
 
-**D12 / F07 / N03 / L08 / V19 / P06.** Quer abrir uma rota entre duas comunidades e faz mediação numa língua de sinais que conhece. Defina quais pessoas compreendem, qual precisa de tradução e qual conteúdo foi comunicado; não invente sinais reais. Pode usar uma imagem poética de V21 numa ocasião íntima e seu repertório de V22 com colegas, escolhendo um registro por cena. Um silêncio não equivale a ausência de conversa.
+**G07:** chamado — ameaça que exige decisão; resposta — redirecionar o caminho; fato — o abrigo está fechado; crença — proteção não depende só de supervisão individual; escolha — confiar a Alfred outra saída enquanto investiga o ataque. Moradores podem contestar a rota. Competência: investigação; prazer proposto: restaurar um pequeno mecanismo fora da operação.
 
-## 8. Tessa, conselheira de duas histórias
+### Uma campanha: as comportas de Porto da Névoa
 
-**D24 / F14 / N21 / L20 / V16 / P05.** Tenta manter a imagem de dirigente competente. Valoriza conhecer e admitir a perda de uma colheita, mas também preza o amparo que sua promessa oferece à comunidade; os dois lados são explicitamente estabelecidos neste exemplo. Seu vínculo com o companheiro mistura afeto demonstrado e vontade de controlar como ele se pronuncia, sem eliminar a recusa dele. Uma prova confiável chega à reunião. Ela pode rever a narrativa, ocultar ou dividir a informação; o grupo decide como responder.
+A vazante revela um canal antigo. Bairros precisam da travessia; o conselho quer fechá-la após acidentes. Um mapa indica uma rota possível, mas **não comprova sua segurança atual**.
 
-Uma versão anterior de Tessa poderia querer apenas **D20 / F20**: abandonar o papel que se tornou insuportável e evitar a reunião. Isso é uma mudança registrada de objetivo e método, não um novo trauma obrigatório. Se uma relíquia a influenciar, use G03 para definir o que a influência realmente faz. Se alternar papéis, G05 delimita quem sabe o quê sem deduzir diagnóstico.
+### 4. Aliada: Lina Moura, barqueira e cartógrafa
+
+**OR12 · CV03 · D12 · F07 · V11 · L03 · P12 · N02 · guia G07**
+
+Descobrir o prazer de mapear correntezas deu lugar à sua vocação (**OR12**); ela aprendeu que cuidado precisa de presença e gesto (**CV03**). Quer reabrir uma travessia (**D12**), traduz pedidos de moradores e conselho (**F07**) e explica o teste passo a passo (**V11**). A sócia Dara quer reservar o barco para evacuação (**L03**). Inspeção e remédios prometidos precisam da mesma embarcação ao amanhecer (**P12**). Lina valoriza **usar bem o recurso escasso e dar voz a quem assumirá o risco** (**N02**), não apenas terminar rápido.
+
+**G07:** chamado — convite de moradores; resposta — renegociar; fato — há um único barco disponível; crença — a rota merece teste, não certeza antecipada; escolha — ouvir os afetados e pedir ajuda na medição. Dara e jogadores podem recusar. Competência: ler correntezas; prazer: consertar miniaturas de barco.
+
+### 5. Vilã: Seris Vale, conselheira das travessias
+
+**OR09 · CV01 · D10 · F14 · V16 · L15 · P05 · N14 · guia G07**
+
+Uma rotina organizada lhe ofereceu segurança (**OR09**); ela passou a crer que, sem controle, tudo se perde (**CV01**). Quer autoridade exclusiva sobre rotas e taxas (**D10**), oculta um mapa enquanto encena preocupação (**F14**) e cobra com cortesia calculada (**V16**). A guilda coopera enquanto lucra (**L15**). Surge um registro confiável da passagem antiga (**P05**). Para a nova cena, propomos que ela valorize **conferir cada detalhe e permitir iniciativa de administradores cuja capacidade considera necessária** (**N14**). A tensão envolve seu projeto de poder; não exige afeto escondido, remorso ou cura.
+
+**G07:** chamado — sinal interpretado como destino; resposta — redirecionar; fato — o canal existiu; crença — só seu comando evitará outra crise; escolha — tentar controlar a inspeção e testar se tolera a iniciativa da guilda. A prova não determina sua resposta nem comprova a segurança do canal. Competência: organizar estoques; prazer: restaurar encadernações. O grupo pode enfrentar o monopólio por prova, negociação, fiscalização ou combate.

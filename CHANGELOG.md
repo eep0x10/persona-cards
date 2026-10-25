@@ -1,5 +1,14 @@
 # Histórico
 
+## Edição 5.2 — revisão 5.2.0
+
+- 166 cartas: 150 de criação e 16 guias. OR/CV/D/F/V/L/P/N passam a ser obrigatórias em toda criação completa; G07 organiza chamado, resposta, fato, crença e escolha.
+- Doze cartas de Origem e doze de Convicção conectam antecedente, interpretação e ação. Não impõem trauma, culpa ou redenção. N requer dois valores genuínos; se não cabe, trocar ou ressorteiar a carta, sem omitir a família.
+- Mesa com oito etapas; salvar abre a revisão de oito interpretações e jornada. Foto e notas continuam livres. CLI sorteia oito famílias por padrão; API distingue composição completa de rascunho parcial.
+- Fichas 5.0/5.1 mantêm seus dados e abrem como rascunhos pendentes, sem novos passados inventados. A galeria de 100 inspirações continua histórica e parcial no método 5.2.
+- Fonte 5.2, três cópias JSON, gerador documental próprio, manual, referências e cinco exemplos nos READMEs acompanham a edição. Arquivos e manuais 5.0/5.1 permanecem históricos.
+- PDFs 5.2 têm nomes próprios, cartas de 92 × 130 mm, quatro por A4, 42 folhas e 84 páginas duplex. O manual rápido tem três páginas. Conferências digitais, publicação e eventuais provas físicas devem ser registradas separadamente em `docs/VALIDACAO.md`; esta nota não declara release público ou teste com jogadores.
+
 ## Revisão editorial — 5.1.1
 
 - U08 passa a distribuir também a expansão 5.0, com intervalos por família.

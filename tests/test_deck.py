@@ -37,12 +37,11 @@ APPROVED = {
 }
 
 class DeckContract(unittest.TestCase):
-    def test_frozen_history_and_equal_active_copies(self):
+    def test_frozen_50_and_51_history(self):
         old_raw = HISTORICAL_DECK.read_bytes()
         self.assertEqual(hashlib.sha256(old_raw).hexdigest(), 'eb97dcae9235f08008fcea79ee765d8735b1b5eff5453a6e9b8dd79e09dab7e5')
         raw = DECK.read_bytes()
-        for relative in ['app/public/deck.json', 'skills/persona-cards/references/deck.json']:
-            self.assertEqual(raw, (ROOT / relative).read_bytes())
+        self.assertEqual(hashlib.sha256(raw).hexdigest(), '181d079735ed27358a911bc3e1affc249ac3815ca740fa0330115563210ea06f')
         cards = json.loads(raw)['cartas']
         old_cards = json.loads(old_raw)['cartas']
         self.assertEqual(len(cards), 141)
@@ -115,7 +114,7 @@ class DeckContract(unittest.TestCase):
         self.assertNotEqual(self.run_helper('get', 'D99').returncode, 0)
 
     def test_draw_limits(self):
-        result = self.run_helper('draw', '--seed', '42', '--modules', 'nucleo')
+        result = self.run_helper('draw', '--seed', '42', '--modules', 'nucleo', '--families', 'D', 'F', 'V')
         self.assertEqual(result.returncode, 0)
         cards = json.loads(result.stdout)
         self.assertEqual([c['familia'] for c in cards], ['D', 'F', 'V'])

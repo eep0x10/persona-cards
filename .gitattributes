@@ -1,6 +1,7 @@
 * text=auto
 deck/persona-cards-5.0.json -text
 deck/persona-cards-5.1.json -text
+deck/persona-cards-5.2.json -text
 app/public/deck.json -text
 skills/persona-cards/references/deck.json -text
 *.jpg binary

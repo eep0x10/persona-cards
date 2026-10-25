@@ -6,7 +6,7 @@ RUN npm ci
 COPY app/index.html app/vite.config.js ./
 COPY app/src ./src
 COPY app/public ./public
-COPY deck/illustration_sheets_5_1.json /build/deck/illustration_sheets_5_1.json
+COPY deck/illustration_sheets_5_2.json /build/deck/illustration_sheets_5_2.json
 RUN npm run build
 
 FROM python:3.12-slim-bookworm AS runtime

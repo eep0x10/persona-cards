@@ -1,104 +1,376 @@
-# Persona Cards 5.1 — revisão editorial 5.1.1 — instruções e referência para GPT
+# Persona Cards 5.2 — instruções, cartas e exemplos
 
-O método da skill e as 141 cartas completas estão reunidos abaixo.
+Método completo de oito famílias e G07; fontes 5.0/5.1 são históricas.
 
 # Persona Cards
 
-Transforme cartas em comportamento específico, escolhas e consequências. Profundidade vem da interpretação em contexto, não da quantidade de camadas.
+Conecte passado, interpretação, intenção e escolha. As cartas são convites narrativos; não determinam respostas de jogadores, diagnóstico ou destino.
 
-## Material
+## Material e edição
 
-Leia [manual e cartas](../skills/persona-cards/references/deck.md) na primeira aplicação. Use [índice](../skills/persona-cards/references/indice.md) e `scripts/cards.py` para consultas direcionadas. A fonte oficial é [deck.json](../skills/persona-cards/references/deck.json): 141 cartas, 126 de criação e 15 guias. Cada carta 5.1 tem uma abertura editorial (`leitura`) para ser lida ao puxar, seguida dos campos de ação; não trate a abertura como biografia pronta. Consulte campos reais; nunca invente códigos e títulos oficiais. Veja [exemplos](../skills/persona-cards/references/exemplos.md) e [revisão](../skills/persona-cards/references/revisao.md).
+Leia [manual e cartas](../skills/persona-cards/references/deck.md) na primeira aplicação; use o [índice](../skills/persona-cards/references/indice.md) e `scripts/cards.py` para consultas. A fonte é [deck.json](../skills/persona-cards/references/deck.json): **5.2, revisão 5.2.0, 166 cartas — 150 de criação e 16 guias**. Nunca invente códigos e títulos oficiais. Veja [exemplos](../skills/persona-cards/references/exemplos.md) e [limites](../skills/persona-cards/references/revisao.md).
+
+Use **uma carta de cada família OR + CV + D + F + V + L + P + N**, além de **G07 — Chamado e destino**. As oito famílias são obrigatórias. U/G são consulta, nunca personalidade sorteada; G07 não é uma nona família de personalidade.
 
 ## Método
 
-A revisão editorial **5.1.1** mantém o formato 5.1, os 141 códigos, títulos e módulos. Corrige somente U08/D10/D13; o deck 5.0 permanece congelado.
+1. Extraia cenário, papel, tom e fatos estabelecidos. Separe fatos de propostas; não substitua a biografia para justificar um sorteio.
+2. Conecte **OR** (antecedente) e **CV** (convicção) por “por isso”, “apesar disso” ou “mais tarde aprendi”. Origem não determina culpa ou trauma. CV pode ser crença factual, valor ou regra prática; somente proposições factuais recebem verdadeiro/falso.
+3. Complete **D** com um resultado concreto, **F** com tentativa observável e **V** com fala, gesto, escrita ou sinais. CV não substitui objetivo, método nem expressão.
+4. Complete **L** com um laço; se envolver pessoa viva, descreva sua vontade própria. Pessoa morta, objeto, entidade e pessoa viva não recebem a mesma agência. **P** é uma circunstância que muda a escolha, não traço de personalidade.
+5. Complete **N** com **dois valores genuínos que a pessoa quer preservar**, colocados em disputa. Obstáculo, coerção, crueldade ou custo não bastam. Se a carta não cabe, troque ou ressorteie N; não omita a família nem force arrependimento, bondade ou redenção. G06 ajuda nessa distinção. Escolher um valor e sacrificar o outro é possível.
+6. Consulte **G07** e registre cinco respostas: `call` (chamado), `response` (primeira resposta), `fact` (fato confirmável), `belief` (crença/interpretação) e `choice` (escolha agora). Escolha ou use 1d6 nas listas de chamado e resposta. Recusar, adiar ou renegociar são válidos. Profecia não obriga o desfecho.
+7. Acrescente competência, prazer cotidiano e limite reconhecido — ou sua ausência. Faça uma cena com tentativa, resposta aberta e consequência possível. Registre o que mudou depois de jogar; não ressorteie o passado a cada sessão.
 
-- **D10 — autoridade:** o desejo é ter poder sobre uma decisão. Pode envolver participação, influência ou domínio; não exige cooperação, consentimento ou limite moral reconhecido. Descreva a margem real de recusa dos demais. F13/F14 distinguem coerção e encenação do objetivo.
-- **D13 — sobrevivência:** pode orientar saída de perigo imediato ou proteção duradoura da própria vida. Diga qual horizonte move a próxima ação; desejar sobreviver não determina meios ou bondade. D04 continua protegendo alguém ou lugar.
-- **U08 — módulos:** núcleo 01–12; expansão 13–18; expansão 5.0 D19–D24/F19–F20/N19–N22/L19–L20/V19–V22. P termina em P18. U/G continuam sendo consulta.
+## Entrega e continuidade
 
-1. Extraia contexto, tom, papel e fatos estabelecidos. Separe fatos de propostas. Resolva detalhes rotineiros com escolhas adequadas; pergunte só pelo indispensável. Preserve agência dos jogadores e continuidade.
-2. Escolha **D + F + V**: o que quer agora, como tenta obter e como se expressa. Selecione por significado em criação intencional; sorteie quando o pedido for surpresa. Substitua espaços por pessoas, objetos e situações concretas.
-3. Acrescente vida cotidiana: uma competência, um prazer ou hábito, uma relação com vontade própria e uma reação reconhecível. Faça objetivo, tática e voz se influenciar. Não transforme todos os detalhes em trauma, segredo ou gancho épico.
-4. Use **L + P** quando vínculo e pressão ajudarem. **N somente com dois valores reais que o personagem quer preservar.** Obstáculo, custo e crueldade não provam ambivalência. Orientação dominante ou conflito desconhecido são válidos: consulte G06.
-5. Consulte **G01–G05** quando memória, percepção, influência externa, mandato ou identidade importarem. Separe fato, crença e incerteza; esses mecanismos não substituem personalidade. **U e G nunca entram no sorteio de personalidade.**
-6. Teste em cena: objetivo imediato, tentativa, resposta aberta do interlocutor e consequência possível. Mostre ação e fala ou outra forma de expressão, além de adjetivos. Não determine escolhas dos jogadores.
-7. Revise e entregue material pronto para usar. Troque cartas incompatíveis se necessário; diga quando o encaixe exige adaptação e preserve lacunas reais.
+Todo personagem novo completo inclui nome/papel, os oito códigos e interpretações, os cinco registros de G07, uma competência, um prazer cotidiano e uma tentativa concreta. Mostre reação à recusa; não determine escolhas dos jogadores. A escala do texto pode variar, sem eliminar famílias.
 
-## Entrega proporcional
+Em personagens existentes, preserve identidade e fatos. Novas OR/CV/N ou etapas da jornada precisam ser propostas explícitas se ainda não estabelecidas. Não declare a ficha completa enquanto faltar uma camada ou dois valores genuínos. Peça apenas informação indispensável quando não houver como preservar o recorte sem inventá-la.
 
-NPC rápido: nome/papel, D/F/V, objetivo agora, ação visível, expressão, detalhe cotidiano e reação à recusa. Um parágrafo e uma fala bastam. Personagem central: acrescente vínculos, pressão, tensão real quando houver, limites, condições de mudança e cena curta. Registre códigos numa linha discreta para rastreabilidade, sem sobrecarregar a narrativa.
-
-Personagem existente: preserve primeiro seu núcleo e fatos; identifique o genérico e torne isso observável. Marque novos detalhes como propostas. Não reescreva o passado para justificar uma carta.
-
-Histórias: mapeie intenções relevantes, deixe cada personagem tentar algo por métodos diferentes e construa consequências dessas tentativas. Arcos são possibilidades condicionais, não redenção obrigatória. Atualize somente o que as cenas alteraram.
-
-Elencos: varie objetivos, métodos, vozes, vínculos e reações sob pressão, além de nomes e estética. Uma carta compartilhada não torna dois personagens iguais.
-
-## Revisão
-
-- Quer algo específico e consegue agir sem esperar o protagonista?
-- Tem comportamento e expressão reconhecíveis, além de rótulos?
-- Camadas produzem uma escolha em cena com respostas abertas?
-- Vínculos preservam a vontade própria dos outros?
-- N demonstra dois valores? Se não, omita.
-- Há vida além do problema, sem trauma, segredo ou heroísmo obrigatórios?
-- Fatos, percepção e propostas estão separados? Não inferiu diagnóstico?
-- Respeita tom, cânone e agência?
+Fichas 5.0/5.1 e as 100 inspirações são **leituras históricas parciais no método 5.2**. Conserve seus textos e abra como rascunho pendente, sem inventar automaticamente passados, convicções ou conflitos. Finalizar exige as oito famílias e G07. Aceitar uma importação não certifica completude narrativa.
 
 ## Consulta portátil
 
-Python 3 padrão, sem rede nem dependências extras:
+Python 3 padrão, sem serviço externo:
 
 ```text
-python scripts/cards.py get D19 F20 V22
-python scripts/cards.py search vocacao
+python scripts/cards.py get OR04 CV05 D03 F17 V09 L08 P04 N07 G07
+python scripts/cards.py search conviccao
 python scripts/cards.py draw --seed 42
-python scripts/cards.py draw --families D F V L P --modules nucleo expansao expansao_5
+python scripts/cards.py draw --families OR CV
 ```
 
-O padrão sorteia D/F/V; N exige inclusão intencional. U/G são consultáveis, mas rejeitados no sorteio. Combinação aleatória não garante compatibilidade: interprete e revise.
+O padrão sorteia as oito famílias. `--families` permite consultar ou ressorteiar camadas específicas; isso não torna uma combinação parcial uma ficha finalizada. Interprete, revise e troque cartas incompatíveis com fatos estabelecidos.
 
-## Cartas para imprimir
+## Conferência
 
-A pasta [print](../skills/persona-cards/print/README.md) contém as 141 cartas 5.1 em PDF de leitura ampliada: duplex A4, frentes, versos e manual rápido. Os PDFs 5.0 de 63 × 88 mm permanecem como histórico. Use 100% e virar na borda longa; teste uma folha antes do lote.
+- Oito famílias e cinco registros de G07 preenchidos?
+- OR é antecedente, CV interpretação, D resultado, F método e V expressão?
+- L preserva a outra vontade e P descreve circunstância concreta?
+- N tem dois valores genuínos, sem confundir adversidade com ambivalência?
+- Fatos, crenças, propostas e escolhas separados, sem diagnóstico ou destino imposto?
+- Vida cotidiana, agência e recusa preservadas, sem cura obrigatória do vilão?
+
+## Impressão
+
+[PDFs 5.2](../skills/persona-cards/print/README.md): 166 cartas em A4, quatro por folha, 92 × 130 mm. Use 100% e virar na borda longa; teste uma folha antes do lote. Edições 5.0/5.1 são históricas. Conferência digital não comprova impressão física nem eficácia em mesa.
 
 ---
 
-# Persona Cards 5.1 — revisão editorial 5.1.1
+# Persona Cards 5.2 — revisão 5.2.0
 
-**141 cartas em português: 126 de criação e 15 guias.** O formato 5.1 mantém os códigos, títulos e módulos de 5.0 e acrescenta uma leitura individual para cada carta. O deck 5.0 permanece congelado como histórico.
+**166 cartas em português: 150 de criação e 16 guias.** A criação completa usa uma carta OR, CV, D, F, V, L, P e N, mais G07 — Chamado e destino. As oito famílias são obrigatórias; U/G são consulta, nunca personalidade sorteada.
 
-## Correções da revisão 5.1.1
+## Como jogar
 
-- **U08:** apresenta os três módulos e os intervalos diferentes da expansão 5.0 por família; P termina em P18.
-- **D10:** descreve poder sobre uma decisão sem exigir cooperação ou um limite moral reconhecido. A margem real de recusa dos demais deve ficar explícita.
-- **D13:** admite sobrevivência imediata ou proteção duradoura da própria vida; esse desejo não determina os meios empregados.
-As correções alteram somente campos de U08/D10/D13 e aberturas de D10/D13. As outras 138 cartas permanecem iguais à edição de leitura anterior. Nenhum código novo foi criado; D06 não foi revisada. O campo `versao` continua 5.1 para compatibilidade, e `revisao_editorial` identifica 5.1.1.
+1. Separe as famílias e escolha ou sorteie OR + CV + D + F + V + L + P + N. Leia a abertura e os campos reais de cada carta.
+2. Conecte OR e CV por por isso, apesar disso ou mais tarde aprendi. Origem não determina culpa, trauma ou uma única convicção.
+3. Diga o resultado D, a tentativa F e a expressão V. Em L, respeite a vontade de pessoas vivas e o alcance estabelecido para objetos, entidades ou memória de mortos. Concretize P como circunstância que muda a escolha.
+4. N exige dois valores genuínos que a pessoa quer preservar. Se só descreve um obstáculo ou não cabe no recorte, troque ou ressorteie N; não omita a família. Não force culpa, conciliação ou redenção.
+5. Consulte G07: registre chamado, resposta, fato, crença e escolha. Escolha ou use 1d6 nas listas abaixo. Recusar e renegociar continuam possíveis; destino não determina o resultado.
+6. Acrescente nome, papel, competência e prazer cotidiano. Mostre uma tentativa em cena, aceite a resposta dos demais e registre a consequência observada.
 
-## Como começar
+## Chamado e destino — G07
 
-1. Escolha ou sorteie **D + F + V**. Leia a abertura da carta; complete o objetivo, a forma de agir e a expressão com detalhes de sua campanha.
-2. Dê nome, papel, competência, prazer cotidiano e limite ao personagem. Mostre uma tentativa concreta em cena e deixe a resposta do interlocutor aberta.
-3. Acrescente **L + P** quando o vínculo ou a circunstância mudarem a escolha. Preserve a vontade própria de outras pessoas.
-4. Use **N somente quando o personagem valoriza dois lados em disputa**. Custo, coerção e obstáculo externo não bastam. U/G são consulta, nunca personalidade sorteada.
-5. Depois da cena, registre a ação e a consequência observada. Preserve os fatos jogados; adapte ou troque uma carta que contradiga a continuidade.
+O guia acompanha toda criação completa. As oito cartas descrevem a pessoa; G07 organiza sua resposta à situação. Escolha ou role 1d6 em cada uma das duas listas.
 
-As aberturas convidam a interpretar, não atribuem diagnóstico, trauma, bondade, redenção ou resultado garantido. Desejo não é método; expressão não é identidade; pressão não é conflito interno. O método não substitui as regras do RPG usado pela mesa.
+### Chamado
+
+1. Pedido de alguém
+2. Papel ou herança
+3. Risco concreto
+4. Encontro ou convite
+5. Presságio ou profecia
+6. Natureza, tempo ou finitude
+
+### Resposta
+
+1. Aceito
+2. Recuso
+3. Adio e investigo
+4. Negocio as condições
+5. Tento impedir o futuro
+6. Busco cumprir por outro caminho
+
+### Fato
+
+O que está confirmado no mundo?
+
+### Crença
+
+Quem interpreta ou prevê algo, e com qual evidência?
+
+### Escolha
+
+O que você decide e o que ainda pode escolher? Não sorteie um desfecho.
+
+No aplicativo, esses registros são `journey.call`, `response`, `fact`, `belief` e `choice`. Podem ser anotados em papel. Um valor não é uma afirmação factual: questione sua aplicação sem declará-lo um fato falso.
+
+## Compatibilidade e histórico
+
+Fichas 5.0/5.1 conservam nomes, textos, códigos e fotos, mas ficam como rascunhos pendentes no método 5.2 quando não têm as oito famílias e G07. Não se inventam novos passados ou valores na importação. A galeria de 100 inspirações continua como leituras históricas parciais; usar uma base não certifica completude 5.2.
+
+Os arquivos 5.0/5.1 são históricos. A edição 5.2 acrescenta OR/CV/G07 e atualiza orientações dos guias. Não se reescrevem retroativamente as avaliações anteriores como prova do novo método.
 
 ## Famílias
 
+- **OR — Origem — o que aconteceu antes:** 12 cartas.
+- **CV — Convicção — como interpreta e orienta escolhas:** 12 cartas.
 - **D — Desejo — o que quer agora:** 24 cartas.
 - **F — Forma de agir — como tenta:** 20 cartas.
 - **V — Expressão — como comunica:** 22 cartas.
 - **L — Vínculo — quem também quer algo:** 20 cartas.
 - **P — Pressão — o que muda a situação:** 18 cartas.
-- **N — Conflito interno — dois valores reais:** 22 cartas.
+- **N — Conflito interno — dois valores genuínos:** 22 cartas.
 - **U — Guias de uso:** 9 cartas.
-- **G — Guias de contexto:** 6 cartas.
+- **G — Guias de contexto:** 7 cartas.
 
 ## Cartas completas
+
+## Origem — o que aconteceu antes
+
+### OR01 — Uma ausência ficou (expansao_5_2)
+
+> Alguém ou algo deixou de fazer parte da sua vida. A ausência continua tendo um lugar, mesmo quando você segue adiante.
+
+**Pergunte:** O que se perdeu e o que você conserva? Perda não significa culpa; diga se existe alguma responsabilidade demonstrada.
+
+**Mostre:** Mostre um costume, objeto ou escolha que ainda carrega essa presença.
+
+**Contraste:** Pode sustentar cuidado com quem ficou ou uma tentativa de governar a vida dos outros para impedir novas perdas.
+
+### OR02 — Eu deixei uma marca (expansao_5_2)
+
+> Uma decisão sua mudou a vida de alguém. O que aconteceu continua existindo fora da versão que você conta.
+
+**Pergunte:** O que você fez, que alternativa conhecia e quem sofreu ou ganhou com isso? Separe responsabilidade de remorso.
+
+**Mostre:** Apresente uma consequência que outra pessoa ainda enfrenta; ela pode discordar da sua explicação.
+
+**Contraste:** Pode gerar reparação concreta ou a defesa orgulhosa de um ato nocivo. Arrependimento não vem na carta.
+
+### OR03 — Fui preparado para um papel (expansao_5_2)
+
+> Antes de você escolher, alguém já dizia quem deveria ser. Parte do que aprendeu ainda serve; parte talvez já não caiba.
+
+**Pergunte:** Quem ensinou esse papel, o que esperava e o que você incorporou, recusou ou ainda não decidiu?
+
+**Mostre:** Mostre uma habilidade aprendida e uma expectativa que reaparece.
+
+**Contraste:** Pode formar um sucessor dedicado, um dissidente ou alguém que impõe a outros o mesmo papel.
+
+### OR04 — Alguém ficou ao meu lado (expansao_5_2)
+
+> Houve quem lhe oferecesse tempo, abrigo ou confiança quando isso fez diferença. Esse gesto não determina o que você deve fazer agora.
+
+**Pergunte:** O que recebeu e que significado deu ao gesto? Não presuma dívida nem reciprocidade.
+
+**Mostre:** Mostre como recebe ajuda hoje: acolhe, desconfia, oferece a outra pessoa ou tenta comandar a relação.
+
+**Contraste:** Pode inspirar solidariedade ou transformar cuidado recebido em sentimento de superioridade e proteção possessiva.
+
+### OR05 — Saí quando esperavam que ficasse (expansao_5_2)
+
+> Você atravessou uma porta que outras pessoas julgavam fechada. Sua saída abriu algo e deixou consequências para trás.
+
+**Pergunte:** Do que saiu, por qual motivo e quem interpretou sua partida de outro jeito?
+
+**Mostre:** Faça uma exigência antiga voltar por meio de uma pessoa com vontade própria.
+
+**Contraste:** Pode ser emancipação legítima ou abandono de responsabilidades; a carta não absolve nem condena por antecipação.
+
+### OR06 — Fiquei quando outros partiram (expansao_5_2)
+
+> Você continuou onde a vida de outros seguiu outro caminho. Permanecer preservou alguma coisa e também mudou você.
+
+**Pergunte:** O que escolheu sustentar e quais alternativas realmente tinha? Não trate quem partiu como covarde por padrão.
+
+**Mostre:** Mostre algo que só existe porque você ficou, e alguém que deseja mudá-lo.
+
+**Contraste:** Pode sustentar uma comunidade ou virar justificativa para cobrar obediência de quem chegou depois.
+
+### OR07 — Meu esforço não bastou (expansao_5_2)
+
+> Você tentou algo importante e não alcançou o resultado. O fracasso aconteceu; a explicação que lhe deu pode continuar em disputa.
+
+**Pergunte:** Faltaram capacidade, recursos, informação, oportunidade ou controle? Não transforme resultado em medida de valor pessoal.
+
+**Mostre:** Apresente uma situação parecida e mostre o que faz diferente — ou insiste em repetir.
+
+**Contraste:** Pode ensinar prudência e colaboração ou produzir ressentimento e punição de pessoas usadas como culpadas.
+
+### OR08 — O êxito cobrou um preço (expansao_5_2)
+
+> Você conseguiu o que buscava. Nem tudo que veio com a vitória tinha sido escolhido ou pago por você.
+
+**Pergunte:** Qual foi o ganho, quem arcou com o custo e o que você sabe disso hoje?
+
+**Mostre:** Ofereça uma nova vantagem que repita parte desse custo.
+
+**Contraste:** Pode gerar gratidão e responsabilidade ou a crença de que vencer justifica repetir qualquer método.
+
+### OR09 — Conheci um mundo seguro (expansao_5_2)
+
+> Você teve um lugar onde podia existir sem provar seu valor o tempo todo. Isso pode ser uma força real, sem tragédia escondida.
+
+**Pergunte:** O que tornava esse cotidiano bom e o que você aprendeu com ele?
+
+**Mostre:** Mostre um hábito simples que tenta levar a outro ambiente.
+
+**Contraste:** Pode ampliar hospitalidade ou sustentar a exigência de que todos vivam sob uma única ideia de ordem e normalidade.
+
+### OR10 — Aprendi duas formas de viver (expansao_5_2)
+
+> Você conheceu modos diferentes de habitar o mundo. Nenhum precisa virar caricatura para que a diferença importe.
+
+**Pergunte:** Que práticas ou critérios entram em contraste, e onde você encontrou lugar entre eles?
+
+**Mostre:** Mostre uma decisão em que reconhece mais de uma resposta possível.
+
+**Contraste:** Pode formar uma ponte entre pessoas ou alguém que explora divisões para se tornar indispensável.
+
+### OR11 — O tempo mudou o que eu conhecia (expansao_5_2)
+
+> O mundo seguiu enquanto você seguia também. Uma coisa que parecia duradoura mudou antes que percebesse seu valor.
+
+**Pergunte:** O que passou, o que só entendeu depois e o que ainda pode viver agora?
+
+**Mostre:** Reencontre um lugar, costume ou pessoa sem exigir que permaneça como na lembrança.
+
+**Contraste:** Pode abrir atenção ao presente ou alimentar uma tentativa autoritária de congelar o mundo.
+
+### OR12 — Descobri algo que me prende à vida (expansao_5_2)
+
+> Uma prática, descoberta ou encontro fez o mundo ficar maior. Nem todo começo precisa vir de uma ferida.
+
+**Pergunte:** O que despertou esse interesse e por que ainda importa? Ele não precisa ser um chamado heroico.
+
+**Mostre:** Mostre o prazer de fazer algo bem, mesmo sem público ou recompensa.
+
+**Contraste:** Pode sustentar dedicação generosa ou uma obsessão que trata outras pessoas como matéria da própria obra.
+
+## Convicção — como interpreta e orienta escolhas
+
+### CV01 — Sem controle, tudo se perde (expansao_5_2)
+
+> Você procura segurança em poder antecipar e dirigir o que acontece. Resta saber quanto controle a situação permite e quem fica sem escolha.
+
+**Pergunte:** Em que situação essa regra parece necessária? O que faria diante de alguém capaz que não obedece?
+
+**Mostre:** Outra pessoa resolve um problema de um jeito que você não autorizou. Mostre sua resposta.
+
+**Contraste:** Pode orientar preparação responsável ou domínio coercitivo. Crenças factuais sobre controle podem ser confrontadas; a preferência por ordem é um valor.
+
+### CV02 — Meu valor precisa ser conquistado (expansao_5_2)
+
+> Você mede parte de quem é por uma prova que ainda precisa passar. Talvez ninguém de fora tenha pedido essa prova.
+
+**Pergunte:** O que contaria como suficiente, quem definiu esse critério e o que um fracasso significaria para você?
+
+**Mostre:** Alguém lhe oferece consideração antes da conquista. Diga o que faz com isso.
+
+**Contraste:** Pode mover dedicação ou uma busca de prestígio que humilha quem ameaça o reconhecimento.
+
+### CV03 — Cuidar é estar presente (expansao_5_2)
+
+> Para você, cuidado precisa caber em tempo e gesto. Outra pessoa pode desejar um cuidado diferente do que oferece.
+
+**Pergunte:** Por quem quer estar disponível e como percebe quando presença vira intromissão?
+
+**Mostre:** Um vínculo pede espaço quando você queria ajudar.
+
+**Contraste:** Pode produzir apoio atento ou vigilância possessiva. O valor do cuidado não prova que seu método ajuda.
+
+### CV04 — Não vou repetir aquele dano (expansao_5_2)
+
+> Há um tipo de consequência que você decidiu não produzir nem ajudar a repetir. Essa decisão precisa aparecer no meio que aceita usar.
+
+**Pergunte:** Qual dano quer evitar e em que situação seria difícil sustentar esse limite?
+
+**Mostre:** Surge uma solução eficaz que repete parte do dano. Declare a escolha e quem assume seu custo.
+
+**Contraste:** Pode sustentar um limite ético ou uma prevenção extrema que faz inocentes pagar por um risco.
+
+### CV05 — Ninguém escolhe por mim (expansao_5_2)
+
+> Você quer reconhecer a própria mão nas decisões da sua vida. Isso não torna a vontade dos outros uma extensão da sua.
+
+**Pergunte:** Que escolha reivindica e que escolhas alheias está disposto a respeitar?
+
+**Mostre:** Alguém apresenta uma obrigação, uma previsão ou um conselho como se já fosse sua decisão.
+
+**Contraste:** Pode sustentar emancipação ou a exigência de liberdade apenas para si.
+
+### CV06 — Há algo a preservar em cada vida (expansao_5_2)
+
+> Você reconhece valor numa existência para além da utilidade que ela tem agora. O alcance desse valor se revela nas decisões difíceis.
+
+**Pergunte:** Quem costuma ficar fora da sua atenção e o que preservar uma vida exige neste contexto?
+
+**Mostre:** Uma pessoa hostil fica dependente de uma decisão sua.
+
+**Contraste:** Pode sustentar compaixão ou ser usado para justificar aprisionamento e tutela contra a vontade de alguém. Não implica pacifismo automático.
+
+### CV07 — É melhor saber do que viver enganado (expansao_5_2)
+
+> Você atribui valor a compreender o que acontece, mesmo quando a descoberta pode tirar um consolo ou uma vantagem.
+
+**Pergunte:** A quem deve essa verdade, que acesso considera legítimo e o que faria diante de incerteza?
+
+**Mostre:** Uma informação útil também expõe alguém que não autorizou sua divulgação.
+
+**Contraste:** Pode sustentar investigação responsável ou uma cruzada que desconsidera privacidade e consequências.
+
+### CV08 — Depender de alguém me deixa à mercê (expansao_5_2)
+
+> Quando precisa de outra pessoa, você enxerga também a possibilidade de perder espaço, proteção ou saída.
+
+**Pergunte:** Que risco prevê e que experiência o faz acreditar nisso? É previsão factual, não verdade decretada pela carta.
+
+**Mostre:** Recebe ajuda que não consegue retribuir imediatamente. Mostre o que tenta manter sob seu controle.
+
+**Contraste:** Pode orientar cautela e limites ou isolamento, manipulação e desconfiança mesmo sem evidência suficiente.
+
+### CV09 — A palavra vale mais que a vantagem (expansao_5_2)
+
+> O compromisso que assumiu continua pesando quando aparece uma oportunidade melhor. Nem toda promessa foi livre, justa ou possível.
+
+**Pergunte:** Que compromisso reconhece como seu e o que considera motivo legítimo para renegociá-lo?
+
+**Mostre:** Outra pessoa pede que reveja um acordo que a prejudica.
+
+**Contraste:** Pode sustentar confiabilidade ou fidelidade a uma ordem nociva. Não declara que cumprir sempre é a escolha correta.
+
+### CV10 — Viver também é deixar partir (expansao_5_2)
+
+> Você tenta continuar sem exigir que tudo permaneça sob a mesma forma. Aceitar uma perda não apaga o que importou.
+
+**Pergunte:** O que pode soltar, o que ainda pode reparar e como distingue aceitação de abandono?
+
+**Mostre:** Uma oportunidade de conservar algo cobra impedir a vida de outra pessoa.
+
+**Contraste:** Pode sustentar despedida e renovação ou servir de desculpa para descartar pessoas e fugir de reparações possíveis.
+
+### CV11 — O fim dá sentido ao custo (expansao_5_2)
+
+> Você aceita pagar por um resultado que considera grande. A decisão muda quando o preço deixa de ser só seu.
+
+**Pergunte:** Quem escolhe o objetivo, quem paga e quem pode recusar? Diga se existe um limite real; não invente um.
+
+**Mostre:** Alguém atingido pelo plano rejeita o sacrifício que você considera necessário.
+
+**Contraste:** Pode orientar um risco pessoal voluntário ou uma doutrina que transforma vidas alheias em recurso.
+
+### CV12 — O que termina também pode valer (expansao_5_2)
+
+> Uma experiência não precisa durar para sempre para merecer seu tempo. Você ainda escolhe em que presença investir.
+
+**Pergunte:** O que vale viver mesmo sabendo que vai acabar, e por que isso importa agora?
+
+**Mostre:** Surge um encontro breve que não favorece seu projeto de longo prazo.
+
+**Contraste:** Pode sustentar atenção e coragem diante da finitude ou justificar gratificação que ignora compromissos e consequências.
 
 ## Desejo — o que quer agora
 
@@ -1150,7 +1422,7 @@ As aberturas convidam a interpretar, não atribuem diagnóstico, trauma, bondade
 
 **Abra:** Mostre o custo observável; insistir não garante grandeza.
 
-## Conflito interno — dois valores reais
+## Conflito interno — dois valores genuínos
 
 ### N01 — Raízes / horizontes (nucleo)
 
@@ -1376,23 +1648,23 @@ As aberturas convidam a interpretar, não atribuem diagnóstico, trauma, bondade
 
 ### U01 — NPC rápido (guia)
 
-> Comece pequeno: uma intenção, um modo de agir e uma expressão em cena.
+> Comece pela combinação completa: origem, convicção, desejo, método, expressão, vínculo, pressão e dois valores em conflito; depois responda ao chamado.
 
-**Tire:** D + F + V. Dê nome, papel e um gosto.
+**Tire:** Uma carta OR, CV, D, F, V, L, P e N; consulte G07 para Chamado e destino.
 
-**Complete:** Quero [resultado]. Tento obter [algo] de vocês.
+**Complete:** Interprete as oito cartas com nome, papel e situação. Separe a origem proposta dos fatos já estabelecidos.
 
-**Entre:** Mostre F e V; pedir, oferecer ou exigir não garante resposta.
+**Entre:** Mostre uma tentativa e a expressão; registre chamado, resposta, fato, crença e escolha. A reação dos outros continua aberta.
 
 ### U02 — Personagem completo (guia)
 
-> Acrescente camadas apenas quando elas mudarem uma escolha possível.
+> Todas as oito camadas e Chamado e destino fazem parte da criação 5.2. Conecte-as por escolhas e situações concretas.
 
-**Acrescente:** L + P; use N se houver uma disputa interna real.
+**Acrescente:** Preencha OR + CV + D + F + V + L + P + N e os cinco campos de G07; nenhuma dessas camadas é dispensada na criação 5.2.
 
-**Conecte:** Não invente dois valores para justificar o sorteio.
+**Conecte:** Origem não implica culpa. Convicção distingue fato, valor e regra; N precisa de dois valores genuínos que a pessoa deseja preservar.
 
-**Prepare:** Uma entrada, uma tentativa de ação e um custo.
+**Prepare:** Se o sorteio contradiz o recorte, escolha outra carta ou revise a proposta. Uma combinação aleatória não garante coerência nem exige redenção.
 
 ### U03 — Conversa viva (guia)
 
@@ -1428,7 +1700,7 @@ As aberturas convidam a interpretar, não atribuem diagnóstico, trauma, bondade
 
 > Prepare circunstância e consequências; deixe a decisão para a mesa.
 
-**Combine:** P muda a circunstância; N pode mostrar conflito interno.
+**Combine:** P muda a circunstância; N apresenta dois valores genuínos que a pessoa quer preservar e que a escolha coloca em disputa.
 
 **Concretize:** Defina quem é afetado e quais poder, recurso ou risco pesam.
 
@@ -1446,13 +1718,13 @@ As aberturas convidam a interpretar, não atribuem diagnóstico, trauma, bondade
 
 ### U08 — Elenco variado (guia)
 
-> Varie objetivos, métodos e expressão sem obrigar todos a ter conflito.
+> Varie as oito famílias entre personagens e identifique dois valores genuínos em cada N; não uniformize passado, culpa ou destino.
 
-**Distribua:** Núcleo: 01–12. Expansão: 13–18. Expansão 5.0: D19–D24, F19–F20, N19–N22, L19–L20 e V19–V22; P termina em P18. Misture por família se quiser.
+**Distribua:** Núcleo 01–12; expansão 13–18; expansão 5.0 D19–24/F19–20/N19–22/L19–20/V19–22. P termina em P18. Expansão 5.2: OR01–12 e CV01–12.
 
-**Contraste:** Varie desejo, método e expressão; sorteie sem reposição quando quiser reduzir repetições no elenco.
+**Contraste:** Cada criação usa OR/CV/D/F/V/L/P/N e G07. Varie escolhas e respostas; sorteie sem reposição para reduzir repetições no elenco.
 
-**Confira:** Ausência de conflito não é falha. Não force trauma ou redenção.
+**Confira:** N pede dois valores reais em disputa, não só adversidade. A obrigação da camada não autoriza inventar trauma, culpa ou redenção.
 
 ### U09 — Ajuste e continuidade (guia)
 
@@ -1518,10 +1790,93 @@ As aberturas convidam a interpretar, não atribuem diagnóstico, trauma, bondade
 
 ### G06 — Orientação sem conflito ativo (guia_contexto)
 
-> Um objetivo firme também produz um personagem vivo; conflito interno é opcional.
+> Nem toda dificuldade é conflito interno. Na criação 5.2, encontre dois valores genuínos e uma escolha que os coloque em disputa.
 
-**Separe:** Objetivo dominante, obstáculo externo, custo e eventual segundo valor interno.
+**Separe:** Objetivo, obstáculo e custo não são automaticamente valores concorrentes. Nomeie o que a pessoa quer preservar em cada lado de N.
 
-**Em cena:** Uma pessoa pode manter o objetivo e responder ao custo sem hesitar por outro valor; varie tática, informação e relação.
+**Em cena:** Apresente uma escolha em que os dois valores importem à pessoa; mostre uma tentativa e deixe a consequência em aberto.
 
-**Use:** N é opcional. Declare ausente ou desconhecido quando não houver dois lados demonstrados. Isso continua X na comparação histórica de seis camadas.
+**Use:** G06 ajuda a interpretar ou trocar N, não a omiti-lo na criação 5.2. Se o recorte não sustenta dois valores, reveja a carta ou proponha outra situação; não force culpa ou redenção.
+
+### G07 — Chamado e destino (guia_contexto)
+
+> Algo põe uma possibilidade diante de você. Separe o que aconteceu, o sentido que atribui e a resposta que escolhe.
+
+**Chamado:**
+
+1. Pedido de alguém
+2. Papel ou herança
+3. Risco concreto
+4. Encontro ou convite
+5. Presságio ou profecia
+6. Natureza, tempo ou finitude
+
+**Resposta:**
+
+1. Aceito
+2. Recuso
+3. Adio e investigo
+4. Negocio as condições
+5. Tento impedir o futuro
+6. Busco cumprir por outro caminho
+
+**Fato:** O que está confirmado no mundo?
+
+**Crença:** Quem interpreta ou prevê algo, e com qual evidência?
+
+**Escolha:** O que você decide e o que ainda pode escolher? Não sorteie um desfecho.
+
+
+---
+
+# Exemplos completos — Persona Cards 5.2
+
+Oito famílias obrigatórias e os cinco registros de G07 em cada exemplo. Propostas de interpretação não mudam o cânone; jogadores decidem suas respostas.
+
+## Cinco personagens criados com as cartas
+
+Os códigos são reais; **todas as origens, convicções, tensões e cenas acrescentadas abaixo são propostas autorais**, não acontecimentos ou conclusões canônicas sobre as obras. Luffy, Zuko e Batman servem a leituras específicas. Lina e Seris são originais da mesma campanha. Os exemplos não são teste de mesa.
+
+### 1. Luffy — One Piece
+
+**OR04 · CV05 · D03 · F17 · V09 · L08 · P04 · N07 · guia G07**
+
+Na cena proposta, um companheiro permaneceu ao seu lado numa derrota (**OR04**). Luffy interpreta o apoio como espaço para escolher, não como direito de mandar na vida alheia (**CV05**). Quer decidir a próxima ilha (**D03**), toma a frente da partida (**F17**) e convida com entusiasmo (**V09**). Nami tem uma rota segura e prioridades próprias (**L08**). Um tripulante escolhe ficar no porto (**P04**). Para este exemplo, estabelecemos dois valores genuínos: **liberdade de partir e compromisso aceito de acompanhá-lo até uma entrega** (**N07**). Isso é uma tensão proposta, não deduzida de cansaço ou risco.
+
+**G07:** chamado — o companheiro pede ajuda; resposta — renegociar as condições; fato — a entrega ainda não aconteceu; crença — ser livre também permite assumir compromissos; escolha — combinar uma parada sem decidir por Nami. Se ela recusar, ele precisa ouvir, negociar ou procurar outra rota. Competência: liderar em ação; prazer: procurar uma refeição na próxima ilha.
+
+### 2. Zuko — Avatar: A Lenda de Aang
+
+**OR03 · CV07 · D15 · F15 · V04 · L07 · P05 · N03 · guia G07**
+
+Propomos o papel recebido de herdeiro como antecedente (**OR03**) e o valor de conhecer a verdade como convicção (**CV07**). Zuko tenta reconhecer quem escolhe ser (**D15**), insiste além do desgaste (**F15**) e apresenta a conclusão antes da explicação (**V04**). Iroh oferece conselho, com vontade e critérios próprios (**L07**). Um documento confiável contradiz uma ordem (**P05**). A disputa é entre **dizer a verdade e preservar pertencimento familiar/nacional** (**N03**), ambos ainda importantes neste recorte proposto.
+
+**G07:** chamado — obrigação de um papel recebido; resposta — renegociar; fato — o documento contradiz a justificativa da ordem; crença — discordar não apaga tudo que valoriza em sua origem; escolha — recusar aquela parte e apresentar a prova. A resposta do pai, de Iroh ou do grupo permanece aberta. Competência: treino disciplinado; prazer proposto: preparar uma bebida durante uma pausa.
+
+### 3. Batman — DC Comics
+
+**OR01 · CV06 · D04 · F01 · V04 · L07 · P03 · N14 · guia G07**
+
+Nesta proposta, uma ausência continua presente em sua rotina (**OR01**) e preservar uma vida importa além de sua utilidade (**CV06**). Batman quer retirar moradores de um ataque (**D04**), prepara acessos e recursos (**F01**) e dá a instrução em poucas palavras (**V04**). Alfred orienta sem decidir tudo por ele (**L07**). Um protocolo fechou o abrigo previsto (**P03**). A tensão estabelecida é **conferir cada detalhe e permitir iniciativa real dos aliados** (**N14**); identidade dupla ou juramento, sozinhos, não provariam esse conflito.
+
+**G07:** chamado — ameaça que exige decisão; resposta — redirecionar o caminho; fato — o abrigo está fechado; crença — proteção não depende só de supervisão individual; escolha — confiar a Alfred outra saída enquanto investiga o ataque. Moradores podem contestar a rota. Competência: investigação; prazer proposto: restaurar um pequeno mecanismo fora da operação.
+
+### Uma campanha: as comportas de Porto da Névoa
+
+A vazante revela um canal antigo. Bairros precisam da travessia; o conselho quer fechá-la após acidentes. Um mapa indica uma rota possível, mas **não comprova sua segurança atual**.
+
+### 4. Aliada: Lina Moura, barqueira e cartógrafa
+
+**OR12 · CV03 · D12 · F07 · V11 · L03 · P12 · N02 · guia G07**
+
+Descobrir o prazer de mapear correntezas deu lugar à sua vocação (**OR12**); ela aprendeu que cuidado precisa de presença e gesto (**CV03**). Quer reabrir uma travessia (**D12**), traduz pedidos de moradores e conselho (**F07**) e explica o teste passo a passo (**V11**). A sócia Dara quer reservar o barco para evacuação (**L03**). Inspeção e remédios prometidos precisam da mesma embarcação ao amanhecer (**P12**). Lina valoriza **usar bem o recurso escasso e dar voz a quem assumirá o risco** (**N02**), não apenas terminar rápido.
+
+**G07:** chamado — convite de moradores; resposta — renegociar; fato — há um único barco disponível; crença — a rota merece teste, não certeza antecipada; escolha — ouvir os afetados e pedir ajuda na medição. Dara e jogadores podem recusar. Competência: ler correntezas; prazer: consertar miniaturas de barco.
+
+### 5. Vilã: Seris Vale, conselheira das travessias
+
+**OR09 · CV01 · D10 · F14 · V16 · L15 · P05 · N14 · guia G07**
+
+Uma rotina organizada lhe ofereceu segurança (**OR09**); ela passou a crer que, sem controle, tudo se perde (**CV01**). Quer autoridade exclusiva sobre rotas e taxas (**D10**), oculta um mapa enquanto encena preocupação (**F14**) e cobra com cortesia calculada (**V16**). A guilda coopera enquanto lucra (**L15**). Surge um registro confiável da passagem antiga (**P05**). Para a nova cena, propomos que ela valorize **conferir cada detalhe e permitir iniciativa de administradores cuja capacidade considera necessária** (**N14**). A tensão envolve seu projeto de poder; não exige afeto escondido, remorso ou cura.
+
+**G07:** chamado — sinal interpretado como destino; resposta — redirecionar; fato — o canal existiu; crença — só seu comando evitará outra crise; escolha — tentar controlar a inspeção e testar se tolera a iniciativa da guilda. A prova não determina sua resposta nem comprova a segurança do canal. Competência: organizar estoques; prazer: restaurar encadernações. O grupo pode enfrentar o monopólio por prova, negociação, fiscalização ou combate.

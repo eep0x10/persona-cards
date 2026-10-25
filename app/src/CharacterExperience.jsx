@@ -1,12 +1,43 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { animate, createScope, stagger } from 'animejs';
-import { completionIssues } from './model.js';
+import { completionIssues, ORDER, FAMILY_LABELS, JOURNEY_LABELS, journeyOptions } from './model.js';
 import { preparePortrait } from './portrait.js';
 import { downloadCharacterPng } from './exportPng.js';
 
-const LABELS = { D:'Desejo', F:'Forma de agir', V:'Expressão', L:'Vínculo', P:'Pressão', N:'Conflito interno' };
+const LABELS = FAMILY_LABELS;
 
-export function CharacterReview({ draft, lookup, Art, onChange, onBack, onFinish, onChooseFamily, reduced }) {
+function JourneyReview({journey,guide,onChange,issues,submitted,reduced}) {
+  const root=useRef(null);
+  useEffect(()=>{
+    const scope=createScope({root}).add(()=>{
+      if(reduced)return;
+      const selected=root.current.querySelectorAll('.journey-choice[aria-pressed=true]');
+      if(selected.length)animate(selected,{scale:[.97,1],duration:220,ease:'out(3)'});
+    });
+    return()=>scope.revert();
+  },[journey.call,journey.response,reduced]);
+  const update=(key,value)=>onChange({journey:{...journey,[key]:value}});
+  const issueFor=key=>submitted?issues.find(issue=>issue.journeyField===key)?.message:null;
+  return <section ref={root} className="journey-section" aria-labelledby="journey-heading">
+    <span className="paper-eyebrow">03 · GUIA OBRIGATÓRIO · G07</span><h2 id="journey-heading">Chamado/Destino</h2>
+    <p className="review-instruction">Escolha um chamado e uma resposta. Depois, separe o que aconteceu, o que o personagem acredita e a escolha que ainda pode fazer. Nenhum chamado determina a resposta.</p>
+    {['call','response'].map(key=>{
+      const options=journeyOptions(guide,key),error=issueFor(key);
+      return <fieldset className="journey-choice-group" key={key} id={`review-journey-${key}`} tabIndex={-1} aria-describedby={error?`journey-error-${key}`:undefined}>
+        <legend>{JOURNEY_LABELS[key]} <span>{key === "response" ? "obrigatória" : "obrigatório"}</span></legend>
+        <div className="journey-choices">{options.map((option,index)=><button type="button" className="journey-choice" key={option} aria-pressed={journey[key]===option} onClick={()=>update(key,option)}><span>{index+1}</span><strong>{option}</strong>{journey[key]===option&&<b aria-hidden="true">✓</b>}</button>)}</div>
+        {journey[key]&&!options.includes(journey[key])&&<p className="journey-retained">Resposta guardada: {journey[key]}</p>}
+        {error&&<p id={`journey-error-${key}`} className="review-error">{error}</p>}
+      </fieldset>;
+    })}
+    {['fact','belief','choice'].map(key=>{
+      const promptKey={fact:'Fato',belief:'Crença',choice:'Escolha'}[key],error=issueFor(key);
+      return <div className="journey-written" key={key}><label htmlFor={`review-journey-${key}`}>{JOURNEY_LABELS[key]} <span>{key === "fact" ? "obrigatório" : "obrigatória"}</span></label><p>{guide?.campos?.[promptKey]}</p><textarea id={`review-journey-${key}`} rows={3} maxLength={20000} value={journey[key]} onChange={event=>update(key,event.target.value)} aria-invalid={Boolean(error)} aria-describedby={error?`journey-error-${key}`:undefined}/>{error&&<p id={`journey-error-${key}`} className="review-error">{error}</p>}</div>;
+    })}
+  </section>;
+}
+
+export function CharacterReview({ draft, lookup, Art, onChange, onBack, onFinish, onChooseFamily, reduced, journeyGuide }) {
   const root = useRef(null);
   const photoInput = useRef(null);
   const photoRequest = useRef(0);
@@ -46,7 +77,7 @@ export function CharacterReview({ draft, lookup, Art, onChange, onBack, onFinish
     setSubmitted(true);
     if (issues.length) {
       const issue = issues[0];
-      const id = issue.family ? `review-field-${issue.family}` : `review-${issue.field}`;
+      const id = issue.family ? `review-field-${issue.family}` : issue.field === "journey" ? `review-journey-${issue.journeyField}` : `review-${issue.field}`;
       document.getElementById(id)?.focus();
       return;
     }
@@ -78,9 +109,9 @@ export function CharacterReview({ draft, lookup, Art, onChange, onBack, onFinish
         <textarea id="review-notes" rows={4} value={draft.notes} maxLength={20000} onChange={event => onChange({notes:event.target.value})} placeholder="Uma competência, um prazer cotidiano, um limite…"/>
       </section>
       <section className="review-section review-interpretations" aria-labelledby="interpretation-heading">
-        <span className="paper-eyebrow">02 · INTERPRETAÇÃO</span><h2 id="interpretation-heading">O que essas cartas dizem sobre ele?</h2>
+        <span className="paper-eyebrow">02 · INTERPRETAÇÃO</span><h2 id="interpretation-heading">O que essas oito cartas dizem sobre ele?</h2>
         <p className="review-instruction">Transforme os convites em escolhas concretas. Substitua <b>[pessoas, lugares e objetivos]</b> pelo que existe na sua história. Os textos que você já escreveu continuam aqui.</p>
-        <div className="interpretation-list">{draft.enabled.map((family, index) => {
+        <div className="interpretation-list">{ORDER.map((family, index) => {
           const card = lookup[draft.cards[family]];
           const issue = submitted ? issues.find(item => item.family === family)?.message : null;
           return <article className="interpretation-card" key={family}>
@@ -89,7 +120,8 @@ export function CharacterReview({ draft, lookup, Art, onChange, onBack, onFinish
             {issue && <p id={`review-error-${family}`} className="review-error">{issue}</p>}
           </article>;
         })}</div>
-        <div className="review-finish"><p>Ao finalizar, você guarda o personagem neste navegador e recebe uma carta para levar à mesa.</p><button className="review-finalize" type="submit" disabled={photoBusy}>Finalizar personagem →</button>{submitted && issues.length>0 && <p className="review-error" role="alert">Complete as {issues.length} {issues.length===1?'pendência indicada':'pendências indicadas'} acima.</p>}</div>
+        <JourneyReview journey={draft.journey} guide={journeyGuide} onChange={onChange} issues={issues} submitted={submitted} reduced={reduced}/>
+        <div className="review-finish"><p>Complete as oito interpretações e as cinco respostas do guia para guardar o personagem neste navegador e receber sua carta.</p><button className="review-finalize" type="submit" disabled={photoBusy}>Finalizar personagem →</button>{submitted && issues.length>0 && <p className="review-error" role="alert">Complete as {issues.length} {issues.length===1?'pendência indicada':'pendências indicadas'} acima.</p>}</div>
       </section>
     </form>
   </main>;
@@ -119,8 +151,9 @@ export function FinishedCharacter({ character, lookup, Art, onEdit, onNewVersion
   return <main ref={root} className="finished-experience">
     <div className="experience-heading"><div><span className="experience-eyebrow">PRONTO PARA A PRÓXIMA CENA</span><h1 data-screen-heading tabIndex={-1}>Seu personagem ganhou forma.</h1></div><button className="outline-on-green" onClick={onTable}>← Voltar à mesa</button></div>
     <article className="finished-paper" aria-label={`Carta de personagem de ${character.name}`}>
-      <div className="finished-hero"><div className="finished-portrait"><Art code={character.cards.D}/>{character.portrait && <img key={character.portrait} src={character.portrait} alt={`Retrato de ${character.name}`} onError={event => {event.currentTarget.style.display="none";setPortraitFailed(true);}}/>}<span className="portrait-caption">{portraitFailed?"ARTE DO BARALHO · RETRATO INDISPONÍVEL":`PERSONA CARDS · ${edition}`}</span></div><div className="finished-identity"><span className="paper-eyebrow">CARTA DO PERSONAGEM</span><h2>{character.name}</h2>{character.role && <p className="finished-role">{character.role}</p>}<div className="finished-codes">{character.enabled.map(family => <span key={family}>{character.cards[family]}</span>)}</div>{character.context && <p className="finished-context">{character.context}</p>}</div></div>
-      <div className="finished-layers">{character.enabled.map((family,index) => { const card=lookup[character.cards[family]]; return <section className="finished-layer" key={family}><div className="finished-layer-art"><Art code={card.codigo}/></div><div><span className="paper-eyebrow">{String(index+1).padStart(2,'0')} · {LABELS[family]} · {card.codigo}</span><h3>{card.titulo}</h3><p>{character.fields[family]}</p></div></section>; })}</div>
+      <div className="finished-hero"><div className="finished-portrait"><Art code={character.cards.D}/>{character.portrait && <img key={character.portrait} src={character.portrait} alt={`Retrato de ${character.name}`} onError={event => {event.currentTarget.style.display="none";setPortraitFailed(true);}}/>}<span className="portrait-caption">{portraitFailed?"ARTE DO BARALHO · RETRATO INDISPONÍVEL":`PERSONA CARDS · ${edition}`}</span></div><div className="finished-identity"><span className="paper-eyebrow">CARTA DO PERSONAGEM</span><h2>{character.name}</h2>{character.role && <p className="finished-role">{character.role}</p>}<div className="finished-codes">{ORDER.map(family => <span key={family}>{character.cards[family]}</span>)}</div>{character.context && <p className="finished-context">{character.context}</p>}</div></div>
+      <div className="finished-layers">{ORDER.map((family,index) => { const card=lookup[character.cards[family]]; return <section className="finished-layer" key={family}><div className="finished-layer-art"><Art code={card.codigo}/></div><div><span className="paper-eyebrow">{String(index+1).padStart(2,'0')} · {LABELS[family]} · {card.codigo}</span><h3>{card.titulo}</h3><p>{character.fields[family]}</p></div></section>; })}</div>
+      <section className="finished-journey"><div className="finished-journey-heading"><div><span className="paper-eyebrow">CHAMADO/DESTINO · G07</span><h3>Entre o que aconteceu e a próxima escolha.</h3></div><Art code="G07"/></div><dl>{Object.entries(JOURNEY_LABELS).map(([key,label])=><div key={key}><dt>{label}</dt><dd>{character.journey[key]}</dd></div>)}</dl></section>
       {character.notes && <section className="finished-notes"><span className="paper-eyebrow">PARA LEVAR À CENA</span><p>{character.notes}</p></section>}
       <footer className="finished-signature"><span>PERSONA CARDS</span><span>Personagens vivos. Escolhas reais.</span></footer>
     </article>

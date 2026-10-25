@@ -1,4 +1,4 @@
-import { MODULES, validateCharacter } from './model.js';
+import { MODULES, validateCharacter, normalizeCharacter } from './model.js';
 const record = v => Boolean(v && typeof v === 'object' && !Array.isArray(v));
 export function loadPersistence(storage, key, lookup) {
   let raw;
@@ -11,9 +11,10 @@ export function loadPersistence(storage, key, lookup) {
   const data=record(original)?{...original}:{};
   let invalid=!record(original);
   if(data.draft!==undefined&&!validateCharacter(data.draft,lookup)){delete data.draft;invalid=true;}
+  if(data.draft!==undefined)data.draft=normalizeCharacter(data.draft,lookup);
   if(data.saved!==undefined){
     if(!Array.isArray(data.saved)){data.saved=[];invalid=true;}
-    else {const valid=data.saved.filter(c=>validateCharacter(c,lookup));invalid ||= valid.length!==data.saved.length;data.saved=valid;}
+    else {const valid=data.saved.filter(c=>validateCharacter(c,lookup));invalid ||= valid.length!==data.saved.length;data.saved=valid.map(character=>normalizeCharacter(character,lookup));}
   }
   if(data.modules!==undefined){
     if(!Array.isArray(data.modules)){delete data.modules;invalid=true;}

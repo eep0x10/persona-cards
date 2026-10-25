@@ -4,15 +4,15 @@
 
 # Persona Cards
 
-### Puxe três cartas. Dê vida a um personagem.
+### Oito cartas. Uma história que continua.
 
-Um baralho narrativo em português para criar e interpretar personagens de RPG e ficção: **o que querem, como agem e como se expressam**.
+Um baralho narrativo em português para criar personagens de RPG e ficção com **passado, convicção, intenção e escolhas**.
 
-[![Revisão 5.1.1](https://img.shields.io/badge/revisão-5.1.1-244F42?style=flat-square)](deck/manual-5.1.md)
-[![141 cartas](https://img.shields.io/badge/cartas-141-B65135?style=flat-square)](skills/persona-cards/print/README.md)
+[![Edição 5.2](https://img.shields.io/badge/edição-5.2-244F42?style=flat-square)](deck/manual-5.2.md)
+[![166 cartas](https://img.shields.io/badge/cartas-166-B65135?style=flat-square)](skills/persona-cards/print/README.md)
 [![English](https://img.shields.io/badge/English-summary-637D71?style=flat-square)](README.en.md)
 
-[Escolha como usar](#três-jeitos-de-usar-o-mesmo-baralho) · [Como jogar](#como-jogar) · [PDF](#1-pdf--as-cartas-na-sua-mesa) · [Skill](#2-skill--as-cartas-com-seu-assistente) · [Web](#3-aplicação-web--as-cartas-no-navegador) · [Inspiração](#100-personagens-para-inspiração) · [5 exemplos](#cinco-personagens-criados-com-as-cartas)
+[Como jogar](#como-jogar) · [Chamado e destino](#chamado-e-destino) · [PDF](#1-pdf--as-cartas-na-sua-mesa) · [Skill](#2-skill--as-cartas-com-seu-assistente) · [Web](#3-aplicação-web--as-cartas-no-navegador) · [Cinco exemplos](#cinco-personagens-criados-com-as-cartas)
 
 </div>
 
@@ -20,132 +20,92 @@ Um baralho narrativo em português para criar e interpretar personagens de RPG e
 
 | Quero… | O que abrir | Como funciona |
 | --- | --- | --- |
-| **Jogar com cartas na mesa** | [PDF para imprimir](skills/persona-cards/print/Persona-Cards-5.1-Ilustrado-Duplex-A4.pdf) | Imprima, separe as famílias e escolha ou sorteie suas cartas. Funciona sem computador ou IA. |
-| **Criar com um assistente de IA** | [Skill Persona Cards](skills/persona-cards/) | Uma pasta com as cartas e instruções para o assistente aplicar o mesmo método. |
-| **Explorar as cartas na tela** | [Abrir a mesa online](https://personcard.runictools.com/) | Consulte e escolha cartas no navegador; guarde e exporte as combinações de personagens. |
+| **Cartas na mesa** | [PDF para imprimir](skills/persona-cards/print/Persona-Cards-5.2-Ilustrado-Duplex-A4.pdf) | Separe as famílias e escolha ou sorteie. Funciona sem computador ou IA. |
+| **Criar com um assistente** | [Skill Persona Cards](skills/persona-cards/) | Instruções, cartas e exemplos para um assistente compatível. |
+| **Cartas na tela** | [Mesa online](https://personcard.runictools.com/) | Explore, componha e guarde personagens neste navegador. |
 
-São **três formas de acessar o mesmo jogo**. Você pode usar só uma delas. O baralho ajuda a inventar e interpretar pessoas; as regras de combate, atributos e testes continuam sendo as do RPG que sua mesa escolheu.
-
-**[Baixar a revisão 5.1.1 completa](https://github.com/eep0x10/persona-cards/releases/tag/v5.1.1):** PDFs separados e um ZIP do projeto com a skill, a aplicação já construída, instruções e documentação.
-
-## Revisão editorial 5.1.1
-
-A revisão aprovada dos 100 exemplos está aplicada ao baralho, à skill, aos PDFs e à aplicação:
-
-- **U08:** inclui a expansão 5.0 e os intervalos corretos de cada família.
-- **D10:** permite interpretar influência e autoridade sem exigir cooperação ou um limite moral do personagem.
-- **D13:** distingue atravessar um perigo imediato de buscar proteção duradoura para continuar vivo.
-
-Continuam sendo **141 cartas com os mesmos códigos, títulos e módulos**. Os arquivos mantêm `5.1` no nome e no formato de importação; `5.1.1` identifica esta revisão editorial nos documentos e na aplicação. A edição congelada 5.0 permanece intacta. [Alterações e evidências](docs/REVISAO-100-PERSONAGENS.md#aplicação-da-revisão-editorial-511).
+São três entregas do mesmo jogo; use a que fizer sentido para sua mesa. A edição **5.2 / revisão 5.2.0** tem **150 cartas de criação e 16 guias**, 166 no total. O RPG escolhido por vocês continua fornecendo combate, atributos e resolução de testes.
 
 ## Como jogar
 
-Separe as cartas pelas letras no cabeçalho. Para começar, escolha ou sorteie **uma D, uma F e uma V**. Leia a abertura de cada carta e imagine como ela aparece no seu mundo.
+Separe as famílias. Escolha ou sorteie **uma OR, uma CV, uma D, uma F, uma V, uma L, uma P e uma N**. Leia a abertura e as instruções de cada carta. Todas as oito famílias fazem parte da criação completa 5.2.
 
-| Carta | Pergunta | Exemplo de resposta |
+| Família | Pergunta | Cartas |
+| --- | --- | ---: |
+| **OR · Origem** | O que aconteceu antes e ainda participa da vida? | 12 |
+| **CV · Convicção** | Que crença, valor ou regra orienta a escolha? | 12 |
+| **D · Desejo** | O que quer obter ou manter agora? | 24 |
+| **F · Forma de agir** | Como tenta conseguir? | 20 |
+| **V · Expressão** | Como comunica por fala, gesto, escrita ou sinais? | 22 |
+| **L · Vínculo** | Quem ou o que participa das suas decisões? | 20 |
+| **P · Pressão** | Que circunstância muda a próxima escolha? | 18 |
+| **N · Conflito interno** | Quais dois valores genuínos quer preservar, mas entram em disputa? | 22 |
+
+Conecte OR e CV por **“por isso”**, **“apesar disso”** ou **“mais tarde aprendi”**. Não precisa haver trauma, segredo ou culpa. Diga o objetivo, faça F e V aparecerem numa tentativa, respeite a vontade de pessoas vivas em L e mostre o que P mudou. Objetos e pessoas mortas não recebem vontade atual sem uma regra do cenário. Acrescente nome, papel, uma competência e um prazer cotidiano.
+
+**N é obrigatória, mas adversidade não prova conflito interno.** Se a carta sorteada só descreve um obstáculo, troque ou ressorteie N até encontrar dois valores que a pessoa realmente estima. Não invente arrependimento, bondade ou redenção. Num personagem já estabelecido, preserve os fatos e deixe a criação pendente se ainda faltar uma proposta adequada; não mude seu passado automaticamente.
+
+**Exemplo de ponte:** Lina descobriu prazer em mapear correntezas (OR12), aprendeu que cuidado exige presença (CV03) e quer reabrir uma travessia (D12). Aproxima moradores e conselho (F07), explica passos (V11), negocia o barco com Dara (L03), encontra duas promessas para o mesmo recurso (P12) e precisa conciliar eficiência e voz dos afetados (N02). O exemplo completo está abaixo.
+
+## Chamado e destino
+
+Consulte **G07** em toda criação. Escolha ou role **1d6 em cada coluna separadamente**; as linhas não são pares obrigatórios.
+
+| d6 | Chamado | Primeira resposta |
 | --- | --- | --- |
-| **D · Desejo** | O que quer agora? | Abrir uma travessia para um bairro isolado. |
-| **F · Forma de agir** | Como tenta conseguir? | Aproximando moradores e conselho para um acordo. |
-| **V · Expressão** | Como comunica isso? | Explica um passo de cada vez e desenha o percurso. |
+| 1 | Pedido de alguém | Aceito |
+| 2 | Papel ou herança | Recuso |
+| 3 | Risco concreto | Adio e investigo |
+| 4 | Encontro ou convite | Negocio as condições |
+| 5 | Presságio ou profecia | Tento impedir o futuro |
+| 6 | Natureza, tempo ou finitude | Busco cumprir por outro caminho |
 
-Agora acrescente nome, papel na história, algo que sabe fazer e um prazer ou hábito cotidiano. Diga o que a personagem tenta em uma cena. Outra pessoa pode aceitar, negociar ou recusar; a carta não decide o resultado por ninguém.
+Anote **chamado, resposta, fato, crença e escolha**. Fato é o que se confirma; crença é o sentido atribuído; escolha é o que tenta fazer agora. Uma profecia pode ser um relato incerto. Recusar o chamado não equivale a covardia, aceitar não prova bondade e o dado não decide o final. Outros personagens podem discordar ou recusar.
 
-**Exemplo rápido:** Lina é uma barqueira. **D12 — Abrir um horizonte** vira o desejo de reabrir uma rota. **F07 — Aproximo as partes** vira uma reunião entre quem usa o canal e quem cuida dele. **V11 — Passo a passo** vira sua fala: “Primeiro medimos a profundidade. Depois marcamos o retorno.” Três cartas já produziram uma pessoa capaz de agir.
-
-Se quiser aprofundar, acrescente:
-
-- **L · Vínculo:** uma pessoa com objetivo próprio, que também pode discordar.
-- **P · Pressão:** uma circunstância que muda o plano e pede uma decisão.
-- **N · Conflito interno:** dois valores que a personagem quer preservar, mas que entram em disputa. Inclua apenas quando esses dois lados existirem.
-
-As cartas **U/G** são guias para consultar durante a criação; deixe-as fora do sorteio de personalidade. O conjunto tem **126 cartas de criação e 15 guias**, 141 no total. Você pode escolher por significado ou sortear para se surpreender. Se uma carta contrariar o que já aconteceu na história, adapte ou troque a carta e preserve a história. Não é preciso dar trauma, segredo ou redenção a todo personagem.
-
-## 100 personagens para inspiração
-
-Na aplicação, abra **Inspiração** para explorar **100 personagens da cultura pop**: filmes, animes, animações, quadrinhos, séries e jogos, incluindo heróis, vilões e coadjuvantes. Busque um nome ou obra e abra a carta para ver o recorte escolhido, a combinação D/F/V e as camadas adicionais que fazem sentido naquela cena.
-
-<img src="design/inspiracao-desktop.png" alt="Galeria Inspiração com 100 personagens, busca e filtros por mídia e papel na história" width="900">
-
-Cada montagem mostra **as cartas ilustradas escolhidas** e, abaixo de cada uma, **por que ela compõe aquele personagem**, além de uma aplicação concreta em cena. A lista do personagem inclui todas as camadas usadas — D/F/V e também L/P/N quando presentes. São leituras possíveis de personagens conhecidos; as cenas sugeridas são exercícios autorais, e as fontes das obras ficam junto de cada exemplo. Uma combinação não resume toda a trajetória de alguém. As ilustrações do baralho representam as ideias das cartas, não retratos dos personagens.
-
-**Usar como base** leva uma cópia para sua criação. Adapte nome, mundo e interpretações e finalize sua própria carta. Explorar a galeria não altera seu rascunho; substituir uma criação em andamento pede confirmação.
-
-As 100 montagens também servem como revisão do sistema. Veja a [análise das lacunas e propostas de melhoria](docs/REVISAO-100-PERSONAGENS.md). O relatório distingue problemas observados, ajustes de uso e propostas de novas cartas; o baralho publicado continua com seus **141 códigos**. Este exercício editorial não substitui testes com jogadores.
+U/G são guias de consulta, ficam fora do sorteio de personalidade. G07 organiza a jornada; não substitui nenhuma das oito cartas. Depois da cena, registre ação, resposta e consequência. Atualize o que mudou, preservando os fatos jogados.
 
 ## 1. PDF — as cartas na sua mesa
 
-Cada carta da edição 5.1 tem uma leitura curta e uma ilustração folk própria. A página abaixo mostra as cartas reais do PDF.
+<img src="skills/persona-cards/print/preview-frentes-5.2-ilustrado.png" alt="Quatro cartas reais de Origem da edição 5.2, com ilustrações folk individuais e texto completo" width="680">
 
-<img src="skills/persona-cards/print/preview-frentes-5.1-ilustrado.png" alt="Quatro cartas ilustradas: Ter meu lugar, Assinar uma conquista, Escolher meu caminho e Garantir proteção" width="680">
+- **[Baralho completo, frente e verso](skills/persona-cards/print/Persona-Cards-5.2-Ilustrado-Duplex-A4.pdf)**.
+- [Somente frentes](skills/persona-cards/print/Persona-Cards-5.2-Ilustrado-Frentes-A4.pdf) e [somente versos](skills/persona-cards/print/Persona-Cards-5.2-Ilustrado-Versos-A4.pdf).
+- [Manual rápido em PDF](skills/persona-cards/print/Persona-Cards-5.2-Ilustrado-Manual-Rapido.pdf).
 
-| Abra este arquivo | Quando usar |
-| --- | --- |
-| **[Baralho completo, frente e verso](skills/persona-cards/print/Persona-Cards-5.1-Ilustrado-Duplex-A4.pdf)** | Sua impressora faz frente e verso automaticamente. |
-| [Somente frentes](skills/persona-cards/print/Persona-Cards-5.1-Ilustrado-Frentes-A4.pdf) + [somente versos](skills/persona-cards/print/Persona-Cards-5.1-Ilustrado-Versos-A4.pdf) | Vai imprimir cada lado separadamente. |
-| [Manual rápido em PDF](skills/persona-cards/print/Persona-Cards-5.1-Ilustrado-Manual-Rapido.pdf) | Quer guardar as orientações de impressão junto ao baralho. |
-
-**Para imprimir:** escolha papel **A4**, orientação retrato, **tamanho real / 100%** e frente e verso **virando na borda longa**. Imprima primeiro duas páginas consecutivas do PDF completo, confira o alinhamento e só então faça o restante. Corte pelas marcas. Cada carta mede **92 × 130 mm**; cabem quatro por folha. O baralho completo usa 36 folhas, sendo a última com uma carta. Na impressão manual, a forma de recolocar o papel depende da impressora.
-
-Você também pode ler o PDF na tela e anotar os códigos escolhidos. Os arquivos foram conferidos digitalmente; a impressão física ainda não foi testada. A [edição 5.0 permanece disponível](skills/persona-cards/print/README.md#edição-original-50).
+Imprima em **A4, retrato, tamanho real / 100%, virando na borda longa**. Faça primeiro um par de páginas consecutivas do duplex e confira o alinhamento. São **92 × 130 mm**, quatro cartas por folha: **42 folhas / 84 páginas duplex**, com duas cartas na última folha. Na impressão manual, a reinserção depende da impressora. Conferência digital não substitui teste físico de impressão e leitura em mesa. Veja [detalhes e edições anteriores](skills/persona-cards/print/README.md).
 
 ## 2. Skill — as cartas com seu assistente
 
-Uma **skill** é uma pasta de instruções e referências que um assistente compatível consegue consultar. A Persona Cards contém o baralho e o método de criação. Ela não é uma conta, um programa executável nem um gerador de imagem.
+Uma skill é uma pasta de instruções e referências que um assistente compatível consulta. Não é uma conta nem um gerador de imagem.
 
-**No Codex:**
-
-1. No GitHub, clique em **Code → Download ZIP** e extraia o arquivo.
-2. Copie a pasta **`skills/persona-cards` inteira** para a pasta de skills do Codex. No Windows, o destino habitual é `C:\Users\SEU_USUARIO\.codex\skills\persona-cards`; no macOS/Linux, `~/.codex/skills/persona-cards`.
-3. Abra uma nova conversa que reconheça a skill e faça o pedido abaixo. Se ela não aparecer, confira se `SKILL.md` está diretamente dentro de `persona-cards`, sem uma pasta duplicada no meio.
+1. No GitHub, use **Code → Download ZIP** e extraia.
+2. Copie **`skills/persona-cards` inteira** para `~/.codex/skills/persona-cards`. No Windows, o caminho habitual é `C:\Users\SEU_USUARIO\.codex\skills\persona-cards`.
+3. Abra uma conversa que reconheça a skill. `SKILL.md` deve estar diretamente nessa pasta, sem duplicação de diretório.
 
 ```text
-Use $persona-cards para criar uma aliada para um RPG de fantasia.
-Ela é uma barqueira que quer reabrir uma travessia.
-Escolha as cartas, explique a combinação e escreva uma cena de encontro.
+Use $persona-cards 5.2 para criar uma aliada barqueira.
+Escolha e interprete OR/CV/D/F/V/L/P/N, com dois valores genuínos em N.
+Complete chamado, resposta, fato, crença e escolha pelo guia G07.
+Escreva uma tentativa em cena e uma reação possível à recusa.
 ```
 
-Você pode pedir um NPC rápido, um vilão, um grupo ou o aprofundamento de alguém que já existe. Diga o cenário e o que a mesa já estabeleceu. O assistente usa D/F/V, acrescenta outras famílias quando ajudam e mostra ações e escolhas concretas. Você decide o que entra na campanha.
-
-**Em um assistente sem suporte a skills:** anexe ou cole o conteúdo de [`docs/persona-cards-gpt.md`](docs/persona-cards-gpt.md), que reúne instruções e baralho, e faça seu pedido na mesma conversa. Isso não instala a skill nas outras conversas.
+Diga o cenário e os fatos já estabelecidos. O assistente propõe; você decide o que entra na campanha. Sem suporte a skills, anexe ou cole [instruções, cartas e exemplos para GPT](docs/persona-cards-gpt.md) na mesma conversa; isso não instala a skill em outros chats.
 
 ## 3. Aplicação web — as cartas no navegador
 
-**[Abrir Persona Cards no RunicTools](https://personcard.runictools.com/)** — funciona no computador e no celular, sem instalação, conta ou chave de IA.
+**[Abrir a mesa no RunicTools](https://personcard.runictools.com/)**. O baralho também pode ser usado só em papel ou com a skill.
 
-A aplicação é a versão digital do mesmo baralho. Ela permite explorar cartas, montar combinações, salvar personagens neste navegador e exportar uma cópia. Os personagens não são enviados para uma conta ou banco remoto.
+Na mesa, explore as **oito famílias**, alterne Mesa/Grade e vire para ler antes de selecionar. **Escolher esta carta** preenche uma etapa; navegar não altera a escolha. **Sortear · manter** permite conservar cartas enquanto ressorteia outras. U/G permanecem em consulta.
 
-**Uma mesa de cartas, sem formulário.** Alterne entre **Mesa**, com cartas em leque, e **Grade**, para comparar as ilustrações de uma família. As imagens abaixo são capturas da aplicação.
+**Salvar personagem** abre a revisão: preencha nome, as oito interpretações e os cinco registros de Chamado e destino. Formulários ficam nessa etapa de salvar/revisar; a exploração da mesa é por cartas. Foto, papel, contexto e notas são livres. Finalizar exige os oito códigos válidos, interpretações e jornada preenchida. O personagem pode ser reaberto, editado e exportado.
 
-<img src="design/mesa-final-desktop.png" alt="Mesa digital com cartas em leque e a combinação do personagem" width="900">
+**Dados antigos:** fichas 5.0/5.1 continuam preservadas, mas abrem como rascunhos pendentes em 5.2. Não recebem OR/CV, conflito ou passado inventado automaticamente. As **100 inspirações são leituras históricas parciais**, não 100 fichas completas no novo método. Consulte cartas e explicações ou use uma base para completar as pendências, preservando sua criação atual.
 
-<details>
-<summary>Ver as cartas em Grade</summary>
+Personagens e fotos ficam neste navegador e origem (protocolo, endereço e porta); não há conta ou banco remoto de fichas. Exporte JSON como cópia completa. Limpar dados do site pode apagar o que ficou apenas nele. Markdown e PNG são formatos de leitura; JSON permite continuar em outro navegador. Fotos são processadas localmente. Anime.js orienta o movimento; o rodapé oferece redução e acompanhamento da preferência do sistema.
 
-<img src="design/mesa-final-grid-desktop.png" alt="Grade de cartas ilustradas da família Desejo" width="900">
+### Abrir localmente
 
-</details>
-
-1. Comece em **Desejo**. Explore com as setas, deslize no celular ou role horizontalmente sobre a mão. Em **Grade**, toque numa carta para conhecê-la na mesa.
-2. Use **Virar · como jogar** para ler as instruções. Explorar e virar não selecionam a carta.
-3. Clique em **Escolher esta carta**. Ela vai para a combinação, e a mesa guia você pelas famílias **D → F → V**. Toque numa posição da combinação para revisá-la.
-4. Use o **+ após Expressão** para acrescentar **Vínculo, Pressão ou Conflito interno**. Eles se tornam as etapas 4, 5 e 6 na ordem escolhida. Os guias U/G continuam separados em **Guias**.
-5. Clique em **Salvar personagem** para revisar as informações pendentes, dar nome e interpretar as cartas no seu cenário. Se quiser, envie uma foto. **Finalizar** guarda e apresenta a carta do personagem, que pode ser editada e baixada em PNG.
-6. **Meus personagens** reúne as cartas finalizadas e as combinações antigas. Em **Sortear · manter**, trave escolhas que quer preservar. **Importar · exportar** transfere cópias JSON ou Markdown; JSON conserva também a foto.
-
-As cartas navegam, viram e seguem até a combinação com **Anime.js**. **Movimento completo é o padrão**; o controle no rodapé permite reduzir ou escolher **Seguir sistema**. Uma preferência explícita por movimento reduzido é preservada. Textos de fichas antigas continuam disponíveis na revisão e nas exportações. A foto é processada e guardada no navegador, sem upload ao servidor.
-
-<details>
-<summary>Ver a revisão e a carta de um personagem fictício</summary>
-
-<img src="design/revisao-personagem-desktop.png" alt="Revisão de Lina do Canal, com identidade, foto opcional e interpretação das cartas" width="900">
-
-<img src="design/carta-personagem-desktop.png" alt="Carta final de Lina do Canal, com a arte do baralho como alternativa à foto" width="700">
-
-</details>
-
-### Rodar no seu computador (opcional) — Windows
-
-Instale **Git**, **Python 3.12 ou superior** e **Node.js 22 com npm**. Depois, abra o PowerShell e execute:
+Requisitos: **Git, Python 3.12+ e Node.js 22 com npm**. No PowerShell:
 
 ```powershell
 git clone https://github.com/eep0x10/persona-cards.git
@@ -153,111 +113,71 @@ cd persona-cards/app
 ./iniciar.ps1
 ```
 
-Abra **http://127.0.0.1:8766** no navegador. O inicializador prepara o necessário na primeira vez. Para usar novamente, execute `./iniciar.ps1` dentro da pasta `app`.
-
-<details>
-<summary>Se o PowerShell bloquear o script, ou se você atualizou o projeto</summary>
-
-Você pode iniciar manualmente sem alterar a política do PowerShell. Dentro da pasta `app`, execute:
-
-```powershell
-python -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r requirements.lock.txt
-npm ci
-npm run build
-.\.venv\Scripts\python.exe -m uvicorn server:app --host 127.0.0.1 --port 8766
-```
-
-Abra o mesmo endereço e mantenha o terminal aberto. Se aparecer que a porta já está ocupada, a aplicação pode estar aberta: tente o endereço antes de iniciar outro processo. Após baixar uma atualização, execute `npm ci` e `npm run build` novamente; reinicie o processo que você abriu e recarregue a página. O inicializador reutiliza uma instância saudável e não reconstrói uma interface que já existe. Se `python`, `git` ou `npm` não forem reconhecidos, conclua a instalação correspondente e abra um novo terminal.
-
-</details>
-
-<details>
-<summary>Linux e macOS</summary>
-
-Com Git, Python 3.12+ e Node.js 22 instalados:
-
-```sh
-git clone https://github.com/eep0x10/persona-cards.git
-cd persona-cards/app
-python3 -m venv .venv
-.venv/bin/python -m pip install -r requirements.lock.txt
-npm ci
-npm run build
-.venv/bin/python -m uvicorn server:app --host 127.0.0.1 --port 8766
-```
-
-Abra **http://127.0.0.1:8766**. Mantenha esse processo aberto enquanto usa a mesa.
-
-</details>
-
-**Guardar seu trabalho:** os dados pertencem a esse navegador, endereço e porta. Use a exportação para ter uma cópia ou transferir para outro navegador. Limpar os dados do site pode apagar o que ficou apenas nele. A aplicação não exige chave de IA; a instalação baixa dependências da internet.
+Abra **http://127.0.0.1:8766**. O inicializador reutiliza um serviço saudável; reconstrução de interface após atualização e alternativa para script bloqueado estão no [início rápido](docs/QUICKSTART.md). Mantenha cópias exportadas antes de atualizar. Instalar dependências usa a internet; jogar não exige chave de IA.
 
 ## Cinco personagens criados com as cartas
 
-Os códigos abaixo correspondem a cartas reais. Nos três personagens conhecidos, escolhemos cartas para interpretar um aspecto de cada um; **as cenas são propostas inventadas, não acontecimentos das obras**. Os dois últimos são originais e pertencem à mesma campanha. Os exemplos mostram como jogar e não são relatos de teste de mesa.
+Os códigos são reais; **todas as origens, convicções, tensões e cenas acrescentadas abaixo são propostas autorais**, não acontecimentos ou conclusões canônicas sobre as obras. Luffy, Zuko e Batman servem a leituras específicas. Lina e Seris são originais da mesma campanha. Os exemplos não são teste de mesa.
 
 ### 1. Luffy — One Piece
 
-**D03 — Escolher meu caminho · F17 — Tomo a frente · V09 — Entusiasmo que convida**
+**OR04 · CV05 · D03 · F17 · V09 · L08 · P04 · N07 · guia G07**
 
-Luffy quer se tornar o Rei dos Piratas e valoriza aventura e companheiros ([perfil oficial](https://one-piece.com/character/luffy/index.html)). Nesta leitura, **D03** faz esse sonho aparecer como liberdade para decidir a rota. **F17** o põe na frente da ação; **V09** faz o convite soar como uma aventura compartilhada, não uma ordem burocrática.
+Na cena proposta, um companheiro permaneceu ao seu lado numa derrota (**OR04**). Luffy interpreta o apoio como espaço para escolher, não como direito de mandar na vida alheia (**CV05**). Quer decidir a próxima ilha (**D03**), toma a frente da partida (**F17**) e convida com entusiasmo (**V09**). Nami tem uma rota segura e prioridades próprias (**L08**). Um tripulante escolhe ficar no porto (**P04**). Para este exemplo, estabelecemos dois valores genuínos: **liberdade de partir e compromisso aceito de acompanhá-lo até uma entrega** (**N07**). Isso é uma tensão proposta, não deduzida de cansaço ou risco.
 
-Acrescente **L08 — Companhia de estrada**: os companheiros têm destinos e limites próprios. Com **P04 — Um vínculo escolhe diferente**, alguém precisa parar num porto antes de seguir. Na cena inventada, Luffy aponta uma ilha e pergunta: “Vamos por ali! O que você precisa antes de partir?” O outro pode recusar. Ele precisa ouvir, negociar ou insistir; a carta não decide a reação de nenhum dos dois. **Sem N:** risco e cansaço, sozinhos, não provam conflito interno.
+**G07:** chamado — o companheiro pede ajuda; resposta — renegociar as condições; fato — a entrega ainda não aconteceu; crença — ser livre também permite assumir compromissos; escolha — combinar uma parada sem decidir por Nami. Se ela recusar, ele precisa ouvir, negociar ou procurar outra rota. Competência: liderar em ação; prazer: procurar uma refeição na próxima ilha.
 
 ### 2. Zuko — Avatar: A Lenda de Aang
 
-**D15 — Entender quem sou · F15 — Insisto além do custo · V04 — Conclusão primeiro**
+**OR03 · CV07 · D15 · F15 · V04 · L07 · P05 · N03 · guia G07**
 
-Esta leitura acompanha uma fase de mudança de Zuko, cujo [perfil oficial](https://www.avatarstudiosofficial.com/characters/) descreve persistência, busca de honra e dificuldade de fazer o que considera certo. **D15** pergunta quem ele quer ser; **F15** mostra a insistência que desgasta relações; **V04** propõe que ele diga a decisão antes de explicar tudo o que sente.
+Propomos o papel recebido de herdeiro como antecedente (**OR03**) e o valor de conhecer a verdade como convicção (**CV07**). Zuko tenta reconhecer quem escolhe ser (**D15**), insiste além do desgaste (**F15**) e apresenta a conclusão antes da explicação (**V04**). Iroh oferece conselho, com vontade e critérios próprios (**L07**). Um documento confiável contradiz uma ordem (**P05**). A disputa é entre **dizer a verdade e preservar pertencimento familiar/nacional** (**N03**), ambos ainda importantes neste recorte proposto.
 
-**L07 — Quem me orienta** coloca Iroh na relação, com conselhos que Zuko pode acolher ou rejeitar. **N03 — Verdade / pertencimento** funciona porque ele quer reconhecer uma verdade e conservar um lugar entre pessoas importantes. **P05 — Evidência inesperada** oferece o teste: numa cena inventada, um documento contradiz uma ordem. Zuko diz “Não vou cumprir essa parte” e só então mostra a prova. A escolha pode custar pertencimento e não garante reconciliação. Aqui N tem dois lados concretos; não é apenas sofrimento.
+**G07:** chamado — obrigação de um papel recebido; resposta — renegociar; fato — o documento contradiz a justificativa da ordem; crença — discordar não apaga tudo que valoriza em sua origem; escolha — recusar aquela parte e apresentar a prova. A resposta do pai, de Iroh ou do grupo permanece aberta. Competência: treino disciplinado; prazer proposto: preparar uma bebida durante uma pausa.
 
 ### 3. Batman — DC Comics
 
-**D04 — Garantir proteção · F01 — Planejo antes · V04 — Conclusão primeiro**
+**OR01 · CV06 · D04 · F01 · V04 · L07 · P03 · N14 · guia G07**
 
-O [perfil oficial da DC](https://www.dc.com/characters/batman) apresenta o protetor de Gotham, investigador e estrategista. **D04** vira um objetivo imediato: manter moradores seguros até conter uma ameaça. **F01** divide investigação e resgate em etapas. **V04** dá uma fala curta: “Evacuem o prédio. Eu encontro a origem.”
+Nesta proposta, uma ausência continua presente em sua rotina (**OR01**) e preservar uma vida importa além de sua utilidade (**CV06**). Batman quer retirar moradores de um ataque (**D04**), prepara acessos e recursos (**F01**) e dá a instrução em poucas palavras (**V04**). Alfred orienta sem decidir tudo por ele (**L07**). Um protocolo fechou o abrigo previsto (**P03**). A tensão estabelecida é **conferir cada detalhe e permitir iniciativa real dos aliados** (**N14**); identidade dupla ou juramento, sozinhos, não provariam esse conflito.
 
-Acrescente **L07 — Quem me orienta** para Alfred e **P03 — Regra e caso concreto**: na cena proposta, um protocolo fechou o abrigo previsto. Preparar melhor já não basta; Batman precisa encontrar outra saída, contestar a regra ou oferecer um recurso. Funcionários e moradores ainda podem discordar. **Sem N:** juramento, perdas e identidade dupla não obrigam toda cena a conter dois valores internos em disputa. A mesma V04 de Zuko produz outra voz quando muda a pessoa que a interpreta.
+**G07:** chamado — ameaça que exige decisão; resposta — redirecionar o caminho; fato — o abrigo está fechado; crença — proteção não depende só de supervisão individual; escolha — confiar a Alfred outra saída enquanto investiga o ataque. Moradores podem contestar a rota. Competência: investigação; prazer proposto: restaurar um pequeno mecanismo fora da operação.
 
 ### Uma campanha: as comportas de Porto da Névoa
 
-Uma vazante expõe um canal antigo. Os bairros do outro lado precisam da travessia; o conselho quer fechá-la após acidentes. O mapa indica uma rota possível, mas sua segurança atual ainda precisa ser verificada. É nesse problema que aliada e vilã passam a agir.
+A vazante revela um canal antigo. Bairros precisam da travessia; o conselho quer fechá-la após acidentes. Um mapa indica uma rota possível, mas **não comprova sua segurança atual**.
 
 ### 4. Aliada: Lina Moura, barqueira e cartógrafa
 
-**D12 — Abrir um horizonte · F07 — Aproximo as partes · V11 — Passo a passo · L03 — Sócio de outra ideia · P12 — Duas promessas, um recurso**
+**OR12 · CV03 · D12 · F07 · V11 · L03 · P12 · N02 · guia G07**
 
-Lina quer testar uma travessia para os bairros isolados. Lê correntezas, desenha mapas em papel oleado e gosta de consertar pequenas miniaturas de barco. Sua combinação dá objetivo, método e voz: conversa com moradores e conselho e propõe “Primeiro medimos a profundidade. Depois marcamos os pontos de retorno. Só então levamos passageiros.”
+Descobrir o prazer de mapear correntezas deu lugar à sua vocação (**OR12**); ela aprendeu que cuidado precisa de presença e gesto (**CV03**). Quer reabrir uma travessia (**D12**), traduz pedidos de moradores e conselho (**F07**) e explica o teste passo a passo (**V11**). A sócia Dara quer reservar o barco para evacuação (**L03**). Inspeção e remédios prometidos precisam da mesma embarcação ao amanhecer (**P12**). Lina valoriza **usar bem o recurso escasso e dar voz a quem assumirá o risco** (**N02**), não apenas terminar rápido.
 
-Ela divide um barco com Dara, que quer reservá-lo para evacuar pessoas se a cheia voltar. **L03** dá à sócia um projeto próprio. Lina prometeu transportar remédios e fazer a inspeção, mas ambos precisam do barco ao amanhecer (**P12**). Ela pede ao grupo ajuda com a medição e negocia a embarcação com Dara. Se receber uma recusa, procura outro barco ou assume que terá de renegociar uma promessa. Os jogadores podem ajudar, contestar o mapa ou oferecer outra solução. Sua função de aliada não garante obediência de ninguém.
+**G07:** chamado — convite de moradores; resposta — renegociar; fato — há um único barco disponível; crença — a rota merece teste, não certeza antecipada; escolha — ouvir os afetados e pedir ajuda na medição. Dara e jogadores podem recusar. Competência: ler correntezas; prazer: consertar miniaturas de barco.
 
 ### 5. Vilã: Seris Vale, conselheira das travessias
 
-**D10 — Ampliar minha influência · F14 — Oculto e enceno · V16 — Encanto calculado · L15 — Aliança por interesse · P05 — Evidência inesperada**
+**OR09 · CV01 · D10 · F14 · V16 · L15 · P05 · N14 · guia G07**
 
-Seris quer autoridade exclusiva sobre rotas e taxas. É competente em organizar estoques e já evitou desabastecimentos; agora usa esse crédito para concentrar poder. **F14** aparece quando afirma que nunca houve outra passagem, embora tenha ocultado um mapa antigo. **V16** faz a cobrança chegar com cortesia: “Ninguém quer outra barca perdida. Digam-me: quem assumirá o risco se reabrirmos?” Fora do conselho, restaura encadernações e se orgulha da precisão do trabalho.
+Uma rotina organizada lhe ofereceu segurança (**OR09**); ela passou a crer que, sem controle, tudo se perde (**CV01**). Quer autoridade exclusiva sobre rotas e taxas (**D10**), oculta um mapa enquanto encena preocupação (**F14**) e cobra com cortesia calculada (**V16**). A guilda coopera enquanto lucra (**L15**). Surge um registro confiável da passagem antiga (**P05**). Para a nova cena, propomos que ela valorize **conferir cada detalhe e permitir iniciativa de administradores cuja capacidade considera necessária** (**N14**). A tensão envolve seu projeto de poder; não exige afeto escondido, remorso ou cura.
 
-A guilda dos armazéns coopera enquanto lucra, mas pode abandoná-la (**L15**). Quando os personagens acham um registro confiável (**P05**), a existência antiga do canal fica provada; sua segurança hoje continua incerta. Seris pode exigir inspeção, tentar controlar o teste ou desacreditar Lina. O grupo pode enfrentar o monopólio por prova pública, negociação, fiscalização ou combate. **Sem N estabelecida:** ser contrariada não dá à vilã arrependimento automático, e uma virtude profissional não apaga o abuso de poder.
+**G07:** chamado — sinal interpretado como destino; resposta — redirecionar; fato — o canal existiu; crença — só seu comando evitará outra crise; escolha — tentar controlar a inspeção e testar se tolera a iniciativa da guilda. A prova não determina sua resposta nem comprova a segurança do canal. Competência: organizar estoques; prazer: restaurar encadernações. O grupo pode enfrentar o monopólio por prova, negociação, fiscalização ou combate.
 
-## O que guardar depois da cena
+## Documentação e limites
 
-Anote o que a personagem tentou, a resposta que recebeu e o que mudou. Uma carta pode continuar servindo por toda a campanha ou deixar de representar a pessoa. Preserve os fatos jogados. Profundidade aparece quando intenção, comportamento, relação e consequência se encontram — não ao preencher todas as famílias.
+| Guia | Conteúdo |
+| --- | --- |
+| [Manual 5.2](deck/manual-5.2.md) | Método, G07 e todas as 166 cartas |
+| [Início rápido](docs/QUICKSTART.md) | Instalação, revisão e solução de problemas |
+| [Skill](docs/SKILL.md) | Consulta por assistente e CLI |
+| [Arquitetura](docs/ARCHITECTURE.md) | Fontes, referências, persistência e migração |
+| [API](docs/API.md) | Consulta, sorteio e composição sem estado |
+| [Operação](docs/OPERATIONS.md) | Atualização e backup |
+| [Privacidade](docs/PRIVACY.md) | Dados locais e serviços externos |
+| [Testes e limites](docs/TESTING.md) | Comandos e alcance da evidência |
+| [Revisão histórica dos 100](docs/REVISAO-100-PERSONAGENS.md) | Avaliações autorais das edições anteriores |
+| [Validações registradas](docs/VALIDACAO.md) | Resultados identificados por edição |
 
-<details>
-<summary>Arquivos e manutenção do projeto</summary>
+[![Verificações do repositório](https://github.com/eep0x10/persona-cards/actions/workflows/checks.yml/badge.svg)](https://github.com/eep0x10/persona-cards/actions/workflows/checks.yml) · [Contribuir](CONTRIBUTING.md) · [Histórico](CHANGELOG.md)
 
-Para usar Persona Cards, basta escolher PDF, skill ou web. Os demais diretórios guardam fontes e verificações dessas três entregas:
-
-- `skills/persona-cards/`: skill portátil; `print/` contém os PDFs e a arte.
-- `app/`: aplicação web e sua API local.
-- `deck/`: fonte editorial e produção do baralho; `docs/` e `tests/`: documentação e verificações.
-
-[Início e solução de problemas](docs/QUICKSTART.md) · [Privacidade](docs/PRIVACY.md) · [Arquitetura](docs/ARCHITECTURE.md) · [API](docs/API.md) · [Testes](docs/TESTING.md) · [Contribuir](CONTRIBUTING.md) · [Histórico](CHANGELOG.md)
-
-[![Verificações do repositório](https://github.com/eep0x10/persona-cards/actions/workflows/checks.yml/badge.svg)](https://github.com/eep0x10/persona-cards/actions/workflows/checks.yml)
-
-O baralho 5.0 é preservado; as três cópias ativas do JSON 5.1 devem permanecer idênticas. Ensaios autorais e conferência digital não equivalem a teste físico ou sessão observada. Banner e ilustrações foram criados com IA para este projeto. Inspiração conceitual inicial: [Anatomia do personagem, de Jurandir Gouveia](https://jurandirgouveia.com/anatomia-do-storytelling/anatomia-do-personagem/), sem afiliação ou endosso. Os personagens de cultura pop pertencem às respectivas obras. Licenciamento de redistribuição do projeto ainda não definido; dependências mantêm suas próprias licenças.
-
-</details>
+As três cópias ativas do deck 5.2 devem ser idênticas. Arquivos 5.0/5.1 permanecem históricos. Exemplos autorais, cobertura de códigos e conferência digital não comprovam eficácia com jogadores. Banner e ilustrações foram criados com IA. Inspiração conceitual inicial: [Anatomia do personagem, de Jurandir Gouveia](https://jurandirgouveia.com/anatomia-do-storytelling/anatomia-do-personagem/), sem afiliação ou endosso. Personagens conhecidos pertencem às respectivas obras. Licenciamento de redistribuição do projeto ainda não definido; dependências mantêm suas licenças.

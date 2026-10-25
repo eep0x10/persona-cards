@@ -1,8 +1,8 @@
-# Testes e limites
+# Testes e limites — edição 5.2
 
-[Projeto](../README.md) · [Evidência visual](VALIDACAO.md)
+[Projeto](../README.md) · [Registros por edição](VALIDACAO.md)
 
-Na raiz do repositório, com Python e dependências instaladas:
+Com dependências instaladas, na raiz:
 
 ```sh
 python -m unittest discover -s tests
@@ -13,14 +13,16 @@ npm --prefix app ci
 npm --prefix app run build
 ```
 
-`tests/test_deck.py` protege o hash congelado de 5.0, identidade das três cópias ativas 5.1, contagem/códigos únicos, as 141 leituras e limites de sorteio. `app/test_api.py` protege deck, filtros/exclusões, erros, composição e OpenAPI. `tests/test_docs.py` verifica referências documentais locais, anchors internos, banner e navegação. `app/model.test.mjs` cobre compatibilidade de fichas, finalização, ordem das camadas e validação de retratos. O workflow Checks executa esses contratos e o build. Decodificação/redimensionamento real, layout e PNG final exigem a conferência no navegador.
+O contrato 5.2 deve proteger 166 códigos únicos, 150 cartas de criação, 16 guias, oito famílias obrigatórias, G07 e as três cópias JSON idênticas. Arquivos 5.0/5.1 permanecem históricos. A geração documental é `python deck/build_5_2_docs.py`, depois de `deck/build_5_2.py`; ela não gera PDFs.
 
-Para reconstruir a edição de leitura e os arquivos ilustrados de impressão, execute `python deck/build_5_1.py`, `python deck/build_5_1_docs.py` e `python deck/render_print_illustrated_5_1.py`. Depois, execute `python deck/verify_illustrated_print_5_1.py`. A renderização requer ReportLab, pypdf e as fontes Georgia/Arial indicadas no script; a verificação de transparência das artes também usa Pillow. A validação digital da impressão está registrada em [VALIDACAO.md](VALIDACAO.md); ela não substitui uma prova física.
+A API distingue sorteio padrão de oito cartas, ressorteio parcial, composição completa com jornada e rascunho legado. O modelo do navegador deve preservar textos de até 20 mil caracteres, foto e notas; importação antiga não pode inventar passado. Complete oito interpretações e os cinco registros antes de declarar uma ficha finalizada.
 
-A conferência original no navegador observou seleção, sorteio com carta mantida, edição, salvamento, recarga, exportação/importação e rejeição de ficha inválida. Desktop e 390 px foram examinados sem transbordamento horizontal. Movimento reduzido foi observado; o modo completo não foi conferido visualmente naquele ambiente.
+Os testes de documentação verificam links, anchors, assets, banner e navegação. O conteúdo das 166 cartas no manual/GPT deve corresponder ao JSON, sem reescrever a fonte congelada. Testes e build são necessários, mas não comprovam layout, foco, decodificação raster, exportação PNG ou animação.
 
-Os cinco personagens e quinze ensaios são exercícios autorais. Não houve avaliação independente, teste com jogadores, controle sem deck ou cronometragem. Não transformar essa evidência em porcentagem universal de qualidade. Um próximo teste útil é apresentar cenas sem códigos a leitores e observar reconhecimento, decisões improvisadas e lembrança em mesa.
+A validação no navegador precisa cobrir desktop e 390px: oito escolhas, revisão, G07, recusa de finalização incompleta, recarga, reabertura, exportação/importação, dados legados, filtros e movimento reduzido. Use origem de teste isolada; não substitua dados pessoais para testar migração.
 
-A coleção de inspiração tem contrato próprio em `app/inspirations.test.mjs`: 100 identidades únicas, códigos válidos, interpretações completas e metadados de contexto/fontes. A revisão editorial dos encaixes está em [Revisão dos 100 personagens](REVISAO-100-PERSONAGENS.md). Contagens de cobertura descrevem esta seleção, não uma medida universal da qualidade do baralho.
+Os 100 personagens são um catálogo histórico parcial e continuam com suas próprias justificativas. Seus testes protegem identidade/códigos/metadados; não certificam completude 5.2. A [revisão histórica](REVISAO-100-PERSONAGENS.md) e os exercícios de OR/CV não são playtest nem medidas universais de qualidade.
 
-A revisão 5.1.1 protege as três alterações aprovadas por texto exato, o conjunto de 138 cartas restantes e o overlay editorial contra códigos/labels desconhecidos. O builder é reconstruído duas vezes em diretório temporário para conferir determinismo sem reescrever a fonte histórica. O verificador de impressão confere também os campos operacionais completos, o hash do deck e os hashes dos quatro PDFs.
+PDFs 5.2 exigem conversão inicial via MarkItDown, conferência de códigos/textos/arte, A4, 42 frentes, 42 versos, 84 páginas duplex e 3 páginas de manual, além de inspeção visual. Extração pode misturar colunas; não prometa extração perfeita nem impressão física aprovada com base só no arquivo digital.
+
+Resultados executados devem ser registrados em [VALIDACAO.md](VALIDACAO.md) identificando edição, ambiente e limite da prova. Não reutilizar capturas ou resultados 5.1 como validação automática de 5.2.

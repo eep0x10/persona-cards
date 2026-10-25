@@ -1,3 +1,4 @@
+name: personcard
 services:
   personcard:
     image: ${PERSONA_IMAGE:-persona-cards:local}

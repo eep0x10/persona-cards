@@ -4,6 +4,8 @@
 
 O aplicativo armazena rascunhos, fichas salvas, seleção de módulos e preferência local de movimento no navegador. O armazenamento é separado por origem (protocolo, host, porta). Não há conta ou banco de personagens no servidor.
 
+Na edição 5.2, origem, convicção, demais interpretações e chamado/resposta/fato/crença/escolha também pertencem à ficha local e às exportações. Importar uma edição anterior preserva o texto; não autoriza completar automaticamente fatos pessoais ou da campanha.
+
 A foto opcional é processada localmente, reduzida e guardada com a ficha. Ela não é enviada ao servidor. Exportações JSON incluem o retrato; o PNG contém a carta visual. Compartilhe esses arquivos apenas quando quiser compartilhar também a imagem. Muitas fotos podem atingir a cota do navegador; mantenha cópias exportadas.
 
 A mesa não envia fichas a um serviço de IA. A API pode receber textos se você chamar explicitamente composição, mas não os persiste nem lê localStorage. Exporte JSON para manter backup; fichas exportadas podem conter informações da campanha e devem ser compartilhadas por sua decisão.

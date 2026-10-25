@@ -1,11 +1,13 @@
-# Revisão e limites
+# Revisão e limites — Persona Cards 5.2
 
-Os testes prévios são exercícios interpretativos do autor, não validação independente ou garantia universal. No reteste dos mesmos 100 personagens, classificações boas passaram de 78 a 84, parciais de 5 a 1 e limitadas de 17 a 15, sem regressão observada nessa avaliação. As 15 limitações estavam em N. Não extrapole como porcentagem universal de qualidade.
+A edição 5.2 exige OR/CV/D/F/V/L/P/N e G07 em toda criação completa. A mudança é uma decisão editorial autorizada, não uma facilidade comprovada com jogadores. As 24 cartas OR/CV e o guia acrescentam antecedentes, convicções e resposta ao chamado; a ligação causal ainda depende de interpretação.
 
-Registre cartas, encaixe literal, adaptação e lacuna. Não elimine lacunas renomeando conflitos ou impondo motivações. Se o deck falhar, diga qual aspecto exige escrita adicional.
+Os exercícios anteriores de 100 personagens e as avaliações 78/84 pertencem às edições 5.0/5.1. Não demonstram completude de oito famílias nem eficácia em 5.2. O catálogo continua útil como leitura histórica parcial; importar uma base preserva textos e abre pendências, sem novos passados automáticos.
 
-Teste conversa cotidiana, recusa e mudança de circunstância. O personagem deve permanecer reconhecível sem repetir bordões. Reações podem variar conforme relação e poder; contradições precisam de contexto.
+Registre carta, encaixe literal, adaptação e lacuna. N sempre requer dois valores genuínos; se uma carta não se aplica, escolha outra ou ressorteie N. Em personagem existente sem par estabelecido, deixe a ficha pendente e proponha claramente o que falta. Não invente culpa, trauma, intimidade ou redenção para marcar uma etapa como pronta.
 
-Memória não confiável não significa personalidade instável. Coerção não significa desejo. Missão recebida não significa promessa escolhida. Punição não equivale a reparação. Autovalor não equivale a aplauso. Afeto misturado a controle exige evidência de afeto. Língua de sinais é linguagem: descreva conteúdo sem fabricar tradução gestual real.
+Punição não equivale a reparação; coerção não é consentimento; missão recebida não é promessa escolhida. Objetos e pessoas mortas não recebem vontade atual sem regra do cenário. Alternância de fala não estabelece diagnóstico. Língua de sinais é linguagem completa.
 
-Não use cartas como diagnóstico ou teste psicológico. Trauma, bondade, culpa, redenção e recuperação não são obrigatórios. O método não adiciona regras mecânicas por conta própria; preserve o sistema e a edição pedidos.
+Chamado e destino distinguem fato, crença e escolha. O jogador pode recusar, adiar, renegociar ou redirecionar; uma previsão não garante o desfecho. Conflito pode terminar com um valor sacrificado, sem conciliação obrigatória.
+
+A prova seguinte exige leitores/jogadores, tempo e ajuda registrada, exemplos recusados e comparação entre resultado pretendido e observado. Contar cartas, validar JSON ou renderizar páginas não fornece essa prova.

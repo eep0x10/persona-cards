@@ -25,9 +25,11 @@ Use o Python do ambiente virtual. Reinicie o servidor se o backend ou deck mudou
 
 Exporte cada ficha em JSON. Markdown/texto serve para leitura, mas a importação espera o formato JSON do aplicativo. Importar cria um novo personagem e preserva o rascunho. Limpar dados do navegador pode apagar fichas; mudar protocolo, host ou porta cria outro armazenamento.
 
+Na atualização para 5.2, conserve cópias das fichas 5.0/5.1 antes de completar as novas etapas. Elas abrem como rascunhos pendentes de oito famílias e G07, sem passado, convicção ou conflito inventado automaticamente. Os registros da jornada, foto e interpretações integram o JSON. A galeria de 100 inspirações permanece histórica e parcial no novo método.
+
 ## Diagnóstico
 
-- `/api/health` confirma estado, versão 5.1 e 141 cartas.
+- `/api/health` confirma estado, versão 5.2 e 166 cartas; a revisão 5.2.0 aparece em `/api/deck`.
 - Interface em preparação: execute `npm run build` em `app/`.
 - Porta ocupada: escolha outra e use o endereço correspondente.
 - Importação recusada: confira formato, versão, códigos e limites; não edite a estrutura apenas para contornar a validação.

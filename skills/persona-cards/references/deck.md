@@ -1,36 +1,316 @@
-# Persona Cards 5.1 — revisão editorial 5.1.1
+# Persona Cards 5.2 — revisão 5.2.0
 
-**141 cartas em português: 126 de criação e 15 guias.** O formato 5.1 mantém os códigos, títulos e módulos de 5.0 e acrescenta uma leitura individual para cada carta. O deck 5.0 permanece congelado como histórico.
+**166 cartas em português: 150 de criação e 16 guias.** A criação completa usa uma carta OR, CV, D, F, V, L, P e N, mais G07 — Chamado e destino. As oito famílias são obrigatórias; U/G são consulta, nunca personalidade sorteada.
 
-## Correções da revisão 5.1.1
+## Como jogar
 
-- **U08:** apresenta os três módulos e os intervalos diferentes da expansão 5.0 por família; P termina em P18.
-- **D10:** descreve poder sobre uma decisão sem exigir cooperação ou um limite moral reconhecido. A margem real de recusa dos demais deve ficar explícita.
-- **D13:** admite sobrevivência imediata ou proteção duradoura da própria vida; esse desejo não determina os meios empregados.
-As correções alteram somente campos de U08/D10/D13 e aberturas de D10/D13. As outras 138 cartas permanecem iguais à edição de leitura anterior. Nenhum código novo foi criado; D06 não foi revisada. O campo `versao` continua 5.1 para compatibilidade, e `revisao_editorial` identifica 5.1.1.
+1. Separe as famílias e escolha ou sorteie OR + CV + D + F + V + L + P + N. Leia a abertura e os campos reais de cada carta.
+2. Conecte OR e CV por por isso, apesar disso ou mais tarde aprendi. Origem não determina culpa, trauma ou uma única convicção.
+3. Diga o resultado D, a tentativa F e a expressão V. Em L, respeite a vontade de pessoas vivas e o alcance estabelecido para objetos, entidades ou memória de mortos. Concretize P como circunstância que muda a escolha.
+4. N exige dois valores genuínos que a pessoa quer preservar. Se só descreve um obstáculo ou não cabe no recorte, troque ou ressorteie N; não omita a família. Não force culpa, conciliação ou redenção.
+5. Consulte G07: registre chamado, resposta, fato, crença e escolha. Escolha ou use 1d6 nas listas abaixo. Recusar e renegociar continuam possíveis; destino não determina o resultado.
+6. Acrescente nome, papel, competência e prazer cotidiano. Mostre uma tentativa em cena, aceite a resposta dos demais e registre a consequência observada.
 
-## Como começar
+## Chamado e destino — G07
 
-1. Escolha ou sorteie **D + F + V**. Leia a abertura da carta; complete o objetivo, a forma de agir e a expressão com detalhes de sua campanha.
-2. Dê nome, papel, competência, prazer cotidiano e limite ao personagem. Mostre uma tentativa concreta em cena e deixe a resposta do interlocutor aberta.
-3. Acrescente **L + P** quando o vínculo ou a circunstância mudarem a escolha. Preserve a vontade própria de outras pessoas.
-4. Use **N somente quando o personagem valoriza dois lados em disputa**. Custo, coerção e obstáculo externo não bastam. U/G são consulta, nunca personalidade sorteada.
-5. Depois da cena, registre a ação e a consequência observada. Preserve os fatos jogados; adapte ou troque uma carta que contradiga a continuidade.
+O guia acompanha toda criação completa. As oito cartas descrevem a pessoa; G07 organiza sua resposta à situação. Escolha ou role 1d6 em cada uma das duas listas.
 
-As aberturas convidam a interpretar, não atribuem diagnóstico, trauma, bondade, redenção ou resultado garantido. Desejo não é método; expressão não é identidade; pressão não é conflito interno. O método não substitui as regras do RPG usado pela mesa.
+### Chamado
+
+1. Pedido de alguém
+2. Papel ou herança
+3. Risco concreto
+4. Encontro ou convite
+5. Presságio ou profecia
+6. Natureza, tempo ou finitude
+
+### Resposta
+
+1. Aceito
+2. Recuso
+3. Adio e investigo
+4. Negocio as condições
+5. Tento impedir o futuro
+6. Busco cumprir por outro caminho
+
+### Fato
+
+O que está confirmado no mundo?
+
+### Crença
+
+Quem interpreta ou prevê algo, e com qual evidência?
+
+### Escolha
+
+O que você decide e o que ainda pode escolher? Não sorteie um desfecho.
+
+No aplicativo, esses registros são `journey.call`, `response`, `fact`, `belief` e `choice`. Podem ser anotados em papel. Um valor não é uma afirmação factual: questione sua aplicação sem declará-lo um fato falso.
+
+## Compatibilidade e histórico
+
+Fichas 5.0/5.1 conservam nomes, textos, códigos e fotos, mas ficam como rascunhos pendentes no método 5.2 quando não têm as oito famílias e G07. Não se inventam novos passados ou valores na importação. A galeria de 100 inspirações continua como leituras históricas parciais; usar uma base não certifica completude 5.2.
+
+Os arquivos 5.0/5.1 são históricos. A edição 5.2 acrescenta OR/CV/G07 e atualiza orientações dos guias. Não se reescrevem retroativamente as avaliações anteriores como prova do novo método.
 
 ## Famílias
 
+- **OR — Origem — o que aconteceu antes:** 12 cartas.
+- **CV — Convicção — como interpreta e orienta escolhas:** 12 cartas.
 - **D — Desejo — o que quer agora:** 24 cartas.
 - **F — Forma de agir — como tenta:** 20 cartas.
 - **V — Expressão — como comunica:** 22 cartas.
 - **L — Vínculo — quem também quer algo:** 20 cartas.
 - **P — Pressão — o que muda a situação:** 18 cartas.
-- **N — Conflito interno — dois valores reais:** 22 cartas.
+- **N — Conflito interno — dois valores genuínos:** 22 cartas.
 - **U — Guias de uso:** 9 cartas.
-- **G — Guias de contexto:** 6 cartas.
+- **G — Guias de contexto:** 7 cartas.
 
 ## Cartas completas
+
+## Origem — o que aconteceu antes
+
+### OR01 — Uma ausência ficou (expansao_5_2)
+
+> Alguém ou algo deixou de fazer parte da sua vida. A ausência continua tendo um lugar, mesmo quando você segue adiante.
+
+**Pergunte:** O que se perdeu e o que você conserva? Perda não significa culpa; diga se existe alguma responsabilidade demonstrada.
+
+**Mostre:** Mostre um costume, objeto ou escolha que ainda carrega essa presença.
+
+**Contraste:** Pode sustentar cuidado com quem ficou ou uma tentativa de governar a vida dos outros para impedir novas perdas.
+
+### OR02 — Eu deixei uma marca (expansao_5_2)
+
+> Uma decisão sua mudou a vida de alguém. O que aconteceu continua existindo fora da versão que você conta.
+
+**Pergunte:** O que você fez, que alternativa conhecia e quem sofreu ou ganhou com isso? Separe responsabilidade de remorso.
+
+**Mostre:** Apresente uma consequência que outra pessoa ainda enfrenta; ela pode discordar da sua explicação.
+
+**Contraste:** Pode gerar reparação concreta ou a defesa orgulhosa de um ato nocivo. Arrependimento não vem na carta.
+
+### OR03 — Fui preparado para um papel (expansao_5_2)
+
+> Antes de você escolher, alguém já dizia quem deveria ser. Parte do que aprendeu ainda serve; parte talvez já não caiba.
+
+**Pergunte:** Quem ensinou esse papel, o que esperava e o que você incorporou, recusou ou ainda não decidiu?
+
+**Mostre:** Mostre uma habilidade aprendida e uma expectativa que reaparece.
+
+**Contraste:** Pode formar um sucessor dedicado, um dissidente ou alguém que impõe a outros o mesmo papel.
+
+### OR04 — Alguém ficou ao meu lado (expansao_5_2)
+
+> Houve quem lhe oferecesse tempo, abrigo ou confiança quando isso fez diferença. Esse gesto não determina o que você deve fazer agora.
+
+**Pergunte:** O que recebeu e que significado deu ao gesto? Não presuma dívida nem reciprocidade.
+
+**Mostre:** Mostre como recebe ajuda hoje: acolhe, desconfia, oferece a outra pessoa ou tenta comandar a relação.
+
+**Contraste:** Pode inspirar solidariedade ou transformar cuidado recebido em sentimento de superioridade e proteção possessiva.
+
+### OR05 — Saí quando esperavam que ficasse (expansao_5_2)
+
+> Você atravessou uma porta que outras pessoas julgavam fechada. Sua saída abriu algo e deixou consequências para trás.
+
+**Pergunte:** Do que saiu, por qual motivo e quem interpretou sua partida de outro jeito?
+
+**Mostre:** Faça uma exigência antiga voltar por meio de uma pessoa com vontade própria.
+
+**Contraste:** Pode ser emancipação legítima ou abandono de responsabilidades; a carta não absolve nem condena por antecipação.
+
+### OR06 — Fiquei quando outros partiram (expansao_5_2)
+
+> Você continuou onde a vida de outros seguiu outro caminho. Permanecer preservou alguma coisa e também mudou você.
+
+**Pergunte:** O que escolheu sustentar e quais alternativas realmente tinha? Não trate quem partiu como covarde por padrão.
+
+**Mostre:** Mostre algo que só existe porque você ficou, e alguém que deseja mudá-lo.
+
+**Contraste:** Pode sustentar uma comunidade ou virar justificativa para cobrar obediência de quem chegou depois.
+
+### OR07 — Meu esforço não bastou (expansao_5_2)
+
+> Você tentou algo importante e não alcançou o resultado. O fracasso aconteceu; a explicação que lhe deu pode continuar em disputa.
+
+**Pergunte:** Faltaram capacidade, recursos, informação, oportunidade ou controle? Não transforme resultado em medida de valor pessoal.
+
+**Mostre:** Apresente uma situação parecida e mostre o que faz diferente — ou insiste em repetir.
+
+**Contraste:** Pode ensinar prudência e colaboração ou produzir ressentimento e punição de pessoas usadas como culpadas.
+
+### OR08 — O êxito cobrou um preço (expansao_5_2)
+
+> Você conseguiu o que buscava. Nem tudo que veio com a vitória tinha sido escolhido ou pago por você.
+
+**Pergunte:** Qual foi o ganho, quem arcou com o custo e o que você sabe disso hoje?
+
+**Mostre:** Ofereça uma nova vantagem que repita parte desse custo.
+
+**Contraste:** Pode gerar gratidão e responsabilidade ou a crença de que vencer justifica repetir qualquer método.
+
+### OR09 — Conheci um mundo seguro (expansao_5_2)
+
+> Você teve um lugar onde podia existir sem provar seu valor o tempo todo. Isso pode ser uma força real, sem tragédia escondida.
+
+**Pergunte:** O que tornava esse cotidiano bom e o que você aprendeu com ele?
+
+**Mostre:** Mostre um hábito simples que tenta levar a outro ambiente.
+
+**Contraste:** Pode ampliar hospitalidade ou sustentar a exigência de que todos vivam sob uma única ideia de ordem e normalidade.
+
+### OR10 — Aprendi duas formas de viver (expansao_5_2)
+
+> Você conheceu modos diferentes de habitar o mundo. Nenhum precisa virar caricatura para que a diferença importe.
+
+**Pergunte:** Que práticas ou critérios entram em contraste, e onde você encontrou lugar entre eles?
+
+**Mostre:** Mostre uma decisão em que reconhece mais de uma resposta possível.
+
+**Contraste:** Pode formar uma ponte entre pessoas ou alguém que explora divisões para se tornar indispensável.
+
+### OR11 — O tempo mudou o que eu conhecia (expansao_5_2)
+
+> O mundo seguiu enquanto você seguia também. Uma coisa que parecia duradoura mudou antes que percebesse seu valor.
+
+**Pergunte:** O que passou, o que só entendeu depois e o que ainda pode viver agora?
+
+**Mostre:** Reencontre um lugar, costume ou pessoa sem exigir que permaneça como na lembrança.
+
+**Contraste:** Pode abrir atenção ao presente ou alimentar uma tentativa autoritária de congelar o mundo.
+
+### OR12 — Descobri algo que me prende à vida (expansao_5_2)
+
+> Uma prática, descoberta ou encontro fez o mundo ficar maior. Nem todo começo precisa vir de uma ferida.
+
+**Pergunte:** O que despertou esse interesse e por que ainda importa? Ele não precisa ser um chamado heroico.
+
+**Mostre:** Mostre o prazer de fazer algo bem, mesmo sem público ou recompensa.
+
+**Contraste:** Pode sustentar dedicação generosa ou uma obsessão que trata outras pessoas como matéria da própria obra.
+
+## Convicção — como interpreta e orienta escolhas
+
+### CV01 — Sem controle, tudo se perde (expansao_5_2)
+
+> Você procura segurança em poder antecipar e dirigir o que acontece. Resta saber quanto controle a situação permite e quem fica sem escolha.
+
+**Pergunte:** Em que situação essa regra parece necessária? O que faria diante de alguém capaz que não obedece?
+
+**Mostre:** Outra pessoa resolve um problema de um jeito que você não autorizou. Mostre sua resposta.
+
+**Contraste:** Pode orientar preparação responsável ou domínio coercitivo. Crenças factuais sobre controle podem ser confrontadas; a preferência por ordem é um valor.
+
+### CV02 — Meu valor precisa ser conquistado (expansao_5_2)
+
+> Você mede parte de quem é por uma prova que ainda precisa passar. Talvez ninguém de fora tenha pedido essa prova.
+
+**Pergunte:** O que contaria como suficiente, quem definiu esse critério e o que um fracasso significaria para você?
+
+**Mostre:** Alguém lhe oferece consideração antes da conquista. Diga o que faz com isso.
+
+**Contraste:** Pode mover dedicação ou uma busca de prestígio que humilha quem ameaça o reconhecimento.
+
+### CV03 — Cuidar é estar presente (expansao_5_2)
+
+> Para você, cuidado precisa caber em tempo e gesto. Outra pessoa pode desejar um cuidado diferente do que oferece.
+
+**Pergunte:** Por quem quer estar disponível e como percebe quando presença vira intromissão?
+
+**Mostre:** Um vínculo pede espaço quando você queria ajudar.
+
+**Contraste:** Pode produzir apoio atento ou vigilância possessiva. O valor do cuidado não prova que seu método ajuda.
+
+### CV04 — Não vou repetir aquele dano (expansao_5_2)
+
+> Há um tipo de consequência que você decidiu não produzir nem ajudar a repetir. Essa decisão precisa aparecer no meio que aceita usar.
+
+**Pergunte:** Qual dano quer evitar e em que situação seria difícil sustentar esse limite?
+
+**Mostre:** Surge uma solução eficaz que repete parte do dano. Declare a escolha e quem assume seu custo.
+
+**Contraste:** Pode sustentar um limite ético ou uma prevenção extrema que faz inocentes pagar por um risco.
+
+### CV05 — Ninguém escolhe por mim (expansao_5_2)
+
+> Você quer reconhecer a própria mão nas decisões da sua vida. Isso não torna a vontade dos outros uma extensão da sua.
+
+**Pergunte:** Que escolha reivindica e que escolhas alheias está disposto a respeitar?
+
+**Mostre:** Alguém apresenta uma obrigação, uma previsão ou um conselho como se já fosse sua decisão.
+
+**Contraste:** Pode sustentar emancipação ou a exigência de liberdade apenas para si.
+
+### CV06 — Há algo a preservar em cada vida (expansao_5_2)
+
+> Você reconhece valor numa existência para além da utilidade que ela tem agora. O alcance desse valor se revela nas decisões difíceis.
+
+**Pergunte:** Quem costuma ficar fora da sua atenção e o que preservar uma vida exige neste contexto?
+
+**Mostre:** Uma pessoa hostil fica dependente de uma decisão sua.
+
+**Contraste:** Pode sustentar compaixão ou ser usado para justificar aprisionamento e tutela contra a vontade de alguém. Não implica pacifismo automático.
+
+### CV07 — É melhor saber do que viver enganado (expansao_5_2)
+
+> Você atribui valor a compreender o que acontece, mesmo quando a descoberta pode tirar um consolo ou uma vantagem.
+
+**Pergunte:** A quem deve essa verdade, que acesso considera legítimo e o que faria diante de incerteza?
+
+**Mostre:** Uma informação útil também expõe alguém que não autorizou sua divulgação.
+
+**Contraste:** Pode sustentar investigação responsável ou uma cruzada que desconsidera privacidade e consequências.
+
+### CV08 — Depender de alguém me deixa à mercê (expansao_5_2)
+
+> Quando precisa de outra pessoa, você enxerga também a possibilidade de perder espaço, proteção ou saída.
+
+**Pergunte:** Que risco prevê e que experiência o faz acreditar nisso? É previsão factual, não verdade decretada pela carta.
+
+**Mostre:** Recebe ajuda que não consegue retribuir imediatamente. Mostre o que tenta manter sob seu controle.
+
+**Contraste:** Pode orientar cautela e limites ou isolamento, manipulação e desconfiança mesmo sem evidência suficiente.
+
+### CV09 — A palavra vale mais que a vantagem (expansao_5_2)
+
+> O compromisso que assumiu continua pesando quando aparece uma oportunidade melhor. Nem toda promessa foi livre, justa ou possível.
+
+**Pergunte:** Que compromisso reconhece como seu e o que considera motivo legítimo para renegociá-lo?
+
+**Mostre:** Outra pessoa pede que reveja um acordo que a prejudica.
+
+**Contraste:** Pode sustentar confiabilidade ou fidelidade a uma ordem nociva. Não declara que cumprir sempre é a escolha correta.
+
+### CV10 — Viver também é deixar partir (expansao_5_2)
+
+> Você tenta continuar sem exigir que tudo permaneça sob a mesma forma. Aceitar uma perda não apaga o que importou.
+
+**Pergunte:** O que pode soltar, o que ainda pode reparar e como distingue aceitação de abandono?
+
+**Mostre:** Uma oportunidade de conservar algo cobra impedir a vida de outra pessoa.
+
+**Contraste:** Pode sustentar despedida e renovação ou servir de desculpa para descartar pessoas e fugir de reparações possíveis.
+
+### CV11 — O fim dá sentido ao custo (expansao_5_2)
+
+> Você aceita pagar por um resultado que considera grande. A decisão muda quando o preço deixa de ser só seu.
+
+**Pergunte:** Quem escolhe o objetivo, quem paga e quem pode recusar? Diga se existe um limite real; não invente um.
+
+**Mostre:** Alguém atingido pelo plano rejeita o sacrifício que você considera necessário.
+
+**Contraste:** Pode orientar um risco pessoal voluntário ou uma doutrina que transforma vidas alheias em recurso.
+
+### CV12 — O que termina também pode valer (expansao_5_2)
+
+> Uma experiência não precisa durar para sempre para merecer seu tempo. Você ainda escolhe em que presença investir.
+
+**Pergunte:** O que vale viver mesmo sabendo que vai acabar, e por que isso importa agora?
+
+**Mostre:** Surge um encontro breve que não favorece seu projeto de longo prazo.
+
+**Contraste:** Pode sustentar atenção e coragem diante da finitude ou justificar gratificação que ignora compromissos e consequências.
 
 ## Desejo — o que quer agora
 
@@ -1082,7 +1362,7 @@ As aberturas convidam a interpretar, não atribuem diagnóstico, trauma, bondade
 
 **Abra:** Mostre o custo observável; insistir não garante grandeza.
 
-## Conflito interno — dois valores reais
+## Conflito interno — dois valores genuínos
 
 ### N01 — Raízes / horizontes (nucleo)
 
@@ -1308,23 +1588,23 @@ As aberturas convidam a interpretar, não atribuem diagnóstico, trauma, bondade
 
 ### U01 — NPC rápido (guia)
 
-> Comece pequeno: uma intenção, um modo de agir e uma expressão em cena.
+> Comece pela combinação completa: origem, convicção, desejo, método, expressão, vínculo, pressão e dois valores em conflito; depois responda ao chamado.
 
-**Tire:** D + F + V. Dê nome, papel e um gosto.
+**Tire:** Uma carta OR, CV, D, F, V, L, P e N; consulte G07 para Chamado e destino.
 
-**Complete:** Quero [resultado]. Tento obter [algo] de vocês.
+**Complete:** Interprete as oito cartas com nome, papel e situação. Separe a origem proposta dos fatos já estabelecidos.
 
-**Entre:** Mostre F e V; pedir, oferecer ou exigir não garante resposta.
+**Entre:** Mostre uma tentativa e a expressão; registre chamado, resposta, fato, crença e escolha. A reação dos outros continua aberta.
 
 ### U02 — Personagem completo (guia)
 
-> Acrescente camadas apenas quando elas mudarem uma escolha possível.
+> Todas as oito camadas e Chamado e destino fazem parte da criação 5.2. Conecte-as por escolhas e situações concretas.
 
-**Acrescente:** L + P; use N se houver uma disputa interna real.
+**Acrescente:** Preencha OR + CV + D + F + V + L + P + N e os cinco campos de G07; nenhuma dessas camadas é dispensada na criação 5.2.
 
-**Conecte:** Não invente dois valores para justificar o sorteio.
+**Conecte:** Origem não implica culpa. Convicção distingue fato, valor e regra; N precisa de dois valores genuínos que a pessoa deseja preservar.
 
-**Prepare:** Uma entrada, uma tentativa de ação e um custo.
+**Prepare:** Se o sorteio contradiz o recorte, escolha outra carta ou revise a proposta. Uma combinação aleatória não garante coerência nem exige redenção.
 
 ### U03 — Conversa viva (guia)
 
@@ -1360,7 +1640,7 @@ As aberturas convidam a interpretar, não atribuem diagnóstico, trauma, bondade
 
 > Prepare circunstância e consequências; deixe a decisão para a mesa.
 
-**Combine:** P muda a circunstância; N pode mostrar conflito interno.
+**Combine:** P muda a circunstância; N apresenta dois valores genuínos que a pessoa quer preservar e que a escolha coloca em disputa.
 
 **Concretize:** Defina quem é afetado e quais poder, recurso ou risco pesam.
 
@@ -1378,13 +1658,13 @@ As aberturas convidam a interpretar, não atribuem diagnóstico, trauma, bondade
 
 ### U08 — Elenco variado (guia)
 
-> Varie objetivos, métodos e expressão sem obrigar todos a ter conflito.
+> Varie as oito famílias entre personagens e identifique dois valores genuínos em cada N; não uniformize passado, culpa ou destino.
 
-**Distribua:** Núcleo: 01–12. Expansão: 13–18. Expansão 5.0: D19–D24, F19–F20, N19–N22, L19–L20 e V19–V22; P termina em P18. Misture por família se quiser.
+**Distribua:** Núcleo 01–12; expansão 13–18; expansão 5.0 D19–24/F19–20/N19–22/L19–20/V19–22. P termina em P18. Expansão 5.2: OR01–12 e CV01–12.
 
-**Contraste:** Varie desejo, método e expressão; sorteie sem reposição quando quiser reduzir repetições no elenco.
+**Contraste:** Cada criação usa OR/CV/D/F/V/L/P/N e G07. Varie escolhas e respostas; sorteie sem reposição para reduzir repetições no elenco.
 
-**Confira:** Ausência de conflito não é falha. Não force trauma ou redenção.
+**Confira:** N pede dois valores reais em disputa, não só adversidade. A obrigação da camada não autoriza inventar trauma, culpa ou redenção.
 
 ### U09 — Ajuste e continuidade (guia)
 
@@ -1450,10 +1730,38 @@ As aberturas convidam a interpretar, não atribuem diagnóstico, trauma, bondade
 
 ### G06 — Orientação sem conflito ativo (guia_contexto)
 
-> Um objetivo firme também produz um personagem vivo; conflito interno é opcional.
+> Nem toda dificuldade é conflito interno. Na criação 5.2, encontre dois valores genuínos e uma escolha que os coloque em disputa.
 
-**Separe:** Objetivo dominante, obstáculo externo, custo e eventual segundo valor interno.
+**Separe:** Objetivo, obstáculo e custo não são automaticamente valores concorrentes. Nomeie o que a pessoa quer preservar em cada lado de N.
 
-**Em cena:** Uma pessoa pode manter o objetivo e responder ao custo sem hesitar por outro valor; varie tática, informação e relação.
+**Em cena:** Apresente uma escolha em que os dois valores importem à pessoa; mostre uma tentativa e deixe a consequência em aberto.
 
-**Use:** N é opcional. Declare ausente ou desconhecido quando não houver dois lados demonstrados. Isso continua X na comparação histórica de seis camadas.
+**Use:** G06 ajuda a interpretar ou trocar N, não a omiti-lo na criação 5.2. Se o recorte não sustenta dois valores, reveja a carta ou proponha outra situação; não force culpa ou redenção.
+
+### G07 — Chamado e destino (guia_contexto)
+
+> Algo põe uma possibilidade diante de você. Separe o que aconteceu, o sentido que atribui e a resposta que escolhe.
+
+**Chamado:**
+
+1. Pedido de alguém
+2. Papel ou herança
+3. Risco concreto
+4. Encontro ou convite
+5. Presságio ou profecia
+6. Natureza, tempo ou finitude
+
+**Resposta:**
+
+1. Aceito
+2. Recuso
+3. Adio e investigo
+4. Negocio as condições
+5. Tento impedir o futuro
+6. Busco cumprir por outro caminho
+
+**Fato:** O que está confirmado no mundo?
+
+**Crença:** Quem interpreta ou prevê algo, e com qual evidência?
+
+**Escolha:** O que você decide e o que ainda pode escolher? Não sorteie um desfecho.

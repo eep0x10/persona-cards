@@ -1,5 +1,7 @@
 # Verificação de entrega
 
+As seções datadas abaixo são evidência das edições e ambientes identificados. A criação 5.2 exige oito famílias e G07; resultados e capturas 5.0/5.1 não comprovam automaticamente esse novo fluxo. Os próximos registros 5.2 devem distinguir geração documental, checks de código, PDF digital, navegador desktop/390px e eventual prova física.
+
 ## Finalização e carta do personagem — 23/10/2026
 
 - Em origem isolada `localhost:8767`, o antigo modo automático migrou para movimento completo; escolha explícita por reduzido persistiu após recarga. D/F/V permaneceram no rascunho e o + acrescentou P, N e L como etapas 4, 5 e 6 na ordem de escolha. O progresso passou a 6 de 6.
@@ -73,3 +75,17 @@ A galeria final exibiu100 registros e353 linhas de cartas no DOM (D/F/V/L/P/N). 
 Movimento completo: faces observadas com matrix3d/translateY intermediários. Movimento reduzido: todas as4 faces e explicações do caso em transformnone/opacity1, conteúdo completo. Cópia da base abriu4camadas; finalização guardou L16 e um PNG real de4camadas com rótulo5.1.1 foi inspecionado. Os metadados353/353 foram verificados por testes e amostra editorial independente de24IDs; isso não equivale a conferir visualmente cada uma das100 combinações nem testar leitores.
 
 PDFs são marcados como binários no Git, e o JSON de inspirações preserva seus bytes de origem, evitando conversão automática de finais de linha que alteraria os hashes publicados. O pacote de release deve conferir os hashes novamente contra os arquivos no ZIP.
+
+## Edição 5.2 — oito famílias e Chamado e destino
+
+Conferência de 25/10/2026: 166 cartas, 150 de criação e 16 guias. OR01–OR12 e CV01–CV12 preservam o conteúdo revisado; G07 registra chamado, resposta, fato, crença e margem de escolha. As três cópias ativas são idênticas. Os arquivos históricos 5.0/5.1 e os 100 recortes de inspiração 5.1 foram preservados; a galeria os identifica como leituras parciais para completar na 5.2.
+
+Passaram 35 testes: 12 de baralho/documentação, dez de API e 13 de modelo/interface de dados. A finalização requer oito códigos válidos, oito interpretações próprias e os cinco campos de G07 tanto no navegador quanto na API. A revisão independente encontrou e fechou a divergência em que a API aceitava interpretações vazias. Legados continuam rascunhos sem passado ou conflito inventado.
+
+Foram geradas 25 artes originais por ImageGen, no estilo folk já adotado, em quatro spritesheets de seis cenas e uma imagem individual de G07. Os 29 arquivos de atlas, incluindo os anteriores, têm alfa e cobrem as 166 cartas. Os assets de impressão e web têm bytes idênticos. CV02 usa somente um recorte de margem para evitar fragmento da célula vizinha, equivalente na tela, PNG e PDF; as imagens-fonte não foram editadas.
+
+Os quatro PDFs finais foram convertidos primeiro com MarkItDown. A extração em múltiplas colunas não é usada para reconstruir a ordem das cartas; o verificador também compara todos os códigos, títulos, leituras e campos diretamente com o JSON. Passaram a conferência A4, 42 frentes, 42 versos, 84 páginas duplex e manual de três páginas, hashes e corpo mínimo de 8,5 pontos. A codificação das imagens no PDF foi otimizada sem alterar amostras RGB/alfa, verificadas por hash; não houve redução de resolução. As artes das cartas de criação têm no mínimo 80 pontos; G06/G07 reservam 56 pontos para manter texto legível. Inspeção visual de Origem, Convicção, G07 e manual não encontrou sobreposição. [Prévia real](../skills/persona-cards/print/preview-frentes-5.2-ilustrado.png). Prova física e teste com jogadores continuam pendentes.
+
+No navegador integrado, a mesa foi conferida em 1366×900 e 390×844: oito etapas, seleção e troca dinâmica, Mesa/Grade e zero campos de formulário na mesa. A revisão recusou uma ficha com uma carta e também recusou oito interpretações enquanto faltavam três respostas do guia. Após completar, guardou Iara do Cais com oito cartas e G07; PNG real e JSON 5.2 foram baixados e inspecionados. Nenhum dado pessoal foi usado. [Mesa desktop](../design/mesa-5.2-desktop.png), [mobile](../design/mesa-5.2-mobile.png), [guia mobile](../design/chamado-destino-5.2-mobile.png), [PNG completo](../design/personagem-5.2.png).
+
+O pipeline de publicação tem contrato versionado, snapshot da imagem ativa e recuperação serializada. Dois problemas de concorrência na reversão foram encontrados e fechados por revisão e simulação Linux com locks reais: exclusão entre rollback/publicação e recusa de recuperação obsoleta após uma publicação posterior. A verificação de um snapshot exportado foi executada na infraestrutura real. Esses resultados não equivalem a interromper a produção para ensaiar uma reversão completa.

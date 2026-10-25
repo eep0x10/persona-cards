@@ -5,6 +5,8 @@ from pathlib import Path
 import random
 import unicodedata
 
+FAMILIES = ['OR', 'CV', 'D', 'F', 'V', 'L', 'P', 'N']
+
 def fold(value):
     return ''.join(c for c in unicodedata.normalize('NFD', value.casefold()) if not unicodedata.combining(c))
 
@@ -15,8 +17,9 @@ def main():
     commands.add_parser('get').add_argument('codes', nargs='+')
     commands.add_parser('search').add_argument('query')
     draw = commands.add_parser('draw')
-    draw.add_argument('--families', nargs='+', default=['D', 'F', 'V'])
-    draw.add_argument('--modules', nargs='+', default=['nucleo', 'expansao', 'expansao_5'])
+    draw.add_argument('--families', nargs='+', default=FAMILIES,
+                      help='Padrão: oito famílias; filtros parciais servem à consulta e troca, não à finalização.')
+    draw.add_argument('--modules', nargs='+', default=['nucleo', 'expansao', 'expansao_5', 'expansao_5_2'])
     draw.add_argument('--seed', type=int)
     args = parser.parse_args()
     if args.command == 'get':
@@ -28,10 +31,10 @@ def main():
     elif args.command == 'search':
         result = [c for c in cards if fold(args.query) in fold(json.dumps(c, ensure_ascii=False))]
     else:
-        if len(set(args.families)) != len(args.families) or set(args.families) - set('DFNLVP'):
-            parser.error('Use famílias distintas D/F/N/L/V/P. U/G são consulta.')
-        if set(args.modules) - {'nucleo', 'expansao', 'expansao_5'}:
-            parser.error('Módulos válidos: nucleo, expansao, expansao_5.')
+        if len(set(args.families)) != len(args.families) or set(args.families) - set(FAMILIES):
+            parser.error('Use famílias distintas OR/CV/D/F/V/L/P/N. U/G são consulta. Interprete N com dois valores genuínos; o sorteio não garante coerência.')
+        if set(args.modules) - {'nucleo', 'expansao', 'expansao_5', 'expansao_5_2'}:
+            parser.error('Módulos válidos: nucleo, expansao, expansao_5, expansao_5_2.')
         rng = random.Random(args.seed)
         result = []
         for family in args.families:

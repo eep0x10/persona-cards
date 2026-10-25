@@ -1,126 +1,104 @@
 <div align="center">
 
-<img src="docs/assets/banner.png" alt="Persona Cards: characters around a table with an illustrated card deck" width="100%">
+<img src="docs/assets/banner.png" alt="Persona Cards: characters around a table with an illustrated deck" width="100%">
 
 # Persona Cards
 
-### Draw three cards. Bring a character to life.
+### Eight cards. A story that keeps moving.
 
-A Portuguese narrative card game for RPGs and fiction: **what characters want, how they act, and how they express themselves**.
+A Portuguese narrative deck for RPGs and fiction, connecting **past, conviction, intention and choices**.
 
-[![Revision 5.1.1](https://img.shields.io/badge/revision-5.1.1-244F42?style=flat-square)](deck/manual-5.1.md)
-[![141 cards](https://img.shields.io/badge/cards-141-B65135?style=flat-square)](skills/persona-cards/print/README.md)
+[![Edition 5.2](https://img.shields.io/badge/edition-5.2-244F42?style=flat-square)](deck/manual-5.2.md)
+[![166 cards](https://img.shields.io/badge/cards-166-B65135?style=flat-square)](skills/persona-cards/print/README.md)
 
-[Three ways to play](#three-ways-to-use-the-same-deck) · [How to play](#how-to-play) · [PDF](#1-pdf--cards-on-your-table) · [Skill](#2-skill--cards-with-your-assistant) · [Web](#3-web-application--cards-in-your-browser) · [Five examples](#five-characters-built-with-the-cards) · [Português](README.md)
+[How to play](#how-to-play) · [Call and destiny](#call-and-destiny) · [PDF](#1-pdf--cards-on-your-table) · [Skill](#2-skill--cards-with-your-assistant) · [Web](#3-web-application--cards-in-your-browser) · [Examples](#five-characters-built-with-the-cards) · [Português](README.md)
 
 </div>
 
 ## Three ways to use the same deck
 
-| I want to… | Open | What it does |
+| I want… | Open | How it works |
 | --- | --- | --- |
-| **Play with physical cards** | [Printable PDF](skills/persona-cards/print/Persona-Cards-5.1-Ilustrado-Duplex-A4.pdf) | Print, sort the families, and choose or draw. No computer or AI needed. |
-| **Create with an AI assistant** | [Persona Cards skill](skills/persona-cards/) | A folder containing the deck and instructions for a compatible assistant. |
-| **Explore the cards on screen** | [Open the online table](https://personcard.runictools.com/) | Browse, choose, save, and export character combinations in your browser. |
+| **Physical cards** | [Printable PDF](skills/persona-cards/print/Persona-Cards-5.2-Ilustrado-Duplex-A4.pdf) | Choose or draw by family, without a computer or AI. |
+| **An AI assistant** | [Persona Cards skill](skills/persona-cards/) | Instructions, deck and examples for a compatible assistant. |
+| **Cards on screen** | [Online table](https://personcard.runictools.com/) | Explore, assemble and keep characters in your browser. |
 
-These are three ways to access the same game; use whichever suits your table. Persona Cards supports invention and interpretation. Your RPG system supplies combat rules, statistics, and dice resolution. The card text is in Portuguese.
-
-## Editorial revision 5.1.1
-
-The approved review is applied to the deck, skill, PDFs and web app. **U08** includes the 5.0 expansion and correct family ranges; **D10** separates authority from compulsory cooperation or moral limits; **D13** supports immediate survival and lasting protection. The deck retains **141 codes, titles and modules**. Filenames and import format remain `5.1`; `5.1.1` identifies this editorial revision. Frozen 5.0 remains intact. [Changes and evidence](docs/REVISAO-100-PERSONAGENS.md#aplicação-da-revisão-editorial-511).
+Edition **5.2 / revision 5.2.0** has **150 creation cards and 16 guides**, 166 in total. Your RPG supplies combat, statistics and resolution rules. The card text is Portuguese.
 
 ## How to play
 
-**[Download edition 5.1](https://github.com/eep0x10/persona-cards/releases/tag/v5.1.1):** individual PDFs and a project ZIP containing the skill, the built web application, instructions and documentation.
+Sort families and choose or draw **one OR, CV, D, F, V, L, P and N**. All eight are required for a complete 5.2 character.
 
-Sort the cards by the letters in their headers. Choose or draw **one D, one F, and one V**, then read each opening prompt.
+| Family | Question | Cards |
+| --- | --- | ---: |
+| OR · Origin | What happened before and still matters? | 12 |
+| CV · Conviction | What belief, value or rule informs choices? | 12 |
+| D · Desire | What do they want now? | 24 |
+| F · Way of acting | How do they try? | 20 |
+| V · Expression | How do speech, gesture, writing or signs convey intention? | 22 |
+| L · Relationship | Who or what matters to their decisions? | 20 |
+| P · Pressure | What circumstance changes the next choice? | 18 |
+| N · Internal conflict | Which two genuinely valued sides compete? | 22 |
 
-| Card | Question | Example |
+Connect OR and CV through **because of that**, **despite that**, or **later I learned**. Trauma, secrets and guilt are not required. Make D concrete, show F and V in an attempt, respect living people's agency in L, and describe the change in circumstances through P. Objects and dead people do not acquire a current will without an established setting rule. Add a name, role, competence and everyday pleasure.
+
+**N is required, but adversity alone is not internal conflict.** Replace or redraw N if it only describes an obstacle or does not fit two genuine values. Do not force remorse, goodness or redemption. Preserve established facts; an existing character remains pending if a suitable proposal is still missing.
+
+## Call and destiny
+
+Consult **G07** for every creation. Choose or roll **1d6 independently in each column**.
+
+| d6 | Call | Initial response |
 | --- | --- | --- |
-| **D · Desire** | What do they want now? | Reopen a crossing for an isolated neighborhood. |
-| **F · Way of acting** | How do they try? | Bring residents and the council into a negotiation. |
-| **V · Expression** | How does it appear in speech or gesture? | Explain one step at a time and draw the route. |
+| 1 | Someone asks | Accept |
+| 2 | Role or inheritance | Refuse |
+| 3 | Concrete risk | Delay and investigate |
+| 4 | Encounter or invitation | Negotiate conditions |
+| 5 | Omen or prophecy | Try to prevent the future |
+| 6 | Nature, time or finitude | Seek another way to fulfill it |
 
-Add a name, role, competence, and everyday habit or pleasure. Attempt something in a scene. Other people may accept, negotiate, or refuse; the cards do not choose the outcome.
+Record **call, response, fact, belief and choice**. Facts are confirmed circumstances; beliefs assign meaning; choices state what the person tries now. A prophecy may be an uncertain account. Refusal is not automatically cowardice, acceptance does not establish goodness, and a die does not choose the ending. Others can disagree.
 
-**Quick example:** Lina is a boat operator. **D12 — Abrir um horizonte** becomes opening a route; **F07 — Aproximo as partes** becomes a meeting between residents and the council; **V11 — Passo a passo** becomes “First we measure the depth. Then we mark the return route.” Three cards already give her something to do.
-
-Add **L (Relationship)** for someone with their own goals and **P (Pressure)** for a circumstance that changes the decision. Use **N (Internal conflict)** only when two values the character genuinely wants to preserve compete. **U/G** are reference guides, excluded from personality draws. There are **126 creation cards and 15 guides**, 141 in all. Choose cards deliberately or draw for surprise. Preserve established story events when a card no longer fits. Trauma, secrets, and redemption are optional.
-
-## 100 characters for inspiration
-
-Open **Inspiração** in the web app to browse **100 pop-culture characters** from films, anime, animation, comics, television and games, including heroes, villains and supporting characters. Search by name or franchise, then inspect the chosen story context, interpreted D/F/V cards and relevant optional layers.
-
-<img src="design/inspiracao-desktop.png" alt="Inspiration gallery with 100 characters and filters" width="900">
-
-Each detail shows the actual illustrated cards and an explanation below each one of why it fits that character. The preview lists every selected layer, including optional L/P/N. These are possible readings, not definitive character profiles. Suggested scenes are original exercises; official sources accompany each example. Deck illustrations symbolize the selected ideas, rather than depicting copyrighted characters. **Usar como base** copies a template into your own creation; browsing preserves your draft, and replacing ongoing work requires confirmation.
-
-The [system review](docs/REVISAO-100-PERSONAGENS.md) uses the same 100 builds to examine fit, gaps and proposed improvements. Proposed additions are separate from the published **141-card** deck. This is an editorial exercise, not a player study.
+U/G remain reference guides outside personality draws. G07 accompanies the eight cards rather than replacing one. After a scene, record attempts, responses and observed consequences, preserving established events.
 
 ## 1. PDF — cards on your table
 
-Each 5.1 card has an individual reading prompt and folk illustration. This is an actual print sheet:
+<img src="skills/persona-cards/print/preview-frentes-5.2-ilustrado.png" alt="Four actual Origin cards from edition 5.2, with individual folk illustrations and complete text" width="680">
 
-<img src="skills/persona-cards/print/preview-frentes-5.1-ilustrado.png" alt="Four actual illustrated cards from the printable deck" width="680">
+- [Complete duplex deck](skills/persona-cards/print/Persona-Cards-5.2-Ilustrado-Duplex-A4.pdf).
+- [Fronts](skills/persona-cards/print/Persona-Cards-5.2-Ilustrado-Frentes-A4.pdf) and [backs](skills/persona-cards/print/Persona-Cards-5.2-Ilustrado-Versos-A4.pdf).
+- [Quick printing manual](skills/persona-cards/print/Persona-Cards-5.2-Ilustrado-Manual-Rapido.pdf).
 
-- **[Complete front/back PDF](skills/persona-cards/print/Persona-Cards-5.1-Ilustrado-Duplex-A4.pdf):** automatic duplex printing.
-- [Fronts](skills/persona-cards/print/Persona-Cards-5.1-Ilustrado-Frentes-A4.pdf) + [backs](skills/persona-cards/print/Persona-Cards-5.1-Ilustrado-Versos-A4.pdf): printing each side separately.
-- [Quick printing manual](skills/persona-cards/print/Persona-Cards-5.1-Ilustrado-Manual-Rapido.pdf): keep the instructions with your deck.
-
-Choose **A4 portrait, actual size / 100%, flip on the long edge**. Test two consecutive pages of the complete PDF before printing the rest, then cut along the marks. Cards measure **92 × 130 mm**, four per sheet, on 36 sheets; the last has one card. Manual paper reinsertion depends on the printer. You can also read the PDF on screen and record the codes. Digital layout checks passed; a physical print test has not been performed. [5.0 archive](skills/persona-cards/print/README.md#edição-original-50).
+Use **A4 portrait, actual size / 100%, flip on the long edge**. Test a consecutive front/back pair first. Cards measure **92 × 130 mm**, four per sheet: **42 sheets / 84 duplex pages**, with two cards on the final sheet. Manual paper reinsertion depends on the printer. Digital checks do not replace a physical print test or table use. [Printing details and archives](skills/persona-cards/print/README.md).
 
 ## 2. Skill — cards with your assistant
 
-A **skill** is a folder of instructions and references that a compatible assistant can consult. It contains the same deck and method, rather than a separate character system.
-
-**In Codex:** download this repository through **Code → Download ZIP**, extract it, and copy the entire `skills/persona-cards` folder to your skill directory. The usual Windows destination is `C:\Users\YOUR_USER\.codex\skills\persona-cards`; on macOS/Linux, `~/.codex/skills/persona-cards`. Start a new conversation that recognizes the skill. `SKILL.md` should be directly inside that folder.
+A skill is a folder of instructions and references, rather than an account or image generator. Download through **Code → Download ZIP**, extract, and copy the whole `skills/persona-cards` folder into `~/.codex/skills/persona-cards`. The usual Windows path is `C:\Users\YOUR_USER\.codex\skills\persona-cards`. Start a conversation that recognizes it; `SKILL.md` belongs directly inside that directory.
 
 ```text
-Use $persona-cards to create a fantasy RPG ally.
-She operates a boat and wants to reopen a crossing.
-Choose the cards, explain the combination, and write an encounter scene.
+Use $persona-cards 5.2 to create a boat operator as an ally.
+Choose and interpret OR/CV/D/F/V/L/P/N, with two genuine values in N.
+Complete call, response, fact, belief and choice using G07.
+Show an attempt in a scene and a possible response to refusal.
 ```
 
-Give your assistant the setting and established facts. Ask for a quick NPC, villain, cast, or deeper interpretation. The assistant consults the cards and proposes actions and choices; you decide what becomes part of the campaign.
-
-Without skill support, attach or paste [`docs/persona-cards-gpt.md`](docs/persona-cards-gpt.md), which combines instructions and deck, into the same conversation as your request. This does not install it in other chats.
+Supply the setting and established facts; you decide what enters the campaign. Without skill support, attach or paste [the self-contained instructions, cards and examples](docs/persona-cards-gpt.md) in the same conversation. This does not install the skill in other chats.
 
 ## 3. Web application — cards in your browser
 
-**[Open Persona Cards on RunicTools](https://personcard.runictools.com/)** — works on desktop and mobile, without installation, accounts or AI keys.
+**[Open the RunicTools table](https://personcard.runictools.com/)**. You can also play entirely with paper or the skill.
 
-The application lets you explore the deck, assemble combinations, and save and export characters. Data stays in that browser rather than an account or remote character database.
+Explore all **eight families**, switch Mesa/Grade, flip to read, then select explicitly. Browsing does not change your choices. **Sortear · manter** preserves locked cards while drawing others; U/G stay in reference browsing.
 
-**A card table, without forms.** Switch between **Mesa** (a fan of cards) and **Grade** (a grid for comparing one family). These are screenshots of the application.
+**Salvar personagem** opens the review: name the character, interpret eight cards and complete the five Call and destiny fields. Forms belong to saving/reviewing; browsing the table uses cards. Photo, role, context and notes are optional. Finalization requires valid selections, interpretations and journey. Reopen, edit and export your character.
 
-<img src="design/mesa-final-desktop.png" alt="Digital card table with a fan of cards and the character combination" width="900">
+**Legacy data:** 5.0/5.1 characters retain their text and open as pending drafts in 5.2. No new OR/CV, past or internal conflict is invented automatically. The **100 inspirations are partial historical readings**, not 100 complete characters in the new method. Copy a base to complete it, preserving your current draft through the confirmation flow.
 
-<details>
-<summary>See the grid view</summary>
+Data and photos stay in that browser and origin (protocol, host and port), without an account or remote character database. Export JSON for a full backup; clearing site data may erase local-only work. Markdown/PNG are reading formats; JSON supports transfer. Photos are processed locally. Anime.js supplies motion; the footer offers reduced motion and system preference.
 
-<img src="design/mesa-final-grid-desktop.png" alt="Illustrated Desire cards in a grid" width="900">
+### Run locally
 
-</details>
-
-1. Start with **Desejo**. Browse with arrows, swipe on a phone or scroll horizontally over the hand. In **Grade**, tap a card to inspect it on the table.
-2. Use **Virar · como jogar** to read its instructions. Browsing and flipping do not select it.
-3. Press **Escolher esta carta**. It joins your combination and the table guides you through **D → F → V**. Tap a combination slot to revisit it.
-4. Use **+ after Expressão** to add Bond, Pressure or Inner Conflict. They become steps 4–6 in the order you choose. U/G remain separate under **Guias**.
-5. **Salvar personagem** opens a review where you name the character, complete pending details and interpret the cards in your setting. Add an optional photo, then **Finalizar** saves and shows the character card. You can edit it and download a PNG.
-6. **Meus personagens** holds finished cards and older combinations. **Sortear · manter** keeps locked choices when drawing. **Importar · exportar** transfers JSON or Markdown; JSON also preserves the photo.
-
-**Anime.js** animates browsing, flipping and placing cards. **Full motion is the default**; the footer lets you reduce it or choose **Seguir sistema**. An explicit reduced-motion choice is preserved. Older character text remains available in the review and exports. Photos are processed and stored in your browser, without uploading them to the server.
-
-<details>
-<summary>See the review and a fictional character card</summary>
-
-<img src="design/revisao-personagem-desktop.png" alt="Review of Lina do Canal with identity, optional photo and card interpretations" width="900">
-
-<img src="design/carta-personagem-desktop.png" alt="Finished Lina do Canal card using deck artwork instead of a photo" width="700">
-
-</details>
-
-On Windows, install **Git, Python 3.12+, and Node.js 22 with npm**, open PowerShell, and run:
+Install **Git, Python 3.12+ and Node.js 22 with npm**. In PowerShell:
 
 ```powershell
 git clone https://github.com/eep0x10/persona-cards.git
@@ -128,97 +106,60 @@ cd persona-cards/app
 ./iniciar.ps1
 ```
 
-Open **http://127.0.0.1:8766**. The launcher prepares dependencies on the first run. For later sessions, run `./iniciar.ps1` from `app` again.
-
-<details>
-<summary>If PowerShell blocks the script, or you updated the project</summary>
-
-You can start manually without changing PowerShell policy. From `app`:
-
-```powershell
-python -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r requirements.lock.txt
-npm ci
-npm run build
-.\.venv\Scripts\python.exe -m uvicorn server:app --host 127.0.0.1 --port 8766
-```
-
-Open the same address and keep the terminal running. If the port is occupied, try opening the existing application first. After downloading an update, run `npm ci` and `npm run build` again, restart the process you opened, and reload the page. The launcher reuses a healthy service and does not rebuild an existing interface. If `python`, `git`, or `npm` is not recognized, finish installing it and open a new terminal.
-
-</details>
-
-<details>
-<summary>Linux and macOS</summary>
-
-With Git, Python 3.12+, and Node.js 22 installed:
-
-```sh
-git clone https://github.com/eep0x10/persona-cards.git
-cd persona-cards/app
-python3 -m venv .venv
-.venv/bin/python -m pip install -r requirements.lock.txt
-npm ci
-npm run build
-.venv/bin/python -m uvicorn server:app --host 127.0.0.1 --port 8766
-```
-
-Open **http://127.0.0.1:8766** and keep the process running while using the app.
-
-</details>
-
-**Keep a copy:** storage belongs to that browser, address, and port. Export to transfer a character or back it up. Clearing site data may erase local characters. No AI key is required; installation downloads dependencies.
+Open **http://127.0.0.1:8766**. The launcher reuses a healthy service; see [quick start](docs/QUICKSTART.md) for blocked scripts, updates and manual Linux/macOS setup. Export your work before updating. Installation downloads dependencies; no AI key is needed.
 
 ## Five characters built with the cards
 
-These are real card codes. The first three are interpretations of familiar characters in **invented, non-canon scenes**. The final two are original characters in the same campaign. They illustrate the game and are not observed table playtests.
+These use real codes. **All added origins, convictions, tensions and scenes are authorial proposals, not canon events or conclusions about the original characters.** The final two are original characters in one campaign. These are examples, not observed playtests.
 
 ### 1. Luffy — One Piece
 
-**D03 — Escolher meu caminho · F17 — Tomo a frente · V09 — Entusiasmo que convida**
+**OR04 · CV05 · D03 · F17 · V09 · L08 · P04 · N07 · G07**
 
-His [official profile](https://one-piece.com/character/luffy/index.html) establishes the Pirate King ambition, adventure, and companions. Here D03 expresses freedom to choose the route, F17 starts the action, and V09 invites others into the adventure. **L08/P04** adds a crewmate who needs a different stop. In our hypothetical scene he points to an island, but must listen, negotiate, or insist when the other person refuses. No N is necessary: risk and fatigue alone do not establish two competing internal values.
+In our proposed scene, a companion stayed after a defeat (OR04). Luffy reads that support as room for choice, rather than ownership of another person's decisions (CV05). He wants to choose the next island (D03), starts the action (F17), and invites with enthusiasm (V09). Nami has independent priorities (L08); a crewmate chooses to stay at port (P04). We explicitly propose two valued sides: **freedom to leave and an accepted commitment to accompany the crewmate through a delivery** (N07).
+
+**G07:** call — a companion asks for help; response — renegotiate; fact — the delivery remains unfinished; belief — freedom allows chosen commitments; choice — agree on a stop without deciding for Nami. She can refuse. Competence: leading in action; pleasure: looking for a meal on the next island.
 
 ### 2. Zuko — Avatar: The Last Airbender
 
-**D15 — Entender quem sou · F15 — Insisto além do custo · V04 — Conclusão primeiro**
+**OR03 · CV07 · D15 · F15 · V04 · L07 · P05 · N03 · G07**
 
-This reading follows a period of change, drawing on his [official profile](https://www.avatarstudiosofficial.com/characters/). D15 questions who he wants to become; F15 makes persistence cost him something; V04 gives him a decision before the explanation. **L07** places Iroh in an advisory role. **N03/P05** pits truth against belonging after reliable evidence challenges an order. In the invented scene Zuko refuses part of the order and shows the evidence. Advice does not settle the decision, and a truthful choice does not guarantee reconciliation.
+The proposed antecedent is preparation for an inherited role (OR03); the conviction values truth (CV07). Zuko questions who he chooses to be (D15), persists beyond visible cost (F15), and gives the conclusion first (V04). Iroh advises with his own criteria (L07). Reliable evidence contradicts an order (P05). **Truth and family/national belonging** both matter in this scene (N03); adversity alone would not establish that pair.
+
+**G07:** call — an inherited obligation; response — renegotiate; fact — the document contradicts the justification; belief — disagreement need not erase every valued part of his origin; choice — refuse that part and show the evidence. Nobody's reconciliation is guaranteed. Competence: disciplined training; proposed pleasure: preparing a drink during a pause.
 
 ### 3. Batman — DC Comics
 
-**D04 — Garantir proteção · F01 — Planejo antes · V04 — Conclusão primeiro**
+**OR01 · CV06 · D04 · F01 · V04 · L07 · P03 · N14 · G07**
 
-The [official DC profile](https://www.dc.com/characters/batman) supports a protector, investigator, and strategist. D04 becomes keeping residents safe; F01 organizes investigation and rescue; V04 delivers a brief direction. **L07/P03** introduces Alfred's advice and a protocol that has closed the intended shelter. Our invented scene asks Batman to find an alternative, challenge the rule, or offer resources. Residents and staff can still disagree. A vow or dual identity does not automatically require N. Zuko and Batman share V04 but interpret it differently.
+An absence remains present in his routine (OR01); protecting a life matters beyond utility (CV06). He wants residents safe from an attack (D04), prepares resources (F01), and gives brief directions (V04). Alfred advises without controlling the decision (L07). A protocol has closed the shelter (P03). We propose **checking every detail and allowing capable allies genuine initiative** as competing values (N14), rather than deriving conflict from a vow or dual identity.
+
+**G07:** call — a threat; response — redirect; fact — the shelter is closed; belief — protection cannot depend on one person's supervision alone; choice — entrust an alternative route to Alfred while investigating. Residents can disagree. Competence: investigation; proposed pleasure: restoring a small mechanism.
 
 ### A campaign: the gates of Porto da Névoa
 
-Low water reveals an old channel. Isolated neighborhoods need the crossing; the council proposes closing it after accidents. An old map shows a possible route, but current safety still needs to be tested.
+Low water reveals an old channel. Residents need a crossing; the council wants it closed after accidents. An old map **does not establish present safety**.
 
 ### 4. Ally: Lina Moura, boat operator and mapmaker
 
-**D12 — Abrir um horizonte · F07 — Aproximo as partes · V11 — Passo a passo · L03 — Sócio de outra ideia · P12 — Duas promessas, um recurso**
+**OR12 · CV03 · D12 · F07 · V11 · L03 · P12 · N02 · G07**
 
-Lina reads currents, draws waterproof maps, and repairs miniature boats for pleasure. Her cards turn reopening the crossing into negotiation and clear steps. Her co-owner Dara wants their boat kept available for evacuation (**L03**). Delivering medicine and inspecting the route require the same boat at dawn (**P12**). Lina asks the players for help and negotiates with Dara. Refusal makes her find another boat or renegotiate a promise. Players can help, question the map, or offer another solution. Being an ally does not make everyone obey her.
+Mapping currents became a meaningful pleasure (OR12), and care means showing up (CV03). Lina wants a crossing reopened (D12), translates the parties' requests (F07), and explains practical steps (V11). Her partner Dara wants their boat available for evacuation (L03); inspection and a promised medicine delivery need it at dawn (P12). Lina values **efficient use of scarce resources and giving affected people a voice** (N02).
+
+**G07:** call — residents' invitation; response — renegotiate; fact — one boat is available; belief — the route deserves testing, not advance certainty; choice — consult those affected and ask for help measuring. Dara and the players may refuse. Competence: reading currents; pleasure: repairing miniature boats.
 
 ### 5. Villain: Seris Vale, councilor of the crossings
 
-**D10 — Ampliar minha influência · F14 — Oculto e enceno · V16 — Encanto calculado · L15 — Aliança por interesse · P05 — Evidência inesperada**
+**OR09 · CV01 · D10 · F14 · V16 · L15 · P05 · N14 · G07**
 
-Seris wants sole control of routes and tolls. A skilled stock administrator who prevented past shortages, she uses that credit to concentrate power. F14 conceals an old map while she claims no other passage ever existed; V16 makes the demand courteous. She restores book bindings outside council work. The warehouse guild cooperates while it profits (**L15**). A reliable record exposes her false claim (**P05**), but does not establish present safety. She can demand inspection, try to control it, or discredit Lina. Players can oppose the monopoly through evidence, negotiation, oversight, or combat. No N is established; being challenged does not create remorse automatically.
+An orderly routine once offered security (OR09), informing her belief that control prevents loss (CV01). She wants sole authority over routes and tolls (D10), hides a map behind performed concern (F14), and uses calculated courtesy (V16). The warehouse guild cooperates while it profits (L15); a reliable record exposes the old passage (P05). In this proposed scene, she values **checking every detail and allowing administrators the initiative her own project needs** (N14). This does not require remorse or redemption.
 
-## After the scene
+**G07:** call — a sign read as destiny; response — redirect; fact — the channel existed; belief — only her command will prevent another crisis; choice — try to control the inspection and face the guild's initiative. Evidence does not determine her response or prove current safety. Competence: managing stocks; pleasure: restoring book bindings. Players may oppose the monopoly through evidence, negotiation, oversight or combat.
 
-Record the attempt, the response, and what changed. Keep a card while it serves the character; replace it when established events require something else. Intentions, behavior, relationships, and consequences create depth without using every family.
+## Documentation and limits
 
-<details>
-<summary>Project files and maintenance</summary>
+[Manual](deck/manual-5.2.md) · [Quick start](docs/QUICKSTART.md) · [Skill](docs/SKILL.md) · [Architecture](docs/ARCHITECTURE.md) · [API](docs/API.md) · [Operations](docs/OPERATIONS.md) · [Privacy](docs/PRIVACY.md) · [Tests](docs/TESTING.md) · [Historical 100-case review](docs/REVISAO-100-PERSONAGENS.md) · [Validation records](docs/VALIDACAO.md)
 
-Use PDF, skill, or web. Other directories contain their production sources and checks: `skills/persona-cards/` is portable, `print/` contains PDFs and artwork, `app/` contains the web tool and local API, and `deck/`, `docs/`, and `tests/` support production and verification.
+[![Repository checks](https://github.com/eep0x10/persona-cards/actions/workflows/checks.yml/badge.svg)](https://github.com/eep0x10/persona-cards/actions/workflows/checks.yml) · [Contributing](CONTRIBUTING.md) · [History](CHANGELOG.md)
 
-[Quick start and troubleshooting](docs/QUICKSTART.md) · [Privacy](docs/PRIVACY.md) · [Architecture](docs/ARCHITECTURE.md) · [API](docs/API.md) · [Testing](docs/TESTING.md) · [Contributing](CONTRIBUTING.md) · [History](CHANGELOG.md)
-
-[![Repository checks](https://github.com/eep0x10/persona-cards/actions/workflows/checks.yml/badge.svg)](https://github.com/eep0x10/persona-cards/actions/workflows/checks.yml)
-
-The 5.0 deck remains frozen; three active 5.1 JSON copies must match. Banner and illustrations were created with AI for this project. Initial conceptual inspiration: [Anatomia do personagem by Jurandir Gouveia](https://jurandirgouveia.com/anatomia-do-storytelling/anatomia-do-personagem/), with no affiliation or endorsement. Pop culture characters belong to their respective works. Project redistribution licensing has not been defined; dependencies retain their licenses.
-
-</details>
+Three active 5.2 JSON copies must match. 5.0/5.1 artifacts remain historical. Authorial examples and digital checks do not establish effectiveness with players. Banner and illustrations were created with AI. Initial conceptual inspiration: [Anatomia do personagem by Jurandir Gouveia](https://jurandirgouveia.com/anatomia-do-storytelling/anatomia-do-personagem/), without affiliation or endorsement. Familiar characters belong to their respective works. Redistribution licensing is not defined; dependencies retain their own licenses.

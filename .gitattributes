@@ -10,3 +10,7 @@ skills/persona-cards/references/deck.json -text
 *.pdf binary
 app/public/inspirations.json -text whitespace=cr-at-eol
 docs/REVISAO-100-PERSONAGENS.md -text whitespace=cr-at-eol
+
+# Keep historical editorial-source hashes identical in Windows and Linux.
+deck/expansao-5.2.json -text
+deck/revisao-5.2.1.json -text

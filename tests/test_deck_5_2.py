@@ -83,7 +83,7 @@ class Complete52Contract(unittest.TestCase):
         self.assertEqual(hashlib.sha256(unaffected).hexdigest(),
                          'f1766e3ec126c466ff8f2c9818395da9dbdd1022f5c26684e3a441bb5bef89d1')
         for path,expected in [
-            (BUILDER.EXPANSION,'70fb8c0fb6e4e200a5e946bb7e6b1695fe019a81f5eeea2cde5f61ca57784445'),
+            (BUILDER.EXPANSION,'76971b1710c4438e0485513fcd56ef0b1698f7aaff4148bcb88eac21b41d5656'),
             (BUILDER.REVISION,'7d1fec169d9fee006806b55f606b9ea277327312936338b18a5bf03b9ad28f6c')]:
             self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(),expected)
         original=next(c for c in json.loads(BUILDER.EXPANSION.read_bytes())['cartas'] if c['codigo']=='G07')

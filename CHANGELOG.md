@@ -1,5 +1,9 @@
 # Histórico
 
+## Aplicação — 5.2.5 / baralho revisão 5.2.2
+
+- Verificação dos bytes históricos portátil entre Windows e Linux, preservando os bytes já publicados no Git. Conteúdo de G07 e PDFs igual à entrega5.2.4.
+
 ## Aplicação — 5.2.4 / baralho revisão 5.2.2
 
 - G07 distingue recusar o chamado concreto de negociar condições e permite registrar mudanças posteriores sem apagar a primeira resposta.

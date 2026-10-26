@@ -9,7 +9,7 @@
 A Portuguese narrative deck for RPGs and fiction, connecting **past, conviction, intention and choices**.
 
 [![Edition 5.2](https://img.shields.io/badge/edition-5.2-244F42?style=flat-square)](deck/manual-5.2.md)
-[![166 cards](https://img.shields.io/badge/cards-166-B65135?style=flat-square)](skills/persona-cards/print/README.md)
+[![169 cards](https://img.shields.io/badge/cards-169-B65135?style=flat-square)](skills/persona-cards/print/README.md)
 
 [How to play](#how-to-play) · [Call and destiny](#call-and-destiny) · [PDF](#1-pdf--cards-on-your-table) · [Skill](#2-skill--cards-with-your-assistant) · [Web](#3-web-application--cards-in-your-browser) · [Examples](#five-characters-built-with-the-cards) · [Português](README.md)
 
@@ -23,7 +23,9 @@ A Portuguese narrative deck for RPGs and fiction, connecting **past, conviction,
 | **An AI assistant** | [Persona Cards skill](skills/persona-cards/) | Instructions, deck and examples for a compatible assistant. |
 | **Cards on screen** | [Online table](https://personcard.runictools.com/) | Explore, assemble and keep characters in your browser. |
 
-Edition **5.2 / revision 5.2.0** has **150 creation cards and 16 guides**, 166 in total. Your RPG supplies combat, statistics and resolution rules. The card text is Portuguese.
+Edition **5.2 / revision 5.2.1** has **153 creation cards and 16 guides**, 169 in total. Your RPG supplies combat, statistics and resolution rules. The card text is Portuguese.
+
+Revision **5.2.1** adds F21 (teaching through attempts), F22 (listening before proposing) and N23 (immediate pleasure versus a longer project), with clarified card wording. See the [editorial review](docs/REVISAO-BARALHO-5.2.1.md).
 
 ## How to play
 
@@ -34,11 +36,11 @@ Sort families and choose or draw **one OR, CV, D, F, V, L, P and N**. All eight 
 | OR · Origin | What happened before and still matters? | 12 |
 | CV · Conviction | What belief, value or rule informs choices? | 12 |
 | D · Desire | What do they want now? | 24 |
-| F · Way of acting | How do they try? | 20 |
+| F · Way of acting | How do they try? | 22 |
 | V · Expression | How do speech, gesture, writing or signs convey intention? | 22 |
 | L · Relationship | Who or what matters to their decisions? | 20 |
 | P · Pressure | What circumstance changes the next choice? | 18 |
-| N · Internal conflict | Which two genuinely valued sides compete? | 22 |
+| N · Internal conflict | Which two genuinely valued sides compete? | 23 |
 
 Connect OR and CV through **because of that**, **despite that**, or **later I learned**. Trauma, secrets and guilt are not required. Make D concrete, show F and V in an attempt, respect living people's agency in L, and describe the change in circumstances through P. Objects and dead people do not acquire a current will without an established setting rule. Add a name, role, competence and everyday pleasure.
 
@@ -69,7 +71,7 @@ U/G remain reference guides outside personality draws. G07 accompanies the eight
 - [Fronts](skills/persona-cards/print/Persona-Cards-5.2-Ilustrado-Frentes-A4.pdf) and [backs](skills/persona-cards/print/Persona-Cards-5.2-Ilustrado-Versos-A4.pdf).
 - [Quick printing manual](skills/persona-cards/print/Persona-Cards-5.2-Ilustrado-Manual-Rapido.pdf).
 
-Use **A4 portrait, actual size / 100%, flip on the long edge**. Test a consecutive front/back pair first. Cards measure **92 × 130 mm**, four per sheet: **42 sheets / 84 duplex pages**, with two cards on the final sheet. Manual paper reinsertion depends on the printer. Digital checks do not replace a physical print test or table use. [Printing details and archives](skills/persona-cards/print/README.md).
+Use **A4 portrait, actual size / 100%, flip on the long edge**. Test a consecutive front/back pair first. Cards measure **92 × 130 mm**, four per sheet: **43 sheets / 86 duplex pages**, with one card on the final sheet. Manual paper reinsertion depends on the printer. Digital checks do not replace a physical print test or table use. [Printing details and archives](skills/persona-cards/print/README.md).
 
 ## 2. Skill — cards with your assistant
 

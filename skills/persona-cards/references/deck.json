@@ -74,11 +74,11 @@
       "familia": "D",
       "campos": {
         "Quero": "Descobrir por que [fenômeno] acontece.",
-        "Mostre": "Testa uma hipótese e aceita evidência contrária.",
-        "Pedido": "Peça acesso; ofereça compartilhar a descoberta."
+        "Mostre": "Testa uma hipótese e encontra evidência contrária. Revê, adia, nega, oculta ou muda a investigação?",
+        "Pedido": "Peça acesso ou ofereça compartilhar a descoberta. A evidência e suas consequências não somem se você as rejeitar."
       },
       "modulo": "nucleo",
-      "leitura": "Uma pergunta não o deixa em paz. Siga a pista, mesmo se ela contrariar sua hipótese."
+      "leitura": "Uma pergunta não o deixa em paz. Uma pista contraria sua hipótese; como continua a busca?"
     },
     {
       "versao": "5.2",
@@ -928,15 +928,15 @@
     {
       "versao": "5.2",
       "codigo": "P12",
-      "titulo": "Duas promessas, um recurso",
+      "titulo": "Duas demandas, um recurso",
       "familia": "P",
       "campos": {
-        "Acontece": "Duas promessas precisam do mesmo recurso.",
-        "Pesa": "Não se pode entregar ambas como combinado.",
-        "Abra": "Mostre pessoas afetadas e deixe prioridade ou ruptura abertas."
+        "Acontece": "Duas demandas precisam do mesmo tempo, recurso ou presença.",
+        "Pesa": "Nomeie os envolvidos e a origem: promessa, urgência, ordem ou vontade. Não presuma igual legitimidade.",
+        "Abra": "Mostre o que não cabe junto. Deixe prioridade, negociação ou recusa abertas, sem inventar outra promessa."
       },
       "modulo": "nucleo",
-      "leitura": "Duas promessas precisam do mesmo recurso. Cada pessoa afetada merece ser vista."
+      "leitura": "Duas demandas incompatíveis precisam do mesmo recurso. Quem é afetado e de onde vem cada exigência?"
     },
     {
       "versao": "5.2",
@@ -1114,9 +1114,9 @@
       "familia": "N",
       "modulo": "expansao",
       "campos": {
-        "Disputam": "Conferir cada detalhe e permitir espontaneidade ou ação alheia.",
-        "Mostre": "Uma tentativa exige soltar parte do comando.",
-        "Pergunte": "O que pode deixar acontecer e o que precisa proteger?"
+        "Disputam": "Conferir cada detalhe e permitir a espontaneidade ou iniciativa de outra pessoa.",
+        "Mostre": "Uma tentativa exige soltar parte do comando. Qual ação alheia você realmente valoriza?",
+        "Pergunte": "Que margem deixa à outra pessoa e o que precisa proteger? Improvisação própria, sozinha, não é entrega."
       },
       "leitura": "Você valoriza o cuidado com os detalhes e a liberdade de deixar alguém agir."
     },
@@ -1175,15 +1175,15 @@
     {
       "versao": "5.2",
       "codigo": "L13",
-      "titulo": "Inimigo que me define",
+      "titulo": "Inimigo que contraria meu projeto",
       "familia": "L",
       "modulo": "expansao",
       "campos": {
         "Laço": "Um adversário ameaça um objetivo, crença ou identidade importante.",
-        "Outra parte": "Defina o que quer de você; admiração e jogo justo são opcionais.",
-        "Em cena": "Que reação tenta provocar, impedir ou explorar?"
+        "Outra parte": "Defina o que ele quer, teme perder e faria sem você. Admiração e centralidade identitária só entram se existirem.",
+        "Em cena": "Que ação tenta provocar, impedir ou explorar? O adversário pode recusar o papel que lhe atribui."
       },
-      "leitura": "Seu adversário toca em algo central para você. Descubra o que ele próprio busca."
+      "leitura": "Uma pessoa se opõe a algo importante para você e busca um resultado próprio. O que faria sem sua presença?"
     },
     {
       "versao": "5.2",
@@ -1503,7 +1503,7 @@
       "titulo": "Elenco variado",
       "familia": "U",
       "campos": {
-        "Distribua": "Núcleo 01–12; expansão 13–18; expansão 5.0 D19–24/F19–20/N19–22/L19–20/V19–22. P termina em P18. Expansão 5.2: OR01–12 e CV01–12.",
+        "Distribua": "Núcleo 01–12; expansão 13–18; expansão 5.0 D19–24/F19–20/N19–22/L19–20/V19–22. P termina em P18. Expansão 5.2: OR01–12/CV01–12/F21–22/N23.",
         "Contraste": "Cada criação usa OR/CV/D/F/V/L/P/N e G07. Varie escolhas e respostas; sorteie sem reposição para reduzir repetições no elenco.",
         "Confira": "N pede dois valores reais em disputa, não só adversidade. A obrigação da camada não autoriza inventar trauma, culpa ou redenção."
       },
@@ -1828,12 +1828,13 @@
       "titulo": "Orientação sem conflito ativo",
       "familia": "G",
       "campos": {
-        "Separe": "Objetivo, obstáculo e custo não são automaticamente valores concorrentes. Nomeie o que a pessoa quer preservar em cada lado de N.",
-        "Em cena": "Apresente uma escolha em que os dois valores importem à pessoa; mostre uma tentativa e deixe a consequência em aberto.",
-        "Use": "G06 ajuda a interpretar ou trocar N, não a omiti-lo na criação 5.2. Se o recorte não sustenta dois valores, reveja a carta ou proponha outra situação; não force culpa ou redenção."
+        "Separe": "Obstáculo, custo ou dever sem adesão não são um segundo valor. O conflito pode ser potencial até a cena ativá-lo.",
+        "Use": "Na 5.2, troque N incompatível ou proponha cena autoral; não o omita nem invente culpa, bondade ou limite anterior.",
+        "Forma de agir": "F19 exige nota, ritual ou instrução externa: lembrar não basta. F15 exige insistência com custo já visível, não mera repetição.",
+        "Prática e finitude": "D23 deseja a prática. CV12 valoriza o encontro finito mesmo sem ganho duradouro; gostar de praticar, sozinho, não basta."
       },
       "modulo": "guia_contexto",
-      "leitura": "Nem toda dificuldade é conflito interno. Na criação 5.2, encontre dois valores genuínos e uma escolha que os coloque em disputa."
+      "leitura": "Nem toda dificuldade é conflito interno. Encontre dois desejos genuínos e uma escolha que os ponha em disputa."
     },
     {
       "versao": "5.2",
@@ -1864,15 +1865,15 @@
     {
       "versao": "5.2",
       "codigo": "OR03",
-      "titulo": "Fui preparado para um papel",
+      "titulo": "Um papel foi traçado para mim",
       "familia": "OR",
       "campos": {
-        "Pergunte": "Quem ensinou esse papel, o que esperava e o que você incorporou, recusou ou ainda não decidiu?",
-        "Mostre": "Mostre uma habilidade aprendida e uma expectativa que reaparece.",
-        "Contraste": "Pode formar um sucessor dedicado, um dissidente ou alguém que impõe a outros o mesmo papel."
+        "Pergunte": "Quem atribuiu esse papel? Houve formação, expectativa, programação ou mandato? Não presuma todos.",
+        "Mostre": "Mostre o que incorporou, recusou ou ainda pode escolher. Nomeação não prova preparo anterior.",
+        "Contraste": "Pode formar um sucessor dedicado, um dissidente ou quem impõe o mesmo papel a outros. Profissão escolhida por si não basta."
       },
       "modulo": "expansao_5_2",
-      "leitura": "Antes de você escolher, alguém já dizia quem deveria ser. Parte do que aprendeu ainda serve; parte talvez já não caiba."
+      "leitura": "Antes da escolha atual, alguém lhe atribuiu um lugar. O que recebeu não decide o que fará dele."
     },
     {
       "versao": "5.2",
@@ -2161,6 +2162,45 @@
       },
       "modulo": "guia_contexto",
       "leitura": "Algo põe uma possibilidade diante de você. Separe o que aconteceu, o sentido que atribui e a resposta que escolhe."
+    },
+    {
+      "versao": "5.2",
+      "codigo": "F21",
+      "titulo": "Ensino para que você tente",
+      "familia": "F",
+      "modulo": "expansao_5_2",
+      "leitura": "Você demonstra uma parte e deixa a outra pessoa tentar. Ela pode recusar, adaptar ou aprender algo diferente.",
+      "campos": {
+        "Faço": "Demonstro uma parte, acompanho a tentativa e devolvo uma observação.",
+        "Ajuda": "A outra pessoa ganha meios para agir sem repetir cada passo meu.",
+        "Custa": "Posso impor meu percurso ou confundir imitação com compreensão. O aprendiz escolhe o que fará com o ensino."
+      }
+    },
+    {
+      "versao": "5.2",
+      "codigo": "F22",
+      "titulo": "Escuto antes de propor",
+      "familia": "F",
+      "modulo": "expansao_5_2",
+      "leitura": "Você pede a versão da pessoa, confere o que entendeu e revê a proposta. Escutar pode mudar seu próximo passo.",
+      "campos": {
+        "Faço": "Peço a versão da pessoa, confiro meu entendimento e reformulo a proposta.",
+        "Ajuda": "Descubro necessidades, interesses ou recusas que minha solução inicial não considerou.",
+        "Custa": "Posso usar o que ouvi para conduzir ou manipular. Fazer perguntas sem admitir revisão não basta; escutar não prova bondade."
+      }
+    },
+    {
+      "versao": "5.2",
+      "codigo": "N23",
+      "titulo": "Prazer imediato / projeto",
+      "familia": "N",
+      "modulo": "expansao_5_2",
+      "leitura": "Você deseja uma satisfação agora e uma realização continuada que ela pode comprometer. Ambas precisam importar a você.",
+      "campos": {
+        "Disputam": "Desfrutar uma satisfação imediata e conservar um projeto que também deseja realizar.",
+        "Mostre": "O prazer está ao alcance, com um custo concreto para o projeto. Nenhum dos dois precisa ser moralmente bom.",
+        "Pergunte": "O que deseja de cada lado? Se só há proibição externa ou um projeto que não valoriza, falta a segunda vontade."
+      }
     }
   ],
   "familias_sorteaveis": [
@@ -2183,12 +2223,12 @@
     "guia": 9,
     "expansao_5": 18,
     "guia_contexto": 7,
-    "expansao_5_2": 24
+    "expansao_5_2": 27
   },
   "modo_rapido": "Uma OR/CV/D/F/V/L/P/N e G07: oito interpretações mais chamado, resposta, fato, crença e escolha.",
-  "preservacao": "Os 141 códigos, títulos e módulos anteriores permanecem. Somente os guias U01/U02/U06/U08/G06 recebem orientação de criação 5.2. As edições 5.0 e 5.1 ficam preservadas em seus arquivos históricos.",
+  "preservacao": "Os códigos e módulos anteriores permanecem. A expansão 5.2.0 e o patch editorial 5.2.1 são fontes versionadas; este último acrescenta F21/F22/N23 e esclarece OR03/N14/P12/L13/D06/G06/U08. As edições 5.0 e 5.1 ficam preservadas em seus arquivos históricos.",
   "comparacao": "5.2 exige oito famílias e Chamado e destino. OR não implica culpa; CV distingue fato, valor e regra; N exige dois valores genuínos, sem trauma ou redenção obrigatórios. Sorteio não garante coerência.",
-  "revisao_editorial": "5.2.0",
+  "revisao_editorial": "5.2.1",
   "criacao_completa": {
     "familias": [
       "OR",

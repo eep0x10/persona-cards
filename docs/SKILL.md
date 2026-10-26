@@ -33,4 +33,4 @@ Fichas 5.0/5.1 e exemplos históricos preservam textos, mas não estão automati
 
 ## Impressão e prova
 
-O pacote inclui [166 cartas e manual 5.2](../skills/persona-cards/print/README.md). Validação de códigos e exemplos autorais não comprova facilidade com leitores ou jogadores; não prometa diagnóstico, tempo de criação ou qualidade universal.
+O pacote inclui [169 cartas e manual 5.2](../skills/persona-cards/print/README.md). Validação de códigos e exemplos autorais não comprova facilidade com leitores ou jogadores; não prometa diagnóstico, tempo de criação ou qualidade universal.

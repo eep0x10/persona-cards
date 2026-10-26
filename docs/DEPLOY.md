@@ -38,7 +38,7 @@ O script valida o snapshot, carrega a imagem e restaura Compose, fonte Git e pon
 
 ## Conferir
 
-1. `/api/health`: HTTP 200, versão 5.2 e 166 cartas; revisão 5.2.0 em `/api/deck`.
+1. `/api/health`: HTTP 200, versão 5.2 e 169 cartas; revisão 5.2.1 em `/api/deck`.
 2. Página, JavaScript, CSS e ilustrações pelo domínio público, sem aviso de certificado nem tela de login.
 3. Mesa/Grade, oito escolhas OR/CV/D/F/V/L/P/N, revisão com G07, salvamento e recarga em desktop e 390 px.
 4. Exportação/importação de uma combinação de teste, rascunho legado sem passado inventado e movimento reduzido.

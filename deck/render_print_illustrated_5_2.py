@@ -21,7 +21,7 @@ ROOT=Path(__file__).resolve().parents[1]
 PRINT=ROOT/'skills/persona-cards/print'
 DECK=ROOT/'deck/persona-cards-5.2.json'
 MANIFEST=ROOT/'deck/illustration_sheets_5_2.json'
-EDITION='5.2.0'
+EDITION='5.2.1'
 PALETTE={**base.PALETTE,'OR':('ORIGEM','#55705A'),'CV':('CONVICÇÃO','#9A573F')}
 LAYOUT={}
 SAFE_CROPS={**base.SAFE_CROPS,'CV02':(.04,0,0,0)}
@@ -92,7 +92,7 @@ def build_manual(path):
         ('Crença e evidência','Quem interpreta o acontecimento como sinal, dever ou profecia? Separe relato, previsão e fato. Uma crença factual pode ser verdadeira, falsa, parcial ou desconhecida; um valor não é um fato a refutar.'),
         ('Escolha e consequência','Diga a primeira ação e o que ela preserva. Recusar não equivale a covardia, aceitar não garante bondade. O dado sugere a postura inicial; não decide o futuro nem a ação de jogadores. Preserve o que ainda pode ser escolhido.'),
     ]),('IMPRIMIR E CORTAR',[
-        ('Formato','A4 retrato, quatro cartas por folha, 92 x 130 mm por carta. São 166 cartas, 42 folhas de frentes, 42 de versos e 84 páginas duplex alternadas. A última folha tem duas cartas e dois espaços vazios.'),
+        ('Formato','A4 retrato, quatro cartas por folha, 92 x 130 mm por carta. São 169 cartas, 43 folhas de frentes, 43 de versos e 86 páginas duplex alternadas. A última folha tem uma carta e três espaços vazios.'),
         ('Duplex automático','Imprima em tamanho real / 100%, virando na borda longa. Desative ajuste à página e livreto. Teste primeiro as páginas 1 e 2; confira tamanho, alinhamento e orientação antes do lote.'),
         ('Frentes e versos separados','Combine folhas com o mesmo número. Os versos já espelham as colunas. A reinserção manual depende da impressora: marque topo e face na folha de teste.'),
         ('Acabamento','Corte pelas marcas externas. Há 1 mm de sangria e espaço de 8–9 mm entre cartas. Use papel fosco de 180–250 g/m² somente se sua impressora aceitar. Confira a régua de escala.'),
@@ -122,7 +122,7 @@ def build_manual(path):
             raise ValueError(f'Manual page {number} overflow')
         rule(canvas,23*mm,24*mm,base.PAGE_W-23*mm,base.BACK)
         canvas.setFont('Arial',8);canvas.setFillColor(base.INK)
-        canvas.drawString(23*mm,18*mm,'166 cartas / 150 de criação + 16 guias')
+        canvas.drawString(23*mm,18*mm,'169 cartas / 153 de criação + 16 guias')
         canvas.drawRightString(base.PAGE_W-23*mm,18*mm,f'{number:02d} / 03')
         canvas.showPage()
     canvas.save()

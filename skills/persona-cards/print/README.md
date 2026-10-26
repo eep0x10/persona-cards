@@ -1,19 +1,21 @@
 # Impressão — Persona Cards 5.2 ilustrado
 
-## Edição 5.2 — revisão 5.2.0
+## Edição 5.2 — revisão 5.2.1
 
-**166 cartas: 150 de criação e 16 guias.** O método usa OR/CV/D/F/V/L/P/N obrigatórias e o guia G07 — Chamado e destino. U/G são consulta, fora do sorteio de personalidade.
+**169 cartas: 153 de criação e 16 guias.** O método usa OR/CV/D/F/V/L/P/N obrigatórias e o guia G07 — Chamado e destino. U/G são consulta, fora do sorteio de personalidade.
 
 ![Primeira folha da edição 5.2](preview-frentes-5.2-ilustrado.png)
 
+[Prévia real de F21/F22 e G07 na revisão5.2.1](preview-revisao-5.2.1.png).
+
 | Arquivo | Conteúdo |
 | --- | --- |
-| [Duplex ilustrado 5.2](Persona-Cards-5.2-Ilustrado-Duplex-A4.pdf) | 84 páginas / 42 folhas, frente e verso alternados |
-| [Somente frentes](Persona-Cards-5.2-Ilustrado-Frentes-A4.pdf) | 42 páginas |
-| [Somente versos](Persona-Cards-5.2-Ilustrado-Versos-A4.pdf) | 42 páginas espelhadas |
+| [Duplex ilustrado 5.2](Persona-Cards-5.2-Ilustrado-Duplex-A4.pdf) | 86 páginas / 43 folhas, frente e verso alternados |
+| [Somente frentes](Persona-Cards-5.2-Ilustrado-Frentes-A4.pdf) | 43 páginas |
+| [Somente versos](Persona-Cards-5.2-Ilustrado-Versos-A4.pdf) | 43 páginas espelhadas |
 | [Manual rápido](Persona-Cards-5.2-Ilustrado-Manual-Rapido.pdf) | 3 páginas: criação completa, G07 e impressão |
 
-Cartas de **92 × 130 mm**, quatro por A4. Use **retrato, tamanho real / 100%, virar na borda longa**. Teste o primeiro par consecutivo do duplex antes do lote. A última folha tem duas cartas e dois espaços vazios. Reinserção manual depende da impressora; não ajustar à página.
+Cartas de **92 × 130 mm**, quatro por A4. Use **retrato, tamanho real / 100%, virar na borda longa**. Teste o primeiro par consecutivo do duplex antes do lote. A última folha tem uma carta e três espaços vazios. Reinserção manual depende da impressora; não ajustar à página.
 
 A fonte textual é [o deck 5.2](../../../deck/persona-cards-5.2.json); a correspondência de códigos e arte está no [manifesto 5.2](../../../deck/illustration_sheets_5_2.json). As fontes e artes são versionadas separadamente. A dimensão da ilustração pode variar conforme o texto, sem alterar a proporção do asset.
 

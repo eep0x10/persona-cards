@@ -92,7 +92,7 @@ class DrawRequest(BaseModel):
     model_config=ConfigDict(extra='forbid')
     families:list[Family]=Field(default_factory=lambda:list(FAMILIES),min_length=1,max_length=8)
     modules:list[Module]=Field(default_factory=lambda:['nucleo','expansao','expansao_5','expansao_5_2'],min_length=1,max_length=4)
-    excluded_codes:list[str]=Field(default_factory=list,max_length=150)
+    excluded_codes:list[str]=Field(default_factory=list,max_length=153)
 
 class DrawResponse(BaseModel):
     version:Literal['5.2']='5.2'

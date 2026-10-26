@@ -14,9 +14,9 @@ flowchart TD
 
 ## Baralho e fontes
 
-A identidade do produto é o jogo de cartas. O deck 5.2 tem 166 cartas: 150 de criação em OR/CV/D/F/V/L/P/N e 16 guias U/G. G07 acompanha a criação com chamado, resposta, fato, crença e escolha. Nenhuma família de criação é opcional; U/G permanecem fora do sorteio de personalidade.
+A identidade do produto é o jogo de cartas. O deck 5.2 tem 169 cartas: 153 de criação em OR/CV/D/F/V/L/P/N e 16 guias U/G. G07 acompanha a criação com chamado, resposta, fato, crença e escolha. Nenhuma família de criação é opcional; U/G permanecem fora do sorteio de personalidade.
 
-As três cópias ativas são `deck/persona-cards-5.2.json`, `app/public/deck.json` e `skills/persona-cards/references/deck.json`, idênticas em bytes. `versao: 5.2` identifica o contrato; `revisao_editorial: 5.2.0`, os textos atuais. Os arquivos 5.0/5.1 e seus manuais são históricos.
+As três cópias ativas são `deck/persona-cards-5.2.json`, `app/public/deck.json` e `skills/persona-cards/references/deck.json`, idênticas em bytes. `versao: 5.2` identifica o contrato; `revisao_editorial: 5.2.1`, os textos atuais. Os arquivos 5.0/5.1 e seus manuais são históricos.
 
 `deck/build_5_2.py` produz o deck. `deck/build_5_2_docs.py` consome o JSON 5.2 e gera manual 5.2, referência da skill, índice e texto para GPT; não escreve JSON, PDFs nem manual 5.1. A geração usa campos reais, incluindo as listas e registros de G07. Arte e impressão têm manifesto próprio da edição 5.2.
 

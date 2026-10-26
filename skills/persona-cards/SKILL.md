@@ -9,7 +9,7 @@ Conecte passado, interpretação, intenção e escolha. As cartas são convites 
 
 ## Material e edição
 
-Leia [manual e cartas](references/deck.md) na primeira aplicação; use o [índice](references/indice.md) e `scripts/cards.py` para consultas. A fonte é [deck.json](references/deck.json): **5.2, revisão 5.2.0, 166 cartas — 150 de criação e 16 guias**. Nunca invente códigos e títulos oficiais. Veja [exemplos](references/exemplos.md) e [limites](references/revisao.md).
+Leia [manual e cartas](references/deck.md) na primeira aplicação; use o [índice](references/indice.md) e `scripts/cards.py` para consultas. A fonte é [deck.json](references/deck.json): **5.2, revisão 5.2.1, 169 cartas — 153 de criação e 16 guias**. Nunca invente códigos e títulos oficiais. Veja [exemplos](references/exemplos.md) e [limites](references/revisao.md).
 
 Use **uma carta de cada família OR + CV + D + F + V + L + P + N**, além de **G07 — Chamado e destino**. As oito famílias são obrigatórias. U/G são consulta, nunca personalidade sorteada; G07 não é uma nona família de personalidade.
 
@@ -22,6 +22,14 @@ Use **uma carta de cada família OR + CV + D + F + V + L + P + N**, além de **G
 5. Complete **N** com **dois valores genuínos que a pessoa quer preservar**, colocados em disputa. Obstáculo, coerção, crueldade ou custo não bastam. Se a carta não cabe, troque ou ressorteie N; não omita a família nem force arrependimento, bondade ou redenção. G06 ajuda nessa distinção. Escolher um valor e sacrificar o outro é possível.
 6. Consulte **G07** e registre cinco respostas: `call` (chamado), `response` (primeira resposta), `fact` (fato confirmável), `belief` (crença/interpretação) e `choice` (escolha agora). Escolha ou use 1d6 nas listas de chamado e resposta. Recusar, adiar ou renegociar são válidos. Profecia não obriga o desfecho.
 7. Acrescente competência, prazer cotidiano e limite reconhecido — ou sua ausência. Faça uma cena com tentativa, resposta aberta e consequência possível. Registre o que mudou depois de jogar; não ressorteie o passado a cada sessão.
+
+## Fronteiras de interpretação
+
+- F21 ensina por demonstração, tentativa própria e observação; L06 nomeia o aprendiz, não o método. F22 escuta e confere entendimento antes de propor; V08 descreve expressão atenta, não substitui esse método.
+- N23 disputa satisfação imediata e projeto genuinamente desejado; N18 exige uma escolha ou limite próprio anterior. N14 envolve permitir iniciativa alheia, não improvisar sozinho. Nenhum conflito exige bondade, remorso ou redenção.
+- OR03 distingue formação, expectativa, nomeação e programação recebidas. P12 identifica as duas demandas e o recurso insuficiente, sem inventar duas promessas. L13 pede um objetivo próprio do adversário, sem exigir admiração nem identidade inteiramente definida por ele.
+- D06 busca uma resposta e mostra a reação à evidência; não atribua aceitação virtuosa automática. D23 é desejo de praticar; CV12 valoriza o finito. Gostar de treinar não comprova CV12. F15 exige custo observado após insistir; F19 exige registro, consulta ou ritual externo, não apenas memória mental.
+- Num recorte canônico sem tensão sustentada, reveja a escolha ou identifique uma situação como proposta autoral. Oito campos preenchidos não comprovam ambivalência canônica.
 
 ## Entrega e continuidade
 
@@ -55,4 +63,4 @@ O padrão sorteia as oito famílias. `--families` permite consultar ou ressortei
 
 ## Impressão
 
-[PDFs 5.2](print/README.md): 166 cartas em A4, quatro por folha, 92 × 130 mm. Use 100% e virar na borda longa; teste uma folha antes do lote. Edições 5.0/5.1 são históricas. Conferência digital não comprova impressão física nem eficácia em mesa.
+[PDFs 5.2](print/README.md): 169 cartas em A4, quatro por folha, 92 × 130 mm. Use 100% e virar na borda longa; teste uma folha antes do lote. Edições 5.0/5.1 são históricas. Conferência digital não comprova impressão física nem eficácia em mesa.

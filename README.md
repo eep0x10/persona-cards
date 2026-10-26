@@ -9,7 +9,7 @@
 Um baralho narrativo em português para criar personagens de RPG e ficção com **passado, convicção, intenção e escolhas**.
 
 [![Edição 5.2](https://img.shields.io/badge/edição-5.2-244F42?style=flat-square)](deck/manual-5.2.md)
-[![166 cartas](https://img.shields.io/badge/cartas-166-B65135?style=flat-square)](skills/persona-cards/print/README.md)
+[![169 cartas](https://img.shields.io/badge/cartas-169-B65135?style=flat-square)](skills/persona-cards/print/README.md)
 [![English](https://img.shields.io/badge/English-summary-637D71?style=flat-square)](README.en.md)
 
 [Como jogar](#como-jogar) · [Chamado e destino](#chamado-e-destino) · [PDF](#1-pdf--as-cartas-na-sua-mesa) · [Skill](#2-skill--as-cartas-com-seu-assistente) · [Web](#3-aplicação-web--as-cartas-no-navegador) · [Cinco exemplos](#cinco-personagens-criados-com-as-cartas)
@@ -24,7 +24,9 @@ Um baralho narrativo em português para criar personagens de RPG e ficção com 
 | **Criar com um assistente** | [Skill Persona Cards](skills/persona-cards/) | Instruções, cartas e exemplos para um assistente compatível. |
 | **Cartas na tela** | [Mesa online](https://personcard.runictools.com/) | Explore, componha e guarde personagens neste navegador. |
 
-São três entregas do mesmo jogo; use a que fizer sentido para sua mesa. A edição **5.2 / revisão 5.2.0** tem **150 cartas de criação e 16 guias**, 166 no total. O RPG escolhido por vocês continua fornecendo combate, atributos e resolução de testes.
+São três entregas do mesmo jogo; use a que fizer sentido para sua mesa. A edição **5.2 / revisão 5.2.1** tem **153 cartas de criação e 16 guias**, 169 no total. O RPG escolhido por vocês continua fornecendo combate, atributos e resolução de testes.
+
+A revisão **5.2.1** acrescenta **F21 — Ensino para que você tente**, **F22 — Escuto antes de propor** e **N23 — Prazer imediato / projeto**. Também esclarece cinco cartas e as fronteiras de uso. Veja [o que mudou e por quê](docs/REVISAO-BARALHO-5.2.1.md).
 
 ## Como jogar
 
@@ -35,11 +37,11 @@ Separe as famílias. Escolha ou sorteie **uma OR, uma CV, uma D, uma F, uma V, u
 | **OR · Origem** | O que aconteceu antes e ainda participa da vida? | 12 |
 | **CV · Convicção** | Que crença, valor ou regra orienta a escolha? | 12 |
 | **D · Desejo** | O que quer obter ou manter agora? | 24 |
-| **F · Forma de agir** | Como tenta conseguir? | 20 |
+| **F · Forma de agir** | Como tenta conseguir? | 22 |
 | **V · Expressão** | Como comunica por fala, gesto, escrita ou sinais? | 22 |
 | **L · Vínculo** | Quem ou o que participa das suas decisões? | 20 |
 | **P · Pressão** | Que circunstância muda a próxima escolha? | 18 |
-| **N · Conflito interno** | Quais dois valores genuínos quer preservar, mas entram em disputa? | 22 |
+| **N · Conflito interno** | Quais dois valores genuínos quer preservar, mas entram em disputa? | 23 |
 
 Conecte OR e CV por **“por isso”**, **“apesar disso”** ou **“mais tarde aprendi”**. Não precisa haver trauma, segredo ou culpa. Diga o objetivo, faça F e V aparecerem numa tentativa, respeite a vontade de pessoas vivas em L e mostre o que P mudou. Objetos e pessoas mortas não recebem vontade atual sem uma regra do cenário. Acrescente nome, papel, uma competência e um prazer cotidiano.
 
@@ -72,7 +74,7 @@ U/G são guias de consulta, ficam fora do sorteio de personalidade. G07 organiza
 - [Somente frentes](skills/persona-cards/print/Persona-Cards-5.2-Ilustrado-Frentes-A4.pdf) e [somente versos](skills/persona-cards/print/Persona-Cards-5.2-Ilustrado-Versos-A4.pdf).
 - [Manual rápido em PDF](skills/persona-cards/print/Persona-Cards-5.2-Ilustrado-Manual-Rapido.pdf).
 
-Imprima em **A4, retrato, tamanho real / 100%, virando na borda longa**. Faça primeiro um par de páginas consecutivas do duplex e confira o alinhamento. São **92 × 130 mm**, quatro cartas por folha: **42 folhas / 84 páginas duplex**, com duas cartas na última folha. Na impressão manual, a reinserção depende da impressora. Conferência digital não substitui teste físico de impressão e leitura em mesa. Veja [detalhes e edições anteriores](skills/persona-cards/print/README.md).
+Imprima em **A4, retrato, tamanho real / 100%, virando na borda longa**. Faça primeiro um par de páginas consecutivas do duplex e confira o alinhamento. São **92 × 130 mm**, quatro cartas por folha: **43 folhas / 86 páginas duplex**, com uma carta na última folha. Na impressão manual, a reinserção depende da impressora. Conferência digital não substitui teste físico de impressão e leitura em mesa. Veja [detalhes e edições anteriores](skills/persona-cards/print/README.md).
 
 ## 2. Skill — as cartas com seu assistente
 
@@ -169,7 +171,7 @@ Uma rotina organizada lhe ofereceu segurança (**OR09**); ela passou a crer que,
 
 | Guia | Conteúdo |
 | --- | --- |
-| [Manual 5.2](deck/manual-5.2.md) | Método, G07 e todas as 166 cartas |
+| [Manual 5.2](deck/manual-5.2.md) | Método, G07 e todas as 169 cartas |
 | [Início rápido](docs/QUICKSTART.md) | Instalação, revisão e solução de problemas |
 | [Skill](docs/SKILL.md) | Consulta por assistente e CLI |
 | [Arquitetura](docs/ARCHITECTURE.md) | Fontes, referências, persistência e migração |

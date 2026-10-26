@@ -1,6 +1,6 @@
-# Persona Cards 5.2 — revisão 5.2.0
+# Persona Cards 5.2 — revisão 5.2.1
 
-**166 cartas em português: 150 de criação e 16 guias.** A criação completa usa uma carta OR, CV, D, F, V, L, P e N, mais G07 — Chamado e destino. As oito famílias são obrigatórias; U/G são consulta, nunca personalidade sorteada.
+**169 cartas em português: 153 de criação e 16 guias.** A criação completa usa uma carta OR, CV, D, F, V, L, P e N, mais G07 — Chamado e destino. As oito famílias são obrigatórias; U/G são consulta, nunca personalidade sorteada.
 
 ## Como jogar
 
@@ -58,11 +58,11 @@ Os arquivos 5.0/5.1 são históricos. A edição 5.2 acrescenta OR/CV/G07 e atua
 - **OR — Origem — o que aconteceu antes:** 12 cartas.
 - **CV — Convicção — como interpreta e orienta escolhas:** 12 cartas.
 - **D — Desejo — o que quer agora:** 24 cartas.
-- **F — Forma de agir — como tenta:** 20 cartas.
+- **F — Forma de agir — como tenta:** 22 cartas.
 - **V — Expressão — como comunica:** 22 cartas.
 - **L — Vínculo — quem também quer algo:** 20 cartas.
 - **P — Pressão — o que muda a situação:** 18 cartas.
-- **N — Conflito interno — dois valores genuínos:** 22 cartas.
+- **N — Conflito interno — dois valores genuínos:** 23 cartas.
 - **U — Guias de uso:** 9 cartas.
 - **G — Guias de contexto:** 7 cartas.
 
@@ -90,15 +90,15 @@ Os arquivos 5.0/5.1 são históricos. A edição 5.2 acrescenta OR/CV/G07 e atua
 
 **Contraste:** Pode gerar reparação concreta ou a defesa orgulhosa de um ato nocivo. Arrependimento não vem na carta.
 
-### OR03 — Fui preparado para um papel (expansao_5_2)
+### OR03 — Um papel foi traçado para mim (expansao_5_2)
 
-> Antes de você escolher, alguém já dizia quem deveria ser. Parte do que aprendeu ainda serve; parte talvez já não caiba.
+> Antes da escolha atual, alguém lhe atribuiu um lugar. O que recebeu não decide o que fará dele.
 
-**Pergunte:** Quem ensinou esse papel, o que esperava e o que você incorporou, recusou ou ainda não decidiu?
+**Pergunte:** Quem atribuiu esse papel? Houve formação, expectativa, programação ou mandato? Não presuma todos.
 
-**Mostre:** Mostre uma habilidade aprendida e uma expectativa que reaparece.
+**Mostre:** Mostre o que incorporou, recusou ou ainda pode escolher. Nomeação não prova preparo anterior.
 
-**Contraste:** Pode formar um sucessor dedicado, um dissidente ou alguém que impõe a outros o mesmo papel.
+**Contraste:** Pode formar um sucessor dedicado, um dissidente ou quem impõe o mesmo papel a outros. Profissão escolhida por si não basta.
 
 ### OR04 — Alguém ficou ao meu lado (expansao_5_2)
 
@@ -366,13 +366,13 @@ Os arquivos 5.0/5.1 são históricos. A edição 5.2 acrescenta OR/CV/G07 e atua
 
 ### D06 — Resolver uma pergunta (nucleo)
 
-> Uma pergunta não o deixa em paz. Siga a pista, mesmo se ela contrariar sua hipótese.
+> Uma pergunta não o deixa em paz. Uma pista contraria sua hipótese; como continua a busca?
 
 **Quero:** Descobrir por que [fenômeno] acontece.
 
-**Mostre:** Testa uma hipótese e aceita evidência contrária.
+**Mostre:** Testa uma hipótese e encontra evidência contrária. Revê, adia, nega, oculta ou muda a investigação?
 
-**Pedido:** Peça acesso; ofereça compartilhar a descoberta.
+**Pedido:** Peça acesso ou ofereça compartilhar a descoberta. A evidência e suas consequências não somem se você as rejeitar.
 
 ### D07 — Fazer algo durar (nucleo)
 
@@ -756,6 +756,26 @@ Os arquivos 5.0/5.1 são históricos. A edição 5.2 acrescenta OR/CV/G07 e atua
 
 **Custa:** Uma necessidade pode permanecer sem resposta e alguém pode não saber por que me afastei. Pode ser proteção sob coerção, não decisão plenamente livre.
 
+### F21 — Ensino para que você tente (expansao_5_2)
+
+> Você demonstra uma parte e deixa a outra pessoa tentar. Ela pode recusar, adaptar ou aprender algo diferente.
+
+**Faço:** Demonstro uma parte, acompanho a tentativa e devolvo uma observação.
+
+**Ajuda:** A outra pessoa ganha meios para agir sem repetir cada passo meu.
+
+**Custa:** Posso impor meu percurso ou confundir imitação com compreensão. O aprendiz escolhe o que fará com o ensino.
+
+### F22 — Escuto antes de propor (expansao_5_2)
+
+> Você pede a versão da pessoa, confere o que entendeu e revê a proposta. Escutar pode mudar seu próximo passo.
+
+**Faço:** Peço a versão da pessoa, confiro meu entendimento e reformulo a proposta.
+
+**Ajuda:** Descubro necessidades, interesses ou recusas que minha solução inicial não considerou.
+
+**Custa:** Posso usar o que ouvi para conduzir ou manipular. Fazer perguntas sem admitir revisão não basta; escutar não prova bondade.
+
 ## Expressão — como comunica
 
 ### V01 — Perguntas que delimitam (nucleo)
@@ -1100,15 +1120,15 @@ Os arquivos 5.0/5.1 são históricos. A edição 5.2 acrescenta OR/CV/G07 e atua
 
 **Em cena:** Como a primeira impressão ajuda ou engana?
 
-### L13 — Inimigo que me define (expansao)
+### L13 — Inimigo que contraria meu projeto (expansao)
 
-> Seu adversário toca em algo central para você. Descubra o que ele próprio busca.
+> Uma pessoa se opõe a algo importante para você e busca um resultado próprio. O que faria sem sua presença?
 
 **Laço:** Um adversário ameaça um objetivo, crença ou identidade importante.
 
-**Outra parte:** Defina o que quer de você; admiração e jogo justo são opcionais.
+**Outra parte:** Defina o que ele quer, teme perder e faria sem você. Admiração e centralidade identitária só entram se existirem.
 
-**Em cena:** Que reação tenta provocar, impedir ou explorar?
+**Em cena:** Que ação tenta provocar, impedir ou explorar? O adversário pode recusar o papel que lhe atribui.
 
 ### L14 — Autoridade e dependência (expansao)
 
@@ -1292,15 +1312,15 @@ Os arquivos 5.0/5.1 são históricos. A edição 5.2 acrescenta OR/CV/G07 e atua
 
 **Abra:** Mostre o convite; aceitar não precisa gerar crise.
 
-### P12 — Duas promessas, um recurso (nucleo)
+### P12 — Duas demandas, um recurso (nucleo)
 
-> Duas promessas precisam do mesmo recurso. Cada pessoa afetada merece ser vista.
+> Duas demandas incompatíveis precisam do mesmo recurso. Quem é afetado e de onde vem cada exigência?
 
-**Acontece:** Duas promessas precisam do mesmo recurso.
+**Acontece:** Duas demandas precisam do mesmo tempo, recurso ou presença.
 
-**Pesa:** Não se pode entregar ambas como combinado.
+**Pesa:** Nomeie os envolvidos e a origem: promessa, urgência, ordem ou vontade. Não presuma igual legitimidade.
 
-**Abra:** Mostre pessoas afetadas e deixe prioridade ou ruptura abertas.
+**Abra:** Mostre o que não cabe junto. Deixe prioridade, negociação ou recusa abertas, sem inventar outra promessa.
 
 ### P13 — Perigo presente (expansao)
 
@@ -1498,11 +1518,11 @@ Os arquivos 5.0/5.1 são históricos. A edição 5.2 acrescenta OR/CV/G07 e atua
 
 > Você valoriza o cuidado com os detalhes e a liberdade de deixar alguém agir.
 
-**Disputam:** Conferir cada detalhe e permitir espontaneidade ou ação alheia.
+**Disputam:** Conferir cada detalhe e permitir a espontaneidade ou iniciativa de outra pessoa.
 
-**Mostre:** Uma tentativa exige soltar parte do comando.
+**Mostre:** Uma tentativa exige soltar parte do comando. Qual ação alheia você realmente valoriza?
 
-**Pergunte:** O que pode deixar acontecer e o que precisa proteger?
+**Pergunte:** Que margem deixa à outra pessoa e o que precisa proteger? Improvisação própria, sozinha, não é entrega.
 
 ### N15 — Imagem / identidade (expansao)
 
@@ -1584,6 +1604,16 @@ Os arquivos 5.0/5.1 são históricos. A edição 5.2 acrescenta OR/CV/G07 e atua
 
 **Pergunte:** Que ocasião concreta quer viver além do trabalho? Se os outros cobram descanso mas a pessoa não o valoriza, há custo externo, não tensão comprovada.
 
+### N23 — Prazer imediato / projeto (expansao_5_2)
+
+> Você deseja uma satisfação agora e uma realização continuada que ela pode comprometer. Ambas precisam importar a você.
+
+**Disputam:** Desfrutar uma satisfação imediata e conservar um projeto que também deseja realizar.
+
+**Mostre:** O prazer está ao alcance, com um custo concreto para o projeto. Nenhum dos dois precisa ser moralmente bom.
+
+**Pergunte:** O que deseja de cada lado? Se só há proibição externa ou um projeto que não valoriza, falta a segunda vontade.
+
 ## Guias de uso
 
 ### U01 — NPC rápido (guia)
@@ -1660,7 +1690,7 @@ Os arquivos 5.0/5.1 são históricos. A edição 5.2 acrescenta OR/CV/G07 e atua
 
 > Varie as oito famílias entre personagens e identifique dois valores genuínos em cada N; não uniformize passado, culpa ou destino.
 
-**Distribua:** Núcleo 01–12; expansão 13–18; expansão 5.0 D19–24/F19–20/N19–22/L19–20/V19–22. P termina em P18. Expansão 5.2: OR01–12 e CV01–12.
+**Distribua:** Núcleo 01–12; expansão 13–18; expansão 5.0 D19–24/F19–20/N19–22/L19–20/V19–22. P termina em P18. Expansão 5.2: OR01–12/CV01–12/F21–22/N23.
 
 **Contraste:** Cada criação usa OR/CV/D/F/V/L/P/N e G07. Varie escolhas e respostas; sorteie sem reposição para reduzir repetições no elenco.
 
@@ -1730,13 +1760,15 @@ Os arquivos 5.0/5.1 são históricos. A edição 5.2 acrescenta OR/CV/G07 e atua
 
 ### G06 — Orientação sem conflito ativo (guia_contexto)
 
-> Nem toda dificuldade é conflito interno. Na criação 5.2, encontre dois valores genuínos e uma escolha que os coloque em disputa.
+> Nem toda dificuldade é conflito interno. Encontre dois desejos genuínos e uma escolha que os ponha em disputa.
 
-**Separe:** Objetivo, obstáculo e custo não são automaticamente valores concorrentes. Nomeie o que a pessoa quer preservar em cada lado de N.
+**Separe:** Obstáculo, custo ou dever sem adesão não são um segundo valor. O conflito pode ser potencial até a cena ativá-lo.
 
-**Em cena:** Apresente uma escolha em que os dois valores importem à pessoa; mostre uma tentativa e deixe a consequência em aberto.
+**Use:** Na 5.2, troque N incompatível ou proponha cena autoral; não o omita nem invente culpa, bondade ou limite anterior.
 
-**Use:** G06 ajuda a interpretar ou trocar N, não a omiti-lo na criação 5.2. Se o recorte não sustenta dois valores, reveja a carta ou proponha outra situação; não force culpa ou redenção.
+**Forma de agir:** F19 exige nota, ritual ou instrução externa: lembrar não basta. F15 exige insistência com custo já visível, não mera repetição.
+
+**Prática e finitude:** D23 deseja a prática. CV12 valoriza o encontro finito mesmo sem ganho duradouro; gostar de praticar, sozinho, não basta.
 
 ### G07 — Chamado e destino (guia_contexto)
 

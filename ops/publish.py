@@ -168,7 +168,7 @@ try:
  container=json.loads(run('docker','inspect','personcard-personcard-1'))[0]
  if container['Image']!=image['Id'] or container['State'].get('Health',{}).get('Status')!='healthy':raise ValueError('Activated image or health differs')
  health=json.loads(run('docker','exec','personcard-personcard-1','python','-c',"import urllib.request;print(urllib.request.urlopen('http://127.0.0.1:8000/api/health',timeout=5).read().decode())"))
- if health!={'status':'ok','version':'5.2','cards':166}:raise ValueError('5.2 application health invariant failed')
+ if health!={'status':'ok','version':'5.2','cards':169}:raise ValueError('5.2 application health invariant failed')
  boot=subprocess.run(['docker','logs','--tail','40','personcard-personcard-1'],capture_output=True,text=True)
  (evidence/('boot-'+head+'.log')).write_text(boot.stdout+'\\n'+boot.stderr)
  if boot.returncode:raise RuntimeError('Cannot collect boot logs')
@@ -225,7 +225,7 @@ def production_preflight() -> Path:
 def public_health(head: str) -> None:
     request=urllib.request.Request("https://personcard.runictools.com/api/health?revision=" + head, headers={"User-Agent":"Persona-Cards-Release-Check/5.2"})
     with urllib.request.urlopen(request, timeout=30) as response:
-        if json.load(response) != {"status": "ok", "version": "5.2", "cards": 166}:
+        if json.load(response) != {"status": "ok", "version": "5.2", "cards": 169}:
             raise ValueError("Public 5.2 health invariant failed")
     request=urllib.request.Request("https://personcard.runictools.com/", headers={"User-Agent":"Persona-Cards-Release-Check/5.2"})
     with urllib.request.urlopen(request, timeout=30) as response:

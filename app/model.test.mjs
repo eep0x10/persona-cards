@@ -1,5 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
 import { blank, normalizeCharacter, validateCharacter, parseImport, completionIssues, finalizeCharacter, applyCards, ORDER, emptyJourney, journeyOptions, characterMarkdown } from "./src/model.js";
 import { loadPersistence } from "./src/persistence.js";
 import { validatePortrait, preparePortrait, MAX_PORTRAIT_DATA_URL_LENGTH } from "./src/portrait.js";
@@ -10,6 +11,23 @@ const lookup = Object.fromEntries(ORDER.map((familia) => [`${familia}01`, {
 const complete = () => ({...blank(),name:"Lina",cards:Object.fromEntries(ORDER.map(family=>[family,`${family}01`])),fields:Object.fromEntries(ORDER.map(family=>[family,`Uma interpretação específica de ${family}, com pessoas e decisões.`])),journey:{call:"Um convite inesperado",response:"Renegocio as condições",fact:"O barco voltou vazio.",belief:"A capitã acredita que foi um aviso.",choice:"Pode investigar antes de aceitar a missão."}});
 const legacy = () => ({id:"old",name:"Lina",role:"Mercadora",context:"Porto",notes:"Anotações antigas",cards:{D:"D01",F:"F01",V:"V01"},fields:{D:"Objetivo anterior",F:"Método anterior",V:"Voz anterior",N:"Texto guardado"},locks:["F"],enabled:["D","F","V"],finalized:true});
 const png = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+a9uoAAAAASUVORK5CYII=";
+
+test("5.2.1 new methods and conflict roundtrip without losing authored data or required layers",()=>{
+  const deck=JSON.parse(readFileSync(new URL("./public/deck.json",import.meta.url),"utf8"));
+  const published=Object.fromEntries(deck.cartas.map(card=>[card.codigo,card]));
+  for(const method of ["F21","F22"]){
+    const character={...complete(),cards:{...complete().cards,F:method,N:"N23"},portrait:png,notes:"Notas pessoais preservadas",locks:["F","N"]};
+    const finalized=finalizeCharacter(character,published);
+    const imported=parseImport(JSON.stringify({app:"Persona Cards",version:"5.2",character:finalized}),published);
+    assert.deepEqual(imported,finalized);
+    assert.deepEqual(imported.enabled,ORDER);
+    assert.equal(imported.cards.F,method);assert.equal(imported.cards.N,"N23");
+    assert.deepEqual(imported.journey,character.journey);
+    assert.equal(imported.notes,character.notes);assert.equal(imported.portrait,png);
+  }
+  assert.equal(validateCharacter({...complete(),cards:{...complete().cards,F:"F23"}},published),false);
+  assert.equal(validateCharacter({...complete(),cards:{...complete().cards,N:"N24"}},published),false);
+});
 
 test("legacy imports preserve all authored data and add eight empty required slots without biography",()=>{
   for(const version of ["5.0","5.1"]){

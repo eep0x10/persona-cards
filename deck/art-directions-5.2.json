@@ -167,7 +167,10 @@
     "CV10": "A hand releases a leaf to flowing water while holding a living branch.",
     "CV11": "A person weighs a grand tower project against a cost pointed out by another person.",
     "CV12": "Two people appreciate a short-lived bloom at sunset.",
-    "G07": "A traveler chooses stepping stones beside a real river and a loosely offered ribbon; fact, interpretation and choice."
+    "G07": "A traveler chooses stepping stones beside a real river and a loosely offered ribbon; fact, interpretation and choice.",
+    "F21": "An experienced maker demonstrates a bowl while a learner independently shapes a different bowl; each keeps their own tools and agency.",
+    "F22": "One person listens with open hands while the other describes a broken cup; understanding precedes any proposed repair.",
+    "N23": "A hand reaches toward ripe fruit beside an unfinished model boat and its plan: immediate pleasure competes with a valued longer project."
   },
   "new_art_provenance": {
     "tool": "Built-in GPT ImageGen",
@@ -175,5 +178,7 @@
     "new_cards": 25,
     "sheets": 5,
     "authored_style": "Original modern folk cut-paper/riso narrative vignettes, pine and vermilion, transparent alpha, no enclosing frames or text."
-  }
+  },
+  "revision": "5.2.1",
+  "revision_asset": "folk-revisao-521.png"
 }

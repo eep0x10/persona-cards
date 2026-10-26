@@ -1,4 +1,4 @@
-# Índice Persona Cards 5.2 — revisão 5.2.0
+# Índice Persona Cards 5.2 — revisão 5.2.1
 
 Oito famílias obrigatórias e G07: [manual e cartas](deck.md).
 
@@ -6,7 +6,7 @@ Oito famílias obrigatórias e G07: [manual e cartas](deck.md).
 
 - OR01 — Uma ausência ficou (expansao_5_2)
 - OR02 — Eu deixei uma marca (expansao_5_2)
-- OR03 — Fui preparado para um papel (expansao_5_2)
+- OR03 — Um papel foi traçado para mim (expansao_5_2)
 - OR04 — Alguém ficou ao meu lado (expansao_5_2)
 - OR05 — Saí quando esperavam que ficasse (expansao_5_2)
 - OR06 — Fiquei quando outros partiram (expansao_5_2)
@@ -81,6 +81,8 @@ Oito famílias obrigatórias e G07: [manual e cartas](deck.md).
 - F18 — Sigo ao pé da letra (expansao)
 - F19 — Uso âncoras externas (expansao_5)
 - F20 — Recuo para suportar (expansao_5)
+- F21 — Ensino para que você tente (expansao_5_2)
+- F22 — Escuto antes de propor (expansao_5_2)
 
 ## Expressão — como comunica
 
@@ -121,7 +123,7 @@ Oito famílias obrigatórias e G07: [manual e cartas](deck.md).
 - L10 — Afeto com divergência (nucleo)
 - L11 — Quem está ausente (nucleo)
 - L12 — Estranho que me marcou (nucleo)
-- L13 — Inimigo que me define (expansao)
+- L13 — Inimigo que contraria meu projeto (expansao)
 - L14 — Autoridade e dependência (expansao)
 - L15 — Aliança por interesse (expansao)
 - L16 — Alguém que morreu (expansao)
@@ -143,7 +145,7 @@ Oito famílias obrigatórias e G07: [manual e cartas](deck.md).
 - P09 — Oportunidade com prazo (nucleo)
 - P10 — Mais do que esperava (nucleo)
 - P11 — Convite para algo bom (nucleo)
-- P12 — Duas promessas, um recurso (nucleo)
+- P12 — Duas demandas, um recurso (nucleo)
 - P13 — Perigo presente (expansao)
 - P14 — Tentação acessível (expansao)
 - P15 — Sinal ambíguo (expansao)
@@ -175,6 +177,7 @@ Oito famílias obrigatórias e G07: [manual e cartas](deck.md).
 - N20 — Dever recebido / autoria da vida (expansao_5)
 - N21 — Verdade / consolo (expansao_5)
 - N22 — Dedicação / presença cotidiana (expansao_5)
+- N23 — Prazer imediato / projeto (expansao_5_2)
 
 ## Guias de uso
 

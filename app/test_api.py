@@ -5,13 +5,31 @@ from server import app, DECK
 client=TestClient(app)
 
 class Contracts(unittest.TestCase):
+    def test_521_new_cards_are_available_to_lookup_draw_and_draft_composition(self):
+        all_creation=[c['codigo'] for c in DECK['cartas'] if c['familia'] in ('OR','CV','D','F','V','L','P','N')]
+        self.assertEqual(len(all_creation),153)
+        self.assertEqual(client.post('/api/draw',json={'excluded_codes':all_creation}).status_code,400)
+        for code in ('F21','F22','N23'):
+            card=client.get('/api/cards/'+code).json()
+            self.assertEqual(card['codigo'],code)
+            self.assertEqual(card['modulo'],'expansao_5_2')
+            excluded=[c['codigo'] for c in DECK['cartas'] if c['familia']==card['familia'] and c['codigo']!=code]
+            drawn=client.post('/api/draw',json={'families':[card['familia']],'excluded_codes':excluded})
+            self.assertEqual(drawn.status_code,200)
+            self.assertEqual(drawn.json()['cards'][0]['codigo'],code)
+            fields={card['familia']:'Interpretação pessoal que permanece ao reabrir o rascunho.'}
+            composed=client.post('/api/characters/compose',json={'codes':[code],'fields':fields,'finalized':False})
+            self.assertEqual(composed.status_code,200)
+            self.assertEqual(composed.json()['cards'][0]['codigo'],code)
+            self.assertEqual(composed.json()['fields'],fields)
+
     def test_52_draw_defaults_and_expansion_filters(self):
         response=client.post('/api/draw',json={})
         self.assertEqual(response.status_code,200)
         self.assertEqual(response.json()['version'],'5.2')
         self.assertEqual([c['familia'] for c in response.json()['cards']],['OR','CV','D','F','V','L','P','N'])
         expanded=client.get('/api/cards',params={'module':'expansao_5_2'}).json()
-        self.assertEqual(len(expanded),24)
+        self.assertEqual(len(expanded),27)
         self.assertEqual(client.get('/api/cards/CV04').json()['titulo'],'Não vou repetir aquele dano')
         self.assertEqual(client.get('/api/cards/G07').json()['titulo'],'Chamado e destino')
         self.assertEqual(client.post('/api/draw',json={'families':['OR','CV'],'modules':['expansao_5_2']}).status_code,200)
@@ -66,7 +84,7 @@ class Contracts(unittest.TestCase):
 
     def test_deck_and_search(self):
         self.assertEqual(client.get('/api/deck').json(),DECK)
-        self.assertEqual(len(DECK['cartas']),166)
+        self.assertEqual(len(DECK['cartas']),169)
         self.assertEqual(client.get('/api/cards/D19').json()['titulo'],'Punir quem causou o dano')
         self.assertIn('Punir e reparar',client.get('/api/cards/D19').json()['leitura'])
         self.assertEqual(client.get('/api/cards/N99').status_code,404)
@@ -118,7 +136,7 @@ class Contracts(unittest.TestCase):
         for host in ('personcard.runictools.com','127.0.0.1','localhost','testserver'):
             result=client.get('/api/health',headers={'host':host})
             self.assertEqual(result.status_code,200,host)
-            self.assertEqual(result.json(),{'status':'ok','version':DECK['versao'],'cards':166})
+            self.assertEqual(result.json(),{'status':'ok','version':DECK['versao'],'cards':169})
         for host in ('example.com','sub.personcard.runictools.com','personcard.runictools.com.attacker.example'):
             self.assertEqual(client.get('/api/health',headers={'host':host}).status_code,400,host)
 

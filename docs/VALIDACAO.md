@@ -113,3 +113,15 @@ Execução local:13 testes Python de repositório/documentação/revisão,10 de 
 CUA no navegador integrado: Edward, Alphonse, Frieren, Gon e Killua abriram cada um com nove faces reais (oito famílias e guia), nove explicações e cinco respostas. Frieren a390px manteve diálogo320px sem rolagem horizontal interna; texto, N22 e G07 foram inspecionados. Usar sua base pediu confirmação diante de rascunho, copiou oito interpretações e a jornada e permitiu finalizar na origem de QA. A versão final de Coringa mostrou N18. Anime.js exibiu transformações3D intermediárias; movimento reduzido manteve nove faces em transformnone/opacity1. A inspeção visual amostral não equivale a ler manualmente todas as840 faces.
 
 Catálogo final SHA256: `755cf04cf8abead0bab024e97f1a170b283b116c3b6f33756c9835286c59ceed`. [Registro dos105](REVISAO-105-PERSONAGENS.md). Capturas locais ignoradas: `tmp/review-105/`.
+
+## Revisão editorial 5.2.1 — aplicação 5.2.3 (26/10/2026)
+
+O deck passa a 169 cartas (153 de criação e16guias): F21, F22 e N23 foram acrescentadas; OR03/N14/P12/L13/D06 e os guiasG06/U08 foram esclarecidos. Históricos5.0/5.1 e fonte da expansão5.2.0 permanecem preservados. As três cópias têm SHA256 `4dae5bb05ba6376bd09ac3d7bcf16a6307e159a236b66f1bef457fce4b897128`.
+
+Os105 personagens foram percorridos nas oito famílias eG07, com945 decisões registradas. Houve15 trocas: trêsF21, trêsF22 e noveN23; Edward mantémN18 por sua linha ética. A auditoria anterior foi preservada e uma leitura independente conferiu as15trocas, Edward e manutenções deN14. Catálogo final SHA256 `b5d21adc69daa45083a64330a59131d9ce0bf7d04d1fe3d5278774b222e07bf6`. As cenas continuam propostas autorais, não novos fatos canônicos ou playtest.
+
+Uma spritesheet original ImageGen acrescenta três artesfolk com alfa, em2×2células, mantendo a última vazia. O arquivoPNG é idêntico na impressão e na web. Os30atlas cobrem169códigos. Os quatro PDFs foram primeiro convertidos viaMarkItDown; a extração mistura colunas e não serve para reconstruir a ordem das cartas. O verificador cruzou todos os textos com oJSON e conferiu43frentes/43versos/86duplex/3manual, A4, hashes e corpo mínimo8,5pt. Inspeção visual das novas cartas, G06/OR03 e instruções de impressão passou. Prova física permanece pendente.
+
+Verificação local:14testesPython de repositório,11deAPI e15Node aprovados; buildVite aprovado, mantendo o aviso conhecido de bundle acima500kB. CUA conferiu F21/F22 no leque, grade com22formas e galeriaIroh com oito cartas, explicações eG07; desktop e390px inspecionados, sem rolagem horizontal do documento. Nenhuma alteração de UI ou motor de animação: Anime.js existente foi preservado. Evidências locais ignoradas em `tmp/revision-521/`.
+
+A integraçãoMesa20 preserva as29folhas anteriores e acrescenta a30ª, com169códigos;41testesPython e9Node aprovados. Publicação e validação pública são registradas no resultado da release, separadas destas provas locais.

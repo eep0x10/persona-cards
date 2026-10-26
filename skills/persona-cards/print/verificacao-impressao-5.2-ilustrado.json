@@ -1,15 +1,15 @@
 {
-  "revisao_editorial": "5.2.0",
-  "deck_sha256": "cd5115f3df8d346e57d2c3fb26f4391b1316dd9bc9f7e477e0598684d6f788fe",
-  "manifest_sha256": "babc756627a29351d5daf62d42e4375f97b918ccb7a14c521fb4623e7c62493a",
-  "cards": 166,
-  "illustrations": 166,
-  "spritesheets": 29,
+  "revisao_editorial": "5.2.1",
+  "deck_sha256": "4dae5bb05ba6376bd09ac3d7bcf16a6307e159a236b66f1bef457fce4b897128",
+  "manifest_sha256": "b74d571c7394cc60a838ce0f794068c2f93b5b08d99f871d0fcb8501b9c3eb45",
+  "cards": 169,
+  "illustrations": 169,
+  "spritesheets": 30,
   "size_mm": [
     92,
     130
   ],
-  "sheets": 42,
+  "sheets": 43,
   "fit": [
     {
       "code": "D01",
@@ -61,7 +61,7 @@
       "art_pt": 128,
       "body_pt": 9.0,
       "reading_pt": 9.7,
-      "lowest_pt": 64.81,
+      "lowest_pt": 31.33,
       "atlas": "folk-d001-d006.png",
       "slot": 5
     },
@@ -652,10 +652,10 @@
     },
     {
       "code": "P12",
-      "art_pt": 128,
+      "art_pt": 92,
       "body_pt": 9.0,
       "reading_pt": 9.7,
-      "lowest_pt": 35.09,
+      "lowest_pt": 25.49,
       "atlas": "folk-p007-p012.png",
       "slot": 5
     },
@@ -778,10 +778,10 @@
     },
     {
       "code": "N14",
-      "art_pt": 128,
+      "art_pt": 116,
       "body_pt": 9.0,
       "reading_pt": 9.7,
-      "lowest_pt": 53.65,
+      "lowest_pt": 32.17,
       "atlas": "folk-n011-n016.png",
       "slot": 3
     },
@@ -823,10 +823,10 @@
     },
     {
       "code": "L13",
-      "art_pt": 128,
+      "art_pt": 92,
       "body_pt": 9.0,
       "reading_pt": 9.7,
-      "lowest_pt": 42.49,
+      "lowest_pt": 28.27,
       "atlas": "folk-l013-l018.png",
       "slot": 0
     },
@@ -1049,9 +1049,9 @@
     {
       "code": "U08",
       "art_pt": 92,
-      "body_pt": 9.0,
-      "reading_pt": 9.0,
-      "lowest_pt": 24.35,
+      "body_pt": 8.7,
+      "reading_pt": 9.7,
+      "lowest_pt": 25.08,
       "atlas": "folk-u007-g003.png",
       "slot": 1
     },
@@ -1273,10 +1273,10 @@
     },
     {
       "code": "G06",
-      "art_pt": 56,
-      "body_pt": 9.0,
+      "art_pt": 44,
+      "body_pt": 8.5,
       "reading_pt": 9.7,
-      "lowest_pt": 30.79,
+      "lowest_pt": 26.65,
       "atlas": "folk-g004-g006.png",
       "slot": 2
     },
@@ -1300,10 +1300,10 @@
     },
     {
       "code": "OR03",
-      "art_pt": 104,
+      "art_pt": 92,
       "body_pt": 9.0,
       "reading_pt": 9.7,
-      "lowest_pt": 27.43,
+      "lowest_pt": 29.24,
       "atlas": "folk-or001-or006.png",
       "slot": 2
     },
@@ -1504,24 +1504,51 @@
       "lowest_pt": 24.28,
       "atlas": "folk-g007-chamado-destino.png",
       "slot": 0
+    },
+    {
+      "code": "F21",
+      "art_pt": 104,
+      "body_pt": 9.0,
+      "reading_pt": 9.7,
+      "lowest_pt": 32.05,
+      "atlas": "folk-revisao-521.png",
+      "slot": 0
+    },
+    {
+      "code": "F22",
+      "art_pt": 104,
+      "body_pt": 9.0,
+      "reading_pt": 9.7,
+      "lowest_pt": 32.05,
+      "atlas": "folk-revisao-521.png",
+      "slot": 1
+    },
+    {
+      "code": "N23",
+      "art_pt": 128,
+      "body_pt": 8.7,
+      "reading_pt": 9.0,
+      "lowest_pt": 24.07,
+      "atlas": "folk-revisao-521.png",
+      "slot": 2
     }
   ],
   "lossless_encoding": {
     "Persona-Cards-5.2-Ilustrado-Frentes-A4.pdf": {
-      "images_pixel_verified": 58,
-      "before_bytes": 105491235,
-      "after_bytes": 56878804
+      "images_pixel_verified": 60,
+      "before_bytes": 107127223,
+      "after_bytes": 58034562
     },
     "Persona-Cards-5.2-Ilustrado-Versos-A4.pdf": {
       "images_pixel_verified": 2,
-      "before_bytes": 1629601,
-      "after_bytes": 1196082
+      "before_bytes": 1631141,
+      "after_bytes": 1197625
     }
   },
   "files": {
-    "Persona-Cards-5.2-Ilustrado-Frentes-A4.pdf": "10f82cb847ea0018a3e454e4f919952ea16f8329b2482bc9bc7fb9b1fa515c25",
-    "Persona-Cards-5.2-Ilustrado-Versos-A4.pdf": "9fa38893ee41ce531ea9545d3b6a90a0e32556d112d3555d552269598cc76661",
-    "Persona-Cards-5.2-Ilustrado-Duplex-A4.pdf": "cd34a09c5a5b16d1aa3ba6ca7712429997852e5f3df2690e45c009e91ef677bd",
-    "Persona-Cards-5.2-Ilustrado-Manual-Rapido.pdf": "36f5b914058bc2de8b68158d17853bb24dd63c33301a3f409f7e079d56c1e12b"
+    "Persona-Cards-5.2-Ilustrado-Frentes-A4.pdf": "0e6816e4269e49b963f25493be6d8c0985da4b7ad1208fb3eaaed6f4dd6ee26f",
+    "Persona-Cards-5.2-Ilustrado-Versos-A4.pdf": "b6566817952cd7e2ab997b26b4c4b9869bc06b4fb2ef1f17a5c8a436e1e820ea",
+    "Persona-Cards-5.2-Ilustrado-Duplex-A4.pdf": "bd9112cd82382c7f1c53dd667c9f74210b66694289bf35b103271e08dfacd41f",
+    "Persona-Cards-5.2-Ilustrado-Manual-Rapido.pdf": "3e7dd36879e14716efe92c3dbc8a6806cc3e4878131f968cc59afadfdc38c1ad"
   }
 }

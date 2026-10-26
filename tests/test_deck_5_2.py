@@ -21,32 +21,60 @@ class Complete52Contract(unittest.TestCase):
             self.assertEqual(raw,(ROOT/path).read_bytes())
         d=json.loads(raw)
         self.assertEqual(d['versao'],'5.2')
-        self.assertEqual(d['revisao_editorial'],'5.2.0')
-        self.assertEqual(len(d['cartas']),166)
-        self.assertEqual(len({c['codigo'] for c in d['cartas']}),166)
-        self.assertEqual(sum(c['familia'] in BUILDER.FAMILIES for c in d['cartas']),150)
+        self.assertEqual(d['revisao_editorial'],'5.2.1')
+        self.assertEqual(len(d['cartas']),169)
+        self.assertEqual(len({c['codigo'] for c in d['cartas']}),169)
+        self.assertEqual(sum(c['familia'] in BUILDER.FAMILIES for c in d['cartas']),153)
         self.assertEqual(d['familias_sorteaveis'],['OR','CV','D','F','V','L','P','N'])
         self.assertEqual(d['criacao_completa']['guia'],'G07')
         self.assertEqual(d['criacao_completa']['journey'],['call','response','fact','belief','choice'])
-        self.assertEqual(d['modulos']['expansao_5_2'],24)
+        self.assertEqual(d['modulos']['expansao_5_2'],27)
         self.assertEqual(d['modulos']['guia_contexto'],7)
         hashes={'5.0':'eb97dcae9235f08008fcea79ee765d8735b1b5eff5453a6e9b8dd79e09dab7e5',
                 '5.1':'181d079735ed27358a911bc3e1affc249ac3815ca740fa0330115563210ea06f'}
         for version,expected in hashes.items():
             self.assertEqual(hashlib.sha256((ROOT/f'deck/persona-cards-{version}.json').read_bytes()).hexdigest(),expected)
 
-    def test_old_card_identity_and_all_non_guide_text_is_preserved(self):
+    def test_old_card_identity_and_only_versioned_text_patches_change(self):
         previous=json.loads((ROOT/'deck/persona-cards-5.1.json').read_bytes())
         current={c['codigo']:c for c in BUILDER.build_deck()['cartas']}
+        revision=json.loads(BUILDER.REVISION.read_text(encoding='utf-8'))
         for old in previous['cartas']:
             new=deepcopy(current[old['codigo']])
-            self.assertEqual(new['titulo'],old['titulo'])
+            expected_title=revision['revisoes'].get(old['codigo'],{}).get('titulo',old['titulo'])
+            self.assertEqual(new['titulo'],expected_title)
             self.assertEqual(new['modulo'],old['modulo'])
+            self.assertEqual(new['familia'],old['familia'])
             new['versao']=old['versao']
-            if old['codigo'] not in BUILDER.GUIDE_REVISIONS:
+            if old['codigo'] not in BUILDER.GUIDE_REVISIONS | BUILDER.EDITORIAL_REVISIONS:
                 self.assertEqual(new,old,old['codigo'])
         self.assertNotIn('opcional',current['G06']['campos']['Use'].lower())
-        self.assertIn('não a omiti-lo',current['G06']['campos']['Use'])
+        self.assertIn('não o omita',current['G06']['campos']['Use'])
+
+    def test_editorial_patch_adds_only_three_cards_and_rejects_identity_edits(self):
+        revision=json.loads(BUILDER.REVISION.read_text(encoding='utf-8'))
+        current={c['codigo']:c for c in BUILDER.build_deck()['cartas']}
+        self.assertEqual(set(revision['revisoes']),{'OR03','N14','P12','L13','D06','G06','U08'})
+        self.assertEqual({c['codigo'] for c in revision['cartas']},{'F21','F22','N23'})
+        self.assertEqual({c['codigo'] for c in current.values() if c['familia']=='F'},
+                         {f'F{n:02d}' for n in range(1,23)})
+        self.assertEqual({c['codigo'] for c in current.values() if c['familia']=='N'},
+                         {f'N{n:02d}' for n in range(1,24)})
+        for card in revision['cartas']:
+            self.assertEqual(current[card['codigo']],card)
+        for code,patch in revision['revisoes'].items():
+            for field,value in patch.items():self.assertEqual(current[code][field],value)
+        self.assertIn('F21–22/N23',current['U08']['campos']['Distribua'])
+        original=BUILDER.REVISION
+        try:
+            with tempfile.TemporaryDirectory() as directory:
+                invalid=deepcopy(revision)
+                invalid['revisoes']['N14']['modulo']='nucleo'
+                BUILDER.REVISION=Path(directory)/'invalid.json'
+                BUILDER.REVISION.write_text(json.dumps(invalid),encoding='utf-8')
+                with self.assertRaisesRegex(ValueError,'cannot change identity'):
+                    BUILDER.build_deck()
+        finally:BUILDER.REVISION=original
 
     def test_approved_prototype_text_and_two_complete_d6_lists(self):
         expansion=json.loads(BUILDER.EXPANSION.read_text(encoding='utf-8'))

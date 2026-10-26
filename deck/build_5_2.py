@@ -1,4 +1,4 @@
-"""Build 5.2 from the preserved 5.1 deck and the approved OR/CV expansion."""
+"""Build 5.2 from preserved sources, the 5.2.0 expansion and editorial patches."""
 from collections import Counter
 from copy import deepcopy
 import json
@@ -7,10 +7,43 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "deck/persona-cards-5.1.json"
 EXPANSION = ROOT / "deck/expansao-5.2.json"
+REVISION = ROOT / "deck/revisao-5.2.1.json"
 OUTPUTS = (ROOT / "deck/persona-cards-5.2.json", ROOT / "app/public/deck.json",
            ROOT / "skills/persona-cards/references/deck.json")
 FAMILIES = ["OR", "CV", "D", "F", "V", "L", "P", "N"]
 GUIDE_REVISIONS = {"U01", "U02", "U06", "U08", "G06"}
+EDITORIAL_REVISIONS = {"OR03", "N14", "P12", "L13", "D06", "G06", "U08"}
+NEW_CODES = {"F21", "F22", "N23"}
+
+
+def apply_editorial_revision(deck: dict) -> None:
+    revision = json.loads(REVISION.read_text(encoding="utf-8"))
+    if revision["versao"] != "5.2" or revision["revisao_editorial"] != "5.2.1":
+        raise ValueError("Unsupported editorial revision")
+    if set(revision["revisoes"]) != EDITORIAL_REVISIONS:
+        raise ValueError("Unexpected editorial card revisions")
+    by_code = {card["codigo"]: card for card in deck["cartas"]}
+    for code, patch in revision["revisoes"].items():
+        if not patch or not set(patch) <= {"titulo", "leitura", "campos"}:
+            raise ValueError(f"Editorial revision cannot change identity: {code}")
+        if any(not isinstance(value, str) or not value.strip() for key, value in patch.items() if key != "campos"):
+            raise ValueError(f"Empty editorial text: {code}")
+        if "campos" in patch and (not isinstance(patch["campos"], dict) or not patch["campos"] or
+                                  any(not isinstance(value, str) or not value.strip() for value in patch["campos"].values())):
+            raise ValueError(f"Invalid editorial fields: {code}")
+        by_code[code].update(deepcopy(patch))
+    additions = revision["cartas"]
+    if len(additions) != 3 or {card["codigo"] for card in additions} != NEW_CODES:
+        raise ValueError("The editorial expansion requires F21, F22 and N23 exactly once")
+    for card in additions:
+        family = "F" if card["codigo"] in {"F21", "F22"} else "N"
+        expected_fields = {"Faço", "Ajuda", "Custa"} if family == "F" else {"Disputam", "Mostre", "Pergunte"}
+        if (card["codigo"] in by_code or card["versao"] != "5.2" or card["familia"] != family or
+                card["modulo"] != "expansao_5_2" or set(card["campos"]) != expected_fields or
+                not card["titulo"].strip() or not card["leitura"].strip() or
+                any(not isinstance(value, str) or not value.strip() for value in card["campos"].values())):
+            raise ValueError(f"Invalid editorial addition: {card['codigo']}")
+    deck["cartas"].extend(deepcopy(additions))
 
 
 def build_deck() -> dict:
@@ -50,15 +83,16 @@ def build_deck() -> dict:
         elif family not in ("OR", "CV") or card["modulo"] != "expansao_5_2" or set(card["campos"]) != {"Pergunte", "Mostre", "Contraste"}:
             raise ValueError("Invalid OR/CV card contract")
     deck["cartas"].extend(deepcopy(additions))
-    deck.update(versao="5.2", revisao_editorial="5.2.0", familias_sorteaveis=list(FAMILIES),
+    apply_editorial_revision(deck)
+    deck.update(versao="5.2", revisao_editorial="5.2.1", familias_sorteaveis=list(FAMILIES),
                 modulos=dict(Counter(c["modulo"] for c in deck["cartas"])),
                 modo_rapido="Uma OR/CV/D/F/V/L/P/N e G07: oito interpretações mais chamado, resposta, fato, crença e escolha.",
                 criacao_completa={"familias": list(FAMILIES), "guia": "G07",
                                   "journey": ["call", "response", "fact", "belief", "choice"]},
-                preservacao="Os 141 códigos, títulos e módulos anteriores permanecem. Somente os guias U01/U02/U06/U08/G06 recebem orientação de criação 5.2. As edições 5.0 e 5.1 ficam preservadas em seus arquivos históricos.",
+                preservacao="Os códigos e módulos anteriores permanecem. A expansão 5.2.0 e o patch editorial 5.2.1 são fontes versionadas; este último acrescenta F21/F22/N23 e esclarece OR03/N14/P12/L13/D06/G06/U08. As edições 5.0 e 5.1 ficam preservadas em seus arquivos históricos.",
                 comparacao="5.2 exige oito famílias e Chamado e destino. OR não implica culpa; CV distingue fato, valor e regra; N exige dois valores genuínos, sem trauma ou redenção obrigatórios. Sorteio não garante coerência.")
-    if len(deck["cartas"]) != 166 or sum(c["familia"] in FAMILIES for c in deck["cartas"]) != 150:
-        raise ValueError("Expected 166 cards, 150 for creation and 16 guides")
+    if len(deck["cartas"]) != 169 or sum(c["familia"] in FAMILIES for c in deck["cartas"]) != 153:
+        raise ValueError("Expected 169 cards, 153 for creation and 16 guides")
     return deck
 
 
@@ -66,7 +100,7 @@ def main() -> None:
     output = (json.dumps(build_deck(), ensure_ascii=False, indent=2) + "\n").encode("utf-8")
     for path in OUTPUTS:
         path.write_bytes(output)
-    print("Built 166 cards (150 creation, 16 guides), revision 5.2.0, in three identical copies")
+    print("Built 169 cards (153 creation, 16 guides), revision 5.2.1, in three identical copies")
 
 
 if __name__ == "__main__":

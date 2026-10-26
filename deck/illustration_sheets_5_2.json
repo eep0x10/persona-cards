@@ -322,6 +322,16 @@
       ],
       "columns": 1,
       "rows": 1
+    },
+    {
+      "file": "folk-revisao-521.png",
+      "codes": [
+        "F21",
+        "F22",
+        "N23"
+      ],
+      "columns": 2,
+      "rows": 2
     }
   ]
 }

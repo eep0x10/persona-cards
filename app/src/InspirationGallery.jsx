@@ -130,7 +130,7 @@ export default function InspirationGallery({dataset,lookup,Art,active,reduced,on
   };
 
   return <main ref={root} hidden={!active} className="inspiration-gallery">
-    <div className="experience-heading inspiration-heading"><div><span className="experience-eyebrow">CEM MANEIRAS DE COMEÇAR</span><h1 data-screen-heading tabIndex={-1}>Inspiração para a sua mesa.</h1><p>Cem interpretações completas na edição 5.2: oito cartas e Chamado/Destino para adaptar à sua história.</p></div><span className="inspiration-total">{entries.length}<span>inspirações</span></span></div>
+    <div className="experience-heading inspiration-heading"><div><span className="experience-eyebrow">{entries.length} MANEIRAS DE COMEÇAR</span><h1 data-screen-heading tabIndex={-1}>Inspiração para a sua mesa.</h1><p>{entries.length} interpretações completas na edição 5.2: uma carta de cada uma das oito famílias e o guia G07 · Chamado e destino para adaptar à sua história.</p></div><span className="inspiration-total">{entries.length}<span>inspirações</span></span></div>
     <div className="inspiration-controls">
       <label className="inspiration-search">Nome ou universo<input type="search" value={query} onChange={event=>setQuery(event.target.value)} placeholder="Busque um personagem ou uma obra…" autoComplete="off"/></label>
       <label>Mídia<select value={medium} onChange={event=>setMedium(event.target.value)}><option value="all">Todas as mídias</option>{media.map(value=><option key={value} value={value}>{value}</option>)}</select></label>
@@ -152,7 +152,7 @@ export default function InspirationGallery({dataset,lookup,Art,active,reduced,on
       <div className="inspiration-detail-paper">
         <div className="inspiration-detail-top"><span>{detail.medium} · {detail.archetype}</span><div className="inspiration-detail-top-actions"><button className="inspiration-detail-quick-use" onClick={useAsBase}>Usar como base</button><button className="inspiration-close" onClick={()=>setDetail(null)} aria-label="Fechar leitura do personagem">Fechar ×</button></div></div>
         <header className="inspiration-detail-heading"><span className="paper-eyebrow">{detail.franchise}</span><h2 id="inspiration-detail-title">{detail.name}</h2><p>{detail.excerpt}</p></header>
-        <p className="inspiration-detail-history">Leitura completa 5.2 · oito cartas e Chamado/Destino. As interpretações são propostas de jogo, não novos fatos canônicos.</p>
+        <p className="inspiration-detail-history">Leitura completa 5.2 · oito famílias e o guia G07 · Chamado e destino. Cada carta e o guia têm sua explicação de escolha. As interpretações são propostas de jogo, não novos fatos canônicos.</p>
         <section className="inspiration-deck-section" aria-label="Cartas selecionadas e suas explicações">
           <h3>As cartas desta leitura</h3>
           <p>Carta do baralho, motivo da escolha e aplicação na cena.</p>

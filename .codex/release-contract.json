@@ -13,6 +13,7 @@
     "app/server.py", "app/test_api.py", "app/src/App.jsx", "app/src/model.js",
     "app/src/portrait.js", "app/src/persistence.js", "app/src/InspirationGallery.jsx",
     "app/model.test.mjs", "app/inspirations.test.mjs", "app/public/inspirations.json",
+    "docs/reviews/inspiration-105-review.json", "tests/test_inspirations_review.py",
     "deck/build_5_2.py", "deck/expansao-5.2.json", "deck/persona-cards-5.2.json",
     "deck/persona-cards-5.0.json", "deck/persona-cards-5.1.json",
     "deck/illustration_sheets_5_2.json", "deck/verify_illustrated_print_5_2.py",
@@ -26,7 +27,7 @@
     {"path": "app/public/deck.json", "contains": ["\"versao\": \"5.2\"", "\"revisao_editorial\": \"5.2.0\"", "\"codigo\": \"G07\"", "\"codigo\": \"OR12\"", "\"codigo\": \"CV12\""]},
     {"path": "docker-compose.prod.yml", "contains": ["personcard.runictools.com", "read_only: true", "no-new-privileges:true"]},
     {"path": "app/server.py", "contains": ["/api/inspirations", "/api/characters/compose", "class Journey"]},
-    {"path": "app/public/inspirations.json", "contains": ["\"version\": \"5.2\"", "\"journeyRationale\"", "\"journey\""]}
+    {"path": "app/public/inspirations.json", "contains": ["\"version\": \"5.2\"", "\"journeyRationale\"", "\"journey\"", "\"edward-elric\"", "\"alphonse-elric\"", "\"frieren\"", "\"gon-freecss\"", "\"killua-zoldyck\""]}
   ],
   "checks": [
     {"name": "tracked-clean-and-published-head", "command": "C:/Users/eep0x10/scoop/apps/python/current/python.exe", "args": ["-X", "utf8", "ops/publish.py", "--check-local"]},

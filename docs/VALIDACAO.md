@@ -101,3 +101,15 @@ Testes executados:12 de repositório/documentação,10 de API e13 Node; build Vi
 CUA local: Luffy e GLaDOS exibiram nove faces reais (oito famílias e G07) e nove explicações. Em390px o diálogo manteve largura320px, sem rolagem horizontal interna; cartas, justificativas e respostas do guia foram inspecionadas. Fechar manteve busca e foco no personagem. Usar como base exigiu confirmação diante de rascunho, aceitou cancelamento e copiou oito interpretações e cinco respostas para revisão; finalizar guardou um personagem completo na origem de QA. Movimento normal exibiu transformações3D intermediárias; reduzido manteve as nove faces em transformnone/opacity1. Essa amostra não equivale a inspecionar manualmente800 faces nem a um teste com leitores.
 
 Catálogo final SHA256: `ed87e3b55a5bf9ff9d97e68701e91216f1557add7c6b79b158c880844ce9e07e`. Capturas de QA ficam no diretório local ignorado `tmp/inspirations-52/`.
+
+## Revisão dos105 — aplicação5.2.2 (26/10/2026)
+
+Foram acrescentados Edward Elric, Alphonse Elric, Frieren, Gon Freecss e Killua Zoldyck, com recortes explícitos, oito escolhas justificadas e G07. As100 leituras anteriores foram percorridas em todas as famílias e na jornada:40 personagens tiveram troca de código, totalizando60 cartas; manutenções e refinamentos também estão registrados. O registro editorial contém945 decisões (oito famílias e G07 para cada pessoa), fontes primárias com limites e vínculo ao hash do catálogo. Não representa comprovação canônica de cenas hipotéticas nem playtest.
+
+Revisão cruzada independente: cinco novos,40 casos com códigos alterados e dez amostras sem troca de código. Foram fechados encaixes incorretos de F19 como memória mental, L03 sem obra conjunta e N14 para improvisação própria. Coringa/Loki/Mestre usam N18 com limite estratégico voluntário; os cinco novos distinguem responsabilidades, agência e recortes sem misturar fases de adaptação.
+
+Execução local:13 testes Python de repositório/documentação/revisão,10 de API e14 Node aprovados,37 no total. Build Vite aprovado com o aviso de bundle grande já conhecido (cerca de230,49kB gzip). O teste editorial confere105 registros e decisões de todas as famílias, hash, códigos anteriores/atuais e fontes; o teste estrutural confere840 justificativas e525 respostas de G07.
+
+CUA no navegador integrado: Edward, Alphonse, Frieren, Gon e Killua abriram cada um com nove faces reais (oito famílias e guia), nove explicações e cinco respostas. Frieren a390px manteve diálogo320px sem rolagem horizontal interna; texto, N22 e G07 foram inspecionados. Usar sua base pediu confirmação diante de rascunho, copiou oito interpretações e a jornada e permitiu finalizar na origem de QA. A versão final de Coringa mostrou N18. Anime.js exibiu transformações3D intermediárias; movimento reduzido manteve nove faces em transformnone/opacity1. A inspeção visual amostral não equivale a ler manualmente todas as840 faces.
+
+Catálogo final SHA256: `755cf04cf8abead0bab024e97f1a170b283b116c3b6f33756c9835286c59ceed`. [Registro dos105](REVISAO-105-PERSONAGENS.md). Capturas locais ignoradas: `tmp/review-105/`.

@@ -28,7 +28,7 @@ Fotos JPEG/PNG/WebP são processadas localmente: entrada até 10 MiB, saída JPE
 
 ## Inspiração
 
-Os **100 personagens são leituras completas 5.2**, com oito cartas ilustradas, justificativas específicas e o guia G07 preenchido e explicado. A galeria permite buscar, filtrar, consultar fontes e copiar uma base para revisão. As cenas e novas tensões são propostas autorais, não eventos canônicos; importar dados antigos continua preservando pendências sem inventar biografia.
+Os **105 personagens são leituras completas 5.2**, com oito cartas ilustradas, justificativas específicas e o guia G07 preenchido e explicado. A galeria permite buscar, filtrar, consultar fontes e copiar uma base para revisão. As cenas e novas tensões são propostas autorais, não eventos canônicos; importar dados antigos continua preservando pendências sem inventar biografia.
 
 **Usar como base** cria um rascunho independente e pede confirmação quando há uma criação atual. Complete as pendências sem modificar retroativamente o exemplo ou uma ficha salva. Consultar não altera seu rascunho. Veja [a revisão histórica](../docs/REVISAO-100-PERSONAGENS.md).
 

@@ -50,6 +50,6 @@ Na mesa, explore as oito famílias por setas, gesto ou Mesa/Grade. Vire para con
 
 **Salvar personagem** abre a revisão. Preencha nome, oito interpretações e os cinco registros da jornada. Foto, papel, contexto e notas são opcionais. Finalize para guardar a carta; use JSON para backup completo, além de PNG/Markdown para leitura.
 
-Fichas antigas preservam o que já existe e abrem como rascunho pendente quando faltam camadas; não recebem passado ou conflito inventado. As 100 inspirações já incluem oito cartas e G07 na edição 5.2, com justificativas e cenas autorais. Usar uma base copia esses campos para uma revisão editável. Adapte a proposta à sua história antes de salvar; o catálogo permanece intacto.
+Fichas antigas preservam o que já existe e abrem como rascunho pendente quando faltam camadas; não recebem passado ou conflito inventado. As 105 inspirações já incluem oito cartas e G07 na edição 5.2, com justificativas e cenas autorais. Usar uma base copia esses campos para uma revisão editável. Adapte a proposta à sua história antes de salvar; o catálogo permanece intacto.
 
 Porta ocupada: use `./iniciar.ps1 -Port 8767` ou altere `--port` no início manual. Cada porta/navegador/origem tem armazenamento separado; exporte antes de trocar. Veja [operação e backup](OPERATIONS.md).

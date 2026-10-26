@@ -92,9 +92,11 @@ Explore all **eight families**, switch Mesa/Grade, flip to read, then select exp
 
 **Salvar personagem** opens the review: name the character, interpret eight cards and complete the five Call and destiny fields. Forms belong to saving/reviewing; browsing the table uses cards. Photo, role, context and notes are optional. Finalization requires valid selections, interpretations and journey. Reopen, edit and export your character.
 
-**Inspiration:** browse **100 complete 5.2 readings**, each with eight illustrated cards, an explanation for every choice and G07: call, response, fact, belief and room for choice. These are authored interpretations and proposed scenes, not canonical biographies. Copy a base to adapt it; replacing your current draft requires confirmation. **Legacy data:** 5.0/5.1 characters retain their text and open as pending drafts when layers are missing, without automatically inventing a past or internal conflict.
+**Inspiration:** browse **105 complete 5.2 readings**, each with eight illustrated cards, an explanation for every choice and G07: call, response, fact, belief and room for choice. These are authored interpretations and proposed scenes, not canonical biographies. Copy a base to adapt it; replacing your current draft requires confirmation. **Legacy data:** 5.0/5.1 characters retain their text and open as pending drafts when layers are missing, without automatically inventing a past or internal conflict.
 
 Data and photos stay in that browser and origin (protocol, host and port), without an account or remote character database. Export JSON for a full backup; clearing site data may erase local-only work. Markdown/PNG are reading formats; JSON supports transfer. Photos are processed locally. Anime.js supplies motion; the footer offers reduced motion and system preference.
+
+New examples include **Edward Elric, Alphonse Elric, Frieren, Gon Freecss and Killua Zoldyck**. The [105-character review](docs/REVISAO-105-PERSONAGENS.md) records decisions for every family and G07, with reading scopes and source limits.
 
 ### Run locally
 
@@ -158,7 +160,7 @@ An orderly routine once offered security (OR09), informing her belief that contr
 
 ## Documentation and limits
 
-[Manual](deck/manual-5.2.md) · [Quick start](docs/QUICKSTART.md) · [Skill](docs/SKILL.md) · [Architecture](docs/ARCHITECTURE.md) · [API](docs/API.md) · [Operations](docs/OPERATIONS.md) · [Privacy](docs/PRIVACY.md) · [Tests](docs/TESTING.md) · [100 complete inspirations](docs/INSPIRACAO-5.2.md) · [Historical 100-case review](docs/REVISAO-100-PERSONAGENS.md) · [Validation records](docs/VALIDACAO.md)
+[Manual](deck/manual-5.2.md) · [Quick start](docs/QUICKSTART.md) · [Skill](docs/SKILL.md) · [Architecture](docs/ARCHITECTURE.md) · [API](docs/API.md) · [Operations](docs/OPERATIONS.md) · [Privacy](docs/PRIVACY.md) · [Tests](docs/TESTING.md) · [105 complete inspirations](docs/INSPIRACAO-5.2.md) · [Historical 100-case review](docs/REVISAO-100-PERSONAGENS.md) · [Validation records](docs/VALIDACAO.md)
 
 [![Repository checks](https://github.com/eep0x10/persona-cards/actions/workflows/checks.yml/badge.svg)](https://github.com/eep0x10/persona-cards/actions/workflows/checks.yml) · [Contributing](CONTRIBUTING.md) · [History](CHANGELOG.md)
 

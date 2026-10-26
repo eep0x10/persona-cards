@@ -1,6 +1,6 @@
-# Inspiração — 100 leituras completas 5.2
+# Inspiração — 105 leituras completas 5.2
 
-A galeria usa os mesmos 100 personagens e os mesmos identificadores da edição anterior. Cada leitura agora inclui **OR, CV, D, F, V, L, P e N**, com uma carta ilustrada, uma interpretação na cena e uma explicação de como a escolha compõe aquele personagem. O guia **G07 — Chamado e destino** aparece com sua arte, cinco respostas e uma explicação da jornada.
+A galeria reúne os 100 personagens anteriores, com identificadores preservados, e cinco novos: Edward Elric, Alphonse Elric, Frieren, Gon Freecss e Killua Zoldyck. As escolhas dos 105 foram revistas por recorte, com decisões para todas as oito famílias e G07. Cada leitura agora inclui **OR, CV, D, F, V, L, P e N**, com uma carta ilustrada, uma interpretação na cena e uma explicação de como a escolha compõe aquele personagem. O guia **G07 — Chamado e destino** aparece com sua arte, cinco respostas e uma explicação da jornada.
 
 ## Como usar
 
@@ -31,4 +31,6 @@ O catálogo anterior permanece no [commit da edição inicial 5.2](https://githu
 
 ## Verificação
 
-Os contratos automatizados conferem 100 IDs, 800 escolhas e interpretações, 800 justificativas, 500 respostas de G07, códigos válidos, importação sem perda, fontes e filtros. A conferência editorial avalia coerência e evita substituir conflito interno por obstáculo. A conferência visual usa amostras desktop e 390px, incluindo a passagem de uma base à revisão. Esses resultados não substituem leitura por jogadores ou playtest.
+Os contratos automatizados conferem 105 IDs, 840 escolhas e interpretações, 840 justificativas, 525 respostas de G07, códigos válidos, importação sem perda, fontes e filtros. A conferência editorial avalia coerência e evita substituir conflito interno por obstáculo. A conferência visual usa amostras desktop e 390px, incluindo a passagem de uma base à revisão. Esses resultados não substituem leitura por jogadores ou playtest.
+
+A [revisão dos 105](REVISAO-105-PERSONAGENS.md) registra método, mudanças e limites das fontes; o registro estruturado vincula as decisões ao hash exato do catálogo.

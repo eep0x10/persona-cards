@@ -36,6 +36,6 @@ Fichas 5.0/5.1 preservam identidade, códigos, texto, foto e notas. A migração
 
 ## Inspiração
 
-Os 100 registros de `app/public/inspirations.json` são leituras autorais completas 5.2: oito códigos, interpretações e justificativas, `character.journey` com cinco respostas e `journeyRationale` com a explicação da jornada. Novas cenas e conflitos são propostas explícitas, não afirmações canônicas. Copiar uma base cria um rascunho independente com todos esses campos; nunca altera o catálogo nem a ficha antiga do usuário. O histórico 5.1 permanece no Git e no relatório datado.
+Os 105 registros de `app/public/inspirations.json` são leituras autorais completas 5.2: oito códigos, interpretações e justificativas, `character.journey` com cinco respostas e `journeyRationale` com a explicação da jornada. Novas cenas e conflitos são propostas explícitas, não afirmações canônicas. Copiar uma base cria um rascunho independente com todos esses campos; nunca altera o catálogo nem a ficha antiga do usuário. O histórico 5.1 permanece no Git e no relatório datado.
 
 `entry.rationale` explica as escolhas editoriais; `character.fields` interpreta cada carta na cena. A prévia/detalhes percorrem as camadas realmente presentes no exemplo, sem fingir que OR/CV/N ausentes existem. A consulta pública desses exemplos não dá acesso a fichas pessoais.

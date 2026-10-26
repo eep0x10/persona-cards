@@ -128,8 +128,9 @@ class Contracts(unittest.TestCase):
         catalog=response.json()
         self.assertEqual(catalog['version'],'5.2')
         self.assertIn('não são eventos canônicos',catalog['disclaimer'])
-        self.assertEqual(len(catalog['characters']),100)
-        self.assertEqual(len({entry['id'] for entry in catalog['characters']}),100)
+        self.assertEqual(len(catalog['characters']),105)
+        self.assertEqual(len({entry['id'] for entry in catalog['characters']}),105)
+        self.assertTrue({'edward-elric','alphonse-elric','frieren','gon-freecss','killua-zoldyck'}.issubset({e['id'] for e in catalog['characters']}))
         for entry in catalog['characters']:
             self.assertIsNone(entry['character']['id'])
             self.assertTrue(entry['character']['finalized'])
@@ -144,7 +145,7 @@ class Contracts(unittest.TestCase):
         first=catalog['characters'][0]
         self.assertEqual(client.get('/api/inspirations/'+first['id']).json(),first)
         self.assertEqual(client.get('/api/inspirations/inexistente').status_code,404)
-        self.assertEqual(sum(len(entry['rationale']) for entry in catalog['characters']),800)
+        self.assertEqual(sum(len(entry['rationale']) for entry in catalog['characters']),840)
 
     def test_inspirations_combined_filters_and_read_only_contract(self):
         found=client.get('/api/inspirations',params={'q':'hermione','medium':'Cinema','archetype':'Herói'}).json()['characters']

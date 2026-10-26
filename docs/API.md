@@ -10,7 +10,7 @@ Swagger: `/api/docs`; OpenAPI: `/api/openapi.json`. Local: http://127.0.0.1:8766
 | `GET /api/deck` | Deck, módulos e revisão editorial 5.2.0 |
 | `GET /api/cards?q=...&family=...&module=...` | Busca por conteúdo e filtros |
 | `GET /api/cards/{code}` | Carta por código ou 404 |
-| `GET /api/inspirations?q=...&medium=...&archetype=...` | 100 leituras completas 5.2, oito cartas e G07, filtráveis |
+| `GET /api/inspirations?q=...&medium=...&archetype=...` | 105 leituras completas 5.2, oito cartas e G07, filtráveis |
 | `GET /api/inspirations/{id}` | Exemplo por ID ou 404 |
 | `POST /api/draw` | Sorteio de famílias; oito por padrão |
 | `POST /api/characters/compose` | Composição completa ou rascunho explícito, sem salvar |

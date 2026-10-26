@@ -21,8 +21,10 @@ Os testes de documentação verificam links, anchors, assets, banner e navegaç�
 
 A validação no navegador precisa cobrir desktop e 390px: oito escolhas, revisão, G07, recusa de finalização incompleta, recarga, reabertura, exportação/importação, dados legados, filtros e movimento reduzido. Use origem de teste isolada; não substitua dados pessoais para testar migração.
 
-Os 100 personagens têm oito cartas, oito interpretações e justificativas, cinco respostas de G07 e explicação da jornada. Os testes verificam completude estrutural 5.2, códigos reais, importação sem perda, identidade, fontes e filtros. A revisão editorial precisa conferir valores genuínos em N, agência em L e separação de fato/crença/proposta. A [revisão histórica](REVISAO-100-PERSONAGENS.md) preserva critérios anteriores; nenhum desses checks substitui playtest nem mede qualidade narrativa universal.
+Os 105 personagens têm oito cartas, oito interpretações e justificativas, cinco respostas de G07 e explicação da jornada. Os testes verificam completude estrutural 5.2, códigos reais, importação sem perda, identidade, fontes e filtros. A revisão editorial precisa conferir valores genuínos em N, agência em L e separação de fato/crença/proposta. A [revisão histórica](REVISAO-100-PERSONAGENS.md) preserva critérios anteriores; nenhum desses checks substitui playtest nem mede qualidade narrativa universal.
 
 PDFs 5.2 exigem conversão inicial via MarkItDown, conferência de códigos/textos/arte, A4, 42 frentes, 42 versos, 84 páginas duplex e 3 páginas de manual, além de inspeção visual. Extração pode misturar colunas; não prometa extração perfeita nem impressão física aprovada com base só no arquivo digital.
 
 Resultados executados devem ser registrados em [VALIDACAO.md](VALIDACAO.md) identificando edição, ambiente e limite da prova. Não reutilizar capturas ou resultados 5.1 como validação automática de 5.2.
+
+A suíte `tests/test_inspirations_review.py` vincula os 105 registros editoriais ao SHA256 do catálogo, às escolhas atuais e às nove justificativas de revisão por personagem. Ela verifica rastreabilidade, não transforma interpretação em fato canônico.

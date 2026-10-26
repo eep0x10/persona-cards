@@ -1,5 +1,12 @@
 # Histórico
 
+## Aplicação — 5.2.2
+
+- Inspiração passa a105 personagens, incluindo Edward Elric, Alphonse Elric, Frieren, Gon Freecss e Killua Zoldyck, com oito famílias e G07 completos.
+- As escolhas de todos os personagens foram revistas por recorte: Origem, Convicção, Desejo, Forma de agir, Expressão, Vínculo, Pressão, Conflito e jornada, com decisão editorial rastreável por personagem.
+- Critérios distinguem preparo de papel recebido, desejo de método, lembrança de âncora externa e ameaça de perda de conflito entre valores genuínos. Cenas propostas continuam explícitas e não alteram o cânone das obras.
+- Contagem da galeria é dinâmica; testes protegem105 combinações,840 justificativas e525 respostas de G07, além do vínculo entre a revisão registrada e o catálogo publicado.
+
 ## Aplicação — 5.2.1
 
 - As 100 inspirações agora incluem OR/CV/D/F/V/L/P/N, 800 interpretações e justificativas, cinco respostas de G07 por personagem e explicação da jornada.

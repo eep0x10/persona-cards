@@ -8,6 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "deck/persona-cards-5.1.json"
 EXPANSION = ROOT / "deck/expansao-5.2.json"
 REVISION = ROOT / "deck/revisao-5.2.1.json"
+JOURNEY_REVISION = ROOT / "deck/revisao-5.2.2.json"
 OUTPUTS = (ROOT / "deck/persona-cards-5.2.json", ROOT / "app/public/deck.json",
            ROOT / "skills/persona-cards/references/deck.json")
 FAMILIES = ["OR", "CV", "D", "F", "V", "L", "P", "N"]
@@ -44,6 +45,22 @@ def apply_editorial_revision(deck: dict) -> None:
                 any(not isinstance(value, str) or not value.strip() for value in card["campos"].values())):
             raise ValueError(f"Invalid editorial addition: {card['codigo']}")
     deck["cartas"].extend(deepcopy(additions))
+
+
+def apply_journey_revision(deck: dict) -> None:
+    revision = json.loads(JOURNEY_REVISION.read_text(encoding="utf-8"))
+    if (set(revision) != {"versao", "revisao_editorial", "revisoes"} or
+            revision["versao"] != "5.2" or revision["revisao_editorial"] != "5.2.2" or
+            set(revision["revisoes"]) != {"G07"}):
+        raise ValueError("Journey revision may update G07 only")
+    patch = revision["revisoes"]["G07"]
+    if (set(patch) != {"leitura", "campos"} or set(patch["campos"]) != {"Fato", "Escolha"} or
+            not isinstance(patch["leitura"], str) or not patch["leitura"].strip() or
+            any(not isinstance(value, str) or not value.strip() for value in patch["campos"].values())):
+        raise ValueError("Journey revision must preserve identity, five fields and d6 lists")
+    guide = next(card for card in deck["cartas"] if card["codigo"] == "G07")
+    guide["leitura"] = patch["leitura"]
+    guide["campos"].update(deepcopy(patch["campos"]))
 
 
 def build_deck() -> dict:
@@ -84,12 +101,13 @@ def build_deck() -> dict:
             raise ValueError("Invalid OR/CV card contract")
     deck["cartas"].extend(deepcopy(additions))
     apply_editorial_revision(deck)
-    deck.update(versao="5.2", revisao_editorial="5.2.1", familias_sorteaveis=list(FAMILIES),
+    apply_journey_revision(deck)
+    deck.update(versao="5.2", revisao_editorial="5.2.2", familias_sorteaveis=list(FAMILIES),
                 modulos=dict(Counter(c["modulo"] for c in deck["cartas"])),
                 modo_rapido="Uma OR/CV/D/F/V/L/P/N e G07: oito interpretações mais chamado, resposta, fato, crença e escolha.",
                 criacao_completa={"familias": list(FAMILIES), "guia": "G07",
                                   "journey": ["call", "response", "fact", "belief", "choice"]},
-                preservacao="Os códigos e módulos anteriores permanecem. A expansão 5.2.0 e o patch editorial 5.2.1 são fontes versionadas; este último acrescenta F21/F22/N23 e esclarece OR03/N14/P12/L13/D06/G06/U08. As edições 5.0 e 5.1 ficam preservadas em seus arquivos históricos.",
+                preservacao="Os códigos e módulos anteriores permanecem. A expansão 5.2.0 e o patch editorial 5.2.1 são fontes versionadas; este último acrescenta F21/F22/N23 e esclarece OR03/N14/P12/L13/D06/G06/U08. O patch 5.2.2 esclarece somente G07, preservando identidade, cinco campos e listas d6. As edições 5.0 e 5.1 ficam preservadas em seus arquivos históricos.",
                 comparacao="5.2 exige oito famílias e Chamado e destino. OR não implica culpa; CV distingue fato, valor e regra; N exige dois valores genuínos, sem trauma ou redenção obrigatórios. Sorteio não garante coerência.")
     if len(deck["cartas"]) != 169 or sum(c["familia"] in FAMILIES for c in deck["cartas"]) != 153:
         raise ValueError("Expected 169 cards, 153 for creation and 16 guides")
@@ -100,7 +118,7 @@ def main() -> None:
     output = (json.dumps(build_deck(), ensure_ascii=False, indent=2) + "\n").encode("utf-8")
     for path in OUTPUTS:
         path.write_bytes(output)
-    print("Built 169 cards (153 creation, 16 guides), revision 5.2.1, in three identical copies")
+    print("Built 169 cards (153 creation, 16 guides), revision 5.2.2, in three identical copies")
 
 
 if __name__ == "__main__":

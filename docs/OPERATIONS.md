@@ -29,7 +29,7 @@ Na atualização para 5.2, conserve cópias das fichas 5.0/5.1 antes de completa
 
 ## Diagnóstico
 
-- `/api/health` confirma estado, versão 5.2 e 169 cartas; a revisão 5.2.1 aparece em `/api/deck`.
+- `/api/health` confirma estado, versão 5.2 e 169 cartas; a revisão 5.2.2 aparece em `/api/deck`.
 - Interface em preparação: execute `npm run build` em `app/`.
 - Porta ocupada: escolha outra e use o endereço correspondente.
 - Importação recusada: confira formato, versão, códigos e limites; não edite a estrutura apenas para contornar a validação.

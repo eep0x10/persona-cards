@@ -1,6 +1,6 @@
 {
-  "revisao_editorial": "5.2.1",
-  "deck_sha256": "4dae5bb05ba6376bd09ac3d7bcf16a6307e159a236b66f1bef457fce4b897128",
+  "revisao_editorial": "5.2.2",
+  "deck_sha256": "61cf3073fde6d6a33454d2ba8b4888ac70533679f615c889b46b35d2aef0de69",
   "manifest_sha256": "b74d571c7394cc60a838ce0f794068c2f93b5b08d99f871d0fcb8501b9c3eb45",
   "cards": 169,
   "illustrations": 169,
@@ -1501,7 +1501,7 @@
       "art_pt": 56,
       "body_pt": 9.0,
       "reading_pt": 9.35,
-      "lowest_pt": 24.28,
+      "lowest_pt": 24.81,
       "atlas": "folk-g007-chamado-destino.png",
       "slot": 0
     },
@@ -1536,19 +1536,19 @@
   "lossless_encoding": {
     "Persona-Cards-5.2-Ilustrado-Frentes-A4.pdf": {
       "images_pixel_verified": 60,
-      "before_bytes": 107127223,
-      "after_bytes": 58034562
+      "before_bytes": 107127206,
+      "after_bytes": 58034499
     },
     "Persona-Cards-5.2-Ilustrado-Versos-A4.pdf": {
       "images_pixel_verified": 2,
       "before_bytes": 1631141,
-      "after_bytes": 1197625
+      "after_bytes": 1197573
     }
   },
   "files": {
-    "Persona-Cards-5.2-Ilustrado-Frentes-A4.pdf": "0e6816e4269e49b963f25493be6d8c0985da4b7ad1208fb3eaaed6f4dd6ee26f",
-    "Persona-Cards-5.2-Ilustrado-Versos-A4.pdf": "b6566817952cd7e2ab997b26b4c4b9869bc06b4fb2ef1f17a5c8a436e1e820ea",
-    "Persona-Cards-5.2-Ilustrado-Duplex-A4.pdf": "bd9112cd82382c7f1c53dd667c9f74210b66694289bf35b103271e08dfacd41f",
-    "Persona-Cards-5.2-Ilustrado-Manual-Rapido.pdf": "3e7dd36879e14716efe92c3dbc8a6806cc3e4878131f968cc59afadfdc38c1ad"
+    "Persona-Cards-5.2-Ilustrado-Frentes-A4.pdf": "3766156cfd332cf2fe3893a228ec28eb40c9669eea446ae77f305215149ab47d",
+    "Persona-Cards-5.2-Ilustrado-Versos-A4.pdf": "a0e9394d7e0ab013b8546d36bb5225e762da7ce32bf79d3013a397d448e8a6b8",
+    "Persona-Cards-5.2-Ilustrado-Duplex-A4.pdf": "48365e64ec5bbbfaddd32473c259d0df47434053e2b99787bc77236e4e1c7577",
+    "Persona-Cards-5.2-Ilustrado-Manual-Rapido.pdf": "28d06adb0992b37905d8c20863500e7088e639b3e2cd7b7572588b9f7924e1d8"
   }
 }

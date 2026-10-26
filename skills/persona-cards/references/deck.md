@@ -1,4 +1,4 @@
-# Persona Cards 5.2 — revisão 5.2.1
+# Persona Cards 5.2 — revisão 5.2.2
 
 **169 cartas em português: 153 de criação e 16 guias.** A criação completa usa uma carta OR, CV, D, F, V, L, P e N, mais G07 — Chamado e destino. As oito famílias são obrigatórias; U/G são consulta, nunca personalidade sorteada.
 
@@ -8,7 +8,7 @@
 2. Conecte OR e CV por por isso, apesar disso ou mais tarde aprendi. Origem não determina culpa, trauma ou uma única convicção.
 3. Diga o resultado D, a tentativa F e a expressão V. Em L, respeite a vontade de pessoas vivas e o alcance estabelecido para objetos, entidades ou memória de mortos. Concretize P como circunstância que muda a escolha.
 4. N exige dois valores genuínos que a pessoa quer preservar. Se só descreve um obstáculo ou não cabe no recorte, troque ou ressorteie N; não omita a família. Não force culpa, conciliação ou redenção.
-5. Consulte G07: registre chamado, resposta, fato, crença e escolha. Escolha ou use 1d6 nas listas abaixo. Recusar e renegociar continuam possíveis; destino não determina o resultado.
+5. Consulte G07: registre chamado, resposta, fato, crença e escolha. Escolha ou use 1d6 nas listas abaixo. Recusar é não assumir o chamado; negociar é considerar assumi-lo sob condições diferentes. Diga qual pedido rejeita ou condiciona. Registre mudanças posteriores sem apagar a primeira resposta; destino não determina o resultado.
 6. Acrescente nome, papel, competência e prazer cotidiano. Mostre uma tentativa em cena, aceite a resposta dos demais e registre a consequência observada.
 
 ## Chamado e destino — G07
@@ -35,7 +35,7 @@ O guia acompanha toda criação completa. As oito cartas descrevem a pessoa; G07
 
 ### Fato
 
-O que está confirmado no mundo?
+Qual pedido, oferta ou situação está confirmado?
 
 ### Crença
 
@@ -43,9 +43,13 @@ Quem interpreta ou prevê algo, e com qual evidência?
 
 ### Escolha
 
-O que você decide e o que ainda pode escolher? Não sorteie um desfecho.
+Recuso: não assumo o chamado. Negocio: considero assumi-lo se as condições mudarem. Não sorteie o desfecho.
 
 No aplicativo, esses registros são `journey.call`, `response`, `fact`, `belief` e `choice`. Podem ser anotados em papel. Um valor não é uma afirmação factual: questione sua aplicação sem declará-lo um fato falso.
+
+## Recusa e negociação — exemplos de G07
+
+Para o convite Venha à festa: Não vou participar recusa o chamado; Vou se reservarmos os brotos negocia condições. Rejeitar um modo de execução não é necessariamente rejeitar o objetivo. Se a oferta era consumir todos os brotos, diga isso no fato antes de chamar a recusa de recusa do chamado. A primeira resposta pode mudar depois: registre a sequência em escolha, sem reescrever o início.
 
 ## Compatibilidade e histórico
 
@@ -1772,7 +1776,7 @@ Os arquivos 5.0/5.1 são históricos. A edição 5.2 acrescenta OR/CV/G07 e atua
 
 ### G07 — Chamado e destino (guia_contexto)
 
-> Algo põe uma possibilidade diante de você. Separe o que aconteceu, o sentido que atribui e a resposta que escolhe.
+> Nomeie o chamado concreto e a primeira resposta. Ela pode mudar; registre a ordem.
 
 **Chamado:**
 
@@ -1792,8 +1796,8 @@ Os arquivos 5.0/5.1 são históricos. A edição 5.2 acrescenta OR/CV/G07 e atua
 5. Tento impedir o futuro
 6. Busco cumprir por outro caminho
 
-**Fato:** O que está confirmado no mundo?
+**Fato:** Qual pedido, oferta ou situação está confirmado?
 
 **Crença:** Quem interpreta ou prevê algo, e com qual evidência?
 
-**Escolha:** O que você decide e o que ainda pode escolher? Não sorteie um desfecho.
+**Escolha:** Recuso: não assumo o chamado. Negocio: considero assumi-lo se as condições mudarem. Não sorteie o desfecho.

@@ -21,7 +21,7 @@ ROOT=Path(__file__).resolve().parents[1]
 PRINT=ROOT/'skills/persona-cards/print'
 DECK=ROOT/'deck/persona-cards-5.2.json'
 MANIFEST=ROOT/'deck/illustration_sheets_5_2.json'
-EDITION='5.2.1'
+EDITION='5.2.2'
 PALETTE={**base.PALETTE,'OR':('ORIGEM','#55705A'),'CV':('CONVICÇÃO','#9A573F')}
 LAYOUT={}
 SAFE_CROPS={**base.SAFE_CROPS,'CV02':(.04,0,0,0)}
@@ -90,7 +90,7 @@ def build_manual(path):
         ('Primeira resposta: escolha ou use 1d6',guide['campos']['Resposta'].replace('\n','; ')+'.'),
         ('Fato confirmado','O que está estabelecido no mundo? Uma cheia sazonal pode ser real sem que seja verdade a exigência de sacrificar alguém para detê-la. Natureza e passagem do tempo não precisam ter intenção.'),
         ('Crença e evidência','Quem interpreta o acontecimento como sinal, dever ou profecia? Separe relato, previsão e fato. Uma crença factual pode ser verdadeira, falsa, parcial ou desconhecida; um valor não é um fato a refutar.'),
-        ('Escolha e consequência','Diga a primeira ação e o que ela preserva. Recusar não equivale a covardia, aceitar não garante bondade. O dado sugere a postura inicial; não decide o futuro nem a ação de jogadores. Preserve o que ainda pode ser escolhido.'),
+        ('Escolha e consequência','Recuso: não assumo o chamado. Negocio: considero assumi-lo sob outras condições. Para um convite à festa: “Não vou” recusa; “Vou se reservarmos os brotos” negocia. Recusar uma condição não recusa necessariamente o chamado. A primeira resposta pode mudar: registre a sequência, sem apagar a anterior. O dado não decide o futuro nem ações de jogadores.'),
     ]),('IMPRIMIR E CORTAR',[
         ('Formato','A4 retrato, quatro cartas por folha, 92 x 130 mm por carta. São 169 cartas, 43 folhas de frentes, 43 de versos e 86 páginas duplex alternadas. A última folha tem uma carta e três espaços vazios.'),
         ('Duplex automático','Imprima em tamanho real / 100%, virando na borda longa. Desative ajuste à página e livreto. Teste primeiro as páginas 1 e 2; confira tamanho, alinhamento e orientação antes do lote.'),

@@ -125,3 +125,13 @@ Uma spritesheet original ImageGen acrescenta três artesfolk com alfa, em2×2cé
 Verificação local:14testesPython de repositório,11deAPI e15Node aprovados; buildVite aprovado, mantendo o aviso conhecido de bundle acima500kB. CUA conferiu F21/F22 no leque, grade com22formas e galeriaIroh com oito cartas, explicações eG07; desktop e390px inspecionados, sem rolagem horizontal do documento. Nenhuma alteração de UI ou motor de animação: Anime.js existente foi preservado. Evidências locais ignoradas em `tmp/revision-521/`.
 
 A integraçãoMesa20 preserva as29folhas anteriores e acrescenta a30ª, com169códigos;41testesPython e9Node aprovados. Publicação e validação pública são registradas no resultado da release, separadas destas provas locais.
+
+## G07 — revisão5.2.2 / aplicação5.2.4 (26/10/2026)
+
+G07 agora pede o chamado concreto e distingue não o assumir de considerar assumi-lo sob outras condições. A primeira resposta pode mudar depois, com sequência preservada. São169cartas; os168outros objetos e as listasd6/cincochavesG07 permanecem iguais à5.2.1. Três cópias ativas SHA256 `61cf3073fde6d6a33454d2ba8b4888ac70533679f615c889b46b35d2aef0de69`.
+
+A passagem pelos105G07 corrigiu somente a jornada e a justificativa de Naruto: o chamado é a demonstração extra após uma missão concluída, e a primeira aceitação não é confundida com decisão posterior. As104outras leituras e todas as oito escolhas ficaram preservadas. Histórico5.2.1 arquivado; catálogoSHA256 `7202d635c1bb3d5c017482ab5c59c16244dbd2bb3cb9bddb3362714b92503c75`.
+
+Os quatro PDFs foram convertidos primeiro viaMarkItDown; a extração em colunas não reconstrói a ordem sozinha. O verificador conferiu169textos/artes,43frentes/43versos/86duplex/3manual, A4 e hashes. G07 mantém corpo9pt e arte56pt; mínimo global8,5pt. Prévia deG07 e página2do manual inspecionadas visualmente, sem sobreposição. Prova física permanece pendente.
+
+A ajuda contextual foi incluída nas duas aplicações, com exemplo de festa e associação acessível ao campoResposta. CUA local conferiu a etapa de revisão em desktop e390px, preservando o estilo eAnime.js existentes.16testes de repositório e15Node aprovados; buildVite aprovado com aviso conhecido de bundlegrande. Mesa20 teve41Python+9Node e, após a compactação exclusivamente editorial,6Nodefocais aprovados; atlas/artes permaneceram intactos. O contrato de produção repete as verificações aplicáveis antes de ativar a release. Publicação e paridade pública ficam no recibo da entrega.

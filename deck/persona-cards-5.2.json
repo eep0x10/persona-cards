@@ -2156,12 +2156,12 @@
       "campos": {
         "Chamado": "1. Pedido de alguém\n2. Papel ou herança\n3. Risco concreto\n4. Encontro ou convite\n5. Presságio ou profecia\n6. Natureza, tempo ou finitude",
         "Resposta": "1. Aceito\n2. Recuso\n3. Adio e investigo\n4. Negocio as condições\n5. Tento impedir o futuro\n6. Busco cumprir por outro caminho",
-        "Fato": "O que está confirmado no mundo?",
+        "Fato": "Qual pedido, oferta ou situação está confirmado?",
         "Crença": "Quem interpreta ou prevê algo, e com qual evidência?",
-        "Escolha": "O que você decide e o que ainda pode escolher? Não sorteie um desfecho."
+        "Escolha": "Recuso: não assumo o chamado. Negocio: considero assumi-lo se as condições mudarem. Não sorteie o desfecho."
       },
       "modulo": "guia_contexto",
-      "leitura": "Algo põe uma possibilidade diante de você. Separe o que aconteceu, o sentido que atribui e a resposta que escolhe."
+      "leitura": "Nomeie o chamado concreto e a primeira resposta. Ela pode mudar; registre a ordem."
     },
     {
       "versao": "5.2",
@@ -2226,9 +2226,9 @@
     "expansao_5_2": 27
   },
   "modo_rapido": "Uma OR/CV/D/F/V/L/P/N e G07: oito interpretações mais chamado, resposta, fato, crença e escolha.",
-  "preservacao": "Os códigos e módulos anteriores permanecem. A expansão 5.2.0 e o patch editorial 5.2.1 são fontes versionadas; este último acrescenta F21/F22/N23 e esclarece OR03/N14/P12/L13/D06/G06/U08. As edições 5.0 e 5.1 ficam preservadas em seus arquivos históricos.",
+  "preservacao": "Os códigos e módulos anteriores permanecem. A expansão 5.2.0 e o patch editorial 5.2.1 são fontes versionadas; este último acrescenta F21/F22/N23 e esclarece OR03/N14/P12/L13/D06/G06/U08. O patch 5.2.2 esclarece somente G07, preservando identidade, cinco campos e listas d6. As edições 5.0 e 5.1 ficam preservadas em seus arquivos históricos.",
   "comparacao": "5.2 exige oito famílias e Chamado e destino. OR não implica culpa; CV distingue fato, valor e regra; N exige dois valores genuínos, sem trauma ou redenção obrigatórios. Sorteio não garante coerência.",
-  "revisao_editorial": "5.2.1",
+  "revisao_editorial": "5.2.2",
   "criacao_completa": {
     "familias": [
       "OR",

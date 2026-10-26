@@ -1,8 +1,12 @@
 # Impressão — Persona Cards 5.2 ilustrado
 
-## Edição 5.2 — revisão 5.2.1
+## Edição 5.2 — revisão 5.2.2
 
 **169 cartas: 153 de criação e 16 guias.** O método usa OR/CV/D/F/V/L/P/N obrigatórias e o guia G07 — Chamado e destino. U/G são consulta, fora do sorteio de personalidade.
+
+[Prévia real de G07 atualizado](preview-g07-5.2.2.png).
+
+G07 agora distingue recusar o chamado de negociar condições e permite registrar mudança posterior da primeira resposta.
 
 ![Primeira folha da edição 5.2](preview-frentes-5.2-ilustrado.png)
 

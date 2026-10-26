@@ -52,7 +52,7 @@ def main():
     report=json.loads((PRINT/'verificacao-impressao-5.2-ilustrado.json').read_text(encoding='utf8'))
     assert report['deck_sha256']==digest(deck_path)
     assert report['manifest_sha256']==digest(manifest_path)
-    assert report['revisao_editorial']=='5.2.1'
+    assert report['revisao_editorial']=='5.2.2'
     assert report['cards']==report['illustrations']==169
     assert min(f['body_pt'] for f in report['fit'])>=8.5
     assert all(f['art_pt']>=80 for f in report['fit'] if not f['code'].startswith(('G','U')))

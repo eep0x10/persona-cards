@@ -8,7 +8,7 @@ Conecte passado, interpretação, intenção e escolha. As cartas são convites 
 
 ## Material e edição
 
-Leia [manual e cartas](../skills/persona-cards/references/deck.md) na primeira aplicação; use o [índice](../skills/persona-cards/references/indice.md) e `scripts/cards.py` para consultas. A fonte é [deck.json](../skills/persona-cards/references/deck.json): **5.2, revisão 5.2.1, 169 cartas — 153 de criação e 16 guias**. Nunca invente códigos e títulos oficiais. Veja [exemplos](../skills/persona-cards/references/exemplos.md) e [limites](../skills/persona-cards/references/revisao.md).
+Leia [manual e cartas](../skills/persona-cards/references/deck.md) na primeira aplicação; use o [índice](../skills/persona-cards/references/indice.md) e `scripts/cards.py` para consultas. A fonte é [deck.json](../skills/persona-cards/references/deck.json): **5.2, revisão 5.2.2, 169 cartas — 153 de criação e 16 guias**. Nunca invente códigos e títulos oficiais. Veja [exemplos](../skills/persona-cards/references/exemplos.md) e [limites](../skills/persona-cards/references/revisao.md).
 
 Use **uma carta de cada família OR + CV + D + F + V + L + P + N**, além de **G07 — Chamado e destino**. As oito famílias são obrigatórias. U/G são consulta, nunca personalidade sorteada; G07 não é uma nona família de personalidade.
 
@@ -19,7 +19,7 @@ Use **uma carta de cada família OR + CV + D + F + V + L + P + N**, além de **G
 3. Complete **D** com um resultado concreto, **F** com tentativa observável e **V** com fala, gesto, escrita ou sinais. CV não substitui objetivo, método nem expressão.
 4. Complete **L** com um laço; se envolver pessoa viva, descreva sua vontade própria. Pessoa morta, objeto, entidade e pessoa viva não recebem a mesma agência. **P** é uma circunstância que muda a escolha, não traço de personalidade.
 5. Complete **N** com **dois valores genuínos que a pessoa quer preservar**, colocados em disputa. Obstáculo, coerção, crueldade ou custo não bastam. Se a carta não cabe, troque ou ressorteie N; não omita a família nem force arrependimento, bondade ou redenção. G06 ajuda nessa distinção. Escolher um valor e sacrificar o outro é possível.
-6. Consulte **G07** e registre cinco respostas: `call` (chamado), `response` (primeira resposta), `fact` (fato confirmável), `belief` (crença/interpretação) e `choice` (escolha agora). Escolha ou use 1d6 nas listas de chamado e resposta. Recusar, adiar ou renegociar são válidos. Profecia não obriga o desfecho.
+6. Consulte **G07** e registre cinco respostas: `call` (chamado), `response` (primeira resposta), `fact` (fato confirmável), `belief` (crença/interpretação) e `choice` (escolha agora). Escolha ou use 1d6 nas listas de chamado e resposta. Recusar é não assumir o chamado concreto; negociar é considerar assumi-lo se as condições mudarem. Recusar uma condição não recusa necessariamente o chamado. Declare o pedido e o que rejeita ou condiciona. A primeira resposta pode mudar depois: registre a sequência em `choice`, sem apagar a anterior. Adiar é reservar a decisão para investigar; profecia não obriga o desfecho.
 7. Acrescente competência, prazer cotidiano e limite reconhecido — ou sua ausência. Faça uma cena com tentativa, resposta aberta e consequência possível. Registre o que mudou depois de jogar; não ressorteie o passado a cada sessão.
 
 ## Fronteiras de interpretação
@@ -37,6 +37,10 @@ Todo personagem novo completo inclui nome/papel, os oito códigos e interpretaç
 Em personagens existentes, preserve identidade e fatos. Novas OR/CV/N ou etapas da jornada precisam ser propostas explícitas se ainda não estabelecidas. Não declare a ficha completa enquanto faltar uma camada ou dois valores genuínos. Peça apenas informação indispensável quando não houver como preservar o recorte sem inventá-la.
 
 Fichas pessoais 5.0/5.1 são preservadas como rascunhos pendentes quando faltam camadas, sem inventar automaticamente passados, convicções ou conflitos. A galeria web contém **105 leituras autorais completas 5.2**, com oito famílias, justificativas e G07; novas cenas e tensões são propostas explícitas, não fatos canônicos. Finalizar exige as oito famílias e G07. Aceitar uma importação não certifica coerência narrativa.
+
+## Recusar ou negociar — G07
+
+Diante de “Venha à festa”, “Não vou participar” recusa o chamado. “Vou se reservarmos os brotos para cultivo” negocia condições. Se a proposta era consumir todo o lote, recusar esse consumo pode recusar aquele chamado específico: explicite a oferta. Um “não” inicial pode ser seguido de negociação; anote essa mudança, sem reclassificar retroativamente a primeira resposta.
 
 ## Consulta portátil
 
@@ -66,7 +70,7 @@ O padrão sorteia as oito famílias. `--families` permite consultar ou ressortei
 
 ---
 
-# Persona Cards 5.2 — revisão 5.2.1
+# Persona Cards 5.2 — revisão 5.2.2
 
 **169 cartas em português: 153 de criação e 16 guias.** A criação completa usa uma carta OR, CV, D, F, V, L, P e N, mais G07 — Chamado e destino. As oito famílias são obrigatórias; U/G são consulta, nunca personalidade sorteada.
 
@@ -76,7 +80,7 @@ O padrão sorteia as oito famílias. `--families` permite consultar ou ressortei
 2. Conecte OR e CV por por isso, apesar disso ou mais tarde aprendi. Origem não determina culpa, trauma ou uma única convicção.
 3. Diga o resultado D, a tentativa F e a expressão V. Em L, respeite a vontade de pessoas vivas e o alcance estabelecido para objetos, entidades ou memória de mortos. Concretize P como circunstância que muda a escolha.
 4. N exige dois valores genuínos que a pessoa quer preservar. Se só descreve um obstáculo ou não cabe no recorte, troque ou ressorteie N; não omita a família. Não force culpa, conciliação ou redenção.
-5. Consulte G07: registre chamado, resposta, fato, crença e escolha. Escolha ou use 1d6 nas listas abaixo. Recusar e renegociar continuam possíveis; destino não determina o resultado.
+5. Consulte G07: registre chamado, resposta, fato, crença e escolha. Escolha ou use 1d6 nas listas abaixo. Recusar é não assumir o chamado; negociar é considerar assumi-lo sob condições diferentes. Diga qual pedido rejeita ou condiciona. Registre mudanças posteriores sem apagar a primeira resposta; destino não determina o resultado.
 6. Acrescente nome, papel, competência e prazer cotidiano. Mostre uma tentativa em cena, aceite a resposta dos demais e registre a consequência observada.
 
 ## Chamado e destino — G07
@@ -103,7 +107,7 @@ O guia acompanha toda criação completa. As oito cartas descrevem a pessoa; G07
 
 ### Fato
 
-O que está confirmado no mundo?
+Qual pedido, oferta ou situação está confirmado?
 
 ### Crença
 
@@ -111,9 +115,13 @@ Quem interpreta ou prevê algo, e com qual evidência?
 
 ### Escolha
 
-O que você decide e o que ainda pode escolher? Não sorteie um desfecho.
+Recuso: não assumo o chamado. Negocio: considero assumi-lo se as condições mudarem. Não sorteie o desfecho.
 
 No aplicativo, esses registros são `journey.call`, `response`, `fact`, `belief` e `choice`. Podem ser anotados em papel. Um valor não é uma afirmação factual: questione sua aplicação sem declará-lo um fato falso.
+
+## Recusa e negociação — exemplos de G07
+
+Para o convite Venha à festa: Não vou participar recusa o chamado; Vou se reservarmos os brotos negocia condições. Rejeitar um modo de execução não é necessariamente rejeitar o objetivo. Se a oferta era consumir todos os brotos, diga isso no fato antes de chamar a recusa de recusa do chamado. A primeira resposta pode mudar depois: registre a sequência em escolha, sem reescrever o início.
 
 ## Compatibilidade e histórico
 
@@ -1840,7 +1848,7 @@ Os arquivos 5.0/5.1 são históricos. A edição 5.2 acrescenta OR/CV/G07 e atua
 
 ### G07 — Chamado e destino (guia_contexto)
 
-> Algo põe uma possibilidade diante de você. Separe o que aconteceu, o sentido que atribui e a resposta que escolhe.
+> Nomeie o chamado concreto e a primeira resposta. Ela pode mudar; registre a ordem.
 
 **Chamado:**
 
@@ -1860,11 +1868,11 @@ Os arquivos 5.0/5.1 são históricos. A edição 5.2 acrescenta OR/CV/G07 e atua
 5. Tento impedir o futuro
 6. Busco cumprir por outro caminho
 
-**Fato:** O que está confirmado no mundo?
+**Fato:** Qual pedido, oferta ou situação está confirmado?
 
 **Crença:** Quem interpreta ou prevê algo, e com qual evidência?
 
-**Escolha:** O que você decide e o que ainda pode escolher? Não sorteie um desfecho.
+**Escolha:** Recuso: não assumo o chamado. Negocio: considero assumi-lo se as condições mudarem. Não sorteie o desfecho.
 
 
 ---

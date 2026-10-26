@@ -545,11 +545,11 @@
         "portrait": "",
         "finalized": true,
         "journey": {
-          "call": "Cena hipotética — Papel ou herança: O time já concluiu a tarefa, mas uma demonstração extra pode render atenção enquanto os colegas querem encerrar o dia.",
-          "response": "Aceito: assumo uma parte da missão que os colegas possam avaliar pelo resultado.",
-          "fact": "Âncora biográfica: Iruka reconheceu Naruto num período em que ele sofria rejeição na aldeia. Premissa da cena autoral: O time já concluiu a tarefa, mas uma demonstração extra pode render atenção enquanto os colegas querem encerrar o dia.",
+          "call": "Cena hipotética — Papel ou herança: Depois da tarefa concluída, um instrutor propõe que eu faça uma demonstração extra como integrante do time, enquanto os colegas querem encerrar o dia.",
+          "response": "Primeiro aceito preparar a demonstração extra para que o time avalie minha contribuição pelo resultado.",
+          "fact": "Âncora biográfica: Iruka reconheceu Naruto num período de rejeição na aldeia. Premissa da cena autoral: A tarefa está concluída; o instrutor propôs a demonstração adicional e os colegas querem encerrar o dia. A primeira resposta de Naruto foi aceitar prepará-la, ainda sem a ter realizado.",
           "belief": "Crença interpretativa proposta: Por isso, proponho que Naruto veja a contribuição demonstrada como caminho para conquistar valor perante a comunidade.",
-          "choice": "Escolho pedir outra tentativa ou compartilhar a refeição com o time, sem declarar insuficiente o reconhecimento recebido."
+          "choice": "Após esse aceite inicial, posso manter a demonstração ou pedir para encerrarmos e compartilhar a refeição com o time; se mudar de resposta, preciso comunicar a mudança, sem presumir que os colegas concordem."
         }
       },
       "audit": {
@@ -567,7 +567,7 @@
         "P": "A tarefa concluída permite observar se Naruto reconhece uma conquista presente ou a desvaloriza em busca de outra prova.",
         "N": "Ambição de crescer e suficiência de uma conquista presente podem coexistir sem apagar a rejeição passada."
       },
-      "journeyRationale": "Aceitar uma responsabilidade desloca a busca de aplauso para colaboração observável, cuja avaliação permanece alheia."
+      "journeyRationale": "O primeiro aceite responde à demonstração adicional proposta, não a uma missão que já terminou. A contribuição ainda será avaliada pelo time; uma decisão posterior de encerrar e conviver precisa ser registrada depois do aceite, preservando ambição e suficiência como vontades abertas."
     },
     {
       "id": "sasuke-uchiha",

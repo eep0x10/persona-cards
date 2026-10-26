@@ -41,14 +41,16 @@
     "skills/persona-cards/print/Persona-Cards-5.2-Ilustrado-Versos-A4.pdf",
     "skills/persona-cards/print/Persona-Cards-5.2-Ilustrado-Manual-Rapido.pdf",
     "deck/revisao-5.2.1.json",
-    "docs/REVISAO-BARALHO-5.2.1.md"
+    "docs/REVISAO-BARALHO-5.2.1.md",
+    "deck/revisao-5.2.2.json",
+    "docs/REVISAO-G07-5.2.2.md"
   ],
   "requiredText": [
     {
       "path": "app/public/deck.json",
       "contains": [
         "\"versao\": \"5.2\"",
-        "\"revisao_editorial\": \"5.2.1\"",
+        "\"revisao_editorial\": \"5.2.2\"",
         "\"codigo\": \"G07\"",
         "\"codigo\": \"OR12\"",
         "\"codigo\": \"CV12\"",

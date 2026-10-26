@@ -23,8 +23,9 @@ function JourneyReview({journey,guide,onChange,issues,submitted,reduced}) {
     <p className="review-instruction">Escolha um chamado e uma resposta. Depois, separe o que aconteceu, o que o personagem acredita e a escolha que ainda pode fazer. Nenhum chamado determina a resposta.</p>
     {['call','response'].map(key=>{
       const options=journeyOptions(guide,key),error=issueFor(key);
-      return <fieldset className="journey-choice-group" key={key} id={`review-journey-${key}`} tabIndex={-1} aria-describedby={error?`journey-error-${key}`:undefined}>
+      return <fieldset className="journey-choice-group" key={key} id={`review-journey-${key}`} tabIndex={-1} aria-describedby={[key==="response"?"journey-response-help":null,error?`journey-error-${key}`:null].filter(Boolean).join(' ')||undefined}>
         <legend>{JOURNEY_LABELS[key]} <span>{key === "response" ? "obrigatória" : "obrigatório"}</span></legend>
+        {key==="response"&&<p id="journey-response-help" className="review-instruction"><strong>Recusar</strong> é não assumir o chamado concreto; <strong>negociar</strong> é considerar assumi-lo sob condições. Na festa: “Não vou participar” / “Vou se reservarmos brotos”. A resposta inicial pode mudar; registre a sequência em Margem de escolha.</p>}
         <div className="journey-choices">{options.map((option,index)=><button type="button" className="journey-choice" key={option} aria-pressed={journey[key]===option} onClick={()=>update(key,option)}><span>{index+1}</span><strong>{option}</strong>{journey[key]===option&&<b aria-hidden="true">✓</b>}</button>)}</div>
         {journey[key]&&!options.includes(journey[key])&&<p className="journey-retained">Resposta guardada: {journey[key]}</p>}
         {error&&<p id={`journey-error-${key}`} className="review-error">{error}</p>}

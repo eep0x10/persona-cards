@@ -17,10 +17,11 @@ class InspirationReview(unittest.TestCase):
         self.assertEqual([r['id'] for r in review['records']],[e['id'] for e in catalog['characters']])
         deck=json.loads((ROOT/'deck/persona-cards-5.2.json').read_text(encoding='utf-8'))
         self.assertEqual(review['deckRevision'],deck['revisao_editorial'])
-        self.assertEqual(review['previousDeckRevision'],'5.2.0')
+        self.assertEqual(review['previousDeckRevision'],'5.2.1')
         history=json.loads((ROOT/'docs/reviews'/review['previousReviewPath']).read_text(encoding='utf-8'))
         self.assertEqual(review['previousCatalogSha256'],history['catalogSha256'])
-        self.assertEqual(sum(r['previousCards'] is None for r in history['records']),5)
+        self.assertEqual(history['deckRevision'],review['previousDeckRevision'])
+        self.assertTrue(all(r['previousCards'] is not None for r in history['records']))
         self.assertTrue(all(r['previousCards'] is not None for r in review['records']))
         previous={r['id']:r for r in history['records']}
         valid={c['codigo']:c['familia'] for c in deck['cartas']}

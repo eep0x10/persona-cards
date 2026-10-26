@@ -1,4 +1,4 @@
-# Índice Persona Cards 5.2 — revisão 5.2.1
+# Índice Persona Cards 5.2 — revisão 5.2.2
 
 Oito famílias obrigatórias e G07: [manual e cartas](deck.md).
 

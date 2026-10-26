@@ -1,6 +1,6 @@
 # Persona Cards — mesa web 5.2
 
-Esta é uma das três formas de usar o **baralho narrativo Persona Cards**. A edição 5.2 / revisão 5.2.1 tem 169 cartas: 153 de criação e 16 guias. Veja [como jogar e os cinco exemplos completos](../README.md) ou use o [PDF](../skills/persona-cards/print/README.md) e a [skill](../skills/persona-cards/SKILL.md).
+Esta é uma das três formas de usar o **baralho narrativo Persona Cards**. A edição 5.2 / revisão 5.2.2 tem 169 cartas: 153 de criação e 16 guias. Veja [como jogar e os cinco exemplos completos](../README.md) ou use o [PDF](../skills/persona-cards/print/README.md) e a [skill](../skills/persona-cards/SKILL.md).
 
 ## Abrir
 
@@ -37,7 +37,7 @@ Os **105 personagens são leituras completas 5.2**, com oito cartas ilustradas, 
 Swagger em **http://127.0.0.1:8766/api/docs**, OpenAPI em `/api/openapi.json`. [Contrato completo](../docs/API.md).
 
 - `GET /api/health`: versão 5.2, 169 cartas.
-- `GET /api/deck`: deck e revisão 5.2.1.
+- `GET /api/deck`: deck e revisão 5.2.2.
 - `GET /api/cards` e `GET /api/cards/{code}`: busca e consulta.
 - `GET /api/inspirations` e `GET /api/inspirations/{id}`: catálogo histórico sem dados pessoais.
 - `POST /api/draw`: oito famílias por padrão; filtros parciais para ressorteio.

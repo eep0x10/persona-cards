@@ -1,10 +1,18 @@
-# Revisão das 105 inspirações — revisão 5.2.1
+# Revisão das 105 inspirações — revisão 5.2.2
 
-A revisão das 105 leituras comparou as oito famílias e G07 com o baralho 5.2, revisão editorial 5.2.1. Os identificadores, recortes, fontes anteriores e notas foram preservados. Não foram acrescentados personagens nem reescritos acontecimentos canônicos para justificar uma carta. As situações novas continuam propostas de jogo.
+A revisão 5.2.1 comparou as oito famílias e G07 das 105 leituras. A passagem 5.2.2 verifica somente o chamado concreto, a primeira resposta e as mudanças posteriores em G07; não reabre as oito escolhas de personalidade. Os identificadores, recortes, fontes anteriores e notas foram preservados. Não foram acrescentados personagens nem reescritos acontecimentos canônicos para justificar uma carta. As situações novas continuam propostas de jogo.
 
-Nesta passagem, **15 personagens tiveram troca de código**: **6 em Forma de agir e 9 em Conflito interno**. As outras famílias mantiveram os códigos após revisão, com esclarecimentos de interpretação quando necessários. A existência de cartas novas não torna obrigatória a troca de exemplos anteriores.
+Na passagem **5.2.1**, **15 personagens tiveram troca de código**: **6 em Forma de agir e 9 em Conflito interno**. As outras famílias mantiveram os códigos após revisão, com esclarecimentos de interpretação quando necessários. A existência de cartas novas não torna obrigatória a troca de exemplos anteriores.
 
-## Escolhas que mudaram
+## Verificação de G07 na revisão 5.2.2
+
+Foram lidas as 105 jornadas em contexto, sem inferir incompatibilidade a partir de uma palavra. Uma inconsistência demonstrável foi corrigida em Naruto: a tarefa já estava concluída, mas a resposta aceitava uma parte da missão sem identificar a demonstração adicional. Chamado, fato e primeira resposta agora apontam a mesma proposta; a escolha registra qualquer mudança posterior depois do aceite. Nenhum código, interpretação das oito cartas ou biografia mudou.
+
+As recusas de Capitão América (ordem concreta), Edward (atalho oferecido) e Killua (exigência familiar) conservam objeto identificável. Em Toph, rejeitar tutela não prova sozinho recusa de toda a passagem; o texto descreve a condição recusada sem impor um rótulo pelo verbo. Essa ambiguidade não foi transformada em defeito automático. Os rótulos de UI permanecem iguais. Os ensaios aleatórios e direcionados continuam primeiras versões congeladas.
+
+Veja os critérios e os quatro exemplos em [G07: recusar, negociar e mudar de resposta](REVISAO-G07-5.2.2.md).
+
+## Escolhas que mudaram na revisão 5.2.1
 
 | Carta | Leituras selecionadas | Por que muda |
 | --- | --- | --- |
@@ -26,21 +34,21 @@ Nesta passagem, **15 personagens tiveram troca de código**: **6 em Forma de agi
 
 ## Evidência e histórico
 
-O [registro atual em JSON](reviews/inspiration-105-review.json) contém **945 decisões** — OR/CV/D/F/V/L/P/N/G07 para cada personagem —, fontes e seus limites, códigos antes/depois e diferenças dos campos e da jornada que foram alterados. `changedFamilies` registra trocas de código; `refinedFamilies` inclui refinamentos sem troca.
+O [registro atual em JSON](reviews/inspiration-105-review.json) verifica G07 dos 105 personagens e preserva os motivos anteriores das oito cartas. Contém fontes e seus limites, códigos antes/depois, escopo da passagem e diferenças da jornada. As listas de alterações de famílias estão vazias porque nenhuma carta de personalidade foi alterada.
 
-A [auditoria anterior 5.2.0](reviews/inspiration-105-review-5.2.0.json) foi preservada integralmente. Ela mantém o histórico da primeira revisão de 100 personagens e da entrada de Edward, Alphonse, Frieren, Gon e Killua. A linha-base desta nova passagem já contém os 105; por isso cada registro atual possui `previousCards`.
+A [auditoria 5.2.1 imediatamente anterior](reviews/inspiration-105-review-5.2.1.json) foi preservada integralmente, assim como a [auditoria 5.2.0](reviews/inspiration-105-review-5.2.0.json). Ela mantém o histórico da primeira revisão de 100 personagens e da entrada de Edward, Alphonse, Frieren, Gon e Killua. A linha-base de 5.2.2 já contém os 105; por isso cada registro atual possui `previousCards`.
 
-- Commit da linha-base: `383e425f7b7923a13429e9ceeb87a17a454dc1f2`.
-- Catálogo anterior SHA256: `755cf04cf8abead0bab024e97f1a170b283b116c3b6f33756c9835286c59ceed`.
-- Catálogo atual SHA256: `b5d21adc69daa45083a64330a59131d9ce0bf7d04d1fe3d5278774b222e07bf6`.
+- Commit da linha-base: `727779e34b95ee72c475081e67196ce7faf8047b`.
+- Catálogo anterior SHA256: `b5d21adc69daa45083a64330a59131d9ce0bf7d04d1fe3d5278774b222e07bf6`.
+- Catálogo atual SHA256: `7202d635c1bb3d5c017482ab5c59c16244dbd2bb3cb9bddb3362714b92503c75`.
 
 Perfis oficiais e resultados indexados ancoram identidades e recortes, com limites anotados nas fontes. Não comprovam, por si, cada motivação ou tensão. Novas tentativas de ensino, escuta e disputa de desejos são autorais; não são eventos adicionais atribuídos às obras. Vilões não recebem compaixão, arrependimento ou limites éticos para completar N.
 
 ## Decisão por personagem
 
-As trocas abaixo são relativas ao catálogo 5.2.0 imediatamente anterior, não ao começo de toda a história editorial. As justificativas das oito cartas e de G07 estão no JSON vinculado.
+A tabela preserva as seleções consolidadas em 5.2.1 e suas trocas relativas a 5.2.0. Na passagem 5.2.2 todos esses códigos permaneceram. O registro arquivado 5.2.1 mantém o histórico; o atual detalha a correção de G07.
 
-| Personagem e recorte | Oito cartas atuais | Troca nesta passagem |
+| Personagem e recorte | Oito cartas atuais | Troca na revisão 5.2.1 |
 | --- | --- | --- |
 | Monkey D. Luffy — Tripulação em viagem; liberdade e amizade no centro da leitura. | OR04 · CV05 · D03 · F17 · V09 · L08 · P04 · N07 | mantidos após revisão |
 | Roronoa Zoro — Treinamento e lealdade no início da jornada; foco na promessa a Kuina. | OR01 · CV09 · D11 · F15 · V04 · L16 · P09 · N22 | mantidos após revisão |

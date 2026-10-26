@@ -9,7 +9,7 @@ Conecte passado, interpretação, intenção e escolha. As cartas são convites 
 
 ## Material e edição
 
-Leia [manual e cartas](references/deck.md) na primeira aplicação; use o [índice](references/indice.md) e `scripts/cards.py` para consultas. A fonte é [deck.json](references/deck.json): **5.2, revisão 5.2.1, 169 cartas — 153 de criação e 16 guias**. Nunca invente códigos e títulos oficiais. Veja [exemplos](references/exemplos.md) e [limites](references/revisao.md).
+Leia [manual e cartas](references/deck.md) na primeira aplicação; use o [índice](references/indice.md) e `scripts/cards.py` para consultas. A fonte é [deck.json](references/deck.json): **5.2, revisão 5.2.2, 169 cartas — 153 de criação e 16 guias**. Nunca invente códigos e títulos oficiais. Veja [exemplos](references/exemplos.md) e [limites](references/revisao.md).
 
 Use **uma carta de cada família OR + CV + D + F + V + L + P + N**, além de **G07 — Chamado e destino**. As oito famílias são obrigatórias. U/G são consulta, nunca personalidade sorteada; G07 não é uma nona família de personalidade.
 
@@ -20,7 +20,7 @@ Use **uma carta de cada família OR + CV + D + F + V + L + P + N**, além de **G
 3. Complete **D** com um resultado concreto, **F** com tentativa observável e **V** com fala, gesto, escrita ou sinais. CV não substitui objetivo, método nem expressão.
 4. Complete **L** com um laço; se envolver pessoa viva, descreva sua vontade própria. Pessoa morta, objeto, entidade e pessoa viva não recebem a mesma agência. **P** é uma circunstância que muda a escolha, não traço de personalidade.
 5. Complete **N** com **dois valores genuínos que a pessoa quer preservar**, colocados em disputa. Obstáculo, coerção, crueldade ou custo não bastam. Se a carta não cabe, troque ou ressorteie N; não omita a família nem force arrependimento, bondade ou redenção. G06 ajuda nessa distinção. Escolher um valor e sacrificar o outro é possível.
-6. Consulte **G07** e registre cinco respostas: `call` (chamado), `response` (primeira resposta), `fact` (fato confirmável), `belief` (crença/interpretação) e `choice` (escolha agora). Escolha ou use 1d6 nas listas de chamado e resposta. Recusar, adiar ou renegociar são válidos. Profecia não obriga o desfecho.
+6. Consulte **G07** e registre cinco respostas: `call` (chamado), `response` (primeira resposta), `fact` (fato confirmável), `belief` (crença/interpretação) e `choice` (escolha agora). Escolha ou use 1d6 nas listas de chamado e resposta. Recusar é não assumir o chamado concreto; negociar é considerar assumi-lo se as condições mudarem. Recusar uma condição não recusa necessariamente o chamado. Declare o pedido e o que rejeita ou condiciona. A primeira resposta pode mudar depois: registre a sequência em `choice`, sem apagar a anterior. Adiar é reservar a decisão para investigar; profecia não obriga o desfecho.
 7. Acrescente competência, prazer cotidiano e limite reconhecido — ou sua ausência. Faça uma cena com tentativa, resposta aberta e consequência possível. Registre o que mudou depois de jogar; não ressorteie o passado a cada sessão.
 
 ## Fronteiras de interpretação
@@ -38,6 +38,10 @@ Todo personagem novo completo inclui nome/papel, os oito códigos e interpretaç
 Em personagens existentes, preserve identidade e fatos. Novas OR/CV/N ou etapas da jornada precisam ser propostas explícitas se ainda não estabelecidas. Não declare a ficha completa enquanto faltar uma camada ou dois valores genuínos. Peça apenas informação indispensável quando não houver como preservar o recorte sem inventá-la.
 
 Fichas pessoais 5.0/5.1 são preservadas como rascunhos pendentes quando faltam camadas, sem inventar automaticamente passados, convicções ou conflitos. A galeria web contém **105 leituras autorais completas 5.2**, com oito famílias, justificativas e G07; novas cenas e tensões são propostas explícitas, não fatos canônicos. Finalizar exige as oito famílias e G07. Aceitar uma importação não certifica coerência narrativa.
+
+## Recusar ou negociar — G07
+
+Diante de “Venha à festa”, “Não vou participar” recusa o chamado. “Vou se reservarmos os brotos para cultivo” negocia condições. Se a proposta era consumir todo o lote, recusar esse consumo pode recusar aquele chamado específico: explicite a oferta. Um “não” inicial pode ser seguido de negociação; anote essa mudança, sem reclassificar retroativamente a primeira resposta.
 
 ## Consulta portátil
 

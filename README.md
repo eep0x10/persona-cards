@@ -24,7 +24,7 @@ Um baralho narrativo em português para criar personagens de RPG e ficção com 
 | **Criar com um assistente** | [Skill Persona Cards](skills/persona-cards/) | Instruções, cartas e exemplos para um assistente compatível. |
 | **Cartas na tela** | [Mesa online](https://personcard.runictools.com/) | Explore, componha e guarde personagens neste navegador. |
 
-São três entregas do mesmo jogo; use a que fizer sentido para sua mesa. A edição **5.2 / revisão 5.2.1** tem **153 cartas de criação e 16 guias**, 169 no total. O RPG escolhido por vocês continua fornecendo combate, atributos e resolução de testes.
+São três entregas do mesmo jogo; use a que fizer sentido para sua mesa. A edição **5.2 / revisão 5.2.2** tem **153 cartas de criação e 16 guias**, 169 no total. O RPG escolhido por vocês continua fornecendo combate, atributos e resolução de testes.
 
 A revisão **5.2.1** acrescenta **F21 — Ensino para que você tente**, **F22 — Escuto antes de propor** e **N23 — Prazer imediato / projeto**. Também esclarece cinco cartas e as fronteiras de uso. Veja [o que mudou e por quê](docs/REVISAO-BARALHO-5.2.1.md).
 
@@ -65,6 +65,8 @@ Consulte **G07** em toda criação. Escolha ou role **1d6 em cada coluna separad
 Anote **chamado, resposta, fato, crença e escolha**. Fato é o que se confirma; crença é o sentido atribuído; escolha é o que tenta fazer agora. Uma profecia pode ser um relato incerto. Recusar o chamado não equivale a covardia, aceitar não prova bondade e o dado não decide o final. Outros personagens podem discordar ou recusar.
 
 U/G são guias de consulta, ficam fora do sorteio de personalidade. G07 organiza a jornada; não substitui nenhuma das oito cartas. Depois da cena, registre ação, resposta e consequência. Atualize o que mudou, preservando os fatos jogados.
+
+**Recusar ou negociar:** diante de “Venha à festa”, “Não vou participar” recusa o chamado; “Vou se reservarmos os brotos” negocia condições. Declare qual pedido foi feito. A primeira resposta pode mudar depois: registre a sequência sem apagar a anterior. [Exemplos e revisão de G07](docs/REVISAO-G07-5.2.2.md).
 
 ## 1. PDF — as cartas na sua mesa
 

@@ -1,0 +1,13 @@
+{
+  "versao": "5.2",
+  "revisao_editorial": "5.2.2",
+  "revisoes": {
+    "G07": {
+      "leitura": "Nomeie o chamado concreto e a primeira resposta. Ela pode mudar; registre a ordem.",
+      "campos": {
+        "Fato": "Qual pedido, oferta ou situação está confirmado?",
+        "Escolha": "Recuso: não assumo o chamado. Negocio: considero assumi-lo se as condições mudarem. Não sorteie o desfecho."
+      }
+    }
+  }
+}

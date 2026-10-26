@@ -23,7 +23,7 @@ A Portuguese narrative deck for RPGs and fiction, connecting **past, conviction,
 | **An AI assistant** | [Persona Cards skill](skills/persona-cards/) | Instructions, deck and examples for a compatible assistant. |
 | **Cards on screen** | [Online table](https://personcard.runictools.com/) | Explore, assemble and keep characters in your browser. |
 
-Edition **5.2 / revision 5.2.1** has **153 creation cards and 16 guides**, 169 in total. Your RPG supplies combat, statistics and resolution rules. The card text is Portuguese.
+Edition **5.2 / revision 5.2.2** has **153 creation cards and 16 guides**, 169 in total. Your RPG supplies combat, statistics and resolution rules. The card text is Portuguese.
 
 Revision **5.2.1** adds F21 (teaching through attempts), F22 (listening before proposing) and N23 (immediate pleasure versus a longer project), with clarified card wording. See the [editorial review](docs/REVISAO-BARALHO-5.2.1.md).
 
@@ -62,6 +62,8 @@ Consult **G07** for every creation. Choose or roll **1d6 independently in each c
 Record **call, response, fact, belief and choice**. Facts are confirmed circumstances; beliefs assign meaning; choices state what the person tries now. A prophecy may be an uncertain account. Refusal is not automatically cowardice, acceptance does not establish goodness, and a die does not choose the ending. Others can disagree.
 
 U/G remain reference guides outside personality draws. G07 accompanies the eight cards rather than replacing one. After a scene, record attempts, responses and observed consequences, preserving established events.
+
+**Refusing or negotiating:** “I will not attend” refuses an invitation; “I will attend if we reserve the seedlings” negotiates its conditions. State the concrete call and record later changes without rewriting the first response. [G07 editorial review](docs/REVISAO-G07-5.2.2.md).
 
 ## 1. PDF — cards on your table
 

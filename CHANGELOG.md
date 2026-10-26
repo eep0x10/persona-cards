@@ -1,5 +1,15 @@
 # Histórico
 
+## Aplicação — 5.2.4 / baralho revisão 5.2.2
+
+- G07 distingue recusar o chamado concreto de negociar condições e permite registrar mudanças posteriores sem apagar a primeira resposta.
+- Mesma edição 5.2: 169 cartas, oito famílias obrigatórias e cinco registros de jornada; listas d6 e fichas existentes preservadas.
+- Skill, manuais, quatro PDFs e ajuda das aplicações sincronizados.
+
+## Aplicação — 5.2.3 / baralho revisão 5.2.1
+
+- F21/F22/N23 e esclarecimentos de cinco cartas e dois guias; 105 leituras revistas, com 15 trocas de código.
+
 ## Aplicação — 5.2.2
 
 - Inspiração passa a105 personagens, incluindo Edward Elric, Alphonse Elric, Frieren, Gon Freecss e Killua Zoldyck, com oito famílias e G07 completos.

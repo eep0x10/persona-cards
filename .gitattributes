@@ -17,3 +17,4 @@ deck/revisao-5.2.1.json -text
 
 # Historical experiment manifests and frozen originals retain their exact hashes.
 docs/experiments/** -text
+deck/illustration_sheets_5_2.json -text

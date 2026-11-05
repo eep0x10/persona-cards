@@ -7,6 +7,7 @@ from __future__ import annotations
 
 from html import escape
 from pathlib import Path
+import os
 
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_LEFT
@@ -32,14 +33,22 @@ PALETTE = {
 
 
 def setup_fonts() -> None:
-    fonts = Path("C:/Windows/Fonts")
-    for name, file in (
+    fonts = Path(os.environ.get("PERSONA_FONT_DIR", "C:/Windows/Fonts"))
+    faces = (
         ("Georgia", "georgia.ttf"),
         ("Georgia-Bold", "georgiab.ttf"),
         ("Georgia-Italic", "georgiai.ttf"),
         ("Arial", "arial.ttf"),
         ("Arial-Bold", "arialbd.ttf"),
-    ):
+    )
+    missing = [file for _, file in faces if not (fonts / file).is_file()]
+    if missing:
+        raise FileNotFoundError(
+            "PDF fonts missing: " + ", ".join(missing)
+            + ". Set PERSONA_FONT_DIR to a directory containing licensed Georgia/Arial fonts; "
+            "see docs/CONTINUITY.md. Published PDFs do not require fonts to read."
+        )
+    for name, file in faces:
         pdfmetrics.registerFont(TTFont(name, str(fonts / file)))
     pdfmetrics.registerFontFamily(
         "Georgia", normal="Georgia", bold="Georgia-Bold", italic="Georgia-Italic"

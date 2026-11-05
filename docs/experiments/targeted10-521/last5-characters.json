@@ -1,0 +1,387 @@
+[
+  {
+    "id": 6,
+    "name": "Otávio Rutilo",
+    "role": "Vilão",
+    "occupation": "Muralista e administrador de um teatro de bairro",
+    "summary": "Otávio descobriu na pintura de fachadas um prazer que sustenta sua vida. Administra hoje um teatro reparado por pequenos pactos. Cobra dos moradores atingidos pelas obras taxas de permanência, suspendendo apresentações de quem protesta.",
+    "bridgeORCV": "Por encontrar sentido no trabalho, passou a acreditar que só seu controle impede a destruição do que criou.",
+    "cards": [
+      {
+        "family": "OR",
+        "code": "OR12",
+        "title": "Descobri algo que me prende à vida",
+        "interpretation": "Pintar fachadas ampliou meu mundo; continuo misturando cores mesmo quando o teatro está fechado e ninguém observa."
+      },
+      {
+        "family": "CV",
+        "code": "CV01",
+        "title": "Sem controle, tudo se perde",
+        "interpretation": "Creio que materiais e decisões fora do meu comando arruinarão a restauração. Competência alheia não elimina meu receio."
+      },
+      {
+        "family": "D",
+        "code": "D05",
+        "title": "Obter reparação",
+        "interpretation": "Quero que a empreiteira restitua os painéis destruídos: material equivalente e trabalho suficiente bastariam para reparar esse dano."
+      },
+      {
+        "family": "F",
+        "code": "F01",
+        "title": "Planejo antes",
+        "interpretation": "Divido a restituição em inventário, compra e montagem; reservo andaimes e horários antes de aceitar a entrega oferecida."
+      },
+      {
+        "family": "V",
+        "code": "V22",
+        "title": "Vocabulário próprio",
+        "interpretation": "Chamo correção de “segunda pele” e confirmação de “cor firme”. Uso os termos na assembleia; moradores entendem o código do ateliê."
+      },
+      {
+        "family": "L",
+        "code": "L10",
+        "title": "Afeto com divergência",
+        "interpretation": "Minha irmã Celina aprecia nosso teatro, mas quer restituição sem espetáculo de humilhação. Pode retirar sua participação na montagem."
+      },
+      {
+        "family": "P",
+        "code": "P10",
+        "title": "Mais do que esperava",
+        "interpretation": "O acordo trouxe o dobro da tinta prevista. Pintores convidados também contribuíram e reivindicam parte do excedente para suas fachadas."
+      },
+      {
+        "family": "N",
+        "code": "N23",
+        "title": "Prazer imediato / projeto",
+        "interpretation": "Quero saborear a exposição pública da empreiteira e concluir a restauração. Gastar o excedente no palco dessa humilhação deixa painéis sem tinta."
+      }
+    ],
+    "journey": {
+      "call": "4. Encontro ou convite",
+      "response": "5. Tento impedir o futuro",
+      "fact": "A empreiteira convidou para receber o material. O excedente existe; distribuí-lo na provocação reduziria a tinta disponível à restauração.",
+      "belief": "Prevejo que aceitar a cerimônia dela apagará minha autoria; o convite não comprova esse futuro.",
+      "choice": "Tento impedir essa versão preparando minha própria cerimônia, ou destino o excedente aos painéis e negocio a prestação de contas."
+    },
+    "competence": "Reconhece pigmentos incompatíveis e organiza montagem de fachadas.",
+    "pleasure": "Desfruta contrastes de cor e a atenção de uma plateia.",
+    "limit": "Não reconhece aos moradores veto sobre taxas que financiam sua obra.",
+    "scene": {
+      "attempt": "Apresenta um plano de reparação e reserva o excedente para um palco onde exibirá os erros da empreiteira.",
+      "refusal": "Celina recusa pintar o cenário de acusação e os convidados exigem discutir a distribuição antes da entrega.",
+      "consequence": "Otávio pode rever etapas ou bloquear apresentações para obter adesão; a reparação e sua versão pública continuam contestáveis."
+    },
+    "friction": {
+      "status": "claro",
+      "note": "Reparação e humilhação são resultados distintos disputando o mesmo excedente; uma não prova a outra."
+    }
+  },
+  {
+    "id": 7,
+    "name": "Inês Valeiro",
+    "role": "Protagonista",
+    "occupation": "Instrutora de enxertos numa cidade caminhante",
+    "summary": "Inês saiu de um pomar onde esperavam que herdasse a administração. Na cidade caminhante, quer reconhecer em si capacidade de ensinar, embora adore executar enxertos difíceis. Carrega a faca do pomar, objeto que ainda custa emprestar.",
+    "bridgeORCV": "Depois da saída, prefere conhecer o resultado real de um ensino a conservar a história confortável de sua competência.",
+    "cards": [
+      {
+        "family": "OR",
+        "code": "OR05",
+        "title": "Saí quando esperavam que ficasse",
+        "interpretation": "Deixei o pomar antes da sucessão esperada. Minha irmã assumiu tarefas que eu poderia ter negociado, não simplesmente abandonado."
+      },
+      {
+        "family": "CV",
+        "code": "CV07",
+        "title": "É melhor saber do que viver enganado",
+        "interpretation": "Prefiro descobrir onde minha explicação falha a chamar de aprendizagem uma cópia obediente; essa preferência pode ferir meu orgulho."
+      },
+      {
+        "family": "D",
+        "code": "D22",
+        "title": "Provar meu valor a mim",
+        "interpretation": "Quero reconhecer minha capacidade de ensinar quando outra pessoa conseguir escolher e executar um enxerto sem depender da minha mão."
+      },
+      {
+        "family": "F",
+        "code": "F21",
+        "title": "Ensino para que você tente",
+        "interpretation": "Demonstro a união de dois ramos, acompanho a tentativa de Beto e devolvo uma observação; ele pode alterar o procedimento."
+      },
+      {
+        "family": "V",
+        "code": "V06",
+        "title": "Lembrança breve",
+        "interpretation": "Conto: “No pomar, o primeiro ramo pegou e o segundo secou.” Volto à tentativa presente, sem impor a mesma conclusão."
+      },
+      {
+        "family": "L",
+        "code": "L18",
+        "title": "Objeto que me prende",
+        "interpretation": "A faca concentra meu apego ao ofício aprendido. Não possui vontade; segurá-la durante toda a aula impede Beto de experimentar."
+      },
+      {
+        "family": "P",
+        "code": "P05",
+        "title": "Evidência inesperada",
+        "interpretation": "Um corte de inspeção mostra que o enxerto demonstrado secou internamente, contradizendo minha avaliação anterior baseada nas folhas."
+      },
+      {
+        "family": "N",
+        "code": "N23",
+        "title": "Prazer imediato / projeto",
+        "interpretation": "Quero o prazer de executar pessoalmente o enxerto raro e construir um curso que forme autonomia. Tomar a faca reduz a tentativa do aluno."
+      }
+    ],
+    "journey": {
+      "call": "1. Pedido de alguém",
+      "response": "2. Recuso",
+      "fact": "Beto pediu que eu concluísse seu enxerto. O exemplar demonstrado está seco por dentro; ainda não sabemos a causa.",
+      "belief": "Acredito que minha destreza me torna boa professora; o corte desmente o resultado, não determina sozinho minha capacidade docente.",
+      "choice": "Recuso executar por Beto, ofereço uma demonstração menor e escolho quanto tempo deixo à tentativa que também avaliará meu ensino."
+    },
+    "competence": "Identifica tecidos compatíveis em plantas migratórias.",
+    "pleasure": "Sente satisfação ao fechar um corte difícil com precisão.",
+    "limit": "Pode transformar a autonomia do aprendiz em exame da própria autoestima.",
+    "scene": {
+      "attempt": "Recusa tomar o trabalho inteiro, demonstra outro corte e observa Beto adaptar a união antes de comentar sua vedação.",
+      "refusal": "Beto rejeita a faca herdada e pede uma ferramenta mais leve; não aceita repetir um corte cujo resultado foi desmentido.",
+      "consequence": "Inês pode adaptar a aula ou realizar tudo sozinha, preservando o prazer imediato e perdendo uma oportunidade concreta de ensino."
+    },
+    "friction": {
+      "status": "claro",
+      "note": "A prova pessoal depende de ensinar; prazer manual e projeto pedagógico disputam a mesma tentativa."
+    }
+  },
+  {
+    "id": 8,
+    "name": "Bárbara Cipoal",
+    "role": "Vilão",
+    "occupation": "Mestra de pontes vivas e credora de uma caravana",
+    "summary": "Bárbara viveu entre plataformas enraizadas e cidades caminhantes, aprendendo a negociar passagens sem considerar um modo inferior. Uma caravana destruiu parte de sua ponte. Ela exige reconstrução e mantém seus trabalhadores presos por dívidas de hospedagem.",
+    "bridgeORCV": "Das passagens entre comunidades reteve o valor de encontros breves; usa essa convicção também para justificar festas à custa dos devedores.",
+    "cards": [
+      {
+        "family": "OR",
+        "code": "OR10",
+        "title": "Aprendi duas formas de viver",
+        "interpretation": "Conheci a espera sazonal dos povoados fixos e a manutenção diária das cidades móveis; ambas têm conhecimentos que ainda utilizo."
+      },
+      {
+        "family": "CV",
+        "code": "CV12",
+        "title": "O que termina também pode valer",
+        "interpretation": "Uma festa de uma noite merece tempo mesmo quando não produz vantagem futura. Isso não me concede direito ao descanso alheio."
+      },
+      {
+        "family": "D",
+        "code": "D05",
+        "title": "Obter reparação",
+        "interpretation": "Quero receber madeira compatível e reconstrução do trecho perdido. Recuperar a passagem bastaria; aumentar a dívida seria outra pretensão."
+      },
+      {
+        "family": "F",
+        "code": "F21",
+        "title": "Ensino para que você tente",
+        "interpretation": "Demonstro uma amarração, observo a tentativa de Raul e comento a tensão; ele pode propor outra malha ou recusar a ferramenta."
+      },
+      {
+        "family": "V",
+        "code": "V06",
+        "title": "Lembrança breve",
+        "interpretation": "Lembro: “Na primeira travessia, nossa plataforma oscilou assim.” Indico o apoio atual e deixo Raul responder à comparação."
+      },
+      {
+        "family": "L",
+        "code": "L03",
+        "title": "Sócio de outra ideia",
+        "interpretation": "Raul construiu comigo a ponte. Agora quer reparação com ensino aberto; eu quero conservar a cobrança pelo uso do projeto comum."
+      },
+      {
+        "family": "P",
+        "code": "P04",
+        "title": "Um vínculo escolhe diferente",
+        "interpretation": "Raul decidiu ensinar gratuitamente sua parte da malha aos trabalhadores, contrariando o sigilo em que baseei o cálculo da restituição."
+      },
+      {
+        "family": "N",
+        "code": "N14",
+        "title": "Controle / entrega",
+        "interpretation": "Quero conferir cada apoio e desfrutar soluções que os aprendizes inventem sem minha direção. Uma malha diferente pode contrariar o desenho que prezo."
+      }
+    ],
+    "journey": {
+      "call": "2. Papel ou herança",
+      "response": "4. Negocio as condições",
+      "fact": "O conselho atribuiu a Bárbara a negociação da restituição. O trecho está quebrado; Raul anunciou que compartilhará seu conhecimento.",
+      "belief": "Creio que uma reparação controlada evitará outro dano, mas a inovação dos aprendizes pode ser melhor que meu desenho.",
+      "choice": "Negocio materiais e uma sessão de ensino; posso aceitar outra malha ou limitar o uso da ponte, enfrentando resistência."
+    },
+    "competence": "Calcula carga e cresce fibras em estruturas vivas.",
+    "pleasure": "Gosta de dançar uma noite inteira com visitantes de passagem.",
+    "limit": "Trata hospedagem imposta como dívida legítima e retém os documentos dos trabalhadores.",
+    "scene": {
+      "attempt": "Negocia restituição, demonstra a amarração e devolve uma observação à tentativa de um trabalhador que aprendeu com Raul.",
+      "refusal": "O trabalhador recusa a ferramenta cobrada e mostra uma malha própria; Raul rejeita converter a aula em dívida adicional.",
+      "consequence": "Bárbara pode experimentar a malha ou reter acesso e documentos, aumentando coerção sem assegurar reconstrução nem pagamento."
+    },
+    "friction": {
+      "status": "claro",
+      "note": "Ensino não absolve a credora; a iniciativa alheia também é um prazer genuíno dela, não obediência disfarçada."
+    }
+  },
+  {
+    "id": 9,
+    "name": "Téo Alvoro",
+    "role": "Protagonista",
+    "occupation": "Cartógrafo de uma expedição independente",
+    "summary": "Descobrir correntes abriu o mundo de Téo. Agora quer derrubar o monopólio que obriga expedições a comprar autorização cartográfica. Conduz a narrativa por essa ambição, mas costuma confundir segurança com decidir a rota de todos.",
+    "bridgeORCV": "A descoberta despertou o desejo de preparar tudo; interpreta controle como segurança, embora reconheça valor na iniciativa de outros navegantes.",
+    "cards": [
+      {
+        "family": "OR",
+        "code": "OR12",
+        "title": "Descobri algo que me prende à vida",
+        "interpretation": "Ler uma corrente sem instrumentos abriu caminhos que não conhecia. Ainda desenho percursos sem comprador nem propósito de publicação."
+      },
+      {
+        "family": "CV",
+        "code": "CV01",
+        "title": "Sem controle, tudo se perde",
+        "interpretation": "Creio que uma rota fora da minha previsão ameaça a expedição. Outra pessoa pode demonstrar segurança que meu mapa não conhece."
+      },
+      {
+        "family": "D",
+        "code": "D18",
+        "title": "Romper uma ordem",
+        "interpretation": "Quero retirar do monopólio seu apoio concreto: a exclusividade da única carta aceita no porto, publicando uma alternativa verificável."
+      },
+      {
+        "family": "F",
+        "code": "F22",
+        "title": "Escuto antes de propor",
+        "interpretation": "Ouço a versão da piloto, confiro o que entendi e mudo o plano: em vez de retirar balizas, proponho registrar a travessia."
+      },
+      {
+        "family": "V",
+        "code": "V06",
+        "title": "Lembrança breve",
+        "interpretation": "Digo: “Na primeira saída, confundi espuma com fundo.” Retomo a lembrança para explicar por que agora quero ouvir a correção."
+      },
+      {
+        "family": "L",
+        "code": "L12",
+        "title": "Estranho que me marcou",
+        "interpretation": "Uma desconhecida me mostrou uma corrente num encontro breve. Reaparece como piloto; posso ter confundido sua cortesia com adesão ao meu projeto."
+      },
+      {
+        "family": "P",
+        "code": "P11",
+        "title": "Convite para algo bom",
+        "interpretation": "Ela convida para uma travessia de águas luminosas. O passeio oferece prazer real e pode ser aceito sem aderir à disputa cartográfica."
+      },
+      {
+        "family": "N",
+        "code": "N14",
+        "title": "Controle / entrega",
+        "interpretation": "Quero conferir cada marca da carta e permitir que a piloto escolha a passagem. Sua leitura independente pode corrigir ou contrariar meu traçado."
+      }
+    ],
+    "journey": {
+      "call": "6. Natureza, tempo ou finitude",
+      "response": "6. Busco cumprir por outro caminho",
+      "fact": "A maré de observação muda esta noite. A piloto ofereceu a travessia; não prometeu fornecer dados nem apoiar a publicação.",
+      "belief": "Prevejo que perder a janela atrasará a carta independente; não sei se esta passagem poderá constar de um mapa público.",
+      "choice": "Busco outra forma de contestar a exclusividade: escutar, registrar apenas o consentido e propor validação posterior, sem retirar balizas."
+    },
+    "competence": "Confronta sondagens, marés e desenhos costeiros.",
+    "pleasure": "Observa luz na água mesmo quando não consegue explicá-la.",
+    "limit": "Pode usar a causa comum para justificar impaciência com recusas individuais.",
+    "scene": {
+      "attempt": "Pergunta o que a piloto aceita mostrar, repete as condições e troca a retirada de balizas por uma proposta de registro limitado.",
+      "refusal": "Ela recusa revelar a entrada de uma comunidade e oferece somente um passeio, sem autorização para registrar coordenadas.",
+      "consequence": "Téo pode aceitar o prazer da viagem, renegociar dados ou partir sem ela; a recusa não transforma o convite numa armadilha."
+    },
+    "friction": {
+      "status": "claro",
+      "note": "A escuta altera o apoio atacado e o método do mapa; o passeio não serve apenas como ferramenta da campanha."
+    }
+  },
+  {
+    "id": 10,
+    "name": "Dalva Nespereira",
+    "role": "Vilão",
+    "occupation": "Capitã exilada e negociante de viveiros",
+    "summary": "Dalva abandonou uma frota quando esperavam que assumisse sua direção. Conquistou abrigo seguro numa ilha e pode celebrar. Ainda mantém marinheiros presos por dívidas, enquanto procura cultivar uma planta protetora para futuras travessias de névoa incerta.",
+    "bridgeORCV": "Ao partir, aprendeu a valorizar encontros que acabam; isso sustenta festas verdadeiras, mas não justifica consumir recursos que pertencem a outros.",
+    "cards": [
+      {
+        "family": "OR",
+        "code": "OR05",
+        "title": "Saí quando esperavam que ficasse",
+        "interpretation": "Deixei a frota antes da posse esperada, abrindo minha própria rota. Outros assumiram contratos que minha saída deixou sem responsável."
+      },
+      {
+        "family": "CV",
+        "code": "CV12",
+        "title": "O que termina também pode valer",
+        "interpretation": "Uma festa pode valer mesmo sem produzir alianças duradouras. Não preciso chamar cada prazer de investimento para desejar vivê-lo."
+      },
+      {
+        "family": "D",
+        "code": "D13",
+        "title": "Continuar vivo",
+        "interpretation": "Quero uma proteção cultivável contra as névoas das futuras viagens; o abrigo conquistado permanece seguro, sem nova ameaça escondida nesta celebração."
+      },
+      {
+        "family": "F",
+        "code": "F22",
+        "title": "Escuto antes de propor",
+        "interpretation": "Ouço a cultivadora, confirmo sua necessidade de sementes e troco a exigência de entrega integral por proposta de divisão e reprodução."
+      },
+      {
+        "family": "V",
+        "code": "V19",
+        "title": "Língua em sinais",
+        "interpretation": "Comunico em língua de sinais da ilha, com gramática completa. A cultivadora a compreende; confirma o conteúdo da divisão, não apenas meu gesto."
+      },
+      {
+        "family": "L",
+        "code": "L04",
+        "title": "Favor com história",
+        "interpretation": "Ajudei a cultivadora a reparar uma embarcação. Considero que deve ceder plantas; ela entende a ajuda antiga como presente, não contrato."
+      },
+      {
+        "family": "P",
+        "code": "P08",
+        "title": "Vitória já alcançada",
+        "interpretation": "O abrigo foi concedido e a dívida externa que impedia desembarque acabou. Há tempo para festa, descanso e cultivo sem punição pela vitória."
+      },
+      {
+        "family": "N",
+        "code": "N23",
+        "title": "Prazer imediato / projeto",
+        "interpretation": "Quero provar agora a infusão aromática e criar um viveiro protetor. Usar os brotos na bebida reduz as mudas do projeto que também desejo."
+      }
+    ],
+    "journey": {
+      "call": "4. Encontro ou convite",
+      "response": "2. Recuso",
+      "fact": "A cultivadora convidou Dalva para celebrar o abrigo obtido. Os brotos são finitos; não há perigo imediato que anule a conquista.",
+      "belief": "Creio que multiplicar a planta reduzirá o risco das névoas, mas sua eficácia nesta outra região ainda não foi comprovada.",
+      "choice": "Recuso o uso de todos os brotos na festa e proponho uma divisão após ouvi-la; posso também escolher consumir a oportunidade de cultivo."
+    },
+    "competence": "Mantém mudas vivas durante travessias longas.",
+    "pleasure": "Aprecia infusões perfumadas em festas que não precisam durar.",
+    "limit": "Retém salários dos marinheiros para forçá-los a trabalhar; negociar uma planta não elimina essa coerção.",
+    "scene": {
+      "attempt": "Recusa consumir o lote inteiro, pede a versão da cultivadora e confirma que a reprodução exige reservar brotos antes de reformular a divisão.",
+      "refusal": "A cultivadora recusa pagamento em gratidão e exige reconhecer sua propriedade; os marinheiros podem negar trabalho sem salários.",
+      "consequence": "Dalva pode negociar plantas e liberar pagamento ou tentar requisitar recursos; sobrevivência futura incerta não apaga a vitória presente nem os direitos dos outros."
+    },
+    "friction": {
+      "status": "fragil",
+      "note": "D13 é preventivo, não emergência; o projeto precisa permanecer desejado sem transformar P08 numa vitória falsa."
+    }
+  }
+]

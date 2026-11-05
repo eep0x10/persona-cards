@@ -2,6 +2,10 @@
 
 [Projeto](../README.md) · [Registros por edição](VALIDACAO.md)
 
+Após instalar dependências da API e executar `npm --prefix app ci`, `python scripts/check.py` reúne os checks de código e build usando o Python atual e Node/npm do PATH. Não publica nem instala dependências. Adicione `--pdf` para verificar PDFs já convertidos inicialmente com MarkItDown, após instalar `python -m pip install -r deck/requirements-print.lock.txt`.
+
+Para **gerar** PDFs, são necessárias fontes licenciadas `georgia.ttf`, `georgiab.ttf`, `georgiai.ttf`, `arial.ttf` e `arialbd.ttf`. No Windows, o padrão é `C:/Windows/Fonts`; em qualquer sistema defina `PERSONA_FONT_DIR` para uma pasta contendo esses arquivos. PowerShell: `$env:PERSONA_FONT_DIR = '/caminho/fontes'`; shell POSIX: `export PERSONA_FONT_DIR=/caminho/fontes`. Fontes não são distribuídas pelo projeto. Ausência causa erro explícito, sem substituição silenciosa. Ler/verificar os PDFs existentes não exige essas fontes instaladas.
+
 Com dependências instaladas, na raiz:
 
 ```sh

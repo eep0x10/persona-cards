@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1,
+    "name": "Lira Samora",
+    "role": "Protagonista",
+    "occupation": "Calafeta de barcas entre ilhas",
+    "summary": "Lira voltou à enseada natal para uma temporada de reparos. Quer proteger a oficina da maré e ainda embarcar para conhecer os estaleiros do arco exterior. Sua vontade de cuidar pode se tornar posse.",
+    "bridgeORCV": "Saiu quando a família esperava que assumisse a oficina; por isso, reivindica decidir a própria rota, mas nem sempre concede ao irmão a autonomia que exige.",
+    "cards": [
+      {"family":"OR","code":"OR05","title":"Saí quando esperavam que ficasse","interpretation":"Deixei a oficina familiar para trabalhar nas barcas. Minha mãe ainda considera a partida abandono e agora pede minha presença na proteção do galpão."},
+      {"family":"CV","code":"CV05","title":"Ninguém escolhe por mim","interpretation":"Aceitar um reparo não entrega minha vida à família. Contudo, guardo o documento de embarque de Tavi para atrasar uma partida que ele escolheu."},
+      {"family":"D","code":"D04","title":"Garantir proteção","interpretation":"Quero manter os aprendizes e suas ferramentas fora da água até terminar esta maré; confiro o piso antes de prometer abrigo."},
+      {"family":"F","code":"F20","title":"Recuo para suportar","interpretation":"Quando a cobrança familiar me ultrapassa, interrompo a reunião e saio para o casco vazio. Recupero fôlego, mas os aprendizes ficam sem orientação."},
+      {"family":"V","code":"V19","title":"Língua em sinais","interpretation":"Uso a língua de sinais da Enseada, completa e compartilhada por Tavi. Comunico: ‘Aceito reparar; não aceito ficar’. Peço que confirme o entendimento; não descrevo sinais reais."},
+      {"family":"L","code":"L20","title":"Afeto misturado a domínio","interpretation":"Conserto gratuitamente as roupas de trabalho de Tavi e procuro sua companhia. Também retenho seu documento. Ele quer viajar sem precisar provar que voltará para mim."},
+      {"family":"P","code":"P06","title":"Capacidades complementares","interpretation":"Só Tavi sabe operar a bomba emprestada para esvaziar o galpão. Cooperar exige negociar seu tempo; parentesco não me dá comando sobre ele."},
+      {"family":"N","code":"N01","title":"Raízes / horizontes","interpretation":"Quero participar da reabertura da oficina onde pertenço e conhecer os estaleiros exteriores. A barca parte durante a reabertura: perco convivência escolhendo viagem, ou descoberta escolhendo permanecer."}
+    ],
+    "journey": {
+      "call":"1. Pedido de alguém",
+      "response":"4. Negocio as condições",
+      "fact":"Minha mãe pediu o reparo; a água alcançará o piso nesta maré. Tavi dispõe da bomba, mas ainda não concordou em operá-la.",
+      "belief":"Acredito que, se partir novamente, deixarei de ter lugar na família; ninguém confirmou essa previsão.",
+      "choice":"Negocio o reparo sem permanência obrigatória e decido se devolvo o documento antes de solicitar a ajuda de Tavi."
+    },
+    "competence":"Identifica entradas de água pelo som do casco.",
+    "pleasure":"Come figos salgados no cais ao amanhecer.",
+    "limit":"Reconhece quando precisa interromper uma conversa; isso não suspende a urgência alheia.",
+    "scene":{
+      "attempt":"Apresenta em sinais condições de trabalho e oferece reparar a conexão da bomba.",
+      "refusal":"Se Tavi rejeitar suas condições, afasta-se brevemente e retorna com uma proposta sem obrigação de volta.",
+      "consequence":"Sem acordo, será necessário outro abrigo; negociar pode consumir a partida desejada."
+    },
+    "friction":{"status":"fragil","note":"O recuo precisa custar orientação na cena; se funcionar apenas como intervalo estratégico conveniente, F20 perde sua função."}
+  },
+  {
+    "id": 2,
+    "name": "Ivo Contramar",
+    "role": "Vilão",
+    "occupation": "Concessionário de oficinas e registros de drenagem",
+    "summary": "Ivo monopoliza cópias de técnicas públicas. Fecha o acesso ao cais dos artesãos inadimplentes, estragando mercadorias e deixando famílias sem renda; chama essa coerção de preservação do ofício.",
+    "bridgeORCV": "Uma marceneira lhe ofereceu abrigo e ferramentas no começo. Mais tarde, transformou o cuidado recebido em argumento para decidir quanto outras pessoas devem sacrificar por uma obra duradoura.",
+    "cards":[
+      {"family":"OR","code":"OR04","title":"Alguém ficou ao meu lado","interpretation":"Dona Uva me acolheu sem contrato quando eu não tinha bancada. Conservo seu primeiro malho; o gesto dela não autorizou as dívidas que imponho hoje."},
+      {"family":"CV","code":"CV11","title":"O fim dá sentido ao custo","interpretation":"Considero que manter o conhecimento reunido justifica arruinar algumas oficinas. Escolho o objetivo e transfiro o custo; os atingidos não receberam direito de veto."},
+      {"family":"D","code":"D07","title":"Fazer algo durar","interpretation":"Quero entregar a coleção de métodos de drenagem à aprendiz Ema, capaz de mantê-la ativa quando eu deixar de dirigir cada oficina."},
+      {"family":"F","code":"F02","title":"Faço uma troca","interpretation":"Ofereço madeira e bancadas em troca de cópias exclusivas dos desenhos. Declaro a cláusula antes da assinatura, embora minha concessão deixe poucas alternativas aos artesãos."},
+      {"family":"V","code":"V15","title":"Fala cerimonial","interpretation":"Enuncio diante dos selos: ‘Como guardião desta coleção, recebo a próxima contribuição’. A cadência transforma uma cobrança comercial em aparência de dever público."},
+      {"family":"L","code":"L12","title":"Estranho que me marcou","interpretation":"Vi Rula demonstrar um filtro numa única feira e admirei sua inventividade. Ela voltou pedindo circulação livre das instruções; desconheço quem representa atualmente."},
+      {"family":"P","code":"P14","title":"Tentação acessível","interpretation":"Um tabelião oferece registro exclusivo da coleção, condicionado a impedir versões independentes. Obter domínio legal agora cortaria os ensaios que alimentam o próprio arquivo."},
+      {"family":"N","code":"N14","title":"Controle / entrega","interpretation":"Prezo conferir cada desenho e as invenções que Ema produz sem minhas ordens. Controlá-la perde a surpresa técnica que admiro; permitir iniciativa admite versões que posso desaprovar."}
+    ],
+    "journey":{
+      "call":"1. Pedido de alguém",
+      "response":"5. Tento impedir o futuro",
+      "fact":"Rula pede autorização para ensinar o filtro fora da concessão. A oferta do tabelião existe; sua condição restringe novas versões.",
+      "belief":"Prevejo que oficinas independentes fragmentarão meu legado. Isso é um temor interessado, não profecia nem fato confirmado.",
+      "choice":"Procuro impedir essa dispersão preparando o registro, mas ainda escolho quanta iniciativa deixarei a Ema."
+    },
+    "competence":"Compara desenhos e encontra incompatibilidades entre canais.",
+    "pleasure":"Alinha aparas de madeira por cheiro e cor.",
+    "limit":"Não reconhece limite para o prejuízo imposto aos inadimplentes; precisa, porém, de conhecimento que não controla.",
+    "scene":{
+      "attempt":"Oferece uma bancada a Rula em troca da exclusividade do filtro.",
+      "refusal":"Se ela recusar, mantém o bloqueio do cais e tenta contratar outro artesão; não recebe sua invenção automaticamente.",
+      "consequence":"O monopólio pode ganhar força, mas perder contribuições; Ema pode levar seu trabalho a outro lugar."
+    },
+    "friction":{"status":"fragil","note":"N14 depende de Ivo apreciar de fato invenção autônoma, não apenas precisar de empregados. Sem esse prazer técnico, haveria dependência externa, não entrega valorizada."}
+  },
+  {
+    "id":3,
+    "name":"Dora Cobre",
+    "role":"Protagonista",
+    "occupation":"Aferidora de medidas para os atracadouros",
+    "summary":"Dora encontrou prazer em comparar as marcas deixadas pelas marés. Agora precisa decidir se se reconhece no título de aferidora da guilda ou num ofício de observação que também admite erro.",
+    "bridgeORCV":"Descobrir que podia explicar diferenças entre atracadouros ampliou seu mundo; por isso, passou a preferir uma medida conferível ao conforto de uma assinatura respeitada.",
+    "cards":[
+      {"family":"OR","code":"OR12","title":"Descobri algo que me prende à vida","interpretation":"Comecei a medir as marcas de água por interesse, antes de receber encomendas. Ainda comparo estacas sem público, satisfeita quando uma diferença finalmente faz sentido."},
+      {"family":"CV","code":"CV07","title":"É melhor saber do que viver enganado","interpretation":"Uma medição que posso conferir vale mais que conservar uma certeza cômoda. Isso não me autoriza a divulgar o trabalho de outra pessoa sem combinar acesso."},
+      {"family":"D","code":"D15","title":"Entender quem sou","interpretation":"Quero reconhecer que espécie de aferidora escolho ser quando a experiência contraria a autoridade do meu selo: funcionária que autentica instrumentos ou observadora que responde pelo que verifica."},
+      {"family":"F","code":"F10","title":"Vou ao que funciona","interpretation":"Comparo a régua com duas balizas fixas e uso o desvio observado para escolher o procedimento seguinte, mesmo contrariando a ordem de confiar no instrumento certificado."},
+      {"family":"V","code":"V07","title":"Raciocínio em voz alta","interpretation":"Digo: ‘Se as balizas não mudaram, a escala... Não, preciso comparar os extremos’. Exponho a revisão e convido alguém a conferir o dado."},
+      {"family":"L","code":"L04","title":"Favor com história","interpretation":"Taim pagou minha primeira matrícula como presente. Agora pede que adie um registro desfavorável à oficina dele; considera gratidão uma razão para esperar. Não prometi essa omissão."},
+      {"family":"P","code":"P05","title":"Evidência inesperada","interpretation":"Duas comparações independentes mostram erro na régua certificada usada no dimensionamento da próxima passagem. O selo já não sustenta a premissa de precisão; a causa continua desconhecida."},
+      {"family":"N","code":"N11","title":"Prudência / oportunidade","interpretation":"Quero evitar arriscar a equipe e aproveitar a maré que permite medir diretamente o canal. Esperar perde a janela; partir antes de corrigir tudo pode perder equipamento e pessoas."}
+    ],
+    "journey":{
+      "call":"3. Risco concreto",
+      "response":"3. Adio e investigo",
+      "fact":"A escala falhou nas comparações; uma barca usará a passagem dimensionada por ela nesta maré. Ainda não foi medida uma rota alternativa.",
+      "belief":"Suspeito que a guilda prefira proteger o selo; não possuo prova de falsificação deliberada.",
+      "choice":"Adio a liberação, investigo uma correção pequena e decido que trabalho posso assumir sem fingir certeza."
+    },
+    "competence":"Reconhece erros de alinhamento entre balizas.",
+    "pleasure":"Escuta gotas em recipientes de cerâmica.",
+    "limit":"Não confunde comparação bem-sucedida com explicação completa da causa.",
+    "scene":{
+      "attempt":"Propõe uma medição curta, com outra pessoa conferindo o extremo da escala.",
+      "refusal":"Se o barqueiro recusar o atraso, registra o risco e procura acesso por terra; não dirige a barca por ele.",
+      "consequence":"A investigação pode perder a maré ou exigir corrigir medidas já publicadas."
+    },
+    "friction":{"status":"fragil","note":"D15 precisa permanecer uma pergunta de identidade profissional. Se a cena só consertar a régua, haverá problema técnico, mas a identidade ficará pouco ativada."}
+  },
+  {
+    "id":4,
+    "name":"Brás Viga",
+    "role":"Vilão",
+    "occupation":"Provedor das cisternas de uma cidade baixa",
+    "summary":"Brás promete água segura, mas manda destruir casas e remover moradores para barracões vigiados. A prevenção que considera necessária não torna voluntário o deslocamento nem repara as famílias atingidas.",
+    "bridgeORCV":"Perdeu o irmão numa estação de água contaminada, sem responsabilidade demonstrada. Apesar de querer evitar essa consequência, passou a aceitar desabrigo e coerção como custos da prevenção.",
+    "cards":[
+      {"family":"OR","code":"OR01","title":"Uma ausência ficou","interpretation":"Meu irmão morreu naquela estação. Conservo sua caneca no armário; a ausência é real, mas não prova que eu conheça a origem de toda doença atual."},
+      {"family":"CV","code":"CV04","title":"Não vou repetir aquele dano","interpretation":"Decidi não distribuir água que reconheça contaminada. Estendo essa decisão a proibições preventivas que obrigam outras pessoas a abandonar casas, mesmo quando discordam da avaliação."},
+      {"family":"D","code":"D11","title":"Cumprir minha palavra","interpretation":"Prometi ao conselho entregar um abastecimento controlado até a próxima maré grande. Conto barris e torneiras restantes; quero cumprir a promessa, não apenas conservar o cargo."},
+      {"family":"F","code":"F08","title":"Ofereço primeiro","interpretation":"Entrego barris de água antes de exigir mudança para os barracões. O auxílio existe, mas foi retirado de outra rua sem consulta e prepara uma cobrança coercitiva."},
+      {"family":"V","code":"V13","title":"Silêncio que comunica","interpretation":"Diante de contestação, deslizo a ordem selada e afasto a chave. O gesto comunica ‘o acesso continua fechado’; espero a reação, que pode ser resistência, não entendimento ou acordo."},
+      {"family":"L","code":"L10","title":"Afeto com divergência","interpretation":"Minha irmã Ilda atende os moradores e rejeita as remoções. Faço as talas que ela usa e procuro jantar com ela; não quero perdê-la, mas seu trabalho não me pertence."},
+      {"family":"P","code":"P05","title":"Evidência inesperada","interpretation":"Amostras lacradas de dois poços passam na comparação sanitária do arquivo, contrariando minha alegação de que todos precisam ser fechados. O resultado não garante as próximas estações."},
+      {"family":"N","code":"N17","title":"Convicção / vínculo","interpretation":"Quero realizar o projeto de abastecimento controlado e preservar a proximidade com Ilda. Prosseguir pode afastá-la; rever as remoções ameaça a forma de prevenção em que investi."}
+    ],
+    "journey":{
+      "call":"1. Pedido de alguém",
+      "response":"2. Recuso",
+      "fact":"Ilda pede a reabertura dos dois poços testados. As amostras não sustentam meu fechamento geral; famílias continuam impedidas de voltar.",
+      "belief":"Acredito que liberar qualquer exceção fará o abastecimento escapar ao controle. A comparação não demonstrou esse futuro.",
+      "choice":"Recuso a reabertura imediata; ainda escolho publicar os resultados, pedir outro exame ou sustentar a proibição assumindo seus danos."
+    },
+    "competence":"Organiza distribuição e identifica recipientes vazando.",
+    "pleasure":"Afia lápis de carvão até obter pontas iguais.",
+    "limit":"Recusa distribuir água sabidamente contaminada; não reconhece igual limite contra deslocar moradores à força.",
+    "scene":{
+      "attempt":"Entrega barris, apresenta a ordem e sinaliza que espera a retirada dos moradores.",
+      "refusal":"Se recusarem sair, chama os guardas para bloquear o acesso; resistência e consequências não estão decididas.",
+      "consequence":"A coerção pode preservar o monopólio e romper o vínculo com Ilda; não garante água segura."
+    },
+    "friction":{"status":"claro","note":"A convicção preventiva não produz bondade automática: o dano é específico e os meios coercitivos permanecem escolhas suas."}
+  },
+  {
+    "id":5,
+    "name":"Nara dos Arcos",
+    "role":"Protagonista",
+    "occupation":"Conservadora de manuais de amarração",
+    "summary":"Nara prepara para uma aprendiz o caderno de nós da oficina materna. Deseja transmitir o ofício e escolher como narrá-lo, mas a assinatura exigida pelo arquivo ameaça uma memória familiar reconfortante.",
+    "bridgeORCV":"Depois da morte da mãe, continuou consultando seus cadernos. Por isso, considera sua a decisão sobre o que publicar, sem aceitar que um carimbo substitua seu juízo.",
+    "cards":[
+      {"family":"OR","code":"OR01","title":"Uma ausência ficou","interpretation":"Minha mãe morreu; permanecem o banco de trabalho e seus cadernos anotados. Arrumo o banco antes de consultar as páginas, sem imaginar que ela ainda decida a revisão."},
+      {"family":"CV","code":"CV05","title":"Ninguém escolhe por mim","interpretation":"O provedor pode recusar financiamento, mas não escolher que atribuição assinarei. Também não devo decidir em nome da aprendiz qual versão ela transmitirá depois."},
+      {"family":"D","code":"D07","title":"Fazer algo durar","interpretation":"Quero deixar um manual utilizável nas mãos de Suri, que continuará a oficina; a técnica deve poder sobreviver sem minha presença para explicar cada página."},
+      {"family":"F","code":"F19","title":"Uso âncoras externas","interpretation":"Consulto fichas numeradas, copio autoria e confiro cada etapa com o exemplar anotado. Sei quem escreveu as fichas; uma margem ilegível ainda pode orientar a sequência errada."},
+      {"family":"V","code":"V04","title":"Conclusão primeiro","interpretation":"Digo ‘Este nome sozinho não basta’. Deixo a frase pousar antes de apontar, no caderno, as contribuições que fundamentam minha conclusão."},
+      {"family":"L","code":"L14","title":"Autoridade e dependência","interpretation":"Saulo pode negar o carimbo e o papel subsidiado. Precisa do meu inventário para abrir a coleção; posso publicar sem licença, mas perco material e acesso institucional."},
+      {"family":"P","code":"P03","title":"Regra e caso concreto","interpretation":"O formulário aceita um único inventor por técnica. Esta sequência tem intervenções identificadas de quatro artesãos; cumprir a regra apaga contribuições que o próprio registro permite verificar."},
+      {"family":"N","code":"N21","title":"Verdade / consolo","interpretation":"Valorizo a atribuição verdadeira e o consolo de imaginar minha mãe inteiramente autossuficiente. Os cadernos registram colaboração; esclarecer isso rompe a narrativa que me ampara diante de chefes."}
+    ],
+    "journey":{
+      "call":"1. Pedido de alguém",
+      "response":"2. Recuso",
+      "fact":"Saulo pede a ficha com um só inventor para liberar papel. Os nomes dos quatro colaboradores estão registrados; a contribuição exata de cada um ainda requer conferência.",
+      "belief":"Temo que reconhecer ajuda diminua a memória de minha mãe; não existe prova de que os leitores a desprezarão.",
+      "choice":"Recuso assinar a autoria única e decido entre propor anexo, publicar sem licença ou adiar a entrega a Suri."
+    },
+    "competence":"Reconstrói a ordem de folhas soltas pelas marcas de costura.",
+    "pleasure":"Faz pequenos nós decorativos em sobras de corda.",
+    "limit":"Não consegue verificar sozinha os trechos ilegíveis; precisa declarar a lacuna.",
+    "scene":{
+      "attempt":"Mostra as fichas e propõe um anexo de atribuições ao provedor.",
+      "refusal":"Se Saulo rejeitar o anexo, recolhe o exemplar e calcula uma tiragem independente, sem obter o carimbo por insistência.",
+      "consequence":"Suri pode receber menos cópias ou discordar da versão transmitida; a memória familiar também poderá mudar."
+    },
+    "friction":{"status":"fragil","note":"O consolo específico da autossuficiência foi necessário para ativar N21. Sem valor afetivo nessa narrativa, o caso seria apenas atribuição administrativa."}
+  }
+]

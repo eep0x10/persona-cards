@@ -1,5 +1,7 @@
 # Contribuir
 
+Antes da primeira alteração, leia [AGENTS.md](AGENTS.md) e o [guia de continuidade](docs/CONTINUITY.md), que documentam fontes, geração, verificações e transferência para outro PC.
+
 Relate problemas com a versão, o código da carta e um exemplo concreto. Para a aplicação, inclua passos de reprodução, navegador e comportamento esperado. Use personagens fictícios e remova dados privados de capturas e fichas.
 
 Propostas de cartas devem resolver uma lacuna reutilizável e explicar a diferença em relação às existentes. Evite criar uma carta exclusiva para cada personagem ou tratar obstáculos como conflitos internos.

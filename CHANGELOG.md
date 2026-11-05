@@ -1,5 +1,11 @@
 # Histórico
 
+## Continuidade — 5.2.6 / baralho revisão 5.2.2
+
+- Instruções para agentes e guia autocontido de instalação, fontes, geração, preservação de fichas e limites de produção.
+- Ensaios de 20 personagens preservados com sorteios reproduzíveis e fonte histórica exata; protótipos visuais locais incluídos como histórico.
+- Dependências de impressão fixadas, diretório de fontes configurável e comando de checks portátil. Textos, artes e quatro PDFs ativos permanecem os da revisão 5.2.2.
+
 ## Aplicação — 5.2.5 / baralho revisão 5.2.2
 
 - Verificação dos bytes históricos portátil entre Windows e Linux, preservando os bytes já publicados no Git. Conteúdo de G07 e PDFs igual à entrega5.2.4.

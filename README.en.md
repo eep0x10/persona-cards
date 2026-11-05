@@ -164,6 +164,8 @@ An orderly routine once offered security (OR09), informing her belief that contr
 
 ## Documentation and limits
 
+Continuing on another computer or with another person/AI? Read the [continuity guide](docs/CONTINUITY.md), [agent instructions](AGENTS.md) and [preserved experiments](docs/experiments/README.md). Export browser characters as JSON before moving; Git does not contain them.
+
 [Manual](deck/manual-5.2.md) · [Quick start](docs/QUICKSTART.md) · [Skill](docs/SKILL.md) · [Architecture](docs/ARCHITECTURE.md) · [API](docs/API.md) · [Operations](docs/OPERATIONS.md) · [Privacy](docs/PRIVACY.md) · [Tests](docs/TESTING.md) · [105 complete inspirations](docs/INSPIRACAO-5.2.md) · [Historical 100-case review](docs/REVISAO-100-PERSONAGENS.md) · [Validation records](docs/VALIDACAO.md)
 
 [![Repository checks](https://github.com/eep0x10/persona-cards/actions/workflows/checks.yml/badge.svg)](https://github.com/eep0x10/persona-cards/actions/workflows/checks.yml) · [Contributing](CONTRIBUTING.md) · [History](CHANGELOG.md)

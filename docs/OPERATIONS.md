@@ -25,7 +25,9 @@ Use o Python do ambiente virtual. Reinicie o servidor se o backend ou deck mudou
 
 Exporte cada ficha em JSON. Markdown/texto serve para leitura, mas a importação espera o formato JSON do aplicativo. Importar cria um novo personagem e preserva o rascunho. Limpar dados do navegador pode apagar fichas; mudar protocolo, host ou porta cria outro armazenamento.
 
-Na atualização para 5.2, conserve cópias das fichas 5.0/5.1 antes de completar as novas etapas. Elas abrem como rascunhos pendentes de oito famílias e G07, sem passado, convicção ou conflito inventado automaticamente. Os registros da jornada, foto e interpretações integram o JSON. A galeria de 100 inspirações permanece histórica e parcial no novo método.
+Na atualização para 5.2, conserve cópias das fichas 5.0/5.1 antes de completar as novas etapas. Elas abrem como rascunhos pendentes de oito famílias e G07, sem passado, convicção ou conflito inventado automaticamente. Os registros da jornada, foto e interpretações integram o JSON. A galeria atual tem 105 inspirações completas; a revisão dos 100 anteriores permanece como histórico.
+
+Para continuar em outro PC ou com outro colaborador, siga o [guia de continuidade](CONTINUITY.md). O Git não transfere fichas do navegador, credenciais nem configuração privada do host de publicação.
 
 ## Diagnóstico
 

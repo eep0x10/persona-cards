@@ -1,0 +1,93 @@
+{
+  "characters": [
+    {
+      "id": 1,
+      "status": "claro",
+      "strength": "A autonomia reivindicada em CV05 contrasta com a retenção do documento de Tavi, sem absolver o domínio de L20. O afeto tem atos próprios: reparar roupas e desejar companhia. N01 apresenta pertencimento e descoberta genuinamente desejados, com perdas diferentes; a bomba faz a outra vontade participar da proteção desejada.",
+      "issue": "Não identifiquei incompatibilidade no conjunto. F20 aparece como afastamento diante de exposição difícil, com orientação interrompida; ser breve e depois negociar não elimina esse método nem exige que seja a única ação da personagem.",
+      "suggestedTest": "Negar a ajuda da bomba durante a urgência e perguntar o que fica sem resposta enquanto Lira recua. Se o intervalo virar apenas uma estratégia sem exposição ou custo, reavaliar F20; não reescrever Tavi para aceitar.",
+      "affectedCodes": []
+    },
+    {
+      "id": 2,
+      "status": "claro",
+      "strength": "O vilão pratica coerção material pelo cais, enquanto F02 torna a troca explícita e V15 dá aparência pública ao negócio. N14 é iniciativa de outra pessoa, não improvisação própria: Ivo declara apreço pelas invenções não ordenadas de Ema e admite perder surpresa técnica se a controlar. Isso é mais que depender de mão de obra.",
+      "issue": "Não identifiquei incompatibilidade. A iniciativa valorizada de Ema é uma premissa autoral legítima e converge com o ofício, D07 e o custo do monopólio; não é necessário acrescentar remorso para torná-la genuína.",
+      "suggestedTest": "Fazer Ema produzir uma solução boa que contrarie o registro exclusivo. Pedir a Ivo que escolha uma margem de autoria que realmente deseje preservar, aceitando a possibilidade de ela partir com o trabalho.",
+      "affectedCodes": []
+    },
+    {
+      "id": 3,
+      "status": "fragil",
+      "strength": "A evidência contraditória é verificável, F10 executa comparação observável e V07 expõe revisão em voz alta. L04 distingue presente de dívida e mantém a vontade de Taim. N11 tem uma janela concreta e riscos próprios; G07 separa erro confirmado de suspeita sobre a guilda.",
+      "issue": "D15 é literal e legível na interpretação, porém menos integrado à tentativa, recusa e consequência: esses trechos podem terminar como correção de régua sem Dora reconhecer ou experimentar um papel profissional diferente. A escolha da jornada aproxima identidade e responsabilidade, mas ainda não torna essa decisão tão concreta quanto o problema técnico. É fragilidade de ativação, não código errado.",
+      "suggestedTest": "Após corrigir a mesma régua, oferecer dois trabalhos compatíveis com o resultado técnico: autenticar o instrumento sob o selo ou assumir uma observação independente. Perguntar qual papel corresponde à experiência de Dora e qual consequência muda por ela reconhecê-lo como seu.",
+      "affectedCodes": ["D15"]
+    },
+    {
+      "id": 4,
+      "status": "claro",
+      "strength": "CV04 delimita o dano específico da água sabidamente contaminada; o texto não o converte em proibição de qualquer dano. D11 tem promessa, destinatário e prazo. F08 entrega ajuda real antes da exigência coercitiva; V13 comunica por objeto e espera resistência. Ilda permanece querida, discordante e independente. A recusa sorteada não impede escolhas seguintes.",
+      "issue": "Não identifiquei incompatibilidade. A combinação de prevenção, promessa e oferta não torna o vilão automaticamente benevolente: deslocamento forçado e bloqueio são ações suas, com vítimas concretas. O teste não precisa corrigir sua crueldade para preservar N17.",
+      "suggestedTest": "Fazer Ilda recusar o jantar e sustentar os resultados dos poços. Perguntar que perda Brás aceita no projeto ou na relação, sem garantir reabertura, reconciliação ou água segura.",
+      "affectedCodes": []
+    },
+    {
+      "id": 5,
+      "status": "claro",
+      "strength": "A oficina, o manual e a atribuição unem oito famílias com poucas premissas adicionais. F19 usa fichas externas identificadas, L14 explicita dependência dos dois lados e possibilidade custosa de recusa. N21 valoriza tanto atribuição verdadeira quanto uma narrativa afetiva de autossuficiência materna, sem dar vontade atual à morta.",
+      "issue": "Não identifiquei incompatibilidade. A crença consoladora é específica e ligada à ausência, aos cadernos e à relação com chefes; defini-la num personagem original é autoria legítima. A recusa de autoria única já pode sacrificar parte do consolo, sem apagar seu valor.",
+      "suggestedTest": "Oferecer publicação com crédito correto e leitores que ainda respeitam a mãe. Observar se a própria Nara continua desejando a narrativa de autossuficiência, distinguindo consolo pessoal de simples medo de punição administrativa.",
+      "affectedCodes": []
+    },
+    {
+      "id": 6,
+      "status": "claro",
+      "strength": "A casa segura não determina virtude: a ponte explicita a apropriação desigual da autonomia. Competição, financiamento e comporta dão método e dano concreto ao vilão. Joana tem projeto e poder de recusa próprios. N12 apresenta desejo de franqueza e convivência estimada sem plateia; as previsões de dissolução institucional ficam separadas dos fatos.",
+      "issue": "Não identifiquei incompatibilidade. A disputa de previsões pode produzir dados para D06 e também servir ao controle; não é preciso tratar cientista, cerimônia ou harmonia como sinais de bondade.",
+      "suggestedTest": "Fazer Joana aceitar a pesquisa e rejeitar o comando exclusivo. Pedir que Avel exponha o desejo evitado ou explique que convivência decide preservar ao adiá-lo, sem converter a vitória científica em direito automático de governar.",
+      "affectedCodes": []
+    },
+    {
+      "id": 7,
+      "status": "claro",
+      "strength": "OR03 distingue nomeação e formação de aceite do cargo. D23 mantém prazer de praticar sem crédito nem venda; F14 seleciona e encena informação, enquanto V12 oferece participação. A marinheira pode cobrar e negar testemunho. A injustiça da tarifa é fato separado da autoria incerta do defeito, permitindo N10 sem transformar suspeita em prova.",
+      "issue": "Não identifiquei incompatibilidade. A cena põe em primeiro plano a impressão suspeita; a tarifa não precisa ser resolvida nesse encontro, mas deve voltar como decisão para que lealdade e justiça não fiquem apenas explicadas na ficha.",
+      "suggestedTest": "Dar ao conselho uma oferta para limpar o nome da corporação sem retirar a tarifa desigual. Pedir a Cira uma tentativa que preserve algo dos gravadores e enfrente a injustiça, mantendo incerta a autoria da matriz defeituosa.",
+      "affectedCodes": []
+    },
+    {
+      "id": 8,
+      "status": "fragil",
+      "strength": "F19 é consulta concreta a documento externo, V07 testa hipóteses e L16 mantém a mãe no registro/memória sem ordens atuais. N21 declara importância própria da verdade e do consolo. A regra de admissão produz exclusão e dano concretos; o atraso investigativo não é apresentado como inocente.",
+      "issue": "D09 é literal isoladamente, mas ouvir o sino não participa da tentativa, da recusa, da consequência nem de qualquer dos cinco campos de G07. A cena de abrigos ativa o método documental para outra finalidade. Não é necessário que o prazer ofereça vantagem administrativa, porém o desejo escolhido fica como subtrama sem tentativa atual.",
+      "suggestedTest": "Pedir uma próxima tentativa dirigida à experiência do sino, com outra pessoa capaz de negar acesso e uma consequência própria. Verificar se ela se articula à escolha atual sem inventar um mecanismo de maré ou uma obrigação adicional só para conectar os campos.",
+      "affectedCodes": ["D09", "F19", "G07"]
+    },
+    {
+      "id": 9,
+      "status": "fragil",
+      "strength": "P08 conserva uma vitória boa, sem multa oculta. N19 contém motivo real para nova tentativa e para poupar forças: uma emenda autônoma, exaustão e oficinas anteriores. Lida é rival admirada, credora e agente capaz de limitar sua colaboração. OR02 não apaga os efeitos do fechamento nem impõe remorso.",
+      "issue": "A combinação é possível, mas é a mais dependente de separar objetivos e tempos: licença/inspeção vencidas, transmissão do método ainda aberta, oficinas docentes frustradas e desgaste continuado. Essa arquitetura evita contradizer P08, porém aumenta a carga de premissas para sustentar N19. Não há prova de encaixe forçado; há um custo de explicação que precisa sobreviver ao uso em cena.",
+      "suggestedTest": "Pedir a um leitor que diga, sem consultar os códigos, o que já foi conquistado, qual tentativa parece fracassar e o que ainda sustenta esperança. Se confundir vitória com fracasso, a separação não ficou jogável; não invalidar a licença para fabricar tensão.",
+      "affectedCodes": ["P08", "N19"]
+    },
+    {
+      "id": 10,
+      "status": "claro",
+      "strength": "Promessa, punição e execução literal se distinguem. A perda não determina vingança, e o cuidado manual com Lia não absolve a coerção. L19 preserva nomeação jurídica, desejo da tutelada e recusa. N01 apresenta pertença e viagem valorizadas pela própria Marta, sem usar a obrigação de tutela como substituto das raízes.",
+      "issue": "Não identifiquei incompatibilidade. A festa e a transferência dão ocasião concreta ao conflito de pertença, enquanto risco de saída do armador ativa a jornada. São escolhas paralelas legíveis, sem supor que punir repare vítimas ou garanta viagem.",
+      "suggestedTest": "Fazer Lia permanecer no porto e o armador apresentar uma proposta que preserve os moradores, mas adie a punição. Perguntar que vantagem, compromisso e convivência Marta aceita perder, sem transformar o gesto de cuidado em consentimento da tutelada.",
+      "affectedCodes": []
+    }
+  ],
+  "counts": {"claro": 7, "fragil": 3, "forcado": 0},
+  "limitations": [
+    "Auditoria textual independente da autoria dos personagens, aplicada aos dois arquivos congelados e ao sorteio registrado. Não houve reescrita para aumentar a aprovação.",
+    "Dez personagens originais de uma única semente e de um cenário compartilhado não constituem amostra representativa nem playtest com jogadores. As contagens descrevem somente este exercício.",
+    "As notas de fricção dos autores foram lidas como condições de uso, não como veredito. Em personagens originais, criar um valor ou crença coerente é legítimo; o problema é falta de legibilidade, integração ou excesso gratuito de premissas.",
+    "Claro significa encaixe e articulação legíveis no texto, não garantia de profundidade, diversão ou reação real à recusa. Frágil significa ativação ou economia de premissas a testar, não erro obrigatório de código.",
+    "O sorteio não incluiu F21, F22 ou N23. Este exercício não verifica diretamente o funcionamento narrativo das três cartas adicionadas na revisão 5.2.1.",
+    "Oito interpretações e cinco campos de G07 completos são requisitos estruturais; não foram tratados como prova automática de conflito genuíno, profundidade ou coerência."
+  ]
+}

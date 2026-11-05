@@ -171,6 +171,8 @@ Uma rotina organizada lhe ofereceu segurança (**OR09**); ela passou a crer que,
 
 ## Documentação e limites
 
+**Vai continuar em outro PC, com outra pessoa ou IA?** Comece pelo [guia de continuidade](docs/CONTINUITY.md). As [instruções para agentes](AGENTS.md) explicam as regras do projeto; os [ensaios preservados](docs/experiments/README.md) registram os testes narrativos. Exporte as fichas do navegador em JSON antes da troca de computador.
+
 | Guia | Conteúdo |
 | --- | --- |
 | [Manual 5.2](deck/manual-5.2.md) | Método, G07 e todas as 169 cartas |

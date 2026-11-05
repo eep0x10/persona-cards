@@ -1,0 +1,1211 @@
+{
+  "edition": "5.2",
+  "revision": "5.2.1",
+  "deckSha256": "4dae5bb05ba6376bd09ac3d7bcf16a6307e159a236b66f1bef457fce4b897128",
+  "seed": 10061244624512503432,
+  "algorithm": "Python random.Random(seed); IDs1..10, family order OR/CV/D/F/V/L/P/N; fixed family consumes NO random choice; other families uniform rng.choice; then two randrange(1,7). Repeated cards across characters permitted.",
+  "design": "Four deliberately fixed exposures per new card, two protagonists and two villains; overlaps at7(F21+N23) and10(F22+N23). Extra new-card hits from unrestricted random families remain unchanged.",
+  "fixedSlots": 12,
+  "randomSlots": 68,
+  "rerolls": 0,
+  "scenario": "Five predefined genre pairs; five protagonists and five villains assigned before the draw.",
+  "characters": [
+    {
+      "id": 1,
+      "role": "Protagonista",
+      "scenario": "Fantasia de caravanas no deserto, água escassa e ofícios itinerantes.",
+      "fixedCodes": [
+        "F21"
+      ],
+      "cards": [
+        {
+          "versao": "5.2",
+          "codigo": "OR10",
+          "titulo": "Aprendi duas formas de viver",
+          "familia": "OR",
+          "campos": {
+            "Pergunte": "Que práticas ou critérios entram em contraste, e onde você encontrou lugar entre eles?",
+            "Mostre": "Mostre uma decisão em que reconhece mais de uma resposta possível.",
+            "Contraste": "Pode formar uma ponte entre pessoas ou alguém que explora divisões para se tornar indispensável."
+          },
+          "modulo": "expansao_5_2",
+          "leitura": "Você conheceu modos diferentes de habitar o mundo. Nenhum precisa virar caricatura para que a diferença importe."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "CV04",
+          "titulo": "Não vou repetir aquele dano",
+          "familia": "CV",
+          "campos": {
+            "Pergunte": "Qual dano quer evitar e em que situação seria difícil sustentar esse limite?",
+            "Mostre": "Surge uma solução eficaz que repete parte do dano. Declare a escolha e quem assume seu custo.",
+            "Contraste": "Pode sustentar um limite ético ou uma prevenção extrema que faz inocentes pagar por um risco."
+          },
+          "modulo": "expansao_5_2",
+          "leitura": "Há um tipo de consequência que você decidiu não produzir nem ajudar a repetir. Essa decisão precisa aparecer no meio que aceita usar."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "D01",
+          "titulo": "Ter meu lugar",
+          "familia": "D",
+          "campos": {
+            "Quero": "Entrar em [grupo] com direito a [participação].",
+            "Mostre": "Assume uma tarefa comum e pede um lugar à mesa.",
+            "Pedido": "Peça uma apresentação; ofereça uma contribuição."
+          },
+          "modulo": "nucleo",
+          "leitura": "Você procura um lugar onde sua presença conte, não apenas um convite para entrar."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "F21",
+          "titulo": "Ensino para que você tente",
+          "familia": "F",
+          "modulo": "expansao_5_2",
+          "leitura": "Você demonstra uma parte e deixa a outra pessoa tentar. Ela pode recusar, adaptar ou aprender algo diferente.",
+          "campos": {
+            "Faço": "Demonstro uma parte, acompanho a tentativa e devolvo uma observação.",
+            "Ajuda": "A outra pessoa ganha meios para agir sem repetir cada passo meu.",
+            "Custa": "Posso impor meu percurso ou confundir imitação com compreensão. O aprendiz escolhe o que fará com o ensino."
+          }
+        },
+        {
+          "versao": "5.2",
+          "codigo": "V03",
+          "titulo": "Imagens do cotidiano",
+          "familia": "V",
+          "campos": {
+            "Faça": "Compara com algo do cotidiano; usa um objeto.",
+            "Ensaie": "“Esse acordo é ponte: precisa apoiar dos dois lados.”",
+            "Subtexto": "Pode explicar, persuadir ou diminuir tensão."
+          },
+          "modulo": "nucleo",
+          "leitura": "Você traduz uma ideia em objeto ou imagem cotidiana que ambos conhecem."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "L04",
+          "titulo": "Favor com história",
+          "familia": "L",
+          "campos": {
+            "Laço": "Uma ajuda passada deixou gratidão ou dívida.",
+            "Outra pessoa": "Defina o pedido atual e o que considera devido.",
+            "Em cena": "A ajuda era presente, acordo ou foi entendida de outro jeito?"
+          },
+          "modulo": "nucleo",
+          "leitura": "Uma ajuda antiga chega à conversa de hoje. Foi presente, acordo ou dívida?"
+        },
+        {
+          "versao": "5.2",
+          "codigo": "P01",
+          "titulo": "Crédito em disputa",
+          "familia": "P",
+          "campos": {
+            "Acontece": "Disputa por crédito, atenção ou posição altera uma relação.",
+            "Pesa": "Reconhecimento afeta acesso, identidade ou recompensa.",
+            "Abra": "Mostre as reivindicações e deixe a reação em aberto."
+          },
+          "modulo": "nucleo",
+          "leitura": "Uma disputa por crédito altera quem é visto, ouvido ou recompensado."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "N04",
+          "titulo": "Afeto / imparcialidade",
+          "familia": "N",
+          "campos": {
+            "Importam": "Cuidar de alguém querido e usar critério justo.",
+            "Revele": "Uma decisão pública envolve essa pessoa.",
+            "Abra": "Quem pode decidir sem favorecer ou abandonar?"
+          },
+          "modulo": "nucleo",
+          "leitura": "Você ama alguém envolvido na decisão e quer ser justo com os demais."
+        }
+      ],
+      "callRoll": 3,
+      "callResult": "3. Risco concreto",
+      "responseRoll": 1,
+      "responseResult": "1. Aceito"
+    },
+    {
+      "id": 2,
+      "role": "Vilão",
+      "scenario": "Fantasia de caravanas no deserto, água escassa e ofícios itinerantes.",
+      "fixedCodes": [
+        "F21"
+      ],
+      "cards": [
+        {
+          "versao": "5.2",
+          "codigo": "OR07",
+          "titulo": "Meu esforço não bastou",
+          "familia": "OR",
+          "campos": {
+            "Pergunte": "Faltaram capacidade, recursos, informação, oportunidade ou controle? Não transforme resultado em medida de valor pessoal.",
+            "Mostre": "Apresente uma situação parecida e mostre o que faz diferente — ou insiste em repetir.",
+            "Contraste": "Pode ensinar prudência e colaboração ou produzir ressentimento e punição de pessoas usadas como culpadas."
+          },
+          "modulo": "expansao_5_2",
+          "leitura": "Você tentou algo importante e não alcançou o resultado. O fracasso aconteceu; a explicação que lhe deu pode continuar em disputa."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "CV04",
+          "titulo": "Não vou repetir aquele dano",
+          "familia": "CV",
+          "campos": {
+            "Pergunte": "Qual dano quer evitar e em que situação seria difícil sustentar esse limite?",
+            "Mostre": "Surge uma solução eficaz que repete parte do dano. Declare a escolha e quem assume seu custo.",
+            "Contraste": "Pode sustentar um limite ético ou uma prevenção extrema que faz inocentes pagar por um risco."
+          },
+          "modulo": "expansao_5_2",
+          "leitura": "Há um tipo de consequência que você decidiu não produzir nem ajudar a repetir. Essa decisão precisa aparecer no meio que aceita usar."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "D19",
+          "titulo": "Punir quem causou o dano",
+          "familia": "D",
+          "campos": {
+            "Quero": "Fazer [responsável] pagar por [dano], por meio de [punição pretendida].",
+            "Mostre": "Escolhe o alvo e a forma de retribuição; reparar a vítima pode ser outro objetivo.",
+            "Pergunte": "Que resultado encerraria a busca? Pode não haver limite reconhecido nem encerramento possível."
+          },
+          "modulo": "expansao_5",
+          "leitura": "Você quer que o responsável pague pelo dano. Punir e reparar não são a mesma escolha."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "F21",
+          "titulo": "Ensino para que você tente",
+          "familia": "F",
+          "modulo": "expansao_5_2",
+          "leitura": "Você demonstra uma parte e deixa a outra pessoa tentar. Ela pode recusar, adaptar ou aprender algo diferente.",
+          "campos": {
+            "Faço": "Demonstro uma parte, acompanho a tentativa e devolvo uma observação.",
+            "Ajuda": "A outra pessoa ganha meios para agir sem repetir cada passo meu.",
+            "Custa": "Posso impor meu percurso ou confundir imitação com compreensão. O aprendiz escolhe o que fará com o ensino."
+          }
+        },
+        {
+          "versao": "5.2",
+          "codigo": "V11",
+          "titulo": "Passo a passo",
+          "familia": "V",
+          "campos": {
+            "Faça": "Enumera passos; marca cada um com os dedos.",
+            "Ensaie": "“Primeiro guardamos isto. Depois ouvimos os dois.”",
+            "Subtexto": "Pode ensinar, organizar ou recuperar controle."
+          },
+          "modulo": "nucleo",
+          "leitura": "Você organiza o pensamento em passos que o outro consegue acompanhar."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "L08",
+          "titulo": "Companhia de estrada",
+          "familia": "L",
+          "campos": {
+            "Laço": "Vocês dividem uma jornada ou missão.",
+            "Outra pessoa": "Defina destino, prioridade ou limite próprio.",
+            "Em cena": "Que parte da rota ou do plano precisa combinar?"
+          },
+          "modulo": "nucleo",
+          "leitura": "Vocês seguem pela mesma estrada com prioridades que podem não coincidir."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "P05",
+          "titulo": "Evidência inesperada",
+          "familia": "P",
+          "campos": {
+            "Acontece": "Uma evidência confiável contradiz uma premissa.",
+            "Pesa": "Rever custa algo; insistir assume um risco novo.",
+            "Abra": "Separe o fato confirmado do que continua incerto."
+          },
+          "modulo": "nucleo",
+          "leitura": "Uma prova confiável mudou o terreno. O que ainda permanece desconhecido?"
+        },
+        {
+          "versao": "5.2",
+          "codigo": "N11",
+          "titulo": "Prudência / oportunidade",
+          "familia": "N",
+          "campos": {
+            "Importam": "Evitar perdas e aproveitar uma ocasião.",
+            "Revele": "A informação segura chega depois do prazo.",
+            "Abra": "Que teste pequeno ou risco compartilhado cabe?"
+          },
+          "modulo": "nucleo",
+          "leitura": "Você quer evitar uma perda e aproveitar a ocasião. Que risco pequeno pode testar?"
+        }
+      ],
+      "callRoll": 5,
+      "callResult": "5. Presságio ou profecia",
+      "responseRoll": 3,
+      "responseResult": "3. Adio e investigo"
+    },
+    {
+      "id": 3,
+      "role": "Protagonista",
+      "scenario": "Ficção científica em habitat orbital, manutenção e convivência entre tripulações.",
+      "fixedCodes": [
+        "F22"
+      ],
+      "cards": [
+        {
+          "versao": "5.2",
+          "codigo": "OR05",
+          "titulo": "Saí quando esperavam que ficasse",
+          "familia": "OR",
+          "campos": {
+            "Pergunte": "Do que saiu, por qual motivo e quem interpretou sua partida de outro jeito?",
+            "Mostre": "Faça uma exigência antiga voltar por meio de uma pessoa com vontade própria.",
+            "Contraste": "Pode ser emancipação legítima ou abandono de responsabilidades; a carta não absolve nem condena por antecipação."
+          },
+          "modulo": "expansao_5_2",
+          "leitura": "Você atravessou uma porta que outras pessoas julgavam fechada. Sua saída abriu algo e deixou consequências para trás."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "CV07",
+          "titulo": "É melhor saber do que viver enganado",
+          "familia": "CV",
+          "campos": {
+            "Pergunte": "A quem deve essa verdade, que acesso considera legítimo e o que faria diante de incerteza?",
+            "Mostre": "Uma informação útil também expõe alguém que não autorizou sua divulgação.",
+            "Contraste": "Pode sustentar investigação responsável ou uma cruzada que desconsidera privacidade e consequências."
+          },
+          "modulo": "expansao_5_2",
+          "leitura": "Você atribui valor a compreender o que acontece, mesmo quando a descoberta pode tirar um consolo ou uma vantagem."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "D08",
+          "titulo": "Ter recursos suficientes",
+          "familia": "D",
+          "campos": {
+            "Quero": "Reunir [quantidade] para realizar [projeto].",
+            "Mostre": "Conta o que falta e propõe uma troca.",
+            "Pedido": "Peça trabalho ou recurso; defina quanto é suficiente."
+          },
+          "modulo": "nucleo",
+          "leitura": "Você sabe o que falta para realizar um projeto. Quanto será bastante?"
+        },
+        {
+          "versao": "5.2",
+          "codigo": "F22",
+          "titulo": "Escuto antes de propor",
+          "familia": "F",
+          "modulo": "expansao_5_2",
+          "leitura": "Você pede a versão da pessoa, confere o que entendeu e revê a proposta. Escutar pode mudar seu próximo passo.",
+          "campos": {
+            "Faço": "Peço a versão da pessoa, confiro meu entendimento e reformulo a proposta.",
+            "Ajuda": "Descubro necessidades, interesses ou recusas que minha solução inicial não considerou.",
+            "Custa": "Posso usar o que ouvi para conduzir ou manipular. Fazer perguntas sem admitir revisão não basta; escutar não prova bondade."
+          }
+        },
+        {
+          "versao": "5.2",
+          "codigo": "V09",
+          "titulo": "Entusiasmo que convida",
+          "familia": "V",
+          "campos": {
+            "Faça": "Fala com energia; oferece participação concreta.",
+            "Ensaie": "“Tenho uma ideia! Você testa e eu preparo o resto?”",
+            "Subtexto": "Pode mobilizar, compartilhar prazer ou pedir coragem."
+          },
+          "modulo": "nucleo",
+          "leitura": "Sua energia abre uma tarefa compartilhada. Convide para uma parte concreta."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "L13",
+          "titulo": "Inimigo que contraria meu projeto",
+          "familia": "L",
+          "modulo": "expansao",
+          "campos": {
+            "Laço": "Um adversário ameaça um objetivo, crença ou identidade importante.",
+            "Outra parte": "Defina o que ele quer, teme perder e faria sem você. Admiração e centralidade identitária só entram se existirem.",
+            "Em cena": "Que ação tenta provocar, impedir ou explorar? O adversário pode recusar o papel que lhe atribui."
+          },
+          "leitura": "Uma pessoa se opõe a algo importante para você e busca um resultado próprio. O que faria sem sua presença?"
+        },
+        {
+          "versao": "5.2",
+          "codigo": "P16",
+          "titulo": "Perda sem retorno",
+          "familia": "P",
+          "modulo": "expansao",
+          "campos": {
+            "Acontece": "Uma pessoa, oportunidade ou condição não pode ser recuperada igual.",
+            "Pesa": "A escolha atual convive com essa ausência.",
+            "Abra": "Mostre o que acabou e o que ainda é possível, sem exigir superação."
+          },
+          "leitura": "Algo se perdeu sem retorno igual. O que ainda pode ser escolhido?"
+        },
+        {
+          "versao": "5.2",
+          "codigo": "N22",
+          "titulo": "Dedicação / presença cotidiana",
+          "familia": "N",
+          "campos": {
+            "Disputam": "Entregar-se a uma obra ou vocação e estar disponível para experiências e relações fora dela.",
+            "Mostre": "A pessoa preza a prática e também algo que perde enquanto só pratica.",
+            "Pergunte": "Que ocasião concreta quer viver além do trabalho? Se os outros cobram descanso mas a pessoa não o valoriza, há custo externo, não tensão comprovada."
+          },
+          "modulo": "expansao_5",
+          "leitura": "A obra importa, e a vida fora dela também. O que perderia se só uma coubesse?"
+        }
+      ],
+      "callRoll": 6,
+      "callResult": "6. Natureza, tempo ou finitude",
+      "responseRoll": 6,
+      "responseResult": "6. Busco cumprir por outro caminho"
+    },
+    {
+      "id": 4,
+      "role": "Vilão",
+      "scenario": "Ficção científica em habitat orbital, manutenção e convivência entre tripulações.",
+      "fixedCodes": [
+        "F22"
+      ],
+      "cards": [
+        {
+          "versao": "5.2",
+          "codigo": "OR04",
+          "titulo": "Alguém ficou ao meu lado",
+          "familia": "OR",
+          "campos": {
+            "Pergunte": "O que recebeu e que significado deu ao gesto? Não presuma dívida nem reciprocidade.",
+            "Mostre": "Mostre como recebe ajuda hoje: acolhe, desconfia, oferece a outra pessoa ou tenta comandar a relação.",
+            "Contraste": "Pode inspirar solidariedade ou transformar cuidado recebido em sentimento de superioridade e proteção possessiva."
+          },
+          "modulo": "expansao_5_2",
+          "leitura": "Houve quem lhe oferecesse tempo, abrigo ou confiança quando isso fez diferença. Esse gesto não determina o que você deve fazer agora."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "CV10",
+          "titulo": "Viver também é deixar partir",
+          "familia": "CV",
+          "campos": {
+            "Pergunte": "O que pode soltar, o que ainda pode reparar e como distingue aceitação de abandono?",
+            "Mostre": "Uma oportunidade de conservar algo cobra impedir a vida de outra pessoa.",
+            "Contraste": "Pode sustentar despedida e renovação ou servir de desculpa para descartar pessoas e fugir de reparações possíveis."
+          },
+          "modulo": "expansao_5_2",
+          "leitura": "Você tenta continuar sem exigir que tudo permaneça sob a mesma forma. Aceitar uma perda não apaga o que importou."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "D10",
+          "titulo": "Ampliar minha influência",
+          "familia": "D",
+          "campos": {
+            "Quero": "Obter [autoridade] para decidir [assunto].",
+            "Mostre": "Busca apoio, acesso ou posição que lhe permita decidir; descreva como usa esse poder.",
+            "Interação": "Declare a autoridade pretendida e a margem real de recusa dos demais. Só atribua um limite se a pessoa o reconhecer."
+          },
+          "modulo": "nucleo",
+          "leitura": "Você quer ter poder sobre uma decisão. Que autoridade procura, e quem poderá contestá-la?"
+        },
+        {
+          "versao": "5.2",
+          "codigo": "F22",
+          "titulo": "Escuto antes de propor",
+          "familia": "F",
+          "modulo": "expansao_5_2",
+          "leitura": "Você pede a versão da pessoa, confere o que entendeu e revê a proposta. Escutar pode mudar seu próximo passo.",
+          "campos": {
+            "Faço": "Peço a versão da pessoa, confiro meu entendimento e reformulo a proposta.",
+            "Ajuda": "Descubro necessidades, interesses ou recusas que minha solução inicial não considerou.",
+            "Custa": "Posso usar o que ouvi para conduzir ou manipular. Fazer perguntas sem admitir revisão não basta; escutar não prova bondade."
+          }
+        },
+        {
+          "versao": "5.2",
+          "codigo": "V08",
+          "titulo": "Atenção pessoal",
+          "familia": "V",
+          "campos": {
+            "Faça": "Retome um detalhe pessoal que ouviu.",
+            "Ensaie": "“Você falou da sua irmã. Isso muda sua resposta?”",
+            "Subtexto": "Pode cuidar, investigar ou usar o detalhe como argumento."
+          },
+          "modulo": "nucleo",
+          "leitura": "Você se lembra de um detalhe pessoal. Use-o com atenção à pessoa, não apenas ao argumento."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "L05",
+          "titulo": "Quem viu minha mudança",
+          "familia": "L",
+          "campos": {
+            "Laço": "Alguém conhece uma versão anterior de você.",
+            "Outra pessoa": "Defina o que quer hoje e o que pensa que ainda é igual.",
+            "Em cena": "Que hábito atual confirma ou desfaz essa impressão?"
+          },
+          "modulo": "nucleo",
+          "leitura": "Essa pessoa conheceu quem você era. Ela vê quem você se tornou?"
+        },
+        {
+          "versao": "5.2",
+          "codigo": "P04",
+          "titulo": "Um vínculo escolhe diferente",
+          "familia": "P",
+          "campos": {
+            "Acontece": "Uma pessoa próxima escolhe outro caminho.",
+            "Pesa": "O plano ou vínculo já não continua igual.",
+            "Abra": "Mostre sua decisão; o personagem escolhe como reage."
+          },
+          "modulo": "nucleo",
+          "leitura": "Uma pessoa próxima escolhe diferente. A relação precisa lidar com essa escolha."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "N08",
+          "titulo": "Ambição / suficiência",
+          "familia": "N",
+          "campos": {
+            "Importam": "Crescer e apreciar o que já basta.",
+            "Revele": "A próxima conquista consome um prazer atual.",
+            "Abra": "O que merece expansão e o que merece pausa?"
+          },
+          "modulo": "nucleo",
+          "leitura": "Você quer crescer e sabe apreciar o bastante. Qual conquista mudaria o equilíbrio?"
+        }
+      ],
+      "callRoll": 2,
+      "callResult": "2. Papel ou herança",
+      "responseRoll": 2,
+      "responseResult": "2. Recuso"
+    },
+    {
+      "id": 5,
+      "role": "Protagonista",
+      "scenario": "Fantasia urbana de bairros, artes e pequenos pactos sobrenaturais.",
+      "fixedCodes": [
+        "N23"
+      ],
+      "cards": [
+        {
+          "versao": "5.2",
+          "codigo": "OR12",
+          "titulo": "Descobri algo que me prende à vida",
+          "familia": "OR",
+          "campos": {
+            "Pergunte": "O que despertou esse interesse e por que ainda importa? Ele não precisa ser um chamado heroico.",
+            "Mostre": "Mostre o prazer de fazer algo bem, mesmo sem público ou recompensa.",
+            "Contraste": "Pode sustentar dedicação generosa ou uma obsessão que trata outras pessoas como matéria da própria obra."
+          },
+          "modulo": "expansao_5_2",
+          "leitura": "Uma prática, descoberta ou encontro fez o mundo ficar maior. Nem todo começo precisa vir de uma ferida."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "CV08",
+          "titulo": "Depender de alguém me deixa à mercê",
+          "familia": "CV",
+          "campos": {
+            "Pergunte": "Que risco prevê e que experiência o faz acreditar nisso? É previsão factual, não verdade decretada pela carta.",
+            "Mostre": "Recebe ajuda que não consegue retribuir imediatamente. Mostre o que tenta manter sob seu controle.",
+            "Contraste": "Pode orientar cautela e limites ou isolamento, manipulação e desconfiança mesmo sem evidência suficiente."
+          },
+          "modulo": "expansao_5_2",
+          "leitura": "Quando precisa de outra pessoa, você enxerga também a possibilidade de perder espaço, proteção ou saída."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "D21",
+          "titulo": "Cumprir uma obrigação",
+          "familia": "D",
+          "campos": {
+            "Quero": "Executar [dever] recebido de [papel, instituição, herança ou programação], até [condição de cumprimento].",
+            "Mostre": "Consulta o mandato e age pelo que ele exige, mesmo sem promessa pessoal.",
+            "Pergunte": "É escolha, obrigação ou protocolo? Quanto pode interpretar, recusar ou aprender? Não atribua vontade autônoma sem evidência."
+          },
+          "modulo": "expansao_5",
+          "leitura": "Um dever orienta seus passos. Descubra de onde veio e quanto espaço deixa para sua interpretação."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "F08",
+          "titulo": "Ofereço primeiro",
+          "familia": "F",
+          "campos": {
+            "Faço": "Entrego uma ajuda antes de pedir.",
+            "Ajuda": "A colaboração começa por uma prova concreta.",
+            "Custa": "Posso prometer recursos compartilhados sem consultar."
+          },
+          "modulo": "nucleo",
+          "leitura": "Você começa oferecendo ajuda. Verifique o que é seu para oferecer."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "V06",
+          "titulo": "Lembrança breve",
+          "familia": "V",
+          "campos": {
+            "Faça": "Conta uma lembrança curta; volta ao presente.",
+            "Ensaie": "“Na última travessia faltou corda. Trouxe duas.”",
+            "Subtexto": "Pode alertar, criar intimidade ou justificar cautela."
+          },
+          "modulo": "nucleo",
+          "leitura": "Você traz uma lembrança breve para iluminar o que acontece agora."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "L07",
+          "titulo": "Quem me orienta",
+          "familia": "L",
+          "campos": {
+            "Laço": "Uma pessoa orienta você por experiência ou autoridade.",
+            "Outra pessoa": "Defina seu projeto e os critérios que defende.",
+            "Em cena": "Que conselho aceita e onde começa sua decisão?"
+          },
+          "modulo": "nucleo",
+          "leitura": "Alguém oferece direção por experiência ou poder. Onde começa a sua decisão?"
+        },
+        {
+          "versao": "5.2",
+          "codigo": "P17",
+          "titulo": "Controle exigido",
+          "familia": "P",
+          "modulo": "expansao",
+          "campos": {
+            "Acontece": "Alguém com vantagem tenta impor uma conduta.",
+            "Pesa": "Recusar, obedecer ou resistir tem consequências distintas.",
+            "Abra": "Defina poder e margens reais; não presuma consentimento."
+          },
+          "leitura": "Alguém exige obediência a partir de uma vantagem real. Mostre as margens de resposta."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "N23",
+          "titulo": "Prazer imediato / projeto",
+          "familia": "N",
+          "modulo": "expansao_5_2",
+          "leitura": "Você deseja uma satisfação agora e uma realização continuada que ela pode comprometer. Ambas precisam importar a você.",
+          "campos": {
+            "Disputam": "Desfrutar uma satisfação imediata e conservar um projeto que também deseja realizar.",
+            "Mostre": "O prazer está ao alcance, com um custo concreto para o projeto. Nenhum dos dois precisa ser moralmente bom.",
+            "Pergunte": "O que deseja de cada lado? Se só há proibição externa ou um projeto que não valoriza, falta a segunda vontade."
+          }
+        }
+      ],
+      "callRoll": 2,
+      "callResult": "2. Papel ou herança",
+      "responseRoll": 1,
+      "responseResult": "1. Aceito"
+    },
+    {
+      "id": 6,
+      "role": "Vilão",
+      "scenario": "Fantasia urbana de bairros, artes e pequenos pactos sobrenaturais.",
+      "fixedCodes": [
+        "N23"
+      ],
+      "cards": [
+        {
+          "versao": "5.2",
+          "codigo": "OR12",
+          "titulo": "Descobri algo que me prende à vida",
+          "familia": "OR",
+          "campos": {
+            "Pergunte": "O que despertou esse interesse e por que ainda importa? Ele não precisa ser um chamado heroico.",
+            "Mostre": "Mostre o prazer de fazer algo bem, mesmo sem público ou recompensa.",
+            "Contraste": "Pode sustentar dedicação generosa ou uma obsessão que trata outras pessoas como matéria da própria obra."
+          },
+          "modulo": "expansao_5_2",
+          "leitura": "Uma prática, descoberta ou encontro fez o mundo ficar maior. Nem todo começo precisa vir de uma ferida."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "CV01",
+          "titulo": "Sem controle, tudo se perde",
+          "familia": "CV",
+          "campos": {
+            "Pergunte": "Em que situação essa regra parece necessária? O que faria diante de alguém capaz que não obedece?",
+            "Mostre": "Outra pessoa resolve um problema de um jeito que você não autorizou. Mostre sua resposta.",
+            "Contraste": "Pode orientar preparação responsável ou domínio coercitivo. Crenças factuais sobre controle podem ser confrontadas; a preferência por ordem é um valor."
+          },
+          "modulo": "expansao_5_2",
+          "leitura": "Você procura segurança em poder antecipar e dirigir o que acontece. Resta saber quanto controle a situação permite e quem fica sem escolha."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "D05",
+          "titulo": "Obter reparação",
+          "familia": "D",
+          "campos": {
+            "Quero": "Reparar [dano] por meio de [medida].",
+            "Mostre": "Apresenta o prejuízo e uma reparação possível.",
+            "Pedido": "Peça apoio ou prova; diga quando bastará."
+          },
+          "modulo": "nucleo",
+          "leitura": "Um dano pede resposta concreta. Que reparação seria suficiente para você?"
+        },
+        {
+          "versao": "5.2",
+          "codigo": "F01",
+          "titulo": "Planejo antes",
+          "familia": "F",
+          "campos": {
+            "Faço": "Divido a tarefa em etapas e preparo recursos.",
+            "Ajuda": "As pessoas sabem o próximo passo.",
+            "Custa": "A preparação pode consumir a oportunidade."
+          },
+          "modulo": "nucleo",
+          "leitura": "Você organiza antes de agir. Quando o preparo protege, e quando faz perder a hora?"
+        },
+        {
+          "versao": "5.2",
+          "codigo": "V22",
+          "titulo": "Vocabulário próprio",
+          "familia": "V",
+          "campos": {
+            "Faça": "Emprega palavras, gírias ou combinações recorrentes ligadas à sua comunidade ou repertório pessoal.",
+            "Ensaie": "Defina duas escolhas de linguagem, uma ocasião de uso e o que o interlocutor entende.",
+            "Subtexto": "O vocabulário situa pertencimento, estilo ou poder. Evite caricatura de grupo real; escolha expressões originais sem copiar bordões."
+          },
+          "modulo": "expansao_5",
+          "leitura": "Seu vocabulário revela repertório e pertencimento. Crie-o sem caricaturar um grupo real."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "L10",
+          "titulo": "Afeto com divergência",
+          "familia": "L",
+          "campos": {
+            "Laço": "Uma pessoa querida pensa diferente sobre algo importante.",
+            "Outra pessoa": "Defina o que quer, sem exigir concordância.",
+            "Em cena": "Como a discordância afeta a relação e a decisão?"
+          },
+          "modulo": "nucleo",
+          "leitura": "Você gosta de alguém que discorda de você. O afeto não precisa encerrar a discussão."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "P10",
+          "titulo": "Mais do que esperava",
+          "familia": "P",
+          "campos": {
+            "Acontece": "Chega mais recurso ou sucesso do que o previsto.",
+            "Pesa": "Há contribuições, direitos e prioridades sobre o excedente.",
+            "Abra": "Mostre essas posições e deixe a distribuição em aberto."
+          },
+          "modulo": "nucleo",
+          "leitura": "Veio mais do que o esperado. Pessoas diferentes podem ter direito ao excedente."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "N23",
+          "titulo": "Prazer imediato / projeto",
+          "familia": "N",
+          "modulo": "expansao_5_2",
+          "leitura": "Você deseja uma satisfação agora e uma realização continuada que ela pode comprometer. Ambas precisam importar a você.",
+          "campos": {
+            "Disputam": "Desfrutar uma satisfação imediata e conservar um projeto que também deseja realizar.",
+            "Mostre": "O prazer está ao alcance, com um custo concreto para o projeto. Nenhum dos dois precisa ser moralmente bom.",
+            "Pergunte": "O que deseja de cada lado? Se só há proibição externa ou um projeto que não valoriza, falta a segunda vontade."
+          }
+        }
+      ],
+      "callRoll": 4,
+      "callResult": "4. Encontro ou convite",
+      "responseRoll": 5,
+      "responseResult": "5. Tento impedir o futuro"
+    },
+    {
+      "id": 7,
+      "role": "Protagonista",
+      "scenario": "Fantasia de cidades migratórias e florestas em transformação.",
+      "fixedCodes": [
+        "F21",
+        "N23"
+      ],
+      "cards": [
+        {
+          "versao": "5.2",
+          "codigo": "OR05",
+          "titulo": "Saí quando esperavam que ficasse",
+          "familia": "OR",
+          "campos": {
+            "Pergunte": "Do que saiu, por qual motivo e quem interpretou sua partida de outro jeito?",
+            "Mostre": "Faça uma exigência antiga voltar por meio de uma pessoa com vontade própria.",
+            "Contraste": "Pode ser emancipação legítima ou abandono de responsabilidades; a carta não absolve nem condena por antecipação."
+          },
+          "modulo": "expansao_5_2",
+          "leitura": "Você atravessou uma porta que outras pessoas julgavam fechada. Sua saída abriu algo e deixou consequências para trás."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "CV07",
+          "titulo": "É melhor saber do que viver enganado",
+          "familia": "CV",
+          "campos": {
+            "Pergunte": "A quem deve essa verdade, que acesso considera legítimo e o que faria diante de incerteza?",
+            "Mostre": "Uma informação útil também expõe alguém que não autorizou sua divulgação.",
+            "Contraste": "Pode sustentar investigação responsável ou uma cruzada que desconsidera privacidade e consequências."
+          },
+          "modulo": "expansao_5_2",
+          "leitura": "Você atribui valor a compreender o que acontece, mesmo quando a descoberta pode tirar um consolo ou uma vantagem."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "D22",
+          "titulo": "Provar meu valor a mim",
+          "familia": "D",
+          "campos": {
+            "Quero": "Conseguir [feito ou decisão] que me permita reconhecer [qualidade própria], mesmo sem aplauso.",
+            "Mostre": "Escolhe uma medida pessoal de dignidade, capacidade ou respeito por si.",
+            "Pergunte": "Que prova aceitaria? Não confunda reconhecimento público, descoberta de identidade e valor pessoal."
+          },
+          "modulo": "expansao_5",
+          "leitura": "A prova que você busca é para si. O aplauso de outros talvez não resolva nada."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "F21",
+          "titulo": "Ensino para que você tente",
+          "familia": "F",
+          "modulo": "expansao_5_2",
+          "leitura": "Você demonstra uma parte e deixa a outra pessoa tentar. Ela pode recusar, adaptar ou aprender algo diferente.",
+          "campos": {
+            "Faço": "Demonstro uma parte, acompanho a tentativa e devolvo uma observação.",
+            "Ajuda": "A outra pessoa ganha meios para agir sem repetir cada passo meu.",
+            "Custa": "Posso impor meu percurso ou confundir imitação com compreensão. O aprendiz escolhe o que fará com o ensino."
+          }
+        },
+        {
+          "versao": "5.2",
+          "codigo": "V06",
+          "titulo": "Lembrança breve",
+          "familia": "V",
+          "campos": {
+            "Faça": "Conta uma lembrança curta; volta ao presente.",
+            "Ensaie": "“Na última travessia faltou corda. Trouxe duas.”",
+            "Subtexto": "Pode alertar, criar intimidade ou justificar cautela."
+          },
+          "modulo": "nucleo",
+          "leitura": "Você traz uma lembrança breve para iluminar o que acontece agora."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "L18",
+          "titulo": "Objeto que me prende",
+          "familia": "L",
+          "modulo": "expansao",
+          "campos": {
+            "Laço": "Um objeto ou lugar concentra apego, identidade ou fixação.",
+            "Outra parte": "Ele não tem vontade própria, salvo se isso existir no cenário.",
+            "Em cena": "Que gesto revela o apego e o que custa deixá-lo?"
+          },
+          "leitura": "Um objeto ou lugar concentra seu apego. O que muda quando precisa soltá-lo?"
+        },
+        {
+          "versao": "5.2",
+          "codigo": "P05",
+          "titulo": "Evidência inesperada",
+          "familia": "P",
+          "campos": {
+            "Acontece": "Uma evidência confiável contradiz uma premissa.",
+            "Pesa": "Rever custa algo; insistir assume um risco novo.",
+            "Abra": "Separe o fato confirmado do que continua incerto."
+          },
+          "modulo": "nucleo",
+          "leitura": "Uma prova confiável mudou o terreno. O que ainda permanece desconhecido?"
+        },
+        {
+          "versao": "5.2",
+          "codigo": "N23",
+          "titulo": "Prazer imediato / projeto",
+          "familia": "N",
+          "modulo": "expansao_5_2",
+          "leitura": "Você deseja uma satisfação agora e uma realização continuada que ela pode comprometer. Ambas precisam importar a você.",
+          "campos": {
+            "Disputam": "Desfrutar uma satisfação imediata e conservar um projeto que também deseja realizar.",
+            "Mostre": "O prazer está ao alcance, com um custo concreto para o projeto. Nenhum dos dois precisa ser moralmente bom.",
+            "Pergunte": "O que deseja de cada lado? Se só há proibição externa ou um projeto que não valoriza, falta a segunda vontade."
+          }
+        }
+      ],
+      "callRoll": 1,
+      "callResult": "1. Pedido de alguém",
+      "responseRoll": 2,
+      "responseResult": "2. Recuso"
+    },
+    {
+      "id": 8,
+      "role": "Vilão",
+      "scenario": "Fantasia de cidades migratórias e florestas em transformação.",
+      "fixedCodes": [
+        "F21"
+      ],
+      "cards": [
+        {
+          "versao": "5.2",
+          "codigo": "OR10",
+          "titulo": "Aprendi duas formas de viver",
+          "familia": "OR",
+          "campos": {
+            "Pergunte": "Que práticas ou critérios entram em contraste, e onde você encontrou lugar entre eles?",
+            "Mostre": "Mostre uma decisão em que reconhece mais de uma resposta possível.",
+            "Contraste": "Pode formar uma ponte entre pessoas ou alguém que explora divisões para se tornar indispensável."
+          },
+          "modulo": "expansao_5_2",
+          "leitura": "Você conheceu modos diferentes de habitar o mundo. Nenhum precisa virar caricatura para que a diferença importe."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "CV12",
+          "titulo": "O que termina também pode valer",
+          "familia": "CV",
+          "campos": {
+            "Pergunte": "O que vale viver mesmo sabendo que vai acabar, e por que isso importa agora?",
+            "Mostre": "Surge um encontro breve que não favorece seu projeto de longo prazo.",
+            "Contraste": "Pode sustentar atenção e coragem diante da finitude ou justificar gratificação que ignora compromissos e consequências."
+          },
+          "modulo": "expansao_5_2",
+          "leitura": "Uma experiência não precisa durar para sempre para merecer seu tempo. Você ainda escolhe em que presença investir."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "D05",
+          "titulo": "Obter reparação",
+          "familia": "D",
+          "campos": {
+            "Quero": "Reparar [dano] por meio de [medida].",
+            "Mostre": "Apresenta o prejuízo e uma reparação possível.",
+            "Pedido": "Peça apoio ou prova; diga quando bastará."
+          },
+          "modulo": "nucleo",
+          "leitura": "Um dano pede resposta concreta. Que reparação seria suficiente para você?"
+        },
+        {
+          "versao": "5.2",
+          "codigo": "F21",
+          "titulo": "Ensino para que você tente",
+          "familia": "F",
+          "modulo": "expansao_5_2",
+          "leitura": "Você demonstra uma parte e deixa a outra pessoa tentar. Ela pode recusar, adaptar ou aprender algo diferente.",
+          "campos": {
+            "Faço": "Demonstro uma parte, acompanho a tentativa e devolvo uma observação.",
+            "Ajuda": "A outra pessoa ganha meios para agir sem repetir cada passo meu.",
+            "Custa": "Posso impor meu percurso ou confundir imitação com compreensão. O aprendiz escolhe o que fará com o ensino."
+          }
+        },
+        {
+          "versao": "5.2",
+          "codigo": "V06",
+          "titulo": "Lembrança breve",
+          "familia": "V",
+          "campos": {
+            "Faça": "Conta uma lembrança curta; volta ao presente.",
+            "Ensaie": "“Na última travessia faltou corda. Trouxe duas.”",
+            "Subtexto": "Pode alertar, criar intimidade ou justificar cautela."
+          },
+          "modulo": "nucleo",
+          "leitura": "Você traz uma lembrança breve para iluminar o que acontece agora."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "L03",
+          "titulo": "Sócio de outra ideia",
+          "familia": "L",
+          "campos": {
+            "Laço": "Vocês construíram algo juntos e divergem do próximo passo.",
+            "Outra pessoa": "Defina seu projeto e o recurso compartilhado.",
+            "Em cena": "Como cada um pretende usar o que pertence aos dois?"
+          },
+          "modulo": "nucleo",
+          "leitura": "Vocês fizeram algo juntos e agora imaginam futuros diferentes para o que construíram."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "P04",
+          "titulo": "Um vínculo escolhe diferente",
+          "familia": "P",
+          "campos": {
+            "Acontece": "Uma pessoa próxima escolhe outro caminho.",
+            "Pesa": "O plano ou vínculo já não continua igual.",
+            "Abra": "Mostre sua decisão; o personagem escolhe como reage."
+          },
+          "modulo": "nucleo",
+          "leitura": "Uma pessoa próxima escolhe diferente. A relação precisa lidar com essa escolha."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "N14",
+          "titulo": "Controle / entrega",
+          "familia": "N",
+          "modulo": "expansao",
+          "campos": {
+            "Disputam": "Conferir cada detalhe e permitir a espontaneidade ou iniciativa de outra pessoa.",
+            "Mostre": "Uma tentativa exige soltar parte do comando. Qual ação alheia você realmente valoriza?",
+            "Pergunte": "Que margem deixa à outra pessoa e o que precisa proteger? Improvisação própria, sozinha, não é entrega."
+          },
+          "leitura": "Você valoriza o cuidado com os detalhes e a liberdade de deixar alguém agir."
+        }
+      ],
+      "callRoll": 2,
+      "callResult": "2. Papel ou herança",
+      "responseRoll": 4,
+      "responseResult": "4. Negocio as condições"
+    },
+    {
+      "id": 9,
+      "role": "Protagonista",
+      "scenario": "Fantasia marítima de ilhas e expedições, com ameaças incertas.",
+      "fixedCodes": [
+        "F22"
+      ],
+      "cards": [
+        {
+          "versao": "5.2",
+          "codigo": "OR12",
+          "titulo": "Descobri algo que me prende à vida",
+          "familia": "OR",
+          "campos": {
+            "Pergunte": "O que despertou esse interesse e por que ainda importa? Ele não precisa ser um chamado heroico.",
+            "Mostre": "Mostre o prazer de fazer algo bem, mesmo sem público ou recompensa.",
+            "Contraste": "Pode sustentar dedicação generosa ou uma obsessão que trata outras pessoas como matéria da própria obra."
+          },
+          "modulo": "expansao_5_2",
+          "leitura": "Uma prática, descoberta ou encontro fez o mundo ficar maior. Nem todo começo precisa vir de uma ferida."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "CV01",
+          "titulo": "Sem controle, tudo se perde",
+          "familia": "CV",
+          "campos": {
+            "Pergunte": "Em que situação essa regra parece necessária? O que faria diante de alguém capaz que não obedece?",
+            "Mostre": "Outra pessoa resolve um problema de um jeito que você não autorizou. Mostre sua resposta.",
+            "Contraste": "Pode orientar preparação responsável ou domínio coercitivo. Crenças factuais sobre controle podem ser confrontadas; a preferência por ordem é um valor."
+          },
+          "modulo": "expansao_5_2",
+          "leitura": "Você procura segurança em poder antecipar e dirigir o que acontece. Resta saber quanto controle a situação permite e quem fica sem escolha."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "D18",
+          "titulo": "Romper uma ordem",
+          "familia": "D",
+          "modulo": "expansao",
+          "campos": {
+            "Quero": "Desfazer [regra, sistema ou crença coletiva] que quero ver cair.",
+            "Mostre": "Ataca um apoio concreto dessa ordem.",
+            "Interação": "Provoque uma reação; não exige querer governar depois."
+          },
+          "leitura": "Uma ordem sustenta o que você quer desfazer. Qual apoio dela pode ser atingido?"
+        },
+        {
+          "versao": "5.2",
+          "codigo": "F22",
+          "titulo": "Escuto antes de propor",
+          "familia": "F",
+          "modulo": "expansao_5_2",
+          "leitura": "Você pede a versão da pessoa, confere o que entendeu e revê a proposta. Escutar pode mudar seu próximo passo.",
+          "campos": {
+            "Faço": "Peço a versão da pessoa, confiro meu entendimento e reformulo a proposta.",
+            "Ajuda": "Descubro necessidades, interesses ou recusas que minha solução inicial não considerou.",
+            "Custa": "Posso usar o que ouvi para conduzir ou manipular. Fazer perguntas sem admitir revisão não basta; escutar não prova bondade."
+          }
+        },
+        {
+          "versao": "5.2",
+          "codigo": "V06",
+          "titulo": "Lembrança breve",
+          "familia": "V",
+          "campos": {
+            "Faça": "Conta uma lembrança curta; volta ao presente.",
+            "Ensaie": "“Na última travessia faltou corda. Trouxe duas.”",
+            "Subtexto": "Pode alertar, criar intimidade ou justificar cautela."
+          },
+          "modulo": "nucleo",
+          "leitura": "Você traz uma lembrança breve para iluminar o que acontece agora."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "L12",
+          "titulo": "Estranho que me marcou",
+          "familia": "L",
+          "campos": {
+            "Laço": "Um encontro breve deixou uma impressão duradoura.",
+            "Outra pessoa": "Defina algo atual que você ainda não conhece.",
+            "Em cena": "Como a primeira impressão ajuda ou engana?"
+          },
+          "modulo": "nucleo",
+          "leitura": "Um encontro breve deixou marca. A pessoa de hoje pode surpreender sua lembrança."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "P11",
+          "titulo": "Convite para algo bom",
+          "familia": "P",
+          "campos": {
+            "Acontece": "Uma experiência boa pede tempo e presença.",
+            "Pesa": "Ela cruza rotina, compromisso ou receio de participar.",
+            "Abra": "Mostre o convite; aceitar não precisa gerar crise."
+          },
+          "modulo": "nucleo",
+          "leitura": "Há um convite para algo bom. Aceitar ou recusar não precisa virar crise."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "N14",
+          "titulo": "Controle / entrega",
+          "familia": "N",
+          "modulo": "expansao",
+          "campos": {
+            "Disputam": "Conferir cada detalhe e permitir a espontaneidade ou iniciativa de outra pessoa.",
+            "Mostre": "Uma tentativa exige soltar parte do comando. Qual ação alheia você realmente valoriza?",
+            "Pergunte": "Que margem deixa à outra pessoa e o que precisa proteger? Improvisação própria, sozinha, não é entrega."
+          },
+          "leitura": "Você valoriza o cuidado com os detalhes e a liberdade de deixar alguém agir."
+        }
+      ],
+      "callRoll": 6,
+      "callResult": "6. Natureza, tempo ou finitude",
+      "responseRoll": 6,
+      "responseResult": "6. Busco cumprir por outro caminho"
+    },
+    {
+      "id": 10,
+      "role": "Vilão",
+      "scenario": "Fantasia marítima de ilhas e expedições, com ameaças incertas.",
+      "fixedCodes": [
+        "F22",
+        "N23"
+      ],
+      "cards": [
+        {
+          "versao": "5.2",
+          "codigo": "OR05",
+          "titulo": "Saí quando esperavam que ficasse",
+          "familia": "OR",
+          "campos": {
+            "Pergunte": "Do que saiu, por qual motivo e quem interpretou sua partida de outro jeito?",
+            "Mostre": "Faça uma exigência antiga voltar por meio de uma pessoa com vontade própria.",
+            "Contraste": "Pode ser emancipação legítima ou abandono de responsabilidades; a carta não absolve nem condena por antecipação."
+          },
+          "modulo": "expansao_5_2",
+          "leitura": "Você atravessou uma porta que outras pessoas julgavam fechada. Sua saída abriu algo e deixou consequências para trás."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "CV12",
+          "titulo": "O que termina também pode valer",
+          "familia": "CV",
+          "campos": {
+            "Pergunte": "O que vale viver mesmo sabendo que vai acabar, e por que isso importa agora?",
+            "Mostre": "Surge um encontro breve que não favorece seu projeto de longo prazo.",
+            "Contraste": "Pode sustentar atenção e coragem diante da finitude ou justificar gratificação que ignora compromissos e consequências."
+          },
+          "modulo": "expansao_5_2",
+          "leitura": "Uma experiência não precisa durar para sempre para merecer seu tempo. Você ainda escolhe em que presença investir."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "D13",
+          "titulo": "Continuar vivo",
+          "familia": "D",
+          "modulo": "expansao",
+          "campos": {
+            "Quero": "Preservar minha vida diante de [ameaça], buscando [condição de sobrevivência].",
+            "Mostre": "Procura uma saída imediata ou uma proteção duradoura; diga qual delas orienta a próxima ação.",
+            "Interação": "Peça, exija ou procure o recurso necessário. Não presuma que desejar sobreviver determina os meios ou um limite moral."
+          },
+          "leitura": "Uma ameaça pesa sobre sua continuidade. Você tenta atravessar este perigo ou impedir que ele volte a alcançá-lo?"
+        },
+        {
+          "versao": "5.2",
+          "codigo": "F22",
+          "titulo": "Escuto antes de propor",
+          "familia": "F",
+          "modulo": "expansao_5_2",
+          "leitura": "Você pede a versão da pessoa, confere o que entendeu e revê a proposta. Escutar pode mudar seu próximo passo.",
+          "campos": {
+            "Faço": "Peço a versão da pessoa, confiro meu entendimento e reformulo a proposta.",
+            "Ajuda": "Descubro necessidades, interesses ou recusas que minha solução inicial não considerou.",
+            "Custa": "Posso usar o que ouvi para conduzir ou manipular. Fazer perguntas sem admitir revisão não basta; escutar não prova bondade."
+          }
+        },
+        {
+          "versao": "5.2",
+          "codigo": "V19",
+          "titulo": "Língua em sinais",
+          "familia": "V",
+          "campos": {
+            "Faça": "Comunica intenção por uma língua de sinais com estrutura própria; defina o que a outra pessoa compreende.",
+            "Ensaie": "Descreva o conteúdo comunicado e se há confirmação ou tradução, sem inventar sinais reais.",
+            "Subtexto": "Expressão, ritmo e escolha do conteúdo podem mostrar intenção. Língua de sinais não é ausência de linguagem nem sinônimo de silêncio."
+          },
+          "modulo": "expansao_5",
+          "leitura": "Você se expressa em língua de sinais completa. Defina quem compreende o que comunica."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "L04",
+          "titulo": "Favor com história",
+          "familia": "L",
+          "campos": {
+            "Laço": "Uma ajuda passada deixou gratidão ou dívida.",
+            "Outra pessoa": "Defina o pedido atual e o que considera devido.",
+            "Em cena": "A ajuda era presente, acordo ou foi entendida de outro jeito?"
+          },
+          "modulo": "nucleo",
+          "leitura": "Uma ajuda antiga chega à conversa de hoje. Foi presente, acordo ou dívida?"
+        },
+        {
+          "versao": "5.2",
+          "codigo": "P08",
+          "titulo": "Vitória já alcançada",
+          "familia": "P",
+          "campos": {
+            "Acontece": "O objetivo foi alcançado e há tempo disponível.",
+            "Pesa": "Descansar, celebrar ou crescer usam esse tempo.",
+            "Abra": "Apresente possibilidades boas sem punir a conquista."
+          },
+          "modulo": "nucleo",
+          "leitura": "A vitória já aconteceu. O tempo que sobra também pode ser bom."
+        },
+        {
+          "versao": "5.2",
+          "codigo": "N23",
+          "titulo": "Prazer imediato / projeto",
+          "familia": "N",
+          "modulo": "expansao_5_2",
+          "leitura": "Você deseja uma satisfação agora e uma realização continuada que ela pode comprometer. Ambas precisam importar a você.",
+          "campos": {
+            "Disputam": "Desfrutar uma satisfação imediata e conservar um projeto que também deseja realizar.",
+            "Mostre": "O prazer está ao alcance, com um custo concreto para o projeto. Nenhum dos dois precisa ser moralmente bom.",
+            "Pergunte": "O que deseja de cada lado? Se só há proibição externa ou um projeto que não valoriza, falta a segunda vontade."
+          }
+        }
+      ],
+      "callRoll": 4,
+      "callResult": "4. Encontro ou convite",
+      "responseRoll": 2,
+      "responseResult": "2. Recuso"
+    }
+  ],
+  "G07": {
+    "versao": "5.2",
+    "codigo": "G07",
+    "titulo": "Chamado e destino",
+    "familia": "G",
+    "campos": {
+      "Chamado": "1. Pedido de alguém\n2. Papel ou herança\n3. Risco concreto\n4. Encontro ou convite\n5. Presságio ou profecia\n6. Natureza, tempo ou finitude",
+      "Resposta": "1. Aceito\n2. Recuso\n3. Adio e investigo\n4. Negocio as condições\n5. Tento impedir o futuro\n6. Busco cumprir por outro caminho",
+      "Fato": "O que está confirmado no mundo?",
+      "Crença": "Quem interpreta ou prevê algo, e com qual evidência?",
+      "Escolha": "O que você decide e o que ainda pode escolher? Não sorteie um desfecho."
+    },
+    "modulo": "guia_contexto",
+    "leitura": "Algo põe uma possibilidade diante de você. Separe o que aconteceu, o sentido que atribui e a resposta que escolhe."
+  }
+}
